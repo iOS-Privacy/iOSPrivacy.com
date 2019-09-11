@@ -1,1 +1,1 @@
-**Will serve to serve resources among various other sites.**
+**Will serve to serve resources to specific origins.**
