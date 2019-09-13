@@ -9,5 +9,6 @@ pages:
   artifacts:
     paths:
       - public
+      - public/img
   only:
     - master
