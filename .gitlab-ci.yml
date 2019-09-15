@@ -10,5 +10,6 @@ pages:
     paths:
       - public
       - html
+      - WAFchallenge
   only:
     - master
