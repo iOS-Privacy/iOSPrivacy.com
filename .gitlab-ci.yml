@@ -12,5 +12,6 @@ pages:
       - html
       - public/WAFchallenge
       - public/1000
+      - public/WAFblock
   only:
     - master
