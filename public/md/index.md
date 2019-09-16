@@ -1,6 +1,6 @@
 ***
 
-![anarchism](https://sri.intr0.com/img/Circle_A_Black.png)
+![anarchism](https://sri.intr0.com/img/Circle_A_Black.svg)
 
 ***
 
