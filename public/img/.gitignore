@@ -1,1 +1,4 @@
 secring.*
+*.svg
+*.png
+*.asc
