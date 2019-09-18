@@ -13,5 +13,6 @@ pages:
       - public/WAFchallenge
       - public/1000
       - public/WAFblock
+      - public/CountryChallenge
   only:
     - master
