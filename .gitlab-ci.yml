@@ -8,11 +8,5 @@ pages:
     paths:
       - public/
       - index.html
-      - /WAFchallenge/index.html
-      - /1000/index.html
-      - /WAFblock/index.html
-      - /CountryChallenge/index.html
-      - /loc/index.html
-      - /BasicSecurityChallenge/index.html
   only:
     - master
