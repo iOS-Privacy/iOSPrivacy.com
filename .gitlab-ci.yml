@@ -7,6 +7,5 @@ pages:
   artifacts:
     paths:
       - public/
-      - index.html
   only:
     - master
