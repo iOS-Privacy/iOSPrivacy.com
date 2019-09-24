@@ -1,1 +1,0 @@
-**Will serve to serve resources to specific origins.**
