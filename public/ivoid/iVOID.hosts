@@ -1,8 +1,8 @@
 # Title: iVOID.hosts
-# Version: 2.20.1.1
+# Version: 2.20.1.2
 # Expires: 14 days
-# Last Modified: 2020-01-01T17:30:12+00:00
-# Checksum (SHA256): 0b5cceb01bbfbc70a847390f8f5831df8b00e381523d662683bc0d313636f216
+# Last Modified: 2020-01-02T03:03:25+00:00
+# Checksum (SHA256): 17bf98d0fcd61d432f9e88f247a71641e48623d49805726b84af3212729d466c
 # iVOID License: CC-BY-NC-SA
 # Maintainer: intr0
 # Homepage: https://ivoid.intr0.com/
@@ -12724,7 +12724,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdnimg.izooto.com
 0.0.0.0 cdnin.bnmla.com
 0.0.0.0 cdnis.hyperpromote.com
-0.0.0.0 cdnjs.cloudflare.com
 0.0.0.0 cdnm.zapunited.com
 0.0.0.0 cdnmedia.xyz
 0.0.0.0 cdnn.ad-stir.com
