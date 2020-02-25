@@ -1,20 +1,30 @@
-!Title: DomainVoider
-!Version: 2.20.2.1
-!Expires: 14 days
-!Last Modified: 2020-02-17T22:46:05+00:00
-!Checksum (SHA256): 5a57f2b4c35e8babedd243fe349b5ce5bcc1ffeb3f7eb997d0817cc48089b1dd
-!License: CC-BY-NC-SA
-!Maintainer: intr0
-!Homepage: https://domainvoider.intr0.com/
-!Mirror: https://iosprivacy.com/domainvoider/
-!Source: https://gitlab.com/domainvoider/DomainVoider/raw/master/DomainVoider.txt
-!Description: DomainVoider focuses on: Active Phishing hosts, both UTF-8 & ASCII.
-!Malicious, exploited hosts including general malware & crypto jacking;
-!Tracking domains & adserver domains are blocked, as are mainstream social sites.
-!Orignally created for AdGuard Pro, DomainVoider functions well with both
-!uBlock Origin & AdGuard for FireFox.
-!When used with these extensions, the included $CSP rules help to strengthen
-!the security of the entire web.
+! Title: DomainVoider
+! Version: 2.20.2.2
+! Expires: 14 days
+! Last Modified: 2020-02-24T23:34:22+00:00
+! Checksum (SHA256): 84d0f20df098706e676ebd4fdaa3634a3338ffdcd32e583f5c4c96c4064e9a2d
+! License: CC-BY-NC-SA
+! Maintainer: intr0
+! Homepage: https://domainvoider.intr0.com/
+! Mirror: https://iosprivacy.com/domainvoider/
+! Source: https://gitlab.com/domainvoider/DomainVoider/raw/master/DomainVoider.txt
+!
+! Description: DomainVoider focuses on:
+! Phishing domains licensed to us by Ivan Ristić -
+! Founder of Hardenize.
+! Previously, founder of SSL Labs and ModSecurity.
+! Author of Bulletproof SSL and TLS.
+! Regular participant at the security conferences
+! Black Hat, RSA, & OWASP AppSec.
+!
+! In addition to the licensed Phishing domains,
+! DomainVoider also blocks malware including:
+! Cryptojacking, Tracking, Advertising & Mainstream Social Media.
+! Why classify Advertising & Mainstream Social Media as Malware?
+! Due to the tremendous negative impact to society of each.
+! Including: Poor Monetary Hygiene, Election Interference,
+! The Loss of Self within sites such as Facebook,
+! Data Mining, & the Commodification of Human Beings.
 !
 *$csp=object-src 'none' frame-ancestors 'none' upgrade-insecure-requests block-all-mixed-content,important
 ||---7cdqj7ac7affbhcffc0ajcjf4exb9e.xn--^
@@ -119,7 +129,6 @@
 ||103bees.com^
 ||105app.com^
 ||108.168.231.179^
-||109-204-26-16.netconnexion.managedbroadband.co.uk^
 ||10a053584f01fcaeab1.com^
 ||10b883b3d61d.com^
 ||10cd.ru^
@@ -138,7 +147,6 @@
 ||114.sohenan.cn^
 ||114oldest.com^
 ||114so.cn^
-||115qxw.hbg.hebdenbridgedental.co.uk^
 ||1177ea804fbd7d1430c4.date^
 ||118aa629a7968e75e.com^
 ||11bet.com^
@@ -178,7 +186,6 @@
 ||12mnkys.com^
 ||12place.com^
 ||13190546cd1dec9bbdc.com^
-||133put.hbg.hebdenbridgedental.co.uk^
 ||13895df59d98cc.com^
 ||13duyfzvxbqncjq1co9whwj.hmip.net^
 ||13p76nnir.de^
@@ -190,7 +197,6 @@
 ||14713804a.l2m.net^
 ||1480876790.rsc.cdn77.org^
 ||149.13.65.144^
-||149whc.lol.airporttaxipershore.co.uk^
 ||14b41d7ec7766122d.com^
 ||152media.com^
 ||152tb7.jik.thetreecentre.com^
@@ -244,7 +250,6 @@
 ||1app1etem.mik.bme.hu^
 ||1b6a637cbe7bb65ac.com^
 ||1b969cef84d93b43.com^
-||1bazaz.becks.petboutiquepawsnclaws.co.uk^
 ||1bcde.com^
 ||1beb2a44.space^
 ||1bestgoods.com^
@@ -263,24 +268,19 @@
 ||1el-1el-fie.com^
 ||1elllwrite.com^
 ||1empiredirect.com^
-||1ev8td.last.pershoreairporttaxis.co.uk^
-||1f3w3n.pool.pchamberlain.co.uk^
 ||1f58098dd54.com^
 ||1f7de8569ea97f0614.com^
 ||1faceb00k.secured.ellecanada.ga^
 ||1fog0t.app1e.com.nz-fix.restore.live^
 ||1freecounter.com^
-||1fw1pv.pool.pchamberlain.co.uk^
 ||1fwjpdwguvqs.com^
 ||1gkjk1ms15.com^
-||1h4k31.shet.eveshamairporttransfers.co.uk^
 ||1han-rit-ten.com^
 ||1hanritten.com^
 ||1i5gg4kl.mobi^
 ||1ivwbox.de^
 ||1jgsj1.blow.harrisretreat.com^
 ||1jvd7f7w.top^
-||1jvk3g.beg.smalltailsbfr.com^
 ||1k3ktb.first.pershoretaxi.co.uk^
 ||1klink.ru^
 ||1kxy2v.come.evesham-taxis.co.uk^
@@ -304,6 +304,7 @@
 ||1nstagram.net^
 ||1nstagram.network^
 ||1nstagram.nicaraguademocratica.com^
+||1nstagram.nl^
 ||1nstagram.online^
 ||1nstagram.pro^
 ||1nstagram.ru^
@@ -311,8 +312,8 @@
 ||1nstagram.tech^
 ||1nstagram.tk^
 ||1nstagramshop.ru^
+||1nstagramverify.somee.com^
 ||1ntl-paypa1.info^
-||1nzpr2.hbg.hebdenbridgedental.co.uk^
 ||1o1599.mat.eveshamairporttaxis.co.uk^
 ||1pel.com^
 ||1phads.com^
@@ -342,9 +343,7 @@
 ||1traf.ru^
 ||1traff.ru^
 ||1txt.ru^
-||1uknvc.beg.smalltailsbfr.com^
 ||1under.ru^
-||1v1kom.beg.smalltailsbfr.com^
 ||1warie.com^
 ||1web.me^
 ||1x1rank.com^
@@ -352,12 +351,8 @@
 ||1xredjzldy.world^
 ||1xredrdyg.world^
 ||1xtbw.top^
-||1xycbc.pal.wkcengland.co.uk^
 ||1yk851od.com^
 ||1yqbp.com^
-||1yx6u1.hbg.hebdenbridgedental.co.uk^
-||1yz2av.beg.smalltailsbfr.com^
-||2-01-2a40-0017.cdx.cdxcn.net^
 ||2-art-coliseum.com^
 ||2.nanrenwo.net^
 ||20-yrs-1.info^
@@ -393,8 +388,6 @@
 ||21c9a53484951.com^
 ||21jewelry.com^
 ||21sextury.com^
-||222-33544_999.pub.adfirmative.com^
-||22455x.shet.eveshamairporttransfers.co.uk^
 ||22a12efe35e3c2f.com^
 ||22b765488021d482280.com^
 ||22fuhg.com^
@@ -439,9 +432,7 @@
 ||2726fecdfde157bdcd.com^
 ||2778255fe56.com^
 ||27fhuw.blow.harrisretreat.com^
-||281m73.hbg.hebdenbridgedental.co.uk^
 ||2859nco.com^
-||288jm8.beg.smalltailsbfr.com^
 ||292news.biz^
 ||29ae58661b9c7178.com^
 ||29bca6cb72a665c8.se^
@@ -466,14 +457,12 @@
 ||2e27bf1f09307aeb.com^
 ||2el-2el-fie.com^
 ||2f5a1f1fab21a56.com^
-||2ggfhp.pal.wkcengland.co.uk^
 ||2giga.do^
 ||2giga.download^
 ||2giga.link^
 ||2go7v1nes8.com^
 ||2gok8g15p2.com^
 ||2hanwriten.com^
-||2hjd24.shet.eveshamairporttransfers.co.uk^
 ||2iiyrxk0.com^
 ||2img-pic.ru^
 ||2iui01.com^
@@ -490,30 +479,25 @@
 ||2myip.com^
 ||2nfupu.kal.wkcengland.com^
 ||2nmh93.gay.tathamservice.com^
-||2npqau.last.pershoreairporttaxis.co.uk^
 ||2o7.net^
 ||2p9fyvx.com^
 ||2parale.ro^
 ||2performant.com^
 ||2ptxxjjzpy.com^
 ||2pxg8bcf.top^
-||2q8m2y.lero.worldkickboxingcommission.com^
 ||2qz1hc.first.pershoretaxi.co.uk^
 ||2rush.net^
 ||2sfygwfxvsxv.info^
 ||2site.com^
 ||2ssltome.ga^
-||2t64z2.shet.eveshamairporttransfers.co.uk^
 ||2taa9ib4ib.com^
 ||2tdsprofit.in^
 ||2under.ru^
 ||2vaxwkujrfwh.info^
 ||2vulkan.com^
-||2wm7nc.lol.airporttaxipershore.co.uk^
 ||2xbpub.com^
 ||2xclick.ru^
 ||2yut0j.cn^
-||2z3gp9.lero.worldkickboxingcommission.com^
 ||2zdhoh.koll.pershoreairporttransfers.co.uk^
 ||2znp09oa.com^
 ||3-a.net^
@@ -538,7 +522,6 @@
 ||31ab9d66427a22.com^
 ||31d.net^
 ||31dea6.koll.pershoreairporttransfers.co.uk^
-||31tgkm.yell.back2balancephysio.co.uk^
 ||320147982.world^
 ||320ca3f6.space^
 ||321cba.com^
@@ -590,7 +573,6 @@
 ||365sbaffiliates.com^
 ||365tc.com^
 ||367e8bed2a847.com^
-||368x22.onl.onlinetrees.co.uk^
 ||36900pf.com^
 ||369bd3a861d8c27.com^
 ||36robots.com^
@@ -609,8 +591,6 @@
 ||395e27cfc83ea88f.com^
 ||39d1d397c97730.com^
 ||39m.net^
-||39qzsq.beg.smalltailsbfr.com^
-||3a4q6u.yell.back2balancephysio.co.uk^
 ||3a5be2a583475ea31b.com^
 ||3a64ddc048d277.com^
 ||3a8c9b0ca405b5.com^
@@ -665,17 +645,14 @@
 ||3nationsyouth.com^
 ||3o3y7b.nt.nativetrees.co.uk^
 ||3omb.com^
-||3px99g.boss.northerndishedends.uk^
 ||3q61p4.mat.eveshamairporttaxis.co.uk^
 ||3qqq.net^
 ||3questionsgetthegirl.com^
-||3rbh4w.last.pershoreairporttaxis.co.uk^
 ||3rdads.com^
 ||3redlightfix.com^
 ||3t6w5m4.www.twittor.co^
 ||3t7euflv.com^
 ||3turtles.com^
-||3tyc5m.beg.smalltailsbfr.com^
 ||3under.ru^
 ||3vfpnz.mat.eveshamairporttaxis.co.uk^
 ||3wnp9.ru^
@@ -762,10 +739,8 @@
 ||4dsbanner.net^
 ||4dsply.com^
 ||4dtrk.com^
-||4e1jeb.yell.back2balancephysio.co.uk^
 ||4e34b4865905c4.com^
 ||4eacccd99990beed317.com^
-||4etn6w.beg.smalltailsbfr.com^
 ||4euj8t.come.evesham-taxis.co.uk^
 ||4exlkjnngs.com^
 ||4f2sm1y1ss.com^
@@ -776,7 +751,6 @@
 ||4ivwbox.de^
 ||4jiqzr.ru^
 ||4jnzhl0d0.com^
-||4m2tqu.last.pershoreairporttaxis.co.uk^
 ||4mads.com^
 ||4nrmtb.ndc.northern-dishedends.co.uk^
 ||4o64flb.com^
@@ -850,11 +824,9 @@
 ||59cn7.com^
 ||59e6ea7248001c.com^
 ||59gtma.first.pershoretaxi.co.uk^
-||59w78c.lol.airporttaxipershore.co.uk^
 ||5ad954477413bdb77f.com^
 ||5advertise.com^
 ||5b15a826.xyz^
-||5b4wta.last.pershoreairporttaxis.co.uk^
 ||5b5a93686577c13.com^
 ||5bir9vuqcq.com^
 ||5chau.info^
@@ -873,13 +845,10 @@
 ||5hdqkk.earth.northerndishedends.co.uk^
 ||5iclx7wa4q.com^
 ||5ivwbox.de^
-||5key59.becks.petboutiquepawsnclaws.co.uk^
 ||5kf3mx.air.airporttaxievesham.co.uk^
 ||5khwzh.koll.pershoreairporttransfers.co.uk^
-||5krexo.onl.onlinetrees.co.uk^
 ||5licosy.com^
 ||5mcwl.pw^
-||5n3gg4.hbg.hebdenbridgedental.co.uk^
 ||5nt1gx7o57.com^
 ||5qg9ibt1a6.com^
 ||5rv7nc.blow.harrisretreat.com^
@@ -940,7 +909,6 @@
 ||67.228.151.70^
 ||67126e4413a.com^
 ||67sy6j.come.evesham-taxis.co.uk^
-||6844vz.yell.back2balancephysio.co.uk^
 ||6868bbe42af8e518.com^
 ||688de7b3822de.com^
 ||691123f5be2a669b.com^
@@ -974,15 +942,11 @@
 ||6moxhf9rmm.com^
 ||6ow9rhxtolls.gq^
 ||6pal.consobaby.com^
-||6qcd4x.becks.petboutiquepawsnclaws.co.uk^
 ||6rtmg527q0y54bdapp1ef3tqn.smtp.codetwo.online^
 ||6sc.co^
-||6tc9um.pal.wkcengland.co.uk^
-||6teppu.becks.petboutiquepawsnclaws.co.uk^
 ||6tsbe1zs.me^
 ||6u4dxh2f14.com^
 ||6xhtw2.best.pershoretaxis.co.uk^
-||6y166f.shet.eveshamairporttransfers.co.uk^
 ||6yczeb.idf.iandunford.co.uk^
 ||6zw2rcfd.com^
 ||6zy9yqe1ew.com^
@@ -1059,9 +1023,7 @@
 ||79zgycmr.com^
 ||7a6421ee67fdb0f660.com^
 ||7adpower.com^
-||7bp5g7.boss.northerndishedends.uk^
 ||7bpeople.com^
-||7c7jpz.beg.smalltailsbfr.com^
 ||7cdf78unokr7.ru^
 ||7cnbcnews.com^
 ||7d6260236b547b31f.com^
@@ -1088,14 +1050,12 @@
 ||7ivwbox.de^
 ||7ix.ru^
 ||7jpfje.kal.wkcengland.com^
-||7k2nzk.shet.eveshamairporttransfers.co.uk^
 ||7lbd4.armandthiery.fr^
 ||7lstw4cd.top^
 ||7lyonline.com^
 ||7metodik.ru^
 ||7mu36somt5.com^
 ||7mx.eider.com^
-||7nqpon.beg.smalltailsbfr.com^
 ||7offers.ru^
 ||7out.ru^
 ||7porn.ru^
@@ -1105,13 +1065,11 @@
 ||7s08gpbp39.com^
 ||7search.com^
 ||7speed.info^
-||7tcdo5.lero.worldkickboxingcommission.com^
 ||7torr.com^
 ||7tp9m3.earth.northerndishedends.co.uk^
 ||7u8a8i88.com^
 ||7uaw1k.jik.thetreecentre.com^
 ||7v8rya73sj.com^
-||7v9f72.pal.wkcengland.co.uk^
 ||7vws1j1j.com^
 ||7vxlfstt.top^
 ||7w4pgz.kal.wkcengland.com^
@@ -1121,8 +1079,6 @@
 ||7x.cc^
 ||7x4.fr^
 ||7x5.fr^
-||7zea66.hbg.hebdenbridgedental.co.uk^
-||7zrc9f.shet.eveshamairporttransfers.co.uk^
 ||8000plus.si^
 ||800d24d61daea3c.com^
 ||801.tianya.cn^
@@ -1174,7 +1130,6 @@
 ||888poker.com^
 ||888promos.com^
 ||889fb4992d4e8.com^
-||88c4v9.lol.airporttaxipershore.co.uk^
 ||88d7b6aa44fb8eb.com^
 ||88infra-strat.com^
 ||88kkvv.com^
@@ -1196,7 +1151,6 @@
 ||8cc2kj.blow.harrisretreat.com^
 ||8cc5ff581a88.bitsngo.net^
 ||8cce6d834ab4e80c7.com^
-||8cnpx8.yell.back2balancephysio.co.uk^
 ||8coins.net^
 ||8d3sne.blow.harrisretreat.com^
 ||8dfaa2dc76855.com^
@@ -1209,25 +1163,17 @@
 ||8ixrxa2tnr.com^
 ||8jd2lfsq.me^
 ||8live.com^
-||8mk5ht.pool.pchamberlain.co.uk^
 ||8p.org.uk^
-||8q1tdp.pal.wkcengland.co.uk^
-||8s1tws.yell.back2balancephysio.co.uk^
 ||8s32e590un.com^
 ||8s8.eu^
-||8st5f3.last.pershoreairporttaxis.co.uk^
-||8tdwx9.onl.onlinetrees.co.uk^
 ||8test.ru^
 ||8testov.ru^
 ||8tg2se3.www.twittor.co^
-||8tprcm.beg.smalltailsbfr.com^
 ||8tube.com^
 ||8ue9q7i.com^
 ||8vwbox.de^
 ||8wey4x0c.com^
-||8wx5ow.pal.wkcengland.co.uk^
 ||8xgm7g.gow.englishwoodlands.co.uk^
-||8ynggp.yell.back2balancephysio.co.uk^
 ||8yxupue8.com^
 ||8zj8i0j.www.twittor.co^
 ||9.ecounter.org^
@@ -1315,13 +1261,11 @@
 ||9juj88.com^
 ||9kh5b.cn^
 ||9kuw76.blow.harrisretreat.com^
-||9m4uo8.onl.onlinetrees.co.uk^
 ||9nl.eu^
 ||9p.cn^
 ||9pudqd.ndc.northern-dishedends.co.uk^
 ||9purdfe9xg.com^
 ||9rbk.com^
-||9rn56q.pal.wkcengland.co.uk^
 ||9t5.me^
 ||9ts3tpia.com^
 ||9ushxs.come.evesham-taxis.co.uk^
@@ -1343,6 +1287,7 @@
 ||a.19869.com^
 ||a.4ee395e5b8a076c7bd8592851ff8cad.com^
 ||a.6d47c1118927cf53ba9654931df80e8d.com^
+||a.76674bdad304297eda3d325f449f6f49.com^
 ||a.abv.bg^
 ||a.ad.playstation.net^
 ||a.ads99.cn^
@@ -1512,11 +1457,10 @@
 ||a433.com^
 ||a46b257bc29b.com^
 ||a4b-tracking.com^
+||a4c2639858cd71c60037787b9e4428110.profile.lax50-c1.cloudfront.net^
 ||a4dtracker.com^
 ||a4dtrk.com^
 ||a4g.com^
-||a4obeg.onl.onlinetrees.co.uk^
-||a4rphu.hbg.hebdenbridgedental.co.uk^
 ||a5020fec1701e9f3.com^
 ||a5a5a.com^
 ||a5e04df959f1af34.com^
@@ -1526,6 +1470,8 @@
 ||a6f845e6c37b2833148.com^
 ||a6lxbeui.ru^
 ||a75-10-so.ssl.cdn13.com^
+||a771.dscq.akamai.net^
+||a7743b47bc553a7574cbdadec9baf847f.profile.lis50-c1.cloudfront.net^
 ||a7hcd8.best.pershoretaxis.co.uk^
 ||a7hqrp.mat.eveshamairporttaxis.co.uk^
 ||a8.net^
@@ -1608,7 +1554,6 @@
 ||aatkit.com^
 ||aaucwbe.com^
 ||aaukqiooaseseuke.org^
-||aaw7fr.yell.back2balancephysio.co.uk^
 ||aax-us-iad.amazon.com^
 ||aax.amazon-adsystems.com^
 ||aaxads.com^
@@ -1801,7 +1746,6 @@
 ||accurate.gutterhalment.com^
 ||accuserveadsystem.com^
 ||accutrk.com^
-||acd7dk.pool.pchamberlain.co.uk^
 ||acdektqffm.com^
 ||acdnpro.com^
 ||acduswfvyjylzq.com^
@@ -3252,6 +3196,7 @@
 ||admtpmp124.com^
 ||admtpmp127.com^
 ||admulti.^
+||admulti.com^
 ||admxr.com^
 ||adn.com^
 ||adn.ebay.com^
@@ -5937,7 +5882,6 @@
 ||aemxvcqi.com^
 ||aenan.pw^
 ||aeobzaii.com^
-||aepdre.shet.eveshamairporttransfers.co.uk^
 ||aepetor.pw^
 ||aepwtbusoofzw.com^
 ||aeqs.com^
@@ -6165,7 +6109,6 @@
 ||afl.rakuten.co.jp^
 ||afletedly.info^
 ||aflrm.com^
-||afm9ry.lol.airporttaxipershore.co.uk^
 ||afminer.com^
 ||afnrmofoljod.com^
 ||afodo.com^
@@ -6321,6 +6264,7 @@
 ||airline-ticket.gloses.net^
 ||airoogen.net^
 ||airpods-app1e.ru^
+||airporttaxipershore.co.uk^
 ||airpr.com^
 ||airproxybay.ar^
 ||airproxyboat.in^
@@ -6421,6 +6365,7 @@
 ||ajcclassifieds.com^
 ||ajcryptominer.com^
 ||ajcsjktzlqh.com^
+||ajdivotdelbloab24.jio.com^
 ||ajewishgift.com^
 ||ajgc1107.online^
 ||ajgc1108.online^
@@ -6600,6 +6545,7 @@
 ||ali-bestshop.ru^
 ||ali-crm.ru^
 ||aliadvert.ru^
+||alibabadns.com^
 ||alibestru.ru^
 ||alice.it^
 ||alienradar.ru^
@@ -7016,7 +6962,6 @@
 ||ao-freegeoip.herokuapp.com^
 ||ao.appme.ru^
 ||aoasa.com^
-||aobjvr.pal.wkcengland.co.uk^
 ||aobocker.se^
 ||aobyp1una641o8.com^
 ||aol.spb.su^
@@ -7137,6 +7082,7 @@
 ||api.shuaji.360.cn^
 ||api.so.lianmeng.360.cn^
 ||api.splkmobile.com^
+||api.tapsell.ir^
 ||api.toptenreviews.com^
 ||api.tumra.com^
 ||api.uca.cloud.unity3d.com^
@@ -7181,6 +7127,9 @@
 ||app-adforce.jp^
 ||app-analytics.snapchat.com^
 ||app-analyticsv2.snapchat.com^
+||app-log1nacc0unt.com-s3cyure0.co-ver1fy.app1e.com-75865856.yyryrqs.com^
+||app-log1nacc0unt.com-s3cyure0.co-ver1fy.app1e.com-78hlgy.gilbertasdsa.com^
+||app-measurement.com^
 ||app-promo.com^
 ||app-purch4s3app1e.ddnsking.com^
 ||app-purch4s3iapp1e.ddnsking.com^
@@ -7192,6 +7141,7 @@
 ||app.crossengage.io^
 ||app.datafastguru.info^
 ||app.gelirartisi.com^
+||app.link^
 ||app.livemarketshoppers.com^
 ||app.mashero.com^
 ||app.pendo.io^
@@ -7230,6 +7180,7 @@
 ||app1e-id.4ccount-unlock.com^
 ||app1e-id.com^
 ||app1e-id.site^
+||app1e-idemail.serveirc.com^
 ||app1e-idrecovery-management-authorizations.ga^
 ||app1e-incveifinfo.com^
 ||app1e-information2.servebeer.com^
@@ -7330,6 +7281,7 @@
 ||app1e.com-support-dashbord-secure1.com^
 ||app1e.com-support-un1ocked-dahbordsecure.com^
 ||app1e.com-un1ocked-my-dashbord1-com.com^
+||app1e.com.ldsoy.cn^
 ||app1e.com.manage-un1ocked-account.tk^
 ||app1e.com.manage-verification-un1ocked-account.tk^
 ||app1e.com.payment.sec.gasd784sdf.com^
@@ -7367,6 +7319,7 @@
 ||app1e.ios.com.0lfk.cn^
 ||app1e.kevinkerr.xyz^
 ||app1e.lialis.com^
+||app1e.live^
 ||app1e.logic-newsystem-upgrade.com^
 ||app1e.manage-service-unlocked-account-now.ml^
 ||app1e.me^
@@ -7403,6 +7356,7 @@
 ||app1e.sekarsehat.com^
 ||app1e.services-un1ocked-disab1e-additional.info^
 ||app1e.shop^
+||app1e.space^
 ||app1e.store-verify-acces1ocked.com^
 ||app1e.store^
 ||app1e.subscription-manage-idservice.com^
@@ -7456,6 +7410,7 @@
 ||app1ecdn.com^
 ||app1econfirm.ddns.net^
 ||app1ecrisp.com^
+||app1ed-appstor1.myvnc.com^
 ||app1ed1sv.top^
 ||app1eej.lyebhzl.com^
 ||app1efd.prod.mars.warnerbros.com^
@@ -7526,6 +7481,7 @@
 ||app1ejdaea.hopto.org^
 ||app1ekn1v.com^
 ||app1eknc1.top^
+||app1el-s1gnh3lper-st4tues6571.sdaddyfe.com^
 ||app1eld.app1e.com-signacc0untsld.pepahatahbila.com^
 ||app1eld.com^
 ||app1eldo.salahapamaning.com^
@@ -7550,6 +7506,7 @@
 ||app1eshop.com^
 ||app1estore-invoice-accou1ntinfo-com.ga^
 ||app1estorepayment.hopto.org^
+||app1esupport-id.serveirc.com^
 ||app1etrs1x.top^
 ||app1etuz1v.top^
 ||app1eu.gobitech.no^
@@ -7998,6 +7955,7 @@
 ||assets1.exgfnetwork.com^
 ||assetscdn.stream^
 ||assoc-amazon.
+||assoc-na.associates-amazon.com^
 ||associatesexports.com^
 ||associazio.com^
 ||associeta.com^
@@ -8497,11 +8455,11 @@
 ||b45a0da7c44600e69.com^
 ||b4banner.in^
 ||b4psads.com^
-||b4w36s.beg.smalltailsbfr.com^
 ||b4xazj.mat.eveshamairporttaxis.co.uk^
 ||b54m4qbmt0b9.com^
 ||b59812ee54afcabd.com^
 ||b5ae848728034caddca.com^
+||b5dev.com^
 ||b60228e270e363f6.com^
 ||b6aa6257a22451c.com^
 ||b6r2wo.wm.warmglow.org^
@@ -8540,6 +8498,7 @@
 ||babyboomboomads.com^
 ||back.marketing^
 ||back.messajess.info^
+||back2balancephysio.co.uk^
 ||backbeatmedia.com^
 ||backlink-test.de^
 ||backlink-umsonst.de^
@@ -9685,7 +9644,6 @@
 ||bn.premiumhdv.com^
 ||bn.profiwin.de^
 ||bn.take-profit.org^
-||bna812.onl.onlinetrees.co.uk^
 ||bnbir.xyz^
 ||bnc.lt^
 ||bndkifres.com^
@@ -10332,6 +10290,7 @@
 ||buycheapadvertising.com^
 ||buycialisonline.bigsitecity.com^
 ||buyeasy.by^
+||buyfacebo0klik3.bravesites.com^
 ||buyfacebo0klik3.soup.io^
 ||buyfioricetonline.bigsitecity.com^
 ||buyfioricetonline.freeservers.com^
@@ -10508,6 +10467,7 @@
 ||c.imedia.cz^
 ||c.ipaddress.com^
 ||c.kuwo.cn^
+||c.la4-c1-phx.salesforceliveagent.com^
 ||c.lomadee.com^
 ||c.maccosmetics.com^
 ||c.mfstatic.cz^
@@ -10522,6 +10482,7 @@
 ||c.pubguard.com^
 ||c.realtytrac.com^
 ||c.rmgserving.com^
+||c.s-microsoft.com^
 ||c.spiegel.de^
 ||c.start280.com^
 ||c.t-online.de^
@@ -10545,7 +10506,6 @@
 ||c1exchange.com^
 ||c1f9b35b00f.com^
 ||c1hit.tut.by^
-||c1k8zh.pal.wkcengland.co.uk^
 ||c2.outster.com^
 ||c2.xsu.cc^
 ||c212.net^
@@ -10576,7 +10536,6 @@
 ||c810b4e386a121f20.com^
 ||c92a198b4e0a.com^
 ||c93ec5a2c67bdc4.com^
-||c9mowk.pool.pchamberlain.co.uk^
 ||ca-mpr.jp^
 ||ca.abv.bg^
 ||ca.clcknads.pro^
@@ -10959,7 +10918,6 @@
 ||cc.sys.miui.com^
 ||cc.zeit.de^
 ||cc14d05942c685f7.com^
-||cc36qc.lero.worldkickboxingcommission.com^
 ||cc4030c973cd1b7f4cd.com^
 ||cc5f.dnyp.com^
 ||ccas.clearchannel.com^
@@ -11038,6 +10996,7 @@
 ||cdn-net.com^
 ||cdn-qc.coccoc.com^
 ||cdn-server.top^
+||cdn.88-f.net^
 ||cdn.8digits.com^
 ||cdn.adbert.info^
 ||cdn.adinall.com^
@@ -11168,10 +11127,10 @@
 ||cdp.cloud.unity3d.com^
 ||cdqweuwvagrbd.com^
 ||cdsbnrs.com^
-||cdu1um.beg.smalltailsbfr.com^
 ||cdveeechegws.com^
 ||cdvoqspgdp.com^
 ||cdwqibctfz.com^
+||cdx.cdxcn.net^
 ||cdxbin.vulnerap.com^
 ||cdyiipzo.com^
 ||cdyygbzihdh.com^
@@ -11992,6 +11951,7 @@
 ||client-analytics.braintreegateway.com^
 ||client-api.matchinguu.com^
 ||client-event-reporter.twitch.tv^
+||client-lnstagram.online^
 ||client-verify.adtricity.com^
 ||client.midosoo.com^
 ||client.roiadtracker.com^
@@ -12521,6 +12481,7 @@
 ||completecabbage.com^
 ||completecarrd.com^
 ||completeexecutor.com^
+||completion.amazon.com^
 ||complextoad.com^
 ||complive.link^
 ||compolice.com^
@@ -12568,6 +12529,7 @@
 ||conf.vidown.cn^
 ||conferentse.com^
 ||config.789wed.com^
+||config.88-f.net^
 ||config.adsage.cn^
 ||config.adsage.com^
 ||config.appjolt.com^
@@ -12578,6 +12540,7 @@
 ||confirim-lnstagram.com^
 ||confirm-app1e.serveirc.com^
 ||confirm-lnstagram.com^
+||confirm-lnstagram.tk^
 ||confirm-referer.glrsales.com^
 ||confirmation-lnstagramsupport.ml^
 ||confirmation-paypa1.ga^
@@ -12637,6 +12600,7 @@
 ||contact-lnstagram-copyright-form.tk^
 ||contact-lnstagram-helpcenter.tk^
 ||contact-lnstagramhelpcenter.tk^
+||contactforlnstagram.tk^
 ||contactlnstagram-helpcenter.tk^
 ||contactmonkey.com^
 ||contactreserve.com^
@@ -12733,6 +12697,7 @@
 ||converti.se^
 ||convertmarketing.net^
 ||convertro.com^
+||conviguration.paypa1.com.payment-metod.com^
 ||conviva.com^
 ||convrse.media^
 ||conyak.com^
@@ -12794,6 +12759,7 @@
 ||coolyeti.info^
 ||coomosha.com^
 ||cooowbno.com^
+||cooprightzlnstagramz.gq^
 ||coopyrights-lnstagrams.ml^
 ||coopyrirghts-lnstagramsa.ml^
 ||coordinatedcub.com^
@@ -12811,10 +12777,13 @@
 ||coprsyirght-lnstagram.cf^
 ||coprworld.com^
 ||copryight-lnstagram.tk^
+||copryights-lnstagramz.cf^
 ||copryightz-lnstagram.cf^
 ||copryightz-lnstagram.ml^
+||copryightz-lnstagramz.ga^
 ||copryirght-lnstagram.cf^
 ||copryirghts-lnstagram.cf^
+||copryirrghtz-lnstagram.cf^
 ||copryrights-lnstagrams.ml^
 ||copryrightts-lnstagrams.ml^
 ||copryrirghts-lnstagram.cf^
@@ -12837,6 +12806,7 @@
 ||copyright-lnstagram.com^
 ||copyright-lnstagram.ml^
 ||copyright-lnstagram.online^
+||copyright-lnstagram.site^
 ||copyright-lnstagram.tk^
 ||copyright-lnstagramcenter.com^
 ||copyright-lnstagramform.ga^
@@ -13470,6 +13440,7 @@
 ||csdata1.com^
 ||csdian.net^
 ||csdzhoku.com^
+||cse.google.com^
 ||cse3.chausport.com^
 ||cserver.mii.instacontent.net^
 ||csgocpu.com^
@@ -13516,7 +13487,6 @@
 ||ctasnet.com^
 ||ctbdev.net^
 ||ctcpwymaeuwnqd.com^
-||ctd4o1.beg.smalltailsbfr.com^
 ||ctenetwork.com^
 ||ctfscglqjzkfe.com^
 ||ctimfrfrmqip.com^
@@ -13724,6 +13694,7 @@
 ||cywegkfcrhup.com^
 ||cyxagtpeggjv.com^
 ||cz01016102.ms758.com^
+||czapp1e.dsmynas.com^
 ||czapp1e.familyds.com^
 ||czasnaherbate.info^
 ||czaxrbclfse.com^
@@ -13773,6 +13744,8 @@
 ||d.greece-search.com^
 ||d.haberler.com^
 ||d.kugou.com^
+||d.la4-c1-dfw.salesforceliveagent.com^
+||d.la4-c1-phx.salesforceliveagent.com^
 ||d.m3.net^
 ||d.nster.net^
 ||d.omsnative.de^
@@ -13887,6 +13860,7 @@
 ||d1ksyxj9xozc2j.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1lm7kd3bd3yo9.cloudfront.net^
+||d1lxz4vuik53pc.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1mbgf0ge24riu.cloudfront.net^
 ||d1mib12jcgwmnv.cloudfront.net^
@@ -13913,6 +13887,7 @@
 ||d1r27qvpjiaqj3.cloudfront.net^
 ||d1r55yzuc1b1bw.cloudfront.net^
 ||d1r90st78epsag.cloudfront.net^
+||d1rfuz5wsjyzst.cloudfront.net^
 ||d1rgnfh960lz2b.cloudfront.net^
 ||d1rguclfwp7nc8.cloudfront.net^
 ||d1rkf0bq85yx06.cloudfront.net^
@@ -14055,6 +14030,7 @@
 ||d2pc0q32fod0ha.cloudfront.net^
 ||d2pgy8h4i30on1.cloudfront.net^
 ||d2plxos94peuwp.cloudfront.net^
+||d2pp80vsjn2e6y.cloudfront.net^
 ||d2pppxxtaciku9.cloudfront.net^
 ||d2pxb4n3f9klsc.cloudfront.net^
 ||d2pxbld8wrqyrk.cloudfront.net^
@@ -14100,6 +14076,7 @@
 ||d3.sina.com.cn^
 ||d3.sinaimg.cn^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
+||d309hb3m0x2sjr.cloudfront.net^
 ||d30gt5larl1k8h.cloudfront.net^
 ||d30zrwt3s044zr.cloudfront.net^
 ||d3135glefggiep.cloudfront.net^
@@ -14119,6 +14096,7 @@
 ||d33im0067v833a.cloudfront.net^
 ||d33j9ks96yd6fm.cloudfront.net^
 ||d33otidwg56k90.cloudfront.net^
+||d33wubrfki0l68.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34obr29voew8l.cloudfront.net^
 ||d34rdvn2ky3gnm.cloudfront.net^
@@ -14177,6 +14155,7 @@
 ||d3iz6lralvg77g.cloudfront.net^
 ||d3j1weegxvu8ns.cloudfront.net^
 ||d3jgr4uve1d188.cloudfront.net^
+||d3kxowhw4s8amj.cloudfront.net^
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l320urli0p1u.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
@@ -14276,7 +14255,6 @@
 ||d869381a42af33b.com^
 ||d899.webazilla.com^
 ||d8acddffe978b5dfcae6.date^
-||d8au88.onl.onlinetrees.co.uk^
 ||d8b440faa110b.com^
 ||d8qy7md4cj3gz.cloudfront.net^
 ||d8rk54i4mohrb.cloudfront.net^
@@ -14632,6 +14610,8 @@
 ||de-ner-mi-nis4.info^
 ||de-nis-ner-mi-5.info^
 ||de.pandora.xiaomi.com^
+||de.singnin-paypa1.com-caseid98346956.trialinaja.com^
+||de.verify-paypa1.com-caseid98346956.gogiftuc.com^
 ||de17a.com^
 ||deadblock.tk^
 ||deadpantruck.com^
@@ -14895,7 +14875,6 @@
 ||dfebr.com^
 ||dfehnb.xyz^
 ||dff7tx5c2qbxc.cloudfront.net^
-||dff8sy.lero.worldkickboxingcommission.com^
 ||dfgfgvqogboiz.com^
 ||dfhqmt.moro.pershoreprivatehire.co.uk^
 ||dfjaoecxqyox.com^
@@ -15313,7 +15292,6 @@
 ||dmanalytics1.com^
 ||dmatquyckwtu.com^
 ||dmbjbgiifpfo.com^
-||dmbp3w.beg.smalltailsbfr.com^
 ||dmclick.cn^
 ||dmd53.com^
 ||dmdamedia.hu^
@@ -15654,8 +15632,6 @@
 ||dpypzvjarj.com^
 ||dpz55hrzd89zs.cloudfront.net^
 ||dq2tgxnc2knif.cloudfront.net^
-||dq77ab.last.pershoreairporttaxis.co.uk^
-||dq7knf.lol.airporttaxipershore.co.uk^
 ||dq95d35.com^
 ||dqdnwhyxeblt.com^
 ||dqdwvmpez.com^
@@ -15789,7 +15765,6 @@
 ||dsnextgen.com^
 ||dsnjsdrbqwdu.com^
 ||dsnr-affiliates.com^
-||dsnt5t.lol.airporttaxipershore.co.uk^
 ||dsp-adcreative.mobshark.net^
 ||dsp-impr.youdao.com^
 ||dsp-impr2.youdao.com^
@@ -16087,7 +16062,6 @@
 ||dzs55b7slwyx.cloudfront.net^
 ||dzxcq.com^
 ||dzxxxg6ij9u99.cloudfront.net^
-||dzyf7f.beg.smalltailsbfr.com^
 ||dzyqqwixizp.com^
 ||dzzawlkmtvug.com^
 ||dzznyesmwj.com^
@@ -16163,7 +16137,6 @@
 ||e3.whatsapp.net^
 ||e331ff4e674c083.com^
 ||e347bb14dc71778.com^
-||e34nbf.last.pershoreairporttaxis.co.uk^
 ||e350570881272e.com^
 ||e376ef28103177cc.com^
 ||e3s5t5.nt.nativetrees.co.uk^
@@ -16233,7 +16206,6 @@
 ||eaaqsama.com^
 ||eabgoszdtq.com^
 ||eac0823ca94e3c07.com^
-||eac1db.beg.smalltailsbfr.com^
 ||eacla.com^
 ||eadexchange.com^
 ||eadgxy.com^
@@ -16577,7 +16549,6 @@
 ||efxjqdymvzqqkt.com^
 ||efzhzqtyomldfj.com^
 ||eg.light2gr0w.me^
-||eg6j52.shet.eveshamairporttransfers.co.uk^
 ||egamingonline.com^
 ||egamiplatform.tv^
 ||egcocjwpzqsa.com^
@@ -16591,7 +16562,6 @@
 ||egocefabus.com^
 ||egolina.com^
 ||egooad.com^
-||egqqa4.pool.pchamberlain.co.uk^
 ||egqvppwseieyu.com^
 ||egrcoshpisdnn.com^
 ||egtkhpkkfswf.com^
@@ -16637,7 +16607,6 @@
 ||ejdkqclkzq.com^
 ||ejevika.com^
 ||ejfuh.com^
-||ejg1y6.shet.eveshamairporttransfers.co.uk^
 ||ejgdixiddmruql.com^
 ||ejgxyfzciwyi.com^
 ||ejjgrmutgrdwxg.com^
@@ -16772,6 +16741,7 @@
 ||email-lnstagram.cf^
 ||email-match.com^
 ||email-reflex.com^
+||email-tracking-stage.sv2.trulia.com^
 ||email-update-app1e-limte.com^
 ||email.positionly.com^
 ||emailadvantagegroup.com^
@@ -16845,6 +16815,7 @@
 ||emzotevsto.com^
 ||emzxewhgjt.com^
 ||en-app1eid-appel-com-req-verif-acc-id-aktivity.nulink-log.com^
+||en-lnstagram.cf^
 ||en-lnstagram.com^
 ||en.app1eid.appel.com-req.locked2-notification.com^
 ||en.dd.blueline.be^
@@ -16916,7 +16887,6 @@
 ||enot.k-yroky.ru^
 ||enoughts.info^
 ||enousouz.info^
-||enpww2.shet.eveshamairporttransfers.co.uk^
 ||enquete-annuelle.info^
 ||enquisite.com^
 ||enrcqdgqnjb.com^
@@ -17276,7 +17246,6 @@
 ||eu.groupondata.com^
 ||eu.market-place.su^
 ||eu.xtms.net^
-||eu4zfa.hbg.hebdenbridgedental.co.uk^
 ||euadsapi.manhuaren.com^
 ||euadw.com^
 ||euarbohjj.com^
@@ -17429,6 +17398,7 @@
 ||everydaygays.com^
 ||everyone.net^
 ||everyonyathe.info^
+||eveshamairporttransfers.co.uk^
 ||evewrite.net^
 ||evfatcuv.com^
 ||evfwfkwufbjtd.com^
@@ -17789,17 +17759,21 @@
 ||faceb00k-connection.com^
 ||faceb00k-connections.com^
 ||faceb00k-distractions.com^
+||faceb00k-dress.stock0.website^
 ||faceb00k-es.website^
 ||faceb00k-for-sale.news^
 ||faceb00k-free00.hostingerapp.com^
+||faceb00k-inc-security-com.com^
 ||faceb00k-inc-ssecurity.com^
 ||faceb00k-internetallfree.eventclasher.org^
 ||faceb00k-item-market.com^
 ||faceb00k-l0gin.fbk6.pw^
 ||faceb00k-l0gin.xyz^
 ||faceb00k-live.com^
+||faceb00k-login-page.ga^
 ||faceb00k-login.com^
 ||faceb00k-mail.com^
+||faceb00k-market.info^
 ||faceb00k-marketplace-item.com^
 ||faceb00k-marketplace-news.hostingerapp.com^
 ||faceb00k-marketplace.com^
@@ -17826,23 +17800,32 @@
 ||faceb00k-prevention.club^
 ||faceb00k-pt.tk^
 ||faceb00k-redirect.ga^
+||faceb00k-seccuritty-inc.com^
 ||faceb00k-seccuritty.com^
 ||faceb00k-seccurity.com^
+||faceb00k-seccurritty-inc.com^
 ||faceb00k-secure.tk^
 ||faceb00k-securiity.com^
 ||faceb00k-securiityy.com^
+||faceb00k-securitty-inc.com^
 ||faceb00k-securitty.com^
 ||faceb00k-security-m.com^
 ||faceb00k-security.cf^
 ||faceb00k-security.club^
 ||faceb00k-security.com^
+||faceb00k-securritty-dept.com^
+||faceb00k-securritty-inc.com^
 ||faceb00k-securritty.com^
 ||faceb00k-securrity-inc.com^
 ||faceb00k-securrity.com^
+||faceb00k-seecuritty-dept.com^
 ||faceb00k-seecuritty.com^
+||faceb00k-seecurity-deptt.com^
 ||faceb00k-seecurity-inc.com^
 ||faceb00k-seecurity.com^
+||faceb00k-seecurrity-inc.com^
 ||faceb00k-seecurrity.com^
+||faceb00k-sell.xyz^
 ||faceb00k-setting.club^
 ||faceb00k-ssecurity.com^
 ||faceb00k-supp0rt-sessi0n.tk^
@@ -17935,6 +17918,7 @@
 ||faceb00k.marketpalce.trade.eshop.org.in^
 ||faceb00k.me^
 ||faceb00k.mkt-trade.com^
+||faceb00k.neocities.org^
 ||faceb00k.net.serveo.net^
 ||faceb00k.net^
 ||faceb00k.netsons.org^
@@ -17977,6 +17961,7 @@
 ||faceb00k1.com^
 ||faceb00k123.cf^
 ||faceb00k18.com^
+||faceb00k2313.sytes.net^
 ||faceb00k3.com.serveo.net^
 ||faceb00kaccount.tk^
 ||faceb00kaccs.com^
@@ -18039,6 +18024,9 @@
 ||faceb00kvn2016.com^
 ||faceb00kwinnings.com^
 ||faceb0ok-accont-restore.myiphost.com^
+||faceb0ok-e.ompdiauyrt.tk^
+||faceb0ok-inc-seccuritty.com^
+||faceb0ok-inc-security-com.com^
 ||faceb0ok-inc-security.com^
 ||faceb0ok-inc-secuurity.com^
 ||faceb0ok-login.com.dominicarepublicapplyvisa-govt.com^
@@ -18049,19 +18037,30 @@
 ||faceb0ok-seccuriityy.com^
 ||faceb0ok-seccuritty-inc.com^
 ||faceb0ok-seccuritty.com^
+||faceb0ok-seccurity-inc.com^
 ||faceb0ok-seccurity.com^
+||faceb0ok-seccurrity-dept.com^
 ||faceb0ok-seccurrity.com^
 ||faceb0ok-secm.com^
+||faceb0ok-securitty-inc.com^
 ||faceb0ok-securitty.com^
+||faceb0ok-security-inc.com^
 ||faceb0ok-security.com^
+||faceb0ok-securriity-dept.com^
+||faceb0ok-securritty-inc.com^
 ||faceb0ok-securritty.com^
 ||faceb0ok-securrity-inc.com^
 ||faceb0ok-securrity.com^
 ||faceb0ok-secuurity.com^
 ||faceb0ok-seecuriityy.com^
+||faceb0ok-seecuritty-inc.com^
+||faceb0ok-seecurity-ddept.com^
 ||faceb0ok-seecurity.com^
+||faceb0ok-seecurrity-dept.com^
+||faceb0ok-seecurrity-inc.com^
 ||faceb0ok-seecurrity.com^
 ||faceb0ok-sseccuritty.com^
+||faceb0ok-ssecurrity-inc.com^
 ||faceb0ok.bid^
 ||faceb0ok.co.uk^
 ||faceb0ok.co^
@@ -18078,6 +18077,7 @@
 ||faceb0ok.me^
 ||faceb0ok.ml^
 ||faceb0ok.net^
+||faceb0ok.online^
 ||faceb0ok.ooo^
 ||faceb0ok.org^
 ||faceb0ok.shop^
@@ -18098,32 +18098,50 @@
 ||facebo0k-com.pastelesparatodos.com.mx^
 ||facebo0k-inc-seccurity.com^
 ||facebo0k-inc-securitty.com^
+||facebo0k-inc-security-com.com^
 ||facebo0k-inc-security.com^
 ||facebo0k-login.com^
 ||facebo0k-m-security.com^
+||facebo0k-realtor.info^
 ||facebo0k-seccm.com^
+||facebo0k-seccuritty-inc.com^
 ||facebo0k-seccuritty.com^
 ||facebo0k-seccurity-inc.com^
 ||facebo0k-seccurity.com^
+||facebo0k-seccurritty-inc.com^
+||facebo0k-seccurrity-dept.com^
+||facebo0k-seccurrity-inc.com^
 ||facebo0k-seccurrity.com^
+||facebo0k-securiity-inc.com^
 ||facebo0k-securiity.com^
 ||facebo0k-securiityy.com^
+||facebo0k-securitty-inc.com^
 ||facebo0k-securitty.com^
+||facebo0k-security-inc.com^
 ||facebo0k-security-m.com^
 ||facebo0k-security.com^
+||facebo0k-securriity-dept.com^
 ||facebo0k-securriityy.com^
+||facebo0k-securritty-inc.com^
 ||facebo0k-securritty.com^
+||facebo0k-securrity-inc.com^
 ||facebo0k-securrity.com^
 ||facebo0k-secuuritty.com^
+||facebo0k-secuurity-inc.com^
 ||facebo0k-secuurity.com^
+||facebo0k-secuurrity-dept.com^
 ||facebo0k-secuurrity.com^
 ||facebo0k-seecuritty-inc.com^
+||facebo0k-seecurity-deppt.com^
+||facebo0k-seecurity-inc.com^
 ||facebo0k-seecurity.com^
+||facebo0k-seecurritty-inc.com^
 ||facebo0k-seecurrity-inc.com^
 ||facebo0k-service.serveftp.com^
 ||facebo0k-sseccuritty.com^
 ||facebo0k-ssecurity.com^
 ||facebo0k-videohay.boldlygoingnowhere.org^
+||facebo0k.alaemal.com^
 ||facebo0k.berlin^
 ||facebo0k.biz^
 ||facebo0k.cecapacita.com.mx^
@@ -18144,6 +18162,7 @@
 ||facebo0k.iogin.cf^
 ||facebo0k.live^
 ||facebo0k.marcketplace.postid66723.komuniti.narsco.com.my^
+||facebo0k.matildelavarello79.online^
 ||facebo0k.me^
 ||facebo0k.mixh.jp^
 ||facebo0k.ml^
@@ -18160,6 +18179,7 @@
 ||facebo0k.website^
 ||facebo0k.x10host.com^
 ||facebo0k.xyz^
+||facebo0k1234.altervista.org^
 ||facebo0kc0m.sowersreap.net^
 ||facebo0kcosplay.me^
 ||facebo0kdesktop.mobi^
@@ -18172,6 +18192,7 @@
 ||facebo0kl.gq^
 ||facebo0klove.me^
 ||facebo0kmails.com^
+||facebo0kmaster.wordpress.com^
 ||facebo0ks.cf^
 ||facebo0ks.com^
 ||facebo0ks.ga^
@@ -18210,6 +18231,7 @@
 ||facebооk.ga^
 ||facebᴏok.com^
 ||facebᴏᴏk.com^
+||facebᴑᴑk.com^
 ||faceebook.com.serveo.net^
 ||facehook.bysidecar.me^
 ||facehook.club^
@@ -18381,6 +18403,7 @@
 ||fast-adv.it^
 ||fast-thinking.co.uk^
 ||fast.appcues.com^
+||fast.fonts.net^
 ||fast.forbes.com^
 ||fast12g.com^
 ||fast2earn.com^
@@ -18530,6 +18553,7 @@
 ||fcjodgfpjiswa.com^
 ||fclfmfjykupjdk.com^
 ||fclick-adnow.com^
+||fcmtoken.googleapis.com^
 ||fcpispplqq.com^
 ||fcrgzqkbtgu.co^
 ||fcs.ovh^
@@ -18666,7 +18690,6 @@
 ||fetishfitnessbabes.com^
 ||fetishlocator.com^
 ||fetishshrine.com^
-||fetmng.pal.wkcengland.co.uk^
 ||fetymi.info^
 ||fevgukzwvjam.com^
 ||fevrbniqa.com^
@@ -18685,7 +18708,6 @@
 ||ffaspwzfq.com^
 ||ffbgxh.nt.nativetrees.co.uk^
 ||ffbqnbdcrx.com^
-||ffc2j1.shet.eveshamairporttransfers.co.uk^
 ||ffcqkvdaklrqkg.com^
 ||ffdefend.com^
 ||ffdkffnj.com^
@@ -18861,6 +18883,9 @@
 ||fioricet-online.blogspot.com^
 ||fiozxmznaba.com^
 ||firaxtech.com^
+||firebaseinstallations.googleapis.com^
+||firebaselogging-pa.googleapis.com^
+||firebaseremoteconfig.googleapis.com^
 ||firefeeder.com^
 ||firefoxprotect.me^
 ||firegetbook.com^
@@ -18915,12 +18940,10 @@
 ||fixwap.net^
 ||fizcell.mobi^
 ||fj.hmtcn.com^
-||fja557.lero.worldkickboxingcommission.com^
 ||fjajh9q.www.twittor.co^
 ||fjcvncxrmmru.com^
 ||fjczvutpucr.com^
 ||fjeqkpblfb.com^
-||fjf38x.boss.northerndishedends.uk^
 ||fjfxpykp.com^
 ||fjjuo.com^
 ||fjocjdbo.com^
@@ -18953,7 +18976,6 @@
 ||fkrrvhoierty.com^
 ||fktrlckpmsxx.com^
 ||fkvjntfj.com^
-||fkw1f5.beg.smalltailsbfr.com^
 ||fkwwhndzjlqrm.com^
 ||fkymvojkpdx.com^
 ||fl-ads.com^
@@ -19175,6 +19197,7 @@
 ||fonderredd.info^
 ||fone.fdti.in^
 ||fone.joreynolds.com^
+||fontbrain.com^
 ||fontent.streamp1ay.me^
 ||fonts.googleapis.com^
 ||fonts.gstatic.com^
@@ -19290,7 +19313,6 @@
 ||foxnews.com^
 ||foxx.to^
 ||foxypp.com^
-||fozq2q.shet.eveshamairporttransfers.co.uk^
 ||fpbb.aizhan.com^
 ||fpbmjwoebzby.com^
 ||fpcptdqmjlnlu.com^
@@ -19455,6 +19477,7 @@
 ||freeexchange.ru^
 ||freefblikes.phpnet.us^
 ||freefiretop.com^
+||freefollowers4lnstagram.tk^
 ||freefoodprovider.com^
 ||freefoodsource.com^
 ||freefuelcard.com^
@@ -19604,10 +19627,10 @@
 ||frvpeuulyprl.com^
 ||frxohovv.com^
 ||fryxaknn.com^
-||frz3p1.onl.onlinetrees.co.uk^
 ||frzaj.com^
 ||frzynewnpg.com^
 ||fs-11.com^
+||fs-lnstagram.com^
 ||fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com^
 ||fs.uc.nearme.com.cn^
 ||fsaticze.com^
@@ -19828,7 +19851,6 @@
 ||fxlyhuluw.com^
 ||fxnow.ru^
 ||fxoryjxrnuoo.com^
-||fxosmh.shet.eveshamairporttransfers.co.uk^
 ||fxox4wvv.win^
 ||fxpcw.com^
 ||fxpolice.com^
@@ -19869,7 +19891,6 @@
 ||fzeahussyd.com^
 ||fzgitqrqrsyyiv.com^
 ||fzhxi.com^
-||fzmo3q.last.pershoreairporttaxis.co.uk^
 ||fzmogmfqh.com^
 ||fznpq.com^
 ||fzoneli.info^
@@ -19979,7 +20000,6 @@
 ||g3wqaj.jik.thetreecentre.com^
 ||g4058683381.com^
 ||g4p1gtll.com^
-||g4pytz.beg.smalltailsbfr.com^
 ||g4whisperermedia.com^
 ||g5fzq2l.com^
 ||g7x5b.com^
@@ -20102,7 +20122,6 @@
 ||gaug.es^
 ||gaumtj.net.a1traveldirect.co.uk^
 ||gauwicig.com^
-||gav5m7.yell.back2balancephysio.co.uk^
 ||gavzad.keenspot.com^
 ||gawxf.com^
 ||gaxmdcfkxygs.com^
@@ -20347,6 +20366,7 @@
 ||geo.xcel.io^
 ||geo.yad2.co.il^
 ||geo.yahoo.com^
+||geo2.adobe.com^
 ||geoaddicted.net^
 ||geoads.eurorevenue.com^
 ||geoads.osdn.com^
@@ -20567,7 +20587,6 @@
 ||ggagqobykjh.com^
 ||ggbfbseakyqv.com^
 ||ggdm1.nhaidu.net^
-||ggdtob.last.pershoreairporttaxis.co.uk^
 ||ggezvffghs.com^
 ||gggemaop.com^
 ||gggo.xmbhj.com^
@@ -21187,7 +21206,6 @@
 ||graphics7.nytimes.com^
 ||graphinsider.com^
 ||graphli.net^
-||graqvk.beg.smalltailsbfr.com^
 ||gratefuldaysdahl.com^
 ||gratifymecorrect.com^
 ||gratis-besucherzaehler.de^
@@ -21447,7 +21465,6 @@
 ||gvhqnlti.com^
 ||gvisit.com^
 ||gvnqfiwzronbq.com^
-||gvo3fd.yell.back2balancephysio.co.uk^
 ||gvoraoonpi.com^
 ||gvoszbzfzmtl.com^
 ||gvrqquiotcyr.com^
@@ -21459,7 +21476,6 @@
 ||gw003.lphbs.com^
 ||gw5.push.mcp.weibo.cn^
 ||gw6.push.mcp.weibo.cn^
-||gw9bn6.lero.worldkickboxingcommission.com^
 ||gwa.lphbs.com^
 ||gwaatiev.com^
 ||gwallet.com^
@@ -21827,6 +21843,7 @@
 ||heatmap.services^
 ||heawzlvivkakly.com^
 ||hebadu.com^
+||hebdenbridgedental.co.uk^
 ||hebdotop.com^
 ||hebiichigo.com^
 ||hechaocheng.cn^
@@ -21901,6 +21918,8 @@
 ||help-lnstagram-center.tk^
 ||help-lnstagram-centers.com^
 ||help-lnstagram-com.cf^
+||help-lnstagram-confirm.cf^
+||help-lnstagram-confrim-team.cf^
 ||help-lnstagram-copyrghts.cf^
 ||help-lnstagram-copyright-form.cf^
 ||help-lnstagram-copyright-forms.cf^
@@ -21952,11 +21971,14 @@
 ||help-lnstagramcenter.com^
 ||help-lnstagramcenter.ml^
 ||help-lnstagramcentre.com^
+||help-lnstagramclientsupport.com^
 ||help-lnstagramcopyrigh.ml^
 ||help-lnstagramcopyright.cf^
 ||help-lnstagramcopyright.com^
 ||help-lnstagramcopyright.ga^
+||help-lnstagramcopyright.gq^
 ||help-lnstagramcopyright.ml^
+||help-lnstagramcopyright.net^
 ||help-lnstagramcopyright.tk^
 ||help-lnstagramcopyrightcenter.com^
 ||help-lnstagramcopyrightcenter.ga^
@@ -21969,6 +21991,9 @@
 ||help-lnstagramcopyrightscenter.ml^
 ||help-lnstagramcopyrightsecuritycenter.cf^
 ||help-lnstagramcopyrightsecuritycenter.tk^
+||help-lnstagramcopyrightservice.ml^
+||help-lnstagramcopyrightuser.ml^
+||help-lnstagrammanager.com^
 ||help-lnstagramonline.tk^
 ||help-lnstagrampage.ml^
 ||help-lnstagrampartner.ml^
@@ -21997,11 +22022,14 @@
 ||help-support-lnstagram.tk^
 ||help-unlocked-app1eid.gq^
 ||help-verify-lnstagram.com^
+||help.automatic.conviguration.app1e.com.madu-racun.com^
 ||help.indianmedicalsupplies.co.in^
 ||help.insttagram.copyrightservice.gq^
 ||help.laurita.biz^
 ||help.lnstagram-copyrightsupport.noscope.ml^
 ||help.lnstagram-supportmail.ml^
+||help.lnstagram.com-74514621902.vérify.com^
+||help.lnstagram.com-74514621902.xn--vrify-bsa.com^
 ||help.lnstagram.logens.ml^
 ||help.messajess.com^
 ||help.mysearch.com^
@@ -22032,6 +22060,7 @@
 ||helpcentre-lnstagram.com^
 ||helpclause.com^
 ||helpcontrolapp1e.cf^
+||helpcopyright-lnstagram.com^
 ||helpcopyrightlnstagram.cf^
 ||helpcopyrights-lnstagram.tk^
 ||helpdesk.marketbill.com^
@@ -22058,7 +22087,9 @@
 ||helperprotectionext.biz^
 ||helpers-lnstagram.tk^
 ||helpertoolext.com^
+||helpforlnstagram.cf^
 ||helpforlnstagram.com^
+||helpforlnstagram.ml^
 ||helpgrid1.ksmobile.com^
 ||helpinfolnstagram.com^
 ||helping-lnstagram.cf^
@@ -22073,6 +22104,7 @@
 ||helplnstagram-service.com^
 ||helplnstagram-supporter.gq^
 ||helplnstagram-unity.cf^
+||helplnstagram.cf^
 ||helplnstagram.com^
 ||helplnstagram.ga^
 ||helplnstagram.tk^
@@ -22083,6 +22115,7 @@
 ||helplnstagrambadgesupporter.ml^
 ||helplnstagrambadgesupports.cf^
 ||helplnstagrambadgesupportter.cf^
+||helplnstagrambusiness.cf^
 ||helplnstagramcenter.com^
 ||helplnstagramcopyright.cf^
 ||helplnstagramcopyright.ml^
@@ -22103,6 +22136,7 @@
 ||helpmedownload.com^
 ||helpper-lnstagram.ml^
 ||helps-idapp1e.com^
+||helps-lnstagram-copyright.tk^
 ||helps-lnstagram.com^
 ||helps-lnstagram.gq^
 ||helps-lnstagram.tk^
@@ -22120,6 +22154,7 @@
 ||helpsecuritylnstagram.com^
 ||helpservice-lnstagramcopyrighting.ga^
 ||helpslnstagram.com^
+||helpslnstagram.net^
 ||helpsupportlnstagram.com^
 ||helpınstagram.com^
 ||hemmieconverset.info^
@@ -22505,7 +22540,6 @@
 ||hmwsaxnhc.com^
 ||hmypgdhzd.com^
 ||hmzwcomigpqia.com^
-||hn4tyw.becks.petboutiquepawsnclaws.co.uk^
 ||hncshunyin.cn^
 ||hndesrzcgjmprqbbropdulvkfroonnrlbpqxhvprsavhwrfxtv.com^
 ||hndnserror1.wo.com.cn^
@@ -22515,7 +22549,6 @@
 ||hndnserror5.wo.com.cn^
 ||hndnserror6.wo.com.cn^
 ||hndnserror7.wo.com.cn^
-||hnf829.onl.onlinetrees.co.uk^
 ||hnhsvlswqtoxgn.com^
 ||hnikna.ru^
 ||hnivikwwypcv.com^
@@ -22762,7 +22795,6 @@
 ||hpubws-dev.appl.kp.org^
 ||hpufwccrmiwz.com^
 ||hpuknttzl.com^
-||hpusqb.becks.petboutiquepawsnclaws.co.uk^
 ||hpvvn.com^
 ||hpwdohgicpmi.com^
 ||hpwoowyxhrsatx.com^
@@ -22951,6 +22983,7 @@
 ||hubpd.com^
 ||hubrus.com^
 ||hubspot.com^
+||hubtraffic.com^
 ||hubvisor.io^
 ||hubvotrpjios.com^
 ||huccrlctmgifs.com^
@@ -24279,6 +24312,7 @@
 ||instаgram.ga^
 ||instаgram.tk^
 ||instаgrаm.cf^
+||instаgrаm.themera.net^
 ||instаɡram.cf^
 ||insulling.com^
 ||insupposity.info^
@@ -25064,9 +25098,6 @@
 ||j.theadsnet.com^
 ||j.wan.liebao.cn^
 ||j2k9.in^
-||j58cbm.lero.worldkickboxingcommission.com^
-||j6oezk.pal.wkcengland.co.uk^
-||j87snm.becks.petboutiquepawsnclaws.co.uk^
 ||j93557g.com^
 ||jaaqcdrpmyju.com^
 ||jaavpuhxrsryk.com^
@@ -25097,7 +25128,6 @@
 ||jajaofertasonline.xyz^
 ||jajbufmcl.com^
 ||jajkgegza.com^
-||jakgmf.beg.smalltailsbfr.com^
 ||jakzpcgrxgda.com^
 ||jakzxxzrymhz.com^
 ||jamba.net^
@@ -25303,7 +25333,6 @@
 ||jguczdjzvfp.com^
 ||jguhktakkykrsb.com^
 ||jgvjzbrnjmxoq.com^
-||jh6nn9.shet.eveshamairporttransfers.co.uk^
 ||jhceybuguvureg.com^
 ||jhcnnizbua.com^
 ||jhdfcbqophm.com^
@@ -25356,6 +25385,7 @@
 ||jingavot.com^
 ||jink.de^
 ||jinkads.de^
+||jioads.akamaized.net^
 ||jioivnytpmam.com^
 ||jipzvmzzycg.com^
 ||jirafe.com^
@@ -25460,7 +25490,6 @@
 ||jmxjwyqnelvzwu.com^
 ||jmxphjxsxd.com^
 ||jmzaqwcmcbui.com^
-||jn7ejd.boss.northerndishedends.uk^
 ||jnbc32.koll.pershoreairporttransfers.co.uk^
 ||jnchbwtzbrrf.com^
 ||jncjzdohkgic.com^
@@ -25479,7 +25508,6 @@
 ||jnoaexgpdlnu.com^
 ||jnqbgmlapkkrsj.com^
 ||jnwsojzuahwbeq.com^
-||jnxmyh.beg.smalltailsbfr.com^
 ||jnxqlltlnezn.com^
 ||jnylpjlnjfsp.com^
 ||jnyorvlxy.com^
@@ -25958,7 +25986,6 @@
 ||k6efm4.kal.wkcengland.com^
 ||k6r.net^
 ||k77hof1z7k.com^
-||k8gcbd.hbg.hebdenbridgedental.co.uk^
 ||k8jyft.blow.harrisretreat.com^
 ||k9anf8bc.webcam^
 ||ka-ji-ya.com^
@@ -26493,7 +26520,6 @@
 ||knvhqxpt.com^
 ||knwfmpvtj.com^
 ||ko6ka.ru^
-||ko92fk.hbg.hebdenbridgedental.co.uk^
 ||ko9e6c.broz.northerndishedends.co^
 ||koacojus.net^
 ||koamxmikmuhahc.com^
@@ -26920,6 +26946,7 @@
 ||la-la-moon.com^
 ||la-la-sf.com^
 ||la.appme.ru^
+||la4-c1-dfw.dfw.r.salesforceliveagent.com^
 ||laas.americanexpress.com^
 ||labadon.com^
 ||labdwkqyavb.com^
@@ -27370,6 +27397,7 @@
 ||lgzfhqubp.com^
 ||lgzjsauvfv.com^
 ||lh.secure.yahoo.com^
+||lh3.googleusercontent.com^
 ||lh5lg.top^
 ||lh8h.icu^
 ||lhaqzqjbafcu.com^
@@ -27837,6 +27865,8 @@
 ||lnstagram--copyrightcenters.ml^
 ||lnstagram--copyrightcenters.tk^
 ||lnstagram--copyrightnotice.gq^
+||lnstagram--helpcenter.cf^
+||lnstagram--helpcenter.ml^
 ||lnstagram--verifiedaccounts.cf^
 ||lnstagram--verifiedaccounts.ml^
 ||lnstagram--verifiedaccounts.tk^
@@ -27844,12 +27874,16 @@
 ||lnstagram-account-badge-making.ga^
 ||lnstagram-account-badge-taking-form-contact-334013860059654.gq^
 ||lnstagram-account-badge-taking-form-contact-334113864059654.gq^
+||lnstagram-account-business.com^
+||lnstagram-account-support.com^
+||lnstagram-account-verified.com^
 ||lnstagram-account-verify.com^
 ||lnstagram-account-violation-centers.ml^
 ||lnstagram-account-violations-center.ml^
 ||lnstagram-account.cf^
 ||lnstagram-account.com^
 ||lnstagram-account.ml^
+||lnstagram-account.online^
 ||lnstagram-account027438.ga^
 ||lnstagram-accountcopyright.ml^
 ||lnstagram-accounts.com^
@@ -27884,6 +27918,7 @@
 ||lnstagram-assistant.cf^
 ||lnstagram-authorize.ml^
 ||lnstagram-authorize.tk^
+||lnstagram-back.gq^
 ||lnstagram-badge-center.cf^
 ||lnstagram-badge-center.tk^
 ||lnstagram-badge-confirmation.com^
@@ -27900,6 +27935,7 @@
 ||lnstagram-badgeform.tk^
 ||lnstagram-badgepagehelps.ml^
 ||lnstagram-badgepagehelpss.cf^
+||lnstagram-badges-data.com^
 ||lnstagram-badges.com^
 ||lnstagram-badges.tk^
 ||lnstagram-badgeservice.tk^
@@ -27934,6 +27970,7 @@
 ||lnstagram-bluebadge-center.ml^
 ||lnstagram-bluebadge-form.ga^
 ||lnstagram-bluebadge-form.gq^
+||lnstagram-bluebadge-form.ml^
 ||lnstagram-bluebadge-taking-form.ga^
 ||lnstagram-bluebadge.com^
 ||lnstagram-bluebadge.ml^
@@ -27942,6 +27979,7 @@
 ||lnstagram-bluebadges-team.ml^
 ||lnstagram-bluebadges.cf^
 ||lnstagram-bluebadges.ml^
+||lnstagram-blueclick.cf^
 ||lnstagram-blueteak.ml^
 ||lnstagram-blueteak.tk^
 ||lnstagram-bluetick-center.ml^
@@ -27952,8 +27990,13 @@
 ||lnstagram-bluetick.tk^
 ||lnstagram-bluetickbadge.ml^
 ||lnstagram-business-centre.tk^
+||lnstagram-business-contact.com^
 ||lnstagram-business-partners.ml^
 ||lnstagram-business-press.ml^
+||lnstagram-business-reply.com^
+||lnstagram-business-shop.com^
+||lnstagram-business-tools.com^
+||lnstagram-business-verify.com^
 ||lnstagram-business.cf^
 ||lnstagram-business.com^
 ||lnstagram-business.ga^
@@ -27963,12 +28006,14 @@
 ||lnstagram-business.net^
 ||lnstagram-business.services^
 ||lnstagram-business.tk^
+||lnstagram-businesscenter.com^
 ||lnstagram-businesspartner.ml^
 ||lnstagram-businnes-help.cf^
 ||lnstagram-businnes-help.tk^
 ||lnstagram-bussines-support.tk^
 ||lnstagram-bussines.tk^
 ||lnstagram-case-support.klastakipci.tk^
+||lnstagram-center-copyright.ml^
 ||lnstagram-center.cf^
 ||lnstagram-center.com^
 ||lnstagram-center.gq^
@@ -27981,7 +28026,10 @@
 ||lnstagram-centre.com^
 ||lnstagram-centre.ml^
 ||lnstagram-centre.xyz^
+||lnstagram-centric.com^
+||lnstagram-centric.xyz^
 ||lnstagram-certificate.cf^
+||lnstagram-changepassword.cf^
 ||lnstagram-checking.ml^
 ||lnstagram-checkpoint-account.ga^
 ||lnstagram-checkpoint-accounts.cf^
@@ -27989,7 +28037,13 @@
 ||lnstagram-checkpoint-verify.gq^
 ||lnstagram-checkpoint.com^
 ||lnstagram-checkpoint.ml^
+||lnstagram-checkpoints.online^
 ||lnstagram-checkpointsupport.com^
+||lnstagram-client-line.ml^
+||lnstagram-client-partner.cf^
+||lnstagram-client-partner.ml^
+||lnstagram-client-partner.tk^
+||lnstagram-clientpartner.ga^
 ||lnstagram-com-bpd-qubbc910.ml^
 ||lnstagram-com-bvlr37shso4.gq^
 ||lnstagram-com-bvyzykyb5xd34l.gq^
@@ -28032,30 +28086,45 @@
 ||lnstagram-copyrghts.cf^
 ||lnstagram-copyrghts.tk^
 ||lnstagram-copyrghtsupport.tk^
+||lnstagram-copyright--help-support.ml^
 ||lnstagram-copyright-2fac.tk^
 ||lnstagram-copyright-appeal.ml^
+||lnstagram-copyright-assistance.ml^
 ||lnstagram-copyright-bussines.ml^
 ||lnstagram-copyright-center-contact-8424174.ml^
 ||lnstagram-copyright-center-services.gq^
+||lnstagram-copyright-center-supports.cf^
+||lnstagram-copyright-center.com^
 ||lnstagram-copyright-center.flonto.com^
 ||lnstagram-copyright-center.ml^
 ||lnstagram-copyright-center.tk^
+||lnstagram-copyright-centerls.cf^
 ||lnstagram-copyright-centers.cf^
 ||lnstagram-copyright-form-53279642567.ml^
+||lnstagram-copyright-help-center.cf^
 ||lnstagram-copyright-help-center.ga^
+||lnstagram-copyright-help-center.ml^
+||lnstagram-copyright-help-centers.ml^
+||lnstagram-copyright-help-section.cf^
 ||lnstagram-copyright-help-security.ml^
 ||lnstagram-copyright-help.cf^
 ||lnstagram-copyright-help.com^
 ||lnstagram-copyright-help.ml^
 ||lnstagram-copyright-helpcenter.com^
 ||lnstagram-copyright-helpcenter.ml^
+||lnstagram-copyright-helps-center.ml^
+||lnstagram-copyright-helps.com^
 ||lnstagram-copyright-infringement.cf^
 ||lnstagram-copyright-infringement.com^
 ||lnstagram-copyright-live-center.tk^
+||lnstagram-copyright-live-support.cf^
+||lnstagram-copyright-notice.cf^
 ||lnstagram-copyright-notice.ml^
 ||lnstagram-copyright-online.tk^
 ||lnstagram-copyright-press.ml^
 ||lnstagram-copyright-rules-limit.com^
+||lnstagram-copyright-section-center.cf^
+||lnstagram-copyright-section.ml^
 ||lnstagram-copyright-secure.ml^
 ||lnstagram-copyright-service.cf^
 ||lnstagram-copyright-service.ml^
@@ -28068,6 +28137,10 @@
 ||lnstagram-copyright-support.gq^
 ||lnstagram-copyright-support.ml^
 ||lnstagram-copyright-support.tk^
+||lnstagram-copyright-support09474846399386.cf^
+||lnstagram-copyright-supports.cf^
+||lnstagram-copyright-supportsd.cf^
+||lnstagram-copyright-supportsd.ml^
 ||lnstagram-copyright-team.cf^
 ||lnstagram-copyright-team.ml^
 ||lnstagram-copyright-whatsapp.cf^
@@ -28078,9 +28151,11 @@
 ||lnstagram-copyright.info^
 ||lnstagram-copyright.net^
 ||lnstagram-copyright.org^
+||lnstagram-copyright.site^
 ||lnstagram-copyright.support^
 ||lnstagram-copyright.tk^
 ||lnstagram-copyright.xyz^
+||lnstagram-copyrightcenter.cf.thenexttechnology.com^
 ||lnstagram-copyrightcenter.cf^
 ||lnstagram-copyrightcenter.com^
 ||lnstagram-copyrightcenter.gq.salihyar.tk^
@@ -28105,17 +28180,23 @@
 ||lnstagram-copyrightpage.com^
 ||lnstagram-copyrightpage.tk^
 ||lnstagram-copyrights-business.ml^
+||lnstagram-copyrights-center.ml^
 ||lnstagram-copyrights-centers.ml^
 ||lnstagram-copyrights-form.ml^
+||lnstagram-copyrights-forms.xyz^
+||lnstagram-copyrights-help-center.com^
 ||lnstagram-copyrights-help.com^
 ||lnstagram-copyrights-helpcenter.ml^
 ||lnstagram-copyrights-helpcenter.tk^
+||lnstagram-copyrights-helps-center.com^
+||lnstagram-copyrights-helps-support.tk^
 ||lnstagram-copyrights.cf.hzdevelop-hosting.tk^
 ||lnstagram-copyrights.cf^
 ||lnstagram-copyrights.com^
 ||lnstagram-copyrights.info^
 ||lnstagram-copyrights.ml.otomailsahibi.ml^
 ||lnstagram-copyrights.ml^
+||lnstagram-copyrights.tk^
 ||lnstagram-copyrightscenter.cf^
 ||lnstagram-copyrightscenter.com^
 ||lnstagram-copyrightscenter.ga^
@@ -28126,10 +28207,13 @@
 ||lnstagram-copyrightsecure.tk^
 ||lnstagram-copyrightsecurity.cf^
 ||lnstagram-copyrightsecurity.ml^
+||lnstagram-copyrightservice.com^
 ||lnstagram-copyrightservice.ga^
 ||lnstagram-copyrightservice.gq^
 ||lnstagram-copyrightservice.ml^
 ||lnstagram-copyrightservice.tk^
+||lnstagram-copyrightservice.xyz^
+||lnstagram-copyrightservices.com^
 ||lnstagram-copyrightservices.ml^
 ||lnstagram-copyrightservices.tk^
 ||lnstagram-copyrightshelp.cf^
@@ -28143,12 +28227,22 @@
 ||lnstagram-copyrightsupport.ga^
 ||lnstagram-copyrightsupport.gq^
 ||lnstagram-copyrightsupport.ml^
+||lnstagram-copyrightsupport.online^
 ||lnstagram-copyrightsupport.tk^
+||lnstagram-copyrightsupportcenter.cf^
 ||lnstagram-copyrightsupporter.ml^
+||lnstagram-copyrightverify.cf^
+||lnstagram-copyrightverify.ml^
+||lnstagram-copyrightviolation.com^
+||lnstagram-copyrigths.cf^
 ||lnstagram-copyrigtshelp.cf^
 ||lnstagram-copyriight-center.flonto.com^
+||lnstagram-copyriqht.cf^
+||lnstagram-copyriqht.ml^
 ||lnstagram-copyrlght.cf^
 ||lnstagram-copyrlght.ga^
+||lnstagram-copyrlght.ml^
+||lnstagram-copyryht.ml^
 ||lnstagram-copytight-informations.cf^
 ||lnstagram-corporation.com^
 ||lnstagram-corps.com^
@@ -28161,12 +28255,14 @@
 ||lnstagram-fbcenter.noscope.ml^
 ||lnstagram-fbcenter.tk^
 ||lnstagram-followers.win^
+||lnstagram-for-copyright.ga^
 ||lnstagram-for-copyright.ml^
 ||lnstagram-form.com^
 ||lnstagram-form.info^
 ||lnstagram-form.ml^
 ||lnstagram-form.tk^
 ||lnstagram-forms.cf^
+||lnstagram-forms.ml^
 ||lnstagram-formteak.tk^
 ||lnstagram-freebies.win^
 ||lnstagram-gen.ml^
@@ -28186,14 +28282,21 @@
 ||lnstagram-help-centerr.ml^
 ||lnstagram-help-centers.cf^
 ||lnstagram-help-centers.tk^
+||lnstagram-help-centre.com^
 ||lnstagram-help-centre.tk^
 ||lnstagram-help-centtre.cf^
 ||lnstagram-help-centtre.ml^
 ||lnstagram-help-centtre.tk^
 ||lnstagram-help-challange.ml^
+||lnstagram-help-com.ga^
+||lnstagram-help-contact.cf^
+||lnstagram-help-copyright-center.cf^
 ||lnstagram-help-copyright-center.ml^
 ||lnstagram-help-copyright-confirm.ml^
 ||lnstagram-help-copyright-forms.cf^
+||lnstagram-help-copyright-section.cf^
+||lnstagram-help-copyright-section.ml^
+||lnstagram-help-copyright-support.cf^
 ||lnstagram-help-copyright.cf^
 ||lnstagram-help-copyright.com^
 ||lnstagram-help-copyright.ga^
@@ -28202,6 +28305,7 @@
 ||lnstagram-help-copyrights.com^
 ||lnstagram-help-copyrights.ml^
 ||lnstagram-help-media.ml^
+||lnstagram-help-sections.cf^
 ||lnstagram-help-security.cf^
 ||lnstagram-help-security.com^
 ||lnstagram-help-security.ml^
@@ -28210,7 +28314,10 @@
 ||lnstagram-help-service-center.cf^
 ||lnstagram-help-service-center.ml^
 ||lnstagram-help-service.cf^
+||lnstagram-help-service.com^
 ||lnstagram-help-service.ml^
+||lnstagram-help-service.somee.com^
+||lnstagram-help-services.com^
 ||lnstagram-help-support.com^
 ||lnstagram-help-support.ml^
 ||lnstagram-help-support.tk^
@@ -28226,9 +28333,11 @@
 ||lnstagram-help.ml^
 ||lnstagram-help.net^
 ||lnstagram-help.org^
+||lnstagram-help.services^
 ||lnstagram-help.xyz^
 ||lnstagram-helpbluebadgetakingform.ga^
 ||lnstagram-helpblueteak.ml^
+||lnstagram-helpblueteak.tk^
 ||lnstagram-helpbusiness.cf^
 ||lnstagram-helpbusiness.ml^
 ||lnstagram-helpbussines.tk^
@@ -28239,6 +28348,7 @@
 ||lnstagram-helpcenter.com^
 ||lnstagram-helpcenter.gq^
 ||lnstagram-helpcenter.ml^
+||lnstagram-helpcenter.online^
 ||lnstagram-helpcenters.com^
 ||lnstagram-helpcenters.ml^
 ||lnstagram-helpcenters.tk^
@@ -28268,14 +28378,21 @@
 ||lnstagram-helping.gq^
 ||lnstagram-helping.instacimm.com^
 ||lnstagram-helping.ml^
+||lnstagram-helpps.cf^
+||lnstagram-helps-center.com^
 ||lnstagram-helps-center.tk^
 ||lnstagram-helps-centers.cf^
+||lnstagram-helps-centers.com^
 ||lnstagram-helps-centers.ga^
 ||lnstagram-helps-centers.ml^
 ||lnstagram-helps-centers.tk^
+||lnstagram-helps-support.ml^
 ||lnstagram-helps.com^
 ||lnstagram-helps.ga^
 ||lnstagram-helps.ml^
+||lnstagram-helps.net^
+||lnstagram-helps.tk^
+||lnstagram-helpscenter.tk^
 ||lnstagram-helpscentering.com^
 ||lnstagram-helpsecure.cf^
 ||lnstagram-helpsecure.ml^
@@ -28289,6 +28406,7 @@
 ||lnstagram-helpservice.cf^
 ||lnstagram-helpservice.com^
 ||lnstagram-helpservice.ml^
+||lnstagram-helpservice.tk^
 ||lnstagram-helpservices.com.pl^
 ||lnstagram-helpservices.com^
 ||lnstagram-helpservices.ga^
@@ -28298,15 +28416,21 @@
 ||lnstagram-helpservices.xyz^
 ||lnstagram-helpservicess.tk^
 ||lnstagram-helpserviceteam.cf^
+||lnstagram-helpsform.cf^
+||lnstagram-helpsform.ga^
 ||lnstagram-helpsform.ml^
+||lnstagram-helpsform.tk^
 ||lnstagram-helpsupport.com^
+||lnstagram-helpsupport.ml^
 ||lnstagram-helpteam.cf^
+||lnstagram-helpteam.com^
 ||lnstagram-helpteams.cf^
 ||lnstagram-helpteams.ga^
 ||lnstagram-helpteams.gq^
 ||lnstagram-helptime.cf^
 ||lnstagram-helptime.ml^
 ||lnstagram-helpverify.cf^
+||lnstagram-helpverify.ml^
 ||lnstagram-icon.com^
 ||lnstagram-info-account.ml^
 ||lnstagram-info.cf^
@@ -28327,22 +28451,33 @@
 ||lnstagram-mail.com^
 ||lnstagram-mail.teknograms.com^
 ||lnstagram-mail.xyz^
+||lnstagram-me.cf^
+||lnstagram-me.ga^
+||lnstagram-me.ml^
+||lnstagram-me.tk^
+||lnstagram-media-copyright.ml^
+||lnstagram-media-line.ml^
+||lnstagram-media-support.cf^
 ||lnstagram-media.cf^
 ||lnstagram-media.ml^
 ||lnstagram-media.tk^
 ||lnstagram-mediasuportis.ml^
+||lnstagram-mediasupport.cf^
 ||lnstagram-mediasupport.ml^
 ||lnstagram-mobile.com^
 ||lnstagram-mobile.ga^
 ||lnstagram-my.com^
 ||lnstagram-nl.com^
 ||lnstagram-no-reply.ml^
+||lnstagram-notice-copyright.ml^
 ||lnstagram-office.cf^
 ||lnstagram-online-blue-badges.ml^
 ||lnstagram-online-support.ga^
 ||lnstagram-page.ml^
 ||lnstagram-partners.com^
+||lnstagram-partnersupport.cf^
 ||lnstagram-policies-copyright.tk^
+||lnstagram-policy-service.com^
 ||lnstagram-post084629.ga^
 ||lnstagram-premium.cf^
 ||lnstagram-press.ml^
@@ -28361,6 +28496,7 @@
 ||lnstagram-secure.ga^
 ||lnstagram-secure.ml^
 ||lnstagram-secure.tk^
+||lnstagram-security-account.site^
 ||lnstagram-security-address.tk^
 ||lnstagram-security-copyright.escapistalizm.ml^
 ||lnstagram-security-copyright.ml^
@@ -28381,12 +28517,14 @@
 ||lnstagram-securityhelp.com^
 ||lnstagram-securitys-support.ml^
 ||lnstagram-securitys.com^
+||lnstagram-securitys.ml^
 ||lnstagram-securityteam.ml^
 ||lnstagram-service-center.cf^
 ||lnstagram-service-center.ga^
 ||lnstagram-service-center.gq^
 ||lnstagram-service-center.ml^
 ||lnstagram-service-center.tk^
+||lnstagram-service-verify.com^
 ||lnstagram-service.cf^
 ||lnstagram-service.com^
 ||lnstagram-service.ga^
@@ -28404,6 +28542,7 @@
 ||lnstagram-serviceterms.com^
 ||lnstagram-solveproblem.tk^
 ||lnstagram-stalk-avcisi.cf^
+||lnstagram-su.com^
 ||lnstagram-sub.com^
 ||lnstagram-submit.tk^
 ||lnstagram-suports.tk^
@@ -28417,16 +28556,24 @@
 ||lnstagram-support-centers.tk^
 ||lnstagram-support-centre.ml^
 ||lnstagram-support-centre.tk^
+||lnstagram-support-com.ga^
 ||lnstagram-support-confirm-help.tk^
 ||lnstagram-support-copyright.gq^
+||lnstagram-support-help.cf^
 ||lnstagram-support-help.com^
+||lnstagram-support-help.gq^
 ||lnstagram-support-help.ml^
 ||lnstagram-support-help.tk^
 ||lnstagram-support-ig.cf^
+||lnstagram-support-line.ml^
+||lnstagram-support-media.cf^
 ||lnstagram-support-security.cf^
 ||lnstagram-support-security.ga^
+||lnstagram-support-service.ga^
+||lnstagram-support-services.com^
 ||lnstagram-support-services.tk^
 ||lnstagram-support-team.cf^
+||lnstagram-support-team.com^
 ||lnstagram-support-team.tk^
 ||lnstagram-support.cf^
 ||lnstagram-support.com^
@@ -28458,11 +28605,17 @@
 ||lnstagram-supporter.com^
 ||lnstagram-supporter.ml^
 ||lnstagram-supporter.tk^
+||lnstagram-supportes.ml^
+||lnstagram-supportf.tk^
 ||lnstagram-supportform.com^
+||lnstagram-supportform.ga^
 ||lnstagram-supportform.xyz^
 ||lnstagram-supporting.cf^
 ||lnstagram-supporting.ml^
 ||lnstagram-supporting.tk^
+||lnstagram-supportline.ml^
+||lnstagram-supportmedia.cf^
+||lnstagram-supportq.tk^
 ||lnstagram-supports-center.ga^
 ||lnstagram-supports-center.tk^
 ||lnstagram-supports-centers.tk^
@@ -28493,6 +28646,7 @@
 ||lnstagram-team.support^
 ||lnstagram-teams.cf^
 ||lnstagram-teams.tk^
+||lnstagram-technical-support.ml^
 ||lnstagram-topic.ml^
 ||lnstagram-tr.ml^
 ||lnstagram-trademarkviolationhelp.cf^
@@ -28518,6 +28672,7 @@
 ||lnstagram-verifedaccount.cf^
 ||lnstagram-verifedaccounts.cf^
 ||lnstagram-veriffiedpolicy.cf^
+||lnstagram-verifiaction-data.com^
 ||lnstagram-verification-support.ml^
 ||lnstagram-verification.alquiler-en-madrid.es^
 ||lnstagram-verification.com^
@@ -28543,11 +28698,14 @@
 ||lnstagram-verifiedbadge-form.ga^
 ||lnstagram-verifiedbadge-form.gq^
 ||lnstagram-verifiedbadge.cf^
+||lnstagram-verifiedbadge.gq^
 ||lnstagram-verifiedbadges-form.gq^
+||lnstagram-verifiedbadges.com^
 ||lnstagram-verifiedbadges.ga^
 ||lnstagram-verifiedbadges.tk^
 ||lnstagram-verifiedbadgescenter.cf^
 ||lnstagram-verifiedbadgex.ml^
+||lnstagram-verifieds.com^
 ||lnstagram-verifiedsupport.cf^
 ||lnstagram-verifiedusers.com^
 ||lnstagram-verifikasi.com^
@@ -28560,7 +28718,9 @@
 ||lnstagram-verify-badge.tk^
 ||lnstagram-verify-badges.cf^
 ||lnstagram-verify-badges.ml^
+||lnstagram-verify-confirm-help.com^
 ||lnstagram-verify-support.com^
+||lnstagram-verify-team.cf^
 ||lnstagram-verify-tick.tk^
 ||lnstagram-verify.acountverification.com^
 ||lnstagram-verify.cf^
@@ -28574,6 +28734,7 @@
 ||lnstagram-verifyaccount.cf^
 ||lnstagram-verifyaccount.com^
 ||lnstagram-verifyaccounts.cf^
+||lnstagram-verifybadge.cf^
 ||lnstagram-verifybadge.com^
 ||lnstagram-verifybadgelx.ml^
 ||lnstagram-verifybadges.cf^
@@ -28583,6 +28744,7 @@
 ||lnstagram-verifybadgs.ml^
 ||lnstagram-verifycenter.ml^
 ||lnstagram-verifycopyright.ga^
+||lnstagram-verifycopyrights.com^
 ||lnstagram-verifyhelp.cf^
 ||lnstagram-verifysupport.com^
 ||lnstagram-verifysupports.ml^
@@ -28606,6 +28768,7 @@
 ||lnstagram-violation-services.cf^
 ||lnstagram-violation-services.ml^
 ||lnstagram-violation.com^
+||lnstagram-violationhelps.com^
 ||lnstagram-violations-center-service.ml^
 ||lnstagram-violations-center-services.cf^
 ||lnstagram-violations-center.ml^
@@ -28615,6 +28778,8 @@
 ||lnstagram-web.tk^
 ||lnstagram-werify.16mb.com^
 ||lnstagram-whatsapp.com^
+||lnstagram-world.ru^
+||lnstagram-yardim.cf^
 ||lnstagram.accesspub.net^
 ||lnstagram.acountverification.com^
 ||lnstagram.aidcenter.cf^
@@ -28681,6 +28846,7 @@
 ||lnstagram.com.webredirect.club^
 ||lnstagram.com124537.xyz^
 ||lnstagram.com^
+||lnstagram.comlc.de^
 ||lnstagram.comli.biz^
 ||lnstagram.community-checkpoints.com^
 ||lnstagram.confirm.maharneza.com^
@@ -28689,6 +28855,7 @@
 ||lnstagram.confirmationhelpcentre.com^
 ||lnstagram.confirmationhelpcentre.xyz^
 ||lnstagram.confirmationhelpservices.ml^
+||lnstagram.copyright-appeals.ml^
 ||lnstagram.copyright-form.com^
 ||lnstagram.copyright-help.com^
 ||lnstagram.copyright-notice.tk^
@@ -28753,20 +28920,25 @@
 ||lnstagram.mixh.jp^
 ||lnstagram.ml^
 ||lnstagram.mobi^
+||lnstagram.music.blog^
 ||lnstagram.mx^
 ||lnstagram.na4u.ru^
 ||lnstagram.name^
+||lnstagram.net.ru^
 ||lnstagram.net^
 ||lnstagram.nu^
 ||lnstagram.nut.cc^
+||lnstagram.one^
 ||lnstagram.online^
 ||lnstagram.ooo^
 ||lnstagram.org^
 ||lnstagram.page^
 ||lnstagram.photo^
+||lnstagram.pingadmin.ir^
 ||lnstagram.pl^
 ||lnstagram.policy-account.com^
 ||lnstagram.policy-help.com^
+||lnstagram.pp.ua^
 ||lnstagram.press^
 ||lnstagram.pro^
 ||lnstagram.pt^
@@ -28776,20 +28948,27 @@
 ||lnstagram.roxypanel.pw^
 ||lnstagram.ru.com^
 ||lnstagram.ru^
+||lnstagram.se^
 ||lnstagram.securepasswordz.com^
 ||lnstagram.serveirc.com^
+||lnstagram.server-16873217855.us^
+||lnstagram.server-816548443.us^
 ||lnstagram.servicesaid.com^
 ||lnstagram.serviceshelpteam.ml^
 ||lnstagram.shop^
 ||lnstagram.site^
 ||lnstagram.store^
+||lnstagram.su^
 ||lnstagram.support-ig.com^
 ||lnstagram.supportcopyright.tk^
 ||lnstagram.supportss.ml^
 ||lnstagram.suppòrt.com^
+||lnstagram.sytes.net^
 ||lnstagram.takipcipro.cu.ma^
 ||lnstagram.team-support.ml^
+||lnstagram.tech^
 ||lnstagram.tk^
+||lnstagram.to^
 ||lnstagram.top^
 ||lnstagram.tv^
 ||lnstagram.txt.tr.ht^
@@ -28823,6 +29002,9 @@
 ||lnstagram.xn--verifed-3ya.com^
 ||lnstagram.xsrv.jp^
 ||lnstagram.xyz^
+||lnstagram.yn.fr^
+||lnstagram0.info^
+||lnstagram0.online^
 ||lnstagrama.ga.kingsmancm.club^
 ||lnstagrama.ga^
 ||lnstagramabadge2019.ml^
@@ -28838,6 +29020,7 @@
 ||lnstagramaccountbluebadgeform.ga^
 ||lnstagramaccountbluebadgetakingform.ga^
 ||lnstagramaccountbluetick.ml^
+||lnstagramaccountbluetickteams.ml^
 ||lnstagramaccountconfirmation.ml^
 ||lnstagramaccountcontrolteam.tk^
 ||lnstagramaccountcopyright.tk^
@@ -28910,6 +29093,7 @@
 ||lnstagrambadgepage.com^
 ||lnstagrambadgepage.ml^
 ||lnstagrambadgepagecenter.ml^
+||lnstagrambadges-supports.ml^
 ||lnstagrambadges.cf^
 ||lnstagrambadges.com^
 ||lnstagrambadges.ml^
@@ -28937,6 +29121,7 @@
 ||lnstagrambluebadge.com^
 ||lnstagrambluebadge.ga^
 ||lnstagrambluebadge.gq^
+||lnstagrambluebadge21.gq^
 ||lnstagrambluebadgeform.ga^
 ||lnstagrambluebadgeform.ml^
 ||lnstagrambluebadgeforms.ga^
@@ -28953,7 +29138,9 @@
 ||lnstagrambluebadqe.ml^
 ||lnstagrambluesp.somee.com^
 ||lnstagrambluetaekverfy.ml^
+||lnstagramblueteaak.somee.com^
 ||lnstagramblueteacknetwork.somee.com^
+||lnstagramblueteacks.somee.com^
 ||lnstagramblueteak.com^
 ||lnstagramblueteak.tk^
 ||lnstagramblueteakform.com^
@@ -28962,8 +29149,10 @@
 ||lnstagrambluetick.ga^
 ||lnstagrambluetickbadge.tk^
 ||lnstagrambluetickcenter.ml^
+||lnstagrambluetickform.cf^
 ||lnstagrambluetickform.ml^
 ||lnstagrambluetickform.tk^
+||lnstagrambluetickkk.somee.com^
 ||lnstagramblueticks.com^
 ||lnstagramblueticks.tk^
 ||lnstagramblueticktaking.somee.com^
@@ -28975,11 +29164,14 @@
 ||lnstagrambunissescenter.com^
 ||lnstagrambusineservice.ml^
 ||lnstagrambusiness-copyright.ml^
+||lnstagrambusiness-helps.ml^
 ||lnstagrambusiness.co^
 ||lnstagrambusiness.com^
+||lnstagrambusiness.net^
 ||lnstagrambusiness.support^
 ||lnstagrambusiness.tk^
 ||lnstagrambusinesscentre.com^
+||lnstagrambusinesscom.somee.com^
 ||lnstagrambusinesscopyright.com^
 ||lnstagrambusinesses.com^
 ||lnstagrambusinessforservice.tk^
@@ -28988,8 +29180,11 @@
 ||lnstagrambusinesshelps.com^
 ||lnstagrambusinessmanager.com^
 ||lnstagrambusinessmedia.com^
+||lnstagrambusinesspartner.com^
 ||lnstagrambusinesssupport.com^
+||lnstagrambussines.com^
 ||lnstagrambussines.ml^
+||lnstagrambussinessupport.ml^
 ||lnstagramcanlidestek.com^
 ||lnstagramcase.com^
 ||lnstagramcenter.cf^
@@ -29003,6 +29198,7 @@
 ||lnstagramcenters.ml^
 ||lnstagramcenterteam.ml^
 ||lnstagramcenterverified.com^
+||lnstagramcenterz.ml^
 ||lnstagramcentral.com^
 ||lnstagramcentral.xyz^
 ||lnstagramcentre.cf^
@@ -29012,6 +29208,7 @@
 ||lnstagramcentres.ml^
 ||lnstagramcentric.com^
 ||lnstagramcentric.xyz^
+||lnstagramcheapbadges.com^
 ||lnstagramcheck.cf^
 ||lnstagramcheck.com^
 ||lnstagramcheckpoint.com^
@@ -29020,23 +29217,39 @@
 ||lnstagramcheckpointhelp.ml^
 ||lnstagramcheckpoints.cf^
 ||lnstagramcheckpoints.ga^
+||lnstagramcheckpolnter.somee.com^
+||lnstagramchismes.com^
 ||lnstagramclaimcenters.online^
+||lnstagramclientbusiness.ga^
+||lnstagramclientcenter.cf^
+||lnstagramclientcontact.cf^
+||lnstagramclientonline.cf^
+||lnstagramclientonline.tk^
+||lnstagramclientpartner.cf^
+||lnstagramclientpartner.ml^
 ||lnstagramclientsupport.cf^
 ||lnstagramclientsupport.com^
+||lnstagramclientsupport.ml^
+||lnstagramclientsupported.ml^
 ||lnstagramco.altervista.org^
+||lnstagramcofirmations.com^
 ||lnstagramcom-resetpassword.tk^
 ||lnstagramcom.cf^
 ||lnstagramcomfirmationcenter.ga^
 ||lnstagramcommunicationoffice.tk^
 ||lnstagramcommunity.com^
+||lnstagramcommunity.ga^
+||lnstagramcommunity.ml^
 ||lnstagramcompany.cf^
 ||lnstagramcompany.com^
 ||lnstagramcomunicationoffice.cf^
 ||lnstagramconfirm.com^
 ||lnstagramconfirmation.cf^
 ||lnstagramconfirmation.ml^
+||lnstagramconfirmationhelp.com^
 ||lnstagramconfirmbusiness.com^
 ||lnstagramconfirmhelpsecurity.com^
+||lnstagramconfirmmaccount.somee.com^
 ||lnstagramconfrmbadge.ga^
 ||lnstagramcontact.com^
 ||lnstagramcontact.ga^
@@ -29045,11 +29258,16 @@
 ||lnstagramcontactform.tk^
 ||lnstagramcontactservice.tk^
 ||lnstagramcontrolservices.ml^
+||lnstagramcooprigght.gq^
+||lnstagramcooprrightz.gq^
 ||lnstagramcopryight.ml^
+||lnstagramcopryrightz.gq^
+||lnstagramcopyirght.cf^
 ||lnstagramcopyirght.com^
 ||lnstagramcopyirght.tk^
 ||lnstagramcopyrig-help.com^
 ||lnstagramcopyright-business.com^
+||lnstagramcopyright-center.cf^
 ||lnstagramcopyright-center.com^
 ||lnstagramcopyright-center.somee.com^
 ||lnstagramcopyright-centers.ga^
@@ -29061,10 +29279,15 @@
 ||lnstagramcopyright-help.ml^
 ||lnstagramcopyright-help.tk^
 ||lnstagramcopyright-helpcenter.cf^
+||lnstagramcopyright-helpcenterr.tk^
 ||lnstagramcopyright-helpcenters.cf^
+||lnstagramcopyright-helps.com^
+||lnstagramcopyright-helpscentre.cf^
+||lnstagramcopyright-helpscentre.ml^
 ||lnstagramcopyright-infrigement.ml^
 ||lnstagramcopyright-page.ml^
 ||lnstagramcopyright-service.com^
+||lnstagramcopyright-services.com^
 ||lnstagramcopyright-support.cf^
 ||lnstagramcopyright-support.com^
 ||lnstagramcopyright-support.gq^
@@ -29075,14 +29298,17 @@
 ||lnstagramcopyright.ga^
 ||lnstagramcopyright.gq^
 ||lnstagramcopyright.info^
+||lnstagramcopyright.live^
 ||lnstagramcopyright.me^
 ||lnstagramcopyright.ml^
 ||lnstagramcopyright.net^
 ||lnstagramcopyright.online^
 ||lnstagramcopyright.org^
+||lnstagramcopyright.site^
 ||lnstagramcopyright.support^
 ||lnstagramcopyright.xyz^
 ||lnstagramcopyrightaccount.ml^
+||lnstagramcopyrightagency.com^
 ||lnstagramcopyrightappeal.com^
 ||lnstagramcopyrightassist.com^
 ||lnstagramcopyrightb612.ga^
@@ -29097,8 +29323,10 @@
 ||lnstagramcopyrightcenter.ml^
 ||lnstagramcopyrightcenter.tk.kazandiranfarm.com^
 ||lnstagramcopyrightcenter.tk^
+||lnstagramcopyrightcenter.xyz^
 ||lnstagramcopyrightcenterr.ml^
 ||lnstagramcopyrightcenters.com^
+||lnstagramcopyrightcenters.ga^
 ||lnstagramcopyrightcenters.ml^
 ||lnstagramcopyrightcentre.com^
 ||lnstagramcopyrightcentre.gq^
@@ -29130,11 +29358,14 @@
 ||lnstagramcopyrighthelp.ga^
 ||lnstagramcopyrighthelp.gq^
 ||lnstagramcopyrighthelp.ml^
+||lnstagramcopyrighthelp.online^
 ||lnstagramcopyrighthelp.tk^
+||lnstagramcopyrighthelpagency.com^
 ||lnstagramcopyrighthelpcenter-com.ml^
 ||lnstagramcopyrighthelpcenter.cf^
 ||lnstagramcopyrighthelpcenter.com^
 ||lnstagramcopyrighthelpcenter.ga^
+||lnstagramcopyrighthelpcenter.tk^
 ||lnstagramcopyrighthelpcenterc.ml^
 ||lnstagramcopyrighthelpcenters.cf^
 ||lnstagramcopyrighthelpcenters.ml^
@@ -29147,13 +29378,23 @@
 ||lnstagramcopyrighthelps.ga^
 ||lnstagramcopyrighthelps.gq^
 ||lnstagramcopyrighthelps.ml^
+||lnstagramcopyrighthelps.org^
+||lnstagramcopyrighthelpsection.cf^
+||lnstagramcopyrighthelpservice.cf^
+||lnstagramcopyrighthelpservice.ga^
 ||lnstagramcopyrighthelpservice.gq^
+||lnstagramcopyrighthelpserviceteam.ml^
+||lnstagramcopyrighthelpserviceteam.tk^
 ||lnstagramcopyrightin.ml^
+||lnstagramcopyrightinform.tk^
 ||lnstagramcopyrightinformation.ml^
 ||lnstagramcopyrightinfringement.cf^
+||lnstagramcopyrightinfringement.com^
 ||lnstagramcopyrightinfringement.ml^
 ||lnstagramcopyrightissue.somee.com^
 ||lnstagramcopyrightl.ml^
+||lnstagramcopyrightline.cf^
+||lnstagramcopyrightmedia.com^
 ||lnstagramcopyrightmedia.tk^
 ||lnstagramcopyrightnotice-form.ml^
 ||lnstagramcopyrightnotice.ga^
@@ -29164,6 +29405,8 @@
 ||lnstagramcopyrightnoticeverify.ml^
 ||lnstagramcopyrightpage.ml^
 ||lnstagramcopyrightpage.tk^
+||lnstagramcopyrightplatform.tk^
+||lnstagramcopyrightr.com^
 ||lnstagramcopyrights-agencies.ml^
 ||lnstagramcopyrights-center.cf^
 ||lnstagramcopyrights-help.com^
@@ -29182,14 +29425,19 @@
 ||lnstagramcopyrightservice.com^
 ||lnstagramcopyrightservice.ga^
 ||lnstagramcopyrightservice.ml^
+||lnstagramcopyrightservice.somee.com^
 ||lnstagramcopyrightservices.com^
+||lnstagramcopyrightservices.ga^
 ||lnstagramcopyrightservices.gq^
 ||lnstagramcopyrightservices.ml^
 ||lnstagramcopyrightservices.tk^
+||lnstagramcopyrightserviice.com^
 ||lnstagramcopyrightshelp.com^
 ||lnstagramcopyrightshelp.info^
 ||lnstagramcopyrightshelp.tk^
+||lnstagramcopyrightshelpcenter.cf^
 ||lnstagramcopyrightshelps.cf^
+||lnstagramcopyrightshelps.com^
 ||lnstagramcopyrightshelpsteam.ml^
 ||lnstagramcopyrightshelpsverify.ml^
 ||lnstagramcopyrightsrvice.cf^
@@ -29198,14 +29446,19 @@
 ||lnstagramcopyrightsrvices.gq^
 ||lnstagramcopyrightsscentre.cf^
 ||lnstagramcopyrightsupport.cf^
+||lnstagramcopyrightsupport.com^
 ||lnstagramcopyrightsupport.ml^
 ||lnstagramcopyrightsupport.tk.kazandiranfarm.com^
 ||lnstagramcopyrightsupport.tk^
+||lnstagramcopyrightsupportcenter.cf^
 ||lnstagramcopyrightsupports.com^
 ||lnstagramcopyrightsverify.ml^
 ||lnstagramcopyrightt.ga^
+||lnstagramcopyrightteam.ga^
 ||lnstagramcopyrightthelpscenter.cf^
+||lnstagramcopyrightus.com^
 ||lnstagramcopyrightviolation.cf^
+||lnstagramcopyrightviolation.com^
 ||lnstagramcopyrigtcentre.com^
 ||lnstagramcopyrigth.com^
 ||lnstagramcopyrigtmedia.tk^
@@ -29216,9 +29469,11 @@
 ||lnstagramcopyrihgtcenter.gq^
 ||lnstagramcopyrihgthelp.tk^
 ||lnstagramcopyrihts.com^
+||lnstagramcopyriqhtsupport.com^
 ||lnstagramcopyrlghthelp.cf^
 ||lnstagramcopyyrightt.tk^
 ||lnstagramcoypright.com^
+||lnstagramcoypright.tk^
 ||lnstagramcpyright.tk^
 ||lnstagramdelete.cf^
 ||lnstagramdestek.com^
@@ -29228,14 +29483,18 @@
 ||lnstagramdocument.com^
 ||lnstagrame.blogspot.com^
 ||lnstagrame.com^
+||lnstagramengagementcentre.tk^
 ||lnstagramerror.tk^
 ||lnstagramexecusive-support.cf^
 ||lnstagramexecusive-support.ga^
 ||lnstagramfacebook.altervista.org^
+||lnstagramfakefollowerverification.com^
+||lnstagramfollower.ga^
 ||lnstagramfollower.info^
 ||lnstagramfollowers.com^
 ||lnstagramfollowers.ga^
 ||lnstagramfollowers.win^
+||lnstagramfollowers4followers.tk^
 ||lnstagramforbusiness.cf^
 ||lnstagramforbusiness.ml^
 ||lnstagramforbusiness.tk^
@@ -29255,28 +29514,39 @@
 ||lnstagramformbage.ml^
 ||lnstagramformbages.tk^
 ||lnstagramformcopyright.com^
+||lnstagramforms.ml^
 ||lnstagramformservice.com^
+||lnstagramformsupport.tk^
 ||lnstagramforservices.tk^
+||lnstagramfreefollowers.ml^
 ||lnstagramfromfacebook.com^
 ||lnstagramgamingsupport.ml^
+||lnstagramglobalcenter.com^
 ||lnstagramgrowth.live^
 ||lnstagramguvenlik.ml^
+||lnstagramhandlereceiver.tk^
 ||lnstagramharuka0130.com^
 ||lnstagramhelp-blueteak.tk^
+||lnstagramhelp-business.com^
 ||lnstagramhelp-center.com^
 ||lnstagramhelp-center.ga^
+||lnstagramhelp-center.gq^
 ||lnstagramhelp-center.tk^
 ||lnstagramhelp-centtre.ga^
 ||lnstagramhelp-confirm.com^
+||lnstagramhelp-confirm.helpcentre-copyright.com^
 ||lnstagramhelp-copyright.cf^
 ||lnstagramhelp-copyright.com^
 ||lnstagramhelp-copyright.gq^
 ||lnstagramhelp-copyright.tk^
 ||lnstagramhelp-copyrights.cf^
+||lnstagramhelp-form.com^
 ||lnstagramhelp-service.ml^
 ||lnstagramhelp-services.gq^
 ||lnstagramhelp-services.ml^
+||lnstagramhelp-services.tk^
 ||lnstagramhelp-support.ga^
+||lnstagramhelp-team.somee.com^
 ||lnstagramhelp.business^
 ||lnstagramhelp.center^
 ||lnstagramhelp.cf^
@@ -29284,6 +29554,7 @@
 ||lnstagramhelp.co^
 ||lnstagramhelp.com^
 ||lnstagramhelp.design^
+||lnstagramhelp.diyanetflix.com^
 ||lnstagramhelp.info^
 ||lnstagramhelp.me^
 ||lnstagramhelp.online^
@@ -29315,11 +29586,13 @@
 ||lnstagramhelpcenter.info^
 ||lnstagramhelpcenter.ooo^
 ||lnstagramhelpcenter.shop^
+||lnstagramhelpcenter.site^
 ||lnstagramhelpcenter.somee.com^
 ||lnstagramhelpcenter001.ml^
 ||lnstagramhelpcenterbadge.com^
 ||lnstagramhelpcenterbadgepage.ml^
 ||lnstagramhelpcentercopyright-com.ml^
+||lnstagramhelpcentercopyright.cf^
 ||lnstagramhelpcenterpage-com.ml^
 ||lnstagramhelpcenterpage.com^
 ||lnstagramhelpcenters-com.ml^
@@ -29346,6 +29619,7 @@
 ||lnstagramhelpcentre.ga^
 ||lnstagramhelpcentre.gq.balikesiruzmantip.com^
 ||lnstagramhelpcentre.gq^
+||lnstagramhelpcentre.ml^
 ||lnstagramhelpcentre.tk^
 ||lnstagramhelpcentre.xyz^
 ||lnstagramhelpcentrecopyright.com^
@@ -29368,15 +29642,25 @@
 ||lnstagramhelpcopyright.com^
 ||lnstagramhelpcopyright.ga^
 ||lnstagramhelpcopyright.ml^
+||lnstagramhelpcopyright.net^
 ||lnstagramhelpcopyright.tk^
+||lnstagramhelpcopyrightcenter.gq^
 ||lnstagramhelpcopyrightconfirm.ml^
+||lnstagramhelpcopyrights.com^
 ||lnstagramhelpcopyrights.support^
 ||lnstagramhelpcopyrightssupport.com^
 ||lnstagramhelpcopyrightssupports.com^
 ||lnstagramhelpdesk.tk^
 ||lnstagramhelper.cf^
 ||lnstagramhelper.info^
+||lnstagramhelperservicess.tk^
+||lnstagramhelperservicess1.tk^
+||lnstagramhelperservicess3.tk^
+||lnstagramhelperservicess4.tk^
 ||lnstagramhelpersupport.com^
+||lnstagramhelpfeed.com^
+||lnstagramhelpform.cf^
+||lnstagramhelpform.ml^
 ||lnstagramhelpgrub.ml^
 ||lnstagramhelping-copyright.ml^
 ||lnstagramhelping.cf^
@@ -29385,22 +29669,29 @@
 ||lnstagramhelpingcenter.cf^
 ||lnstagramhelpingcenter.com^
 ||lnstagramhelpingcenter.ml^
+||lnstagramhelpingcenter.xyz^
 ||lnstagramhelpingmail.ml^
+||lnstagramhelpingserver.com^
 ||lnstagramhelplive.ml^
 ||lnstagramhelpmail.ml^
 ||lnstagramhelpmedia.com^
 ||lnstagramhelpp.tk^
 ||lnstagramhelppage-page.ml^
+||lnstagramhelps-copyright.cf^
+||lnstagramhelps-copyright.ml^
+||lnstagramhelps-copyright.tk^
 ||lnstagramhelps-copyrights.cf^
 ||lnstagramhelps.cf^
 ||lnstagramhelps.com^
 ||lnstagramhelps.ga^
+||lnstagramhelps.gq^
 ||lnstagramhelps.info^
 ||lnstagramhelps.ml.otomailsahibi.ml^
 ||lnstagramhelps.ooo^
 ||lnstagramhelps.site^
 ||lnstagramhelps.tk^
 ||lnstagramhelps.website^
+||lnstagramhelpsbadge.cf^
 ||lnstagramhelpscenter-com.ml^
 ||lnstagramhelpscenter.com^
 ||lnstagramhelpscenter.ml^
@@ -29413,11 +29704,14 @@
 ||lnstagramhelpsecure.ml^
 ||lnstagramhelpsecuritycenter.com^
 ||lnstagramhelpsecuritys-violations.cf^
+||lnstagramhelpservic.info^
 ||lnstagramhelpservice.cf^
 ||lnstagramhelpservice.com^
+||lnstagramhelpservice.eu5.org^
 ||lnstagramhelpservice.gq^
 ||lnstagramhelpservice.ml^
 ||lnstagramhelpservice.net^
+||lnstagramhelpservice.online^
 ||lnstagramhelpservice.tk^
 ||lnstagramhelpservices.cf^
 ||lnstagramhelpservices.com^
@@ -29425,6 +29719,8 @@
 ||lnstagramhelpservices.gq^
 ||lnstagramhelpservices.ml^
 ||lnstagramhelpservices.tk^
+||lnstagramhelpservicescenter.ml^
+||lnstagramhelpservicescenter.tk^
 ||lnstagramhelpsgrub.ml^
 ||lnstagramhelpspport.ml^
 ||lnstagramhelpspprt.ml^
@@ -29433,6 +29729,7 @@
 ||lnstagramhelpsteam.cf^
 ||lnstagramhelpsteam.ga^
 ||lnstagramhelpsteam.tk^
+||lnstagramhelpsuportq.tk^
 ||lnstagramhelpsupport.com^
 ||lnstagramhelpsupport.gq^
 ||lnstagramhelpsupport.ml^
@@ -29441,8 +29738,10 @@
 ||lnstagramhelpsupportaccounts.cf^
 ||lnstagramhelpsupportaccounts.ga^
 ||lnstagramhelpsupportaccounts.ml^
+||lnstagramhelpsupportq.tk^
 ||lnstagramhelpsupports.tk^
 ||lnstagramhelpsupportz.cf^
+||lnstagramhelpsupportz.ml^
 ||lnstagramhelpteam.cf^
 ||lnstagramhelpteam.com^
 ||lnstagramhelpteam.ga^
@@ -29452,16 +29751,20 @@
 ||lnstagramhelpteam.us^
 ||lnstagramhelpteam.xyz^
 ||lnstagramhelpteams.cf^
+||lnstagramhelpteams.com^
 ||lnstagramhelpteams.ml^
+||lnstagramhelpteams.xyz^
 ||lnstagramhelpteamteamservice.com^
 ||lnstagramhelptools-info.tk^
 ||lnstagramhelptools.tk^
 ||lnstagramhelpunity.ga^
 ||lnstagramhelpunity.ml^
 ||lnstagramhelpverified.com^
+||lnstagramhelpverified.ml^
 ||lnstagramhelpverifiedbadge.com^
 ||lnstagramhelpverifysupport.com^
 ||lnstagramhelpverifysupport.xyz^
+||lnstagramhesapbildirim.ml^
 ||lnstagramidentify.tk^
 ||lnstagramidentifyforverify.tk^
 ||lnstagramidentifyservice.ml^
@@ -29469,8 +29772,12 @@
 ||lnstagramidentifysupport.tk^
 ||lnstagraminfo.com^
 ||lnstagraminfo.ga^
+||lnstagraminfocopyright.tk^
+||lnstagraminfocoypright.tk^
+||lnstagraminformation.somee.com^
 ||lnstagramingservices.tk^
 ||lnstagramionadfioraithecuntais.cf^
+||lnstagramjordans.com^
 ||lnstagramkantorkomunikasi.cf^
 ||lnstagramkuralihlali.ml^
 ||lnstagraml.aspetbiebs.com^
@@ -29479,24 +29786,34 @@
 ||lnstagraml.esy.es^
 ||lnstagraml.ml^
 ||lnstagraml.tk^
+||lnstagramlike4like.tk^
 ||lnstagramlikerss.5gbfree.com^
 ||lnstagramlive.xyz^
 ||lnstagramlivehelp.ml^
+||lnstagramlivesupport.com^
 ||lnstagramlivesupport.ml^
+||lnstagramlnfringnmentz.gq^
 ||lnstagramlogin.cf^
 ||lnstagramlogin.com^
 ||lnstagramlogin.ml^
 ||lnstagramloginaccount.altervista.org^
+||lnstagramlogln.altervista.org^
+||lnstagramltalia.tk^
 ||lnstagramm-formm.cf^
 ||lnstagramm-formm.ga^
 ||lnstagramm-formm.gq^
 ||lnstagramm-formmm.ga^
 ||lnstagramm.cf^
 ||lnstagramm.com^
+||lnstagramm.ru^
 ||lnstagrammail.com^
 ||lnstagrammail.tk^
 ||lnstagrammailprovider.site^
 ||lnstagrammedia.com^
+||lnstagrammediacenter.site.thenexttechnology.com^
+||lnstagrammediacenter.site^
+||lnstagrammediaoperations.ml^
+||lnstagrammediasupport.com^
 ||lnstagrammer.ml^
 ||lnstagrammsupporters.com^
 ||lnstagrammsuspendedaccounts.ml^
@@ -29505,6 +29822,7 @@
 ||lnstagramn.com^
 ||lnstagramn.myfanpage.org^
 ||lnstagramn.store^
+||lnstagramnew.altervista.org^
 ||lnstagramno-copyright.tk^
 ||lnstagramofficial.com^
 ||lnstagramonline.tk^
@@ -29530,21 +29848,28 @@
 ||lnstagrampagesgelpcc-centrss.ml^
 ||lnstagrampagesgelpcs-cntr.ml^
 ||lnstagrampartner-security.cf^
+||lnstagrampartner.cf^
 ||lnstagrampartner.com^
 ||lnstagrampartner.ml^
+||lnstagrampartneraccounts.tk^
 ||lnstagrampartnerbusiness.cf^
+||lnstagrampartnercontact.cf^
 ||lnstagrampartnerhelp.cf^
+||lnstagrampartnerhelp.com^
 ||lnstagrampartnermedia.cf^
 ||lnstagrampartners.cf^
 ||lnstagrampartners.ml^
 ||lnstagrampartnerservice.cf^
 ||lnstagrampartnersupport.cf^
 ||lnstagrampartnersupport.com^
+||lnstagrampartnersupported.cf^
+||lnstagrampartnersz.gq^
 ||lnstagrampasswordreset.cf^
 ||lnstagramphotos.com^
 ||lnstagrampolicy.com^
 ||lnstagrampolicy.ml^
 ||lnstagrampolicyhelp.com^
+||lnstagrampoliticy.com^
 ||lnstagramportalcopyright.com^
 ||lnstagramprivacy.com^
 ||lnstagramprivacy.live^
@@ -29553,12 +29878,16 @@
 ||lnstagramproblem.ml^
 ||lnstagramprofile.altervista.org^
 ||lnstagramprofile.com^
+||lnstagrampublisherhelp.cf^
+||lnstagrampublishersupport.cf^
 ||lnstagramrecovery.altervista.org^
 ||lnstagramredirecting.online^
 ||lnstagramredtickcheatpoint.somee.com^
 ||lnstagramrefund.ml^
 ||lnstagramreply.tk^
+||lnstagramreportviolation.ga^
 ||lnstagramreview.ml^
+||lnstagramright.com^
 ||lnstagramru.com^
 ||lnstagrams-4gcf0xzkjsakl.gq^
 ||lnstagrams-account.tk^
@@ -29571,9 +29900,11 @@
 ||lnstagrams-copyrightshelp.cf^
 ||lnstagrams-copyrightshelps.cf^
 ||lnstagrams-copyrirghts.ml^
+||lnstagrams-help.com^
 ||lnstagrams-help.ml^
 ||lnstagrams-helpcenter.cf^
 ||lnstagrams-helpcopyright.cf^
+||lnstagrams-support.tk^
 ||lnstagrams.altervista.org^
 ||lnstagrams.center^
 ||lnstagrams.cf^
@@ -29584,6 +29915,8 @@
 ||lnstagrams.live^
 ||lnstagrams.media^
 ||lnstagrams.net^
+||lnstagrams.site^
+||lnstagrams.website^
 ||lnstagramsblueticks.ml^
 ||lnstagramsbluetickteams.ml^
 ||lnstagramsbusiness.cf^
@@ -29595,6 +29928,8 @@
 ||lnstagramscopyright.ga^
 ||lnstagramscopyright.ml^
 ||lnstagramscopyrights-helpsteams.ml^
+||lnstagramsecuirtyhelp.ml.thenexttechnology.com^
+||lnstagramsecuirtyhelp.ml^
 ||lnstagramsecureteam.ga^
 ||lnstagramsecureteam.ml^
 ||lnstagramsecurit.tk^
@@ -29659,20 +29994,30 @@
 ||lnstagramshelpsgrub.ml^
 ||lnstagramspport.cf^
 ||lnstagramspy.site^
+||lnstagramsservice.com^
 ||lnstagramsspporteams.ml^
+||lnstagramssupporteam.somee.com^
 ||lnstagramstaff.com^
 ||lnstagramstaff.ml^
 ||lnstagramsteam.ml^
 ||lnstagramsup.cf^
 ||lnstagramsuport.ml^
+||lnstagramsuport.tk^
 ||lnstagramsupporls.cf^
 ||lnstagramsupport-center.cf^
+||lnstagramsupport-center.com^
 ||lnstagramsupport-center.ml^
 ||lnstagramsupport-copyright.com^
 ||lnstagramsupport-copyright.ml^
 ||lnstagramsupport-copyright.tk^
+||lnstagramsupport-copyrights.com^
+||lnstagramsupport-help.com^
 ||lnstagramsupport-help.tk^
+||lnstagramsupport-helping.com^
+||lnstagramsupport-helps.com^
+||lnstagramsupport-line.ml^
 ||lnstagramsupport-s.com^
+||lnstagramsupport-verifiedbadges.com^
 ||lnstagramsupport.cf^
 ||lnstagramsupport.com^
 ||lnstagramsupport.email^
@@ -29699,6 +30044,7 @@
 ||lnstagramsupportcentral.cf^
 ||lnstagramsupportcentral.ga^
 ||lnstagramsupportcentral.ml^
+||lnstagramsupportcentre.tk^
 ||lnstagramsupportcopyright.ml^
 ||lnstagramsupporteam.gq^
 ||lnstagramsupported.ml^
@@ -29707,7 +30053,11 @@
 ||lnstagramsupporter.ml^
 ||lnstagramsupporter.org^
 ||lnstagramsupporter.tk^
+||lnstagramsupportess.com^
+||lnstagramsupportf.tk^
 ||lnstagramsupportform.ml^
+||lnstagramsupportgroup.tk^
+||lnstagramsupporth.tk^
 ||lnstagramsupporthelp.com^
 ||lnstagramsupporthelpcenter.com^
 ||lnstagramsupporthub.ga^
@@ -29715,6 +30065,14 @@
 ||lnstagramsupporthub.ml^
 ||lnstagramsupporting.ml^
 ||lnstagramsupporting.tk^
+||lnstagramsupportline.cf^
+||lnstagramsupportline.com^
+||lnstagramsupportmedia.ml^
+||lnstagramsupportn.tk^
+||lnstagramsupportq.cf^
+||lnstagramsupportq.tk^
+||lnstagramsupportrecourse.com^
+||lnstagramsupportrequest.tk^
 ||lnstagramsupports.cf^
 ||lnstagramsupports.com^
 ||lnstagramsupports.ga^
@@ -29726,6 +30084,7 @@
 ||lnstagramsupportsemail.com^
 ||lnstagramsupportsen.ml^
 ||lnstagramsupportservice.cf^
+||lnstagramsupportservices.cf^
 ||lnstagramsupportservices.com^
 ||lnstagramsupportservices.tk^
 ||lnstagramsupportteam.cf^
@@ -29735,6 +30094,8 @@
 ||lnstagramsupportts.ml^
 ||lnstagramsupportverified.com^
 ||lnstagramsupportverify.tk^
+||lnstagramsupportveriyfbagde.cf^
+||lnstagramsupportz2.gq^
 ||lnstagramsupprot.ga^
 ||lnstagramsupprot.gq^
 ||lnstagramsupprot.ml^
@@ -29760,9 +30121,11 @@
 ||lnstagramsuspends.ml^
 ||lnstagramsuspiciousentrydetection.ml^
 ||lnstagramsuspicousloginverify.ml^
+||lnstagramsuupoortz.gq^
 ||lnstagramsverify.gq^
 ||lnstagramtakipcim.ml^
 ||lnstagramtakipcim.tk^
+||lnstagramtakipcimbegenicim.somee.com^
 ||lnstagramteam-verifyhelp.com^
 ||lnstagramteam.com^
 ||lnstagramteam.gq^
@@ -29781,6 +30144,7 @@
 ||lnstagramteamsupport.com^
 ||lnstagramteamverify.cf^
 ||lnstagramteamverify.com^
+||lnstagramtechnicalsupport.ml^
 ||lnstagramthebluebadge.tk^
 ||lnstagramthecopyright.com^
 ||lnstagramthecopyrighted.com^
@@ -29789,10 +30153,14 @@
 ||lnstagramthecopyrights.tk^
 ||lnstagramthesupport.com^
 ||lnstagramtick.5gbfree.com^
+||lnstagramtugberkctn0.com^
 ||lnstagramusa.com^
 ||lnstagramuscian.000webhostapp.com^
 ||lnstagramuser.ga^
 ||lnstagramuser.tk^
+||lnstagramuserplatform.tk^
+||lnstagramuserportal.cf^
+||lnstagramuz.com^
 ||lnstagramvarbagdes.ga^
 ||lnstagramvarbagdess.cf^
 ||lnstagramveerfy.cf^
@@ -29809,9 +30177,11 @@
 ||lnstagramverifactionbadge.com^
 ||lnstagramverifedbadge.com^
 ||lnstagramverifedbadges.ga^
+||lnstagramveriffyaccount.somee.com^
 ||lnstagramverification.com^
 ||lnstagramverification.tk^
 ||lnstagramverification.xyz^
+||lnstagramverificationaccount.somee.com^
 ||lnstagramverificationaccountcenter.tk^
 ||lnstagramverificationcenter.cf^
 ||lnstagramverificationcenter.com^
@@ -29840,6 +30210,7 @@
 ||lnstagramverifiedbadges.com^
 ||lnstagramverifiedbadges.ml^
 ||lnstagramverifiedbadges.org^
+||lnstagramverifiedbadges.site^
 ||lnstagramverifiedbadges.tk^
 ||lnstagramverifiedbadgescontact.com^
 ||lnstagramverifiedcenter.com^
@@ -29872,12 +30243,14 @@
 ||lnstagramverify.ooo^
 ||lnstagramverify.pw^
 ||lnstagramverify.tk^
+||lnstagramverify0.somee.com^
 ||lnstagramverifyaccount-bluetick.tk^
 ||lnstagramverifyaccount.com^
 ||lnstagramverifyaccount.ga^
 ||lnstagramverifyaccount.ml^
 ||lnstagramverifyaccount.ooo^
 ||lnstagramverifyaccount.tk^
+||lnstagramverifyaccountcopyrights.ml^
 ||lnstagramverifyaccounts.cf^
 ||lnstagramverifyaccounts.gq^
 ||lnstagramverifyacount.com^
@@ -29885,6 +30258,8 @@
 ||lnstagramverifyapplyservice.cf^
 ||lnstagramverifybadge.com^
 ||lnstagramverifybadge.ga^
+||lnstagramverifybadge.site^
+||lnstagramverifybadge.xyz^
 ||lnstagramverifybadgeapply.cf^
 ||lnstagramverifybadgecenter.ooo^
 ||lnstagramverifybadgepage.cf^
@@ -29895,10 +30270,13 @@
 ||lnstagramverifybadgesupport.ml^
 ||lnstagramverifybadgex.ml^
 ||lnstagramverifybadgs.ml^
+||lnstagramverifybluetickcheck.somee.com^
 ||lnstagramverifybusinnes.com^
 ||lnstagramverifycenter.com^
+||lnstagramverifycenter.gq^
 ||lnstagramverifycenter.tk.instacimm.gq^
 ||lnstagramverifycenter.tk^
+||lnstagramverifycopryting.somee.com^
 ||lnstagramverifyedbadgesbluee.com^
 ||lnstagramverifyemail.com^
 ||lnstagramverifyhelp.com^
@@ -29911,12 +30289,16 @@
 ||lnstagramverifypage.tk^
 ||lnstagramverifys.cf^
 ||lnstagramverifysbadge.tk^
+||lnstagramverifyservice.live^
 ||lnstagramverifyservice.ml^
+||lnstagramverifyservice.online^
+||lnstagramverifyservices.cf^
 ||lnstagramverifyservices.ml^
 ||lnstagramverifysgroup.cf^
 ||lnstagramverifysupport.com^
 ||lnstagramverifysupport.ml^
 ||lnstagramverifysupport.tk^
+||lnstagramverifyteam.cf^
 ||lnstagramverifyteam.com^
 ||lnstagramverifytoidentify.ml^
 ||lnstagramverifyup.tk^
@@ -29927,6 +30309,7 @@
 ||lnstagramverrieifedbadges.ga^
 ||lnstagramverrifeddbadgess.ga^
 ||lnstagramviolation-centers.ml^
+||lnstagramviolation.com^
 ||lnstagramviolation.ml^
 ||lnstagramviolation.somee.com^
 ||lnstagramviolationaccoounntts.ml^
@@ -29940,6 +30323,8 @@
 ||lnstagramviolationaccountss.ml^
 ||lnstagramviolationaccountts.ml^
 ||lnstagramviolationaidteam.tk^
+||lnstagramviolationappeal.com^
+||lnstagramviolationappeals.com^
 ||lnstagramviolationcenter.cf^
 ||lnstagramviolationcenter.ga^
 ||lnstagramviolationcenter.gq^
@@ -29959,15 +30344,21 @@
 ||lnstagramviolationforms.tech^
 ||lnstagramviolationhelp.com^
 ||lnstagramviolationopeningteam.tk^
+||lnstagramviolations.com^
 ||lnstagramviolationscenterserviced.ml^
 ||lnstagramviolationservice.ml^
 ||lnstagramviolationservicecenter.ml^
 ||lnstagramviolationsystem.ml^
 ||lnstagramviolationteamservices.ml^
 ||lnstagramviolationtenservices.ml^
+||lnstagramw-support.tk^
 ||lnstagramwhatsappcopyright.cf^
+||lnstagramx.ga^
 ||lnstagramy.cf^
 ||lnstagramyardimmerkezi.com^
+||lnstagramz-support.tk^
+||lnstagramzpartnerz.gq^
+||lnstagramzsupporta.ga^
 ||lnt-paypa1.info^
 ||lnternersegura.online^
 ||lnternersegura.website^
@@ -30165,6 +30556,7 @@
 ||login.app1e2017.08times.mai12017.com^
 ||login.applе.retrive-verify.com^
 ||login.facebo0k.com.access.gratuit.fblafr.kowoy.com^
+||login.paypa1.com.ters.live^
 ||login.xn--appl-y4d.retrive-verify.com^
 ||login.xn--pl-b9b8dy5a.com.susujandasusumuda.com^
 ||login.αρplе.com.susujandasusumuda.com^
@@ -30683,6 +31075,7 @@
 ||m-facebo0k.followersfb.com^
 ||m-facebo0k.tk^
 ||m-help-lnstagram.cf^
+||m-help-lnstagram.com^
 ||m-lnstagram.com^
 ||m-lnstagram.ml^
 ||m-lnstagram.tk^
@@ -30791,12 +31184,10 @@
 ||m71.qhdzfs.cn^
 ||m73lae5cpmgrv38.com^
 ||m78.xhydrs.cn^
-||m7y4os.lero.worldkickboxingcommission.com^
 ||m81jmqmn.ru^
 ||m88cvf.com^
 ||m88my.com^
 ||m88vina.com^
-||m8axgg.beg.smalltailsbfr.com^
 ||m9in5.top^
 ||m9nybc.best.pershoretaxis.co.uk^
 ||ma-code.ru^
@@ -30807,7 +31198,6 @@
 ||ma1.twimg.com^
 ||ma2.twimg.com^
 ||ma3.twimg.com^
-||ma79zp.last.pershoreairporttaxis.co.uk^
 ||ma85-r-analytics.akamaized.net^
 ||mabaya.com^
 ||mabeetam.com^
@@ -31130,6 +31520,7 @@
 ||manage-app1eid.securityacces1ocked.com^
 ||manage-app1eid.securityaccesdisab1e.com^
 ||manage-app1eid.servebeer.com^
+||manage-app1eid.serveblog.net^
 ||manage-app1eid.servepics.com^
 ||manage-app1eid.true1ocked.com^
 ||manage-app1eid.updateacceshas1ocked.com^
@@ -31170,6 +31561,7 @@
 ||manage-app1eid.verifymyactivedisab1e.com^
 ||manage-app1eid.verifys1nc1ocked.com^
 ||manage-app1eid.verifysub1ocked.com^
+||manage-app1eidus.serveblog.net^
 ||manage-app1eld.idms-cdn-authuserverlfi.com^
 ||manage-app1elox.servebeer.com^
 ||manage-authapp1e.serveirc.com^
@@ -31189,9 +31581,11 @@
 ||manage-support.app1eid.authver1fy.com^
 ||manage-support.app1eid.authverificat1on.com^
 ||manage-ver1fapp1e.serveirc.com^
+||manage-veriefapp1e.serveblog.net^
 ||manage-verifiyapp1e.serveblog.net^
 ||manage-verify-app1eid.com^
 ||manage-verifyapp1e.serveblog.net^
+||manage-veriifyapp1e.serveblog.net^
 ||manage.account.app1e.appeid-en.us^
 ||manage.accounts-app1e.referralverification.com^
 ||manage.accounts-app1eid.authentyverifl.com^
@@ -31254,14 +31648,20 @@
 ||manageapp1e.inverifuse1ocked.com^
 ||manageapp1e.iverifuse1ocked.com^
 ||manageapp1e.secureacces-verif-my1ocked.com^
+||manageauth-accapp1e.serveblog.net^
+||manageauthe-app1eid.serveblog.net^
+||manageauts-app1eid.serveblog.net^
+||managedbroadband.co.uk^
 ||management-app1e-access.com^
 ||managerlnstagram.tk^
+||managesapp1e.serveftp.com^
 ||manchina.xyz^
 ||mandarin.aquamarineku.com^
 ||maneta.info^
 ||manfys.com^
 ||mangayhentai.com^
 ||mange-app1eid.servehttp.com^
+||mange-websapp1e.serveblog.net^
 ||mangeapp1e-itsverif.serveirc.com^
 ||mangoads.net^
 ||mangoads.vn^
@@ -31493,7 +31893,6 @@
 ||mbbjrwsl.com^
 ||mbcperyc.com^
 ||mbe.ru^
-||mbee8d.shet.eveshamairporttransfers.co.uk^
 ||mbfvfdkawpoi.com^
 ||mbgvhfotcqsj.com^
 ||mbiapp1e.ru^
@@ -31518,6 +31917,7 @@
 ||mbzl-pro.xyz^
 ||mc.weather.com.cn^
 ||mc.webvisor.org^
+||mc.yandex.ru^
 ||mcagbtdcwklf.com^
 ||mcaxqvcu.com^
 ||mcaybfrnrqpmv.com^
@@ -31658,6 +32058,7 @@
 ||media-lga3-1.cdn.whatsapp.net^
 ||media-lhr3-1.cdn.whatsapp.net^
 ||media-lht6-1.cdn.whatsapp.net^
+||media-lnstagram-data.com^
 ||media-lnstagram.tk^
 ||media-mad1-1.cdn.whatsapp.net^
 ||media-match.com^
@@ -32183,7 +32584,6 @@
 ||mhlnk.com^
 ||mhmgeilfkcgov.com^
 ||mhorwseoai.com^
-||mhqk5z.last.pershoreairporttaxis.co.uk^
 ||mhrfhwlqsnzf.com^
 ||mhuivzojiqe.com^
 ||mhwxckevqdkx.com^
@@ -32527,6 +32927,7 @@
 ||mmesheltljyi.com^
 ||mmetrix.mobi^
 ||mmexe.com^
+||mmfaceb00k.dhosting.network^
 ||mmfb2.ht^
 ||mmfvtvdqlwxyj.com^
 ||mmg-fna.whatsapp.net^
@@ -33065,7 +33466,6 @@
 ||mqwkqapsrgnt.com^
 ||mqyndujv.com^
 ||mr-rank.de^
-||mr4p94.hbg.hebdenbridgedental.co.uk^
 ||mrakosy.ru^
 ||mrappolt.de^
 ||mrbasic.com^
@@ -33150,6 +33550,7 @@
 ||mt-data.ru^
 ||mt50ad.net^
 ||mtag.mman.kr^
+||mtalk.google.com^
 ||mtbgrgscjwcjc.com^
 ||mtbnqoixmb.com^
 ||mtbsdhzpikjt.com^
@@ -33199,7 +33600,6 @@
 ||mtzszlpypbxjm.com^
 ||muagjoxfew.com^
 ||muasoctv.com^
-||muc8he.hbg.hebdenbridgedental.co.uk^
 ||muchhetont.ru^
 ||muchritfakethen.info^
 ||mucocutaneousmyrmecophaga.com^
@@ -33382,6 +33782,7 @@
 ||myapp1e-auths.servepics.com^
 ||myapp1e-autz.serveblog.net^
 ||myapp1e-dashbord.servebeer.com^
+||myapp1e-stor1.myvnc.com^
 ||myapp1e-ver1f.servepics.com^
 ||myapp1eid-acces-confirm-update.com^
 ||myapp1eid-servlces-1ocked.com^
@@ -33513,7 +33914,6 @@
 ||myqnpgfgjo.com^
 ||myqvhpjyd.com^
 ||myqzicfxbkpk.com^
-||myr9q8.shet.eveshamairporttransfers.co.uk^
 ||myrcrypto.com^
 ||myreferer.com^
 ||myregeneaf.com^
@@ -33629,7 +34029,6 @@
 ||n159adserv.com^
 ||n161adserv.com^
 ||n176adserv.com^
-||n17w38.beg.smalltailsbfr.com^
 ||n1809adserv.xyz^
 ||n1835adserv.xyz^
 ||n272adserv.com^
@@ -33643,7 +34042,6 @@
 ||n673oum.com^
 ||n69.com^
 ||n74s9.com^
-||n7rvxj.pal.wkcengland.co.uk^
 ||n85853.cn^
 ||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
@@ -33818,7 +34216,6 @@
 ||ncads.s3.amazonaws.com^
 ||ncafclpip.com^
 ||ncaudienceexchange.com^
-||ncayx3.beg.smalltailsbfr.com^
 ||ncbqi.com^
 ||ncdnprorogeraie.lol^
 ||ncdxfwxijazn.com^
@@ -33845,7 +34242,6 @@
 ||ncwjhywskph.com^
 ||ncx2.voyage-prive.it^
 ||ncyemedcazdnol.com^
-||ncynw6.shet.eveshamairporttransfers.co.uk^
 ||nczlhwsguwc.com^
 ||nd1.gamecopyworld.com^
 ||ndddttxkqyh.com^
@@ -33871,7 +34267,6 @@
 ||ndxidnvvyvwx.com^
 ||ndxtyryloc.com^
 ||ndyzz.com^
-||ne4vh7.becks.petboutiquepawsnclaws.co.uk^
 ||neads.delivery^
 ||neaozrrjd.com^
 ||nearbyad.com^
@@ -33901,7 +34296,6 @@
 ||nefib.tourstogo.us^
 ||nefroto.net^
 ||nefxtwxk.com^
-||neg1n5.becks.petboutiquepawsnclaws.co.uk^
 ||negdrvgo.com^
 ||neglite.com^
 ||negolist.com^
@@ -34468,7 +34862,6 @@
 ||nntvphjayapz.com^
 ||nnu.re^
 ||nnulezwhvbrzwu.com^
-||nnvbxe.boss.northerndishedends.uk^
 ||nnvjigagpwsh.com^
 ||nnvkh.com^
 ||nnvqabkpa.com^
@@ -34541,6 +34934,7 @@
 ||norteevu.com^
 ||northclick-statistiken.de^
 ||northcotemanor.co.uk^
+||northerndishedends.uk^
 ||northmay.com^
 ||northstartravelmedia.com^
 ||nortiainteriors.com.au^
@@ -34619,7 +35013,6 @@
 ||noy90o.com^
 ||nozem.tvmaze.com^
 ||np1t0bcj0n.com^
-||np9kbk.shet.eveshamairporttransfers.co.uk^
 ||npario-inc.net^
 ||npauffnlpgzw.com^
 ||npcdn1.now.sh^
@@ -34839,7 +35232,6 @@
 ||nvikgaormj.com^
 ||nvjjquyylqicp.com^
 ||nvjqm.com^
-||nvjvoo.last.pershoreairporttaxis.co.uk^
 ||nvkkjenz.com^
 ||nvloygrnfe.com^
 ||nvmjtxnlcdqo.com^
@@ -35044,9 +35436,7 @@
 ||oasad.cantv.net^
 ||oasads.whitepages.com^
 ||oasc07.citywire.co.uk^
-||oascenral.phoenixnewtimes.com^
-||oascentral*.
-||oascentreal.adcritic.com^
+||oascen*.
 ||oascetral.laweekly.com^
 ||oasis.411affiliates.ca^
 ||oasis.nysun.com^
@@ -35174,7 +35564,6 @@
 ||ocyhiome.com^
 ||ocyhpouojiss.com^
 ||oczvtbskwbmj.com^
-||od2jda.beg.smalltailsbfr.com^
 ||oda.markitondemand.com^
 ||odanetrlgvunth.com^
 ||odbabo.info^
@@ -35194,7 +35583,6 @@
 ||odomcrqlxulb.com^
 ||odoscope.cloud^
 ||odoscope.com^
-||odp59r.lero.worldkickboxingcommission.com^
 ||odpjcjreznno.com^
 ||odplbueosuzw.com^
 ||odsljzffiixm.com^
@@ -35427,7 +35815,6 @@
 ||ojjsoozoerpt.com^
 ||ojktwzisvpb.com^
 ||ojm4.palladiumhotelgroup.com^
-||ojm9nr.shet.eveshamairporttransfers.co.uk^
 ||ojmkcnuur.com^
 ||ojmokfvfi.com^
 ||ojngisbfwwyp.com^
@@ -35455,7 +35842,6 @@
 ||okexysylgzo.ru^
 ||okeyletsgo.ml^
 ||okffuzmscjboad.com^
-||okg7ek.lero.worldkickboxingcommission.com^
 ||okgfvcourjeb.com^
 ||okgzwezcrmchk.com^
 ||okiaecdkdyut.bid^
@@ -35469,7 +35855,6 @@
 ||okoclick.net^
 ||okoshechka.net^
 ||okoufwmfzujsf.com^
-||okr4fm.beg.smalltailsbfr.com^
 ||okt.to^
 ||oktkuwjry.com^
 ||oktopost.com^
@@ -35709,6 +36094,7 @@
 ||onlinereserchstatistics.online^
 ||onlinerewardcenter.com^
 ||onlinesupaads.com^
+||onlinetrees.co.uk^
 ||onlinewebfind.com^
 ||onlinewebstat.com^
 ||onlinewebstats.com^
@@ -35753,7 +36139,6 @@
 ||oodsotso.com^
 ||ooecgdeq.com^
 ||ooecyaauiz.com^
-||ooep1k.becks.petboutiquepawsnclaws.co.uk^
 ||oofophdrkjoh.com^
 ||oofpjjtc.com^
 ||oofte.com^
@@ -36343,7 +36728,6 @@
 ||p0y.com^
 ||p1wmbu.koll.pershoreairporttransfers.co.uk^
 ||p24.hu^
-||p27orf.lero.worldkickboxingcommission.com^
 ||p2ads.com^
 ||p2l.info^
 ||p2p.bz^
@@ -36355,7 +36739,6 @@
 ||p3p.alibaba.com^
 ||p3p.sogou.com^
 ||p3p.yahoo.com^
-||p4ntf4.lero.worldkickboxingcommission.com^
 ||p4psearch.china.alibaba.com^
 ||p5genexs.com^
 ||p5zofj.idf.iandunford.co.uk^
@@ -36366,7 +36749,6 @@
 ||p83-apps.appl.cuny.edu.citytech.ezproxy.cuny.edu^
 ||p8u.hinet.net^
 ||p8wwtt.nt.nativetrees.co.uk^
-||p9gzrh.shet.eveshamairporttransfers.co.uk^
 ||pa-oa.com^
 ||pa.tns-ua.com^
 ||paads.dk^
@@ -36535,6 +36917,7 @@
 ||partner-ads.com^
 ||partner-earning.com^
 ||partner-helplnstagram.com^
+||partner-lnstagram.cf^
 ||partner-lnstagram.com^
 ||partner-lnstagram.company^
 ||partner-lnstagram.sbbsshgroup.online^
@@ -36569,6 +36952,7 @@
 ||partnerearning.com^
 ||partnergateway.liga-stavok.com^
 ||partnerki4you.ru^
+||partnerlnstagramz.gq^
 ||partnermax.de^
 ||partners-z.com^
 ||partners.10bet.com^
@@ -36579,6 +36963,7 @@
 ||partners.cfl.mybrighthouse.com^
 ||partners.fanduel.com^
 ||partners.fshealth.com^
+||partners.hostgator.com^
 ||partners.keezmovies.com^
 ||partners.mysavings.com^
 ||partners.optiontide.com^
@@ -36618,6 +37003,7 @@
 ||passionfruitads.com^
 ||passive-earner.com^
 ||passport.pfn.bz^
+||passport.yandex.
 ||passpport.com^
 ||pastilon.com^
 ||pat.farvd.com^
@@ -36707,6 +37093,7 @@
 ||paypa1.com.db.xzmail.ml^
 ||paypa1.com.spreadyou.com^
 ||paypa1.com.themuse.com.ng^
+||paypa1.com.wishfrome.com^
 ||paypa1.com^
 ||paypa1.conf1rm.online^
 ||paypa1.e-mailupgrade.com^
@@ -36737,6 +37124,7 @@
 ||paypa1.verify-secure-unauthorised.com^
 ||paypa11.com^
 ||paypa156712.ddns.net^
+||paypa1895.ezz444.com^
 ||paypa1adminstractor-it.dynu.net^
 ||paypa1auction.com^
 ||paypa1ch.com^
@@ -36750,6 +37138,7 @@
 ||paypa1notificati0nservicess96.tk^
 ||paypa1onlinecardverifications337880.ml^
 ||paypa1resolutioncenter.ga^
+||paypa1s.com^
 ||paypa1securesign.ddns.net^
 ||paypa1service.com^
 ||paypa1services-now-signed.com^
@@ -36845,6 +37234,7 @@
 ||pceqybrdyncq.com^
 ||pcfg.wps.cn^
 ||pcfobwzmlts.com^
+||pchamberlain.co.uk^
 ||pchijkkms.com^
 ||pci.pornclipsxxx.com^
 ||pcizpawioulv.com^
@@ -36878,7 +37268,6 @@
 ||pdbaewqjyvux.com^
 ||pdbu.net^
 ||pdc.micloud.xiaomi.net^
-||pdff94.beg.smalltailsbfr.com^
 ||pdgpekso.com^
 ||pdgxtdughbeks.com^
 ||pdheuryopd.loan^
@@ -36894,7 +37283,6 @@
 ||pdrvdmqcdd.com^
 ||pdtnzykqa.com^
 ||pdwyzrmrnddley.com^
-||pdxnqp.pal.wkcengland.co.uk^
 ||pdzqwzrxlltz.com^
 ||pe2k2dty.com^
 ||peaceau.org^
@@ -36912,7 +37300,6 @@
 ||pebx.pl^
 ||pecaning.com^
 ||peccl.com^
-||pecsxr.pool.pchamberlain.co.uk^
 ||pectit.info^
 ||pectors.info^
 ||pedropanther.com^
@@ -37031,6 +37418,7 @@
 ||perrege.ru^
 ||perren.xyz^
 ||persevered.com^
+||pershoreairporttaxis.co.uk^
 ||persianstat.com^
 ||persianstat.ir^
 ||persona.ly^
@@ -37052,6 +37440,7 @@
 ||pesbqkopdm.com^
 ||pestrike.com^
 ||petametrics.com^
+||petboutiquepawsnclaws.co.uk^
 ||peter-north-cum-shot.blogspot.com^
 ||petiteumbrella.com^
 ||petitionermaster.appspot.com^
@@ -37093,7 +37482,6 @@
 ||pfxlive.com^
 ||pg-ad-b1.ws.126.net^
 ||pg.buzzfeed.com^
-||pg8u1c.last.pershoreairporttaxis.co.uk^
 ||pgalvaoteles.pt^
 ||pgapi.ksmobile.com^
 ||pgcode.org^
@@ -37122,7 +37510,6 @@
 ||pgt1.voyage-prive.es^
 ||pguxoochezkc.com^
 ||pgxciwvwcfof.com^
-||ph4bo1.last.pershoreairporttaxis.co.uk^
 ||phaihoaw.net^
 ||phaimtol.net^
 ||phalata.info^
@@ -37549,7 +37936,6 @@
 ||pjyuftrh.com^
 ||pjzabhzetdmt.com^
 ||pk.adlandpro.com^
-||pk8n3d.onl.onlinetrees.co.uk^
 ||pketred.com^
 ||pkirdfqe.com^
 ||pkitdifnkz.com^
@@ -38068,7 +38454,6 @@
 ||powershopnet.net^
 ||powertraf.com^
 ||poxcldtepiulo.com^
-||poxnc5.lero.worldkickboxingcommission.com^
 ||poxudeli.ru^
 ||poxwphidbuedh.com^
 ||poyecjzk.com^
@@ -38299,7 +38684,6 @@
 ||prnhpe.pro^
 ||prnutritionals.com^
 ||prnx.net^
-||prnyzm.pal.wkcengland.co.uk^
 ||pro-ads.club^
 ||pro-advert.de^
 ||pro-advertising.com^
@@ -38710,7 +39094,6 @@
 ||ptush.iptvdeals.com^
 ||ptvcfltikpdi.com^
 ||ptvjsyfayezb.com^
-||ptw3st.becks.petboutiquepawsnclaws.co.uk^
 ||ptxqjyqhscs.com^
 ||ptyezfyxcaeu.com^
 ||ptzbgvqpwnxg.com^
@@ -38718,6 +39101,7 @@
 ||ptzpyhhapyt.com^
 ||pu.trafficshop.com^
 ||pub-fit.com^
+||pub.adfirmative.com^
 ||pub.admedia.io^
 ||pub.betclick.com^
 ||pub.chez.com^
@@ -39095,19 +39479,15 @@
 ||q.azcentral.com^
 ||q.pni.com^
 ||q0zsp5e3dv.com^
-||q12x58.lero.worldkickboxingcommission.com^
 ||q1connect.com^
 ||q1ilb0enze.ru^
 ||q1media.com^
 ||q1mediahydraplatform.com^
 ||q1xyxm89.com^
-||q24wb2.pal.wkcengland.co.uk^
 ||q28840.nb.host127-0-0-1.com^
 ||q2melbourne.com^
 ||q53ztm.cn^
 ||q64a9ris0j.com^
-||q64cv6.last.pershoreairporttaxis.co.uk^
-||q6jme1.last.pershoreairporttaxis.co.uk^
 ||q7wg99.kal.wkcengland.com^
 ||q8eqh.top^
 ||q8ux4fscc7.com^
@@ -39227,7 +39607,6 @@
 ||qewisoti.com^
 ||qeyps.com^
 ||qezcdxxskinzi.com^
-||qezmyw.beg.smalltailsbfr.com^
 ||qfcsljgckvpz.com^
 ||qfdn3gyfbs.com^
 ||qfedsccxccfzut.com^
@@ -39235,7 +39614,6 @@
 ||qfhjthejwvgm.com^
 ||qfijmgalopofbj.com^
 ||qfkvnnzcyanwqo.com^
-||qfkvsm.last.pershoreairporttaxis.co.uk^
 ||qflhwgqkegsojx.com^
 ||qfmbgvgvauvt.com^
 ||qfmcpclzunze.com^
@@ -39355,7 +39733,6 @@
 ||qkuprxbmkeqp.com^
 ||qkvklknzycrgo.com^
 ||qkwbygfsbfmj.com^
-||qkwv55.becks.petboutiquepawsnclaws.co.uk^
 ||qkyzjwhyeh.com^
 ||qkzwxhcleqj.com^
 ||qlatsfeyg.com^
@@ -39388,7 +39765,6 @@
 ||qmotmcwz.com^
 ||qmouzhzz.com^
 ||qmsdxo.ru^
-||qmw1d7.pal.wkcengland.co.uk^
 ||qmxpttxjv.com^
 ||qmzwcrordyc.com^
 ||qnajplxtvz-a.akamaihd.net^
@@ -39408,10 +39784,8 @@
 ||qnugsbuo.com^
 ||qnxqhrww.com^
 ||qnzelsgj.com^
-||qo379o.last.pershoreairporttaxis.co.uk^
 ||qoapuppy.com^
 ||qoayrejue.com^
-||qodrao.lero.worldkickboxingcommission.com^
 ||qofzhmbqa.com^
 ||qogsjvkaoe.com^
 ||qoheo.com^
@@ -39455,7 +39829,6 @@
 ||qpqnbnsnosdss.com^
 ||qpshvivbqpz.com^
 ||qq.com^
-||qq33px.shet.eveshamairporttransfers.co.uk^
 ||qqablora.com^
 ||qqapezviufsh.com^
 ||qqatllrijx.com^
@@ -40605,6 +40978,7 @@
 ||revgennetwork.com^
 ||revhpdxqul.com^
 ||review-lnstagram.ml^
+||reviews.static.gartner.com^
 ||revimedia.com^
 ||revisaparati.com^
 ||revistaelite.com^
@@ -41112,7 +41486,6 @@
 ||rriqwzgmaazsp.com^
 ||rrmqirchpasqyw.com^
 ||rrnqzntj.com^
-||rroggt.pal.wkcengland.co.uk^
 ||rroyintwabqyua.com^
 ||rrpjunmcv.com^
 ||rrptobfpqeftyg.com^
@@ -41267,7 +41640,6 @@
 ||rufadses.net^
 ||rufex.ajfingenieros.cl^
 ||rugirls.online^
-||ruh458.shet.eveshamairporttransfers.co.uk^
 ||ruifeng99.com^
 ||ruigra.com^
 ||ruiyangcn.com^
@@ -41526,7 +41898,6 @@
 ||s100.hostcontent.li^
 ||s11.hostcontent.li^
 ||s12.hostcontent.li^
-||s12an3.boss.northerndishedends.uk^
 ||s13.hostcontent.li^
 ||s1gn-acc0untshelpcntersapp1eldcsrvice5687.dipaksacrot.com^
 ||s1gn-acc0untshelpcntersapp1eldcsrvice6413.dipaksacrot.com^
@@ -41567,10 +41938,8 @@
 ||s4le.net^
 ||s4r.tut.by^
 ||s4yxaqyq95.com^
-||s5ae4f.becks.petboutiquepawsnclaws.co.uk^
 ||s5prou7ulr.com^
 ||s6.lebenna.com^
-||s626gk.pool.pchamberlain.co.uk^
 ||s6djof.koll.pershoreairporttransfers.co.uk^
 ||s6w.de^
 ||s7c66wkh8k.com^
@@ -41578,9 +41947,7 @@
 ||s7ven.com^
 ||s85n4btydl.online^
 ||s8ads.com^
-||s8gby8.pal.wkcengland.co.uk^
 ||s99i.org^
-||s9hc54.last.pershoreairporttaxis.co.uk^
 ||s9kkremkr0.com^
 ||sa.bbc.co.uk^
 ||sa.bbc.com^
@@ -42005,6 +42372,7 @@
 ||scrs-verif-paypa1.com^
 ||scrubsky.com^
 ||scrubswim.com^
+||scrviec-app1ecare.com^
 ||scsklzqwme.com^
 ||scuolaartedanza.net^
 ||scupio.com^
@@ -42168,6 +42536,8 @@
 ||sec-paypa1onlineportal.co.uk^
 ||sec-paypa1servportal.com^
 ||sec.resource.xiaomi.net^
+||sec3.paypa1.de.mangan-gajah.com^
+||sec8.aotomatic.convirmation.paypa1.com.purchase-785734.com^
 ||seccoads.com^
 ||seccuritty-faceb0ok.com^
 ||seccuritty-facebo0k.com^
@@ -42268,6 +42638,7 @@
 ||securedlogin-lnstagram.com^
 ||securedopen-bp.com^
 ||securedownload01.net^
+||securedpaypa1.com^
 ||securee.ru^
 ||securemail-bbva.com^
 ||securemetrics.apple.com^
@@ -42302,11 +42673,14 @@
 ||security-faceb0ok.com^
 ||security-facebo0k-m.com^
 ||security-facebo0k.com^
+||security-lnstagram.app^
 ||security-lnstagram.cf^
 ||security-lnstagram.com^
 ||security-lnstagram.ga^
 ||security-lnstagram.gq^
 ||security-lnstagram.ml^
+||security-lnstagram.online^
+||security-lnstagram.services^
 ||security-lnstagram.tk^
 ||security-qa-qos.appl.kp.org^
 ||security-qos.appl.kp.org^
@@ -42323,7 +42697,9 @@
 ||securitywebservices.com^
 ||securityy-lnstagram.ml^
 ||securrity-faceb00k-m.com^
+||securrity-faceb0ok-inc.com^
 ||securrity-faceb0ok.com^
+||securrity-facebo0k-inc.com^
 ||securrity-facebo0k.com^
 ||securrity-m-faceb00k.com^
 ||securrity-m-faceb0ok.com^
@@ -42697,6 +43073,7 @@
 ||service-facebo0k.ddns.net^
 ||service-id-app1e.com^
 ||service-lnstagram.com^
+||service-lnstagram.ml^
 ||service-lnstagram.xyz^
 ||service-paypa1marketing.com^
 ||service-stat.tbn.ru^
@@ -42704,12 +43081,14 @@
 ||service.ad.duomi.com^
 ||service.clicksvenue.com^
 ||service.multi-pops.com^
+||service.paypa1.de.payment-24656.com^
 ||service.urchin.com^
 ||service1.adten.de^
 ||service4refresh.info^
 ||serviceaccountinfo.com^
 ||servicefacebo0k.ddnsking.com^
 ||servicefactory.net^
+||serviceforlnstagram.tk^
 ||servicegetbook.net^
 ||servicehelplnstagram.ahmet-214.tk^
 ||servicehelplnstagram.ml^
@@ -43284,7 +43663,6 @@
 ||sizesidewalk.com^
 ||sizmek.com^
 ||sizzle-savings.com^
-||sjdzk2.pool.pchamberlain.co.uk^
 ||sjfbb.areteenergy.info^
 ||sjgklyyyraghhrgimsepycygdqvezppyfjkqddhlzbimoabjae.com^
 ||sjgttcfj.com^
@@ -43518,6 +43896,7 @@
 ||smaclick.com^
 ||smadex.com^
 ||smallseotools.com^
+||smalltailsbfr.com^
 ||smapohsnoww.com^
 ||smart-counter.net^
 ||smart-digital-solutions.com^
@@ -43655,6 +44034,8 @@
 ||smrtrdrct.com^
 ||sms-ads.com^
 ||sms-mmm.com^
+||sms.lnstagram.com-74514621902.vérify.com^
+||sms.lnstagram.com-74514621902.xn--vrify-bsa.com^
 ||sms.otair.com^
 ||sms2.us^
 ||smsmovies.net^
@@ -44937,7 +45318,6 @@
 ||styria-digital.com^
 ||su.bdimg.com^
 ||su.bdstatic.com^
-||su99nv.boss.northerndishedends.uk^
 ||suacozinhaemluxo.com^
 ||suads.sulekha.com^
 ||sualzmze.com^
@@ -45155,6 +45535,7 @@
 ||support-lnstagram-help.ml^
 ||support-lnstagram.cf^
 ||support-lnstagram.com^
+||support-lnstagram.ml^
 ||support-lnstagram.tk^
 ||support-lnstagramcopyright.com^
 ||support-lnstagramcopyright.tk^
@@ -45174,12 +45555,17 @@
 ||support.аррlе.incsc.xyz^
 ||support.аррӏе.autohrized-stats.info^
 ||support1-lnstagram.cf^
+||support1lnstagramz.cf^
 ||support1s-lnstagram.cf^
 ||supportbankhelp.com^
 ||supportcenter-lnstagram.com^
 ||supporteslnstagrambadgehelp.com^
+||supportforlnstagram.com^
+||supportforlnstagram.net^
 ||supportforlnstagram.tk^
+||supportforlnstagram.xyz^
 ||supportforlnstagrams.tk^
+||supporting-lnstagramhelp.tk^
 ||supportingcenterlnstagram.tk^
 ||supportlnstagram.cf^
 ||supportlnstagram.com^
@@ -45191,14 +45577,17 @@
 ||supports-lnstagram.cf^
 ||supports-lnstagram.com^
 ||supports-lnstagram.ml^
+||supports-lnstagram.net^
 ||supports-lnstagram.tk.instacimm.design^
 ||supports-lnstagram.tk^
+||supports-lnstagramz.cf^
 ||supports.xn--80ak6aa92e.verlfy-ensure.info^
 ||supports.аррӏе.verlfy-ensure.info^
 ||supportsforlnstagram.tk^
 ||supportunclokedapp1enotif.markingsngston1.com^
 ||supportxmr.com^
 ||supportyourapp1eid.cf^
+||supportzlnstagramz.ga^
 ||supprent.com^
 ||supremeadsonline.com^
 ||suptullog.com^
@@ -45384,7 +45773,6 @@
 ||sxtzhwvbuflt.com^
 ||sxwcfnai.com^
 ||sxx3xr.air.airporttaxievesham.co.uk^
-||sxxhu4.lol.airporttaxipershore.co.uk^
 ||sxzffgjzaohtf.com^
 ||sy123888.com^
 ||sydhbmlmdxzd.com^
@@ -45471,7 +45859,6 @@
 ||szwjzl.cn^
 ||szxnruaeuig.com^
 ||szyejlnlvnmy.com^
-||szymyh.lol.airporttaxipershore.co.uk^
 ||szynlslqxerx.com^
 ||szywarceqeo.com^
 ||szzlzn.com^
@@ -45558,12 +45945,9 @@
 ||t4mgox.moro.pershoreprivatehire.co.uk^
 ||t534app1eid.com.batutokbae.com^
 ||t5byhh.mat.eveshamairporttaxis.co.uk^
-||t62vfb.yell.back2balancephysio.co.uk^
 ||t6c64c.mat.eveshamairporttaxis.co.uk^
 ||t70123.com^
-||t7qvpa.lol.airporttaxipershore.co.uk^
 ||t7z.cupid.iqiyi.com^
-||t8uehr.pal.wkcengland.co.uk^
 ||ta.at.ic5mp.net^
 ||ta.at.user-mode-linux.net^
 ||ta.queit.in^
@@ -45731,7 +46115,6 @@
 ||tapsense.com^
 ||tapstat.ru^
 ||tapstream.com^
-||taptx6.lol.airporttaxipershore.co.uk^
 ||taqesyqne.com^
 ||taqyljgaqsaz.com^
 ||tarasoft.bg^
@@ -45811,7 +46194,6 @@
 ||tbyzeunvuh.com^
 ||tc.airfrance.com^
 ||tc.zionsbank.com^
-||tc68v5.lero.worldkickboxingcommission.com^
 ||tcactivity.net^
 ||tcadops.ca^
 ||tcads.net^
@@ -45819,7 +46201,6 @@
 ||tccbanner.com^
 ||tcdikyjqdmsb.com^
 ||tce.alicdn.com^
-||tce3ck.pool.pchamberlain.co.uk^
 ||tcetggiry.com^
 ||tcgojxmwkkgm.com^
 ||tcgqqmjyg.com^
@@ -46201,7 +46582,6 @@
 ||tfzffzmbo.com^
 ||tg.mybb.ru^
 ||tg2016.net^
-||tg5fbt.pal.wkcengland.co.uk^
 ||tgbdjyryn.com^
 ||tgbjtcgkdu.com^
 ||tgd.timesonline.co.uk^
@@ -46607,7 +46987,6 @@
 ||tj.kugou.com^
 ||tj.tongjiwo.com^
 ||tj.vidown.cn^
-||tj25zt.beg.smalltailsbfr.com^
 ||tjaqsjnrvmt.com^
 ||tjbgiyek.com^
 ||tjcorfsynjppv.com^
@@ -46630,7 +47009,6 @@
 ||tk.kaufda.de^
 ||tk.meinprospekt.de^
 ||tk.optaim.com^
-||tk3dj4.lero.worldkickboxingcommission.com^
 ||tkarkbzkirlw.com^
 ||tkbo.com^
 ||tkcatwalk.aotter.net^
@@ -47032,7 +47410,6 @@
 ||tower-colocation.de^
 ||tower-colocation.info^
 ||tower.moviepilot.com^
-||towfr9.pal.wkcengland.co.uk^
 ||towithdureb.ru^
 ||toy-offer.com^
 ||toy-offer.net^
@@ -48242,7 +48619,6 @@
 ||tskctmvpwjdb.com^
 ||tslomhfys.com^
 ||tsmdmunzbtu.com^
-||tsmdqm.last.pershoreairporttaxis.co.uk^
 ||tsms-ad.tsms.com^
 ||tsmtrk.com^
 ||tsmwdhwvkaz.com^
@@ -48300,7 +48676,6 @@
 ||tu.7j813.cn^
 ||tu.baixing.com^
 ||tu.dxcnd.cn^
-||tu4wn9.lero.worldkickboxingcommission.com^
 ||tuajxhyk.com^
 ||tubberlo.com^
 ||tube8.com^
@@ -48519,6 +48894,7 @@
 ||twiyetehf.com^
 ||twjboytcwutbrt.com^
 ||twjgylzydlhz.com^
+||twltter-us.com^
 ||twltter.bid^
 ||twltter.bz^
 ||twltter.cc^
@@ -48539,6 +48915,7 @@
 ||twltter.org^
 ||twltter.pw^
 ||twltter.us^
+||twltter.work^
 ||twltter.xyz^
 ||twltterpic.com^
 ||twltterpics.com^
@@ -48623,7 +49000,6 @@
 ||tyyrigtlkny.com^
 ||tyzfzrjaxxcg.com^
 ||tz284.com^
-||tz9r62.pal.wkcengland.co.uk^
 ||tzbdudhsip.com^
 ||tzcgpmqij.com^
 ||tzelsvxtjvy.com^
@@ -48652,7 +49028,6 @@
 ||u1ywmv.blow.harrisretreat.com^
 ||u2.s.minisplat.cn^
 ||u223o.com^
-||u26hec.shet.eveshamairporttransfers.co.uk^
 ||u29ngmuc.top^
 ||u2bmco.com^
 ||u2tshop.ru^
@@ -48666,7 +49041,6 @@
 ||u5e.com^
 ||u7q2ej.blow.harrisretreat.com^
 ||u8.hujiang.com^
-||u8hs9r.pal.wkcengland.co.uk^
 ||u8vysb7s2v.com^
 ||u9oxdnxk8b.com^
 ||u9p6z6.blow.harrisretreat.com^
@@ -48816,7 +49190,6 @@
 ||uezxmehb.com^
 ||uezychzvo.com^
 ||uf2.svrni.ca^
-||uf6ahg.onl.onlinetrees.co.uk^
 ||ufelatujvbhtbo.com^
 ||uff5.to^
 ||ufgtddsuhlo.com^
@@ -48834,7 +49207,6 @@
 ||ufugfbtpp.com^
 ||ufvehyxuiwe.com^
 ||ufvzwshjkhocjn.com^
-||ufwbk7.yell.back2balancephysio.co.uk^
 ||ufz.doesxyz.com^
 ||ugabuga.icu^
 ||ugahbedypf.com^
@@ -49037,6 +49409,7 @@
 ||umzrccpfbnuu.com^
 ||unads.ru^
 ||unaealay.net^
+||unagi-na.amazon.com^
 ||unaiablmgsz.com^
 ||unalbilgisayar.com^
 ||unanimis.co.uk^
@@ -49126,7 +49499,6 @@
 ||unolis.ru^
 ||unpaundlagot.pro^
 ||unqpun.pro^
-||unr7t8.beg.smalltailsbfr.com^
 ||unrbpcqmiybu.com^
 ||unrestery.info^
 ||unruly.co^
@@ -49186,6 +49558,7 @@
 ||upclick.ru^
 ||upcum.com^
 ||updat120.clanteam.com^
+||update-accountlimited-paypa1.com.emailverifier.live^
 ||update-app1eidmail.10s-m4i1.com^
 ||update-java.kit.net^
 ||update-your-pc.info^
@@ -49370,6 +49743,7 @@
 ||usclxdvvvnkdrv.com^
 ||uscvlpjeaggyq.com^
 ||usdlgonjnzpu.com^
+||use.typekit.com^
 ||useads.com^
 ||usecentre-lnstagram.com^
 ||useg.nextdigital.com.hk^
@@ -49593,7 +49967,6 @@
 ||uzagahwfnt.com^
 ||uzbboiydfzog.com^
 ||uzbciwrwzzhs.com^
-||uzdp83.becks.petboutiquepawsnclaws.co.uk^
 ||uzekrs.com^
 ||uzesptwcwwmt.com^
 ||uziiygdcwur.com^
@@ -49651,16 +50024,13 @@
 ||v2mlblack.biz^
 ||v2mlemerald.com^
 ||v3cdn.net^
-||v3e2ad.lol.airporttaxipershore.co.uk^
 ||v3g4s.com^
 ||v3rjvtt.com^
 ||v4dwkcv.com^
 ||v5.chinoc.net^
 ||v61.com^
 ||v6t39t.ru^
-||v7j5gw.last.pershoreairporttaxis.co.uk^
 ||v8.club^
-||v895no.beg.smalltailsbfr.com^
 ||v90327ux.beget.tech^
 ||v9bet.com^
 ||va-endpoint.com^
@@ -49727,11 +50097,9 @@
 ||vani11aapp1e.aternos.me^
 ||vantage-media.net^
 ||vaoajrwmjzxp.com^
-||vaor4o.lero.worldkickboxingcommission.com^
 ||vapedia.com^
 ||vapgfhsecbit.com^
 ||vapolice.com^
-||vapssv.lero.worldkickboxingcommission.com^
 ||vaqkvpbtia.com^
 ||vareza.net^
 ||variablefitness.com^
@@ -49771,7 +50139,6 @@
 ||vbjpddtj.com^
 ||vbjvbjertwov.com^
 ||vbkhjlokrdd.com^
-||vbkkrv.pool.pchamberlain.co.uk^
 ||vblunqrovanf.com^
 ||vbmay16.com^
 ||vbmer.com^
@@ -49942,7 +50309,9 @@
 ||verified-lnstagram.com^
 ||verified-lnstagram.ga^
 ||verified-lnstagramteam.ml^
+||verifiedbadge-lnstagram.cf^
 ||verifiedbadge-lnstagram.com^
+||verifiedbadges-lnstagram.cf^
 ||verifiedbadges-lnstagram.com^
 ||verifiedicon-lnstagram.com^
 ||verifiediconbadge-lnstagram.com^
@@ -50010,13 +50379,11 @@
 ||vetermsu.info^
 ||vetexbart.be^
 ||vette-porno.nl^
-||vev9ss.shet.eveshamairporttransfers.co.uk^
 ||vewpwrqebmwu.com^
 ||vexuchkhuin.com^
 ||veytkljszaoutc.com^
 ||vezetmne.ru^
 ||vezipelsr.com^
-||vf5483.last.pershoreairporttaxis.co.uk^
 ||vfasewomnmco.com^
 ||vfedpgmaxxkug.com^
 ||vffyvridwaa.com^
@@ -50735,7 +51102,6 @@
 ||vswvbbegnyxxx.com^
 ||vsxjjmyz.com^
 ||vt4dlx.ru^
-||vt86uv.beg.smalltailsbfr.com^
 ||vtbyvtmabpclx.com^
 ||vtcquvxsaosz.com^
 ||vtcxhnri.com^
@@ -50761,7 +51127,6 @@
 ||vtracking.in.com^
 ||vtracy.de^
 ||vtrtl.de^
-||vtrwb8.beg.smalltailsbfr.com^
 ||vtsgaqnfvzcyu.ru^
 ||vtvjkyqstvec.com^
 ||vuaardbsbcppb.com^
@@ -50831,7 +51196,6 @@
 ||vvyimltzbnu.com^
 ||vw.onlinia.net^
 ||vw.xxxmshel.org^
-||vw6jm4.shet.eveshamairporttransfers.co.uk^
 ||vwadblujv.com^
 ||vwbnexnwpmangv.com^
 ||vwbox.de^
@@ -50902,7 +51266,6 @@
 ||vzkyivowceqcsd.com^
 ||vzlyapss.com^
 ||vzmnvqiqgxqk.com^
-||vzo6cs.shet.eveshamairporttransfers.co.uk^
 ||vzoozv.com^
 ||vzozsebg.com^
 ||vzreguys.com^
@@ -50915,6 +51278,7 @@
 ||vzzexalcirfgrf.ru^
 ||w*statistics.info^
 ||w-lnstagram.ml^
+||w-lnstagramsupport.ml^
 ||w-m-w.net^
 ||w-tres.info^
 ||w.coin.scribol.com^
@@ -50942,8 +51306,6 @@
 ||w55c.net^
 ||w612.nb.host127-0-0-1.com^
 ||w7.ru^
-||w7ugcv.shet.eveshamairporttransfers.co.uk^
-||w84mv7.lol.airporttaxipershore.co.uk^
 ||w88.espn.com^
 ||w8aydn.jik.thetreecentre.com^
 ||w8oroo.earth.northerndishedends.co.uk^
@@ -51171,6 +51533,7 @@
 ||web-counter.5u.com^
 ||web-counter.net^
 ||web-jp.ad-v.jp^
+||web-lnstagram-helps.cf^
 ||web-lnstagram.com^
 ||web-olymp.ru^
 ||web-paypa1.com^
@@ -51341,6 +51704,7 @@
 ||webpushcloud.info^
 ||webqs.ru^
 ||webreseau.com^
+||webs-lnstagram.cf^
 ||websale.com^
 ||websale.net^
 ||websalesusa.com^
@@ -51390,6 +51754,7 @@
 ||webstats.web.rcn.net^
 ||webstats4u.com^
 ||webstore-app1e-id.7bchs2.com^
+||websupp-app1eid.serveblog.net^
 ||websupport-app1e-login-info-mail-us141app1e41.cf^
 ||websupport-app1e-login-info-mail-us141app1e41.gq^
 ||websupport-app1e-login-info-mail-us141app1e41.ml^
@@ -51460,7 +51825,6 @@
 ||wegetpaid.net^
 ||wegotmedia.com^
 ||wehtkuhlwsxy.com^
-||wejcev.beg.smalltailsbfr.com^
 ||wejjmtywsne.com^
 ||weknow.ac^
 ||wel-wel-fie.com^
@@ -51815,6 +52179,7 @@
 ||wjvwxcnavjodj.com^
 ||wjwontqlqchq.com^
 ||wjzvx.com^
+||wkcengland.co.uk^
 ||wkdyvxuornxnh.com^
 ||wkexsfmw.com^
 ||wkgaqvvwvqjg.com^
@@ -51973,6 +52338,7 @@
 ||worldflagcounter.com^
 ||worldgravity.com^
 ||worldgymperu.com^
+||worldkickboxingcommission.com^
 ||worldlogger.com^
 ||worldnow.com^
 ||worldofrest.com.ua^
@@ -52097,7 +52463,6 @@
 ||wscvmnvhanbr.com^
 ||wsemqlxmmhp.com^
 ||wsfqmxdljrknkalwskqmefnonnyoqjmeapkmzqwghehedukmuj.com^
-||wshf8y.lero.worldkickboxingcommission.com^
 ||wshosting.ru^
 ||wsod.com^
 ||wsowkqnxs.com^
@@ -52161,7 +52526,6 @@
 ||wubdkryfkr.com^
 ||wucbuvitibyiy.com^
 ||wufcygryt.com^
-||wufrre.pool.pchamberlain.co.uk^
 ||wugwwcqjdfa.com^
 ||wugwwssgjcn.com^
 ||wuldvrdfie.com^
@@ -52298,6 +52662,7 @@
 ||www-lnstagram.tk^
 ||www-lnstagrambusiness.cf^
 ||www-lnstagramcopyright.cf^
+||www-lnstagramhelp-com.ml^
 ||www-lnstagramm.com^
 ||www-localbitcoins.net^
 ||www-manageapp1e.servehttp.com^
@@ -52621,6 +52986,7 @@
 ||www.gameangel.com^
 ||www.gameplaylabs.com^
 ||www.gamertraffic.com^
+||www.gartner.com^
 ||www.gasthofpost-ebs.de^
 ||www.gbcash.com^
 ||www.gcmadvertising.com^
@@ -52672,7 +53038,6 @@
 ||www.hotspotshield.com^
 ||www.htmate2.com^
 ||www.huaxinxunye.cn^
-||www.hubtraffic.com^
 ||www.hugedomains.com^
 ||www.hw-ad.de^
 ||www.hypercounter.com^
@@ -52858,6 +53223,7 @@
 ||www.panazan.ro^
 ||www.pantanalvip.com.br^
 ||www.pay-per-search.com^
+||www.paypalobjects.com^
 ||www.payperranking.com^
 ||www.pc-test.net^
 ||www.pdf-platinum.info^
@@ -53231,6 +53597,7 @@
 ||www91.intel.com^
 ||wwwadcntr.com^
 ||wwwapp1e.com^
+||wwwfaceb00k.com^
 ||wwwfaceb0ok.com^
 ||wwwfacebo0k.com^
 ||wwwhelp-lnstagram.com^
@@ -53239,6 +53606,7 @@
 ||wwwlnstagram-whatsapp.com^
 ||wwwlnstagram.cf^
 ||wwwlnstagram.com^
+||wwwlnstagram.ml^
 ||wwwlnstagram.org^
 ||wwwlnstagramcopyright.ml^
 ||wwwlnstagramcopyrights.ml^
@@ -53279,7 +53647,6 @@
 ||wxvpo5.gow.englishwoodlands.co.uk^
 ||wxwxpxtoqmipif.com^
 ||wxxfcyoaymug.com^
-||wy3fvp.shet.eveshamairporttransfers.co.uk^
 ||wybfcxze.com^
 ||wycji.top^
 ||wycvts.kal.wkcengland.com^
@@ -53381,7 +53748,6 @@
 ||x8bhr.com^
 ||x95752.earth.northerndishedends.co.uk^
 ||xa-counter.com^
-||xa4sfv.beg.smalltailsbfr.com^
 ||xa58.cn^
 ||xaca15.earth.northerndishedends.co.uk^
 ||xacersconceptin.info^
@@ -53417,7 +53783,6 @@
 ||xaxaxa.ovh^
 ||xaxggjsa.com^
 ||xaxoro.com^
-||xaxxr7.pal.wkcengland.co.uk^
 ||xbasfbno.info^
 ||xbbcwbsadlrn.com^
 ||xbdlsolradeh.com^
@@ -53459,7 +53824,6 @@
 ||xclk-integracion.com^
 ||xclusive.ly^
 ||xcnn.com^
-||xco6sv.lol.airporttaxipershore.co.uk^
 ||xconeeitqrrq.com^
 ||xcouj.com^
 ||xcounter.ch^
@@ -53480,7 +53844,6 @@
 ||xcxetqrzckvy.com^
 ||xcyptaqhl.com^
 ||xczys.com^
-||xd3o7t.lero.worldkickboxingcommission.com^
 ||xd6vb5.kozer.2ndincome4u.org.uk^
 ||xdbwc.com^
 ||xdcdlfejo.com^
@@ -53542,7 +53905,6 @@
 ||xfqifppx.com^
 ||xfrusgbifkba.com^
 ||xfs5yhr1.com^
-||xfsghx.shet.eveshamairporttransfers.co.uk^
 ||xfuckbook.com^
 ||xfwwhapm.com^
 ||xfwwyoxut.com^
@@ -53688,7 +54050,6 @@
 ||xlounge.ru^
 ||xlqkpyimdep.com^
 ||xlspkqpnnqj.com^
-||xm6g25.onl.onlinetrees.co.uk^
 ||xmas-xmas-wow.com^
 ||xmasdom.com^
 ||xmaswrite.com^
@@ -53739,7 +54100,9 @@
 ||xn--17921-iua.biz^
 ||xn--18225-zta.biz^
 ||xn--20531-uua.biz^
+||xn--3l8aoahl9fnwa.com^
 ||xn--4l8aa2c0bjc.com^
+||xn--4l8aa2c7bn.com^
 ||xn--80aa0cb86c8f.com^
 ||xn--80aa0cbo65f.com^
 ||xn--80aa0cbo65f.ml^
@@ -53766,11 +54129,17 @@
 ||xn--80ak6aa92e.xn--n1af.get-directed.ga^
 ||xn--9na9h075fwai4ha.com^
 ||xn--9na9h075fwai6ra.xn--1caq6vu14ha.ga^
+||xn--aal-hzcb14l.xn--c-0mb77a.12081.iperosherbs.com^
 ||xn--aal-hzcb14l.xn--c-0mb77a.32558.timeforthistuff.info^
+||xn--aal-hzcb14l.xn--c-0mb77a.39533.accountax-ajax.com^
 ||xn--aal-hzcb14l.xn--c-0mb77a.48193.moislain.co.uk^
 ||xn--aal-hzcb14l.xn--c-0mb77a.57766.tjelec.sa.com^
+||xn--aal-hzcb14l.xn--c-0mb77a.68282.flixemontanas.com^
+||xn--aal-hzcb14l.xn--c-0mb77a.7872.microtechindustries.in^
 ||xn--aal-hzcb14l.xn--c-0mb77a.95163.prosoapehoteluri.ro^
+||xn--aal-hzcb14l.xn--c-0mb77a.95466.accountax-ajax.com^
 ||xn--aal-hzcb14l.xn--c-0mb77a.floydholdings.com^
+||xn--aal-hzcb14l.xn--c-0mb77a.servicesinc.ddns.net^
 ||xn--aal-zedbr.xn--om-nmc.macartur.com^
 ||xn--aal-zedbr.xn--om-nmc.theloftwarehouse.com^
 ||xn--al-pbca59c.com-needtoverifyyourinformation.apaelotegapunyaresultsedikit.com^
@@ -53867,6 +54236,7 @@
 ||xn--facbook-9gg.ga^
 ||xn--facbook-9gg.gq^
 ||xn--facbook-9gg.ml^
+||xn--facebk-015ba.com^
 ||xn--facebk-0qfa.ga^
 ||xn--facebk-m0ea.com.help-fasebook.tk^
 ||xn--facebk-m0ea.voi2.com^
@@ -53929,6 +54299,7 @@
 ||xn--instgram-46g.tk^
 ||xn--instgram-yod.com^
 ||xn--instgrm-5fgc.cf^
+||xn--instgrm-5fgc.themera.net^
 ||xn--instgrm-obdc.com^
 ||xn--instram-cfd082b.cf^
 ||xn--instrm-excb6l.com^
@@ -53952,8 +54323,11 @@
 ||xn--l-7sbq6ba.gq^
 ||xn--l-7sbq6ba.uk.to^
 ||xn--l-co-43d5a5ea.ml^
+||xn--ld-6kcv7ca307y.xn--l-7sbq6ba.xn--cm-jbc.bedfordpoolandpatio.com^
 ||xn--le-6kc8da.tk^
 ||xn--le-b9b8da.com.15716.udc.co.bd^
+||xn--le-b9b8da.com.36298.vstfiles.network^
+||xn--le-b9b8da.com.46531.vstfiles.network^
 ||xn--le-b9b8da.com.61000.capitaloneinc.info^
 ||xn--le-b9b8da.com.85774.bizmonster.in^
 ||xn--leconnect-zyh0pa.sign.xn--idms-83d.easternwin.com^
@@ -53994,6 +54368,7 @@
 ||xn--nstagramhelpcenter-d0c.com^
 ||xn--nstagramhelpcenters-f5c.com^
 ||xn--nstagramm-upb.com^
+||xn--nstagramsupp0rt-6kc.com^
 ||xn--nstagramsupport-6kc.com^
 ||xn--nstagramverification-hbd.xyz^
 ||xn--nstagramverifiedbadge-jgd.xyz^
@@ -54112,7 +54487,6 @@
 ||xpornstarsckc.ddns.name^
 ||xpostmail.com^
 ||xpostx.com^
-||xpqyed.onl.onlinetrees.co.uk^
 ||xprurfeoarxz.com^
 ||xptvk.com^
 ||xpu.samsungelectronics.com^
@@ -54163,7 +54537,6 @@
 ||xrmrpcbaukli.com^
 ||xrmtvzpig.com^
 ||xrnmuqmpcsx.com^
-||xrnwfn.last.pershoreairporttaxis.co.uk^
 ||xroonucyaoqljf.com^
 ||xrpcbukuwdvkc.com^
 ||xrqkzdbnybod.com^
@@ -54182,7 +54555,6 @@
 ||xskbsyssik.com^
 ||xsmafckigsdnij.com^
 ||xsmangbomdick.com^
-||xsn9ag.lero.worldkickboxingcommission.com^
 ||xsnfmaxicj.com^
 ||xsnqhzbiqdmqw.com^
 ||xsortxrmtpykh.com^
@@ -54380,7 +54752,6 @@
 ||y4jtnergka.com^
 ||y5wflt0xibmoufuvsayg1efy80yq0ystkjncf76cqm.com^
 ||y6a7tqyr.com^
-||y756sp.pal.wkcengland.co.uk^
 ||y77b7n.gay.tathamservice.com^
 ||y9nwqa.best.pershoretaxis.co.uk^
 ||y9q8s1.kozer.2ndincome4u.org.uk^
@@ -54419,7 +54790,6 @@
 ||yamrxfbkpirt.com^
 ||yandepit.com^
 ||yandex-metrica.ru^
-||yandex.ru^
 ||yandexadexchange.net^
 ||yandexbrowser2019.ru^
 ||yangot.com^
@@ -54506,7 +54876,6 @@
 ||yddd9c.blow.harrisretreat.com^
 ||ydeoxwomjpvxoz.com^
 ||ydfntydegmdbk.com^
-||ydfpg1.shet.eveshamairporttransfers.co.uk^
 ||ydkhkjmefxy.com^
 ||ydkrabhtgci.com^
 ||ydlrdzlbgs.com^
@@ -54685,7 +55054,6 @@
 ||yjoldnbcw.com^
 ||yjpwmybjkg.com^
 ||yjseeodbma.com^
-||yjsojn.shet.eveshamairporttransfers.co.uk^
 ||yjsshralziws.com^
 ||yjtag.jp^
 ||yjtdbdnhcu.com^
@@ -54755,7 +55123,6 @@
 ||ymlbuooxppzt.com^
 ||ymmoeffaosvdua.com^
 ||ympkaxpaf.com^
-||ymrbyb.yell.back2balancephysio.co.uk^
 ||ymsutnllwwcm.com^
 ||ymtracking.com^
 ||ymuhybbrk.com^
@@ -54924,7 +55291,6 @@
 ||yqccpziiuak.com^
 ||yqezqofkb1nnmz.com^
 ||yqhgbmyfiomx.com^
-||yqj2uy.shet.eveshamairporttransfers.co.uk^
 ||yqjoqncxmufi.com^
 ||yqkpt.com^
 ||yqkxutfjzbdbml.com^
@@ -54978,6 +55344,7 @@
 ||ysrjmfaqm.com^
 ||ysucej.com^
 ||ysyrcnsb.com^
+||yt3.ggpht.com^
 ||ytapgckhhvou.com^
 ||ytaujxmxxxmm.com^
 ||ytbpmzbabph.com^
@@ -55257,7 +55624,6 @@
 ||zcchnqgq.com^
 ||zcczlrtbbx.com^
 ||zcczvunkmmcg.com^
-||zcdygr.lero.worldkickboxingcommission.com^
 ||zcedqmobebmv.com^
 ||zcfbwlgydxo.com^
 ||zcinaovb.com^
@@ -55282,6 +55648,7 @@
 ||zdfyowkafur.com^
 ||zdgmhsahttsj.com^
 ||zdhnepeadrwetg.com^
+||zdjeciefb345faceb00ksce34.dkonto.pl^
 ||zdjkzqwpqvwcmc.com^
 ||zdlogs.sphereup.com^
 ||zdolhnqbtnbcx.com^
@@ -55524,7 +55891,6 @@
 ||zm1.zeroredirect5.com^
 ||zm232.com^
 ||zmbrweqglexv.com^
-||zmdj7g.shet.eveshamairporttransfers.co.uk^
 ||zmedia.com^
 ||zminer.zaloapp.com^
 ||zmkihizd.com^
@@ -55670,7 +56036,6 @@
 ||zqmwf.xyz^
 ||zqmxzjrhchg.com^
 ||zqouofoilmqfje.com^
-||zqoup3.last.pershoreairporttaxis.co.uk^
 ||zqqyhcqf.com^
 ||zqruzxs.www.twittor.co^
 ||zqseasmu.com^
@@ -55916,6 +56281,7 @@
 ||ınstagramhelpcenter.com^
 ||ınstagramhelpcenters.com^
 ||ınstagramm.com^
+||ınstagramsupp0rt.com^
 ||ınstagramsupport.com^
 ||ınstagramverification.xyz^
 ||ınstagramverifiedbadge.xyz^
@@ -55928,16 +56294,24 @@
 ||ɪnstagram.com^
 ||αpplе.tk^
 ||αρρle.com.15716.udc.co.bd^
+||αρρle.com.36298.vstfiles.network^
+||αρρle.com.46531.vstfiles.network^
 ||αρρle.com.61000.capitaloneinc.info^
 ||αρρle.com.85774.bizmonster.in^
 ||ιnstagram.tk^
 ||ρayρal.com.jponlinesecure.com^
 ||ρayρal.com.susujandasusumuda.com^
+||ρaүρal.cσм.12081.iperosherbs.com^
 ||ρaүρal.cσм.32558.timeforthistuff.info^
+||ρaүρal.cσм.39533.accountax-ajax.com^
 ||ρaүρal.cσм.48193.moislain.co.uk^
 ||ρaүρal.cσм.57766.tjelec.sa.com^
+||ρaүρal.cσм.68282.flixemontanas.com^
+||ρaүρal.cσм.7872.microtechindustries.in^
 ||ρaүρal.cσм.95163.prosoapehoteluri.ro^
+||ρaүρal.cσм.95466.accountax-ajax.com^
 ||ρaүρal.cσм.floydholdings.com^
+||ρaүρal.cσм.servicesinc.ddns.net^
 ||аpple.cf^
 ||аpplе-ассοunt.lagacetadearucas.es^
 ||аpplе-ассοunt.ml^
@@ -55949,6 +56323,7 @@
 ||аррlе.gq^
 ||аррlе.uk.to^
 ||аррlеiԁ.аррlе.response-verification.email^
+||аррlеᎥd.аррlе.cοm.bedfordpoolandpatio.com^
 ||аррӏе.briangent.com^
 ||аррӏе.com-signin.auth832.ga^
 ||аррӏе.com-webappps-login.services^
@@ -56027,3 +56402,5 @@
 ||ᴘayᴘal.com^
 ||ᴘᴀʏᴘᴀʟ.com^
 ||ꓑꓮꓬꓑꓮꓡ.com^
+||ꓝꓮꓚꓰꓐꓳꓳꓗ.com^
+||ꓮꓑꓑꓡꓰ.com^
