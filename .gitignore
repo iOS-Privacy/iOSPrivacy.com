@@ -12,3 +12,5 @@ secring.*
 */opt
 */img
 */css
+*/tmp
+/apt/**
