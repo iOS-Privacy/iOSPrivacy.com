@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.3.3
+! Version: 2.20.3.4
 ! Expires: 14 days
-! Last Modified: 2020-03-27T20:34:32+00:00
-! Checksum (SHA256): 1911f89a96a17735a82a34345cf98ce3b2d1aee4762753098bdcbe6fd910462f
+! Last Modified: 2020-03-29T19:20:15+00:00
+! Checksum (SHA256): 9a81000f32d53f894277b95c38efa5c2fde3c44f0e8d9b0d00dfbc6a5f8bd3b1
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Homepage: https://domainvoider.intr0.com
@@ -1233,6 +1233,7 @@
 ||a157ad075fcb34c.com^
 ||a15c5009bcbe272.com^
 ||a16-tb.isnssdk.com^
+||a1825.b.akamai.net^
 ||a1843.g.akamai.net^
 ||a1a5ab31bcd1bc68.com^
 ||a1b1ea8f418ca02ad4e.com^
@@ -3910,7 +3911,6 @@
 ||ajx130.online^
 ||ajzdkkzv.com^
 ||ak-cdn.placelocal.com^
-||ak-events-collector.spot.im^
 ||ak-probe.abtasty.com^
 ||ak.dxsvr.com^
 ||ak.imgaft.com^
@@ -4943,6 +4943,7 @@
 ||app-lon06.marketo.com^
 ||app-lon07.marketo.com^
 ||app-lon08.marketo.com^
+||app-measurement.com^
 ||app-promo.com^
 ||app-purch4s3app1e.ddnsking.com^
 ||app-purch4s3iapp1e.ddnsking.com^
@@ -7218,7 +7219,6 @@
 ||bonjikoa.com^
 ||bonjovijonqq.com^
 ||bonnieradnetwork.se^
-||bonsai.internetbrands.com^
 ||bontent.powvideo.net^
 ||bonugmdpqyvjc.com^
 ||bonuscounter.de^
@@ -8190,7 +8190,6 @@
 ||cdookjqkri.com^
 ||cdp.cloud.unity3d.com^
 ||cdqweuwvagrbd.com^
-||cds.connatix.com^
 ||cdsbnrs.com^
 ||cdvjpzltcouxm.com^
 ||cdvoqspgdp.com^
@@ -9303,6 +9302,7 @@
 ||conflibred.co^
 ||conflrmatlonfaceb00kpages.cf^
 ||conhive.com^
+||connatix.com^
 ||connect.fullstory.com^
 ||connect.summit.co.uk^
 ||connectad.io^
@@ -9412,6 +9412,7 @@
 ||converti.se^
 ||convertro.com^
 ||conviguration.paypa1.com.payment-metod.com^
+||convio.net^
 ||conyak.com^
 ||cooch.tv^
 ||coocopop.com^
@@ -9421,6 +9422,7 @@
 ||cookie.vrt.be^
 ||cookie.wieni.be^
 ||cookieads.fuse-ad.com^
+||cookielaw.org^
 ||cookies.cmpnet.com^
 ||cookies.fakt.pl^
 ||cookies.forbes.pl^
@@ -11566,6 +11568,7 @@
 ||dskyseconomic.info^
 ||dsmartvietnam.com^
 ||dsmmadvantage.com^
+||dsms0mj1bbhn4.cloudfront.net^
 ||dsmxwgmkj.com^
 ||dsn-vgtrk.ru^
 ||dsnextgen.com^
@@ -12265,6 +12268,7 @@
 ||emarbox.com^
 ||emarketing.rmauctions.com^
 ||ematicsolutions.com^
+||embed.ly^
 ||embed.tagboard.com.herokudns.com^
 ||embed.tonews.org^
 ||embeddedanalytics.com^
@@ -13760,6 +13764,7 @@
 ||feed.r-tb.com^
 ||feed111.me^
 ||feed777.me^
+||feedbackify.com^
 ||feedbackresearch.com^
 ||feedcat.net^
 ||feedgist.com^
@@ -14788,7 +14793,6 @@
 ||gdmdigital.com^
 ||gdn.bigfishgames.com^
 ||gdpr.branch.io^
-||gdpr.internetbrands.com^
 ||gdpr.prisa.com^
 ||gdpr.studybreakmedia.com^
 ||gdr03-support-appeid-app1e.com^
@@ -16715,7 +16719,6 @@
 ||hsxftwpltcmil.com^
 ||hsych.com^
 ||hsydzoapohcvbz.com^
-||ht.indexww.com^
 ||ht55.cn^
 ||htalizer.com^
 ||htamaster.com^
@@ -16798,6 +16801,7 @@
 ||hvulkudamh.com^
 ||hvwaieuielzzy.com^
 ||hvxhmsiz.com^
+||hwcdn.net^
 ||hwekl8dz1d.com^
 ||hwhdxuid.com^
 ||hwhiffonprotect.info^
@@ -17434,6 +17438,7 @@
 ||index.ru^
 ||indexstats.com^
 ||indextools.com^
+||indexww.com^
 ||india-zed.com^
 ||indiabanner.com^
 ||indiads.com^
@@ -17698,6 +17703,7 @@
 ||internal.fullstory.com^
 ||internebula.net^
 ||internetadbrokers.com^
+||internetbrands.com^
 ||internetfuel.com^
 ||internetmap.info^
 ||interpolls.com^
@@ -18102,7 +18108,6 @@
 ||j-a-net.jp^
 ||j.br.baidu.com^
 ||j2k9.in^
-||j6i7c9j2.ssl.hwcdn.net^
 ||j93557g.com^
 ||jaaqcdrpmyju.com^
 ||jaavpuhxrsryk.com^
@@ -18412,6 +18417,7 @@
 ||josxzdszqaivb.com^
 ||jotchept.com^
 ||jotpybmcjvg.com^
+||journey-service-assets-prod.s3.amazonaws.com^
 ||journey.unicef.de^
 ||joycasino.com^
 ||joynxonnxfnvqr.com^
@@ -18651,6 +18657,7 @@
 ||k0z09okc.com^
 ||k26fe9xhuzm.com^
 ||k2n0f.cn^
+||k4z6w9b5.stackpathcdn.com^
 ||k5evib.ru^
 ||k5zoom.com^
 ||k77hof1z7k.com^
@@ -19547,6 +19554,7 @@
 ||lemetri.info^
 ||lemitsuz.net^
 ||lengoctu.com^
+||lennyletter.com^
 ||lenovomaybenotqq.com^
 ||lenovowantsyouqq.com^
 ||lentainform.com^
@@ -19657,6 +19665,7 @@
 ||librato-collector.genius.com^
 ||libreriamedina.com^
 ||libstat.com^
+||libsyn.com^
 ||libxkvpwsdvplj.com^
 ||licantrum.com^
 ||licdn.com^
@@ -23980,6 +23989,7 @@
 ||mediaver.com^
 ||mediaview.nielsen.com^
 ||mediavine.com^
+||mediavoice.com^
 ||mediawayss.com^
 ||mediaweaver.jp^
 ||mediax.angloinfo.com^
@@ -24621,6 +24631,7 @@
 ||mobizme.net^
 ||moblin.pushwoosh.com^
 ||moblink.mob.com^
+||mobnatives.com^
 ||mobobeat.com^
 ||mobojs.baidu.com^
 ||moboland.net^
@@ -26792,6 +26803,7 @@
 ||onepush.query.yahoo.com^
 ||onerror.ga^
 ||onerror.ml^
+||onesignal.com^
 ||onespot.com^
 ||onestat.com^
 ||onestatfree.com^
@@ -28230,6 +28242,7 @@
 ||pistyll.bleacherreport.com^
 ||pisucbaart.com^
 ||pitatagata.com^
+||pitchfork.com^
 ||pitduougk.com^
 ||piti.bplaced.net^
 ||piticlik.com^
@@ -28457,7 +28470,6 @@
 ||plufdsb.com^
 ||plugerr.com^
 ||plugin.management^
-||plugin.mediavoice.com^
 ||plugin.mobopay.baidu.com^
 ||pluginsjquery.com^
 ||plugrush.com^
@@ -28606,6 +28618,7 @@
 ||poolgmsd.com^
 ||poolmining.eu^
 ||poonproscash.com^
+||poorpeoplescampaign.org^
 ||poorybdbh.bid^
 ||pooxbpxm.com^
 ||pop-rev.com^
@@ -32603,6 +32616,7 @@
 ||share.mob.com^
 ||share.yandex.ru^
 ||shareadspace.com^
+||shareaholic.net^
 ||shareasale.com^
 ||sharecash.org^
 ||shared.65twenty.com^
@@ -33489,6 +33503,7 @@
 ||sportstream365.com^
 ||sportsyndicator.com^
 ||spot.fitness.com^
+||spot.im^
 ||spotlight.accuweather.com^
 ||spotlight.ee^
 ||spotrails.com^
@@ -34218,6 +34233,7 @@
 ||suewgrsq.com^
 ||sugarcurtain.com^
 ||suggedin.info^
+||suggestqueries.google.com^
 ||sugoicounter.com^
 ||sugqlryshxarn.com^
 ||sugs.m.sm.cn^
@@ -35175,6 +35191,7 @@
 ||thelnstagramhelp.com^
 ||thelnstagramteam.ml^
 ||theloungenet.com^
+||them.us^
 ||themoneyes.ru^
 ||themoneytizer.com^
 ||themselvebu.site^
@@ -35987,7 +36004,6 @@
 ||tracker.tiu.ru^
 ||tracker.twenga.pl^
 ||tracker.uprinting.com^
-||tracker.washtimes.com^
 ||tracker.winudf.com^
 ||tracker.wpserveur.net^
 ||tracker1.richcasino.com^
@@ -37154,7 +37170,6 @@
 ||update-app1eidmail.10s-m4i1.com^
 ||update-your-pc.info^
 ||update.aubemobile.com^
-||update.indexww.com^
 ||update.information.papal.functionalliteracy.com^
 ||update.kingoapp.com^
 ||update.pan.baidu.com^
@@ -38505,6 +38520,8 @@
 ||warsomnet.com^
 ||warten-sie-mal.xyz^
 ||warumbistdusoarm.space^
+||washingtontimes.com^
+||washtimes.com^
 ||wasm.stream^
 ||wass.ihsmarkit.com^
 ||wasshimundme.ru^
