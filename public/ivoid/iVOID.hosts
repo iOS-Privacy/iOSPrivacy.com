@@ -1,8 +1,8 @@
 # Title: iVOID.hosts
-# Version: 2.20.4.1
+# Version: 2.20.4.2
 # Expires: 14 days
-# Last Modified: 2020-04-07T03:37:28+00:00
-# Checksum (SHA256): 676d7733c339ce58433e399c14650042de340adf023f64b70cf0d8c69368cb38
+# Last Modified: 2020-04-11T05:25:21+00:00
+# Checksum (SHA256): 4adb77406e3f013dd45658bc029a292ad01fa9e917138afde0abde7dc6e4ffcf
 # License: CC-BY-NC-SA
 # Maintainer: intr0
 # Homepage: https://ivoid.intr0.com
@@ -20,7 +20,7 @@
 #
 # In addition to the licensed Phishing hosts,
 # iVOID also blocks malware including: Cryptojacking, Tracking,
-# Advertising. & Mainstream Social Media.
+# Advertising & Mainstream Social Media.
 # Why does iVOID classify Advertising &
 # Mainstream Social Media as Malware?
 # Due to the tremendous negative impact to society of each.
@@ -28,7 +28,7 @@
 # The Loss of Self within sites such as Facebook,
 # Data Mining, & the Commodification of Human Beings.
 #
-### Malicious Coronavirus-19 hosts now blocked.
+# Malicious Coronavirus-19-related hosts now blocked.
 #
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -593,7 +593,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 18clicks.com
 0.0.0.0 18cum.com
 0.0.0.0 18naked.com
-0.0.0.0 18nation.
+0.0.0.0 18nation.com
 0.0.0.0 190.100.16.210
 0.0.0.0 190.108.228.62
 0.0.0.0 190.17.195.202
@@ -833,6 +833,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1sen-pit-fan.com
 0.0.0.0 1sexxx.com
 0.0.0.0 1si.cqcounter.com
+0.0.0.0 1soft.com
 0.0.0.0 1sputnik.ru
 0.0.0.0 1st-affiliation.fr
 0.0.0.0 1st.face-book.cc
@@ -4867,7 +4868,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adservetx.media.net
 0.0.0.0 adservex.media.net
 0.0.0.0 adservi.com
-0.0.0.0 adservice.google.
+0.0.0.0 adservice.google.com
 0.0.0.0 adservice.google.com
 0.0.0.0 adservice.google.com.tr
 0.0.0.0 adservice.google.com.vn
@@ -43866,7 +43867,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mediainform.net
 0.0.0.0 mediaiqdigital.com
 0.0.0.0 medialand.ru
-0.0.0.0 medialb.
+0.0.0.0 medialb.com
 0.0.0.0 medialets.com
 0.0.0.0 medialogger.ru
 0.0.0.0 medialytics.com
@@ -49545,7 +49546,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 phizzle.com
 0.0.0.0 phlslvetboouo.bid
 0.0.0.0 phluant.com
-0.0.0.0 phncdn.
+0.0.0.0 phncdn.com
 0.0.0.0 phoaksiw.com
 0.0.0.0 phobos.apple.com.lp.mydas.mobi
 0.0.0.0 phoenix-adrunner.mycomputer.com
@@ -52126,7 +52127,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 quangcaogooglevietnam.net
 0.0.0.0 quangcaotructuyen247.com
 0.0.0.0 quanta-wave.com
-0.0.0.0 quantcast.
+0.0.0.0 quantcast.com
 0.0.0.0 quantcast.com
 0.0.0.0 quantcast584928381.s.moatpixel.com
 0.0.0.0 quantcount.com
@@ -65724,7 +65725,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 whatiscoronacure.com
 0.0.0.0 whatiscoronaviruscure.com
 0.0.0.0 whatsapp-chat.xyz
-0.0.0.0 whatsapp.
+0.0.0.0 whatsapp.com
 0.0.0.0 whatsappsohbetet.com
 0.0.0.0 whatsappsohbetim.net
 0.0.0.0 whatscorona.com
