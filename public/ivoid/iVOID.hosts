@@ -1,8 +1,8 @@
 # Title: iVOID.hosts
-# Version: 2.20.5.1
+# Version: 2.20.5.2
 # Expires: 21 days
-# Last Modified: 2020-05-12T21:14:14+00:00
-# Checksum (SHA256): 40debedaeffb1dd20602020214bb27530308ee68eacca6dd3114c7b82f80f81e
+# Last Modified: 2020-05-22T20:09:24+00:00
+# Checksum (SHA256): 1b4d6887dead86559149f49a29da44a08cc0fbb0cdb117804417e49995c02bad
 #
 # License: CC-BY-NC-SA
 # Maintainer: intr0
@@ -21045,11 +21045,9 @@
 0.0.0.0 pmenboeqhyrpvomq.t4hvl4.bid
 0.0.0.0 pmenboeqhyrpvomq.thyx30.top
 0.0.0.0 pmenboeqhyrpvomq.txszfs.top
-0.0.0.0 pmenboeqhyrpvomq.v
 0.0.0.0 pmenboeqhyrpvomq.v11z5e.top
 0.0.0.0 pmenboeqhyrpvomq.viceled.pw
 0.0.0.0 pmenboeqhyrpvomq.vkm4l6.top
-0.0.0.0 pmenboeqhyrpvomq.w
 0.0.0.0 pmenboeqhyrpvomq.wn4h1k.top
 0.0.0.0 pmenboeqhyrpvomq.wrd4fo.top
 0.0.0.0 pmenboeqhyrpvomq.x1kofw.top
@@ -29978,4 +29976,3 @@
 0.0.0.0 zyzld.cn
 0.0.0.0 zzhalm.goruli.com
 0.0.0.0 zzrsmfful.xyz
-# Total: 29943
