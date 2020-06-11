@@ -2,13 +2,25 @@
 !
 ! EXPMERIMENTAL !
 !
+10.110.135.10$network
 129.134.30.12$network
+129.134.31.12$network
+151.101.1.185$network
+151.101.129.185$network
+151.101.193.185$network
+151.101.198.2$network
+151.101.65.185$network
 157.240.22.19$network
+185.89.218.12$network
+185.89.219.12$network
 31.13.66.35$network
 31.13.70.7$network
 31.13.71.1$network
 31.13.80.36$network
 31.13.80.8$network
+31.13.92.10$network
+31.13.92.4$network
+[2a03:2880:f031:19:face:b00c:0:3]$network
 !
 ||fbcdn.*/*$app=com.facebook.katana
 ||facebook.*/*$app=com.facebook.katana
