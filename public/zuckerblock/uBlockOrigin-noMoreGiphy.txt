@@ -1,0 +1,55 @@
+! Title: noMoreGiphy
+! Version: 2.20.6.1
+! Expires: 14 days
+! Maintainer: intr0
+! Contact: support@intr0.com
+! Source: https://gitlab.com/intr0/zuckerblock/-/raw/master/uBlockOrigin-noMoreGiphy.txt
+!
+!#if env_firefox
+!
+! uBO-specific rulset
+!
+! CSP rules:
+!
+! Default, Script, Style, Img, Media, Connect, Font rules are necessary to override policy set by Giphy.
+! Object possibly necessary if any <embed> (whether non-compliant or compliant relative to HTML5's living-standard) are in use; <object> (depreciated); or <applet> (depreciated) tags are in use.
+! Worker-src: - inhibit, e.g. EventListeners;
+! Frame-src: inhibit Frame (depreciated) & iFrame.
+! Sandbox (with no permissions given): turns Giphy.com into a restricted environment unable to perform several actions including: controlling specific user-resources such as the Storage Access API - Web Storage, IndexedDB & DOM Cache.
+!
+*$csp=connect-src 'none',important,domain=giphy.com
+*$csp=default-src 'none',important,domain=giphy.com
+*$csp=font-src 'none',important,domain=giphy.com
+*$csp=frame-src 'none',important,domain=giphy.com
+*$csp=img-src 'none',important,domain=giphy.com
+*$csp=media-src 'none',important,domain=giphy.com
+*$csp=object-src 'none',important,domain=giphy.com
+*$csp=sandbox,important,domain=giphy.com
+*$csp=script-src 'none',important,domain=giphy.com
+*$csp=style-src 'none',important,domain=giphy.com
+*$csp=worker-src 'none',important,domain=giphy.com
+!
+! Block scripts served from fbcdn:
+!
+||fbcdn.net^$script,important,domain=giphy.com
+!
+! "resource" Sanitization/disinfection (scripts, images & network requests):
+!
+*$image,redirect=2x2.png,important,domain=giphy.com
+*$script,redirect=cookie-remover.js,important,domain=giphy.com
+*$xhr,redirect=noop.html,important,domain=giphy.com
+!
+! Disinfect Google Tracking:
+!
+||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,domain=giphy.com,important
+||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,domain=giphy.com,important
+!
+! Disinfect Amazon Images:
+!
+||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com
+!
+! Disinfect {localStorage}:
+!
+||giphy.com/{localStorage}*$1p,redirect=cookie-remover.js,important,domain=giphy.com
+!
+!#endif
