@@ -1,0 +1,73 @@
+! Title: noMoreGiphy
+! Version: 2.20.6.1
+! Expires: 14 days
+! Last Modified: 2020-06-06T02:42:57+00:00
+! Checksum (SHA256): ab42fdaebef52a560f7d26b3e4150e568b81cb9840a7d2cfe24b2a431fe6ecfd
+! License: CC0
+! Maintainer: intr0
+! Contact: support@intr0.com 
+!
+!#if adguard_app_android
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+*$app=com.giphy.messenger,important
+!#endif
+!
+!#if adguard_app_windows
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+!#endif
+!
+!#if adguard_app_mac
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+!#endif
+!
+! CSP rules for Firefox:
+! Default, Script, Style, Img, Media, Connect, Font rules are necessary to override policy set by Giphy.
+! Frame-src: inhibit Frame (depreciated) & iFrame.
+! Object possibly necessary if any <embed> (whether non-compliant or compliant relative to HTML5's living-standard) are in use; <object> (depreciated); or <applet> (depreciated) tags are in use.
+! Sandbox (with no permissions given): turns Giphy.com into a restricted environment unable to perform several actions including: controlling specific user-resources such as the Storage Access API - Web Storage, IndexedDB & DOM Cache.
+! Worker-src: - inhibit, e.g. EventListeners;
+!
+!#if adguard_ext_firefox
+*$csp=connect-src 'none',important,domain=giphy.com
+*$csp=default-src 'none',important,domain=giphy.com
+*$csp=font-src 'none',important,domain=giphy.com
+*$csp=frame-src 'none',important,domain=giphy.com
+*$csp=img-src 'none',important,domain=giphy.com
+*$csp=media-src 'none',important,domain=giphy.com
+*$csp=object-src 'none',important,domain=giphy.com
+*$csp=sandbox,important,domain=giphy.com
+*$csp=script-src 'none',important,domain=giphy.com
+*$csp=style-src 'none',important,domain=giphy.com
+*$csp=worker-src 'none',important,domain=giphy.com
+!#endif
+!
+! general "resource" Disenfection (scripts, images & network requests):
+!
+*$image,redirect=2x2.png,important,domain=giphy.com
+*$script,redirect=cookie-remover.js,important,domain=giphy.com
+*$xmlhttprequest,redirect=noop.html,important,domain=giphy.com
+!
+! Disinfect images served from Amazon:
+||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com
+! Block scripts served from FBCDN:
+||fbcdn.net^$script,important,domain=giphy.com
+! Disinfect {localStorage}:
+||giphy.com/{localStorage}*$redirect=cookie-remover.js,important,domain=giphy.com
+! Disinfect Google Tracking:
+||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,domain=giphy.com,important
+||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,domain=giphy.com,important
