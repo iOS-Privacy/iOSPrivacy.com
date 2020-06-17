@@ -1,6 +1,17 @@
 ! Title: antiZuckerTrump
 ! Version: 2.20.6.1
-! Description: Anti-ZuckerTrump is specifically for blocking TrumpBook & TrumpBook-related domains in order to deny Trump's misinformation campaigns which are wholeheartedly supported by Mark Zuckerberg. This is not a personal endorsement of Biden, as I am an Anarchist; however, the 2020 election is a matter of ridding the U.S. of Trump & Family, a treasonous bunch of parasites who'd have no issues sparking a second civil war.
+! Description: Anti-ZuckerTrump is
+! specifically for blocking TrumpBook &
+! TrumpBook-related domains in order to
+! deny Trump's misinformation campaigns
+! which are wholeheartedly supported by
+! Mark Zuckerberg. This is not a
+! personal endorsement of Biden, as I
+! am an Anarchist; however, the 2020
+! election is a matter of ridding the
+! U.S. of Trump & Family, a treasonous
+! bunch of parasites who'd have no
+! issues sparking a second civil war.
 ! Maintainer: intr0
 ! Contact: support@intr0.com
 !
@@ -14,7 +25,7 @@ $important,csp=frame-ancestors 'none'
 $important,csp=upgrade-insecure-requests
 !
 ! +++ Site-specific CSP rules +++ !
-!+++ Facebook, Giphy, Instagram, Twitter, WhatsApp, Messenger, Zoom +++ !
+!+++ Facebook, Giphy, Instagram, WhatsApp, Messenger +++ !
 !
 $important,csp=connect-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com
 $important,csp=default-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com
