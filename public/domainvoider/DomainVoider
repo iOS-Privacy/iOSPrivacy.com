@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.6.2
+! Version: 2.20.6.3
 ! Expires: 14 days
-! Last Modified: 2020-06-16T20:15:46+00:00
-! Checksum (SHA256): 7909ef7f3f26db5beae1cca81e9dff585d651e8998bc2a1beedea6f968a71a07
+! Last Modified: 2020-06-17T17:57:15+00:00
+! Checksum (SHA256): 911c789acfe7a284990375ec9c2320920ac2ac063aa77f01a89387e597d2eaf3
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -29,7 +29,7 @@
 !
 ! +++ The 10 Most Abused Top Level Domains as of 14 June 2020 from one through ten +++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is now ranked at #9; please comment out if you need to connect to Chinese domains. +++ !
 !
 .rest^
 .tk^
@@ -86,15 +86,19 @@ $important,csp=frame-ancestors 'none'
 $important,csp=upgrade-insecure-requests
 !
 ! +++ Site-specific CSP rules +++ !
+!+++ Facebook, Giphy, Instagram, Twitter, WhatsApp, Messenger, Zoom +++ !
 !
-$important,csp=connect-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=default-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=font-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=frame-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=img-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=media-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=script-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
-$important,csp=style-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=connect-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=default-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=font-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=frame-ancestors 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=frame-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=img-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=media-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=sandbox,domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=script-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=style-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
+$important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
 !
 !#endif
 !
@@ -102,30 +106,46 @@ $important,csp=style-src 'none',domain=facebook.com|giphy.com|twitter.com|whatsa
 !
 ! +++ Comment out with a '!' (no quotes) if any are required for your use +++ !
 !
-! +++ Ping, generally a tracking tool +++ !
+! +++ Ping, generally a tracking tool. Likely unnecessary for use. +++ !
 !
-$ping
+*$ping,important
 !
-! +++ WebRTC +++ !
+! +++ WebRTC, very often misused to track you using your IP address, even if using a VPN. uBlock Origin has an option to block this hidden form of tracking. +++ !
 !
-$webrtc
+*$webrtc,important
 !
-! +++ Third party fonts +++ !
+! +++ XMLHttpRequest (XHR), shipped with Internet Explorer in 1999 via "ActiveX". The modern alternative is `fetch()`, in use since 2015.
 !
-$font,third-party
+*$xmlhttprequest,important
 !
-! +++ Third party frames +++ !
+! +++ Third party fonts, a resource hog (time & bandwidth). Possibly necessary depending on personal preference. +++ !
 !
-$subdocument,third-party
+*$font,third-party,important
 !
-! +++ Android Facebook & WhatsApp apps +++ !
+! +++ Third party iframes +++ !
+!
+*$subdocument,third-party,important
+!
+! +++ EXPERIMENTAL. Block resources for thr following Facebook owned Android apps: Facebook, Facebook Lite, Facebook Games, Messenger, Messenger Lite, Workplace Chat, Lasso, Spark AR Player, WhatsApp, WhatsApp for Business, Freebasics, Origami & Giphy. Goal is to make them unusable. +++ !
 !
 !#if adguard_app_android
 !
-||facebook.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana
-||fbcdn.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana
-||messenger.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana
-||whatsapp.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana
+||facebook.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||fbcdn.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||giphy.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||internet.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||lassovideos.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||messenger.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||messengerkids.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||origami.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||sparkar.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||whatsapp.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||workplace.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.giphy.messenger|com.facebook.games|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+!
+! +++ Block Amazon images & scripts from loading in Facebook owned apps. +++ !
+!
+||amazonaws.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.games|com.facebook.katana|com.giphy.messenger|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
+||cloudfront.$app=com.whatsapp.w4b|com.whatsapp|com.facebook.mlite|com.facebook.orca|com.facebook.games|com.facebook.katana|com.giphy.messenger|com.facebook.lasso|com.facebook.arstudio.player|com.freebasics|com.facebook.Origami|com.facebook.talk|com.facebook.workchat
 !
 !#endif
 !
@@ -957,6 +977,7 @@ $subdocument,third-party
 ||2020-giveaway.com^
 ||20201504388588.z13.web.core.windows.net^
 ||2020migrationportal.securechkout.com^
+||2020mustang.com^
 ||203.186.178.34^
 ||203.78.40.98^
 ||203.80.102.33^
@@ -7552,6 +7573,7 @@ $subdocument,third-party
 ||ah.yimg.jp^
 ||ah1-p4sd-41.advancedhosters.com^
 ||ahaanapandit.com^
+||ahacdn.me^
 ||ahaclub.ru^
 ||ahahyip.com^
 ||ahalogy.com^
@@ -9149,6 +9171,7 @@ $subdocument,third-party
 ||analytics.nextopia.net^
 ||analytics.ngfiles.com^
 ||analytics.nike.com^
+||analytics.nmmapper.com^
 ||analytics.ns1.ff.avast.com^
 ||analytics.onlyonlinemarketing.com^
 ||analytics.ooyala.com^
@@ -9961,6 +9984,7 @@ $subdocument,third-party
 ||apirelay.ru^
 ||apiryrkxkhil.com^
 ||apis.com.br^
+||apis.google.com^
 ||apis.ihg.com.edgekey.net^
 ||apis.playstove.com.edgekey.net^
 ||apissl.ksapisrv.com^
@@ -19634,6 +19658,7 @@ $subdocument,third-party
 ||cm-200-75-201-35.cableonda.net^
 ||cm-200-75-201-36.cableonda.net^
 ||cm-exchange.toast.com^
+||cm-h.phncdn.com^
 ||cm.baidu.com^
 ||cm.need2find.com^
 ||cm025.getui.igexin.com^
@@ -32089,6 +32114,7 @@ $subdocument,third-party
 ||fire-honey-aurora.glitch.me^
 ||fireballftp.com^
 ||firebanner.com^
+||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firebucks.com^
 ||firecash.org^
@@ -32604,6 +32630,8 @@ $subdocument,third-party
 ||fonds-2020-recu-ca.org^
 ||foneclick.com.br^
 ||fontainsuny.club^
+||fonts.googleapis.com^
+||fonts.gstatic.com^
 ||fonts.tinypass.com^
 ||foo.cosmocode.de^
 ||foo.developpement.me^
@@ -32821,6 +32849,7 @@ $subdocument,third-party
 ||fpb1.apple886.com^
 ||fpb1.chinacar.
 ||fpbmjwoebzby.com^
+||fpbns.net^
 ||fpctraffic.com^
 ||fpctraffic2.com^
 ||fpctraffic3.com^
@@ -34332,7 +34361,6 @@ $subdocument,third-party
 ||ga.canoe.ca^
 ||ga.clearbit.com^
 ||ga.kvideo.io^
-||ga.nsimg.net^
 ||ga.webdigi.co.uk^
 ||ga31.com^
 ||ga87z2o.com^
@@ -37146,6 +37174,7 @@ $subdocument,third-party
 ||gssprt.jp^
 ||gssxb.com^
 ||gstat.dondyablo.com^
+||gstaticadssl.l.google.com^
 ||gstatiknetiplist.cc^
 ||gstatiknetiplist.net^
 ||gstorebd.com^
@@ -38379,6 +38408,7 @@ $subdocument,third-party
 ||hdwlzheftpin.com^
 ||hdww6.codesandbox.io^
 ||hdxfyoziizy.com^
+||hdxnxx.xxx^
 ||he2d.com^
 ||he3ns1k.info^
 ||heaaizwhm.com^
@@ -40016,6 +40046,8 @@ $subdocument,third-party
 ||hubojd.com^
 ||hubpd.com^
 ||hubrus.com^
+||hubt.pornhub.com^
+||hubtraffic.com^
 ||hubvisor.io^
 ||hubvotrpjios.com^
 ||hubygv1.com^
@@ -40144,6 +40176,7 @@ $subdocument,third-party
 ||hvxhmsiz.com^
 ||hw6.com^
 ||hw60.ru^
+||hwcdn.net^
 ||hwekl8dz1d.com^
 ||hwertd.xyz^
 ||hwfcdqnvovij.com^
@@ -43007,6 +43040,7 @@ $subdocument,third-party
 ||itsnotjoke.com^
 ||itsoktosearch.net^
 ||itsptp.com^
+||itsup.com^
 ||itsyuvrlesq.com^
 ||itteholm.site^
 ||itunecodegenerator.com^
@@ -57459,6 +57493,7 @@ $subdocument,third-party
 ||nshy3g.xyz^
 ||nshyu3.xyz^
 ||nsibidi.org^
+||nsimg.net^
 ||nsiygxd.shoesmogul.com^
 ||nsjpu.com^
 ||nslaingeninfinedna.info^
@@ -60885,6 +60920,7 @@ $subdocument,third-party
 ||paypalmoneyadder.org^
 ||paypalmoneyaddergenerator.com^
 ||paypalnotifications.miguelangeltrujillo.com^
+||paypalobjects.com^
 ||paypalpro.hk^
 ||paypalprufen.de^
 ||paypalprufung.com^
@@ -67948,6 +67984,7 @@ $subdocument,third-party
 ||rn11.com^
 ||rnagwksouk.com^
 ||rnarport.com^
+||rncdn7.com^
 ||rndntpmgnj-a.akamaihd.net^
 ||rndrx0rqwkb8.com^
 ||rnengage.com^
@@ -69156,6 +69193,7 @@ $subdocument,third-party
 ||sanalytics.verizonwireless.com^
 ||sanalytics.virginmobileusa.com^
 ||sanantoniodenia.es^
+||sancdn.net^
 ||sanctifyfitness.com^
 ||sandbox.sjws.baidu.com^
 ||sandboxer.com^
@@ -75844,7 +75882,10 @@ $subdocument,third-party
 ||stringroadway.com^
 ||strip-party.net^
 ||strip-player.com^
+||stripe.com^
+||stripe.network^
 ||stripe.rs-1028-a.com^
+||stripecdn.map.fastly.net^
 ||stripedburst.com^
 ||stripedcollar.net^
 ||striplesthosen.club^
@@ -80272,6 +80313,7 @@ $subdocument,third-party
 ||trafficjoint.com^
 ||trafficjp.com^
 ||trafficjuicer.com^
+||trafficjunky.com^
 ||trafficjunky.net^
 ||trafficlayer.de^
 ||trafficleader.com^
@@ -81077,6 +81119,7 @@ $subdocument,third-party
 ||twatter.dolmanconstruction.ca^
 ||twavgirl.com^
 ||twazizo.ru^
+||twc.map.fastly.net^
 ||twch.20min.ch^
 ||twcount.com^
 ||twcouponcenter.com^
@@ -84727,6 +84770,7 @@ $subdocument,third-party
 ||w-lnstagram.com^
 ||w-lnstagramsupport.com^
 ||w-m-w.net^
+||w-x.co^$
 ||w.gdown.baidu.com^
 ||w.genovesevanderhoof.com^
 ||w.oix.net^
@@ -89623,6 +89667,7 @@ $subdocument,third-party
 ||xcyjzs.net^
 ||xcyptaqhl.com^
 ||xcyrc.com^
+||xd-cdn.com^
 ||xdagmine.com^
 ||xdbob.hk^
 ||xdbwc.com^
