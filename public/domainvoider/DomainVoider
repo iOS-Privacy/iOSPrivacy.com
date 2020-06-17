@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.6.3
+! Version: 2.20.6.4
 ! Expires: 14 days
-! Last Modified: 2020-06-17T17:57:15+00:00
-! Checksum (SHA256): 911c789acfe7a284990375ec9c2320920ac2ac063aa77f01a89387e597d2eaf3
+! Last Modified: 2020-06-17T22:04:40+00:00
+! Checksum (SHA256): cb78c09f8daece6e44e2642b724d9cff42eefeb907fb22daf354ce5f15b02a26
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -86,7 +86,7 @@ $important,csp=frame-ancestors 'none'
 $important,csp=upgrade-insecure-requests
 !
 ! +++ Site-specific CSP rules +++ !
-!+++ Facebook, Giphy, Instagram, Twitter, WhatsApp, Messenger, Zoom +++ !
+! +++ Facebook, Giphy, Instagram, Twitter, WhatsApp, Messenger, Zoom +++ !
 !
 $important,csp=connect-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
 $important,csp=default-src 'none',domain=facebook.com|giphy.com|instagram.com|twitter.com|whatsapp.com|messenger.com|zoom.com|zoom.us
