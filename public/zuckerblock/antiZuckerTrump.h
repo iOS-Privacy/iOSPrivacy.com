@@ -1,5 +1,5 @@
 ! Title: antiZuckerTrump
-! Version: 2.20.6.1
+! Version: 2.20.6.2
 ! Description: Anti-ZuckerTrump is
 ! specifically for blocking TrumpBook &
 ! TrumpBook-related domains in order to
@@ -25,7 +25,8 @@ $important,csp=frame-ancestors 'none'
 $important,csp=upgrade-insecure-requests
 !
 ! +++ Site-specific CSP rules +++ !
-!+++ Facebook, Giphy, Instagram, WhatsApp, Messenger +++ !
+!
+! +++ Facebook, Giphy, Instagram, WhatsApp, Messenger +++ !
 !
 $important,csp=connect-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com
 $important,csp=default-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com
