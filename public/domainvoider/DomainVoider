@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.6.4
+! Version: 2.20.6.5
 ! Expires: 14 days
-! Last Modified: 2020-06-17T22:04:40+00:00
-! Checksum (SHA256): cb78c09f8daece6e44e2642b724d9cff42eefeb907fb22daf354ce5f15b02a26
+! Last Modified: 2020-06-20T02:02:55+00:00
+! Checksum (SHA256): 818c2af021bc5ac13d6b4aff5b387351822d9b9f4cf7e7145849b8cbb8fdc42f
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -126,7 +126,7 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 !
 *$subdocument,third-party,important
 !
-! +++ EXPERIMENTAL. Block resources for thr following Facebook owned Android apps: Facebook, Facebook Lite, Facebook Games, Messenger, Messenger Lite, Workplace Chat, Lasso, Spark AR Player, WhatsApp, WhatsApp for Business, Freebasics, Origami & Giphy. Goal is to make them unusable. +++ !
+! +++ EXPERIMENTAL. Block resources for the following Facebook owned Android apps: Facebook, Facebook Lite, Facebook Games, Messenger, Messenger Lite, Workplace Chat, Lasso, Spark AR Player, WhatsApp, WhatsApp for Business, Freebasics, Origami & Giphy. Goal is to make them unusable. +++ !
 !
 !#if adguard_app_android
 !
@@ -149,6 +149,10 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 !
 !#endif
 !
+@@||s.yimg.com
+@@||s1.yimg.com
+@@||s2.yimg.com
+@@||s3.yimg.com
 ||*.netlify.app^
 ||*dot-*.appspot.com^
 ||*facebook
@@ -3036,7 +3040,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||a311.com^
 ||a311.net^
 ||a311.org^
-||a32.g.a.yimg.com^
 ||a337b163a0bc.com^
 ||a342c253-465e-46f3-a472-0844bd0c0c1a.htmlpasta.com^
 ||a353364ec1bd19a.com^
@@ -4018,6 +4021,7 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||ad.emlakeki.com^
 ||ad.eporner.com^
 ||ad.erasercash.com^
+||ad.ettoday.net^
 ||ad.eurosport.com^
 ||ad.f1cd.ru^
 ||ad.floq.jp^
@@ -4986,7 +4990,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||admantx.com^
 ||admaris.ir^
 ||admarket.network^
-||admarketing.yahoo.net^
 ||admarketplace.com^
 ||admarketplace.net^
 ||admarvel.com^
@@ -6015,7 +6018,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||ads.yahoo.de^
 ||ads.yap.yahoo.com^
 ||ads.yenimedya.com.tr^
-||ads.yimg.com^
 ||ads.yourfreedvds.com^
 ||ads.youtube.com^
 ||ads.zalo.me^
@@ -6185,7 +6187,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||adserver-espnet.sportszone.com^
 ||adserver-prod.gra5phdxha.us-west-2.elasticbeanstalk.com^
 ||adserver-prod.i3emqmcebj.us-east-1.elasticbeanstalk.com^
-||adserver.*.yahoodns.net^
 ||adserver.71i.de^
 ||adserver.a24.com.tr^
 ||adserver.ad4link.com^
@@ -13786,7 +13787,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||beanstalkdata.com^
 ||beanstock.com^
 ||beap-bc.yahoo.com^
-||beap1.cb.g01.yahoodns.net^
 ||beardpool.rocks^
 ||bearsandfish.com^
 ||bearsareaweetone.com^
@@ -29264,7 +29264,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||eupdatepage.com^
 ||euprowadzeniedworzec.pl^
 ||eupwogkcjczz.com^
-||eur.a1.yimg.com^
 ||eur3.mvjcdn.com^
 ||eurekster.com^
 ||eurico.org^
@@ -32473,8 +32472,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||fluentmobile.com^
 ||fluidads.co^
 ||fluidsurveys.com^
-||flurry.agentportal-*.yahoodns.net^
-||flurry.agentportal.*.yahoodns.net^
 ||flurry.cachefly.net^
 ||flurry.com^
 ||fluteguards.nn.r.appspot.com^
@@ -65532,7 +65529,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||qoracup.xyz^
 ||qoredi.com^
 ||qorvoxejr.com^
-||qos.video.yimg.com^
 ||qosrridifvsr.com^
 ||qotuhsvlqlpnfd.com^
 ||qotwtnckqrke.com^
@@ -67725,7 +67721,6 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||richgran.net^
 ||richinfo.co^
 ||richmails.com^
-||richmedia.yimg.com^
 ||richmedia247.com^
 ||richmediaads.com^
 ||richmediasolutions.com^
@@ -82527,13 +82522,11 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||us-east1.cryptovein.com^
 ||us-pay-support.com^
 ||us-realtors.info^
-||us.a1.yimg.com^
 ||us.bksn.se^
 ||us.bl1zzard.net^
 ||us.cfcnet.to^
 ||us.clevermining.com^
 ||us.coinum.org^
-||us.i1.yimg.com^
 ||us.ltcrabbit.com^
 ||us.myswitchads.com^
 ||us.ozco.in^
@@ -91031,7 +91024,9 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||yahoo-web.com^
 ||yahoo.customer-servicephonenumber.com^
 ||yahoo.mail.com.nrgroupaz.com^
+||yahoo.net^
 ||yahoo1.hisastudio.com^
+||yahoodns.net^
 ||yahooinc.admindomainserveronline.tpnggroup.com^
 ||yahooparty.com^
 ||yahyy.com^
@@ -91371,6 +91366,7 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|twi
 ||yijuxie.com^
 ||yikkagezqsob.com^
 ||yimfcnxzyqhpih.com^
+||yimg.com^
 ||yingdatuofu.com^
 ||yingjiawm.com^
 ||yinh.conservativemovement.com.au^
