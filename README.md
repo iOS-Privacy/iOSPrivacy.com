@@ -14,4 +14,4 @@
 ***
 - [x] **noMoreGiphy**
 - [x] **antiWhatsApp**
-- [x] **antiZuckerTrump**
+- [x] **antiZuckerTrümp.f**
