@@ -1,0 +1,29 @@
+! Title: Android Experimental
+! Version: 2.20.6.1
+! Description: A small ruleset to
+! make the Facebook, Messenger,
+! Facebook Lite & Messenger Lite
+! apps unusable on Android.
+!
+!#if adguard_app_android
+!
+129.134.30.12$network
+157.240.22.19$network
+31.13.66.35$network
+31.13.70.7$network
+31.13.71.1$network
+31.13.80.36$network
+31.13.80.8$network
+!
+*$app=com.facebook.katana,important
+*$app=com.facebook.lite,important
+*$app=com.facebook.mlite,important
+*$app=com.facebook.orca,important
+!
+||facebook.$important
+||fbcdn.$important
+||fb.me^$important
+||messenger.$important
+||m.me^$important
+!
+!#endif
