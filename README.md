@@ -1,9 +1,17 @@
-## iOS Privacy at `https://iosprivacy.com` serves as a mirror site for `https://intr0.com` & as a centralized repository for the following filter lists & sub-lists:
+## iOS Privacy
 
-**1) DomainVoider**
-**2) iVOID.hosts**
-**3) ZuckerBlock**
+| iVOID.hosts | DomainVoider | ZuckerBlock | noMoreGiphy | antiWhatsApp | antiZuckerTrump |
+---------|---------|---------|---------|---------|---------|
+***
+#### **`https://iosprivacy.com`**
+***
+##### iOS Privacy serves as a centralized repository for the following filter lists & sub-lists:
 
- **a) noMoreGiphy**
- **b) antiWhatsApp**
- **c) antiZuckerTrump**
+
+- [x] **DomainVoider**
+- [x] **iVOID.hosts**
+- [x] **ZuckerBlock**
+***
+- [x] **noMoreGiphy**
+- [x] **antiWhatsApp**
+- [x] **antiZuckerTrump**
