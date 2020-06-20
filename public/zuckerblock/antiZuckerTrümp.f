@@ -1,19 +1,23 @@
-! Title: antiZuckerTrump
-! Version: 2.20.6.3
-! Description: Anti-ZuckerTrump is designed
-! to block Facebook, related sites & apps
-! in order to deny Mark Zuckerberg a small
-! bit of Trump's political advertising profits.
-! Moreover, by blocking these specific sites
-! & apps, it's designed to deny Trump,
-! who has no issues sparking a second
-! civil war, the 2020 election.
+! Title: antiZuckerTrümp.f
+! Version: 2.20.6.4
+! Description: antiZuckerTrümp.f is
+! designed to block Facebook,
+! Facebook related sites & apps in
+! order to deny Mark Zuckerberg a
+! small bit of Trump's political
+! advertising profits.
+!
+! Moreover, by blocking these
+! specific sites & apps, it's
+! designed to deny Trump,
+! who would have no issues
+! sparking a second civil war,
+! the 2020 election.
 ! Maintainer: intr0
 ! Contact: support@intr0.com
 !
 ! +++ Firefox Content-Security-Policy rules +++ !
-!
-!#if adguard_ext_firefox
+! +++ for AdGuard & uBlock Origin +++ !
 !
 $important,csp=block-all-mixed-content
 $important,csp=object-src 'none'
@@ -36,7 +40,7 @@ $important,csp=script-src 'none',domain=facebook.com|giphy.com|instagram.com|wha
 $important,csp=style-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 !
-!#endif
+! +++ AdGuard Android rules +++ !
 !
 !#if adguard_app_android
 !
