@@ -1,6 +1,6 @@
-! Title: antiZuckerTrümp.f
-! Version: 2.20.6.4
-! Description: antiZuckerTrümp.f is
+! Title: antiZuckerTrump.f
+! Version: 2.20.6.5
+! Description: antiZuckerTrump.f is
 ! designed to block Facebook,
 ! Facebook related sites & apps in
 ! order to deny Mark Zuckerberg a
