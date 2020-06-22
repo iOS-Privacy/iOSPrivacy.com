@@ -1,17 +1,22 @@
-## iOS Privacy
+# iOS Privacy
 
 | iVOID.hosts | DomainVoider | ZuckerBlock | noMoreGiphy | antiWhatsApp | antiZuckerTrump |
 ---------|---------|---------|---------|---------|---------|
 ***
-#### **`https://iosprivacy.com`**
+### **`https://iosprivacy.com`**
 ***
-##### iOS Privacy serves as a centralized repository for the following filter lists & sub-lists:
+#### iOS Privacy serves as a centralized repository for my two main filters - **DomainVoider** *&* **iVOID.hosts** - as well as ZuckerBlock, a collection of standard filters & specialty rulesets designed for uBlock Origin & AdGuard.
 
+| | | | | | |
+|-|-|-|-|-|-|
 
-- [x] **DomainVoider**
-- [x] **iVOID.hosts**
-- [x] **ZuckerBlock**
-***
-- [x] **noMoreGiphy**
-- [x] **antiWhatsApp**
-- [x] **antiZuckerTrümp.f**
+## **[DomainVoider](https://iosprivacy.com/domainvoider)**
+## **[iVOID.hosts](https://iosprivacy.com/ivoid)**
+
+| | | | | | |
+|-|-|-|-|-|-|
+
+#### [ZuckerBlock](https://iosprivacy.com/zuckerblock):
+- noMoreGiphy
+- antiWhatsApp
+- antiZuckerTrump.f
