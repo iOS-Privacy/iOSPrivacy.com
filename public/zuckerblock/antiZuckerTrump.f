@@ -28,17 +28,17 @@ $important,csp=upgrade-insecure-requests
 !
 ! +++ Facebook, Giphy, Instagram, WhatsApp, Messenger, Origami, Messengerkids, Lasso, Workplace +++ !
 !
-$important,csp=connect-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=default-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=font-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=frame-ancestors 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=frame-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=img-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=media-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=sandbox,domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=script-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=style-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|whatsapp.com|messenger.com|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=connect-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=default-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=font-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com||whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=frame-ancestors 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=frame-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=img-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=media-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=sandbox,domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=script-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=style-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 !
 ! +++ AdGuard Android rules +++ !
 !
@@ -105,33 +105,32 @@ $important,csp=worker-src 'none',domain=facebook.com|giphy.com|instagram.com|wha
 199.232.30.2
 31.13.66.35
 31.13.66.4
-http[s]?://app-measurement[.]com/sdk-exp
-||alibabadns.$important
+!
 ||app-measurement.com^$important
-||cdninstagram.$important
+||cdninstagram.$important,all
 ||crashlytics.com^$important
 ||crashlytics.l.google.com^$important
-||facebook.$important
+||facebook.$important,all
 ||fb.$important
-||fbcdn.$important
-||fbwat.ch^$important
+||fbcdn.$important,all
+||fbwat.$important
 ||firebaselogging-pa.googleapis.com^$important
-||giphy.$important
+||giphy.$important,all
 ||giphy.map.fastly.net^$important
 ||igsonar.$important
-||instagram.$important
-||internet.org^$important
+||instagram.$important,all
+||internet.org^$important,all
 ||las.so^$important
-||lassovideos.com^$important
+||lassovideos.$important,all
 ||m.me^$important
-||messenger.$important
+||messenger.$important,all
+||messengerkids.$important,all
 ||msngr.$important
-||onelink.me^$important
-||origami.design^$important
-||sparkar.$important
-||tencent-cloud.net^$important
+||origami.design^$important,all
+||sparkar.$important,all
 ||wa.me^$important
-||whatsapp.$important
+||whatsapp.$important,all
 ||wk.pl^$important
+||workplace.$important,all
 !
 ! +++ End antiZuckerTrump +++ !
