@@ -48,11 +48,11 @@
 !
 ! +++ "Resource" disinfection rules for Firefox +++ !
 !
-*$image,redirect=1X1.gif,important,domain=giphy.com|giphy.world
+*$image,redirect=1x1.gif,important,domain=giphy.com|giphy.world
 *$script,redirect=cookie-remover.js,important,domain=giphy.com|giphy.world
 *$xmlhttprequest,redirect=noop.html,important,domain=giphy.com|giphy.world
 !
-||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com|giphy.world
+||cloudfront.net/*$image,redirect=1x1.gif,important,domain=giphy.com|giphy.world
 !
 ||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,important,domain=giphy.com|giphy.world
 ||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,important,domain=giphy.com|giphy.world
