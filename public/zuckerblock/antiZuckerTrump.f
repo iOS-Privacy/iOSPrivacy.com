@@ -1,5 +1,5 @@
 ! Title: antiZuckerTrump.f
-! Version: 2.20.6.5
+! Version: 2.20.6.6
 ! Description: antiZuckerTrump.f is
 ! designed to block Facebook,
 ! Facebook related sites & apps in
