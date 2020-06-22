@@ -1,5 +1,5 @@
 ! Title: noMoreGiphy Combined
-! Version: 2.20.6.4
+! Version: 2.20.6.5
 ! Expires: 14 days
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -44,11 +44,11 @@
 !
 ! +++ "Resource" disinfection rules for Firefox +++ !
 !
-*$image,redirect=2x2.png,important,domain=giphy.com|giphy.world
-*$script,redirect=cookie-remover.js,important,domain=giphy.com|giphy.world
-*$xmlhttprequest,redirect=noop.html,important,domain=giphy.com|giphy.world
+*$image,redirect=2x2.png,important,domain=giphy.com
+*$script,redirect=cookie-remover.js,important,domain=giphy.com
+*$xmlhttprequest,redirect=noop.html,important,domain=giphy.com
 !
-||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com|giphy.world
-||giphy.*/{localStorage}*$redirect=cookie-remover.js,important,domain=giphy.com|giphy.world
-||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,important,domain=giphy.com|giphy.world
-||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,important,domain=giphy.com|giphy.world
+||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com
+*/{localStorage}*$redirect=cookie-remover.js,important,domain=giphy.com|giphy.world
+||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,important,domain=giphy.com
+||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,important,domain=giphy.com
