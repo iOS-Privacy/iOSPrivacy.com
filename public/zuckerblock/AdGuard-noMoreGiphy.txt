@@ -1,58 +1,57 @@
 ! Title: noMoreGiphy
 ! Version: 2.20.6.2
 ! Expires: 14 days
-! Last Modified: 2020-06-12T18:54:14+00:00
-! Checksum (SHA256): 2722109d8088de5d51459d0e9d07e0894a78ebb9f44e34b21e631dd29f32cd0d
+! Last Modified: 2020-06-23T03:04:17+00:00
+! Checksum (SHA256): 44f266be27efdb7f06589a296131bab8a52c52b685fccdf0370311400caf3b95
+! Description: AdGuard-noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function.
 ! License: CC0
 ! Maintainer: intr0
 ! Contact: support@intr0.com
-! Source: https://iosprivacy.com/zuckerblock/AdGuard-noMoreGiphy.txt
+!
+! +++ AdGuard Rulset +++ !
 !
 !#if adguard_app_android
 !
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
-||giphy.*/*$app=com.giphy.messenger
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+!
+*$app=com.giphy.messenger,important
 !
 !#endif
 !
 !#if adguard_app_windows
 !
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
 !
 !#endif
 !
 !#if adguard_app_mac
 !
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
+151.101.1.185$network,important
+151.101.129.185$network,important
+151.101.193.185$network,important
+151.101.198.2$network,important
+151.101.65.185$network,important
+[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
 !
 !#endif
 !
 ! CSP rules for Firefox:
-! Default, Script, Style, Img, Media, Connect, Font rules
-! are necessary to override policy set by Giphy.
-! Frame-src: inhibit Frame (depreciated) & iFrame.
-! Object possibly necessary if any <embed>
-! (whether non-compliant or compliant relative to HTML5's
-! living-standard) are in use; <object> (depreciated);
-! or <applet> (depreciated) tags are in use.
-! Sandbox (with no permissions given) turns Giphy.com
-! into a restricted environment unable to perform several
-! actions including: controlling specific user-resources
-! such as the Storage Access API - Web Storage,
-! IndexedDB & DOM Cache.
-! Worker-src: - inhibit, e.g. EventListeners;
+!
+! default, script, style, img, media, connect, font rules are necessary to override policy set by Giphy.
+! object possibly necessary if any <embed> (whether non-compliant or compliant relative to HTML5's living-standard) are in use; <object> (depreciated); or <applet> (depreciated) tags are in use.
+! worker-src: - inhibit, e.g. EventListeners;
+! frame-src: inhibit Frame (depreciated) & iFrame.
+! sandbox (with no permissions given): turns Giphy.com into a restricted environment unable to perform several actions including: controlling specific user-resources such as the Storage Access API - Web Storage, IndexedDB & DOM Cache.
 !
 !#if adguard_ext_firefox
 !
@@ -68,22 +67,26 @@
 *$csp=style-src 'none',important,domain=giphy.com
 *$csp=worker-src 'none',important,domain=giphy.com
 !
-!#endif
-!
-! General "resource" Disenfection (scripts, images & network requests):
+! general "resource" Disenfection (scripts, images & network requests):
 !
 *$image,redirect=2x2.png,important,domain=giphy.com
 *$script,redirect=cookie-remover.js,important,domain=giphy.com
 *$xmlhttprequest,redirect=noop.html,important,domain=giphy.com
 !
 ! Disinfect images served from Amazon:
+!
 ||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com
+!
 ! Block scripts served from FBCDN:
 ||fbcdn.net^$script,important,domain=giphy.com
+!
 ! Disinfect {localStorage}:
+!
 ||giphy.com/{localStorage}*$redirect=cookie-remover.js,important,domain=giphy.com
+!
 ! Disinfect Google Tracking:
+!
 ||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,domain=giphy.com,important
 ||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,domain=giphy.com,important
 !
-! EOF
+!#endif
