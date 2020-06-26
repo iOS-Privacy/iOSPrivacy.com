@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.6.6
+! Version: 2.20.6.7
 ! Expires: 14 days
-! Last Modified: 2020-06-23T21:11:59+00:00
-! Checksum (SHA256): bff33b42d33150ff5160aef19da1176bb5b8fc7082820f530f0b913971982099
+! Last Modified: 2020-06-26T17:54:13+00:00
+! Checksum (SHA256): f6800354c34eee262e09b2d0294c04419c257049bd63a88f194ec66db182afef
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -27,24 +27,23 @@
 ! The Loss of Self within sites such as Facebook,
 ! Data Mining, & the Commodification of Human Beings.
 !
-! +++ The 10 Most Abused Top Level Domains as of 14 June 2020 from one through ten +++ !
+! +++ The 10 Most Abused Top Level Domains as of 26 June 2020 from one through ten +++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is now ranked at #9; please comment out if you need to connect to Chinese domains. +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
 !
-.rest^
 .tk^
-.gq^
+.rest^
 .fit^
-.ml^
+.gq^
 .work^
 .cf^
+.ml^
 .ga^
 .cn^
+!
+! +++ Additional TLDs (adjusted 26 June 2020) +++ !
+!
 .asia^
-!
-! +++ Additional TLDs (adjusted 14 June 2020) +++ !
-!
-.auction^
 .bid^
 .buzz^
 .cam^
@@ -58,23 +57,11 @@
 .icu^
 .life^
 .live^
-.loan^
-.party^
-.ph^
-.promo^
-.pw^
 .run^
-.services^
-.sm^
-.su^
 .surf^
-.tf^
 .top^
-.trade^
 .ug^
-.vip^
 .wang^
-.world^
 !
 ! +++ Firefox Content-Security-Policy rules +++ !
 !
@@ -127,6 +114,30 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !#endif
 !
 ! +++ Begin standard rules +++ !
+!
+! +++ General 'resource' blocking +++ !
+!
+! +++ Comment out with a '!' (no quotes) if any are required for your use +++ !
+!
+! +++ Ping, generally a tracking tool. Likely unnecessary for use. +++ !
+!
+*$ping
+!
+! +++ WebRTC, very often misused to track you using your IP address, even if using a VPN. uBlock Origin has an option to block this hidden form of tracking. +++ !
+!
+*$webrtc
+!
+! +++ XMLHttpRequest (XHR), shipped with Internet Explorer in 1999 via "ActiveX". The modern alternative is `fetch()`, in use since 2015.
+!
+*$xmlhttprequest
+!
+! +++ Third party fonts, a resource hog (time & bandwidth). Possibly necessary depending on personal preference. +++ !
+!
+*$font,third-party
+!
+! +++ Third party iframes +++ !
+!
+*$subdocument,third-party
 !
 -logging.nextmedia.com^
 .1.1.1.l80.js^
@@ -99266,7 +99277,6 @@ www.llllllllllll.net^
 ||w-lnstagramsupport.com^
 ||w-lnstagramsupport.ml^
 ||w-m-w.net^
-||w-x.co^$
 ||w-xmz.mentriqq.com^
 ||w.gdown.baidu.com^
 ||w.genovesevanderhoof.com^
