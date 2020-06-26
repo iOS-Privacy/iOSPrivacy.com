@@ -2,10 +2,10 @@
 Hash: SHA256
 
 ! Title: DomainVoider
-! Version: 2.20.6.7
-! Expires: 14 days
-! Last Modified: 2020-06-26T17:54:13+00:00
-! Checksum (SHA256): f6800354c34eee262e09b2d0294c04419c257049bd63a88f194ec66db182afef
+! Version: 2.20.6.8
+! Expires: 3 days
+! Last Modified: 2020-06-26T20:22:58+00:00
+! Checksum (SHA256): 3d00226f75d3b0e1f71d93f82b3e50584ed9d1b4e0d4599a68d636a5bf1898bb
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -19,7 +19,7 @@ Hash: SHA256
 ! Previously, founder of SSL Labs and ModSecurity.
 ! Author of Bulletproof SSL and TLS.
 ! Regular participant at the security conferences
-! Black Hat, RSA, & OWASP AppSec.
+! Black Hat, RSA & OWASP AppSec.
 !
 ! In addition to the licensed Phishing domains,
 ! DomainVoider also blocks malware including:
@@ -28,11 +28,15 @@ Hash: SHA256
 ! Due to the tremendous negative impact to society of each.
 ! Including: Poor Monetary Hygiene, Election Interference,
 ! The Loss of Self within sites such as Facebook,
-! Data Mining, & the Commodification of Human Beings.
+! Data Mining & the Commodification of Human Beings.
 !
-! +++ The 10 Most Abused Top Level Domains as of 26 June 2020 from one through ten +++ !
+! +++ Block 10 Most Abused Top Level Domains as of 26 June 2020, ordered from one to ten. +++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. +++ !
+!
+! +++ Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
+!
+! Also note that the general TLD '.biz' is now on the additional list. Please comment out if necessary. +++ !
 !
 .tk^
 .rest^
@@ -42,12 +46,14 @@ Hash: SHA256
 .cf^
 .ml^
 .ga^
+.wang^
 .cn^
 !
 ! +++ Additional TLDs (adjusted 26 June 2020) +++ !
 !
 .asia^
 .bid^
+.biz^
 .buzz^
 .cam^
 .casa^
@@ -64,7 +70,6 @@ Hash: SHA256
 .surf^
 .top^
 .ug^
-.wang^
 !
 ! +++ Firefox Content-Security-Policy rules +++ !
 !
@@ -109036,15 +109041,15 @@ www.llllllllllll.net^
 ||zzzthxsyvbzk.cf2giga.link^
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCAAGBQJe9jb9AAoJEMSbWpFzzfrLp08QALc/J3CSHdsjbMpmYqx+D5TumHUMJ1PK6U4w
-lHc5fR6eWxF4rqUTnZp4SUHJ1RKfzDFJkWnvmh7MYXaOCbDxr4P5aov5SgiYyZDrUIg0bKBBcAe2
-yaJ8iMiagU9lSRdJ1AziQPzPD6vcuv15cGQ158dH1NnRPBlzg0/b4UCxQbowprhPERo5jdPo+32D
-kB3G1o2q1AfGh2b/PbI/scHHg6CLKb/z0mmwzTnp9aGL9vxO/Eoou/8Ii9Cle+seQ7MC+qs+hgkm
-KKJSQMecxygi+duG+ejhtHpjG2LhkFtRxLOpArjlNe7ymnH2rKrX3Z3Vofbn5HbjEsZobqzyE4Dx
-2aMgvWXc3pYA+hEJHerW9AoZ02MetlyyFKnkFQ/tRuzixODIOX09q5CNDECx6+QJ96/UrdaScaVU
-0st9bk2nprIE7Os2sXbYW2kXbY2aQjZDtAQe5PyPlHlSQHJSRd/YalywvjudlCxHIs2RzSXyW2eL
-V58k60KD0U0/NPdPwn1c+gB7qAcCrLYHOUDN+cHpZjEk+UIwbeO9ESfsHk1eEicglS03+ZVZ9kY9
-yRfRMp9J8PDHpSplc6nVKh4Vdege3qMtslq5pVOfLL0DhKI13W81vjTCkgaQEyvi4brNZdbCoTbo
-xkeJlq+oU/0CxDt9N/trT3lb9kd1YQQlLVTxoWQ7
-=LCxC
+iQIcBAEBCAAGBQJe9ltnAAoJEMSbWpFzzfrLJfcQAIi2a4ssWs9M97pM1vl0vm/RIxLyfemEwcSF
+0ikEtzVv/aajuhLnV2cxHuuSOzMoFXejeCph7nv+kaXXHl41o/+2/536tUqEb7uNcLRQEGjsieaJ
+HNn/+kCbVQzKLbHwVVNNLeedTlQQqfPF8esXYShXPayaRzo0ViylkaXokzVgYpiSzV8wdzxappVi
+C2rgCYFhvXqePpvw/IpJ7A2ZI7pHqSTjHgjEo9Ep3GQRbehVNtAjqfai8Bzxc0pE1NaE3vHIV4dD
+evRsMB+wQ1uj5I8PJ3PTbsSkscd9BNFMdImo3l2ot/c7i/9pH5sGKzkowcoO35RbzmPrYTS9efB3
+wryyqNRl/SvZSJWVpzDiOfgIKmd14ru7Uq0E/6iu+n76V7GgJoB/cXPCgeNcA6dnZqK53r2WeOGI
+hOfxXm0mJOHM3fdwudy3nNpzZXNrELvQVbMlo4nX/LRhnVwzEtaSQYHc+XfvhdpOCqsgdg5sfIW4
+1xzCpu+IYR5wPcbZgWJeODarOgiuBPK8HTuD1L/oI4PJiY0QNk8EUTpOwJ1A7Jtq1qrzfhTanlyF
+EBZE11y9z8wORm56KfT3r9A4rTsSIXd3f7lz95vfULdzwTEFjXiYl7Fsbs/9+A2V7LN5NQb1HRG2
+gr8pNyhxgAfUq86ChqM5jyuxCPwBVdW+7aERECMD
+=3mAQ
 -----END PGP SIGNATURE-----
