@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.6.7
-! Expires: 14 days
-! Last Modified: 2020-06-26T17:54:13+00:00
-! Checksum (SHA256): f6800354c34eee262e09b2d0294c04419c257049bd63a88f194ec66db182afef
+! Version: 2.20.6.8
+! Expires: 3 days
+! Last Modified: 2020-06-26T20:22:58+00:00
+! Checksum (SHA256): 3d00226f75d3b0e1f71d93f82b3e50584ed9d1b4e0d4599a68d636a5bf1898bb
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -16,7 +16,7 @@
 ! Previously, founder of SSL Labs and ModSecurity.
 ! Author of Bulletproof SSL and TLS.
 ! Regular participant at the security conferences
-! Black Hat, RSA, & OWASP AppSec.
+! Black Hat, RSA & OWASP AppSec.
 !
 ! In addition to the licensed Phishing domains,
 ! DomainVoider also blocks malware including:
@@ -25,11 +25,15 @@
 ! Due to the tremendous negative impact to society of each.
 ! Including: Poor Monetary Hygiene, Election Interference,
 ! The Loss of Self within sites such as Facebook,
-! Data Mining, & the Commodification of Human Beings.
+! Data Mining & the Commodification of Human Beings.
 !
-! +++ The 10 Most Abused Top Level Domains as of 26 June 2020 from one through ten +++ !
+! +++ Block 10 Most Abused Top Level Domains as of 26 June 2020, ordered from one to ten. +++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. +++ !
+!
+! +++ Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
+!
+! Also note that the general TLD '.biz' is now on the additional list. Please comment out if necessary. +++ !
 !
 .tk^
 .rest^
@@ -39,12 +43,14 @@
 .cf^
 .ml^
 .ga^
+.wang^
 .cn^
 !
 ! +++ Additional TLDs (adjusted 26 June 2020) +++ !
 !
 .asia^
 .bid^
+.biz^
 .buzz^
 .cam^
 .casa^
@@ -61,7 +67,6 @@
 .surf^
 .top^
 .ug^
-.wang^
 !
 ! +++ Firefox Content-Security-Policy rules +++ !
 !
