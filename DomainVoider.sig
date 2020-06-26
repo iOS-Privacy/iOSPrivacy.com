@@ -2,10 +2,10 @@
 Hash: SHA256
 
 ! Title: DomainVoider
-! Version: 2.20.6.6
+! Version: 2.20.6.7
 ! Expires: 14 days
-! Last Modified: 2020-06-23T21:11:59+00:00
-! Checksum (SHA256): bff33b42d33150ff5160aef19da1176bb5b8fc7082820f530f0b913971982099
+! Last Modified: 2020-06-26T17:54:13+00:00
+! Checksum (SHA256): f6800354c34eee262e09b2d0294c04419c257049bd63a88f194ec66db182afef
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -30,24 +30,23 @@ Hash: SHA256
 ! The Loss of Self within sites such as Facebook,
 ! Data Mining, & the Commodification of Human Beings.
 !
-! +++ The 10 Most Abused Top Level Domains as of 14 June 2020 from one through ten +++ !
+! +++ The 10 Most Abused Top Level Domains as of 26 June 2020 from one through ten +++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is now ranked at #9; please comment out if you need to connect to Chinese domains. +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
 !
-.rest^
 .tk^
-.gq^
+.rest^
 .fit^
-.ml^
+.gq^
 .work^
 .cf^
+.ml^
 .ga^
 .cn^
+!
+! +++ Additional TLDs (adjusted 26 June 2020) +++ !
+!
 .asia^
-!
-! +++ Additional TLDs (adjusted 14 June 2020) +++ !
-!
-.auction^
 .bid^
 .buzz^
 .cam^
@@ -61,23 +60,11 @@ Hash: SHA256
 .icu^
 .life^
 .live^
-.loan^
-.party^
-.ph^
-.promo^
-.pw^
 .run^
-.services^
-.sm^
-.su^
 .surf^
-.tf^
 .top^
-.trade^
 .ug^
-.vip^
 .wang^
-.world^
 !
 ! +++ Firefox Content-Security-Policy rules +++ !
 !
@@ -130,6 +117,30 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !#endif
 !
 ! +++ Begin standard rules +++ !
+!
+! +++ General 'resource' blocking +++ !
+!
+! +++ Comment out with a '!' (no quotes) if any are required for your use +++ !
+!
+! +++ Ping, generally a tracking tool. Likely unnecessary for use. +++ !
+!
+*$ping
+!
+! +++ WebRTC, very often misused to track you using your IP address, even if using a VPN. uBlock Origin has an option to block this hidden form of tracking. +++ !
+!
+*$webrtc
+!
+! +++ XMLHttpRequest (XHR), shipped with Internet Explorer in 1999 via "ActiveX". The modern alternative is `fetch()`, in use since 2015.
+!
+*$xmlhttprequest
+!
+! +++ Third party fonts, a resource hog (time & bandwidth). Possibly necessary depending on personal preference. +++ !
+!
+*$font,third-party
+!
+! +++ Third party iframes +++ !
+!
+*$subdocument,third-party
 !
 -logging.nextmedia.com^
 .1.1.1.l80.js^
@@ -99269,7 +99280,6 @@ www.llllllllllll.net^
 ||w-lnstagramsupport.com^
 ||w-lnstagramsupport.ml^
 ||w-m-w.net^
-||w-x.co^$
 ||w-xmz.mentriqq.com^
 ||w.gdown.baidu.com^
 ||w.genovesevanderhoof.com^
@@ -109026,15 +109036,15 @@ www.llllllllllll.net^
 ||zzzthxsyvbzk.cf2giga.link^
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCAAGBQJe8nG6AAoJEMSbWpFzzfrLn/oP/RdrWm5ktNh6JALv5dWtFY1VI1XypJ3alXK+
-miAtFMt/k+YqKlJf0IFw2/vfkRLPckqdaJX9aNitS4USqTzFzCeDGYd3UB+9mYOjgQ6CnuHpAjvG
-Iv7om6wSi5Sd162TAsbVKf2Ryf6ksMkDNSLo7rWdNEUzlYd/+zaLY7QYrCF2uFdu0K4C+B7bC5X2
-L+vChq5hIN4YkCqBpYnBAWIk0PydOFV2WCYXLNGMwerNjQdnFV73uyHYkeoIOR1sS7reykiINjyx
-bVDPdanN9gbbVHQHod+59nSkQBGaJx3HzLAuP5NYuVG4V73KXvKZ6Un0HMm3X6MCdNF/CrNO2w9q
-EbAD6Y6OU3kgM32x24clxFbozQV3kkACwCoflwBFHPRrN3xARBagYIu5wScstavT7appOfgYsU90
-qJBGanRWnKYVkob1r4FynkyxX8MwO42i1Xx3gO7q2zaU+lLimrSKAKkJj2Pcj/VTcAJ4rRthqINf
-OlqubHkmSlRt+S8ERZg5B4G5Yl6ogLAq71t7IKU/rye7j+2BIjMnfx7Fv0By9V8rYYyrYU6uxTR+
-GyvJ+Tb8F8JPblJDpH58mkxGRKRwgXEY6YFYbaCflOcdzZp9XphrhLe+ESKNKNBmDzpR7J8ia46H
-YOahmZfm/Uw/sRw8idbZQfwSWW6rxylgbKZgDfEm
-=EsM/
+iQIcBAEBCAAGBQJe9jb9AAoJEMSbWpFzzfrLp08QALc/J3CSHdsjbMpmYqx+D5TumHUMJ1PK6U4w
+lHc5fR6eWxF4rqUTnZp4SUHJ1RKfzDFJkWnvmh7MYXaOCbDxr4P5aov5SgiYyZDrUIg0bKBBcAe2
+yaJ8iMiagU9lSRdJ1AziQPzPD6vcuv15cGQ158dH1NnRPBlzg0/b4UCxQbowprhPERo5jdPo+32D
+kB3G1o2q1AfGh2b/PbI/scHHg6CLKb/z0mmwzTnp9aGL9vxO/Eoou/8Ii9Cle+seQ7MC+qs+hgkm
+KKJSQMecxygi+duG+ejhtHpjG2LhkFtRxLOpArjlNe7ymnH2rKrX3Z3Vofbn5HbjEsZobqzyE4Dx
+2aMgvWXc3pYA+hEJHerW9AoZ02MetlyyFKnkFQ/tRuzixODIOX09q5CNDECx6+QJ96/UrdaScaVU
+0st9bk2nprIE7Os2sXbYW2kXbY2aQjZDtAQe5PyPlHlSQHJSRd/YalywvjudlCxHIs2RzSXyW2eL
+V58k60KD0U0/NPdPwn1c+gB7qAcCrLYHOUDN+cHpZjEk+UIwbeO9ESfsHk1eEicglS03+ZVZ9kY9
+yRfRMp9J8PDHpSplc6nVKh4Vdege3qMtslq5pVOfLL0DhKI13W81vjTCkgaQEyvi4brNZdbCoTbo
+xkeJlq+oU/0CxDt9N/trT3lb9kd1YQQlLVTxoWQ7
+=LCxC
 -----END PGP SIGNATURE-----
