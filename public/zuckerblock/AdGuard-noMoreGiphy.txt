@@ -1,8 +1,8 @@
 ! Title: noMoreGiphy
-! Version: 2.20.6.2
+! Version: 2.20.6.3
 ! Expires: 14 days
-! Last Modified: 2020-06-23T03:04:17+00:00
-! Checksum (SHA256): 44f266be27efdb7f06589a296131bab8a52c52b685fccdf0370311400caf3b95
+! Last Modified: 2020-06-27T00:59:58+00:00
+! Checksum (SHA256): f994149728aede8f9da3acead37c2e66ca8230948bd9c7ae6d0f478801bb967e
 ! Description: AdGuard-noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function.
 ! License: CC0
 ! Maintainer: intr0
@@ -10,40 +10,37 @@
 !
 ! +++ AdGuard Rulset +++ !
 !
+! +++ Android, Windows & Mac rules +++ !
+!
+!#if (adguard_app_android || adguard_app_windows || adguard_app_mac)
+!
+151.101.1.185$network
+151.101.129.185$network
+151.101.193.185$network
+151.101.198.2$network
+151.101.65.185$network
+[2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
+!
+!#endif
+!
+! +++ Android-only rules +++ !
+!
 !#if adguard_app_android
 !
-151.101.1.185$network,important
-151.101.129.185$network,important
-151.101.193.185$network,important
-151.101.198.2$network,important
-151.101.65.185$network,important
-[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+! +++ Block Giphy app & network connections from Giphy app. It's likely overkill.+++ !
 !
-*$app=com.giphy.messenger,important
-!
-!#endif
-!
-!#if adguard_app_windows
-!
-151.101.1.185$network,important
-151.101.129.185$network,important
-151.101.193.185$network,important
-151.101.198.2$network,important
-151.101.65.185$network,important
-[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
+*$app=com.giphy.messenger
+151.101.1.185$network,app=com.giphy.messenger
+151.101.129.185$network,app=com.giphy.messenger
+151.101.193.185$network,app=com.giphy.messenger
+151.101.198.2$network,app=com.giphy.messenger
+151.101.65.185$network,app=com.giphy.messenger
 !
 !#endif
 !
-!#if adguard_app_mac
+! +++ Firefox rules +++ !
 !
-151.101.1.185$network,important
-151.101.129.185$network,important
-151.101.193.185$network,important
-151.101.198.2$network,important
-151.101.65.185$network,important
-[2a03:2880:f031:19:face:b00c:0:3]$network,important,domain=giphy.com
-!
-!#endif
+!#if adguard_ext_firefox
 !
 ! CSP rules for Firefox:
 !
@@ -52,8 +49,6 @@
 ! worker-src: - inhibit, e.g. EventListeners;
 ! frame-src: inhibit Frame (depreciated) & iFrame.
 ! sandbox (with no permissions given): turns Giphy.com into a restricted environment unable to perform several actions including: controlling specific user-resources such as the Storage Access API - Web Storage, IndexedDB & DOM Cache.
-!
-!#if adguard_ext_firefox
 !
 *$csp=connect-src 'none',important,domain=giphy.com
 *$csp=default-src 'none',important,domain=giphy.com
@@ -67,24 +62,25 @@
 *$csp=style-src 'none',important,domain=giphy.com
 *$csp=worker-src 'none',important,domain=giphy.com
 !
-! general "resource" Disenfection (scripts, images & network requests):
+! +++ General "resource" Disenfection (scripts, images & network requests) +++ !
 !
 *$image,redirect=2x2.png,important,domain=giphy.com
 *$script,redirect=cookie-remover.js,important,domain=giphy.com
 *$xmlhttprequest,redirect=noop.html,important,domain=giphy.com
 !
-! Disinfect images served from Amazon:
+! +++ Disinfect images served from Amazon +++ !
 !
 ||cloudfront.net/*$image,redirect=2x2.png,important,domain=giphy.com
 !
-! Block scripts served from FBCDN:
-||fbcdn.net^$script,important,domain=giphy.com
+! +++ Block scripts served from FBCDN +++ !
+!
+||fbcdn.$script,important,domain=giphy.com
 !
 ! Disinfect {localStorage}:
 !
 ||giphy.com/{localStorage}*$redirect=cookie-remover.js,important,domain=giphy.com
 !
-! Disinfect Google Tracking:
+! +++ Disinfect Google Tracking +++ !
 !
 ||google-analytics.com/*$script,redirect=google-analytics_inpage_linkid.js,domain=giphy.com,important
 ||googletagmanager.com/*$script,redirect=googlesyndication_adsbygoogle.js,domain=giphy.com,important
