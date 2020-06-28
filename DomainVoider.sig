@@ -2,10 +2,10 @@
 Hash: SHA256
 
 ! Title: DomainVoider
-! Version: 2.20.6.8
+! Version: 2.20.6.9
 ! Expires: 3 days
-! Last Modified: 2020-06-26T20:22:58+00:00
-! Checksum (SHA256): 3d00226f75d3b0e1f71d93f82b3e50584ed9d1b4e0d4599a68d636a5bf1898bb
+! Last Modified: 2020-06-28T14:59:30+00:00
+! Checksum (SHA256): 684384b763364d325f9d5da395c190f97c4f79b56524b87f9b78b7014722679e
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -30,13 +30,13 @@ Hash: SHA256
 ! The Loss of Self within sites such as Facebook,
 ! Data Mining & the Commodification of Human Beings.
 !
-! +++ Block 10 Most Abused Top Level Domains as of 26 June 2020, ordered from one to ten. +++ !
+! ++++++ Begin DomainVoider ++++++ !
 !
-! +++ Comment out with a '!' (no quotes) if any are required for your use. +++ !
+! +++ Block 10 Most Abused Top Level Domains as of 28 June 2020, ordered from one to ten. +++ !
 !
-! +++ Note that '.cn' (mainland China's TLD) is ranked at #10. Please comment out if you need to connect to Chinese domains. +++ !
+! +++ Comment out with a '!' (no quotes) if any are required for your use. Example: '! .tk^' (without quotes with a single white space. +++ !
 !
-! Also note that the general TLD '.biz' is now on the additional list. Please comment out if necessary. +++ !
+! +++ Note that both '.cn' (mainland China TLD) & '.us' (United States TLD) are on the additional list of abused TLDs. (adjusted 28 June 2020). Either whitelist the specific sites you need to go to or comment out the TLD(s) you need to use with an exclamation point '!' without quotes as described above. The United States' TLD & China's TLD are both on the additional list of abused TLDs due to statistical evidence. +++ !
 !
 .tk^
 .rest^
@@ -47,16 +47,16 @@ Hash: SHA256
 .ml^
 .ga^
 .wang^
-.cn^
+.host^
 !
 ! +++ Additional TLDs (adjusted 26 June 2020) +++ !
 !
 .asia^
 .bid^
-.biz^
 .buzz^
 .cam^
 .casa^
+.cn^
 .date^
 .email^
 .exposed^
@@ -69,9 +69,9 @@ Hash: SHA256
 .run^
 .surf^
 .top^
-.ug^
+.us^
 !
-! +++ Firefox Content-Security-Policy rules +++ !
+! +++ AdGuard Firefox Content-Security-Policy rules +++ !
 !
 !#if adguard_ext_firefox
 !
@@ -98,6 +98,33 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !
 !#endif
 !
+! +++ uBlock Origin Firefox Content-Security-Policy rules +++ !
+!
+!#if env_firefox
+!
+*$important,csp=block-all-mixed-content
+*$important,csp=object-src 'none'
+*$important,csp=frame-ancestors 'none'
+*$important,csp=upgrade-insecure-requests
+!
+! +++ Site-specific CSP rules +++ !
+!
+! +++ Facebook, Giphy, Instagram, WhatsApp, Messenger, Origami, Messengerkids, Lasso, Workplace +++ !
+!
+*$important,csp=connect-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=default-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=font-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com||whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=frame-ancestors 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=frame-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=img-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=media-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=sandbox,domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=script-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=style-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+*$important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+!
+!#endif
+!
 ! +++ AdGuard Android rules +++ !
 !
 !#if adguard_app_android
@@ -108,7 +135,7 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !
 !#endif
 !
-! +++ Network Rules +++ !
+! +++ AdGuard Network Rules for Android, Windows & Mac +++ !
 !
 !#if (adguard_app_android || adguard_app_mac || adguard_app_windows)
 !
@@ -121,7 +148,7 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !
 !#endif
 !
-! +++ Begin standard rules +++ !
+! +++ Begin general resource rules. +++ !
 !
 ! +++ General 'resource' blocking +++ !
 !
@@ -143,9 +170,11 @@ $important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|ins
 !
 *$font,third-party
 !
-! +++ Third party iframes +++ !
+! +++ Third party Frames (depreciated) & iFrames +++ !
 !
 *$subdocument,third-party
+!
+! +++ Begin standard rules. Includes: adjusted simplified filter rules from AdGuard's DNS; Hardenize Phishing domains; self-made/discovered ad/tracking domains; user-contributed domains & user-contributed whitelist rules. +++ !
 !
 -logging.nextmedia.com^
 .1.1.1.l80.js^
@@ -3527,6 +3556,7 @@ www.llllllllllll.net^
 ||a.comicbooktrailers.net^
 ||a.consumer.net^
 ||a.crypterfile.com^
+||a.disquscdn.com^
 ||a.doko.moe^
 ||a.duanmeiwen.com^
 ||a.duduji.com^
@@ -11142,6 +11172,7 @@ www.llllllllllll.net^
 ||api.ad.wazzapps.org^
 ||api.admob.xiaomi.com^
 ||api.aveno.net^
+||api.branch.io^
 ||api.cloudmobi.net
 ||api.deep-ad.com.edgekey.net^
 ||api.eosmetal.io^
@@ -11328,6 +11359,7 @@ www.llllllllllll.net^
 ||app.pulsatehq.com^
 ||app.respage.com.herokudns.com^
 ||app.roximity.com^
+||app.searchads.apple.com^
 ||app.sendgrid.com.login.5448.feuerwehr-rannenberg.de^
 ||app.sendgrid.com.login.5449.feuerwehr-rannenberg.de^
 ||app.shikejz.com^
@@ -14222,6 +14254,7 @@ www.llllllllllll.net^
 ||ayyslqwrmoygf.com^
 ||az.chemprob.org^
 ||az1.info^
+||az416426.vo.msecnd.net^
 ||az7t8.com^
 ||azadify.com^
 ||azads.com^
@@ -17414,6 +17447,7 @@ www.llllllllllll.net^
 ||bnbhzio.vteexcx.com^
 ||bnbir.xyz^
 ||bnbyiw.pricetabonline.su^
+||bnc.lt^
 ||bncxz.com^
 ||bnd2fyl.gmz.cc^
 ||bndbddt.top^
@@ -18977,6 +19011,7 @@ www.llllllllllll.net^
 ||c.cpa5.ru^
 ||c.cpa6.ru^
 ||c.cpl2.ru^
+||c.disquscdn.com^
 ||c.evidon.com^
 ||c.fsx.com^
 ||c.gazetevatan.com^
@@ -19998,6 +20033,7 @@ www.llllllllllll.net^
 ||cdn-net.com^
 ||cdn-prod-defaulting-gamedev-ads.gismart.xyz^
 ||cdn-server.top^
+||cdn-settings.segment.com^
 ||cdn.88-f.net^
 ||cdn.adbert.info^
 ||cdn.adswizz.com.edgesuite.net^
@@ -20042,6 +20078,8 @@ www.llllllllllll.net^
 ||cdn.pljs.ru^
 ||cdn.pushcrew.com^
 ||cdn.sdkconfig.site^
+||cdn.segment.com^
+||cdn.segment.io^
 ||cdn.smartclick.io^
 ||cdn.socialbakers.com^
 ||cdn.sportlabs.online^
@@ -25497,6 +25535,7 @@ www.llllllllllll.net^
 ||cssimplicanab.info^
 ||cssrvsync.com^
 ||cssshroud.fun^
+||cstat.apple.com^
 ||cstdfxkxbqbc.com^
 ||cstfzgckbtrb.com^
 ||cstoa.com^
@@ -29691,6 +29730,8 @@ www.llllllllllll.net^
 ||drhickmanncom.shaxiaprimary.top^
 ||drhuzaifa.com^
 ||dribblingorder.com^
+||driftcdn.com^
+||driftt.com^
 ||drillknife.club^
 ||dripappliance.com^
 ||dripboxcloud.000webhostapp.com^
@@ -31852,9 +31893,11 @@ www.llllllllllll.net^
 ||ematicsolutions.com^
 ||embargainew.site^
 ||embeaguyu.topkorder.su^
+||embed-fastly.wistia.com^
 ||embed.tagboard.com.herokudns.com^
 ||embed.tonews.org^
 ||embeddedanalytics.com^
+||embeds.driftcdn.com^
 ||embeds.tagboard.com.herokudns.com^
 ||emberads.com^
 ||emboba.info^
@@ -35265,6 +35308,7 @@ www.llllllllllll.net^
 ||fast.appcues.com^
 ||fast.fonts.net^
 ||fast.forbes.com^
+||fast.wistia.com^
 ||fast12g.com^
 ||fast2earn.com^
 ||fast2load.ru^
@@ -39921,6 +39965,7 @@ www.llllllllllll.net^
 ||genericlink.com^
 ||genericscanner.com^
 ||genesis-mining.com^
+||genesis.malwarebytes.com^
 ||genesismedia.com^
 ||genesisstore.sk^
 ||genestreet.com^
@@ -46263,6 +46308,7 @@ www.llllllllllll.net^
 ||iad.liveperson.net^
 ||iad1.squareup.com^
 ||iadc.qwapi.com^
+||iadcontent.apple.com^
 ||iadctest.qwapi.com^
 ||iadevatandasportalda.com^
 ||iadfjbrttvgn.com^
@@ -50929,6 +50975,7 @@ www.llllllllllll.net^
 ||js.bulkhentai.com^
 ||js.bxwns.com^
 ||js.colo2.jp^
+||js.driftt.com^
 ||js.duotegame.com^
 ||js.ftp0118.info^
 ||js.gdsln.ru^
@@ -64285,6 +64332,7 @@ www.llllllllllll.net^
 ||mobile-provider.info^
 ||mobile-refund.ca^
 ||mobile-sdk-resources.jumio.com^
+||mobile-service.segment.com^
 ||mobile-update.com^
 ||mobile-watchdog.com^
 ||mobile-wells-fargo-about.work^
@@ -66358,6 +66406,7 @@ www.llllllllllll.net^
 ||n3xt-pool.net^
 ||n4tf1ix7-1nfo.com^
 ||n5zgk.awaykart.com^
+||n65adserv.com^
 ||n69.com^
 ||n74s9.com^
 ||n78668odszx.appspot.com^
@@ -69078,6 +69127,7 @@ www.llllllllllll.net^
 ||oceuwezutqfcbx.com^
 ||ocfsmefzzarkmo.com^
 ||och.nvshengjie.cn^
+||ochatbot.ometrics.com^
 ||ochaugly.net^
 ||ochze.com^
 ||ocipbbphfszy.com^
@@ -69705,6 +69755,7 @@ www.llllllllllll.net^
 ||omep-france.org^
 ||omergunes.net^
 ||ometria.com^
+||ometrics.com^
 ||omfgskins.com^
 ||omfgskins.ml^
 ||omg2.com^
@@ -81375,6 +81426,7 @@ www.llllllllllll.net^
 ||s.youtube.com^
 ||s.zixuntop.com^
 ||s0-2mdn-net.l.google.com^
+||s0.wp.com^
 ||s01.vidtod.me^
 ||s01.vidtodo.pro^
 ||s02.vidtod.me^
@@ -82760,6 +82812,7 @@ www.llllllllllll.net^
 ||searchaccelerator.com^
 ||searchaccurate.com^
 ||searchad-phinf.pstatic.net^
+||searchads.isg-apple.com.akadns.net^
 ||searchadv.com^
 ||searchage.net^
 ||searchall.info^
@@ -83922,6 +83975,7 @@ www.llllllllllll.net^
 ||segment.a3cloud.net^
 ||segment.com^
 ||segment.io^
+||segmentcdn.com^
 ||segmentify.com^
 ||segmobionline.ml^
 ||segn-co-xyz.preview-domain.com^
@@ -86345,6 +86399,7 @@ www.llllllllllll.net^
 ||smenqskfmpfxnb.bid^
 ||smentcirrhoea.club^
 ||smet3.listfash.com^
+||smetrics-ieeexplore.ieee.org^
 ||smetrics.aa.com^
 ||smetrics.att.com^
 ||smetrics.bestbuy.com^
@@ -89930,6 +89985,7 @@ www.llllllllllll.net^
 ||supportlnstagramservices.ml^
 ||supportmail.webservis.ru^
 ||supportmethoer00.com^
+||supportmetrics.apple-support.akadns.net^
 ||supportmetrics.apple.com^
 ||supportnetflixx.info^
 ||supportonlinesecurity.com^
@@ -90721,6 +90777,7 @@ www.llllllllllll.net^
 ||tags.sprizzy.com^
 ||tags.stailamedia.com^
 ||tags.tiqcdn.com.edgekey.net^
+||tags.tiqcdn.com^
 ||tags.vrvm.com^
 ||tags2.adshell.net^
 ||tagshost.com^
@@ -91503,6 +91560,7 @@ www.llllllllllll.net^
 ||temscsquare.com^
 ||ten.lighthousekeyresortorlando.net^
 ||tenbrink-online.de^
+||tencent-cloud.net^
 ||tend.io^
 ||tendatta.com^
 ||tendertest.com^
@@ -96655,6 +96713,7 @@ www.llllllllllll.net^
 ||us-coronavirus-cases-state-by-state.afyfr.com^
 ||us-counter.com^
 ||us-downloads.com^
+||us-east-1-a.route.herokuapp.com^
 ||us-east1.cryptovein.com^
 ||us-pay-support.com^
 ||us-realtors.info^
@@ -101400,6 +101459,7 @@ www.llllllllllll.net^
 ||wishloop.com^
 ||wishwesternpa.org^
 ||wisteria-js.excite.co.jp^
+||wistia.com^
 ||wit.ai^
 ||wital-logistics.de^
 ||witalfieldt.com^
@@ -103088,6 +103148,7 @@ www.llllllllllll.net^
 ||www.goodscopy.com^
 ||www.goodsitesguide.com^
 ||www.google.com.toon5.com^
+||www.googleoptimize.com^
 ||www.gotlaughs.com^
 ||www.gotoo.com^
 ||www.gotsmiley.com^
@@ -103610,6 +103671,7 @@ www.llllllllllll.net^
 ||www.payment-report.net^
 ||www.payoutpal.com^
 ||www.paypal.com.mscrs.us^
+||www.paypalobjects.com^
 ||www.paypalverifyinfo.com^
 ||www.paypergig.com^
 ||www.payperranking.com^
@@ -109041,15 +109103,15 @@ www.llllllllllll.net^
 ||zzzthxsyvbzk.cf2giga.link^
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCAAGBQJe9ltnAAoJEMSbWpFzzfrLJfcQAIi2a4ssWs9M97pM1vl0vm/RIxLyfemEwcSF
-0ikEtzVv/aajuhLnV2cxHuuSOzMoFXejeCph7nv+kaXXHl41o/+2/536tUqEb7uNcLRQEGjsieaJ
-HNn/+kCbVQzKLbHwVVNNLeedTlQQqfPF8esXYShXPayaRzo0ViylkaXokzVgYpiSzV8wdzxappVi
-C2rgCYFhvXqePpvw/IpJ7A2ZI7pHqSTjHgjEo9Ep3GQRbehVNtAjqfai8Bzxc0pE1NaE3vHIV4dD
-evRsMB+wQ1uj5I8PJ3PTbsSkscd9BNFMdImo3l2ot/c7i/9pH5sGKzkowcoO35RbzmPrYTS9efB3
-wryyqNRl/SvZSJWVpzDiOfgIKmd14ru7Uq0E/6iu+n76V7GgJoB/cXPCgeNcA6dnZqK53r2WeOGI
-hOfxXm0mJOHM3fdwudy3nNpzZXNrELvQVbMlo4nX/LRhnVwzEtaSQYHc+XfvhdpOCqsgdg5sfIW4
-1xzCpu+IYR5wPcbZgWJeODarOgiuBPK8HTuD1L/oI4PJiY0QNk8EUTpOwJ1A7Jtq1qrzfhTanlyF
-EBZE11y9z8wORm56KfT3r9A4rTsSIXd3f7lz95vfULdzwTEFjXiYl7Fsbs/9+A2V7LN5NQb1HRG2
-gr8pNyhxgAfUq86ChqM5jyuxCPwBVdW+7aERECMD
-=3mAQ
+iQIcBAEBCAAGBQJe+LGJAAoJEMSbWpFzzfrLff0P/3zG4e5bk20/yTAIbmyfzY3dgxUayHKysbkM
+lFV5kh8DKc3UjNAfKLpq6dNQDvPBPboJ/tsBNEje3fQH0PwI193X3rQ6GWZuE4sbIyvy7wqIj2kd
+t63/tsPN6kjqxW2+RInEsunIWshdEQxeAqqYIRXlPoNpVk17F1BTbZy+/Mdf2f5U/pBUOxrV6uHA
+PD1h99vxZRSP3NGhH/e8ZEyIGgNh1QWlsPXNPf+UyrBn5IujDJR7B7rv3w3fZpOO4M6MrroO84QB
+vv9amQ/wyvG5YfwT7Mrn56tbfJhOmGtA6IeuNC33e3etGVkby06gcqf/g8wRDr4D1ba/syrmI2L/
+GYQm6KbScLHDJxz4kcz4jEKo5oaKuBl4KKajldA3QzEhCpTtbOlEKo7jku3EeRQ0Hl4ATi4WpUng
+C0p2UG7zhy3o9x37FFano0za3t5FdDqSVWOkSh/cV53+6AIAqxjdGCkMBfMApfYrgT6WpLM9QlYi
+oHUV8HSCDK3KSgSAzOA4rfdgEQIkAQCgnY2PsDAGeDuMcbjZl1y04aXq22C4Lika1YoXb5xN7LsH
+Ilpc8aqoU1ZSCz2pz9hkiMa0bHrxOYCqc0z45z22MGhOwQWNS8rmGCjd56ZG70XdYwlO0XbYHWH5
+24weqF0D1gD3GZZ7W616x0kHQtp4Zv+TartNa3Pq
+=Is4a
 -----END PGP SIGNATURE-----
