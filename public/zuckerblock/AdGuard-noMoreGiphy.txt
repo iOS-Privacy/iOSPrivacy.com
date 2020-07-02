@@ -1,12 +1,14 @@
 ! Title: AdGuard-noMoreGiphy
-! Version: 2.20.7.2
+! Version: 2.20.7.3
 ! Expires: 3 days
 ! Last Modified: 2020-07-02T05:11:49+00:00
-! Checksum (SHA256): 8dc076ffd0325cf9665d3c6f60998cbf8181d53ba675839d19669becabc70d9c
+! Checksum (SHA256): c9424b98cd48e9e0d31d2413399548e4ec38c8daf360809f84ff66824b54ee62
 ! Description: AdGuard-noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function. It is a work in progress.
 ! License: CC0
 ! Maintainer: intr0
 ! Contact: support@intr0.com
+!
+! This is to be considerd a WIP; If you want a functioning ruleset, use uBlockOrigin-noMoreGiphy.
 !
 ! Firefox:
 !
@@ -26,7 +28,8 @@ $csp=worker-src 'none',domain=giphy.com
 !
 ||api.giphy.com/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
 ||api.giphy.com/v1/trending/searches?$script,redirect=nooop.js,important,domain=giphy.com
-||giphy.com/*.png$image,redirect=2x2-transparent.png,important,domain=giphy.com
+||developers.giphy.com/branch/*$media,redirect=noopmp4-1s,important,domain=developers.giphy.com
+||giphy.com/*.png$image,redirect=2x2-transparent.png,important,domain=giphy.comd
 ||giphy.com/*.svg$image,redirect=2x2-transparent.png,important,domain=giphy.com
 ||giphy.com/api/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
 ||giphy.com/apps/giphyworld$media,redirect=noopmp4-1s,important,domain=giphy.com
