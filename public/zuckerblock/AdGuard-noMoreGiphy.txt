@@ -1,24 +1,16 @@
 ! Title: AdGuard-noMoreGiphy
-! Version: 2.20.7.1
-! Expires: 7 days
-! Last Modified: 2020-07-01T23:16:01+00:00
-! Checksum (SHA256): 76ddbb89ade185bc2eac970c4f03dc6bb086579f5af7c0ac4ce938051aa519d4
-! Description: noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function.
+! Version: 2.20.7.2
+! Expires: 3 days
+! Last Modified: 2020-07-02T05:11:49+00:00
+! Checksum (SHA256): 8dc076ffd0325cf9665d3c6f60998cbf8181d53ba675839d19669becabc70d9c
+! Description: AdGuard-noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function. It is a work in progress.
 ! License: CC0
 ! Maintainer: intr0
 ! Contact: support@intr0.com
 !
-! AdGuard Firefox:
+! Firefox:
 !
 !#if adguard_ext_firefox
-!
-! CSP rules for Firefox:
-! default, script, style, img, media, connect, font rules are necessary to override policy set by Giphy.
-! object-src: <embed>; <object> (depreciated); <applet> (depreciated)
-! worker-src: inhibit, e.g. EventListeners;
-! frame-src: inhibit Frame (depreciated) & iFrame.
-! sandbox (with no permissions given): turns giphy.com into a restricted environment unable to perform several actions including:
-! controlling specific user-resources such as Storage Access API - Web Storage, IndexedDB & DOM Cache.
 !
 $csp=connect-src 'none',domain=giphy.com
 $csp=default-src 'none',domain=giphy.com
@@ -32,30 +24,38 @@ $csp=script-src 'none',domain=giphy.com
 $csp=style-src 'none',domain=giphy.com
 $csp=worker-src 'none',domain=giphy.com
 !
-! General disinfection (scripts, images & network requests):
+||api.giphy.com/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
+||api.giphy.com/v1/trending/searches?$script,redirect=nooop.js,important,domain=giphy.com
+||giphy.com/*.png$image,redirect=2x2-transparent.png,important,domain=giphy.com
+||giphy.com/*.svg$image,redirect=2x2-transparent.png,important,domain=giphy.com
+||giphy.com/api/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
+||giphy.com/apps/giphyworld$media,redirect=noopmp4-1s,important,domain=giphy.com
+||giphy.com/static/*$script,redirect=noopjs,important,domain=giphy.com
+||giphy.com/static/webfonts/*$font,redirect=noopcss,important,domain=giphy.com
+||giphy.com^$stylesheet,redirect=noopcss,important,domain=giphy.com
+||giphy.com^$subdocument,redirect=noopframe,important,domain=giphy.com
+||media.giphy.com/*.gif$redirect=1x1-transparent.gif,important,domain=giphy.com
+||media.giphy.com/*.webm$media,redirect=noopmp4-1s,important,domain=giphy.com
+||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptext,important,domain=giphy.com
+||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
+||x.giphy.com/v1/stories?$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
 !
-||giphy.$image,redirect=1x1-transparent.gif
-||giphy.$script,redirect=noopjs
-||giphy.$xmlhttprequest,redirect=nooptext
+||cloudfront.net^$image,redirect=2x2-transparent.png,important,domain=giphy.com
 !
-! Disinfect images served from Amazon:
+||connect.facebook.net^$script,redirect=noopjs,important,domain=giphy.com
 !
-||cloudfront.$redirect=2x2-transparent.png,domain=giphy.com
-!
-! Disinfect Google Tracking:
-!
-||google-analytics.$redirect=google-analytics,important,domain=giphy.com
-||googletagmanager.$redirect=googletagmanager-gtm,important,domain=giphy.com
-!
-! Remove Giphy cookies:
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=giphy.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=giphy.com
 !
 ||giphy.#%#//scriptlet('remove-cookie')
+||giphy.com#%#//scriptlet('nowebrtc')
 !
 !#endif
 !
 ! Android:
 !
 !#if adguard_app_android
+!
 151.101.1.185$network
 151.101.129.185$network
 151.101.193.185$network
@@ -63,26 +63,31 @@ $csp=worker-src 'none',domain=giphy.com
 151.101.65.185$network
 [2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
 *$app=com.giphy.messenger
+!
 !#endif
 !
 ! Windows:
 !
 !#if adguard_app_windows
+!
 151.101.1.185$network
 151.101.129.185$network
 151.101.193.185$network
 151.101.198.2$network
 151.101.65.185$network
 [2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
+!
 !#endif
 !
 ! Mac:
 !
 !#if adguard_app_mac
+!
 151.101.1.185$network
 151.101.129.185$network
 151.101.193.185$network
 151.101.198.2$network
 151.101.65.185$network
 [2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
+!
 !#endif
