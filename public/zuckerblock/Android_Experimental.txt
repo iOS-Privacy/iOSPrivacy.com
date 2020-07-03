@@ -1,29 +1,135 @@
-! Title: Android Experimental
-! Version: 2.20.6.1
-! Description: A small ruleset to
-! make the Facebook, Messenger,
-! Facebook Lite & Messenger Lite
-! apps unusable on Android.
+! Title: AndroidExperimental-AdGuard
+! Version: 2.20.7.3
+! Description: A small ruleset to make the Facebook, Messenger, Facebook Lite & Messenger Lite apps & sites; Whatsapp, Instagram & Giphy apps & sites unusable on Android (& a bit less so on other platforms).
 !
-!#if adguard_app_android
+! Block IPv4 & IPv6 network connections to Facebook, Messenger, Facebook Lite & Messenger Lite apps & domains
+! Please let me know if the addressess listed in this section are sufficient to break connectivity for Facebook, Messenger, Facebook Lite, Messenger Lite apps & domains. I do not have an Android device to check, only an emulator on my Linux box. tyvm :)
 !
-129.134.30.12$network
-157.240.22.19$network
-31.13.66.35$network
-31.13.70.7$network
-31.13.71.1$network
-31.13.80.36$network
-31.13.80.8$network
+31.13.66.35$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+31.13.66.35$network,app=com.facebook.lite|com.facebook.katana|com.facebook.mlite|com.facebook.orca
 !
-*$app=com.facebook.katana,important
-*$app=com.facebook.lite,important
-*$app=com.facebook.mlite,important
-*$app=com.facebook.orca,important
+157.240.0.35$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+157.240.0.35$network,app=com.facebook.katana|com.facebook.lite|com.facebook.mlite|com.facebook.orca
 !
-||facebook.$important
-||fbcdn.$important
-||fb.me^$important
-||messenger.$important
-||m.me^$important
+[2a03:2880:f103:83:face:b00c:0:25de]$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+[2a03:2880:f103:83:face:b00c:0:25de]$network,app=com.facebook.lite|com.facebook.katana|com.facebook.mlite|com.facebook.orca
 !
-!#endif
+[2a03:2880:f112:182:face:b00c:0:25de]$network,app=com.facebook.katana|com.facebook.lite|com.facebook.mlite|com.facebook.orca
+[2a03:2880:f112:182:face:b00c:0:25de]$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+157.240.0.1$network,app=com.facebook.orca|com.facebook.mlite|com.facebook.katana|com.facebook.lite
+157.240.0.1$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+[2a03:2880:f012:100:face:b00c:0:2]$network,app=com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.facebook.lite
+[2a03:2880:f012:100:face:b00c:0:2]$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+31.13.66.4$network,app=com.facebook.orca|com.facebook.mlite|com.facebook.katana|com.facebook.lite
+31.13.66.4$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+157.240.0.4$network,app=com.facebook.orca|com.facebook.mlite|com.facebook.katana|com.facebook.lite
+157.240.0.4$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+[2a03:2880:f003:c07:face:b00c:0:2]$network,app=com.facebook.orca|com.facebook.mlite|com.facebook.katana|com.facebook.lite
+[2a03:2880:f003:c07:face:b00c:0:2]$network,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+!
+! Block connect.facebook.net IPv4 & IPv6 using network rules
+!
+31.13.66.19$network
+!
+[2a03:2880:f003:c0e:face:b00c:0:3]$network
+!
+! Non-network rules:
+!
+! Section of blunt app killing rules; hopfully they suffice if network rules do not. Includes Instagram & IGTV, Whatsapp, Giphy
+!
+*$app=com.facebook.katana
+*$app=com.facebook.lite
+*$app=com.facebook.mlite
+*$app=com.facebook.orca
+*$app=com.instagram.android
+*$app=com.instagram.igtv
+*$app=com.whatsapp
+*$app=com.giphy.messenger
+!
+! sub/domain & basic IPv4/6 rules for apps, domains, etc:
+!
+31.13.66.19$important
+2a03:2880:f003:c0e:face:b00c:0:3$important
+31.13.66.35$important
+157.240.0.35$important
+2a03:2880:f103:83:face:b00c:0:25de$important
+2a03:2880:f112:182:face:b00c:0:25de$important
+157.240.0.1$important
+2a03:2880:f012:100:face:b00c:0:2$important
+31.13.66.4$important
+157.240.0.4$important
+2a03:2880:f003:c07:face:b00c:0:2$important
+!
+||facebook.$important,app=com.facebook.katana|com.facebook.lite|com.facebook.mlite|com.facebook.orca|com.instagram.android|com.instagram.igtv|com.whatsapp
+||facebook.$important,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com|instagram.com|www.instagram.com|instagram.tv|www.whatsapp.com|web.whatsapp.com
+||facebook.com^$important,webrtc
+||facebook.com^$important,websocket
+||www.facebook.com^$empty,important,~third-party
+||graph.facebook.com^$important
+||star-mini.c10r.facebook.com^$important
+||connect.facebook.$important,script
+||connect.facebook.$important,other
+||connect.facebook.$important,webrtc
+||connect.facebook.net^$important,third-party
+||fbcdn.net^$important,script
+||fbcdn.net^$important,third-party
+||fbwat.ch^$important,third-party
+||fb.com^$important,third-party
+||fb.me^$important,third-party
+||igsonar.$important,websocket
+||igsonar.$important,other
+||igsonar.$important,script
+||igsonar.$important,webrtc
+||igsonar.$important,domain=instagram.com|facebook.com|www.instagram.com|www.facebook.com|instagram.tv
+||igsonar.$important,app=com.instagram.android|com.instagram.igtv|com.facebook.katana|com.facebook.lite
+||instagram.$important,domain=instagram.com|www.instagram.com|facebook.com|www.facebook.com|instagram.tv
+||instagram.$important,app=com.instagram.android|com.instagram.igtv|com.facebook.katana|com.facebook.lite
+||instagram.$important,websocket
+||instagram.$important,webrtc
+||instagram.$important,other
+||instagram.$important,script
+||instagram.$important,image
+||instagram.$important,media
+||instagram.net^$important,third-party
+||instagram.com^$important,third-party
+||instagram.tv^$important,third-party
+||instagram.com^$empty,important.~third-party
+||instagr.am^$important,third-party
+||messenger.$important,app=com.facebook.mlite|com.facebook.orca|com.facebook.katana|com.facebook.lite
+||messenger.$important,domain=messenger.com|facebook.com|www.messenger.com|www.facebook.com|m.lite.facebook.com|light.facebook.com|m.me|fb.me|fb.com
+||messenger.$important,webrtc
+||messenger.$important,websocket
+||messenger.$important,other
+||messenger.$important,script
+||messenger.com^$important,third-party
+||messenger.com^$empty,important,~third-party
+||m.me^$important,third-party
+||whatsapp.$important,app=com.whatsapp
+||whatsapp.$important,websocket
+||whatsapp.$important,webrtc
+||whatsapp.$important,script
+||whatsapp.$important,other
+||whatsapp.$important,image
+||whatsapp.$important,media
+||whatsapp.com^$important,third-party
+||whatsapp.net^$important,third-party
+||www.whatsapp.com^$empty,important,~third-party
+||web.whatsapp.com^$empty,important,~third-party
+||wa.me^$important,other
+||wa.me^$important,webrtc
+||wa.me^$important,websocket
+||wa.me^$important,third-party
+||giphy.$important,app=com.giphy.messenger
+||giphy.com^$important,media,third-party
+||giphy.com^$important,media,~third-party
+||giphy.com^$important,image,third-party
+||giphy.com^$important,image,~third-party
+||giphy.com^$important,font,~third-party
+||giphy.com^$important,script,~third-party
+||giphy.com^$important,stylesheet,~third-party
+||giphy.com^$empty,important,~third-party
