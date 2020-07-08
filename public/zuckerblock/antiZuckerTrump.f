@@ -1,5 +1,5 @@
 ! Title: antiZuckerTrump.f
-! Version: 2.20.7.1
+! Version: 2.20.7.2
 ! Description: antiZuckerTrump.f is
 ! designed to block Facebook,
 ! Facebook related sites & apps in
@@ -29,15 +29,15 @@ $important,csp=upgrade-insecure-requests
 !
 $important,csp=connect-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=default-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=font-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com||whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=font-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=frame-ancestors 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=frame-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=img-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 $important,csp=media-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=sandbox,domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=script-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com||m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=style-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
-$important,csp=worker-src 'none',domain=facebook.com||facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=sandbox,domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=script-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=style-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
+$important,csp=worker-src 'none',domain=facebook.com|facebook.net|giphy.com|instagram.com|instagram.net|whatsapp.com|whatsapp.net|messenger.com|m.me|origami.design|fb.gg|giphy.world|workplace.com|messengerkids.com|fbwat.ch|msngr.com|las.so|wk.pl|fbcdn.net
 !
 ! ------ Standard rules ------ !
 !
