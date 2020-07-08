@@ -1,5 +1,11 @@
 # Title: ZuckerBlock.hosts
-# Version: 2.20.7.1
+# Version: 2.20.7.2
+# Expires: 7 days
+# Last Modified: 2020-07-08T16:35:51+00:00
+# Maintainer: intr0
+# Contact: support@intr0.com
+# Homepage: https://iosprivacy.com/zuckerblock
+# Source: https://iosprivacy.com/zuckerblock/ZuckerBlock.hosts
 #
 127.0.0.1 localhost
 ::1 localhost
@@ -1892,6 +1898,8 @@
 0.0.0.0 faq.whatsapp.com
 0.0.0.0 fb.alpha.messenger.com
 0.0.0.0 fb.axis.internet.org
+0.0.0.0 fb.com
+0.0.0.0 fb.me
 0.0.0.0 fb.internet.org
 0.0.0.0 fb.m.alpha.messenger.com
 0.0.0.0 fb.m.beta.messenger.com
@@ -2463,6 +2471,7 @@
 0.0.0.0 instagram.fzrh1-1.fna.fbcdn.net
 0.0.0.0 instagram.fzrh3-1.fna.fbcdn.net
 0.0.0.0 instagram.fzty2-1.fna.fbcdn.net
+0.0.0.0 instagram.tv
 0.0.0.0 integrated-plugin-canvas-134907593370788-1072560396.fbsbx.com
 0.0.0.0 integrated-plugin-canvas-134907593370788-1073134365.fbsbx.com
 0.0.0.0 integrated-plugin-canvas-134907593370788-1256398962.fbsbx.com
@@ -2716,6 +2725,7 @@
 0.0.0.0 m.instant.indosat.com.internet.org
 0.0.0.0 m.internet.org
 0.0.0.0 m.m.0.facebook.com
+0.0.0.0 m.me
 0.0.0.0 m.messenger.com
 0.0.0.0 m.mirror.facebook.net
 0.0.0.0 m.s.n.messenger.com
@@ -4446,6 +4456,7 @@
 0.0.0.0 w7.web.whatsapp.com
 0.0.0.0 w8.web.whatsapp.com
 0.0.0.0 w9.web.whatsapp.com
+0.0.0.0 wa.me
 0.0.0.0 wahyu.tamvan.internet.org
 0.0.0.0 wap.internet.org
 0.0.0.0 wap.telkomsel.com.0.facebook.com
@@ -4694,7 +4705,9 @@
 0.0.0.0 www.facebook.messenger.com
 0.0.0.0 www.facebook.net
 0.0.0.0 www.fb.messenger.com
+0.0.0.0 www.fb.com
 0.0.0.0 www.fbcdn.net
+0.0.0.0 www.fb.me
 0.0.0.0 www.fbsbx.com
 0.0.0.0 www.fbwat.ch
 0.0.0.0 www.fedora.mirror.facebook.net
@@ -4766,6 +4779,7 @@
 0.0.0.0 www.lvhn.internet.org
 0.0.0.0 www.m.0.facebook.com
 0.0.0.0 www.m.lite.facebook.com
+0.0.0.0 www.m.me
 0.0.0.0 www.m.messenger.com
 0.0.0.0 www.mail.live.messenger.com
 0.0.0.0 www.mail.yahoo.messenger.com
