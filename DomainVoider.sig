@@ -2,10 +2,10 @@
 Hash: SHA512
 
 ! Title: DomainVoider
-! Version: 2.20.7.3
+! Version: 2.20.7.4
 ! Expires: 3 days
-! Last Modified: 2020-07-15T09:15:41+00:00
-! Checksum (SHA256): 560f6c3a9b3bbc7b3689a6c1dffbc06fe81edad7c9f305d770acfaaff4aac825
+! Last Modified: 2020-07-16T10:25:39+00:00
+! Checksum (SHA256): 21e3a0ba99f49b662279ce75dc00537ad523260b749f4c7f15c186ceb9b9ceaf
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -105668,9 +105668,24 @@ star-mini.c10r.facebook.com^$important
 ||zzxosget.com^
 ||zzyonghao.com^
 ||zzznews.ru^
+!
+! Added 17072020; todo: integrate
+! fully into filter & deduplicate more
+! unnecessary subdomains of phishing hosts.
+!
+||apis.google.com^
+||app-measurement.com^
+||cdn.embed.ly.cdn.cloudflare.net^
+||cdn.embedly.com^
+||embed.ly^
+||firebaselogging-pa.googleapis.com^
+||improving.duckduckgo.com^
+||markitcdn.com^
+||plus.l.google.com^
+||www3.l.google.com^
 -----BEGIN PGP SIGNATURE-----
 
-iF4EARYKAAYFAl8OyjsACgkQfdxeMjc2HNpGJQD9G4VZ4ojcAg3K07iOvHpCu0VF0MMifCnv77y7
-F16iqsQBANuNDrS9BkLYcRJ/0GyL+k7ci9dRjpswaJBOeXGb0VUH
-=M/uR
+iF4EARYKAAYFAl8QK+4ACgkQfdxeMjc2HNoGzgEArCpRiBCVqHqAl/cal1NedEoJuSkgpGQhPNnj
+7vBO7VIBAMOLlo0toNzpGCKM37Tq8tueJxvZ7OvvfDlR43Q9oWQC
+=8HVs
 -----END PGP SIGNATURE-----
