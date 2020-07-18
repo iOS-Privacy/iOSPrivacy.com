@@ -2,10 +2,10 @@
 Hash: SHA512
 
 ! Title: DomainVoider
-! Version: 2.20.7.6
+! Version: 2.20.7.7
 ! Expires: 3 days
-! Last Modified: 2020-07-18T15:43:29+00:00
-! Checksum (SHA256): c3778ed352da7a3e9bd396694b275e784789a3c4200ea4bbc64aa6ec0980705e
+! Last Modified: 2020-07-18T21:07:53+00:00
+! Checksum (SHA256): 9affaf2214b6316ba587b3c23ba115ec8152877d7eb2722ccd4693f3d0adc48b
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -37,7 +37,7 @@ Hash: SHA512
 *$csp=object-src 'none'
 *$csp=upgrade-insecure-requests
 !
-The 10 Most Abused Top Level Domains (As of 18 July 2020):
+! The 10 Most Abused Top Level Domains (As of 18 July 2020):
 !
 .fit^
 .tk^
@@ -93779,7 +93779,7 @@ star-mini.c10r.facebook.com^$important
 ||zzznews.ru^
 -----BEGIN PGP SIGNATURE-----
 
-iF4EARYKAAYFAl8TGZ0ACgkQfdxeMjc2HNqKMwD+NhH1m97GRK9PArWx6Blm8mSokMt1yF/9FMKt
-PqAGZeQBAJ1KUpJ85I+9uWAOsMgerYS/Iv9LBXkLY6Dv+XYVeZoM
-=dJ2+
+iF4EARYKAAYFAl8TZgUACgkQfdxeMjc2HNpXggD+LpYfara93AbwPMPTOKgYrpYOPUv0ttfLulH+
+dX6KVqIA/1aA+yP+LY6SfPe+Gs4YsxgrSrH7BGjP+LWE5kCMLeAD
+=tcqL
 -----END PGP SIGNATURE-----
