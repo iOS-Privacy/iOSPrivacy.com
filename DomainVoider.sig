@@ -2,10 +2,10 @@
 Hash: SHA512
 
 ! Title: DomainVoider
-! Version: 2.20.7.5
+! Version: 2.20.7.6
 ! Expires: 3 days
-! Last Modified: 2020-07-18T06:47:31+00:00
-! Checksum (SHA256): ea62b223609a18c8e91753f54cfaae2958983e3c0662c647ea2bad2570fabccc
+! Last Modified: 2020-07-18T15:43:29+00:00
+! Checksum (SHA256): c3778ed352da7a3e9bd396694b275e784789a3c4200ea4bbc64aa6ec0980705e
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -30,33 +30,34 @@ Hash: SHA512
 ! The Loss of Self within sites such as Facebook,
 ! Data Mining & the Commodification of Human Beings.
 !
-! Firefox Content-Security-Policy rules
+! Firefox Content Security Policy rules:
 !
 *$csp=block-all-mixed-content
 *$csp=frame-ancestors 'none'
 *$csp=object-src 'none'
 *$csp=upgrade-insecure-requests
 !
-! The 10 Most Abused TLDs, in order (As of 13 July 2020):
+The 10 Most Abused Top Level Domains (As of 18 July 2020):
 !
-.tk^
 .fit^
+.tk^
 .gq^
 .ga^
 .ml^
-.work^
 .cf^
+.work^
 .date^
 .wang^
 .men^
 !
-! Additional Abused TLDs, in order (Adjusted 13 July 2020):
+! Additional Abused TLDs (Adjusted 18 July 2020):
 !
 .host^
-.asia^
+.live^
 .buzz^
-.fail^
 .exposed^
+.fail^
+.top^
 !
 ! Malicious weebly.com subdomains:
 !
@@ -4384,10 +4385,8 @@ Hash: SHA512
 @@||95599.cn^*ad
 @@||a.adwolf.ru^|
 @@||abchina.com^*ad
-@@||ad.10010.com^
 @@||ad.abchina.com^
 @@||ad.kazakinfo.com^
-@@||ad.ourgame.com^
 @@||adcdn.pingan.com^
 @@||admin.dable.io^|
 @@||ads.tdbank.com^
@@ -4396,39 +4395,27 @@ Hash: SHA512
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^|
 @@||artifactory.appodeal.com^|
-@@||awin1.com^|
-@@||blog.logrocket.com^|
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||ccb.com^*^ad
 @@||cj.dotomi.com^|
 @@||click.simba.taobao.com^|
-@@||click.virt.s*.exacttarget.com^|
-@@||clk*.tradedoubler.com^|
 @@||cm-beacon.nakanohito.jp^|
 @@||cm-widget.nakanohito.jp^|
 @@||cs.silverpop.com^|
 @@||cutcaptcha.com^|
 @@||feed.adrelayer.com^|
 @@||forum.notebookreview.com^|
-@@||googleadapis.l.google.com^|
 @@||grp07.ias.rakuten.co.jp^|
 @@||gs.statcounter.com^|
 @@||guce.advertising.com^
 @@||h-sdk.online-metrix.net^|
-@@||href.li^|
 @@||imasdk.googleapis.com^|
-@@||img.ads.tvb.com^
-@@||intersport.peerius.com^|
-@@||leanplum.com^$domain=nbc.com
-@@||log.mmstat.com^|
-@@||mmy.la^*300*250
 @@||my.tealiumiq.com^|
 @@||newad.mail.wo.cn^
 @@||nineto5mac-d.openx.net^|
 @@||nthu.edu.tw^*ad
 @@||omniture.walmart.com^|
-@@||pagead.l.doubleclick.net^|
 @@||pathe.emsecure.net^|
 @@||radiofrance.targetspot.com^|
 @@||redirect.appmetrica.yandex.com^|
@@ -4441,9 +4428,7 @@ Hash: SHA512
 @@||szhr.com^*ad
 @@||track.rutarget.ru^|
 @@||wubisheng.net^*.js
-@@||www.googleadservices.com^|
-@@||www.jdoqocy.com^|
-@@||xda-cdn.com
+@@||xda-cdn.com^
 @@||yohalabs.com^
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
@@ -8872,6 +8857,8 @@ star-mini.c10r.facebook.com^$important
 ||address9.com^
 ||addroid.com^
 ||addroplet.com^
+||addthis.com^
+||addthisedge.com^
 ||addweb.ru^
 ||addynamix.com^
 ||addynamo.com^
@@ -13272,6 +13259,7 @@ star-mini.c10r.facebook.com^$important
 ||api.appsee.com^
 ||api.apptentive.com^
 ||api.bonusberry.ru^
+||api.branch.io^
 ||api.brs.intl.miui.com^
 ||api.calq.io^
 ||api.cargomanager.io^
@@ -13326,6 +13314,7 @@ star-mini.c10r.facebook.com^$important
 ||apirelay.ru^
 ||apiryrkxkhil.com^
 ||apis.appnxt.net^
+||apis.google.com^
 ||apiyandex.site^
 ||apjbo.org.ar^
 ||apjiangte.com^
@@ -13395,6 +13384,7 @@ star-mini.c10r.facebook.com^$important
 ||app-log1nacc0unt.com-s3cyure0.co-ver1fy.app1e.com-78hlgy.gilbertasdsa.com^
 ||app-mailaccount.serveirc.com^
 ||app-managees.whadkkdowakoksokawa.com^
+||app-measurement.com^
 ||app-mgr.cc^
 ||app-n26-accountcliente.eu^
 ||app-n26-accountclienti.xyz^
@@ -20769,6 +20759,7 @@ star-mini.c10r.facebook.com^$important
 ||cdn-net.com^
 ||cdn-santander-areacliente.net^
 ||cdn-server.top^
+||cdn-settings.segment.com^
 ||cdn-sitegainer.com^
 ||cdn.88-f.net^
 ||cdn.adbert.info^
@@ -20780,8 +20771,11 @@ star-mini.c10r.facebook.com^$important
 ||cdn.c-i.as^
 ||cdn.comedia.coccoc.com^
 ||cdn.contalyze.com^
+||cdn.cookielaw.org^
 ||cdn.cpiera.com^
 ||cdn.driveback.ru^
+||cdn.embed.ly.cdn.cloudflare.net^
+||cdn.embedly.com^
 ||cdn.hiido.cn^
 ||cdn.hiperadverts.com^
 ||cdn.hunteryvely.com^
@@ -20792,6 +20786,7 @@ star-mini.c10r.facebook.com^$important
 ||cdn.marjmedya.com^
 ||cdn.movieads.ru^
 ||cdn.pljs.ru^
+||cdn.segment.com^
 ||cdn.smartclick.io^
 ||cdn.sportlabs.online^
 ||cdn.sports-streams-online.club^
@@ -22305,6 +22300,7 @@ star-mini.c10r.facebook.com^$important
 ||clear-request.com^
 ||clearac.com^
 ||clearadnetwork.com^
+||clearbit.com^
 ||clearcovid19virus.com^
 ||clearonclick.com^
 ||clearriskviewcom.nckiaccounting.gdn^
@@ -29801,6 +29797,7 @@ star-mini.c10r.facebook.com^$important
 ||embargainew.site^
 ||embeaguyu.topkorder.su^
 ||embed-fastly.wistia.com^
+||embed.ly^
 ||embed.tonews.org^
 ||embeddedanalytics.com^
 ||embeds.driftcdn.com^
@@ -29956,7 +29953,7 @@ star-mini.c10r.facebook.com^$important
 ||endhardvenden.com^
 ||endhelpnfb.com^
 ||endloseporno.com^
-||endurablecrayon.com^third-party
+||endurablecrayon.com^
 ||enecto.com^
 ||enectoanalytics.com^
 ||enennsa.gushiwen.cn^
@@ -33822,6 +33819,7 @@ star-mini.c10r.facebook.com^$important
 ||fire-domain.xyz^
 ||fire-honey-aurora.glitch.me^
 ||firebanner.com^
+||firebaselogging-pa.googleapis.com^
 ||firecup.xyz^
 ||firefeeder.com^
 ||fireflyengagement.com^
@@ -35384,6 +35382,7 @@ star-mini.c10r.facebook.com^$important
 ||gasurgabusiness.cf^
 ||gasxf.com^
 ||gataumalespengentruk.ikwb.com^
+||gate.hockeyapp.net^
 ||gateomar.net^
 ||gates-btc-giveaway.com^
 ||gates-promo.org^
@@ -41779,6 +41778,7 @@ star-mini.c10r.facebook.com^$important
 ||improvecelebrating.com^
 ||improvely.com^
 ||improvemntsalerts.online^
+||improving.duckduckgo.com^
 ||imprviata.com^
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
@@ -41828,6 +41828,7 @@ star-mini.c10r.facebook.com^$important
 ||including-paypal.com^
 ||incogpontus.club^
 ||income88.com^
+||incoming.telemetry.mozilla.org^
 ||incommandary.club^
 ||increased.cn^
 ||increaserev.com^
@@ -47500,6 +47501,7 @@ star-mini.c10r.facebook.com^$important
 ||libstat.com^
 ||libxkvpwsdvplj.com^
 ||licantrum.com^
+||licdn.com^
 ||licensing.bitmovin.com^
 ||licesltd.com^
 ||licestopogeegre.info^
@@ -55917,6 +55919,7 @@ star-mini.c10r.facebook.com^$important
 ||marketshot.com^
 ||marketshot.fr^
 ||markfranphotography.com^
+||markitcdn.com^
 ||marklittle43.com^
 ||markofred.com^
 ||markplaats-verifi.xyz^
@@ -56829,6 +56832,7 @@ star-mini.c10r.facebook.com^$important
 ||metrics.fressnapf.de^
 ||metrics.goldcoastbulletin.com.au^
 ||metrics.heraldsun.com.au^
+||metrics.icloud.com^
 ||metrics.infranken.de^
 ||metrics.io^
 ||metrics.ionos.co.uk^
@@ -57699,6 +57703,7 @@ star-mini.c10r.facebook.com^$important
 ||mobile-provider.info^
 ||mobile-redirect-wells.services^
 ||mobile-refund.ca^
+||mobile-service.segment.com^
 ||mobile-team-wells.site^
 ||mobile-verify-online.network^
 ||mobile-wells-fargo-about.work^
@@ -60341,6 +60346,7 @@ star-mini.c10r.facebook.com^$important
 ||niklesrov.com^
 ||nikunj.com.au^
 ||nikxhdrys.com^
+||nile.works^
 ||niloskinz.xyz^
 ||niltutch.com^
 ||nimbleurbia53.com^
@@ -60707,6 +60713,7 @@ star-mini.c10r.facebook.com^$important
 ||notefy.space^
 ||notenpartner.de^
 ||noterobelosfb.laleche82827.online^
+||notes-analytics-events.apple.com^
 ||notftrak.cf^
 ||notice-advanced-fargo.team^
 ||notice-bank.work^
@@ -62553,6 +62560,7 @@ star-mini.c10r.facebook.com^$important
 ||optimix.asia^
 ||optimize-stats.voxmedia.com^
 ||optimizely.appspot.com^
+||optimizely.com^
 ||optimizelydata.com^
 ||optimizesocial.com^
 ||optimost.com^
@@ -65456,6 +65464,7 @@ star-mini.c10r.facebook.com^$important
 ||pipe-collect.ebu.io^
 ||pipeaota.com^
 ||pipedream.wistia.com^
+||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||piper.amocrm.ru^
 ||pipeschannels.com^
 ||pipfire.com^
@@ -81816,6 +81825,7 @@ star-mini.c10r.facebook.com^$important
 ||tracker.adreadyclick.com^
 ||tracker.affiliate.iqoption.com^
 ||tracker.affirm.com^
+||tracker.aivix.com^
 ||tracker.anandtech.com^
 ||tracker.azet.sk^
 ||tracker.beezup.com^
@@ -82870,6 +82880,8 @@ star-mini.c10r.facebook.com^$important
 ||twitte.g.hatena.ne.jp^
 ||twitter-btc.org^
 ||twitter-promo.tech^
+||twitter.com^
+||twitter.net^
 ||twitter1243652.dx.am^
 ||twitter20.com^
 ||twitterbtc.com^
@@ -93765,17 +93777,9 @@ star-mini.c10r.facebook.com^$important
 ||zzxosget.com^
 ||zzyonghao.com^
 ||zzznews.ru^
-||apis.google.com^
-||app-measurement.com^
-||cdn.embed.ly.cdn.cloudflare.net^
-||cdn.embedly.com^
-||embed.ly^
-||firebaselogging-pa.googleapis.com^
-||improving.duckduckgo.com^
-||markitcdn.com^
 -----BEGIN PGP SIGNATURE-----
 
-iF4EARYKAAYFAl8SnhgACgkQfdxeMjc2HNq/uAD/eg+cN2JmSZlZl7sUn/uE6lvAoyAjbVsdIh/l
-0hr6KOwA/2JPYmJ1ub3wZDtjziG60PRYRjYS1EeTdn3ueH2fajcA
-=J+Qn
+iF4EARYKAAYFAl8TGZ0ACgkQfdxeMjc2HNqKMwD+NhH1m97GRK9PArWx6Blm8mSokMt1yF/9FMKt
+PqAGZeQBAJ1KUpJ85I+9uWAOsMgerYS/Iv9LBXkLY6Dv+XYVeZoM
+=dJ2+
 -----END PGP SIGNATURE-----
