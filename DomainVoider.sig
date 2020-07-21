@@ -2,10 +2,10 @@
 Hash: SHA512
 
 ! Title: DomainVoider
-! Version: 2.20.7.7
+! Version: 2.20.7.8
 ! Expires: 3 days
-! Last Modified: 2020-07-18T21:07:53+00:00
-! Checksum (SHA256): 9affaf2214b6316ba587b3c23ba115ec8152877d7eb2722ccd4693f3d0adc48b
+! Last Modified: 2020-07-21T19:17:24+00:00
+! Checksum (SHA256): 1fbf28de6a05bf6884c2ebe252e621e4dab17f715c037e1924c616f707bdb9d1
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -32,32 +32,53 @@ Hash: SHA512
 !
 ! Firefox Content Security Policy rules:
 !
+!+ PLATFORM(ext_ff, ext_ublock)
 *$csp=block-all-mixed-content
+!+ PLATFORM(ext_ff, ext_ublock)
 *$csp=frame-ancestors 'none'
+!+ PLATFORM(ext_ff, ext_ublock)
 *$csp=object-src 'none'
+!+ PLATFORM(ext_ff, ext_ublock)
 *$csp=upgrade-insecure-requests
 !
-! The 10 Most Abused Top Level Domains (As of 18 July 2020):
 !
-.fit^
+! The 10 Most Abused Top Level Domains, in order (As of 21 July 2020):
+!
+!+ NOT_OPTIMIZED
 .tk^
+!+ NOT_OPTIMIZED
 .gq^
-.ga^
-.ml^
+!+ NOT_OPTIMIZED
 .cf^
+!+ NOT_OPTIMIZED
+.ml^
+!+ NOT_OPTIMIZED
+.ga^
+!+ NOT_OPTIMIZED
 .work^
+!+ NOT_OPTIMIZED
+.fit^
+!+ NOT_OPTIMIZED
 .date^
-.wang^
+!+ NOT_OPTIMIZED
 .men^
+!+ NOT_OPTIMIZED
+.wang^
 !
-! Additional Abused TLDs (Adjusted 18 July 2020):
 !
-.host^
+! Additional Abused TLDs, in order (Adjusted 21 July 2020):
+!
+!+ NOT_OPTIMIZED
 .live^
+!+ NOT_OPTIMIZED
 .buzz^
-.exposed^
-.fail^
+!+ NOT_OPTIMIZED
 .top^
+!+ NOT_OPTIMIZED
+.host^
+!+ NOT_OPTIMIZED
+.party^
+!
 !
 ! Malicious weebly.com subdomains:
 !
@@ -4381,6 +4402,7 @@ Hash: SHA512
 .sexplaycam.com^
 .tovarro.com^
 @@dnsotls-ds.metric.gstatic.com^
+@@|finance.yahoo.com^|
 @@||5471782.fls.doubleclick.net^|
 @@||95599.cn^*ad
 @@||a.adwolf.ru^|
@@ -4395,11 +4417,14 @@ Hash: SHA512
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^|
 @@||artifactory.appodeal.com^|
+@@||blog.logrocket.com^|
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||ccb.com^*^ad
 @@||cj.dotomi.com^|
 @@||click.simba.taobao.com^|
+@@||click.virt.s*.exacttarget.com^|
+@@||clk*.tradedoubler.com^|
 @@||cm-beacon.nakanohito.jp^|
 @@||cm-widget.nakanohito.jp^|
 @@||cs.silverpop.com^|
@@ -4410,12 +4435,17 @@ Hash: SHA512
 @@||gs.statcounter.com^|
 @@||guce.advertising.com^
 @@||h-sdk.online-metrix.net^|
+@@||href.li^|
 @@||imasdk.googleapis.com^|
+@@||img.ads.tvb.com^
+@@||intersport.peerius.com^|
+@@||log.mmstat.com^|
 @@||my.tealiumiq.com^|
 @@||newad.mail.wo.cn^
 @@||nineto5mac-d.openx.net^|
 @@||nthu.edu.tw^*ad
 @@||omniture.walmart.com^|
+@@||pagead.l.doubleclick.net^|
 @@||pathe.emsecure.net^|
 @@||radiofrance.targetspot.com^|
 @@||redirect.appmetrica.yandex.com^|
@@ -4428,14 +4458,19 @@ Hash: SHA512
 @@||szhr.com^*ad
 @@||track.rutarget.ru^|
 @@||wubisheng.net^*.js
+@@||www.jdoqocy.com^|
 @@||xda-cdn.com^
 @@||yohalabs.com^
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
 @@||yzzkb.com.cn^*ad.
+adbetnet.com
 graph.facebook.com^$important
 mmx-ds.cdn.whatsapp.net^$important
+octopusads.net
 star-mini.c10r.facebook.com^$important
+us6odtasve.ru
+vkcdnservice.appspot.com^
 ||0.z0o.cn^
 ||000-hidro-1.info^
 ||000201nets.cloudaccess.host^
@@ -4450,6 +4485,7 @@ star-mini.c10r.facebook.com^$important
 ||00324il.moonfruit.com^
 ||003store.com^
 ||004enttt7682.com^
+||005.0x1f4b0.com^
 ||0059868login.com^
 ||00658985228255.info^
 ||006a039c957c142bb.com^
@@ -4549,6 +4585,8 @@ star-mini.c10r.facebook.com^$important
 ||06buofa06.bankofamericaslpemr.com^
 ||06buortfa06.bankofamericaslpemr.com^
 ||06f09b1008ae993a5a.com^
+||0706hjkv.xyz^
+||0713bzksl.xyz^
 ||0728w.cn^
 ||07346e971b1ec7f.com^
 ||073c0cec65916314a.com^
@@ -4581,6 +4619,7 @@ star-mini.c10r.facebook.com^$important
 ||09b950280b055.com^
 ||0a0qetx8et.com^
 ||0a4bcef12091ce7.com^
+||0aa89ur58y.top^
 ||0aac4e6a54c170b0.se^
 ||0af51c7ae60e29da0418dda2b47ef98e45d03479.info^
 ||0ath-payment.com^
@@ -5184,6 +5223,7 @@ star-mini.c10r.facebook.com^$important
 ||1zxxejcbcb.sted.cc^
 ||2.haoxue360.com^
 ||2.indexsinas.me^
+||2.kaktakkk.ru^
 ||2.yahoofinance.club^
 ||2001o.cc^
 ||2001u.cc^
@@ -5348,6 +5388,7 @@ star-mini.c10r.facebook.com^$important
 ||26buofa26.bankofamericaslpemr.com^
 ||26coder.net^
 ||26f396e0b71780f057be4d4af8ebe55b.com^
+||26gg.bnq86.com^
 ||27015dbc43d77c.com^
 ||2712f45c0bb0d67d710.com^
 ||272101.com^
@@ -5471,6 +5512,7 @@ star-mini.c10r.facebook.com^$important
 ||2parale.ro^
 ||2performant.com^
 ||2pmob.com^
+||2polj.top^
 ||2ptxxjjzpy.com^
 ||2pxg8bcf.top^
 ||2q5p.cn^
@@ -6133,6 +6175,7 @@ star-mini.c10r.facebook.com^$important
 ||4dtrk.com^
 ||4e34b4865905c4.com^
 ||4eacccd99990beed317.com^
+||4edidqmtzlsa.com^
 ||4ekx.cn^
 ||4excel.cn^
 ||4exlkjnngs.com^
@@ -6202,6 +6245,7 @@ star-mini.c10r.facebook.com^$important
 ||509622589ced73cd0dd6d9c0899cf23f3add4179.info^
 ||50bang.org^
 ||50iu4o.fenomeno.gq^
+||50trk.com^
 ||50websads.com^
 ||50zera.com^
 ||5125129.com^
@@ -6285,6 +6329,7 @@ star-mini.c10r.facebook.com^$important
 ||555365s.com^
 ||555365t.com^
 ||555b2b.com^
+||5568.gjghy.com^
 ||5595146.servicesbpd.club^
 ||559865352.snapchatprime.com^
 ||55bgf.csb.app^
@@ -6337,6 +6382,7 @@ star-mini.c10r.facebook.com^$important
 ||5ayulechengyulecheng.tavmo.com^
 ||5b15a826.xyz^
 ||5b5a93686577c13.com^
+||5baf1288cf.dl8.me^
 ||5bb3b58f395fba57ce0dced5e7f2d5ee.net^
 ||5bir9vuqcq.com^
 ||5c577fc74618431b.com^
@@ -6378,6 +6424,7 @@ star-mini.c10r.facebook.com^$important
 ||5pr1sfzsl9.com^
 ||5pub.com^
 ||5pymk.weblium.site^
+||5q63n.cn^
 ||5q68n.cn^
 ||5qg9ibt1a6.com^
 ||5r675j.hanashikoto.ru^
@@ -6505,6 +6552,7 @@ star-mini.c10r.facebook.com^$important
 ||6865intger323.com^
 ||68665565.com^
 ||6868bbe42af8e518.com^
+||68710266.com^
 ||68856536.com^
 ||6888979.servicesbpd.club^
 ||688c91769ed222db33a21c.info^
@@ -6576,6 +6624,7 @@ star-mini.c10r.facebook.com^$important
 ||6sc.co^
 ||6setib4w.bounceme.net^
 ||6shuge.com^
+||6sxi6i74dk9m.com^
 ||6t.gucac.com^
 ||6t.www.gucac.com^
 ||6u4dxh2f14.com^
@@ -6886,6 +6935,7 @@ star-mini.c10r.facebook.com^$important
 ||88-baidu.com^
 ||88172a87ff81c7ee42138cfb187b80ca4b973120.com^
 ||882imajbet.com^
+||883.engine.mobileapptracking.com^
 ||883ads.com^*.js
 ||883imajbet.com^
 ||8844-403003.us-south.cf.appdomain.cloud^
@@ -6936,6 +6986,7 @@ star-mini.c10r.facebook.com^$important
 ||8cc5ff581a88.bitsngo.net^
 ||8cce6d834ab4e80c7.com^
 ||8coins.net^
+||8d6lbsvg3qkl.com^
 ||8dfaa2dc76855.com^
 ||8dp.net^
 ||8dsd3.top^
@@ -7001,6 +7052,7 @@ star-mini.c10r.facebook.com^$important
 ||8yrn.cn^
 ||8yxupue8.com^
 ||8zbuofa8z.bankofamericaslpemr.com^
+||8ze98lcl8389.com^
 ||8zj8i0j.www.twittor.co^
 ||900emtrtme00.com^
 ||9053fe03868ab.com^
@@ -7199,6 +7251,7 @@ star-mini.c10r.facebook.com^$important
 ||a-pagerank.net^
 ||a-pplle.com^
 ||a-reality.co.uk^
+||a-ssl.ligatus.com^
 ||a-static.com^
 ||a-townhikoap.com^
 ||a-updime.info^
@@ -7209,6 +7262,7 @@ star-mini.c10r.facebook.com^$important
 ||a.6d47c1118927cf53ba9654931df80e8d.com^
 ||a.76674bdad304297eda3d325f449f6f49.com^
 ||a.91zhongkao.com^
+||a.adroll.com^
 ||a.appbaqend.com^
 ||a.applvn.com^
 ||a.aproductmsg.com^
@@ -7219,6 +7273,8 @@ star-mini.c10r.facebook.com^$important
 ||a.baomihua.com^
 ||a.bestcontenttool.top^
 ||a.bitmango.com^
+||a.brand.ad^
+||a.breaktime.com.tw^
 ||a.comicbooktrailers.net^
 ||a.consumer.net^
 ||a.crypterfile.com^
@@ -7232,6 +7288,7 @@ star-mini.c10r.facebook.com^$important
 ||a.f590906c3e6c07bb5f80801f2dfc4295.com^
 ||a.fobos.tv^
 ||a.gerasopa.com^
+||a.hstrck.com^
 ||a.icdol.com^
 ||a.imgso.cn^
 ||a.jing55.com^
@@ -7240,6 +7297,7 @@ star-mini.c10r.facebook.com^$important
 ||a.kidstaff.net^
 ||a.klaviyo.com^
 ||a.kubik3.ru^
+||a.ligatus.com^
 ||a.lululemon.com.yuvanesh.co.in^
 ||a.lz13.cn^
 ||a.malamutfamily.com^
@@ -7252,6 +7310,7 @@ star-mini.c10r.facebook.com^$important
 ||a.nanhuwang.com^
 ||a.nowscore.com^
 ||a.o2u.jp^
+||a.o333o.com^
 ||a.oh100.com^
 ||a.oix.net^
 ||a.qinghua5.com^
@@ -7271,6 +7330,7 @@ star-mini.c10r.facebook.com^$important
 ||a.thairesort.ru^
 ||a.thn21.com^
 ||a.tiyuxiu.com^
+||a.tovarro.com^
 ||a.tuizhuti.com^
 ||a.tvsou.com^
 ||a.tyncar.com^
@@ -7350,6 +7410,7 @@ star-mini.c10r.facebook.com^$important
 ||a2gw.com^
 ||a2pub.com^
 ||a3.jandan.net^
+||a3.ogt.jp^
 ||a32a.com.cn^
 ||a337b163a0bc.com^
 ||a342c253-465e-46f3-a472-0844bd0c0c1a.htmlpasta.com^
@@ -7370,6 +7431,7 @@ star-mini.c10r.facebook.com^$important
 ||a4dtrk.com^
 ||a4g.com^
 ||a4haub65wwq002.com.de^
+||a4mt150303tl.com^
 ||a5020fec1701e9f3.com^
 ||a5477666c93d6fec83b4fdda52fa86a7e86f768d.info^
 ||a56-t.ailacabs.com^
@@ -7506,6 +7568,7 @@ star-mini.c10r.facebook.com^$important
 ||aazwugtom.com^
 ||ab-c19.com^
 ||ab-td.baydiboo.com^
+||ab.advertiserurl.com^
 ||ab.appme.ru^
 ||ab.cnbanbao.com^
 ||ab.pincai.com^
@@ -7549,6 +7612,7 @@ star-mini.c10r.facebook.com^$important
 ||abeaddc65282d465.com^
 ||abeets.ru^
 ||abeij.com^
+||abevc.club^
 ||abfcfxfkzmiqht.com^
 ||abfirst.cn^
 ||abgastechnikshop.shaxiareal.top^
@@ -7621,6 +7685,7 @@ star-mini.c10r.facebook.com^$important
 ||about-lnstagramfrom.ml^
 ||about-lnstagramfromrule.ml^
 ||about.facebook-page.business-id-145654234324234.com^
+||aboutads.quantcast.com^
 ||aboveu.de^
 ||abq32.ailacabs.com^
 ||abreviation-tech294.gq^
@@ -7683,6 +7748,8 @@ star-mini.c10r.facebook.com^$important
 ||ac1.pingpingw.com^
 ||ac56.xyz^
 ||ac6p62k2.face-book.cc^
+||ac8.i2i.jp^
+||acacdn.com^
 ||acacexjsh.com^
 ||academand.com^
 ||acales.ru^
@@ -7720,6 +7787,7 @@ star-mini.c10r.facebook.com^$important
 ||accecuatfb077.webnode.com^
 ||accedenonre.club^
 ||accelacomm.com^
+||accengage.net^
 ||accenter.answerivecovid19.com^
 ||acceptableserver.com^
 ||acceptapp1eld-verlfy.com^
@@ -8160,6 +8228,7 @@ star-mini.c10r.facebook.com^$important
 ||accout-protects-access-clicking-ssl-caching.51youningedu.com^
 ||accout-protects-access-clicking-ssl-caching.vbnorqp-line.com^
 ||accpstf.yolasite.com^
+||accreditor.club^
 ||accs.nucopumpandwellservices.com^
 ||accs2-cib9c17.com^
 ||accsystemprblemhelp.site^
@@ -8333,6 +8402,7 @@ star-mini.c10r.facebook.com^$important
 ||activity-app1e.serveblog.net^
 ||activity-issues.com^
 ||activity.*.miui.com^
+||activity.browser.intl.miui.com^
 ||actnx.com^
 ||actpx.com^
 ||actualdeals.com^
@@ -8360,6 +8430,7 @@ star-mini.c10r.facebook.com^$important
 ||acxiom-online.com^
 ||acxiomapac.com^
 ||ad*.24hstatic.com^
+||ad*.nexage.com^
 ||ad*.tmgrup.com.tr^
 ||ad-admin.vnay.vn^
 ||ad-analytics-bootstrap.metaps.com^
@@ -8411,6 +8482,7 @@ star-mini.c10r.facebook.com^$important
 ||ad-shot.com^
 ||ad-souk.com^
 ||ad-space.net^
+||ad-specs.guoshipartners.com^
 ||ad-sponsor.com^
 ||ad-srv-track.com^
 ||ad-srv.net^
@@ -8441,13 +8513,16 @@ star-mini.c10r.facebook.com^$important
 ||ad.aboutwebservices.com^
 ||ad.abum.com^
 ||ad.accesstrade.vn^
+||ad.ad-arata.com^
 ||ad.adpon.jp^
+||ad.adriver.ru^
 ||ad.allstar.cz^
 ||ad.aloodo.com^
 ||ad.altervista.org^
 ||ad.anuntis.com^
 ||ad.api.yyapi.net^
 ||ad.apps.fm^
+||ad.apsalar.com^
 ||ad.arklm.com^
 ||ad.auditude.com^
 ||ad.axyzconductor.jp^
@@ -8474,8 +8549,11 @@ star-mini.c10r.facebook.com^$important
 ||ad.doganburda.com^
 ||ad.domainfactory.de^
 ||ad.donanimhaber.com^
+||ad.doubleclick.net^
+||ad.doublemax.net^
 ||ad.duapps.com^
 ||ad.duga.jp^
+||ad.dumedia.ru^
 ||ad.edugram.com^
 ||ad.eglenced.com^
 ||ad.emlakeki.com^
@@ -8490,6 +8568,7 @@ star-mini.c10r.facebook.com^$important
 ||ad.grafika.cz^
 ||ad.gt^
 ||ad.gunosy.com^
+||ad.harrenmedianetwork.com^
 ||ad.hbv.de^
 ||ad.hodomobile.com^
 ||ad.hutor.ru^
@@ -8505,16 +8584,21 @@ star-mini.c10r.facebook.com^$important
 ||ad.jamster.co.uk^
 ||ad.jetsoftware.com^
 ||ad.jorte.com^
+||ad.jp.ap.valuecommerce.com^
 ||ad.kau.li^
 ||ad.keenspace.com^
 ||ad.kinogo-kinopoisk.net^
 ||ad.kinozal.website^
 ||ad.kixer.com^
 ||ad.land.to^
+||ad.leadbolt.net^
 ||ad.leadboltapps.net^
+||ad.linkprice.com^
+||ad.linksynergy.com^
 ||ad.liveinternet.ru^
 ||ad.logro.com.tr^
 ||ad.lupa.cz^
+||ad.madvertise.de^
 ||ad.mail.ru^|
 ||ad.mainichi.jp^
 ||ad.mediastorm.hu^
@@ -8550,6 +8634,7 @@ star-mini.c10r.facebook.com^$important
 ||ad.prismamediadigital.com^
 ||ad.profiwin.de^
 ||ad.prv.pl^
+||ad.pt.doubleclick.net^
 ||ad.reklam.xyz^
 ||ad.reklamport.com^
 ||ad.response.jp^
@@ -8580,11 +8665,13 @@ star-mini.c10r.facebook.com^$important
 ||ad.wavu.hu^
 ||ad.way.cz^
 ||ad.weatherbug.com^
+||ad.webservis.gen.tr^
 ||ad.weplayer.cc^
 ||ad.wiredvision.jp^
 ||ad.wsod.com^
 ||ad.wurangxian.top^
 ||ad.wz.cz^
+||ad.yadro.ru^
 ||ad.yemeksepeti.com^
 ||ad.yieldpartners.com^
 ||ad.yourmedia.com^
@@ -8610,6 +8697,7 @@ star-mini.c10r.facebook.com^$important
 ||ad1rtb.com^
 ||ad2.iinfo.cz^
 ||ad2.lupa.cz^
+||ad2.rambler.ru^
 ||ad2.udn.com^
 ||ad20.net^
 ||ad2017.meo4.info^
@@ -8618,10 +8706,12 @@ star-mini.c10r.facebook.com^$important
 ||ad2games.com^
 ||ad2goal.com^
 ||ad2net.de^
+||ad2play.ftv-publicite.fr^
 ||ad2up.com^
 ||ad2web.net^
 ||ad3.iinfo.cz^
 ||ad3.pamedia.com.au^
+||ad3.rambler.ru^
 ||ad3.udn.com^
 ||ad360.vn^
 ||ad4.udn.com^
@@ -8695,6 +8785,8 @@ star-mini.c10r.facebook.com^$important
 ||adbd.liuxue86.com^
 ||adbean.ru^
 ||adbetclickin.pink^
+||adbetnet.advertserve.com^
+||adbetnet.com^
 ||adbetnetwork.com^
 ||adbid.pl^
 ||adbidgo.com^
@@ -8864,6 +8956,7 @@ star-mini.c10r.facebook.com^$important
 ||addynamo.com^
 ||addynamo.net^
 ||addyon.com^
+||ade.clmbtech.com^
 ||adeaby.com^
 ||adearsened.info^
 ||adeclc.com^
@@ -9041,6 +9134,7 @@ star-mini.c10r.facebook.com^$important
 ||adiqglobal.com^
 ||adiquity.com^
 ||adireland.com^
+||adireto.com^
 ||adisfy.com^
 ||adisn.com^
 ||adit-media.com^
@@ -9115,6 +9209,7 @@ star-mini.c10r.facebook.com^$important
 ||adlmerge.com^
 ||adloaded.com^
 ||adlog.com.com^
+||adlogists.com^
 ||adlook.net^
 ||adloop.co^
 ||adloox.com^
@@ -9154,6 +9249,7 @@ star-mini.c10r.facebook.com^$important
 ||admaster.net^
 ||admatic.com.tr^
 ||admatrix.jp^
+||admax.quisma.com^
 ||admaxer.ru^
 ||admaxim.com^
 ||admaxservice.com^
@@ -9179,8 +9275,11 @@ star-mini.c10r.facebook.com^$important
 ||admetric.io^
 ||admetricspro.com^
 ||admex.com^
+||admicro*.vcmedia.com^
 ||admicro*.vcmedia.vn^
 ||admicro.vn^
+||admicro1.vcmedia.vn^
+||admicro2.vcmedia.vn^
 ||admiinoutlookwebb101.creatorlink.net^
 ||admile.ru^
 ||admilk.ru^
@@ -9189,6 +9288,7 @@ star-mini.c10r.facebook.com^$important
 ||admin-amazonperme.eatuo.com^
 ||admin-amazonpermi.eatuo.com^
 ||admin-fairness.app1e.outreach.cloud^
+||admin.appnext.com^
 ||admin.casa.it.iltuoufficiostampa.it^
 ||admin.paypal.com-informationaccounts.com^
 ||admin.phunusuckhoe.vn^
@@ -9214,6 +9314,7 @@ star-mini.c10r.facebook.com^$important
 ||admitad-connect.com^
 ||admitad.com^
 ||admitlead.ru^
+||admitteepom.club^
 ||admixer.co.kr^
 ||admixer.net^
 ||admized.com^
@@ -9235,9 +9336,11 @@ star-mini.c10r.facebook.com^$important
 ||admtpmp124.com^
 ||admtpmp127.com^
 ||admulti.
+||admulti.com^
 ||admxr.com^
 ||admzonc.kiju.com.cn^
 ||adn.bursadabugun.com^
+||adn.insight.ucweb.com^
 ||adn.porndig.com^
 ||adname.ru^
 ||adnami.io^
@@ -9328,9 +9431,11 @@ star-mini.c10r.facebook.com^$important
 ||adonly.com^
 ||adonnews.com^
 ||adonspot.com^
+||adonweb.ru^
 ||adop.cc^
 ||adop.pw^
 ||adoperator.com^
+||adoperatorx.com^
 ||adops.cricbuzz.com^
 ||adopshost.me^
 ||adoptgelatinous.com^
@@ -9473,6 +9578,7 @@ star-mini.c10r.facebook.com^$important
 ||adrotate.de^
 ||adrotate.se^
 ||adrotator.se^
+||adroute.focas.jp^
 ||adrre.xyz^
 ||adrs.sdo.com^
 ||adrsp.net^
@@ -9483,6 +9589,7 @@ star-mini.c10r.facebook.com^$important
 ||ads*.zalo.me^
 ||ads-4u.com^
 ||ads-bidder-api.twitter.com^
+||ads-brand-postback.unityads.unity3d.com^
 ||ads-cdn.fptplay.net^
 ||ads-chunks.prod.ihrhls.com^
 ||ads-click.com^
@@ -9551,6 +9658,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.bittorrent.com^
 ||ads.blog.com^
 ||ads.bloomberg.com^
+||ads.bluelithium.com^
 ||ads.bluemountain.com^
 ||ads.bonniercorp.com^
 ||ads.boylesports.com^
@@ -9664,6 +9772,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.hbv.de^
 ||ads.hearstmags.com^
 ||ads.heartlight.org^
+||ads.heias.com^
 ||ads.holid.io^
 ||ads.hollywood.com^
 ||ads.home.vn^
@@ -9710,6 +9819,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.linuxfoundation.org^
 ||ads.livenation.com^
 ||ads.livetvcdn.net^
+||ads.lomadee.com^
 ||ads.madcheddar.com^
 ||ads.mariuana.it^
 ||ads.marvel.com^
@@ -9719,6 +9829,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.mediaodyssey.com^
 ||ads.mediaturf.net^
 ||ads.medienhaus.de^
+||ads.mercadoclics.com^
 ||ads.meropar.jp^
 ||ads.metropolis.co.jp^
 ||ads.mgnetwork.com^
@@ -9728,6 +9839,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.mobilityware.com^
 ||ads.mobvertising.net^
 ||ads.modabetaff.com^
+||ads.mopub.com^
 ||ads.motor-forum.nl^
 ||ads.motorguia.pt^
 ||ads.motormedia.nl^
@@ -9741,6 +9853,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.newmedia.cz^
 ||ads.newsint.co.uk^
 ||ads.newsquest.co.uk^
+||ads.nexage.com^
 ||ads.nghenhinvietnam.vn^
 ||ads.nicovideo.jp^
 ||ads.ninemsn.com.au^
@@ -9774,6 +9887,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.phunuvagiadinh.vn^
 ||ads.pinger.com^
 ||ads.planet.nl^
+||ads.platform.zalo.me^
 ||ads.pni.com^
 ||ads.pof.com^
 ||ads.powweb.com^
@@ -9789,6 +9903,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.pxlpartner.ch^
 ||ads.quoka.de^
 ||ads.rcs.it^
+||ads.rd.linksynergy.com^
 ||ads.recoletos.es^
 ||ads.rediff.com^
 ||ads.redlightcenter.com^
@@ -9845,6 +9960,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.totallyfreestuff.com^
 ||ads.townhall.com^
 ||ads.travelaudience.com^
+||ads.tremorhub.com^
 ||ads.trinitymirror.co.uk^
 ||ads.tripod.com^
 ||ads.tripod.lycos.co.uk^
@@ -9859,6 +9975,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.un-iq.de^
 ||ads.uncrate.com^
 ||ads.urban-media.com^
+||ads.usa-media.net^
 ||ads.usatoday.com^
 ||ads.verticalresponse.com^
 ||ads.vgchartz.com^
@@ -9891,6 +10008,7 @@ star-mini.c10r.facebook.com^$important
 ||ads.yenimedya.com.tr^
 ||ads.yourfreedvds.com^
 ||ads.youtube.com^
+||ads.zalo.me^
 ||ads.zaloapp.com^
 ||ads.zdn.vn^
 ||ads.zdnet.com^
@@ -9909,6 +10027,7 @@ star-mini.c10r.facebook.com^$important
 ||ads2-adnow.com^
 ||ads2.brazzers.com^
 ||ads2.clearchannel.com^
+||ads2.contentabc.com^
 ||ads2.gamecity.net^
 ||ads2.jubii.dk^
 ||ads2.net-communities.co.uk^
@@ -9994,6 +10113,7 @@ star-mini.c10r.facebook.com^$important
 ||adscreditcouponsaccount.com^
 ||adscreditscouponaccount.com^
 ||adscreendirect.com^
+||adscustsrv.com^
 ||adsdaq.com^
 ||adsdk.com^
 ||adsdk.vrvm.com^
@@ -10055,12 +10175,15 @@ star-mini.c10r.facebook.com^$important
 ||adserver.realhomesex.net^
 ||adserver.sanomawsoy.fi^
 ||adserver.sciflicks.com^
+||adserver.shadow.snapads.com^
 ||adserver.sharewareonline.com^
+||adserver.snapads.com^
 ||adserver.spankaway.com^
 ||adserver.theonering.net^
 ||adserver.tutkusunucu.com^
 ||adserver.twitpic.com^
 ||adserver.ubiyoo.com^
+||adserver.unityads.unity3d.com^
 ||adserver.viagogo.com^
 ||adserver.virginmedia.com^
 ||adserver.yahoo.co.jp^
@@ -10199,6 +10322,7 @@ star-mini.c10r.facebook.com^$important
 ||adsrv.us^
 ||adsrv4k.com^
 ||adsrvgateway.com^
+||adsrvmedia.adk2.co^$important
 ||adsrvmedia.com^
 ||adsrvmedia.net^
 ||adsrvr.io^
@@ -10252,6 +10376,7 @@ star-mini.c10r.facebook.com^$important
 ||adszom.com^
 ||adszx.pro^
 ||adt.com.vn^
+||adt.xdrig.com^
 ||adtag.cc^
 ||adtags.mobi^
 ||adtags.pro^
@@ -10578,6 +10703,7 @@ star-mini.c10r.facebook.com^$important
 ||adword.ge^
 ||adwords-login-com-sign-in.ecriptionsat.xyz^
 ||adworkmedia.com
+||adworkmedia.com^
 ||adworkmedia.net^
 ||adworldmedia.com^
 ||adworldmedia.net^
@@ -10703,6 +10829,7 @@ star-mini.c10r.facebook.com^$important
 ||aestheticfar.com^
 ||aestivator.com^
 ||aestldhxdqlo.com^
+||aevents.izooto.com^
 ||aew9eigieng.info^
 ||aewmek.rogagot.com^
 ||aeyq6.mentriqq.com^
@@ -10724,6 +10851,7 @@ star-mini.c10r.facebook.com^$important
 ||afcyhf.com^
 ||afd.baidu.com^
 ||afdads.com
+||afdads.com^
 ||afeeknuueaztxt.com^
 ||afefw.com^
 ||afertille.cloudaccess.host^
@@ -11158,6 +11286,7 @@ star-mini.c10r.facebook.com^$important
 ||aimgd.com^
 ||aimiyz.com^
 ||aimrawwas.site^
+||aimtell.com^
 ||aintdre.serveirc.com^
 ||ainterme.com^
 ||aintinuumdelos.com^
@@ -11227,6 +11356,7 @@ star-mini.c10r.facebook.com^$important
 ||airlinestollfreenumber.com^
 ||airoogen.net^
 ||airpods-app1e.ru^
+||airportedede.club^
 ||airpr.com^
 ||airpush.com^
 ||airsanguages.info^
@@ -11302,6 +11432,7 @@ star-mini.c10r.facebook.com^$important
 ||akamaihd.site^
 ||akanoo.com^
 ||akaselkorea.co.kr^
+||akatracking.esearchvision.com^
 ||akaunto.verify.rakutenn.menskcxv.com^
 ||akaunto.verify.rakutenn.menszxfsdr.com^
 ||akauntoappleservice-webid.skeletontraction.org^
@@ -11337,6 +11468,7 @@ star-mini.c10r.facebook.com^$important
 ||akstat.com^
 ||akstat.io^
 ||aktenstoragecom.shaxiacd.top^
+||aktgw4u9z27l.com^
 ||aktifitypages2020.my.id^
 ||aktualisatie1-formulier.com^
 ||aktuell-aenderungen-supportsk.xyz^
@@ -11481,6 +11613,7 @@ star-mini.c10r.facebook.com^$important
 ||alertaynotificacioones-bancolombia.zz.com.ve^
 ||alertaynotiificaciones-bancolombia.zz.com.ve^
 ||alertbofa.ttroger.com^
+||alertme.news^
 ||alertpay.com^
 ||alertpayment.world^
 ||alerts-apple.com^
@@ -11561,6 +11694,7 @@ star-mini.c10r.facebook.com^$important
 ||aliru4.ru^
 ||aliru5.ru^
 ||alishop*.ru^
+||alishop7.ru^
 ||alisinak.com^
 ||alison-sportandfitness.com^
 ||alisonnailspartnership.business^
@@ -11576,6 +11710,7 @@ star-mini.c10r.facebook.com^$important
 ||aliyoo999.com^
 ||aliyuncss.com^
 ||aliyunhub.com^
+||aliyuni.xyz^
 ||aliyunxin.com^
 ||alizkntlcok.com^
 ||aljsuubo.com^
@@ -11646,6 +11781,7 @@ star-mini.c10r.facebook.com^$important
 ||allmasks.xyz^
 ||allmasterbrand.ru^
 ||allmt.com
+||allmt.com^
 ||allmygoodlife.com^
 ||allmygreatestlife.com^
 ||allmysource.ru^
@@ -11683,6 +11819,7 @@ star-mini.c10r.facebook.com^$important
 ||allxin.com^
 ||allycollegedstrie.info^
 ||allyes.com^
+||allyopenetic.info^
 ||allzdorovy.ru^
 ||alma423242.xyz^
 ||almanci.net^
@@ -11737,6 +11874,8 @@ star-mini.c10r.facebook.com^$important
 ||alternatifklinik.com^
 ||alternativeadverts.com^
 ||altersversorgungmitimmobilieninfo.augerqisafety.top^
+||altg.widerplanet.com^
+||althoutafrick.info^
 ||altitude-arena.com^
 ||altpool.pro^
 ||altpubli.com^
@@ -12545,6 +12684,7 @@ star-mini.c10r.facebook.com^$important
 ||amozon.co.japan-dateup.japan-hokkaido.top^
 ||amozone.qtxgljcxa.top^
 ||amp-error-reporting.appspot.com^
+||amp.rd.linksynergy.com^
 ||amp.services^
 ||ampafrica.com^
 ||ampallall.site^
@@ -12558,6 +12698,8 @@ star-mini.c10r.facebook.com^$important
 ||ample.training^
 ||ample.vip-provider.de^
 ||ampleteexis.info^
+||amplify.outbrain.com^
+||amplifypixel.outbrain.com^
 ||amplitude.com^
 ||ampogrewit.gq^
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
@@ -12568,6 +12710,7 @@ star-mini.c10r.facebook.com^$important
 ||amqelendez.com^
 ||amradmin.5173.com^
 ||amrdlm.goruli.com^
+||amre.work^
 ||amrfscxvdvfvpa.com^
 ||amrkucke.firebaseapp.com^
 ||amrnhiqy.com^
@@ -12619,6 +12762,7 @@ star-mini.c10r.facebook.com^$important
 ||amztty.com^
 ||amzynsd.com^
 ||an-chase.com^
+||an.batmobi.net^
 ||an.blogis.org^
 ||an.dongphim.net^
 ||an.mainichi.jp^
@@ -12627,6 +12771,7 @@ star-mini.c10r.facebook.com^$important
 ||an.webvisor.org^
 ||an.xemvtv.net^
 ||an.yandex.
+||an.yandex.ru^
 ||anaboliccooking.icu^
 ||anahtars.com^
 ||anainteriordesign.com.br^
@@ -12679,6 +12824,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.247sports.com^
 ||analytics.30m.com^
 ||analytics.aasaam.com^
+||analytics.ad.daum.net^
 ||analytics.adfreetime.com^
 ||analytics.adgeek.net^
 ||analytics.adpost.org^
@@ -12706,6 +12852,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.bundesregierung.de^
 ||analytics.businessinsider.com^
 ||analytics.capitalgroup.com^
+||analytics.carambo.la^
 ||analytics.carbondmp.com^
 ||analytics.cdn.live^
 ||analytics.ceneo.pl^
@@ -12714,11 +12861,13 @@ star-mini.c10r.facebook.com^$important
 ||analytics.cibc.com^
 ||analytics.cincopa.com^
 ||analytics.civicplus.com^
+||analytics.clickpathmedia.com^
 ||analytics.cloud.unity3d.com^
 ||analytics.cmg.net^
 ||analytics.cn.ru^
 ||analytics.cnd-motionmedia.de^
 ||analytics.codigo.se^
+||analytics.cohesionapps.com^
 ||analytics.competitoor.com^
 ||analytics.convertlanguage.com^
 ||analytics.credible.com^
@@ -12746,10 +12895,12 @@ star-mini.c10r.facebook.com^$important
 ||analytics.femalefirst.co.uk^
 ||analytics.ff.avast.com^
 ||analytics.figpii.com^
+||analytics.foresee.com^
 ||analytics.formstack.com^
 ||analytics.freespee.com^
 ||analytics.gameforge.de^
 ||analytics.gaydemon.com^
+||analytics.getaim.info^
 ||analytics.getshogun.com^
 ||analytics.global.sky.com^
 ||analytics.go.com^
@@ -12763,6 +12914,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.humanautomation.ai^
 ||analytics.ifood.tv^
 ||analytics.inform.com^
+||analytics.iraiser.eu^
 ||analytics.islamicfinder.org^
 ||analytics.jabong.com^
 ||analytics.jibecdn.com^
@@ -12772,10 +12924,13 @@ star-mini.c10r.facebook.com^$important
 ||analytics.kidoz.net^
 ||analytics.ladmedia.fr^
 ||analytics.languagetoolplus.com^
+||analytics.liftoff.io^
 ||analytics.live.com^
 ||analytics.liveact.cri-mw.jp^
 ||analytics.livestream.com^
 ||analytics.loanspq.com^
+||analytics.localytics.com^
+||analytics.logsss.com^
 ||analytics.loop-cloud.de^
 ||analytics.ly200.com^
 ||analytics.ma.tune.com^
@@ -12790,6 +12945,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.mlstatic.com^
 ||analytics.mobile.walmart.com^
 ||analytics.mobile.yandex.net^
+||analytics.mopub.com^
 ||analytics.msnbc.msn.com^
 ||analytics.myfidevs.io^
 ||analytics.myfinance.com^
@@ -12810,6 +12966,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.ostr.io^
 ||analytics.paddle.com^
 ||analytics.performable.com^
+||analytics.photorank.me^
 ||analytics.piksel.com^
 ||analytics.plaid.com^
 ||analytics.porn-tube-club.com^
@@ -12829,6 +12986,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.radiatemedia.com^
 ||analytics.rayjump.com^
 ||analytics.rechtslupe.org^
+||analytics.recruitics.com^
 ||analytics.reyrey.net^
 ||analytics.rogersmedia.com^
 ||analytics.rotapost.ru^
@@ -12852,6 +13010,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.sonymusic.com^
 ||analytics.spankbang.com^
 ||analytics.springboardvideo.com^
+||analytics.staticiv.com^
 ||analytics.stg.springboardvideo.com^
 ||analytics.strangeloopnetworks.com^
 ||analytics.styria.hr^
@@ -12874,6 +13033,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.twitter.com^
 ||analytics.ubs.com^
 ||analytics.underarmour.com^
+||analytics.unibuddy.co^
 ||analytics.upworthy.com^
 ||analytics.urx.io^
 ||analytics.us.archive.org^
@@ -12900,6 +13060,7 @@ star-mini.c10r.facebook.com^$important
 ||analytics.yahoo.com^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
+||analytics.yomedia.vn^
 ||analytics.ziftsolutions.com^
 ||analytics00.meride.tv^
 ||analyticschecker.com^
@@ -12919,6 +13080,8 @@ star-mini.c10r.facebook.com^$important
 ||analyze.yahooapis.com^
 ||analyzer*.fc2.com^
 ||analyzer.omniata.com^
+||analyzer51.fc2.com^
+||analyzer52.fc2.com^
 ||anamariajerez.com^
 ||anametrix.com^
 ||anametrix.net^
@@ -12936,6 +13099,7 @@ star-mini.c10r.facebook.com^$important
 ||andaiku-anggotadewan.com^
 ||andantask.online^
 ||andarcair.club^
+||andarmair.club^
 ||andase.com^
 ||andbank.me.ma^
 ||andbaybay.club^
@@ -12960,6 +13124,8 @@ star-mini.c10r.facebook.com^$important
 ||andregsilva.com^
 ||andresneck.buzz^
 ||andrewfprice.com^
+||android.bugly.qq.com^
+||androidads23.adcolony.com^
 ||andsedrit.com^
 ||andvqrqaeu.com^
 ||andyetanotherthing.com^
@@ -12968,6 +13134,7 @@ star-mini.c10r.facebook.com^$important
 ||aneoeauhiazegfiz.ru^
 ||anepyc.fndcompany.com^
 ||aneqmscervl.com^
+||anet*.tradedoubler.com^
 ||aneurismrando.info^
 ||anev.gikorip.net^
 ||anevod.ru^
@@ -13039,7 +13206,9 @@ star-mini.c10r.facebook.com^$important
 ||annhorfzdgkmajuoys.top^
 ||anniesjewelrydezign.online^
 ||annonser.dagbladet.no^
+||announcedvillainvaluable.com^
 ||announcement.ru^
+||announcilsd.info^
 ||annrdf.com^
 ||annsuaa.xyz^
 ||annuncivari.altervista.org^
@@ -13055,6 +13224,7 @@ star-mini.c10r.facebook.com^$important
 ||anothing.info^
 ||anothinga.com^
 ||anothingahy.club^
+||anothingerg.club^
 ||anovbqzmit.com^
 ||anpwsppugpu.com^
 ||anquanzhuomian.cn^
@@ -13232,6 +13402,9 @@ star-mini.c10r.facebook.com^$important
 ||aphetitor.com^
 ||aphookkensidah.pro^
 ||aphycolourses.info^
+||api*.batmobi.net^
+||api*.batmobil.net^
+||api-*.bidmachine.io^
 ||api-alrosa.ru^
 ||api-analytics-bootstrap.metaps.com^
 ||api-analytics.metaps.com^
@@ -13252,11 +13425,13 @@ star-mini.c10r.facebook.com^$important
 ||api.adnet.mob.com^
 ||api.ads.watchabc.go.com^
 ||api.ampiri.com^
+||api.amplitude.com^
 ||api.analytics.omgpop.com^
 ||api.appfireworks.com^
 ||api.applovefrom.com^
 ||api.appnxt.net^
 ||api.appsee.com^
+||api.appsflyer.com^
 ||api.apptentive.com^
 ||api.bonusberry.ru^
 ||api.branch.io^
@@ -13265,12 +13440,16 @@ star-mini.c10r.facebook.com^$important
 ||api.cargomanager.io^
 ||api.cazamba.com^
 ||api.cloudmobi.net
+||api.crittercism.com^
+||api.digitalbees.it^
 ||api.dot-metrix.com^
 ||api.evdevlab.ru^
 ||api.exc.mob.com^
 ||api.faceb00k.25march.com^
+||api.flocktory.com^
 ||api.freewebfonts.org^
 ||api.fusepowered.com^
+||api.gameanalytics.com^
 ||api.gameofwhales.com^
 ||api.gimbal.com^
 ||api.grumft.com^
@@ -13278,6 +13457,9 @@ star-mini.c10r.facebook.com^$important
 ||api.inwemo.com^
 ||api.ipdata.co^
 ||api.kiip.me^
+||api.leadbolt.net^
+||api.logmatic.io^
+||api.mediarithmics.com^
 ||api.miui.security.xiaomi.com^
 ||api.mobojoy.baidu.com^
 ||api.mobshark.net^
@@ -13291,10 +13473,15 @@ star-mini.c10r.facebook.com^$important
 ||api.pingstart.com^
 ||api.primecaster.net^
 ||api.reon.club^
+||api.rnet.plus^
 ||api.safedk.com^
 ||api.sec.miui.com^
+||api.segment.io^
 ||api.share.mob.com^
+||api.smartadv.ru^
 ||api.splkmobile.com^
+||api.taplytics.com^
+||api.triver.jp^
 ||api.uca.cloud.unity3d.com^
 ||api.unthem.com^
 ||api.usebutton.com^
@@ -13315,6 +13502,7 @@ star-mini.c10r.facebook.com^$important
 ||apiryrkxkhil.com^
 ||apis.appnxt.net^
 ||apis.google.com^
+||apiv2.moengage.com^
 ||apiyandex.site^
 ||apjbo.org.ar^
 ||apjiangte.com^
@@ -13342,8 +13530,10 @@ star-mini.c10r.facebook.com^$important
 ||aplinc-office.servebbs.com^
 ||aplleid-app1e.com^
 ||apln.club^
+||apm.crittercism.com^
 ||apmebf.com^
 ||apmengxin.com^
+||apn.c.appier.net^
 ||apnaangan.in^
 ||apnacity.ml^
 ||apnalay.com^
@@ -13419,6 +13609,7 @@ star-mini.c10r.facebook.com^$important
 ||app-verifyinformation-secureapplid.sbsbt157g.com^
 ||app-waybra.com^
 ||app.account.secure.nmriand.com^
+||app.adjust.io^
 ||app.airtrack.jp^
 ||app.allage.at^
 ||app.americanas.servicosac24horas.com^
@@ -13457,6 +13648,7 @@ star-mini.c10r.facebook.com^$important
 ||app.mmlgax.com^
 ||app.n26.com-login.oi39.net^
 ||app.netflix.com-toupd-privprofileopen.burrgerhub.com^
+||app.redretarget.com^
 ||app.roximity.com^
 ||app.searchads.apple.com^
 ||app.securepages-help.my.id^
@@ -13474,6 +13666,7 @@ star-mini.c10r.facebook.com^$important
 ||app.sign.in.amazon.jp.langk-jp.w0l.t.iratclici.com^
 ||app.sizeswatch.com^
 ||app.store.ios.support.gtokoni.com^
+||app.titsx.com^
 ||app.tuvideo.xyz^
 ||app.verifi.sign.secure.auidlogmail.vxakifjea.com^
 ||app.webapps-etdrfcyhgvjhbahqw.rfychgvjb.com^
@@ -14671,6 +14864,7 @@ star-mini.c10r.facebook.com^$important
 ||appli.woomed.net^
 ||appli.yalcab.com^
 ||appliberar.com^
+||applicatemh.club^
 ||application.root.domain.server.subdomtrnsf.ml^
 ||applicationgrabb.net^
 ||applicationsupport.serveirc.com^
@@ -15027,6 +15221,7 @@ star-mini.c10r.facebook.com^$important
 ||argos.citruserve.com^
 ||argyresthia.com^
 ||aria-clienti.net^
+||ariane.abtasty.com^
 ||arianelab.com^
 ||aribcosw.com^
 ||arijanainebojsacom.chifanbudget.top^
@@ -15053,12 +15248,14 @@ star-mini.c10r.facebook.com^$important
 ||armaimapt.club^
 ||armame.info^
 ||armashair.site^
+||armatchints.info^
 ||armbadare.site^
 ||armi.media^
 ||arms.livedoor.net^
 ||armstrongtunnel.icu^
 ||arnessaudie.site^
 ||arningexpos.top^
+||arnockglen.club^
 ||arnoinox.com^
 ||arolrurt.uk^
 ||aroma-italiano.xyz^
@@ -15150,6 +15347,7 @@ star-mini.c10r.facebook.com^$important
 ||as.myhomebook.de^
 ||as.noizz.de^
 ||as.rollingstone.de^
+||as.stat.su^
 ||as.stylebook.de^
 ||as.techbook.de^
 ||as.travelbook.de^
@@ -15229,6 +15427,7 @@ star-mini.c10r.facebook.com^$important
 ||asenytuhlhwrwz.com^
 ||asepurch.pro^
 ||aserdft.azurewebsites.net^
+||aserve.directorym.com^
 ||aservices.party^
 ||asesoresdeproyectosytesis.com^
 ||asesuggedame.info^
@@ -15240,6 +15439,7 @@ star-mini.c10r.facebook.com^$important
 ||asfrj.baydiboo.com^
 ||asg.xz2aab.xyz^
 ||asgd2346.duckdns.org^
+||asgdfasad.mm-cgnews.com^
 ||asgdxg43.duckdns.org^
 ||asghr.duckdns.org^
 ||asgre.xyz^
@@ -15269,6 +15469,7 @@ star-mini.c10r.facebook.com^$important
 ||asketo.ru^
 ||askfuelads.com^
 ||askhilltop.com^
+||askinsoner.club^
 ||asklots.com^
 ||askmarket.net^
 ||asknotify-2094641891.darzelisklauzada.lt^
@@ -15368,11 +15569,13 @@ star-mini.c10r.facebook.com^$important
 ||assurancesproetrangercom.shuiacontrast.top^
 ||assxs.xyz^
 ||astakozy.com^
+||astat.bugly.qq.com^
 ||astat.nikkei.com^
 ||aster18cdn.nl^
 ||asterilivestream.com^
 ||asteriresearch.com^
 ||asterpix.com^
+||astg.widerplanet.com^
 ||asto-exo.com^
 ||astoai-71.ml^
 ||astoapsu.com^
@@ -15404,12 +15607,14 @@ star-mini.c10r.facebook.com^$important
 ||asunweelsuan.cf^
 ||asus45m7.beget.tech^
 ||asusarea.com^
+||asv.whatismyip.win^
 ||asvnbvmtyuiytv13ytuv.jp^
 ||aswdb.xyz^
 ||aswer.xyz^
 ||aswfe.xyz^
 ||aswgf.top^
 ||aswlx.cn^
+||aswpsdkus.com^
 ||aswsc.xyz^
 ||aswse.xyz^
 ||aswta.xyz^
@@ -15657,6 +15862,7 @@ star-mini.c10r.facebook.com^$important
 ||auaop.com^
 ||auazoinus.sa.mingjiuweiiou.cn^
 ||aubhiple2.com^
+||auction.unityads.unity3d.com^
 ||auctionads.com^
 ||auctionads.net^
 ||auctionnudge.com^
@@ -15936,6 +16142,7 @@ star-mini.c10r.facebook.com^$important
 ||autoua.com^
 ||autousate-bami.com^
 ||autowerkstattonline.chifanavoid.top^
+||auweelta.net^
 ||auxilio-de-credito-maio.com^
 ||auxilio.cadastro-caixa.org^
 ||auxml.com^
@@ -16102,6 +16309,7 @@ star-mini.c10r.facebook.com^$important
 ||awzdbycpiwncrp.com^
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
+||ax.xrea.com^
 ||axad.shinobi.jp^
 ||axadaldlozmqu.com^
 ||axamaxzon.com^
@@ -16304,10 +16512,12 @@ star-mini.c10r.facebook.com^$important
 ||b.law.com^
 ||b.mandaforenon.ru^
 ||b.medtronic.com^
+||b.misslk.com^
 ||b.nude-moon.xyz^
 ||b.oix.net^
 ||b.povarenok.ru^
 ||b.publicmobile.ca^
+||b.rmgserving.com^
 ||b.snow.com^
 ||b.sweet-hd.com^
 ||b.telus.com^
@@ -16333,6 +16543,7 @@ star-mini.c10r.facebook.com^$important
 ||b13.penzainform.ru^
 ||b13481647cf775c5.com^
 ||b142d1440666173b0.com^
+||b16.nakanohito.jp^
 ||b17.8794.cn^
 ||b18a21ab3c9cb53.com^
 ||b1b951f817beba948.com^
@@ -16342,6 +16553,7 @@ star-mini.c10r.facebook.com^$important
 ||b1g1w7wic0.com^
 ||b1img.com^
 ||b1js.com^
+||b2.ijquery11.com^
 ||b24-1w75w4.bitrix24.site^
 ||b29f325f9383.com^
 ||b2b835fe.ngrok.io^
@@ -16426,6 +16638,7 @@ star-mini.c10r.facebook.com^$important
 ||babsedrinhi.info^
 ||babsitlehaphow.com^
 ||baby-case.ru^
+||baby.yf898.com^
 ||babyboomboomads.com^
 ||babyhomemade.com^
 ||babystorede.nckiwomen.gdn^
@@ -16477,6 +16690,7 @@ star-mini.c10r.facebook.com^$important
 ||badsbads.com^
 ||badshades.com^
 ||badshores.com^
+||badsims.com^
 ||badskies.com^
 ||badskis.com^
 ||badslads.com^
@@ -16677,6 +16891,7 @@ star-mini.c10r.facebook.com^$important
 ||banescopanamaonline.com^
 ||banfdn.com^
 ||bangbang521.com^
+||bangedmarketcake.com^
 ||bango.net^
 ||bangrepairs.xyz^
 ||banhtv.org^
@@ -16763,6 +16978,7 @@ star-mini.c10r.facebook.com^$important
 ||banner.5giay.vn^
 ||banner.ad.nu^
 ||banner.ambercoastcasino.com^
+||banner.blogranking.net^
 ||banner.buempliz-online.ch^
 ||banner.casino.net^
 ||banner.casinodelrio.com^
@@ -16891,6 +17107,7 @@ star-mini.c10r.facebook.com^$important
 ||bannery.cz^
 ||bannery.hledejceny.cz^
 ||bannet.fryazino.net^
+||banniere.reussissonsensemble.fr^
 ||bannieres.acces-contenu.com^
 ||bannneddd.xyz^
 ||bannuncio.com^
@@ -17140,6 +17357,7 @@ star-mini.c10r.facebook.com^$important
 ||bc.atualizarcliente.app^
 ||bc.geocities.
 ||bc.infoblog.today^
+||bc.marfeelcache.com^
 ||bc05.ru^
 ||bc0a.com^
 ||bc1qlcc26rtevfrkna8zpd5lyvwrahtvr.com^
@@ -17353,6 +17571,7 @@ star-mini.c10r.facebook.com^$important
 ||bea4.cnn.com^
 ||beaaba.com^
 ||beabsolom.com^
+||beacon-1.newrelic.com^
 ||beacon-fullpage-predictor.goguardian.com^
 ||beacon.9165619.com^
 ||beacon.affil.walmart.com^
@@ -17366,6 +17585,7 @@ star-mini.c10r.facebook.com^$important
 ||beacon.guim.co.uk^
 ||beacon.gutefrage.net^
 ||beacon.heliumnetwork.com^
+||beacon.indieclick.com^
 ||beacon.indieclicktv.com^
 ||beacon.itmedia.jp^
 ||beacon.kmi-us.com^
@@ -17380,8 +17600,10 @@ star-mini.c10r.facebook.com^$important
 ||beacon.rum.dynapis.com^
 ||beacon.search.yahoo.com^
 ||beacon.searchspring.io^
+||beacon.securestudies.com^
 ||beacon.shazam.com^
 ||beacon.sina.com.cn^
+||beacon.sojern.com^
 ||beacon.squixa.net^
 ||beacon.statful.com^
 ||beacon.thred.woven.com^
@@ -17393,8 +17615,10 @@ star-mini.c10r.facebook.com^$important
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
 ||beacon.www.theguardian.com^
+||beacon2.indieclick.com^
 ||beacon2.indieclicktv.com^
 ||beaconads.com^
+||beacons.brandads.net^
 ||beacons.helium.com^
 ||beacons.mediamelon.com^
 ||beaconstreetservices.com^
@@ -17445,6 +17669,7 @@ star-mini.c10r.facebook.com^$important
 ||bechtelar.buzz^
 ||bechtelarland.buzz^
 ||becode.xiao84.com^
+||become.successfultogether.co.uk^
 ||becommodal.com^
 ||becomspectua.club^
 ||bectw.goruli.com^
@@ -17483,6 +17708,7 @@ star-mini.c10r.facebook.com^$important
 ||beewanuk.net^
 ||befade.com^
 ||befirstcdn.com^
+||beforement.club^
 ||beformine.club^
 ||beggarthodcomp.info^
 ||beginchase-recovery.com^
@@ -17621,6 +17847,7 @@ star-mini.c10r.facebook.com^$important
 ||berkahdiramadann.com^
 ||berkahramadan.com^
 ||berlineronlines.de^
+||bernationa.club^
 ||bernhardheld.de^
 ||berningbegi.club^
 ||beroll.ru^
@@ -17665,6 +17892,7 @@ star-mini.c10r.facebook.com^$important
 ||bestcharnge.com^
 ||bestchnage.com^
 ||bestcoinsignals.com^
+||bestcond1tions.com^
 ||bestcontentcompany.top^
 ||bestcontentfood.top^
 ||bestcontentsoftware.top^
@@ -17696,6 +17924,7 @@ star-mini.c10r.facebook.com^$important
 ||besthitsnow.com^
 ||besthome-sales.website^
 ||besthouse-realtor.xyz^
+||besthpath.club^
 ||besthunkarmedikal.com^
 ||besti.ga^
 ||bestinfohelp.ru^
@@ -17738,6 +17967,7 @@ star-mini.c10r.facebook.com^$important
 ||besucherzaehler.org^
 ||besucherzahlen.com^
 ||bet.championat.com^
+||bet.championat.com^$important
 ||bet188563.com^
 ||bet3000partners.com^
 ||bet365affiliates.com^
@@ -17947,6 +18177,7 @@ star-mini.c10r.facebook.com^$important
 ||bgqddlvq.com^
 ||bgqdkccsl.rogagot.com^
 ||bgrndi.com
+||bgrndi.com^
 ||bgrsw.xyz^
 ||bgrwx.xyz^
 ||bgsj.rogagot.com^
@@ -18001,6 +18232,7 @@ star-mini.c10r.facebook.com^$important
 ||bi-xzmtg-----login.ygber.com^
 ||bi.manhuaren.com^
 ||bi.yeshen.com^
+||bia.brightinfo.com^
 ||biallo1.de^
 ||biallo2.de^
 ||biallo3.de^
@@ -18015,6 +18247,7 @@ star-mini.c10r.facebook.com^$important
 ||bibpap.com^
 ||bicarepterone.net^
 ||bict.pro^
+||bid.g.doubleclick.net^
 ||bid.run^
 ||bidadx.com^
 ||bidclix.com^
@@ -18032,6 +18265,7 @@ star-mini.c10r.facebook.com^$important
 ||bidmachine.io^
 ||bidoraln.com^
 ||bidr.io^
+||bidr.trellian.com^
 ||bidrev.net^
 ||bidsimulator.com^
 ||bidsopt.com^
@@ -18055,6 +18289,7 @@ star-mini.c10r.facebook.com^$important
 ||big88.one^
 ||bigbangbon.online^
 ||bigbangmedia.com^
+||bigbonga.com^
 ||bigbootymania.com^
 ||bigbord.net^
 ||bigbossra.tk^
@@ -18287,6 +18522,7 @@ star-mini.c10r.facebook.com^$important
 ||bizographics.com^
 ||bizrate.com^
 ||bizrotator.com^
+||bizsolutions.strands.com^
 ||bizspring.net^
 ||bizua.com^
 ||bizx.info^
@@ -18426,6 +18662,7 @@ star-mini.c10r.facebook.com^$important
 ||bliiss.shop^
 ||blingbucks.com^
 ||blinkadr.com^
+||blip.bizrate.com^
 ||blisldgsqk.com^
 ||blismedia.com^
 ||blissfulonline.com^
@@ -18437,6 +18674,8 @@ star-mini.c10r.facebook.com^$important
 ||bllfinger.com^
 ||blo.autowebco.duckdns.org^
 ||block.s*block.com^
+||block.s2block.com^
+||block.s2blosh.com^
 ||blockadsnot.com^
 ||blockbreaker.io^
 ||blockchain.com-token.id^
@@ -18558,6 +18797,7 @@ star-mini.c10r.facebook.com^$important
 ||blyxb.27667.club^
 ||blzt.goruli.com^
 ||bm-tp.mentriqq.com^
+||bm.adentifi.com^
 ||bm.annonce.cz^
 ||bm.facebook.com-startprocess-upnview.webhosterfr.com^
 ||bm23.com^
@@ -18579,6 +18819,7 @@ star-mini.c10r.facebook.com^$important
 ||bmnr.pw^
 ||bmoshyiypks.com^
 ||bmrg.reflected.net^
+||bms.adjarabet.com^
 ||bmst.pw^
 ||bmub.goruli.com^
 ||bmuju.com^
@@ -18876,6 +19117,7 @@ star-mini.c10r.facebook.com^$important
 ||bondzone.xyz^
 ||bonehfj.freesite.vip^
 ||bonesknife.work^
+||bonfire.spklw.com^
 ||bong88net.com^
 ||bong99.com^
 ||bong99.fun^
@@ -18914,6 +19156,7 @@ star-mini.c10r.facebook.com^$important
 ||bookssiters.net^
 ||boolff.com^
 ||boom-boom-vroom.com^
+||boom.1ccbt.com^
 ||boom.ro^
 ||boomads.com^
 ||boomcup.icu^
@@ -19127,6 +19370,7 @@ star-mini.c10r.facebook.com^$important
 ||bradescoseguro.digital^
 ||bragapartners.com^
 ||bragcool.com^
+||brain.foresee.com^
 ||brainbiz.org^
 ||brainbridgebaybordersbldg.com^
 ||braincash.com^
@@ -19303,6 +19547,7 @@ star-mini.c10r.facebook.com^$important
 ||browser1.ru^
 ||browserintheboxcom.nckifrance.gdn^
 ||browsermine.com^
+||browserpusher.com^
 ||browserr.top^
 ||browserr1.0fees.us^
 ||browsers.support^
@@ -19330,11 +19575,14 @@ star-mini.c10r.facebook.com^$important
 ||brussel-airport.be^
 ||brutecleaner.com^
 ||bryantx.buzz^
+||brysj.vip^
 ||bryuxfvqb.vipsnapchatsexting.com^
 ||bryzantcom.batwoqisingle.top^
 ||brzclxwyo.dermals.org^
 ||brznetwork.com^
 ||bs.commontools.net^
+||bs.nakanohito.jp^
+||bs.serving-sys.com^
 ||bs.yandex.ru^
 ||bs6077.com^
 ||bs7166.com^
@@ -19446,6 +19694,7 @@ star-mini.c10r.facebook.com^$important
 ||btmobile-secure.com^
 ||btmobilepayment.com^
 ||btmp4.net^
+||btn.clickability.com^
 ||btn.onlylady.com^
 ||btn.pchome.net^
 ||btnativedirect.com^
@@ -19537,6 +19786,7 @@ star-mini.c10r.facebook.com^$important
 ||buildtrans.work^
 ||builfico.de^
 ||buka-appleid-h3127.omong-kosong.com^
+||bukolii.ru^
 ||bukpsslm.com^
 ||bulahextension.buzz^
 ||bulbazoa.com^
@@ -19887,30 +20137,42 @@ star-mini.c10r.facebook.com^$important
 ||c-tec-support.co.uk^
 ||c-webstats.de^
 ||c.8l8l.com^
+||c.admaster.com.cn^
+||c.adroll.com^
 ||c.bigmir.net
+||c.bigmir.net^
 ||c.blissgood.ru^
+||c.bxjpl.cn^
 ||c.caijing123.com^
 ||c.cpa5.ru^
 ||c.cpa6.ru^
+||c.cpl1.ru^
 ||c.cpl2.ru^
 ||c.data.mob.com^
 ||c.grimuar.ru^
+||c.hit.ua^
 ||c.imedia.cz^
+||c.imrk.net^
+||c.index.ru^
 ||c.ipaddress.com^
 ||c.jjkk.org^
 ||c.lidia39.club^
 ||c.live.com^
 ||c.marsflag.com^
 ||c.mfstatic.cz^
+||c.mgid.com^
 ||c.microsoft.com^
 ||c.mnjkw.cn^
 ||c.msn.com^
+||c.nakanohito.jp^
 ||c.newsinc.com^
 ||c.opinion.com.ua^
 ||c.pritiritobo.ru^
 ||c.pubguard.com^
 ||c.start280.com^
 ||c.t-online.de^
+||c.tbex.ru^
+||c.tgknt.com^
 ||c.tvsou.com^
 ||c.vollar.ga^
 ||c.vrvm.com^
@@ -19945,6 +20207,7 @@ star-mini.c10r.facebook.com^$important
 ||c26e9ccd4e063b.com^
 ||c288505a941e38bea3b56cf799d.net^
 ||c2cmarketing.co.in^
+||c2fsd.xyz^
 ||c2i.startappnetwork.com^
 ||c2je.mentriqq.com^
 ||c2m7r.awaykart.com^
@@ -20085,6 +20348,7 @@ star-mini.c10r.facebook.com^$important
 ||cailawyer.cn^
 ||cainter19gov.com^
 ||cainwaters.org^
+||caiteesh.net^
 ||caithamo.net^
 ||caiwanhui.top^
 ||caixa-atualizarapp.com^
@@ -20142,6 +20406,7 @@ star-mini.c10r.facebook.com^$important
 ||calltrackingmetrics.com^
 ||calltracks.com^
 ||calltrk.com^
+||calmcactus.com^
 ||calmfoot.com^
 ||calnfo.com^
 ||caloocanrob.com^
@@ -20291,6 +20556,7 @@ star-mini.c10r.facebook.com^$important
 ||captivate.ai^
 ||captora.com^
 ||capture.condenastdigital.com^
+||capture.trackjs.com^
 ||capturemedia.network^
 ||capturly.com^
 ||car-repairs.xyz^
@@ -20306,6 +20572,7 @@ star-mini.c10r.facebook.com^$important
 ||carbonads.com^
 ||carbonads.net^
 ||carbours.com^
+||carbourse.club^
 ||carconceptheidenaude.baerqiread.top^
 ||carconsultingorg.shaxiacalendar.top^
 ||card2wfffff.com^
@@ -20749,33 +21016,54 @@ star-mini.c10r.facebook.com^$important
 ||cdn-ads.thesaigontimes.vn^
 ||cdn-analytics.ladmedia.fr^
 ||cdn-analytics.pl^
+||cdn-api.admost.com^
+||cdn-cf.postitial.com^
 ||cdn-code.host^
+||cdn-creatives-akamai-prd.unityads.unity3d.com^
+||cdn-creatives-highwinds-prd.unityads.unity3d.com^
+||cdn-creatives-prd.unityads.unity3d.com^
 ||cdn-e-santander-accesportal.com^
+||cdn-highwinds.unityads.unity3d.com^
 ||cdn-image.com^
 ||cdn-my1.ru^
 ||cdn-my3.ru^
 ||cdn-my4.ru^
 ||cdn-my5.ru^
 ||cdn-net.com^
+||cdn-rtb.sape.ru^
 ||cdn-santander-areacliente.net^
 ||cdn-server.top^
 ||cdn-settings.segment.com^
 ||cdn-sitegainer.com^
+||cdn-store-icons-akamai-prd.unityads.unity3d.com^
+||cdn-store-icons-highwinds-prd.unityads.unity3d.com^
+||cdn-t.xyz^
+||cdn-webview-pge.unityads.unity3d.com^
 ||cdn.88-f.net^
+||cdn.actiflex.org^
 ||cdn.adbert.info^
+||cdn.adclerks.com^
+||cdn.adk2.com^
 ||cdn.ads.fotoable.net^
 ||cdn.advsmedia.net^
 ||cdn.allyouwant.online^
 ||cdn.amzuu.com^
+||cdn.appnext.com^
 ||cdn.auditude.com^
+||cdn.batmobi.net^
 ||cdn.c-i.as^
 ||cdn.comedia.coccoc.com^
 ||cdn.contalyze.com^
 ||cdn.cookielaw.org^
 ||cdn.cpiera.com^
+||cdn.debitcrebit669.com^
+||cdn.digitalpush.org^
 ||cdn.driveback.ru^
 ||cdn.embed.ly.cdn.cloudflare.net^
 ||cdn.embedly.com^
+||cdn.flashtalking.com^
+||cdn.glassboxcdn.com^
+||cdn.hdat.xyz^
 ||cdn.hiido.cn^
 ||cdn.hiperadverts.com^
 ||cdn.hunteryvely.com^
@@ -20784,8 +21072,13 @@ star-mini.c10r.facebook.com^$important
 ||cdn.livechatinc.com^
 ||cdn.malokacha.club^
 ||cdn.marjmedya.com^
+||cdn.midas-network.com^
+||cdn.mobicow.com^
 ||cdn.movieads.ru^
+||cdn.odoscope.cloud^
 ||cdn.pljs.ru^
+||cdn.plopx.com^
+||cdn.pulpix.com^
 ||cdn.segment.com^
 ||cdn.smartclick.io^
 ||cdn.sportlabs.online^
@@ -20795,6 +21088,7 @@ star-mini.c10r.facebook.com^$important
 ||cdn.steambets.net^
 ||cdn.trafficexchangelist.com^
 ||cdn.tubecorp.com^
+||cdn.unityads.unity3d.com^
 ||cdn.welcome.pussysaga.com^
 ||cdn.wuyou.ca^
 ||cdn.x-lift.jp^
@@ -20859,10 +21153,12 @@ star-mini.c10r.facebook.com^$important
 ||cdvoqspgdp.com^
 ||cdwqibctfz.com^
 ||cdxyb.cn^
+||cdxzcjz.cn^
 ||cdyqc.com^
 ||cdyygbzihdh.com^
 ||cdzimeijia.com^
 ||ce-global-track-*.amazonaws.com^
+||ce.lijit.com^
 ||ce3-f.mentriqq.com^
 ||ce62e0d222bc5aca.com^
 ||ce995261c23447b2d3196726c71e3a10b667f469.net^
@@ -20922,6 +21218,7 @@ star-mini.c10r.facebook.com^$important
 ||celerantatters.com^
 ||celeritascdn.com^
 ||cell-phones-smartphones.itm37l6239l.com^
+||cell.zhybzp.cn^
 ||cellbux.com^
 ||cellorun.info^
 ||celltick.com^
@@ -20937,6 +21234,7 @@ star-mini.c10r.facebook.com^$important
 ||cematuran.com^
 ||cembra-ch.com^
 ||cendol.kitacbadeh.xyz^
+||cenessdise.info^
 ||cenld.goruli.com^
 ||centene.docsigningservice.com^
 ||centent.streamp1ay.cc^
@@ -20997,6 +21295,7 @@ star-mini.c10r.facebook.com^$important
 ||cert-upgrservtrust.com^
 ||certainedds.club^
 ||certakesime.site^
+||certaliaoper.info^
 ||certifica-app.info^
 ||certifica.com^
 ||certifiedmembership.top^
@@ -21176,6 +21475,7 @@ star-mini.c10r.facebook.com^$important
 ||changxiukj.com^
 ||chanicut.com^
 ||channelintelligence.com^
+||chantmarez.club^
 ||chaogej.com^
 ||chapterrings.com^
 ||chaptoor.com^
@@ -21885,6 +22185,7 @@ star-mini.c10r.facebook.com^$important
 ||chidsimp.com^
 ||chief-con.pro^
 ||chiefcurrent.com^
+||chieving.club^
 ||chifanauthor.top^
 ||chifanaverage.top^
 ||chifanbaby.top^
@@ -21906,6 +22207,7 @@ star-mini.c10r.facebook.com^$important
 ||chillingpa.appworlds.info^
 ||chilndreninfo.eu^
 ||chilromy.net^
+||china-cdn3.unityads.unity3d.com^
 ||china-jhy.cn^
 ||china-netwave.com^
 ||china-pengdu.cn^
@@ -21959,6 +22261,7 @@ star-mini.c10r.facebook.com^$important
 ||chopstixic.com^
 ||chordeez.net^
 ||chotemintapulsa.com^
+||chouftak.net^
 ||chouphoa.top^
 ||chqspuonctkgz.com^
 ||chrissmith33.com^
@@ -21973,6 +22276,7 @@ star-mini.c10r.facebook.com^$important
 ||christingsugged.site^
 ||christmalicious.com^
 ||christmasofficeinfo.shaxianame.top^
+||christoredyt.club^
 ||christsaboundinglove.com^
 ||chrmupdater.su^
 ||chromaspancom.batwoqisingle.top^
@@ -22127,6 +22431,7 @@ star-mini.c10r.facebook.com^$important
 ||cityadspix.com^
 ||cityadstrack.com^
 ||cityd.xyz^
+||cityf.xyz^
 ||citygrid.com^
 ||citymatch.tk^
 ||citypaketet.se^
@@ -22158,6 +22463,7 @@ star-mini.c10r.facebook.com^$important
 ||cjibincasso.com^
 ||cjkldjaga.shoesmogul.com^
 ||cjlog.com^
+||cjlqwfpkwi.com^
 ||cjmhugs.rkbkuy.cn^
 ||cjngurun.net^
 ||cjoingrubwa18now.zyns.com^
@@ -22187,6 +22493,7 @@ star-mini.c10r.facebook.com^$important
 ||ckkrlzxvy.com^
 ||ckl6767.com^
 ||cklad.xyz^
+||cklecreditie.info^
 ||cklib.shoesmogul.com^
 ||cklvpsjtbwf.com^
 ||ckombcgg.com^
@@ -22340,10 +22647,12 @@ star-mini.c10r.facebook.com^$important
 ||click-da-click.com^
 ||click-linking.com^
 ||click-url.com^
+||click.abctrack.bid^
 ||click.absoluteagency.com^
 ||click.accesstra.de^
 ||click.ad1.ru^
 ||click.adserverboost.com^
+||click.advertnative.com^
 ||click.appinthestore.com^
 ||click.aristotle.net^
 ||click.bokecc.com^
@@ -22402,6 +22711,7 @@ star-mini.c10r.facebook.com^$important
 ||clickcertain.com^
 ||clickclick.net^
 ||clickcloud.info^
+||clickco.net^
 ||clickcompare.co.uk^
 ||clickconversion.net^
 ||clickdensity.com^
@@ -22472,6 +22782,7 @@ star-mini.c10r.facebook.com^$important
 ||clicks.mods.de^
 ||clicks.pipaffiliates.com^
 ||clicks.tableau.com^
+||clicks.traffictrader.net^
 ||clicks2count.com^
 ||clicksagent.com^
 ||clickscapture.com^
@@ -22493,6 +22804,7 @@ star-mini.c10r.facebook.com^$important
 ||clicktrace.info^
 ||clicktraceclick.com^
 ||clicktrack1.com^
+||clicktrack2.ziyu.net^
 ||clicktracker.iscan.nl^
 ||clicktracklink.com^
 ||clicktracks.com^
@@ -22526,6 +22838,7 @@ star-mini.c10r.facebook.com^$important
 ||client.88tours.com^
 ||client.amazoncontact.org^
 ||client.midosoo.com^
+||client.perimeterx.net^
 ||client.servicerds.appss.asia^
 ||client.tahono.com^
 ||clientainfo.augerqisea.top^
@@ -22693,7 +23006,9 @@ star-mini.c10r.facebook.com^$important
 ||clzfurcqmlgw.com^
 ||cm-exchange.toast.com^
 ||cm-spin.club^
+||cm-trk3.com^
 ||cm.baidu.com^
+||cm.g.doubleclick.net^
 ||cmap.alibaba.com^
 ||cmaxisolation.com^
 ||cmb-company.xyz^
@@ -22813,6 +23128,7 @@ star-mini.c10r.facebook.com^$important
 ||cnstats.ru^
 ||cnt.3dmy.net^
 ||cnt.alawar.com^
+||cnt.cerber.rambler.ru^
 ||cnt.inforotor.net^
 ||cnt.logoslovo.ru^
 ||cnt.mastorage.net^
@@ -22820,7 +23136,9 @@ star-mini.c10r.facebook.com^$important
 ||cnt.nicemix.com^
 ||cnt.nov.ru^
 ||cnt.nuvid.com^
+||cnt.rambler.ru^
 ||cnt.ramlife.ru^
+||cnt.rate.ru^
 ||cnt.spbland.ru^
 ||cnt.vivatube.com^
 ||cnt.xhamster.com^
@@ -22828,6 +23146,7 @@ star-mini.c10r.facebook.com^$important
 ||cnt2.stroeerdp.de^
 ||cntadvertising.com^
 ||cntcash.ru^
+||cntcerber.rambler.ru^
 ||cntdy.mobi^
 ||cntrafficpro.com^
 ||cntvxymwesggem.com^
@@ -22896,6 +23215,7 @@ star-mini.c10r.facebook.com^$important
 ||code.ditiezu.net^
 ||code.kinofactor.ru^
 ||code.lockbot.net^
+||code.ts166.net^
 ||code.vh45130.eurodir.ru^
 ||code.xidx.org^
 ||code222.com^
@@ -22960,6 +23280,7 @@ star-mini.c10r.facebook.com^$important
 ||coinhive.com^
 ||coinhiveproxy.com^
 ||coinimp.com
+||coinimp.com^
 ||coinimp.net
 ||coinkey.top^
 ||coinmasterfreespiin.xyz^
@@ -23005,15 +23326,18 @@ star-mini.c10r.facebook.com^$important
 ||collect-test.arabam.com^
 ||collect.*.miui.com^
 ||collect.adback.co^
+||collect.albacross.com^
 ||collect.blishtech.co^
 ||collect.data.tm-awx.com^
 ||collect.feefo.com^
+||collect.igodigital.com^
 ||collect.media.jio.com^
 ||collect.rewardstyle.com^
 ||collect.sas.com^
 ||collect.tianya.cn^
 ||collect.usefathom.com^
 ||collect2.sas.com^
+||collecte.audience.acpm.fr^
 ||collectfasttracks.com^
 ||collecting.click^
 ||collection-day.com^
@@ -23027,6 +23351,7 @@ star-mini.c10r.facebook.com^$important
 ||collectiveknowledgeonlinecom.shuiabrown.top^
 ||collectivismm.com^
 ||collectlssued.tech^
+||collector-*.perimeterx.net^
 ||collector-*.tvsquared.com^
 ||collector-analytics.efigence.com^
 ||collector-api.99designs.com^
@@ -23036,11 +23361,14 @@ star-mini.c10r.facebook.com^$important
 ||collector.apester.com^
 ||collector.automote.co.nz^
 ||collector.brandify.com^
+||collector.bunchbox.co^
 ||collector.clareity.net^
+||collector.contentexchange.me^
 ||collector.getyourguide.com^
 ||collector.githubapp.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
+||collector.leaddyno.com^
 ||collector.mazeberry.com^
 ||collector.prod.expedia.com^
 ||collector.puhutv.com^
@@ -23050,6 +23378,7 @@ star-mini.c10r.facebook.com^$important
 ||collector.shopstream.co^
 ||collector.shorte.st^
 ||collector.sspinc.io^
+||collector.statowl.com^
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
 ||collector.xhamster.com^
@@ -23257,9 +23586,11 @@ star-mini.c10r.facebook.com^$important
 ||companyservicesinc.works^
 ||comparencelabl.site^
 ||compartamos.identidad.com^
+||compass.adop.cc^
 ||compca.de^
 ||compdate.my03.com^
 ||compensationomar.com^
+||compensess.club^
 ||compensions.pro^
 ||competent-borg-190248.netlify.com^
 ||competition8571.nonamevar30.live^
@@ -23340,8 +23671,12 @@ star-mini.c10r.facebook.com^$important
 ||confidesupport.com^
 ||config.88-f.net^
 ||config.appjolt.com
+||config.parsely.com^
 ||config.safedk.com^
+||config.tremorhub.com^
 ||config.uca.cloud.unity3d.com^
+||config.unityads.unity3d.com^
+||config2.mparticle.com^
 ||configmart-recorded.servehttp.com^
 ||configurateshop-app.servehttp.com^
 ||configuration.ttpsdk.info^
@@ -23469,6 +23804,7 @@ star-mini.c10r.facebook.com^$important
 ||consent-manager-events.ogury.io^
 ||consesculifin.site^
 ||considedefinit.fun^
+||consideher.club^
 ||consigli.it^
 ||consilionexusmade.com^
 ||consorcraightyc.info^
@@ -23536,6 +23872,7 @@ star-mini.c10r.facebook.com^$important
 ||contactwebonline.24x7s.com^
 ||contadd.com^
 ||contadordevisitas.es^
+||contadores.miarroba.com^
 ||contadores.miarroba.es^
 ||contadorgratis.com^
 ||contadorgratis.es^
@@ -23560,7 +23897,9 @@ star-mini.c10r.facebook.com^$important
 ||content-reset-account-support-security-amazon.com^
 ||content-reset-account-support-security-appleid-apple.com^
 ||content-square.net^
+||content.acc-hd.de^
 ||content.ad^
+||content.adriver.ru^
 ||content.mql5.com^
 ||content.printdirect.ru^
 ||contentabc.com^
@@ -23585,6 +23924,7 @@ star-mini.c10r.facebook.com^$important
 ||contextly.com^
 ||contextrtb.com^
 ||contextuads.com^
+||contextual.media.net^
 ||contextweb.com^
 ||contiforcechallengefr.nckitickets.gdn^
 ||contineljs.com^
@@ -23614,6 +23954,7 @@ star-mini.c10r.facebook.com^$important
 ||controlmaxheacom.nckila.gdn^
 ||controlsgc.prisacom.com^
 ||controlshop.support-futuremarket.com^
+||controvedyt.club^
 ||contryyou.cloudaccess.host^
 ||conusmedia.com^
 ||convalida-psd2.com^
@@ -23643,9 +23984,12 @@ star-mini.c10r.facebook.com^$important
 ||conviguration.paypa1.com.payment-metod.com^
 ||convirmation.paypa1.sbrekeleanunamailbusiness.info^
 ||convrse.media^
+||convsgmp.taboola.com^
 ||conwywellington.com^
 ||conyak.com^
 ||cookaeaqua.com^
+||cookie-matching.mediarithmics.com^
+||cookie.fuel451.com^
 ||cookiehub.net^
 ||cookiepro.cloud^
 ||cookies.cmpnet.com^
@@ -24068,6 +24412,7 @@ star-mini.c10r.facebook.com^$important
 ||cosdkaa.pro^
 ||coshfgpgab.com^
 ||cosimolaugh.pro^
+||cosimotable.pro^
 ||cosmeticfigures.com^
 ||cosmi.io^
 ||cosmjs.com^
@@ -24093,6 +24438,7 @@ star-mini.c10r.facebook.com^$important
 ||counevan.pro^
 ||counsultingspace.com^
 ||count-cnt.ru^
+||count.asnetworks.de^
 ||count.carrierzone.com^
 ||count.channeladvisor.com^
 ||count.ddooo.com^
@@ -24117,6 +24463,7 @@ star-mini.c10r.facebook.com^$important
 ||count.mail.163.commsk.count.fkc.count.mail.163.com.wedge-ksa.com^
 ||count.me.uk^
 ||count.nuanyuehanxing.com^
+||count.paycounter.com^
 ||count.prx.org^
 ||count.rin.ru^
 ||count.rtl.de^
@@ -24140,6 +24487,7 @@ star-mini.c10r.facebook.com^$important
 ||counter.1gb.ru^
 ||counter.1i.kz^
 ||counter.24log.es^
+||counter.24smi.info^
 ||counter.all.biz^
 ||counter.blogoscoop.net^
 ||counter.bloke.com^
@@ -24176,6 +24524,7 @@ star-mini.c10r.facebook.com^$important
 ||counter.powweb.com^
 ||counter.pr-cy.ru^
 ||counter.promodeejay.net^
+||counter.rambler.ru^
 ||counter.rian.ru^
 ||counter.scribblelive.com^
 ||counter.scribblelive.net^
@@ -24190,8 +24539,11 @@ star-mini.c10r.facebook.com^$important
 ||counter.tldw.me^
 ||counter.top.ge^
 ||counter.top.kg^
+||counter.tovarro.com^
 ||counter.ukr.net^
+||counter.wapstart.ru^
 ||counter.webmart.de^
+||counter.yadro.ru^
 ||counter.zerohedge.com^
 ||counter.zone.ee^
 ||counter160.com^
@@ -24263,6 +24615,7 @@ star-mini.c10r.facebook.com^$important
 ||covercovik.com^
 ||coveredsys.cn^
 ||covernmentasto.info^
+||coversaved.club^
 ||coveyofcrows.com^
 ||covid-19-19.tk^
 ||covid-19-business-continuity-epic-uk-limited.azurewebsites.net^
@@ -24593,6 +24946,7 @@ star-mini.c10r.facebook.com^$important
 ||cpfclassifieds.com^
 ||cpgweb.net^
 ||cphalk.com^
+||cphjydduuh.com^
 ||cpiyz.com^
 ||cpk1transport.com^
 ||cpl1.ru^
@@ -24601,6 +24955,7 @@ star-mini.c10r.facebook.com^$important
 ||cpm.193g.cn^
 ||cpm.biz^
 ||cpm.cm.kankan.com^
+||cpm.wargaming.net^
 ||cpm.worldoftanks.com^
 ||cpm10.com^
 ||cpm20.com^
@@ -24679,6 +25034,7 @@ star-mini.c10r.facebook.com^$important
 ||crab24.ru^
 ||crabbychin.com^
 ||crabtreecottagevintage.best^
+||cracataum.com^
 ||crack44.com^
 ||crackac.com^
 ||crackaworld.com^
@@ -24813,6 +25169,7 @@ star-mini.c10r.facebook.com^$important
 ||creofun.com^
 ||cresskillnj.buzz^
 ||cretaiformac.top^
+||cretextsma.info^
 ||crew.myvnc.com^
 ||crewemethodists.org^
 ||crewita.co^
@@ -24866,6 +25223,7 @@ star-mini.c10r.facebook.com^$important
 ||crossrider.com^
 ||crosswalkmail.com^
 ||crotwa18.gets01.ga^
+||crowaving.club^
 ||crowdgravity.com^
 ||crowdscience.com^
 ||crowdskout.com^
@@ -24917,6 +25275,7 @@ star-mini.c10r.facebook.com^$important
 ||crzhwn.rogagot.com^
 ||crzvigo.goruli.com^
 ||crzytm.com^
+||cs*.mp3bars.com^
 ||cs-analyzer.tk^
 ||cs-assistamazon.servecounterstrike.com^
 ||cs-empire.ga^
@@ -24924,6 +25283,7 @@ star-mini.c10r.facebook.com^$important
 ||cs-money.money^
 ||cs-s.hi2.ro^
 ||cs.amazn.com.sigin.ve.marlacunni.com^
+||cs.nakanohito.jp^
 ||cs12d.com^
 ||cs25882.tmweb.ru^
 ||csaerest.com^
@@ -25173,6 +25533,7 @@ star-mini.c10r.facebook.com^$important
 ||ctgrn.goruli.com^
 ||ctivesprepaired.club^
 ||ctjtlrmy.com^
+||ctl.buyt.in^
 ||ctl.mobitrack.co.kr^
 ||ctlg.rogagot.com^
 ||ctm-media.com^
@@ -25241,6 +25602,7 @@ star-mini.c10r.facebook.com^$important
 ||cumhurbaskanlikiletisimofisigovtr.com^
 ||cummba.de^
 ||cummingstrack.buzz^
+||cunda.prudsys-rde.de^
 ||cunderdr.net^
 ||cuntador.com^
 ||cuoas.com^
@@ -25432,6 +25794,7 @@ star-mini.c10r.facebook.com^$important
 ||cyclosen.club^
 ||cycsfe.com^
 ||cycxrevajbyyk.com^
+||cycy.kxrxh.com^
 ||cydownsand.pro^
 ||cyfzthaduxhb.com^
 ||cygngisr.com^
@@ -25498,14 +25861,22 @@ star-mini.c10r.facebook.com^$important
 ||d.6xw.com^
 ||d.ab126.com^
 ||d.ackng.com^
+||d.adrolays.de^
+||d.adroll.com^
+||d.adtriba.com^
 ||d.applvn.com^
 ||d.chokun.ru^
 ||d.dgzj.com^
+||d.finative.eu^
 ||d.haberler.com^
+||d.impactradius-event.com^
+||d.ligatus.com^
 ||d.likeavirgin.io^
+||d.nativendo.de^
 ||d.omsnative.de^
 ||d.shareaholic.com^
 ||d.top4top.io^
+||d.trafiq.party^
 ||d.vaappstore.online^
 ||d.zbusa.com^
 ||d.ziyuanm.com^
@@ -25539,6 +25910,7 @@ star-mini.c10r.facebook.com^$important
 ||d141wsrw9m4as6.cloudfront.net^
 ||d14emrg9.com^
 ||d15cjcet1djbmv.cloudfront.net^
+||d15kdpgjg3unno.cloudfront.net^
 ||d160mt023h8h3d.cloudfront.net^
 ||d162nnmwf9bggr.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
@@ -25662,6 +26034,7 @@ star-mini.c10r.facebook.com^$important
 ||d2bj2texxib1qg.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2d8qsxiai9qwj.cloudfront.net^
+||d2dc2sk4vkh2xn.cloudfront.net^
 ||d2df1929.ngrok.io^
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d2e0sxz09bo7k2.cloudfront.net^
@@ -25846,6 +26219,7 @@ star-mini.c10r.facebook.com^$important
 ||d6ummfe8aubt5.cloudfront.net^
 ||d6ym.mentriqq.com^
 ||d71e6dd31a026d45.com
+||d71e6dd31a026d45.com^
 ||d72gb9oukw3j.com^
 ||d72l4.com^
 ||d758ba2f7a85b82f818e8fa5d63cfe8953cbc704.info^
@@ -25906,6 +26280,7 @@ star-mini.c10r.facebook.com^$important
 ||dadjia.com^
 ||dadlpp.com^
 ||dadsabc.com^
+||dadsanz.com^
 ||dadsatz.com^
 ||dadsecs.com^
 ||dadsecz.com^
@@ -25931,6 +26306,7 @@ star-mini.c10r.facebook.com^$important
 ||daffliach.com^
 ||dafvrfwb.com^
 ||dagasaka.com^
+||dagda.vilynx.com^
 ||daghashmal.com^
 ||dagnar.com^
 ||dagonlube.ru^
@@ -25946,6 +26322,7 @@ star-mini.c10r.facebook.com^$important
 ||daidienlam.vn^
 ||daidopresente.com^
 ||daigleeb.net^
+||daikuanfanli.com^
 ||dail01.wanmeilr.com^
 ||dailiq.cn^
 ||daily-games.xyz^
@@ -26019,6 +26396,7 @@ star-mini.c10r.facebook.com^$important
 ||danlidanli.net^
 ||danmeneldur.com^
 ||danny82.xyz^
+||danorenius.com^
 ||danpinwu.com^
 ||dansmarijuanaremedies.com^
 ||dantbritingd.club^
@@ -26104,14 +26482,19 @@ star-mini.c10r.facebook.com^$important
 ||data-search-support-website.com^
 ||data-security-settings-support-account-rakuten.info^
 ||data-slimspots.com^
+||data.24smi.net^
+||data.adroll.com^
 ||data.adwombat.com^
 ||data.alexa.com^
+||data.caroda.io^
 ||data.circulate.com^
 ||data.collishop.be^
 ||data.dreamland.be^
 ||data.econa.com^
+||data.gosquared.com^
 ||data.imakenews.com^
 ||data.manage.id.information.nesneslarge.com^
+||data.marketgid.com^
 ||data.minute.ly^
 ||data.mistat.*.xiaomi.com^
 ||data.mistat.xiaomi.com^
@@ -26125,6 +26508,7 @@ star-mini.c10r.facebook.com^$important
 ||data.waptime.cn^
 ||data1.virginmobile.ca^
 ||data2.doodlemobile.com^
+||data2.gosquared.com^
 ||dataatx.com^
 ||database55.theworkpc.com^
 ||databrain.com^
@@ -26231,6 +26615,7 @@ star-mini.c10r.facebook.com^$important
 ||dba.dk.log-ind.email^
 ||dbaij.com^
 ||dbaof.com^
+||dbasedolas.club^
 ||dbbc3db0c32eb6fd59cb18e51be1ada7af017b86.ph^
 ||dbbsrv.com^
 ||dbcfd.xyz^
@@ -26312,6 +26697,7 @@ star-mini.c10r.facebook.com^$important
 ||dcxse.xyz^
 ||dcxtvftrdd.com^
 ||dcyeufoq.com^
+||dd.70yst.com^
 ||dd.zt3s6o.cn^
 ||dd1.diymianmo.com^
 ||dd31.awaykart.com^
@@ -26541,10 +26927,13 @@ star-mini.c10r.facebook.com^$important
 ||deliver.ifeng.com^
 ||deliver.ptgncdn.com^
 ||delivery-olx.net^
+||delivery.adrecover.com^
+||delivery.adten.eu^
 ||delivery.content-recommendation.net^
 ||delivery.playallvideos.com^
 ||delivery.porn.com^
 ||delivery.senvangvn.com^
+||delivery.trafficfabrik.com^
 ||delivery.vtcnew.com.vn^
 ||delivery.wasu.cn^
 ||delivery45.com^
@@ -26562,6 +26951,7 @@ star-mini.c10r.facebook.com^$important
 ||deloplen.com^
 ||delosnetwork.it^
 ||deloton.com$important
+||deloton.com^
 ||delphiakademiecom.augerqisea.top^
 ||delsilencio.de^
 ||delta.mediafort.ru^
@@ -26571,6 +26961,7 @@ star-mini.c10r.facebook.com^$important
 ||deluxe-ads.net^
 ||deluxeads.net^
 ||demand-on-package.azurewebsites.net^
+||demand.bidgear.com^
 ||demand.supply^
 ||demandbase.com^
 ||demandmedia.s3.amazonaws.com^
@@ -26614,6 +27005,7 @@ star-mini.c10r.facebook.com^$important
 ||deobp.com^
 ||deofascymad.cf^
 ||dep-x.com^
+||deparabides.club^
 ||deparationew.info^
 ||deparisesamer.info^
 ||departament-security.work^
@@ -26731,6 +27123,7 @@ star-mini.c10r.facebook.com^$important
 ||detaineededc.com^
 ||detect.ergebnis-dienst.de^
 ||detect.rayjump.com^
+||detectca.easysol.net^
 ||detectdiscovery.com^
 ||detectnewfavorite.com^
 ||detemopenahub.com^
@@ -26739,6 +27132,7 @@ star-mini.c10r.facebook.com^$important
 ||determsclo.info^
 ||dethao.com^
 ||detour.click^
+||detowd.com^*.php
 ||detroitbackdoctor.com^
 ||detuns.com^
 ||detwzgl8cvciv.cloudfront.net^
@@ -26751,6 +27145,7 @@ star-mini.c10r.facebook.com^$important
 ||dev-hpna-aux-api.appl.kp.org^
 ||dev.app1ec2.stewing.xyz^
 ||dev.app1ec3.stewing.xyz^
+||dev.appboy.com^
 ||dev.awen.co^
 ||dev.espirittechnologies.com^
 ||dev.gci.exoret.com^
@@ -26857,6 +27252,7 @@ star-mini.c10r.facebook.com^$important
 ||dfg.16rn00.cn^
 ||dfg.wankdqr.cn^
 ||dfg4s.xyz^
+||dfgbalon.com^
 ||dfgce.xyz^
 ||dfgdgedd.club^
 ||dfgdgeddtech.club^
@@ -26887,6 +27283,7 @@ star-mini.c10r.facebook.com^$important
 ||dfxvfkutloxnyl.com^
 ||dfyudpyceqoy.com^
 ||dg.opple.com^
+||dg.sxybjjz.cn^
 ||dgabaqjye.goruli.com^
 ||dgafgadsgkjg.top^
 ||dgaoz.com^
@@ -27179,6 +27576,7 @@ star-mini.c10r.facebook.com^$important
 ||discoversatpolbackupadmin.satpol.kedirikab.go.id^
 ||discovertrail.net^
 ||discoveryouritem.co.uk^
+||discreetfield.com^
 ||discussiab.club^
 ||diseasons.club^
 ||disenyongpinoy.com^
@@ -27208,11 +27606,13 @@ star-mini.c10r.facebook.com^$important
 ||diskussionsforen-ebay.de-ws8-html5.heliohost.org^
 ||disneygator.com^
 ||disp-x.space^
+||dispatcher.mng-ads.com^
 ||dispatcher.upmc.uc.cn^
 ||display.nativemedia.rs^
 ||display.studio^
 ||displayadsmedia.com^
 ||displaymarketplace.com^
+||displaynews.live^
 ||displaypagerank.com^
 ||displayvertising.com^
 ||disponivelsomentehoje.com^
@@ -27410,7 +27810,9 @@ star-mini.c10r.facebook.com^$important
 ||dm.costaricahiphop.com^
 ||dm.gucheng.com^
 ||dm.huochepiao.com^
+||dm.hybrid.ai^
 ||dm.jb51.net^
+||dm.jinshasi.cn^
 ||dm.jsyst.cn^
 ||dm.ldayl.com^
 ||dm.onpointusa.org^
@@ -28120,6 +28522,9 @@ star-mini.c10r.facebook.com^$important
 ||dsnxvnkxyimczk.com^
 ||dsouhkgxv.tanglescanner.com^
 ||dsp-adcreative.mobshark.net^
+||dsp-endscreens.unityads.unity3d.com^
+||dsp-eu.exe.bid^
+||dsp-tracking.unityads.unity3d.com^
 ||dsp.ali213.net^
 ||dsparking.com^
 ||dspleastanci.site^
@@ -28141,6 +28546,7 @@ star-mini.c10r.facebook.com^$important
 ||dszan.com^
 ||dt.nrjmobile.fr^
 ||dt.vnecdn.com^
+||dt0ok92rg7r8.com^
 ||dt1pxsve3tgas.cloudfront.net^
 ||dt2xr6g2i5.com^
 ||dtc-v6t.com^
@@ -28263,6 +28669,7 @@ star-mini.c10r.facebook.com^$important
 ||dumedia.ru^
 ||dummy-domain-do-not-change.com^
 ||dumpsbuy.su^
+||dunderaffiliates.com^
 ||dunellengez.info^
 ||duniafan.com^
 ||dunta.ru^
@@ -28587,6 +28994,7 @@ star-mini.c10r.facebook.com^$important
 ||e-servis-aktarma-tr-1.com^
 ||e-servis-cep-tr-1.com^
 ||e-servis-dagitma-tr-1.com^
+||e-ssl.apsalar.com^
 ||e-tbmm-aidatimizbasvurular.com^
 ||e-traffix.de^
 ||e-transfer-interac.live^
@@ -28600,12 +29008,15 @@ star-mini.c10r.facebook.com^$important
 ||e-zeeinternet.com^
 ||e.211pu.cn^
 ||e.60sk.ru^
+||e.apsalar.com^
 ||e.dr-zh.com^
 ||e.ejiakm.net^
 ||e.funnymel.com^
 ||e.ie-aruba.com^
 ||e.kde.cz^
+||e.lndjj.com^
 ||e.qq.com^
+||e.qxfly.com^
 ||e.tw.cx^
 ||e.uremenber.ru^
 ||e.yycqc.com^
@@ -28714,6 +29125,7 @@ star-mini.c10r.facebook.com^$important
 ||eae8n.ailacabs.com^
 ||eaeecuetaie.com^
 ||eaeos7.qwwxatw8p5h2.institute^
+||eaes.2track.info^
 ||eaffxhnzh.com^
 ||eagergreyhound.com^
 ||eagleapi.io^
@@ -29130,6 +29542,7 @@ star-mini.c10r.facebook.com^$important
 ||echo.biasdo.com^
 ||echo.scund.com^
 ||echoazou.com^
+||echomilly.com^
 ||echtebesucher.de^
 ||echteshandwerkcom.batwoqiseries.top^
 ||echteshandwerkcom.shaxiapurpose.top^
@@ -29205,6 +29618,7 @@ star-mini.c10r.facebook.com^$important
 ||ed98512111bb19e5.in.net^
 ||ed9wkbpy.com^
 ||edaivip.com^
+||edampeci.com^
 ||edarw.xyz^
 ||edatasafecom.nckithailand.gdn^
 ||edcgov.ca^
@@ -29225,7 +29639,9 @@ star-mini.c10r.facebook.com^$important
 ||edf-mobile.com^
 ||edfgikuu.zapto.org^
 ||edfrencessaryhu.info^
+||edge-dl.andomedia.com^
 ||edge.bredg.com^
+||edge.quantserve.com^
 ||edge.sqweb.com^
 ||edgead.woomedya.com^
 ||edgeads.org^
@@ -29235,6 +29651,7 @@ star-mini.c10r.facebook.com^$important
 ||edgeleyn.buzz^
 ||edgess.cn^
 ||edgevertise.com^
+||edgreateria.info^
 ||edhappearer.info^
 ||edhnf.rogagot.com^
 ||edibegedol.com^
@@ -29450,6 +29867,7 @@ star-mini.c10r.facebook.com^$important
 ||effectivemeasure.com^
 ||effectivemeasure.net^
 ||effettua-rimozione-limitazioni.com^
+||effixtile-inceive.com^
 ||efhabjaabgfbbegjacj.ru^
 ||efhlntnvpzi.com^
 ||efhseqgqgl.com^
@@ -29497,6 +29915,7 @@ star-mini.c10r.facebook.com^$important
 ||egolina.com^
 ||egooad.com^
 ||egqvppwseieyu.com^
+||egrettyjokilin.info^
 ||egrhlbq.vipsnapchatsexting.com^
 ||egroacho.com^
 ||eguw3gi0dt2jfpzu4s.gmz.cc^
@@ -29530,6 +29949,7 @@ star-mini.c10r.facebook.com^$important
 ||ehwsxfr.goruli.com^
 ||ehy1q.awaykart.com^
 ||ei4f.cn^
+||eieocp6mdu59.com^
 ||eifelferienparkcom.chifanassume.top^
 ||eighbourge.club^
 ||eihjefbbbbddeiacedb.ru^
@@ -29954,6 +30374,7 @@ star-mini.c10r.facebook.com^$important
 ||endhelpnfb.com^
 ||endloseporno.com^
 ||endurablecrayon.com^
+||endurablecrayon.com^third-party
 ||enecto.com^
 ||enectoanalytics.com^
 ||enennsa.gushiwen.cn^
@@ -29990,6 +30411,7 @@ star-mini.c10r.facebook.com^$important
 ||engetrate.com.br^
 ||enghelps-appid.servebeer.com^
 ||engine.adtidy.net^
+||engine.mobileapptracking.com^
 ||engine.turboroller.ru^
 ||engine212.com^
 ||engine64.com^
@@ -30090,6 +30512,7 @@ star-mini.c10r.facebook.com^$important
 ||enzagnshqtmhg.com^
 ||enzhixi.com^
 ||enzodpxuons.com^
+||eo.sdahxz.xyz^
 ||eo3zv.weblium.site^
 ||eo62cocntx.com^
 ||eodx.goruli.com^
@@ -30184,6 +30607,7 @@ star-mini.c10r.facebook.com^$important
 ||epw9j.listfash.com^
 ||epworthlocalboard.co.zw^
 ||epxfggcgr.com^
+||epyulyi7887o.com^
 ||eq1yf.listfash.com^
 ||eq5ahiqg.firebaseapp.com^
 ||eqads.com^
@@ -30208,6 +30632,7 @@ star-mini.c10r.facebook.com^$important
 ||eqworks.com^
 ||eqzjfqkioowkle.com^
 ||er-d.lawapass.com^
+||er.mmi.bemobile.ua^
 ||er4w.awaykart.com^
 ||erabbied3rrre61.e8273.pro^
 ||eradek.ru^
@@ -30250,6 +30675,7 @@ star-mini.c10r.facebook.com^$important
 ||ergxe.xyz^
 ||erificyggw.com^
 ||erileni.ru^
+||eriniquep.club^
 ||erkaseriilan.com.tr^
 ||erkhxw.com^
 ||ermao.sikabeila.com^
@@ -30279,6 +30705,7 @@ star-mini.c10r.facebook.com^$important
 ||eroxdating.com
 ||erqimall.net^
 ||err.cloudbit.rocks^
+||err.rambler.ru^
 ||errictandalex.kenaidanceta.com^
 ||errnaphim.site^
 ||errolgillcom.shuiacensus.top^
@@ -30300,11 +30727,13 @@ star-mini.c10r.facebook.com^$important
 ||errorsalert.club^
 ||errorsense.club^
 ||errtmotmw.pw^
+||ersfeaturall.info^
 ||ersgf.xyz^
 ||ersoncur.info^
 ||ersremarypiec.info^
 ||ersryifxrsy.com^
 ||erssamplet.pro^
+||erswhenede.info^
 ||ersxc.xyz^
 ||ert0x3ntd-system32.xyz^
 ||ertainstreated.fun^
@@ -30458,6 +30887,7 @@ star-mini.c10r.facebook.com^$important
 ||et-accept-ca4gwf.com^
 ||et-cod.com^
 ||et-code.ru
+||et-code.ru^
 ||et-lnter-recive.com^
 ||et-lnvoicebills.com^
 ||et-lnvoicqtech.com^
@@ -30548,6 +30978,7 @@ star-mini.c10r.facebook.com^$important
 ||etoroglobaltrade.com^
 ||etoroinvest.org^
 ||etp-prod.com^
+||etqigt.com^
 ||etqqa.xyz^
 ||etqss.xyz^
 ||etqtx.xyz^
@@ -30785,6 +31216,7 @@ star-mini.c10r.facebook.com^$important
 ||eventlog.inspsearch.com^
 ||eventlog.inspsearchapi.com^
 ||eventlog.jackpot.de^
+||eventlog.outbrain.com^
 ||eventlogger.soundcloud.com^
 ||eventluckyspin.xfree1.com^
 ||eventpressecom.batwoqisep.top^
@@ -30795,15 +31227,19 @@ star-mini.c10r.facebook.com^$important
 ||events.air.tv^
 ||events.antenna.is^
 ||events.apester.com^
+||events.appsflyer.com^
 ||events.artirix.com^
 ||events.brightline.tv^
 ||events.chaordicsystems.com^
 ||events.demoup.com^
+||events.izooto.com^
 ||events.jora.com^
 ||events.jotform.com^
 ||events.kaloo.ga^
 ||events.launchdarkly.com^
 ||events.lbesecapi.com^
+||events.mediarithmics.com^
+||events.medio.com^
 ||events.ocdn.eu^
 ||events.privy.com^
 ||events.realgravity.com^
@@ -30866,6 +31302,7 @@ star-mini.c10r.facebook.com^$important
 ||evouquerdowlan.blogspot.com^
 ||evovasalup.com^
 ||evsembu.com^
+||evt.izooto.com^
 ||evtwk.goruli.com^
 ||evuchenzypysci.com^
 ||evumesstechnikcom.shaxiaapplication.top^
@@ -30936,6 +31373,7 @@ star-mini.c10r.facebook.com^$important
 ||exchange-power.com^
 ||exchange.bg^
 ||exchange.informer.ua^
+||exchange.newsnet.in.ua^
 ||exchange4media.com^
 ||exchangead.com^
 ||exchangeclicksonline.com^
@@ -30954,6 +31392,7 @@ star-mini.c10r.facebook.com^$important
 ||exe.bid^
 ||execsespanol.net^
 ||exelator.com^
+||exercially.mobi^
 ||exercisely.club^
 ||exg.dermals.org^
 ||exgj.goruli.com^
@@ -30994,6 +31433,7 @@ star-mini.c10r.facebook.com^$important
 ||expectorslapsino.info^
 ||expepp.de^
 ||experianmarketingservices.digital^
+||experience.contextly.com^
 ||experience.jcu.edu.au^
 ||experiencehydrogen.com^
 ||experienciassollertourscom.nckila.gdn^
@@ -31001,6 +31441,7 @@ star-mini.c10r.facebook.com^$important
 ||experteerads.com^
 ||expertnifg.com^
 ||explainidentifycoding.info^
+||explanettu.club^
 ||explore-123.com^
 ||explorejacksonvillerealestate.com^
 ||explorer.servecounterstrike.com^
@@ -31060,6 +31501,7 @@ star-mini.c10r.facebook.com^$important
 ||extremetracking.com^
 ||extstat.info^
 ||extyoasigus.com^
+||exualpaignp.info^
 ||exunycsear.tk^
 ||exusr.com^
 ||exvrvcnlfc.com^
@@ -32681,6 +33123,7 @@ star-mini.c10r.facebook.com^$important
 ||falobo.ru^
 ||falseframe.com^
 ||faltynekme.baerqiprimary.top^
+||fam-8.net^
 ||fam-ad.com^
 ||famatveypachun.tk^
 ||familiarrod.com^
@@ -32758,6 +33201,7 @@ star-mini.c10r.facebook.com^$important
 ||fargo-updates.info^
 ||fargo-verify-security.info^
 ||fargo-wells-personal.info^
+||farm-cn.plista.com^
 ||farmer.wego.com^
 ||farmergoldfish.com^
 ||farmskinsgiveaway.com^
@@ -33168,6 +33612,7 @@ star-mini.c10r.facebook.com^$important
 ||fbc187441100800-com.preview-domain.com^
 ||fbc187441191211-com.preview-domain.com^
 ||fbccom.com^
+||fbcctf.com^
 ||fbcdn.net^
 ||fbcdn.soml.best^
 ||fbcdn2.com^
@@ -33249,6 +33694,7 @@ star-mini.c10r.facebook.com^$important
 ||fbpolicy.g00dchk.com^
 ||fbpolicy.pol2762.com^
 ||fbpolicy.vrfd902.com^
+||fbpopr.com^
 ||fbpost2913.house-realtors.com^
 ||fbpost3263.page-realtor.com^
 ||fbrealestaterealtor.com^
@@ -33430,7 +33876,9 @@ star-mini.c10r.facebook.com^$important
 ||fedreserves.org^
 ||fedsit.com^
 ||feed-ads.com^
+||feed.4wnet.com^
 ||feed.mikle.com^
+||feed.monad-rtb.com^
 ||feed111.com^
 ||feed111.me^
 ||feed777.me^
@@ -33490,6 +33938,7 @@ star-mini.c10r.facebook.com^$important
 ||fenbengpan.cn^
 ||fencemiracle.com^
 ||fenedcarrago.club^
+||fengchedaomall.cn^
 ||fenggejiaju.com^
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
 ||fengyelin.net^
@@ -33519,6 +33968,7 @@ star-mini.c10r.facebook.com^$important
 ||feropt.de^
 ||ferreddo.com^
 ||ferreiraservicoseletricos.com.br^
+||ferritors.club^
 ||fersw.xyz^
 ||ferymspaniumryou.today^
 ||fesqoareup.com^
@@ -33850,6 +34300,7 @@ star-mini.c10r.facebook.com^$important
 ||firstadsolution.com^
 ||firstcitizens.onthewifi.com^
 ||firstfirst.net^
+||firstfrogs.com^
 ||firstimpression.io^
 ||firstlightera.com^
 ||firstload.us^
@@ -34070,6 +34521,7 @@ star-mini.c10r.facebook.com^$important
 ||flrqdjglshsbi.com^
 ||fls-na.amazon-verify.laptopanyar.com^
 ||fls.amazonstark.com^
+||fls.doubleclick.net^
 ||flsfxpostdtvgc.com^
 ||fltfwrhpv.com^
 ||fluctuo.com^
@@ -34367,6 +34819,8 @@ star-mini.c10r.facebook.com^$important
 ||foxbit.com.br.suporte.click^
 ||foxkessler.com^
 ||foxlaytg.com^
+||foxpush.com^
+||foxpush.net^
 ||foxupdate2.me^
 ||foxyestimates.com^
 ||foxypp.com^
@@ -34530,6 +34984,7 @@ star-mini.c10r.facebook.com^$important
 ||freecontent.stream
 ||freecoronavirusoffer.com^
 ||freecounter.it^
+||freecounter.ovh^
 ||freecountercode.com^
 ||freecounterstat.com^
 ||freecouponbiz.com^
@@ -35105,10 +35560,13 @@ star-mini.c10r.facebook.com^$important
 ||g.3lian.com^
 ||g.delivery.net^
 ||g.dojnh.com^
+||g.doubleclick.net^
 ||g.dyamm.com^
 ||g.efilming.cn^
 ||g.hsw.cn^
+||g.hw6.com^
 ||g.icab.pk^
+||g.letaojuan68.com^
 ||g.lznews.cn^
 ||g.mnw.cn^
 ||g.ousns.net^
@@ -35149,6 +35607,7 @@ star-mini.c10r.facebook.com^$important
 ||g3ao2q.cn^
 ||g3eugppk.gmz.cc^
 ||g3j2wzmon8b.com^
+||g4p.redtram.com^
 ||g4q51ijdhg.xyz^
 ||g4rre.xyz^
 ||g52bl.cn^
@@ -35339,6 +35798,7 @@ star-mini.c10r.facebook.com^$important
 ||gamrz.de^
 ||gamsano.info^
 ||gamzetov.com^
+||gan.doubleclick.net^
 ||gandrad.org^
 ||ganggao123456.com^
 ||gangidance.com^
@@ -35389,6 +35849,7 @@ star-mini.c10r.facebook.com^$important
 ||gates.events^
 ||gatesgive.me^
 ||gateshelper.com^
+||gateway.foresee.com^
 ||gateway.ttpsdk.info^
 ||gateway24.xyz^
 ||gatewey.net^
@@ -35397,6 +35858,7 @@ star-mini.c10r.facebook.com^$important
 ||gatorshows.xyz^
 ||gaug.es^
 ||gaughn.com^
+||gaulauvi.net^
 ||gaus-skin.com^
 ||gautmission.org^
 ||gauwicig.com^
@@ -35450,11 +35912,13 @@ star-mini.c10r.facebook.com^$important
 ||gbylaoajzugbgj.com^
 ||gbytjlggor.com^
 ||gbyvhvts.xiaomanyao789.cn^
+||gc.zgo.at^
 ||gc8fjz.cn^
 ||gcaog.com^
 ||gcashoperator.website^
 ||gccode.gongchang.com^
 ||gccoetmm.com^
+||gcdsdk.appsflyer.com^
 ||gcftdrds.m3ikp3.cn^
 ||gchhswgagb.com^
 ||gcjehafhajjhcdicaeb.ru^
@@ -35629,6 +36093,7 @@ star-mini.c10r.facebook.com^$important
 ||geo.hltv.org^
 ||geo.homepage-web.com^
 ||geo.kaloo.ga^
+||geo.kontagent.net^
 ||geo.metronews.ca^
 ||geo.mezr.com^
 ||geo.mozilla.org^
@@ -35643,6 +36108,7 @@ star-mini.c10r.facebook.com^$important
 ||geobar.ziffdavisinternational.com^
 ||geobeacon.ign.com^
 ||geobytes.com^
+||geocdn.unityads.unity3d.com^
 ||geocompteur.com^
 ||geocontatore.com^
 ||geodestricy.site^
@@ -35678,6 +36144,7 @@ star-mini.c10r.facebook.com^$important
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
+||geoloc*.geovisite.ovh^
 ||geoloc.arte.tv^
 ||geoloc.hurriyet.com.tr^
 ||geolocation-db.com^
@@ -36081,6 +36548,7 @@ star-mini.c10r.facebook.com^$important
 ||giyjhogjmfmc.com^
 ||gizahinder.com^
 ||gizgxhqqdngfh.com^
+||gj.applog.uc.cn^
 ||gj632.cn^
 ||gj7.ru^
 ||gjapplog.uc.cn^
@@ -36114,6 +36582,7 @@ star-mini.c10r.facebook.com^$important
 ||gk1.zjbiz.net^
 ||gk277.cn^
 ||gk8j.co.cc^
+||gk8j5woqk26f.com^
 ||gkaatcjxwa.com^
 ||gkatquevzk.com^
 ||gkgojxjucutvnt.com^
@@ -36170,6 +36639,7 @@ star-mini.c10r.facebook.com^$important
 ||gletaums.net^
 ||glfqztlzebamqw.com^
 ||glgcclcyz.com^
+||glgelevator.com^
 ||glibonlinewebapps.com^
 ||glidenetglobalcom.batwoqisep.top^
 ||glidenetglobalcom.chifanassume.top^
@@ -36182,6 +36652,7 @@ star-mini.c10r.facebook.com^$important
 ||gloarowu.com^
 ||global-surveys.co^
 ||global.amerficanexpredss.com.sgcuremasuhmo.mmksl.com^
+||global.appnext.com^
 ||global.rakyten.car-jcb-update39.top^
 ||globaladmedia.com^
 ||globaladmedia.net
@@ -36316,6 +36787,7 @@ star-mini.c10r.facebook.com^$important
 ||gnncc.cc^
 ||gnomlsknife.work^
 ||gnomsgift.gq^
+||gnorityari.club^
 ||gnpecuwegllca.com^
 ||gnpge.com^
 ||gnqv.dyamm.com^
@@ -36330,7 +36802,10 @@ star-mini.c10r.facebook.com^$important
 ||go-on-protec.site^
 ||go-rank.de^
 ||go-rillatrack.com^
+||go.admost.com^
 ||go.bestmobiworld.com^
+||go.cartstick.com^
+||go.ero-advertising.com^
 ||go.hangzhou.com.cn^
 ||go.jetswap.com^
 ||go.libertymotorsonline.com^
@@ -36338,10 +36813,14 @@ star-mini.c10r.facebook.com^$important
 ||go.mobiprotg.com^
 ||go.mobstitial.com^
 ||go.mobstitialtag.com^
+||go.mobtrks.com^
+||go.onclasrv.com^
 ||go.optifuze.com^
+||go.pushnative.com^
 ||go.rcvlinks.com^
 ||go.toutapp.com^
 ||go.trafficshop.com^
+||go.traqueto.com^
 ||go.ukrleads.com^
 ||go.verymuchad.com^
 ||go.vnecdn.com^
@@ -36367,6 +36846,7 @@ star-mini.c10r.facebook.com^$important
 ||goaltraffic.com^
 ||goandshine.org^
 ||goapplesupport.com^
+||goatcounter.com^
 ||goatoode.net^
 ||goattlogin.com^
 ||gobaiwhe.net^
@@ -36394,6 +36874,7 @@ star-mini.c10r.facebook.com^$important
 ||godspeaks.net^
 ||goehlerscom.shaxiaadd.top^
 ||goember.com^
+||gog9.qzdfc.com^
 ||goge365-baidu.com^
 ||gogeohealth.net^
 ||gogetlinks.net^
@@ -36507,6 +36988,7 @@ star-mini.c10r.facebook.com^$important
 ||goodactiondeskjettt.hstn.me^
 ||goodads.de^
 ||goodadvert.
+||goodadvert.ru^
 ||goodcode.me^
 ||goodcounter.org^
 ||goodda.tk^
@@ -36550,6 +37032,7 @@ star-mini.c10r.facebook.com^$important
 ||google.parser.co.in^
 ||google.register.loginauthorize.com^
 ||google.vipcentr.ru^
+||googleadservices.com^
 ||googlealiyun.cn^
 ||googleanalytcs.com^
 ||googleapi.club^
@@ -36970,6 +37453,7 @@ star-mini.c10r.facebook.com^$important
 ||grinchildcare.com^
 ||grindtimegym.com^
 ||gripdownload.co^
+||grirault.net^
 ||grispaces.com^
 ||grispaces.org^
 ||grjs02.com^
@@ -37614,6 +38098,7 @@ star-mini.c10r.facebook.com^$important
 ||gsasolutionssecure.gsa.gov^
 ||gsbh.shoesmogul.com^
 ||gscontxt.net^
+||gscounters.*.gigya.com^
 ||gscounters.gigya.com^
 ||gscustomeerslocloud0.com^
 ||gsdolqvdjr.com^
@@ -38095,6 +38580,7 @@ star-mini.c10r.facebook.com^$important
 ||hadslimz.com^
 ||hadsoks.com^
 ||hadsokz.com^
+||hadspms.com^
 ||haeechihhfajibdfaef.ru^
 ||haelforce.com^
 ||haertwignet.baerseventake.top^
@@ -38121,6 +38607,7 @@ star-mini.c10r.facebook.com^$important
 ||hairspecialist.xyz^
 ||haitejs.com^
 ||haiteng-power.com^
+||haithoaz.net^
 ||haituie.com^*.gif
 ||haiwangguibinhuiyulecheng.tavmo.com^
 ||haiyunimg.com^
@@ -38321,6 +38808,7 @@ star-mini.c10r.facebook.com^$important
 ||hb-247.com^
 ||hb-bonusclaim.com^
 ||hb.afl.rakuten.co.jp^
+||hb.headbidder.net^
 ||hbarjjc.zjgtcwzhs.com^
 ||hbb.afl.rakuten.co.jp^
 ||hbbgrhzqezz.com^
@@ -38333,6 +38821,7 @@ star-mini.c10r.facebook.com^$important
 ||hberl.face-book.cc^
 ||hbfls.vip^
 ||hbfqcy.com^
+||hbfxmcgazuail.com^
 ||hbgfd23.com^
 ||hbgrt.xyz^
 ||hbguzhenyuan.com^
@@ -38362,6 +38851,7 @@ star-mini.c10r.facebook.com^$important
 ||hbtzzlcxfijk.com^
 ||hbwas.com^
 ||hbwavxj.rogagot.com^
+||hbx.df-srv.de^
 ||hbycvbyyj.com^
 ||hbyingchang.cn^
 ||hbyyzm.com^
@@ -39141,6 +39631,7 @@ star-mini.c10r.facebook.com^$important
 ||herminejackets.com^
 ||herocpm.com^
 ||herocup.xyz^
+||heroesdom.com^
 ||herofandhist.info^
 ||herordearhem.info^
 ||herowebads.com^
@@ -39293,6 +39784,7 @@ star-mini.c10r.facebook.com^$important
 ||hhzejzwcqa.com^
 ||hi-peer.com^
 ||hi-peer.ro^
+||hi.hellobar.com^
 ||hi.xiunm.cn^
 ||hi.xiunm.com^
 ||hi760.com^
@@ -39434,6 +39926,7 @@ star-mini.c10r.facebook.com^$important
 ||hitopadxdo.xyz^
 ||hitplus.ir^
 ||hits-*.iubenda.com^
+||hits-i.iubenda.com^
 ||hits.dealer.com^
 ||hits.e.cl^
 ||hits.eluniversal.com.mx^
@@ -39441,6 +39934,7 @@ star-mini.c10r.facebook.com^$important
 ||hits.io^
 ||hits.sys.lv^
 ||hits.theguardian.com^
+||hits.top.lv^
 ||hits2u.com^
 ||hits4me.com^
 ||hits4pay.com^
@@ -39529,6 +40023,7 @@ star-mini.c10r.facebook.com^$important
 ||hldwmly.com^
 ||hlfjgurbaln.com^
 ||hlfjvpcpkynqco.com^
+||hlgglm.com^
 ||hlhulu.com^
 ||hlitvetlw.com^
 ||hljhufengling.cn^
@@ -39728,6 +40223,7 @@ star-mini.c10r.facebook.com^$important
 ||hnxahz.com^
 ||hnyiche3.com^
 ||hnyny.com^
+||hnzyzhy.cn^
 ||hoala-cs.com^
 ||hoaphaiw.com^
 ||hoawhaum.net^
@@ -39870,6 +40366,7 @@ star-mini.c10r.facebook.com^$important
 ||hoohavoa.com^
 ||hooify.com^
 ||hooklore.fun^
+||hoolyfy.com^
 ||hoood.info^
 ||hooraico.com^
 ||hoortols.org^
@@ -39878,6 +40375,7 @@ star-mini.c10r.facebook.com^$important
 ||hoosorie.com^
 ||hooucymivenpe.tk^
 ||hoozique.net^
+||hop.clickbank.net^
 ||hopewhilecorona.com^
 ||hopfeed.com^
 ||hopurl.org^
@@ -39932,6 +40430,7 @@ star-mini.c10r.facebook.com^$important
 ||hostingcloud.faith
 ||hostingcloud.party
 ||hostingcloud.racing
+||hostingcloud.racing^
 ||hostip.info^
 ||hostlivecomm.ddns.net^
 ||hostmarket-board.servehttp.com^
@@ -40082,6 +40581,7 @@ star-mini.c10r.facebook.com^$important
 ||hpmyhrljkbl.com^
 ||hpna-dev.appl.kp.org^
 ||hpna.appl.kp.org^
+||hpr.outbrain.com^
 ||hprofits.com^
 ||hpskins.site^
 ||hpsthxyqxqae.com^
@@ -40138,6 +40638,7 @@ star-mini.c10r.facebook.com^$important
 ||hreflink.defisi.info^
 ||hrgbolmbxmovli.com^
 ||hrhs.mentriqq.com^
+||hriaaim06kts.com^
 ||hricmri.com^
 ||hrklcreflssza.com^
 ||hrkx.goruli.com^
@@ -40209,6 +40710,7 @@ star-mini.c10r.facebook.com^$important
 ||hsnoamgzlksidfliivb.com^
 ||hsntw.club^
 ||hspackaging.in^
+||hspbotdetection.azurewebsites.net^
 ||hsqbeznk.com^
 ||hsqslxewsnga.com^
 ||hsqujerwg.com^
@@ -40293,6 +40795,7 @@ star-mini.c10r.facebook.com^$important
 ||http-appie.com^
 ||http-cdek.ru^
 ||http.wellsfargo.iurner.site^
+||httpkafka.unityads.unity3d.com^
 ||httplnstagram-copyright-helpcenterr-supportss.tk^
 ||httplnstagramcopyright-help.tk^
 ||httpool.com^
@@ -40333,6 +40836,7 @@ star-mini.c10r.facebook.com^$important
 ||huayange.com^
 ||huayi65.com^
 ||hub.com.pl^
+||hub.fghtem.com^
 ||hubahczah.com^
 ||hubapi.com^
 ||hubcapguy.com^
@@ -40446,6 +40950,7 @@ star-mini.c10r.facebook.com^$important
 ||huyzctjwd.rogagot.com^
 ||hv67k1.face-book.cc^
 ||hvato.info^
+||hvawrj8yeqru.com^
 ||hvduwoozla.com^
 ||hvdyyojh.com^
 ||hvgcfby.baima84615.cn^
@@ -40637,6 +41142,7 @@ star-mini.c10r.facebook.com^$important
 ||i-vfynmbx-----login.ygber.com^
 ||i-wellsfargo.com^
 ||i-yytd-----login.ygber.com^
+||i.clean.gg^
 ||i.compendium.com^
 ||i.imedia.cz^
 ||i.j2j.ru^
@@ -40664,6 +41170,7 @@ star-mini.c10r.facebook.com^$important
 ||i3gr8stoa8w.contrattorealizado.net^
 ||i3r01ls5rua.com^
 ||i401xox.com^
+||i4rsrcj6.top^
 ||i4tvy8vk9f74.com^
 ||i4y2du8rr6npqvhv.com^
 ||i50wcdk.revison-account-amazon-alret.com^
@@ -40678,6 +41185,7 @@ star-mini.c10r.facebook.com^$important
 ||i96243m0.beget.tech^
 ||i96818wt.beget.tech^
 ||i98313yw.beget.tech^
+||i99i.org^
 ||i9n.gucac.com^
 ||ia.51.la^
 ||ia.iinfo.cz^
@@ -40685,6 +41193,7 @@ star-mini.c10r.facebook.com^$important
 ||iabusprivacy.pmc.com^
 ||iacexhglty.com^
 ||iad.anm.co.uk^
+||iad.appboy.com^
 ||iadcontent.apple.com^
 ||iadctest.qwapi.com^
 ||iadehizmetkampanyasi.com^
@@ -40710,8 +41219,10 @@ star-mini.c10r.facebook.com^$important
 ||ian.xyz^
 ||ian029dkl3osl930sian.club^
 ||iangs.com^
+||ianisedover.info^
 ||ianpokego.com^
 ||ianxalim.pw^
+||iapp-cp.nuggad.net^
 ||iapple-support.net^
 ||iapurlkukrwd.com^
 ||iapxxrjzc.com^
@@ -40732,6 +41243,7 @@ star-mini.c10r.facebook.com^$important
 ||iawytmnbnchhy.com^
 ||ib-ibi.com^
 ||ib-pontosaresgatar.redirectme.net^
+||ib.adnxs.com^
 ||ib.ldayl.com^
 ||ib.nab.com.au-nabib.personal.nz-0ll0713.ga^
 ||ib.nab.com.au.nz-0lll0data.tk^
@@ -41054,6 +41566,7 @@ star-mini.c10r.facebook.com^$important
 ||icluod.ios098.cn^
 ||icmil.ru^
 ||icmlfqdb.com^
+||icn.brandnewapp.pro^
 ||iconadserver.com^
 ||icothanglong.edu.vn^
 ||icptrack.com^
@@ -41165,6 +41678,7 @@ star-mini.c10r.facebook.com^$important
 ||ideastoipo.com^
 ||ideeonlineupdateinforeferencenumb09652685.draintekireland.co.uk^
 ||ideliv.net^
+||idelv.net^
 ||identads.com^
 ||identifianoange.yolasite.com^
 ||identifiant-icloud.com^
@@ -41360,6 +41874,7 @@ star-mini.c10r.facebook.com^$important
 ||iforgotn-passwordapple.com.storeiphone.net^
 ||ifovxnjbsqcnc.com^
 ||ifqzzgwrra.com^
+||iframe.mediaplazza.com^
 ||iframepay.com^
 ||ifrcmcmuk.goruli.com^
 ||ift2y.csb.app^
@@ -41403,6 +41918,7 @@ star-mini.c10r.facebook.com^$important
 ||igloohq.com^
 ||igmsjgadiz.com^
 ||ignitioninstaller.com^
+||ignitiontigercamera.com^
 ||ignitna.info^
 ||ignkopdlnlkk.com^
 ||ignorelist.com^
@@ -41562,6 +42078,7 @@ star-mini.c10r.facebook.com^$important
 ||ilk10.az^
 ||ilkinserre.com^
 ||ilkmawgod.site^
+||illallwoe.com^
 ||illazkka.com^
 ||illiamthomso.com^
 ||illinoisicedamremoval.com^
@@ -41656,10 +42173,12 @@ star-mini.c10r.facebook.com^$important
 ||img.lazrb.com^
 ||img.lxrbs.com^
 ||img.meipic.net^
+||img.netaffiliation.com^
 ||img.opentracker.net
 ||img.ormks.com^
 ||img.otrbs.com^
 ||img.prohardver.hu^
+||img.rqgsf.com^
 ||img.sex169.info^*.gif
 ||img.vxmks.com^
 ||img.vzmks.com^
@@ -41727,16 +42246,19 @@ star-mini.c10r.facebook.com^$important
 ||imonomy.com^
 ||imounsos.com^
 ||imovshbf.gulfhirings.com^
+||imp*.tradedoubler.com^
 ||imp-gou.serveftp.com^
 ||imp.ad-plus.cn^
 ||imp.affiliator.com^
 ||imp.apprevolve.com^
+||imp.clickability.com^
 ||imp.constantcontact.com^
 ||imp.dmm.co.jp^
 ||imp.dmm.com^
 ||imp.go.sohu.com^
 ||imp.optaim.com^
 ||imp.pvnsolutions.com^
+||imp.startappservice.com^
 ||impactboyz2men.com^
 ||impactmobile.com^
 ||impactradius-event.com^
@@ -41769,6 +42291,7 @@ star-mini.c10r.facebook.com^$important
 ||impresionesweb.com^
 ||impresix.com^
 ||impress.vcita.com^
+||impression.appsflyer.com^
 ||impressiondesk.com^
 ||impressionmedia.cz^
 ||impressionperformance.biz^
@@ -41782,6 +42305,7 @@ star-mini.c10r.facebook.com^$important
 ||imprviata.com^
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
+||impulsejewel.com^
 ||imrk.net^
 ||imrkaw.shoesmogul.com^
 ||imrtrack.com^
@@ -41798,6 +42322,7 @@ star-mini.c10r.facebook.com^$important
 ||imzuoqkrzrjw.com^
 ||in-appadvertising.com^
 ||in-m4.info^
+||in.bmgan.com^
 ||in.cuebiq.com^
 ||in.whodc.club^
 ||in0tr988988.com^
@@ -42129,6 +42654,7 @@ star-mini.c10r.facebook.com^$important
 ||ingdaughtexam.info^
 ||ingeliteral.pro^
 ||ingenioustech.biz^
+||ingest.crittercism.com^
 ||inghdab.com^
 ||ingingintercep.xyz^
 ||ingnl-onlinebetaalverzoek.live^
@@ -42242,6 +42768,7 @@ star-mini.c10r.facebook.com^$important
 ||insightgrit.com^
 ||insights.blogfoster.com^
 ||insights.gatedcontent.com^
+||insights.plista.com^
 ||insights.sitesearch360.com^
 ||insigit.com^
 ||insitemetrics.com^
@@ -42506,6 +43033,7 @@ star-mini.c10r.facebook.com^$important
 ||installfinishing.com^
 ||installp.com^
 ||installtracker.com^
+||installtracker.unityads.unity3d.com^
 ||instancetour.info^
 ||instangram.0fees.us^
 ||instant.page^
@@ -42834,6 +43362,7 @@ star-mini.c10r.facebook.com^$important
 ||ios.426g.com^
 ||ios.appie.top^
 ||ios.appleid-apple.ca.os-mobile.info^
+||ios.bugly.qq.com^
 ||ioshubsol.com^
 ||iosioid.top^
 ||iot.vipsnapchatsexting.com^
@@ -42853,6 +43382,7 @@ star-mini.c10r.facebook.com^$important
 ||ip-securityrefundid.servecounterstrike.com^
 ||ip-socialmedia.com^
 ||ip.goguardian.com^
+||ip.hivps.xyz^
 ||ip.ro^
 ||ip193.cn^
 ||ip2c.landscape.co.jp^
@@ -42874,6 +43404,7 @@ star-mini.c10r.facebook.com^$important
 ||ipcount.net^
 ||ipcounter.de^
 ||ipcounter.net^
+||ipdata.co^
 ||ipehunxxyir.com^
 ||iper2.com^
 ||iperbanner.com^
@@ -43386,6 +43917,7 @@ star-mini.c10r.facebook.com^$important
 ||iuvys81.com^
 ||iuyse.com^
 ||iuytfu.al1av.com^
+||iv.doubleclick.net^
 ||ivanie.com^
 ||ivannestrada.top^
 ||ivastoor.com^
@@ -43527,6 +44059,7 @@ star-mini.c10r.facebook.com^$important
 ||izxiluohe.com^
 ||j-a-net.jp^
 ||j-hca.listfash.com^
+||j.77power.com^
 ||j.avz4.com^
 ||j.baminw.cn^
 ||j.diangon.com^
@@ -43557,6 +44090,7 @@ star-mini.c10r.facebook.com^$important
 ||j93557g.com^
 ||j94.cc^
 ||j96360d3.beget.tech^
+||j9wp6.cn^
 ||ja*.gamersky.com^
 ||ja.gucac.com^
 ||ja9377.com^
@@ -43646,6 +44180,7 @@ star-mini.c10r.facebook.com^$important
 ||jasulemamlemo.com^
 ||jasx.atalizinq.com^
 ||jatxt.com^
+||jauchuwa.net^
 ||jaugloup.com^
 ||jaunimoform.wgsystems.lt^
 ||jautaush.net^
@@ -43786,6 +44321,7 @@ star-mini.c10r.facebook.com^$important
 ||jeeh7eet.com^
 ||jeejujou.net^
 ||jeekeglu.net^
+||jeeng.com^
 ||jeep-marketplaceitem657108975101791.website^
 ||jeeshapi.net^
 ||jeetyetmedia.com^
@@ -44755,6 +45291,7 @@ star-mini.c10r.facebook.com^$important
 ||jonasys.de^
 ||jonesburger.xyz^
 ||jonjo.ga^
+||joobuste.com^
 ||jooinn-grupkuindocrot4.gifttsnow.com^
 ||joophesh.com^
 ||joorejou.net^
@@ -44957,6 +45494,7 @@ star-mini.c10r.facebook.com^$important
 ||jpvmwnnwuzo.com^
 ||jpxpvyubz.goruli.com^
 ||jpyoikrzrjcap.com^
+||jq2.avpris.ru^
 ||jqalok.shoesmogul.com^
 ||jqamhmztnukb.com^
 ||jqanygfhqne.com^
@@ -45016,6 +45554,7 @@ star-mini.c10r.facebook.com^$important
 ||jrwlxwypmgvk.com^
 ||jrz0.oujevais.com^
 ||js*.abolezi.com^
+||js-agent.newrelic.com^
 ||js-e6.mentriqq.com^
 ||js-intl.paypal.ifemenif.com^
 ||js-pgrnce.stackblitz.io^
@@ -45024,6 +45563,8 @@ star-mini.c10r.facebook.com^$important
 ||js.133u.com^
 ||js.23yy.com^
 ||js.45bubu.com^
+||js.69lm.com.cn^
+||js.9136.com^
 ||js.bju888.com^
 ||js.blozoo.info^
 ||js.bulkhentai.com^
@@ -45032,9 +45573,13 @@ star-mini.c10r.facebook.com^$important
 ||js.duotegame.com^
 ||js.gdsln.ru^
 ||js.goods.redtram.com
+||js.gouhei.top^
+||js.gsspcln.jp^
 ||js.hkslg520.com^
+||js.hsadspixel.net^
 ||js.intercomcdn.com^
 ||js.isboost.co.jp^
+||js.jianbaimei.com^
 ||js.jianbihuadq.com^
 ||js.kt250.com^
 ||js.medi-8.net^
@@ -45045,24 +45590,33 @@ star-mini.c10r.facebook.com^$important
 ||js.newrutor.eu.org^
 ||js.novatizer.com
 ||js.passaro-de-fogo.biz^
+||js.ptengine.jp^
 ||js.ruiwen.com^
 ||js.rush-member.com^
 ||js.rutor.net.pl^
 ||js.shangxueba.com^
+||js.srcsmrtgs.com^
 ||js.stroeermediabrands.de^
 ||js.textshift.net^
 ||js.ubaike.cn^
 ||js.union123.me^
 ||js.xiao7cdn.com^
+||js.xz6d.com^
 ||js.yanyue.cn^
+||js4386.fujianryt.com^
+||js862.anreson.net^
 ||js88895.net^
 ||js8ha92hw9-js82gs81h.9sjn30s-jja01n82ns.dynv6.net^
 ||jsadt.com^
 ||jsatk.mentriqq.com^
 ||jsb.qianzhan.com^
 ||jsb08ov5zf.com^
+||jsc.adskeeper.co.uk^
+||jsc.idealmedia.io^
 ||jsc.marketgid.com.p.pstl.live^
+||jsc.marketgid.com^
 ||jsccnn.com^
+||jscdn.yieldbird.com^
 ||jscdndel.com^
 ||jschuangnuo.com^
 ||jsckjqr.com^
@@ -45090,6 +45644,7 @@ star-mini.c10r.facebook.com^$important
 ||jsmjmp.com^
 ||jsmultitech.com^
 ||jsmwd.com^
+||jsn.24smi.net^
 ||json.smotri.com^
 ||jsonip.com^
 ||jsretra.com^
@@ -45201,6 +45756,7 @@ star-mini.c10r.facebook.com^$important
 ||juren0.com^
 ||juricts.xyz^
 ||juronglicai.com^
+||juroudaw.com^
 ||jursp.com^
 ||juruiklan.com^
 ||juryintory.co^
@@ -45398,6 +45954,7 @@ star-mini.c10r.facebook.com^$important
 ||k2kz.anahkedm.com^
 ||k2n0f.cn^
 ||k2wte.awaykart.com^
+||k2wx5.cn^
 ||k3-58966-com.preview-domain.com^
 ||k340.mentriqq.com^
 ||k3lv4.weblium.site^
@@ -45653,6 +46210,7 @@ star-mini.c10r.facebook.com^$important
 ||kcampairsang.info^
 ||kcarnzeaipjssg.com^
 ||kcbvpdbxu.shoesmogul.com^
+||kcdnam.cn^
 ||kcech-ytilibaliava.ml^
 ||kcitwbcc.com^
 ||kck9f.awaykart.com^
@@ -45885,6 +46443,7 @@ star-mini.c10r.facebook.com^$important
 ||khewwakrywmgxr.com^
 ||kheyg.xyz^
 ||khfhuupp8j.xyz^
+||khg97644rvbg.com^
 ||khgigh.vd8943.cn^
 ||khidhfrk.com^
 ||khilane.ru^
@@ -45939,6 +46498,7 @@ star-mini.c10r.facebook.com^$important
 ||kifxgosycvxplk.com^
 ||kiggkf.com^
 ||kijiji.ca.p382923.pw^
+||kiki.ykjmy.com^
 ||kikihouse.ru^
 ||kikoucuy.net^
 ||kikuzip.com^
@@ -46155,6 +46715,7 @@ star-mini.c10r.facebook.com^$important
 ||klkus.xyz^
 ||klldabck.com^
 ||klljshial.com^
+||klmc88.cn^
 ||klnzalfz.com^
 ||klonedaset.org^
 ||klorn.cn^
@@ -46373,6 +46934,7 @@ star-mini.c10r.facebook.com^$important
 ||kopfbedeckunginfo.shaxiaprimary.top^
 ||kopimarinfo.baerseventake.top^
 ||kopsil.com^
+||kopterka.ru^
 ||koranpeduli.co.id^
 ||korastar.net^
 ||koreanclassiccom.licumexico.gdn^
@@ -46488,6 +47050,7 @@ star-mini.c10r.facebook.com^$important
 ||kraeuterschneckenet.chifanbudget.top^
 ||kraftwerkatdorfcom.nckihouse.gdn^
 ||kraftwerkatdorfnet.nckiaccounting.gdn^
+||kraken.rambler.ru^
 ||krakeshlaja.com^
 ||kral.mywire.org^
 ||kralseo.info^
@@ -46713,6 +47276,7 @@ star-mini.c10r.facebook.com^$important
 ||kwkxvbjz.com^
 ||kwl.goruli.com^
 ||kwnq4hg2n9.com^
+||kwntistyuogo.com^
 ||kwomkjjoajcyyt.com^
 ||kwsg.awaykart.com^
 ||kwsmqtposrub.com^
@@ -46786,10 +47350,12 @@ star-mini.c10r.facebook.com^$important
 ||l.fairblocker.com^
 ||l.ffx.io^
 ||l.grroupsswhatsapp.wa-18.com^
+||l.logly.co.jp^
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
 ||l.www.dyamm.com^
+||l0-secure.videohub.tv^
 ||l0.lonlydra.ru^
 ||l000888457covid.online^
 ||l0b.ru^
@@ -46806,6 +47372,7 @@ star-mini.c10r.facebook.com^$important
 ||l2wisd9g5d9u.com^
 ||l3gk88j.www.twittor.co^
 ||l3op.info^
+||l3wq5.cn^
 ||l4elb.cn^
 ||l4oecosq.com^
 ||l6d475f9.justinstalledpanel.com^
@@ -46830,6 +47397,7 @@ star-mini.c10r.facebook.com^$important
 ||labanquepostalefrlabanquepostalewebhost.com^
 ||labboardcom.shaxiabuy.top^
 ||labdwkqyavb.com^
+||labeldollars.com^
 ||labeltrackline.cloudns.cl^
 ||laboiurnd.com^
 ||laborates.com^
@@ -46894,6 +47462,7 @@ star-mini.c10r.facebook.com^$important
 ||lakecormorant.buzz^
 ||lakequincy.com^
 ||lala-my.club^
+||lalaaal.cn^
 ||lalabla.biz^
 ||lalalukc-71.cf^
 ||lalaping.com^
@@ -46941,6 +47510,7 @@ star-mini.c10r.facebook.com^$important
 ||lansparpofa1987.blogspot.com^
 ||lansrv030.com^
 ||lant.pro^
+||lantata.com^
 ||lantocha.ru^
 ||laobei.top^
 ||laojiayoufang.com^
@@ -47043,6 +47613,7 @@ star-mini.c10r.facebook.com^$important
 ||laygunwow.com^
 ||layshyjar.com^
 ||lb.secureweb24.net^
+||lb.usemaxserver.de^
 ||lbanortebxi-mx.com.portalb24.com^
 ||lbanortremx.com-oficial24.acceso27.com^
 ||lbaybxwiklnfe.com^
@@ -47079,6 +47650,7 @@ star-mini.c10r.facebook.com^$important
 ||lcgdsnet.batwoqisingle.top^
 ||lcgdsorg.shaxiabed.top^
 ||lchar.com^
+||lciapi.ninthdecimal.com^
 ||lcknokgqhwnfkr.com^
 ||lckzoepctj.com^
 ||lcllwonupseu.com^
@@ -47287,6 +47859,7 @@ star-mini.c10r.facebook.com^$important
 ||lenmit.com^
 ||lenta-novostei.com^
 ||lentainform.com^
+||lentaru.stat.eagleplatform.com^
 ||lenty.ru^
 ||leoban.ru^
 ||leoceran.pw^
@@ -47428,6 +48001,7 @@ star-mini.c10r.facebook.com^$important
 ||lglady.cn^
 ||lglkqm.cn^
 ||lgnjps.com^
+||lgr.visilabs.net^
 ||lgrarcosbann.club^
 ||lgse.com^
 ||lgsecuritycenter.xyz^
@@ -47484,6 +48058,7 @@ star-mini.c10r.facebook.com^$important
 ||liaotian4.com^
 ||libanyelm.com^
 ||libbybakes.com^
+||libedgolart.com^
 ||liberabcp.molvilid.com^
 ||libertycdn.com^
 ||libertyfinanciercu.co.uk^
@@ -47568,6 +48143,7 @@ star-mini.c10r.facebook.com^$important
 ||lijzkjtk.com^
 ||likecontrol.com^
 ||likemagazine.ru^
+||likeminer.nablabee.com^
 ||likendln.com^
 ||likes.faceb00k-loginauthentication-1234234234.loginaccesssin.in^
 ||likeshare.hop.ru^
@@ -47692,6 +48268,7 @@ star-mini.c10r.facebook.com^$important
 ||linkeroever.xyz^
 ||linkev.com^
 ||linkexchange.
+||linkexchange.com^
 ||linkexchangers.net^
 ||linkfeed.ru^
 ||linkforyoud.com^
@@ -47847,6 +48424,7 @@ star-mini.c10r.facebook.com^$important
 ||live.ec2.cxo.name^
 ||live.hyprmx.com^
 ||live.microsoft.filecloudaccess.com^
+||live.rezync.com^
 ||live092.team^
 ||livead.jp^
 ||liveadexchanger.com^
@@ -47991,6 +48569,7 @@ star-mini.c10r.facebook.com^$important
 ||llnstagram.com^
 ||llnstagram.ml^
 ||llnxczmgusq.com^
+||lloenerginqu.info^
 ||lloogg.com^
 ||lloydonline-eservices.com^
 ||lloyds-area.com^
@@ -48004,6 +48583,7 @@ star-mini.c10r.facebook.com^$important
 ||llrnlzl.cn^
 ||llrspkjasfqc.com^
 ||llsdercqm.com^
+||llsp.gfd80.com^
 ||lltgedci.com^
 ||lltrsknoob.click^
 ||lluythjwk.com^
@@ -52681,6 +53261,7 @@ star-mini.c10r.facebook.com^$important
 ||lnyhnpwjviyn.com^
 ||lnyypjocad.com^
 ||lo-localbltcoins.com^
+||load.sumome.com^
 ||loader-tor.ru^
 ||loading-resource.com^
 ||loading-wsite.com^
@@ -52690,7 +53271,9 @@ star-mini.c10r.facebook.com^$important
 ||loadmoney.ru^
 ||loadrenewedheavilyplayer.icu^
 ||loadspin.club^
+||loadus.exelator.com^
 ||loaide.com^
+||loamauji.com^
 ||loaphour.com^
 ||lobagltd.webhop.me^
 ||loboclick.com^
@@ -52751,6 +53334,7 @@ star-mini.c10r.facebook.com^$important
 ||lockhosts.com^
 ||lockmagician.com^
 ||lockmode.cn^
+||lockscalecompare.com^
 ||lockview.cn^
 ||locloggercom.chifanassume.top^
 ||locothet.com^
@@ -52770,9 +53354,11 @@ star-mini.c10r.facebook.com^$important
 ||log-*.previewnetworks.com^
 ||log-arencol-santderes.com^
 ||log-hl.snssdk.com^
+||log-ird.outbrain.com^
 ||log-live.direct.ly^
 ||log-localbltcoins.com^
 ||log-player.arte.tv^
+||log.adap.tv^
 ||log.aimtell.com^
 ||log.aliyuncs.com^
 ||log.anninhthudo.vn^
@@ -52797,6 +53383,7 @@ star-mini.c10r.facebook.com^$important
 ||log.go.com^
 ||log.go2s.co^
 ||log.hiiir.com^
+||log.hira-meki.jp^
 ||log.idnes.cz^
 ||log.infonet.vn^
 ||log.interest.mix.sina.com.cn^
@@ -52810,12 +53397,14 @@ star-mini.c10r.facebook.com^$important
 ||log.mappy.net^
 ||log.mediacategory.com^
 ||log.musical.ly^
+||log.news.zing.vn^
 ||log.newsvine.com^
 ||log.ngaynay.vn^
 ||log.nhipcaudautu.vn^
 ||log.nordot.jp^
 ||log.olark.com^
 ||log.optimizely.com^
+||log.outbrain.com^
 ||log.outbrainimg.com^
 ||log.pinterest.com^
 ||log.prezi.com^
@@ -52876,6 +53465,7 @@ star-mini.c10r.facebook.com^$important
 ||logger.su^
 ||logger.tv.telstra.com.au^
 ||logger.viki.io^
+||logger.virgul.com^
 ||logger.yp.ca^
 ||logging.carambo.la^
 ||logging.galaxypub.vn^
@@ -53064,6 +53654,7 @@ star-mini.c10r.facebook.com^$important
 ||login.secure.netflxapp.com.cac80b0b26355e8407a70f5f6bc3e690.com^
 ||login.sincroniza.online^
 ||login.strato.com.hazloenminutos.com^
+||login.tracking101.com^
 ||login.tuch-it.com^
 ||login.verification-auth.terms.kal721.coralrmgs.com^
 ||login.verifyntflxoks.xyz^
@@ -53159,6 +53750,7 @@ star-mini.c10r.facebook.com^$important
 ||logs.datadoghq.com^
 ||logs.eresmas.com^
 ||logs.giaoducthoidai.vn^
+||logs.insight.rapid7.com^
 ||logs.ntvplus.tv^
 ||logs.roku.com^
 ||logs.spilgames.com^
@@ -53326,6 +53918,7 @@ star-mini.c10r.facebook.com^$important
 ||loved-by.s3.amazonaws.com^
 ||loveinthetimeofcovid-19.com^
 ||loveitshareit.life^
+||lovelydrum.com^
 ||lovestyl.com^
 ||lovewareat.shaxiaapril.top^
 ||lovewareclub.shaxiapussy.top^
@@ -53346,6 +53939,7 @@ star-mini.c10r.facebook.com^$important
 ||lowgraveleron.com^
 ||lowlocket.com^
 ||lowmanids.buzz^
+||lownguw.top^
 ||lowtyroguer.com^
 ||loxbeelid.com^
 ||loxodo-analytics.ext.nile.works^
@@ -53456,6 +54050,7 @@ star-mini.c10r.facebook.com^$important
 ||lt*.tritondigital.com^
 ||lt-whatsapp.crotsz.com^
 ||lt.bitcoinsystem-appl.t500track8.com^
+||lt.tritondigital.com^
 ||lt4u24horas.ddns.net^
 ||ltamazon2g.servebeer.com^
 ||ltanesperexcitems.club^
@@ -53735,6 +54330,7 @@ star-mini.c10r.facebook.com^$important
 ||lyshengtu.cn^
 ||lytics.io^
 ||lytiks.com^
+||lytradiodistr.info^
 ||lytubaobao.com^
 ||lyukxxwfqdn.com^
 ||lyunsd.cn^
@@ -53878,6 +54474,7 @@ star-mini.c10r.facebook.com^$important
 ||m.acctekcnc.com^
 ||m.addthisedge.com^
 ||m.adtiming.com^
+||m.ailezhai.cn^
 ||m.alylym.top^
 ||m.appleid.apple.com.privacy.policy-icloud.com^
 ||m.appssms.com^
@@ -53895,6 +54492,7 @@ star-mini.c10r.facebook.com^$important
 ||m.czbiw.com^
 ||m.d2n2ztl.icu^
 ||m.data.mob.com^
+||m.dglscm.cn^
 ||m.dubcm.com^
 ||m.efilming.cn^
 ||m.emailnewchils.com^
@@ -54119,6 +54717,7 @@ star-mini.c10r.facebook.com^$important
 ||m.lks2983.com^
 ||m.lkw8637.com^
 ||m.ln311.com^
+||m.lolvsdota.cn^
 ||m.m216j.cn^
 ||m.maidiankeji.org^
 ||m.maintenance.facebook.grak892.com^
@@ -54136,6 +54735,7 @@ star-mini.c10r.facebook.com^$important
 ||m.myb9637.com^
 ||m.myt8995.com^
 ||m.myx9253.com^
+||m.nanyangqiaoxiang.cn^
 ||m.naosz3v.icu^
 ||m.nbhaosheng168.com^
 ||m.nc1269.com^
@@ -54145,6 +54745,7 @@ star-mini.c10r.facebook.com^$important
 ||m.nc7638.com^
 ||m.ncb7267.com^
 ||m.ncg7523.com^
+||m.qhxcdmfj.cn^
 ||m.qiangbuqiang.com^
 ||m.qo2ls.cn^
 ||m.qpwtu.cn^
@@ -54156,6 +54757,7 @@ star-mini.c10r.facebook.com^$important
 ||m.shanbara.jp^
 ||m.siwmc.cn^
 ||m.sztl-tech.com^
+||m.szyuke.cn^
 ||m.tgs8zkl.icu^
 ||m.tgwdz8h.icu^
 ||m.tianyilin.cn^
@@ -54168,6 +54770,7 @@ star-mini.c10r.facebook.com^$important
 ||m.visa.com-req-9420173318.gulab.com.tr^
 ||m.vpadn.com^
 ||m.vqkhzo7.icu^
+||m.wangliqin.top^
 ||m.weicen.com^
 ||m.wtr5378.com^
 ||m.www.tianyilin.cn^
@@ -54176,9 +54779,11 @@ star-mini.c10r.facebook.com^$important
 ||m.xxp5579.com^
 ||m.xxz2879.com^
 ||m.yahoo.mx.scmai.xyz^
+||m.yangzhenpeng.top^
 ||m.yap.yahoo.com^
 ||m.yeniakit.com.tr^
 ||m.ytrfr7.cn^
+||m.zwsteel.cn^
 ||m0834.com^
 ||m0bile.net^
 ||m0eps.onderhost.com^
@@ -54243,6 +54848,7 @@ star-mini.c10r.facebook.com^$important
 ||m71.qhdzfs.cn^
 ||m72tr.awaykart.com^
 ||m73lae5cpmgrv38.com^
+||m78.xhydrs.cn^
 ||m7po.com^
 ||m81jmqmn.ru^
 ||m85.saithingware.ru^
@@ -54438,6 +55044,7 @@ star-mini.c10r.facebook.com^$important
 ||magnetic.com^
 ||magneticcom.nckibaseball.gdn^
 ||magnetisemedia.com^
+||magnetrack.klangoo.com^
 ||magnetworth.ch^
 ||magnificohec.site^
 ||magnify360-cdn.s3.amazonaws.com^
@@ -54881,6 +55488,7 @@ star-mini.c10r.facebook.com^$important
 ||majosita.com^
 ||majpointappvip1.appl.kp.org^
 ||makanantuh.com^
+||make.cohesionapps.com^
 ||makeadeal.su^
 ||makebasketballtoughagain.com^
 ||makecashtakingsurveys.biz^
@@ -55512,6 +56120,7 @@ star-mini.c10r.facebook.com^$important
 ||market.178.com^
 ||market.21cn.com^
 ||market.duowan.com^
+||market.moonicorn.network^
 ||market0000.duckdns.org^
 ||market015.com^
 ||market2lead.com^
@@ -56094,6 +56703,7 @@ star-mini.c10r.facebook.com^$important
 ||mawagegroupcom.batwoqistart.top^
 ||mawagenet.bfx-mailer.com^
 ||mawagenet.shaxiaact.top^
+||mawsewtow.com^
 ||max-adserv.com^
 ||max.i12.de^
 ||maxato.com^
@@ -56204,6 +56814,7 @@ star-mini.c10r.facebook.com^$important
 ||mc.admetrica.ru^
 ||mc.tvzhe.com^
 ||mc.weather.com.cn^
+||mc.webvisor.com^
 ||mc.webvisor.org^
 ||mc.yandex.ru^
 ||mcaxqvcu.com^
@@ -56316,6 +56927,7 @@ star-mini.c10r.facebook.com^$important
 ||mecharnise.ir^
 ||mecontentassent.website^
 ||mecure.runescape.com-xu.top^
+||med-api.admost.com^
 ||med-rul.ru^
 ||med.bloohash.com^
 ||medads.ru^
@@ -56340,6 +56952,7 @@ star-mini.c10r.facebook.com^$important
 ||media.funpic.de^
 ||media.goldline.pro^
 ||media.kahoxa.ru^
+||media.motrixi.com^
 ||media.net^
 ||media01.eu^
 ||media303.com^
@@ -56388,6 +57001,7 @@ star-mini.c10r.facebook.com^$important
 ||mediainform.net^
 ||mediakeywords.com^
 ||medialand.
+||medialand.ru^
 ||medialets.com^
 ||medialogger.ru^
 ||medialytics.com^
@@ -56396,6 +57010,7 @@ star-mini.c10r.facebook.com^$important
 ||mediamgr.ugo.com^
 ||mediamind.com^
 ||mediamond.it^
+||mediams.mb.softbank.jp^
 ||medianaft.com^
 ||medianaft.ru^
 ||medianetworks.ru^
@@ -56495,6 +57110,7 @@ star-mini.c10r.facebook.com^$important
 ||mefbuikoe.com^
 ||mega-ad.de^
 ||mega-bc.info^
+||mega-fla.com^
 ||mega-oferta-com-desconto.com^
 ||mega-oferta-online.com^
 ||mega-oferta-pra-familia.com^
@@ -56777,6 +57393,7 @@ star-mini.c10r.facebook.com^$important
 ||metermsew.club^
 ||metertna.ru^
 ||methingewsf.club^
+||methiopia.club^
 ||methodcash.com^
 ||metjm.pro^
 ||metmt.com^
@@ -56795,6 +57412,7 @@ star-mini.c10r.facebook.com^$important
 ||metrics-api.librato.com^
 ||metrics-cbslocal-com.cdn.ampproject.org^
 ||metrics.adelaidenow.com.au^
+||metrics.adflake.com^
 ||metrics.aetn.com^
 ||metrics.ancestry.com^
 ||metrics.apartments.com^
@@ -56966,6 +57584,7 @@ star-mini.c10r.facebook.com^$important
 ||mfxzxrveb.com^
 ||mg.32r.com^
 ||mg.glwxw.net^
+||mg.yadro.ru^
 ||mgage.com^
 ||mgcash.com^
 ||mgcashgate.com^
@@ -57024,6 +57643,7 @@ star-mini.c10r.facebook.com^$important
 ||mi-bankia.es-accessoclientes.info^
 ||mi-de-ner-nis3.info^
 ||mi-mi-fa.com^
+||mi.gdt.qq.com^
 ||miaabshaar.com^
 ||miadates.com^
 ||miaedj.goruli.com^
@@ -57218,6 +57838,7 @@ star-mini.c10r.facebook.com^$important
 ||mineerals.de^
 ||minemytraffic.com^
 ||minently.com^
+||miner.nablabee.com^
 ||miner.pr0gramm.com^
 ||minerad.com^
 ||mineralt.io^
@@ -57265,6 +57886,7 @@ star-mini.c10r.facebook.com^$important
 ||mintappleid9-purhaseaccopuhtspuurot.sudahajin.com^
 ||mintrace.com^
 ||minusmechanic.com^
+||minyaartcrafts.cn^
 ||minyroseprofile.online^
 ||mio.shoesmogul.com^
 ||mioassistcom.nckiengland.gdn^
@@ -57303,6 +57925,7 @@ star-mini.c10r.facebook.com^$important
 ||mislexdormn.com^
 ||misosoup.io^
 ||misqb.xyz^
+||misrepush.com^
 ||misserinia.com^
 ||missionovercooked01.com^
 ||missionsdrcom.nckila.gdn^
@@ -57611,6 +58234,7 @@ star-mini.c10r.facebook.com^$important
 ||mob-fargo.mobi^
 ||mob-team-fargo.com^
 ||mob-wells-fargo-verify-login.site^
+||mob.huimee.net^
 ||mob.smssapp.com^
 ||mob1ledev1ces.com^
 ||mob93-auth-wells-support.mobi^
@@ -57621,6 +58245,7 @@ star-mini.c10r.facebook.com^$important
 ||mobalert.net^
 ||mobalyzer.net^
 ||mobatori.com
+||mobatori.com^
 ||mobatory.com^
 ||mobbahjug.com^
 ||mobcdn.com^
@@ -57685,6 +58310,7 @@ star-mini.c10r.facebook.com^$important
 ||mobile-carrierbill5.com^
 ||mobile-chase.net^
 ||mobile-click.biz^
+||mobile-collector.newrelic.com^
 ||mobile-ent.biz^
 ||mobile-faceb0ok.com^
 ||mobile-facebo0k.com^
@@ -57723,6 +58349,7 @@ star-mini.c10r.facebook.com^$important
 ||mobile.ifacebock.com^
 ||mobile.lnstagram.com.toufikk.com^
 ||mobile.mfrga3inlakmok.com^
+||mobile.mng-ads.com^
 ||mobile.sccom.cn^
 ||mobile.wellsfargo.online-verify.work^
 ||mobile2623.nonamenba17.live^
@@ -57767,6 +58394,8 @@ star-mini.c10r.facebook.com^$important
 ||mobilenetworktestingcom.shaxiaprofile.top^
 ||mobilenotaryofcitruscounty.com^
 ||mobileoffers-*-download.com^
+||mobileoffers-a-download.com^
+||mobileoffers-cb-download.com^
 ||mobileora.yolasite.com^
 ||mobileposse.com^
 ||mobilesecure-signin.com^
@@ -57953,6 +58582,7 @@ star-mini.c10r.facebook.com^$important
 ||monesebnk.com^
 ||monespace-paypa1.tk^
 ||monetate.net^
+||monetengine-d.openx.net^
 ||monetizemore.com^
 ||monetizer101.com^
 ||money-domen.com^
@@ -57970,6 +58600,7 @@ star-mini.c10r.facebook.com^$important
 ||moneymakercdn.com^
 ||moneymakers.de^
 ||moneyplatform.biz^
+||moneypunchstep.online^
 ||moneysavingexpertoverdraft.top^
 ||moneysavingexpertrestaurantdeals.top^
 ||moneysavingexpertyoungpersonsrailcard.top^
@@ -58032,6 +58663,7 @@ star-mini.c10r.facebook.com^$important
 ||moonicorn.network^
 ||moonlightingapi-ads.com^
 ||moonsade.com^
+||moontuftboy.com^
 ||moonwish.com.cn^
 ||moorebingosupplies.com^
 ||moorheadmn.buzz^
@@ -58145,6 +58777,7 @@ star-mini.c10r.facebook.com^$important
 ||movies-netf21.com^
 ||moviesetuphomesite.com^
 ||moviesmastersworld.com^
+||moviesprofit.com^
 ||movii-loft.cn^
 ||movil-accesoclientes-ibercajadirectoonline.com^
 ||movil-beta.com^
@@ -58188,6 +58821,7 @@ star-mini.c10r.facebook.com^$important
 ||mpk01.com^
 ||mpletedsen.fun^
 ||mpliedancia.info^
+||mpltrack.com^
 ||mplxtms.com^
 ||mpmlco.com^
 ||mpmzqgkpavhhkt.com^
@@ -58212,6 +58846,7 @@ star-mini.c10r.facebook.com^$important
 ||mpuls.ru^
 ||mpuqvoa.com^
 ||mpwe.net^
+||mpx.mopub.com^
 ||mpyiiswvgxz.com^
 ||mq.d6s3mov.cn^
 ||mq6w.awaykart.com^
@@ -58244,6 +58879,7 @@ star-mini.c10r.facebook.com^$important
 ||mrakosy.ru^
 ||mrandmrsjordan.com^
 ||mrb.eshinl.com^
+||mrb.upapi.net^
 ||mrbasic.com^
 ||mrbit.win^
 ||mrbpi.dermals.org^
@@ -58266,6 +58902,7 @@ star-mini.c10r.facebook.com^$important
 ||mrzpfpgh.com^
 ||ms-mbank.onfly.pl^
 ||ms.applvn.com^
+||ms.awqsaged.cn^
 ||ms.cmcm.com^
 ||ms.cnbanbao.com^
 ||ms3388.com^
@@ -58503,6 +59140,7 @@ star-mini.c10r.facebook.com^$important
 ||muyviajero.com^
 ||muzjpkel.com^
 ||muzotur.info^
+||mv.treehousei.com^
 ||mv1ab4.info^
 ||mv3kosrrlxa7.com^
 ||mva1.maeva.com^
@@ -58907,6 +59545,7 @@ star-mini.c10r.facebook.com^$important
 ||myiptv.ca^
 ||myjcb.update.co.jp.myjcb-service.top^
 ||myjcbs.com^
+||myjj.pyzkk.com^
 ||myjuno.graphicdesignorg.icu^
 ||myjz.awaykart.com^
 ||mykajshuetdxc.com^
@@ -59120,6 +59759,7 @@ star-mini.c10r.facebook.com^$important
 ||n.vestey.ru^
 ||n.vn-chk777.com^
 ||n.www.dyamm.com^
+||n.yunshipei.com^
 ||n08-b.mentriqq.com^
 ||n1219adserv.xyz^
 ||n123loi.com^
@@ -59154,6 +59794,7 @@ star-mini.c10r.facebook.com^$important
 ||n3tfx-planmembeditcrediten-ca.com^
 ||n3x7.xyz^
 ||n4.8wix.com^
+||n4403ad.doubleclick.net^
 ||n4tf1ix7-1nfo.com^
 ||n4tflix-inf03.com^
 ||n5k71.mentriqq.com^
@@ -59243,6 +59884,7 @@ star-mini.c10r.facebook.com^$important
 ||nagolasa.0e0.eu^
 ||nagrande.com^
 ||nagrenahhr.com^
+||nah9v7mdppff.com^
 ||nahixtmnmpcz.com^
 ||nahoraeconomizar.com^
 ||nahpewniig.com^
@@ -59267,11 +59909,13 @@ star-mini.c10r.facebook.com^$important
 ||najurkoscom.chifanbackground.top^
 ||najurkoscom.shaxiaprimary.top^
 ||najurkoscom.shaxiaput.top^
+||najva.com^
 ||najyzdlmqq.com^
 ||nakagawamoveis.com.br^
 ||nakankorunamoo.cf^
 ||nakanohito.jp^
 ||nakedreel.com^
+||nalbusinespr.info^
 ||nale-ping.web.app^
 ||nalook.com^
 ||nalrxmmcs.com^
@@ -59339,6 +59983,7 @@ star-mini.c10r.facebook.com^$important
 ||native.ai^
 ||native.cli.bz^
 ||native.ext.media^
+||native.wpu.sh^
 ||nativead.s3.amazonaws.com^
 ||nativeadmatch.com^
 ||nativeads.com^
@@ -59349,6 +59994,7 @@ star-mini.c10r.facebook.com^$important
 ||nativepu.sh^
 ||nativeroll.tv^
 ||nativery.com^
+||nativesdks.mparticle.com^
 ||nativeserv.com^
 ||nativespot.com^
 ||nativesubscribe.pro^
@@ -59472,6 +60118,7 @@ star-mini.c10r.facebook.com^$important
 ||nccvlbscjrhfshvonznetflix.com^
 ||ncdccc.com^
 ||ncddsy.com^
+||ncedagricul.info^
 ||ncefoundanges.info^
 ||ncg.goruli.com^
 ||nchte.com^
@@ -59556,6 +60203,7 @@ star-mini.c10r.facebook.com^$important
 ||needhamma.buzz^
 ||needmoreupup.gq^
 ||needupdboainf.com^
+||neenaist.net^
 ||neepaips.com^
 ||neesoape.com^
 ||neesupee.com^
@@ -60103,6 +60751,7 @@ star-mini.c10r.facebook.com^$important
 ||newsign.yolasite.com^
 ||newsilverbeachassociationorg.nckiaccounting.gdn^
 ||newskoronavirus.ru^
+||newsm247.online^
 ||newsmaxfeednetwork.com^
 ||newsmuseorg.nckiaccounting.gdn^
 ||newsnachamerre.tk^
@@ -60120,6 +60769,7 @@ star-mini.c10r.facebook.com^$important
 ||newstizer.ru^
 ||newstockclub.su^
 ||newstogram.com^
+||newsubscribes.com^
 ||newsunads.com^
 ||newsupdatedepot.info^
 ||newsupdatewe.info^
@@ -60211,6 +60861,7 @@ star-mini.c10r.facebook.com^$important
 ||nfzedl.shoesmogul.com^
 ||ng-tv.org^
 ||ng-vn-notice.gameitop.com^
+||ng.virgul.com^
 ||ng3.ads.warnerbros.com^
 ||ngacm.com^
 ||ngads.com^
@@ -60226,6 +60877,7 @@ star-mini.c10r.facebook.com^$important
 ||ngholishingsm.info^
 ||nghyx.xyz^
 ||ngikaeajy.shoesmogul.com^
+||nginx-auction-prd-gcp.adsx.unityads.unity3d.com^
 ||ngjzmt.com^
 ||nglattemptenlan.fun^
 ||ngleaccinemad.site^
@@ -60272,6 +60924,7 @@ star-mini.c10r.facebook.com^$important
 ||nhqqv.space^
 ||nhqxzqvkj.com^
 ||nhrukidj.goruli.com^
+||nhsb.rjjtf.biz^
 ||nhsuh.xyz^
 ||nhsupdaterequest1037284510.detox.healthychoices4u.net^
 ||nhsws.xyz^
@@ -60285,6 +60938,7 @@ star-mini.c10r.facebook.com^$important
 ||ni.fuienganado.com.br^
 ||ni.gese2italyenagicweb.net^
 ||ni2455075-1.web20.nitrado.hosting^
+||ni6cdwf6w5xr.com^
 ||ni87.com^
 ||nia.psdzy.com^
 ||niacretaryfrience.info^
@@ -60326,6 +60980,7 @@ star-mini.c10r.facebook.com^$important
 ||nifudrqot.vipsnapchatsexting.com^
 ||nigelbagley.com^
 ||nightdate.ru
+||nightening.club^
 ||nighter.club^
 ||nightlifesocialforum.com^
 ||nightwoke.net^
@@ -60498,6 +61153,7 @@ star-mini.c10r.facebook.com^$important
 ||nmcdn.us^
 ||nmdvagwi.com^
 ||nmeithybnvik.com^
+||nmentshad.info^
 ||nmentthoutintellin.info^
 ||nmetrics.samsung.com^
 ||nmfggt.com^
@@ -60522,6 +61178,7 @@ star-mini.c10r.facebook.com^$important
 ||nmywwgnnkmud.com^
 ||nnairuch.beget.tech^
 ||nnavigation.info^
+||nnd.xyssp.com^
 ||nndgxdunwvte.com^
 ||nnedbx.com^
 ||nneitlox.com^
@@ -60753,6 +61410,7 @@ star-mini.c10r.facebook.com^$important
 ||notify-bugs-fra1.rtl.de^
 ||notify-monad.com^
 ||notify.rocks^
+||notify.solutions^
 ||notifysrv.com^
 ||notifyvisitors.com^
 ||notjustahashtag.com^
@@ -60950,6 +61608,7 @@ star-mini.c10r.facebook.com^$important
 ||nsmnmmnacou.aunmeosich.top^
 ||nsmwtzwq.com^
 ||nsnfokcikwf.com^
+||nsofasstroy.info^
 ||nsomfammrmhbc.com^
 ||nsoncandred.site^
 ||nsonoursewit.fun^
@@ -60985,6 +61644,7 @@ star-mini.c10r.facebook.com^$important
 ||ntdhydflix.com^
 ||ntdvjlvau.com^
 ||nteagjxtxttqhwxvss.top^
+||ntedporchite.info^
 ||ntent.com^
 ||nterbx.com^
 ||ntergaid.com^
@@ -61007,6 +61667,7 @@ star-mini.c10r.facebook.com^$important
 ||ntnmliatmtk.com^
 ||ntnqciu.shoesmogul.com^
 ||ntosarang.com^
+||ntowcested.info^
 ||ntoyqqrwrmzr.com^
 ||ntpawkfea.com^
 ||ntpddq.com^
@@ -61015,6 +61676,7 @@ star-mini.c10r.facebook.com^$important
 ||ntryonoxojiyya.com^
 ||ntsartingaccura.info^
 ||ntsimprovide.info^
+||ntsparallycalc.info^
 ||ntt.smbcow.com^
 ||nttaohua.com^
 ||nttdocomo-lr.com^
@@ -61237,6 +61899,7 @@ star-mini.c10r.facebook.com^$important
 ||nzphoenix.com^
 ||nzpjatzkwdzb.com^
 ||nzsfa.awaykart.com^
+||nztrimhg5fd1.com^
 ||nztrt.top^
 ||nzx1.awaykart.com^
 ||nzydzsw.com^
@@ -61247,6 +61910,7 @@ star-mini.c10r.facebook.com^$important
 ||o.60sk.ru^
 ||o.addthis.com^
 ||o.dojnh.com^
+||o.gweini.com^
 ||o.jy135.com^
 ||o.movies.com^
 ||o.phb123.com^
@@ -61269,6 +61933,7 @@ star-mini.c10r.facebook.com^$important
 ||o365.test.microsoft-essentials.com^
 ||o365online.azurewebsites.net^
 ||o365secure.azurewebsites.net^
+||o3lqkuk5vq.ru^
 ||o3sndvzo25.com^
 ||o4uxrk33.com^
 ||o5ph.vteexcx.com^
@@ -61396,6 +62061,7 @@ star-mini.c10r.facebook.com^$important
 ||obrayxknu.com^
 ||observant-fossil-chopper.glitch.me^
 ||observare.de^
+||observer.ip-label.net^
 ||observerapp.com^
 ||obsetowebponto.com^
 ||obsudam.ru^
@@ -61426,6 +62092,7 @@ star-mini.c10r.facebook.com^$important
 ||ockorrytznnq.bid^
 ||oclaserver.com^
 ||oclasrv.com$important
+||oclasrv.com^
 ||oclus.com^
 ||ocnjgcedhp.com^
 ||ocnvgwuppfstkj.com^
@@ -61458,6 +62125,7 @@ star-mini.c10r.facebook.com^$important
 ||od4.133gvb.com^
 ||oda.markitondemand.com^
 ||odanetrlgvunth.com^
+||odb.outbrain.com^
 ||odbabo.info^
 ||odcnpmjgsxrqpr.com^
 ||odd-ohita-2077.cocotte.jp^
@@ -61661,6 +62329,7 @@ star-mini.c10r.facebook.com^$important
 ||ofwuwfgq.com^
 ||ofy3m0gp.com^
 ||ofzoxqcldl.com^
+||og.zyzjpx.cn^
 ||ogadonet.chifanbackground.top^
 ||ogamon.win^
 ||ogarniaj-fotki.eu^
@@ -62525,10 +63194,12 @@ star-mini.c10r.facebook.com^$important
 ||oplaty-wp.pl^
 ||oplaty24-kurier.com^
 ||opncpos02051.appl.kp.org^
+||opoapibs.net^
 ||opoefqthl.bid^
 ||opornjndms.tk^
 ||opoxv.com^
 ||oppcgcqytazs.com^
+||opps.taboola.com^
 ||opr.formulas.jp^
 ||oprivi.info^
 ||oprmatrix.com^
@@ -62541,6 +63212,7 @@ star-mini.c10r.facebook.com^$important
 ||opsooque.com^
 ||opt-intelligence.com^
 ||opt-n.net^
+||opt.ximad.com^
 ||opt01-777-com.preview-domain.com^
 ||opt8.co^
 ||optad360.io^
@@ -62781,6 +63453,7 @@ star-mini.c10r.facebook.com^$important
 ||osynchresiderin.info^
 ||oszelwsbb.bid^
 ||ot-ot.snprobbx.pbz.r.de.a2ip.ru^
+||ot.ca-mpr.jp^
 ||ota.cartrawler.com^
 ||otaijing.com^
 ||otarrxci.bid^
@@ -63027,6 +63700,7 @@ star-mini.c10r.facebook.com^$important
 ||ovvddcpjqndfv.com^
 ||ovxqjl.goruli.com^
 ||ovybudam.gikorip.net^
+||ovyiakt1wzqz.com^
 ||ovzmelkxgtgf.com^
 ||ow*.biqugego.com^
 ||ow-app-7839.web.app^
@@ -63193,6 +63867,7 @@ star-mini.c10r.facebook.com^$important
 ||p-xhe.dimaflix.com^
 ||p-zf.mentriqq.com^
 ||p.7060.la^
+||p.adbrn.com^
 ||p.aty.sohu.com^
 ||p.biasdo.com^
 ||p.delivery.net^
@@ -63204,10 +63879,12 @@ star-mini.c10r.facebook.com^$important
 ||p.pypl-checkinformation.betscapital.co.za^
 ||p.raasnet.com^
 ||p.smartertravel.com^
+||p.tanx.com^
 ||p.tencentmind.com^
 ||p.tinynewsfeed.com^
 ||p.travelsmarter.net^
 ||p.typekit.net^
+||p.vtracy.de^
 ||p.wpage.cc^
 ||p.ynb2dca.com^
 ||p.yotpo.com^
@@ -63217,6 +63894,8 @@ star-mini.c10r.facebook.com^$important
 ||p071qmn.com^
 ||p0wzf.dimaflix.com^
 ||p0y.cn^
+||p0y.cn^*.swf
+||p1.chinakaoyan.com^
 ||p1.zhongyoo.com^
 ||p1.zhumengwl.com^
 ||p10p.addroits.com^
@@ -63392,6 +64071,7 @@ star-mini.c10r.facebook.com^$important
 ||page9659856sder4543.com^
 ||pagead.l.google.com^
 ||pagead2.googlesyndication.com^
+||pagead46.l.doubleclick.net^
 ||pageapple-22refund.servegame.com^
 ||pageapple-envj1cx.servegame.com^
 ||pageapple-fdkh5os.servegame.com^
@@ -63615,6 +64295,7 @@ star-mini.c10r.facebook.com^$important
 ||partner.cynapse.com^
 ||partner.eviton.ru^
 ||partner.gde.ru^
+||partner.googleadservices.com^
 ||partner.join.com.ua^
 ||partner.mediametrics.ru^
 ||partner.pelikan.cz^
@@ -63622,6 +64303,7 @@ star-mini.c10r.facebook.com^$important
 ||partner.shareaholic.com^
 ||partner.superbahisaffiliates248.com^
 ||partner.toutiao.com^
+||partnerad.l.doubleclick.net^
 ||partnerad.l.google.com^
 ||partnercash.de^
 ||partnercenter-lnstagram.com^
@@ -64735,6 +65417,7 @@ star-mini.c10r.facebook.com^$important
 ||pb.i.sogou.com^
 ||pb.okk123.com^
 ||pb.shuxigua.com^
+||pb5oqguywycj.com^
 ||pbaarpg.snprobbx.arg.r.sg.a2ip.ru^
 ||pbbl.co^
 ||pbbskmfo.bid^
@@ -64872,6 +65555,7 @@ star-mini.c10r.facebook.com^$important
 ||pears.contractorcalculator.co.uk^
 ||pebadu.com^
 ||pebblemedia.be^
+||pebed.dm-event.net^
 ||pebed.dm.gg^
 ||pebetaviabcp.com^
 ||pebwjgvxpnxsch.com^
@@ -65089,6 +65773,7 @@ star-mini.c10r.facebook.com^$important
 ||pestalozzigymnasiumheidenauinfo.baerqirating.top^
 ||pestrike.com^
 ||pestrikowa.beget.tech^
+||petachiefund.club^
 ||petadopt.nyc^
 ||petametrics.com^
 ||petchesa.net^
@@ -65101,6 +65786,7 @@ star-mini.c10r.facebook.com^$important
 ||petraulis.alwaysdata.net^
 ||petroindonesia.co.id^
 ||petromltd.com^
+||petrospedas.club^
 ||petsarlaaafru.com^
 ||petsfairy.com^
 ||petsheying.com^
@@ -65163,6 +65849,7 @@ star-mini.c10r.facebook.com^$important
 ||pgcode.org^
 ||pgdhapctt.com^
 ||pge.technemetrologia.pw^
+||pge.unityads.unity3d.com^
 ||pgeejqisao.com^
 ||pgepkagfndl.com^
 ||pgfxwbgema.com^
@@ -65224,6 +65911,7 @@ star-mini.c10r.facebook.com^$important
 ||pheevoug.com^
 ||pheizpjpowvw.com^
 ||phekrimp.com^
+||phen.fabricmedia.ru^
 ||phenaserla.tk^
 ||phengung.net^
 ||phenixassessoria.com^
@@ -65258,6 +65946,7 @@ star-mini.c10r.facebook.com^$important
 ||phoebeniobium.com^
 ||phoenix-adrunner.mycomputer.com^
 ||phoenix-widget.com^
+||phoenix.untd.com^
 ||phoenixmanagementgrp.com^
 ||phokukse.com^
 ||pholebave.com^
@@ -65391,6 +66080,7 @@ star-mini.c10r.facebook.com^$important
 ||pilottere.info^
 ||pimcore.niklaslarsson.nu^
 ||pimmuter.com
+||pimmuter.com^
 ||pimpmyglidercom.chifanassume.top^
 ||pimpmyglidercom.chifanbackground.top^
 ||pimpmypr.de^
@@ -65419,8 +66109,10 @@ star-mini.c10r.facebook.com^$important
 ||ping-traffic.info^
 ||ping.buto.tv^
 ||ping.dozuki.com^
+||ping.hellobar.com^
 ||ping.hungama.com^
 ||ping.smyte.com^
+||ping.taplytics.com^
 ||ping.tvmaze.com^
 ||ping.xlmc.sandai.net^
 ||pingagenow.com^
@@ -65449,6 +66141,7 @@ star-mini.c10r.facebook.com^$important
 ||pinnerx.com^
 ||pinocularoud.site^
 ||pinpoll.com^
+||pinresentag.info^
 ||pinselstrichcom.baerseventake.top^
 ||pinstagram.0fees.us^
 ||pinsuasua.com^
@@ -65486,6 +66179,7 @@ star-mini.c10r.facebook.com^$important
 ||piroji.com^
 ||pirt.pro^
 ||piscinapanela.info^
+||pisism.com^
 ||pismvlkq.com^
 ||pistacchioijscom.shaxiasay.top^
 ||pistoma.info^
@@ -65510,6 +66204,7 @@ star-mini.c10r.facebook.com^$important
 ||pix.impdesk.com^
 ||pix.nbcuni.com^
 ||pix.rta247.com^
+||pix.sniperlog.ru^
 ||pix.speedbit.com^
 ||pix.spot.im^
 ||pix.telekom.de^
@@ -65519,9 +66214,11 @@ star-mini.c10r.facebook.com^$important
 ||pixel.1und1.de^
 ||pixel.4pcdn.de^
 ||pixel.4players.de
+||pixel.4players.de^$important
 ||pixel.ad^
 ||pixel.adensemble.com^
 ||pixel.admobclick.com^
+||pixel.advertising.com^
 ||pixel.ampry.com^
 ||pixel.anyclip.com^
 ||pixel.bild.de^
@@ -65535,6 +66232,7 @@ star-mini.c10r.facebook.com^$important
 ||pixel.cpex.cz^
 ||pixel.digitalspy.co.uk^
 ||pixel.europapress.net^
+||pixel.facebook.com^
 ||pixel.fanbridge.com^
 ||pixel.glimr.io^
 ||pixel.homebook.pl^
@@ -65544,18 +66242,21 @@ star-mini.c10r.facebook.com^$important
 ||pixel.newscgp.com^
 ||pixel.newscred.com^
 ||pixel.newsdiscover.com.au^
+||pixel.parsely.com^
 ||pixel.pcworld.com^
 ||pixel.placed.com^
 ||pixel.playbuzz.com^
 ||pixel.pointmediatracker.com^
 ||pixel.propublica.org^
 ||pixel.quantserve.com
+||pixel.quantserve.com^
 ||pixel.reddit.com^
 ||pixel.redditmedia.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
 ||pixel.safe-installation.com^
 ||pixel.shareaholic.com^
+||pixel.sojern.com^
 ||pixel.solvemedia.com^
 ||pixel.somplo.com^
 ||pixel.spotify.com^
@@ -65567,6 +66268,7 @@ star-mini.c10r.facebook.com^$important
 ||pixel.watch^
 ||pixel.welt.de^
 ||pixel.westseven.media^
+||pixel.widgetly.com^
 ||pixel.wp.com^
 ||pixel.wp.pl^
 ||pixel.wp.pl^$important
@@ -65578,6 +66280,7 @@ star-mini.c10r.facebook.com^$important
 ||pixel6.wp.pl^
 ||pixelappcollector.thesun.co.uk^
 ||pixeleze.com^
+||pixelg.adswizz.com^
 ||pixelhere.com^
 ||pixelinteractivemedia.com^
 ||pixelpop.co^
@@ -65587,6 +66290,7 @@ star-mini.c10r.facebook.com^$important
 ||pixeltrack66.com^
 ||pixelzirkus.gameforge.com^
 ||pixenka.com^
+||pixfuture.com^
 ||pixfuture.net^
 ||pixiai.co^
 ||pixiedust.buzzfeed.com^
@@ -65600,6 +66304,7 @@ star-mini.c10r.facebook.com^$important
 ||piyzmkcxa.bid^
 ||pizzini.cl^
 ||pj.l.a8723.com^
+||pj.l.admedo.com^
 ||pj1.overstack.nl^
 ||pj38.awaykart.com^
 ||pjatr.com^
@@ -65651,6 +66356,7 @@ star-mini.c10r.facebook.com^$important
 ||pkklpazhqqda.com^
 ||pkkuouvecratte.bid^
 ||pklaowdpzwflvr.com^
+||pkmkkjwknvf.com^
 ||pkmzxzfazpst.com^
 ||pknzoizczuhjvk.com^
 ||pkougirndckw.com^
@@ -65801,6 +66507,7 @@ star-mini.c10r.facebook.com^$important
 ||plonkerib.com^
 ||plopx.com^
 ||plousiaenergy.com^
+||ploy.batmobi.net^
 ||ployart.fr^
 ||ploymte.com^
 ||ploymtec.com^
@@ -65852,6 +66559,7 @@ star-mini.c10r.facebook.com^$important
 ||pmdzx.goruli.com^
 ||pmecfluqpkwjg.bid^
 ||pmelon.com^
+||pmetrics.performancing.com^
 ||pmf3.www.dyamm.com^
 ||pmfi74.com^
 ||pmgmbpuiblak.com^
@@ -66157,6 +66865,8 @@ star-mini.c10r.facebook.com^$important
 ||populisengage.com^
 ||populr.me^
 ||popunder.
+||popunder.bid^
+||popunder.ru^
 ||popunderjs.club^
 ||popunders.bid^
 ||popundertotal.com^
@@ -66321,6 +67031,7 @@ star-mini.c10r.facebook.com^$important
 ||post-y.top^
 ||post-z.top^
 ||post.rmbn.net^
+||post.rmbn.ru^
 ||post1inform.info^
 ||postaffiliatepro.com^
 ||postalemiseajour.com^
@@ -66350,6 +67061,7 @@ star-mini.c10r.facebook.com^$important
 ||postitial.com^
 ||postlnk.com^
 ||postmarketplace.remaxproperties-house.com^
+||postpixel.vindicosuite.com^
 ||postrelease.com^
 ||postrsyk.com^
 ||postut.cn^
@@ -66636,6 +67348,7 @@ star-mini.c10r.facebook.com^$important
 ||predictivadvertising.com^
 ||predictivedna.com^
 ||predictiveresponse.net^
+||preferent.club^
 ||preferredain.com^
 ||prehardenelectronically.com^
 ||preitem.wshareit.com^
@@ -66719,6 +67432,7 @@ star-mini.c10r.facebook.com^$important
 ||preview.bitzania.com^
 ||previnasedocoronavirus.com^
 ||previnassedocoronavirusficaemcasa.com^
+||previsibilisais.website^
 ||prexista.com^
 ||prezentownianet.shuiacause.top^
 ||prfct.co^
@@ -66858,6 +67572,7 @@ star-mini.c10r.facebook.com^$important
 ||procredit.bnppbanque.com^
 ||procreditbnk-online.com^
 ||procuracura.com.br^
+||prod.untd.com^
 ||prodesigner.club^
 ||prodncalbcaweb.appl.kp.org^
 ||producebreed.com^
@@ -67216,6 +67931,7 @@ star-mini.c10r.facebook.com^$important
 ||prsicilacap.org^
 ||prsitecheck.com^
 ||prsmglob.com^
+||prstats.postrelease.com^
 ||prtjzzyfi.com^
 ||prtracker.com^
 ||prtramblingcom.shaxiapussy.top^
@@ -67227,6 +67943,7 @@ star-mini.c10r.facebook.com^$important
 ||prulogzjtyksnh.com^
 ||prunwxph.bid^
 ||prusinfo.shaxianovember.top^
+||prvsz4pe.micpn.com^
 ||prwlzpyschwi.com^
 ||prxbxljcxnsso.com^
 ||prxii.cf^
@@ -67284,14 +68001,17 @@ star-mini.c10r.facebook.com^$important
 ||psgdjmtpvey.com^
 ||psgeconfimrs777-com.preview-domain.com^
 ||psgindustriescom.shaxiaaustralia.top^
+||psh.one^
 ||pshcqtizgdlm.com^
 ||psi5forumcom.nckichinese.gdn^
 ||psijdbcwwnqqw.com^
+||psisalte.com^
 ||psitchie.com^
 ||pskadmzl.com^
 ||pskajrxx.com^
 ||psma01.com
 ||psma02.com
+||psma02.com^
 ||psma03.com
 ||psmardr.com^
 ||psmlgjalddqu.com^
@@ -67312,6 +68032,7 @@ star-mini.c10r.facebook.com^$important
 ||psrbrytujuxv.com^
 ||pss.goruli.com^
 ||psstt.com^
+||pssvc.iqzone.com^
 ||pstats.com^
 ||pstratiinc.com^
 ||pstsrcvryabsesrvce53.site^
@@ -67336,17 +68057,20 @@ star-mini.c10r.facebook.com^$important
 ||pt.cheap-moncler.co^
 ||pt.crossmediaservices.com^
 ||pt.goldencllc.com^
+||pt.ispot.tv^
 ||pt.lilyannmacdonald.ca^
 ||pt.mauradawnphotography.com^
 ||pt.monclershop.top^
 ||pt.stresslesspcskit.com^
 ||pt.ultimatelifestyling.com^
+||pt0zhwhc26.ru^
 ||ptadsrv.de^
 ||ptaivain.net^
 ||ptaksenergy.com^
 ||ptarepjx.com^
 ||ptarywzhyzri.com^
 ||ptashibu.com^
+||ptaughar.com^
 ||ptaulrou.net^
 ||ptauphie.com^
 ||ptauphiw.net^
@@ -67385,6 +68109,7 @@ star-mini.c10r.facebook.com^$important
 ||ptn.dermals.org^
 ||ptnaubegfbbtwe.com^
 ||pto-slb-09.com^
+||pto.awecr.com^
 ||ptoafauz.net^
 ||ptocmaux.com^
 ||ptoflpqqqkdk.com^
@@ -67500,6 +68225,7 @@ star-mini.c10r.facebook.com^$important
 ||publish.iptvz.net^
 ||publish.web.id^
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
+||publisher-event.unityads.unity3d.com^
 ||publisheradnetwork.com^
 ||publishflow.com^
 ||publited.com^
@@ -67707,6 +68433,20 @@ star-mini.c10r.facebook.com^$important
 ||putanki.org^
 ||putfeepea.site^
 ||putrr*.com^
+||putrr10.com^
+||putrr12.com^
+||putrr13.com^
+||putrr14.com^
+||putrr15.com^
+||putrr16.com^
+||putrr17.com^
+||putrr18.com^
+||putrr19.com^
+||putrr20.com^
+||putrr5.com^
+||putrr6.com^
+||putrr7.com^
+||putrr8.com^
 ||puttyweb.ddns.net^
 ||puurwierook.nl^
 ||puvb.shoesmogul.com^
@@ -67715,6 +68455,7 @@ star-mini.c10r.facebook.com^$important
 ||puwzwbdopaeq.bid^
 ||puxrotate.ru
 ||puzzlingfall.com^
+||pv.dakawm.cc^
 ||pv.hd.sohu.com^
 ||pv.ldlwdsx.com^
 ||pv.pjtsu.com^
@@ -67790,12 +68531,16 @@ star-mini.c10r.facebook.com^$important
 ||pwzffpolfs.bid^
 ||pwzjsujf.bid^
 ||px-cloud.net^
+||px.adhigh.net^
 ||px.carbonnewmedia.com^
 ||px.cazamba.com^
+||px.dynamicyield.com^
 ||px.excitedigitalmedia.com^
 ||px.gfycat.com^
 ||px.leadexpert.pl^
 ||px.marchex.io^
+||px.owneriq.net^
+||px.reactrmod.com^
 ||px.spiceworks.com^
 ||px.staticfiles.at^
 ||px.topspin.net^
@@ -67993,6 +68738,8 @@ star-mini.c10r.facebook.com^$important
 ||qagkaxrj.com^
 ||qagnufdwht.com^
 ||qahajvkyfjpg.com^
+||qai-ir.quartic.pl^
+||qai.quartic.pl^
 ||qaiqromd.com^
 ||qairctxn.com^
 ||qaizylhmcxv.com^
@@ -68003,6 +68750,7 @@ star-mini.c10r.facebook.com^$important
 ||qamwplzcvq.com^
 ||qanmw.space^
 ||qanzlmrnxxne.com^
+||qaops.jgwsmqx.com^
 ||qaouxefnmnowadvgti.top^
 ||qapriesencloq.bid^
 ||qaqact.cn^
@@ -68036,6 +68784,7 @@ star-mini.c10r.facebook.com^$important
 ||qbfzmwamsid.com^
 ||qbgw.onderhost.com^
 ||qbhcfxxivcdfm.com^
+||qbhyczr5hw.ru^
 ||qbjnwjtbfrxceq.com^
 ||qbkzvophvva.com^
 ||qbldzsktv.com^
@@ -68099,6 +68848,7 @@ star-mini.c10r.facebook.com^$important
 ||qcytzahena.topkorder.su^
 ||qczvjjdbaj.com^
 ||qd.china-wl.com^
+||qd.maskbaby.com.cn^
 ||qd.x4399.com^
 ||qd3u5eeuos.com^
 ||qd836.cn^
@@ -68433,6 +69183,7 @@ star-mini.c10r.facebook.com^$important
 ||qlmygsvk.com^
 ||qlnomb.com^
 ||qload.ru^
+||qlog.adap.tv^
 ||qlqscuseoyrdv.com^
 ||qlqvzzcaxto.com^
 ||qlsnu.club^
@@ -68461,6 +69212,7 @@ star-mini.c10r.facebook.com^$important
 ||qmlcdlo.cn^
 ||qmmdvzsebi.com^
 ||qmname.com^
+||qmnyjs7jd1jp.com^
 ||qmokxgfz.com^
 ||qmotkiltrim.com^
 ||qmotmcwz.com^
@@ -68634,6 +69386,7 @@ star-mini.c10r.facebook.com^$important
 ||qrecxvdoewmztq.com^
 ||qregqtqtuisj.com^
 ||qreoifgajnoor.com^
+||qreparaguaq.club^
 ||qrevolutionnet.licusales.gdn^
 ||qriasmotw.bid^
 ||qrindfqrd.com^
@@ -68808,6 +69561,7 @@ star-mini.c10r.facebook.com^$important
 ||querycreative.co^
 ||querylead.com^
 ||questaffiliates.net^
+||questaurah.club^
 ||questionfly.com^
 ||questionmarket.com^
 ||questionpro.com^
@@ -68887,6 +69641,7 @@ star-mini.c10r.facebook.com^$important
 ||qvmgjhspiebe.com^
 ||qvnaormkj.shoesmogul.com^
 ||qvnlejvkkicf.com^
+||qvpublish.com^
 ||qvqhfrt.sulaimanc.net^
 ||qvrpqwrp.com^
 ||qvsshkcr.com^
@@ -69011,7 +69766,9 @@ star-mini.c10r.facebook.com^$important
 ||r.partner.badoo.ru^
 ||r.qip.ru^
 ||r.rbc.ru^
+||r.remarketingpixel.com^
 ||r.rosegaar.work^
+||r.sax.sina.com.cn^
 ||r.tinmoi24.vn^
 ||r.topdent.ru^
 ||r.toplaygame.ru^
@@ -69039,6 +69796,7 @@ star-mini.c10r.facebook.com^$important
 ||r3s7.awaykart.com^
 ||r3sub.com^*0.gif
 ||r3tur4ntob1lls.info^
+||r3wd6.cn^
 ||r40-k.ailacabs.com^
 ||r46xk.awaykart.com^
 ||r4cmz.awaykart.com^
@@ -69641,6 +70399,7 @@ star-mini.c10r.facebook.com^$important
 ||rb*.design.ru^
 ||rb-day.net^
 ||rb-form2.com^
+||rb.infox.sg^
 ||rb.rfn.ru^
 ||rb.sport-express.ru^
 ||rb0-sr3-ww0.com^
@@ -69655,6 +70414,7 @@ star-mini.c10r.facebook.com^$important
 ||rbc.com.ssc-0f4-secu.com^
 ||rbc.com.ssl-4s3-1w-sec.com^
 ||rbc.com.sslc-4d-as.com^
+||rbc.magna.ru^
 ||rbc.royalbankofcanada-online1-secure-signin1.wallsandfences.com.au^
 ||rbc1.qchnkc.ph^
 ||rbcbank-reset-76859.com^
@@ -69719,7 +70479,9 @@ star-mini.c10r.facebook.com^$important
 ||rc-verify4.com^
 ||rc.dxsvr.com^
 ||rc.gucac.com^
+||rc.rlcdn.com^
 ||rc.vtex.com.br^
+||rc.xxhrd.com^
 ||rc69.mentriqq.com^
 ||rcaiu.com^
 ||rcb.autosmsbb.com^
@@ -69728,12 +70490,14 @@ star-mini.c10r.facebook.com^$important
 ||rcentratiumd.space^
 ||rcftvgybhunjikm3.com^
 ||rch7.dyamm.com^
+||rchitereach.info^
 ||rckpwmhqz.com^
 ||rcl.yme.so^
 ||rclmc.top^
 ||rcltravel-crew.com^
 ||rcm.shinobi.jp^
 ||rcogzcsan.com^
+||rcounter.rambler.ru^
 ||rcpt-orderinappstoreacc.ohifig.com^
 ||rcsadv.it^
 ||rcscaxhjmm.com^
@@ -69801,6 +70565,7 @@ star-mini.c10r.facebook.com^$important
 ||re5mett.cars-boullet.com^
 ||re6-f2v-be2b2eqw.loan^
 ||reachadv.it^
+||reachandrich.antevenio.com^
 ||reachforce.com^
 ||reachjunction.com^
 ||reachlocal.com^
@@ -69841,6 +70606,7 @@ star-mini.c10r.facebook.com^$important
 ||real-estate.fb.business-ads-897tr6g89743897ut8re6ygr.com^
 ||real-estates.marketplace.gamersouq.com^
 ||real-prizeszone2.life^
+||real5traf.ru^
 ||realapp.pro^
 ||realbig.media^
 ||realbig.pro^
@@ -69962,8 +70728,11 @@ star-mini.c10r.facebook.com^$important
 ||rebokclassicmx.com^
 ||reborko.com^
 ||rebottlingorg.shuiabring.top^
+||rebrancardera.site^
 ||rebritingcyclo.fun^
 ||rec-lnvoiceq.com^
+||rec-pl.quartic.pl^
+||rec.quartic.pl^
 ||rec.x-lift.jp^
 ||rec1verlntrqc.com^
 ||rec2000.at.ua^
@@ -70065,6 +70834,7 @@ star-mini.c10r.facebook.com^$important
 ||recrinsit.ru^
 ||recruisefukiby.club^
 ||recruitics.com^
+||recs.atgsvcs.com^
 ||recsovld-tls.hopto.org^
 ||rectify-account-panel.com^
 ||rectify-user-paypai.com^
@@ -70135,7 +70905,9 @@ star-mini.c10r.facebook.com^$important
 ||redolymerse.top^
 ||redonetype.com^
 ||redraincom.nckiregister.gdn^
+||redresseducatedage.com^
 ||redretarget.com^
+||redsquare.rambler.ru^
 ||redstatcounter.com^
 ||redsurf.ru^
 ||redtram.com^
@@ -70234,6 +71006,7 @@ star-mini.c10r.facebook.com^$important
 ||register-facebook.ga^
 ||register-setting-online.webnode.com^
 ||register-vanillascard-zipcode.com^
+||register.appsflyer.com^
 ||register.xmpush.xiaomi.com^
 ||registerbnzonasegura1online.com^
 ||registered-customer.work^
@@ -70507,17 +71280,20 @@ star-mini.c10r.facebook.com^$important
 ||repolishnystatins.net^
 ||repondeur02messageriecloud69.webnode.sk^
 ||reporo.net^
+||report*.appmetrica.webvisor.com^
 ||report-apple-mail-sevice-account.serveirc.com^
 ||report-cherry.cf^
 ||report-page-dlsbled.gq^
 ||report-payments.net^
 ||report-uri.io^
+||report.appmetrica.yandex.net^
 ||report.meituan.com^
 ||report.vnay.vn^
 ||reportdata-cancel.servehttp.com^
 ||reportdatade.shaxiaaccommodation.top^
 ||reporting.aatkit.com^
 ||reporting.handll.net^
+||reporting.singlefeed.com^
 ||reportionbreedy.pro^
 ||reportions.club^
 ||reportorderappstore.serveirc.com^
@@ -70567,6 +71343,7 @@ star-mini.c10r.facebook.com^$important
 ||resentaticexhaus.info^
 ||reservaspersonalenlinea.com^
 ||reservation-air.bnb-uae.cc^
+||reservices.info^
 ||reset-access-login-account-98400121.outdoorfurnituremorganville.com^
 ||reset-paypal.com^
 ||reset-protect-apleid-app1e.com^
@@ -70626,6 +71403,7 @@ star-mini.c10r.facebook.com^$important
 ||respondhq.com^
 ||response.pure360.com^
 ||responservbzh.icu^
+||responserver.com^
 ||responsetap.com^
 ||responsidejo.club^
 ||responsys.hs.llnwd.net^
@@ -70673,6 +71451,7 @@ star-mini.c10r.facebook.com^$important
 ||retail-server.ru^
 ||retainguaninefluorite.info^
 ||retarala.ru^
+||retarget.ssl-services.com^
 ||retargeter.com.br^
 ||retargeter.com^
 ||retargeting.biz^
@@ -70861,6 +71640,7 @@ star-mini.c10r.facebook.com^$important
 ||rfwfinancial.com^
 ||rg-6.mentriqq.com^
 ||rg-be.ru^
+||rg.yottos.com^
 ||rg1c.mentriqq.com^
 ||rgadvert.com^
 ||rgahmllbgubakm.com^
@@ -71213,6 +71993,7 @@ star-mini.c10r.facebook.com^$important
 ||roakicat.net^
 ||roar.com^
 ||roay.cn^
+||rob.megaopen.ru^
 ||robaduvulo.com^
 ||robcalwith.ru^
 ||robcohatru.ru^
@@ -71236,6 +72017,7 @@ star-mini.c10r.facebook.com^$important
 ||robsoaks.com^
 ||rociomills.buzz^
 ||rock.cheerfulhunter.com^
+||rockcoke.cn^
 ||rocketcoverx.com^
 ||rocketfuel.com^
 ||rocketleagueesl-cup.com^
@@ -71358,6 +72140,8 @@ star-mini.c10r.facebook.com^$important
 ||rosemand.pro^
 ||rosenbauerallianzcom.nckidirectory.gdn^
 ||rosenbaumt.buzz^
+||rosenberg.appmetrica.webvisor.com^
+||rosenberg.appmetrica.yandex.net^
 ||roseolsen.pro^
 ||roseverill.com^
 ||rosfnpq.goruli.com^
@@ -71373,11 +72157,14 @@ star-mini.c10r.facebook.com^$important
 ||rot.rusoul.ru^
 ||rot.spotsniper.ru^
 ||rotaban.
+||rotaban.ru^
 ||rotabanner.
 ||rotabetaffiliates.com^
 ||rotate4all.com^
 ||rotation-context.ru^
 ||rotator.
+||rotator.onokino.club^
+||rotator.promokrot.com^
 ||rotdubboy.com^
 ||rotem.pixelnode.com^
 ||rotesmeerorg.batwoqisep.top^
@@ -71397,6 +72184,7 @@ star-mini.c10r.facebook.com^$important
 ||roupsouk.com^
 ||roustast.net^
 ||routeme.one^
+||routemob.com^
 ||router-logn.net^
 ||routeserve.info^
 ||rouvoute.net^
@@ -71464,6 +72252,8 @@ star-mini.c10r.facebook.com^$important
 ||rqyezhetbspk.com^
 ||rqym.anahkedm.com^
 ||rqyoulixflzbe.com^
+||rr.pochengweiyuan.com^
+||rranking5.ziyu.net^
 ||rrb-d4-2ws-a3.com^
 ||rrchmm.healthygenez.club^
 ||rredundaytheori.info^
@@ -71542,22 +72332,28 @@ star-mini.c10r.facebook.com^$important
 ||rsw4m.qiuvienr.com^
 ||rsyjfjh.com^
 ||rt-ns.ru^
+||rt.applovin.com^
 ||rt.applvn.com^
 ||rt.flix360.com^
+||rt.visilabs.net^
 ||rt2h.mentriqq.com^
 ||rta.dailymail.co.uk^
 ||rta2.metro.co.uk^
 ||rtaofgamnnfh.com^
 ||rtapi.abbi.io^
 ||rtaret.com^
+||rtax.criteo.com^
 ||rtaylor.sa7o.com^
 ||rtb-media.me^
 ||rtb-media.ru^
 ||rtb-seller.com^
 ||rtb-usync.com^
+||rtb.adentifi.com^
 ||rtb.appbid.com^
 ||rtb.com.ru^
+||rtb.connatix.com^
 ||rtb.kds.media^
+||rtb.nexage.com^
 ||rtb.platform.glispa.com^
 ||rtb.softcube.com^
 ||rtb.trade^
@@ -71611,6 +72407,7 @@ star-mini.c10r.facebook.com^$important
 ||rtscix.com^
 ||rtsisalmondkreb34.com^
 ||rtslgov.cn^
+||rtt.campanja.com^
 ||rtwzbvj.vipsnapchatsexting.com^
 ||rtylynajh.sweetuprice.su^
 ||rtypxhlfvmez.com^
@@ -71625,6 +72422,7 @@ star-mini.c10r.facebook.com^$important
 ||ruanzkakjp.puimwr.cn^
 ||rubell.nyc^
 ||rubfwmlm.com^
+||rubick.gameanalytics.com^
 ||rubicon.wellsfargo.com^
 ||rubiconproject.com^
 ||rubicwithias.club^
@@ -71751,6 +72549,7 @@ star-mini.c10r.facebook.com^$important
 ||rustizer.com^
 ||rustoria-topnews.ru^
 ||rustrackers.ru^
+||rutad.ru^
 ||rutarget.ru^
 ||ruthlessdegree.com^
 ||ruththomaz.gq^
@@ -71769,6 +72568,7 @@ star-mini.c10r.facebook.com^$important
 ||ruyidk.com^
 ||ruyiqufu.com^
 ||ruzrkjnd.com^
+||rva.outbrain.com^
 ||rvalzieikar.cloudaccess.host^
 ||rvbibmaixelnq.com^
 ||rvbxnnwdsi.com^
@@ -71819,6 +72619,7 @@ star-mini.c10r.facebook.com^$important
 ||rwyprejibmvcfh.com^
 ||rx616.cn^
 ||rxavnjqxvszrz.com^
+||rxconkz.cn^
 ||rxeadsco.com^
 ||rxewvdlja.com^
 ||rxf0ttodprox.yolasite.com^
@@ -71901,6 +72702,7 @@ star-mini.c10r.facebook.com^$important
 ||rzviy.com^
 ||rzxlszy.vip^
 ||s*.adduplex.com^
+||s*.site.flashx.cc^
 ||s*.skencituer.com^
 ||s*.web.flashx.co^
 ||s-and-j.hu^
@@ -71914,17 +72716,24 @@ star-mini.c10r.facebook.com^$important
 ||s-pa1.svcoding.com^
 ||s-sr.ovh^
 ||s-ucursalvirtualgrupobancolombia.com.co^
+||s-vop.sundaysky.com^
 ||s-wd.lawapass.com^
+||s.95105012.com^
+||s.adroll.com^
 ||s.agava.ru^
 ||s.ameriprisestats.com^
 ||s.avforums.ru^
 ||s.baomoi.xdn.vn^
 ||s.blinds.com^
+||s.clickability.com^
 ||s.clicktex.ru^
+||s.conyak.com^
 ||s.ellercentral.ama.zon.de.triplenya.co.zw^
 ||s.frida.vse42.ru^
+||s.gg0376.com^
 ||s.giaoducthoidai.vn^
 ||s.gucac.com^
+||s.holder.com.ua^
 ||s.infogr.am^
 ||s.infogram.com^
 ||s.kenh14.vn^
@@ -71932,10 +72741,13 @@ star-mini.c10r.facebook.com^$important
 ||s.lenovo.com^
 ||s.metric.vodacom.co.za^
 ||s.newsportalssl1.top^
+||s.nvrentao8.com^
+||s.polkoa.com^
 ||s.promptit.net^
 ||s.remonti.org^
 ||s.sdx.ru^
 ||s.shbywsd.cn^
+||s.sniphub.com^
 ||s.soha.vn^
 ||s.swiftypecdn.com^
 ||s.thestar.com^
@@ -71970,6 +72782,7 @@ star-mini.c10r.facebook.com^$important
 ||s1gnacc0untsld-cust0m3rsrvicesapp1eid93.cerpenkasihsayangmu.com^
 ||s1mplify.cf^
 ||s1r.tut.by^
+||s1t2uuenhsfs.com^
 ||s1upports-lnstagram.cf^
 ||s1venus.biz^
 ||s1venus.com^
@@ -72031,6 +72844,7 @@ star-mini.c10r.facebook.com^$important
 ||s7kkpeo6e2.com^
 ||s7target.ru^
 ||s7ven.com^
+||s7ww2.cn^
 ||s810695574.onlinehome.fr^
 ||s85n4btydl.online^
 ||s88-flix-netflix-subscription.com^
@@ -72041,6 +72855,7 @@ star-mini.c10r.facebook.com^$important
 ||s92673tu.beget.tech^
 ||s99i.org^
 ||s9w.cc^
+||s9wp1.cn^
 ||sa.aol.com^
 ||sa.bbc.co.uk^
 ||sa.bbc.com^
@@ -72105,6 +72920,7 @@ star-mini.c10r.facebook.com^$important
 ||sacaharag.club^
 ||sacatendimentoonline.com^
 ||sacchaeleduk.com^
+||saccomplex.info^
 ||sachbs.club^
 ||sachinkigand.bounceme.net^
 ||sachsendental.chifancall.top^
@@ -72229,6 +73045,7 @@ star-mini.c10r.facebook.com^$important
 ||sal4m649fke3.com^
 ||salamaleyum.com^
 ||salarity.info^
+||salarmers.club^
 ||salary.xiao84.com^
 ||salaure.pro^
 ||saldao-bahianinho.com^
@@ -72481,6 +73298,7 @@ star-mini.c10r.facebook.com^$important
 ||sayzziir.com^
 ||sazxzfeservices.com^
 ||sb-money.ru^
+||sb.voicefive.com^
 ||sb24mali.com^
 ||sb3rsgb68.sted.cc^
 ||sb7ey.mentriqq.com^
@@ -72653,6 +73471,8 @@ star-mini.c10r.facebook.com^$important
 ||scleavshdrz.com^
 ||sclizhong.com^
 ||scnd.landsend.com^
+||scnt.rambler.ru^
+||scoastleallo.info^
 ||scohencpail.com^
 ||scommuni.info^
 ||scontent.authentication-apps.com^
@@ -72678,6 +73498,7 @@ star-mini.c10r.facebook.com^$important
 ||scotiaonline.scotiabank.com.online.ucelgida.com^
 ||scotibank.online69scotia.com^
 ||scottagesyu.club^
+||scounter.rambler.ru^
 ||scout.haymarketmedia.com^
 ||scoutanalytics.net^
 ||scouting-andromeda.nl^
@@ -72713,6 +73534,7 @@ star-mini.c10r.facebook.com^$important
 ||scripting-boot245.ml^
 ||scripting-net654.ml^
 ||scripting-network842.ga^
+||scripts.jixie.io^
 ||scripts.psyma.com^
 ||scripts21.com^
 ||scriptshead.com^
@@ -72805,8 +73627,10 @@ star-mini.c10r.facebook.com^$important
 ||sdhzstone.net^
 ||sdillrnslaiyb.com^
 ||sdjjr.com^
+||sdk-orion.appboy.com^
 ||sdk.adincube.com^
 ||sdk.adtiming.com^
+||sdk.digitalbees.it^
 ||sdk.native123.com^
 ||sdk.starbolt.io^
 ||sdk.stats-locations.com^
@@ -72896,6 +73720,7 @@ star-mini.c10r.facebook.com^$important
 ||seasonsfcu.payrolldeposit.org^
 ||seasonssna.fun^
 ||seatdekho.com^
+||seatsmoke.com^
 ||seattleareasports.org^
 ||seavideo22.com^
 ||seawayz.com.cn^
@@ -72945,6 +73770,7 @@ star-mini.c10r.facebook.com^$important
 ||secondaryservicesystem.com^
 ||secondstreetmedia.com^
 ||seconnectervotrecom.yolasite.com^
+||seconomica.info^
 ||seconomics.club^
 ||seconominare.com^
 ||secportal-paypa1resolution.com^
@@ -72977,6 +73803,7 @@ star-mini.c10r.facebook.com^$important
 ||securcbankofameriea.cloudaccess.host^
 ||securdoctral.ga^
 ||secure-05chase.redirectme.net^
+||secure-12.com^
 ||secure-2com-login-s33-in-onv2screen-go-msg-020288200.netlify.com^
 ||secure-53bank.top^
 ||secure-access.clients.login.app.store.confirm-identity.com^
@@ -73236,6 +74063,7 @@ star-mini.c10r.facebook.com^$important
 ||secure.netflix.activate-dashboard-account.support^
 ||secure.netflix.validation-panel-member.info^
 ||secure.netstreamingflix.com^
+||secure.ognyvo.ru^
 ||secure.onedriveonline.club^
 ||secure.outlookvoiceaccess.tk^
 ||secure.owa.outlookaccessvoice.ga^
@@ -73909,6 +74737,7 @@ star-mini.c10r.facebook.com^$important
 ||seekads.net^
 ||seelenauftragcom.shaxiaaustralia.top^
 ||seepsocu.net^
+||seeptauw.net^
 ||seerpiu002.com^
 ||seesc.jemari.com.pe^
 ||seethisinaction.com^
@@ -73925,6 +74754,7 @@ star-mini.c10r.facebook.com^$important
 ||segment.io^
 ||segmentcdn.com^
 ||segmentify.com^
+||segments.adap.tv^
 ||segmobionline.ml^
 ||segn-co-xyz.preview-domain.com^
 ||segredirtcu.azurewebsites.net^
@@ -74080,6 +74910,7 @@ star-mini.c10r.facebook.com^$important
 ||sentemanactri.com^
 ||sentifi.com^
 ||sentrapromosi.com^
+||sentry01.zerg.rambler.ru^
 ||senvmerc.com^
 ||seo-master.net^
 ||seo-sport.ru^
@@ -74112,6 +74943,7 @@ star-mini.c10r.facebook.com^$important
 ||sepyqhipq.com^
 ||sepyra.com^
 ||sepyw.top^
+||sequently.club^
 ||serapple.com^
 ||serating.ru^
 ||seraton.online^
@@ -74133,6 +74965,7 @@ star-mini.c10r.facebook.com^$important
 ||seriencern.club^
 ||seriencev.com^
 ||seriend.com^
+||seriendly.club^
 ||serikgams.cloudaccess.host^
 ||serine.bresen.nl^
 ||seriodilov.club^
@@ -74159,6 +74992,7 @@ star-mini.c10r.facebook.com^$important
 ||servantolog.ru^
 ||servce-authlogin-paypa1l.com.services-access-supports.gq^
 ||serve-sys.com^
+||serve.5visions.com^
 ||serve.vm-noticevm.club^
 ||serve.williamhill.com^
 ||serveapplestore.com^
@@ -74170,8 +75004,10 @@ star-mini.c10r.facebook.com^$important
 ||servedby.openxmarket.jp^
 ||servedbyadbutler.com^
 ||servedbyopenx.com^
+||servehub.info^
 ||servemeads.com^
 ||servemoney.ru^
+||servenobid.com^
 ||server-chaduckns.duckdns.org^
 ||server-client.com^
 ||server-payuser1.com^
@@ -74386,6 +75222,7 @@ star-mini.c10r.facebook.com^$important
 ||service.my-paypa1-account.secure.casaraopizzabar.com.br^
 ||service.paypa1.de.payment-24656.com^
 ||service.paypal.com.checkout03.com^
+||service.rorer.ru^
 ||service.security-update-verificationid.appsdi.com^
 ||service.support.appleid.apps.com.mobilelegendrank.com^
 ||service.support.id.xacnatsx.com^
@@ -74488,6 +75325,7 @@ star-mini.c10r.facebook.com^$important
 ||services.u7497943u9.ha004.t.justns.ru^
 ||services.u7542944zc.ha004.t.justns.ru^
 ||services.u7558345ef.ha004.t.justns.ru^
+||services.vlitag.com^
 ||services.wetek.com^
 ||services07a-chase.serveirc.com^
 ||services1-qos.appl.kp.org^
@@ -74525,6 +75363,7 @@ star-mini.c10r.facebook.com^$important
 ||serving-ad.tv24.vn^
 ||serving-sys.com^
 ||serving-system.com^
+||serving.adbetclickin.pink^
 ||servingtrkid.com^
 ||serviziwebintesa.com^
 ||servlce-288363.site^
@@ -74608,12 +75447,14 @@ star-mini.c10r.facebook.com^$important
 ||sevendaystart.com^
 ||sevenebk.com^
 ||sevenialfeminde.fun^
+||sevening.club^
 ||sevenstarplushotelcom.shuiacall.top^
 ||seventbk.com^
 ||seventhheavenwishescom.shaxiaapril.top^
 ||seventhheavenwishescom.shaxiaoh.top^
 ||seventual.site^
 ||sevenubk.com^
+||severalpros.info^
 ||severymurden.site^
 ||sevice-1imited-paypa1.com^
 ||sevootie.com^
@@ -74840,6 +75681,7 @@ star-mini.c10r.facebook.com^$important
 ||sharks.vn^
 ||sharmanirmal.com^
 ||sharp-bartik-bf03ef.netlify.com^
+||sharp.ondu.ru^
 ||sharpmode53.xyz^
 ||sharppatch.com^
 ||sharpspring.com^
@@ -74893,6 +75735,7 @@ star-mini.c10r.facebook.com^$important
 ||shemaniholmesed.com^
 ||shemeejo.com^
 ||shemirta.info^
+||shen.zgfszs.com^
 ||shenbimall.com^
 ||shengchaopiao.cn^
 ||shengdaoyiliao.com^
@@ -75053,6 +75896,7 @@ star-mini.c10r.facebook.com^$important
 ||shovewhe.com^
 ||show-de-ofertas.promocaolevetudo.com^
 ||show.everytell.com^
+||show.g.mediav.com^
 ||show.kc.taotaosou.com^
 ||show.niqiu99.org^
 ||show1.website^
@@ -75075,6 +75919,7 @@ star-mini.c10r.facebook.com^$important
 ||shqads.com^
 ||shqbsdjatunl.com^
 ||shreveportlad.buzz^
+||shrinkearn.com^
 ||shrinktheweb.com^
 ||shriyukt.com^
 ||shroud-lores.fun^
@@ -75112,6 +75957,7 @@ star-mini.c10r.facebook.com^$important
 ||shuwuzhan.com^
 ||shuxcbgab.com^
 ||shvjvbmyyyfa.com^
+||shweflix.com^
 ||shwjxzfws.002.sh.cn^
 ||shxinjie.cn^
 ||shxx8.cn^
@@ -75337,6 +76183,7 @@ star-mini.c10r.facebook.com^$important
 ||siicg8lgadurupkt.com^
 ||sikelypleaste.site^
 ||sikshatrust.in^
+||sikx1ivtjbi8.com^
 ||silahkan.joins5.com^
 ||silentfool.club^
 ||silganpcecom.nckibrazil.gdn^
@@ -75416,6 +76263,7 @@ star-mini.c10r.facebook.com^$important
 ||sinawbimg.com^
 ||sincerebuffalo.com^
 ||sinceresofa.com^
+||sinceresubstance.com^
 ||sincernething.site^
 ||sincetrade.com^
 ||sincronismodedispositivocard.com^
@@ -75547,6 +76395,7 @@ star-mini.c10r.facebook.com^$important
 ||siwtbongdxve.com^
 ||sixautch.com^
 ||sixgen.cn^
+||sixpcgame.com^
 ||sixscissors.com^
 ||sixsigmatraffic.com^
 ||sixthaveelectronicscitycom.chifanblow.top^
@@ -75798,6 +76647,7 @@ star-mini.c10r.facebook.com^$important
 ||smart-tds.info^
 ||smart-traffik.com^
 ||smart.allocine.fr
+||smart.allocine.fr^
 ||smart.link^
 ||smart.tinyhoneybee.com^
 ||smart2.allocine.fr^
@@ -76247,6 +77097,7 @@ star-mini.c10r.facebook.com^$important
 ||smitionsory.co^
 ||smnkyzqzfxk.com^
 ||smodus.nike.com^
+||smoggystation.com^
 ||smoldering786tk.pw^
 ||smon.loc.gov^
 ||smonstr.ru^
@@ -76258,6 +77109,7 @@ star-mini.c10r.facebook.com^$important
 ||smpbzsjpk.com^
 ||smpdth.cn^
 ||smpgfx.com^
+||smpl.hit.ppdb.pl^
 ||smpop.icfcdn.com^
 ||smrk.io^
 ||smrt.as^
@@ -76329,6 +77181,7 @@ star-mini.c10r.facebook.com^$important
 ||sn.mathessatellite.com^
 ||sn.urkingdomsa.org^
 ||sn00.net
+||sn00.net^
 ||snack-media.com^
 ||snackology.me^
 ||snakesort.com^
@@ -76348,6 +77201,7 @@ star-mini.c10r.facebook.com^$important
 ||snat.goguardian.com^
 ||snbybgwiyfug.com^
 ||snckdjuymeopsc.com^
+||snd.tc^
 ||sndgydifipxuui.com^
 ||sndkorea.co.kr^
 ||sne.rogagot.com^
@@ -76443,6 +77297,7 @@ star-mini.c10r.facebook.com^$important
 ||social-network-register-correction-us2.my.id^
 ||social-sb.com^
 ||socialadp.com^
+||socialbars-web1.com^
 ||socialbirth.com^
 ||socialbonus2020.space^
 ||socialelective.com^
@@ -76472,6 +77327,7 @@ star-mini.c10r.facebook.com^$important
 ||socketanalytics.com^
 ||socketron.app1e.outreach.cloud^
 ||socketviking.net^
+||sockjs-goguardian.pusher.com^
 ||socratecafu.zapto.org^
 ||socsacorp.com^
 ||socsi.in^
@@ -76937,6 +77793,7 @@ star-mini.c10r.facebook.com^$important
 ||spellsalsa.com^
 ||spendeivivar.site^
 ||spentalwithinga.info^
+||sperans-beactor.com^
 ||sperxinglumssur.ga^
 ||spesadcom.nckibrazil.gdn^
 ||spezialreporte.de^
@@ -76979,6 +77836,8 @@ star-mini.c10r.facebook.com^$important
 ||spjvuubtewq.com^
 ||spk-sicherheits-check.org^
 ||spklw.com^
+||spkrth.scw.systems^
+||spl.ztvx8.com^
 ||splac-dlug.com^
 ||splaczadluzenie.com^
 ||splash-laundromatlv.com^
@@ -76995,6 +77854,7 @@ star-mini.c10r.facebook.com^$important
 ||spn-twr-14.com^
 ||spn.ee^
 ||spncdypq.com^
+||spo7h3ktdvy5.com^
 ||spoki-noki.net^
 ||spolecznosci.net^
 ||spongecell.com^
@@ -77352,6 +78212,7 @@ star-mini.c10r.facebook.com^$important
 ||srwww1.com^
 ||srx.com.sg^
 ||ss.biquge.la^
+||ss.musthird.com^
 ||ss.ting55.com^
 ||ss0557.com^
 ||ss2221.com^
@@ -77456,10 +78317,12 @@ star-mini.c10r.facebook.com^$important
 ||ssorsophicla.info^
 ||ssotctestapp1ext.fanniemae.com^
 ||ssp*.rtb.beeline.ru^
+||ssp.adxpremium.com^
 ||ssp.hinet.net^
 ||ssp.kdnet.net^
 ||ssp.mediation.trnox.com^
 ||ssp.njxzwh.com^
+||ssp.otm-r.com^
 ||ssp.zf313.com^
 ||ssp.zryydi.com^
 ||ssphwy.com^
@@ -77520,11 +78383,13 @@ star-mini.c10r.facebook.com^$important
 ||sswz78.com^
 ||ssypntfmi.com^
 ||st-amu-cz.my-free.website^
+||st-n.pc3ads.com^
 ||st.appme.ru^
 ||st.astraone.io^
 ||st.bahn.de^
 ||st.cdnco.us^
 ||st.cv46.ru^
+||st.dynamicyield.com^
 ||st.linkfire.com^
 ||st.mazdausa.com^
 ||st.onlygip.tech^
@@ -77570,6 +78435,7 @@ star-mini.c10r.facebook.com^$important
 ||staging.semperkitchen.com^
 ||staging.xn--lockchain-zy5d.com^
 ||stagingjobshq.com^
+||stags.bluekai.com^
 ||stahlbauweldonde.shaxiaaccommodation.top^
 ||staidalarmedbruteforceprogramming.vasdwadsad.repl.co^
 ||staimpor.net^
@@ -77628,6 +78494,7 @@ star-mini.c10r.facebook.com^$important
 ||startupterrscetw.baersevensunday.top^
 ||starunitedregistry.top^
 ||starzoooon777.com^
+||stas.outbrain.com^
 ||stat*.1internet.tv^
 ||stat-rock.com^
 ||stat-ssl.priceprice.com^
@@ -77642,6 +78509,7 @@ star-mini.c10r.facebook.com^$important
 ||stat.analytiall.com^
 ||stat.bdc.ca^
 ||stat.boredomtherapy.com^
+||stat.botdetector.ru^
 ||stat.cliche.se^
 ||stat.clichehosting.de^
 ||stat.clickfrog.ru^
@@ -77663,6 +78531,7 @@ star-mini.c10r.facebook.com^$important
 ||stat.matichon.co.th^
 ||stat.media^
 ||stat.meitudata.com^
+||stat.mixi.media^
 ||stat.moevideo.net^
 ||stat.moonwalk.co^
 ||stat.novostimira.com^
@@ -77702,6 +78571,7 @@ star-mini.c10r.facebook.com^$important
 ||stat24.meta.ua^
 ||stat24.ru^
 ||stat4.edev.at^
+||statad.ru^
 ||statcamp.net^
 ||statcount.com^
 ||statcounter.com^
@@ -77724,18 +78594,23 @@ star-mini.c10r.facebook.com^$important
 ||static*.365inews.com^
 ||static-ads.akamaized.net^
 ||static-ads.zaloapp.com^
+||static-cn.plista.com^
 ||static-sb.com^
 ||static-ssp.yidianzixun.com^
+||static-trackers.adtarget.me^
 ||static.133.209.217.95.clients.your-server.de^
 ||static.147.129.47.78.clients.your-server.de^
 ||static.39.118.203.116.clients.your-server.de^
 ||static.80.169.130.94.clients.your-server.de^
 ||static.adtidy.net^
 ||static.analytics-site.com^
+||static.clickscloud.net^
+||static.doubleclick.net^
 ||static.hoptopboy.com^
 ||static.ichehome.com^
 ||static.jiaquyi.com^
 ||static.mvot.vn^
+||static.parsely.com^
 ||static.prototypes.ru^
 ||static.terrhq.ru^
 ||staticad.thethao247.vn^
@@ -77797,6 +78672,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.asp24.pl^
 ||stats.autoscout24.ch^
 ||stats.avg.com^
+||stats.aws.rubiconproject.com^
 ||stats.bannernow.com^
 ||stats.bbc.co.uk^
 ||stats.behance.net^
@@ -77814,6 +78690,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.cardschat.com^
 ||stats.christianpost.com^
 ||stats.clear-media.com^
+||stats.clickability.com^
 ||stats.clickforknowledge.com^
 ||stats.cloudwp.io^
 ||stats.cmcigroup.com^
@@ -77831,6 +78708,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.dnaindia.com^
 ||stats.dongphim.net^
 ||stats.duo.rijkscloud.nl^
+||stats.ebay.com^
 ||stats.edicy.com^
 ||stats.europe.newsweek.com^
 ||stats.eyeviewdigital.com^
@@ -77841,12 +78719,14 @@ star-mini.c10r.facebook.com^$important
 ||stats.fr^
 ||stats.frankfurterneuepresse.de^
 ||stats.ft.com^
+||stats.g.doubleclick.net^
 ||stats.geegain.com^
 ||stats.gifs.com^
 ||stats.guiamais.com.br^
 ||stats.harpercollins.com^
 ||stats.heyoya.com^
 ||stats.highwire.com^
+||stats.hprofits.com^
 ||stats.hyperinzerce.cz^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.co.uk^
@@ -77863,6 +78743,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.mako.co.il^
 ||stats.media.onet.pl^
 ||stats.mehrnews.com^
+||stats.miarroba.info^
 ||stats.mint.ca^
 ||stats.mirror.co.uk^
 ||stats.mirrorfootball.co.uk^
@@ -77888,6 +78769,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.piaggio.com^
 ||stats.polldaddy.com^
 ||stats.popcap.com^
+||stats.popupmaker.com^
 ||stats.propublica.org^
 ||stats.pusher.com^
 ||stats.qmerce.com^
@@ -77904,12 +78786,14 @@ star-mini.c10r.facebook.com^$important
 ||stats.searchftps.net^
 ||stats.searchftps.org^
 ||stats.searchsight.com^
+||stats.seedr.com^
 ||stats.sharenet.co.za^
 ||stats.shopify.com^
 ||stats.shoppydoo.com^
 ||stats.simply-hentai.com^
 ||stats.slashgear.com^
 ||stats.slideshare.net^
+||stats.smartclip.net^
 ||stats.someecards.com^
 ||stats.storify.com^
 ||stats.streamhub.io^
@@ -77920,6 +78804,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.technopia.it^
 ||stats.thevideo.me^
 ||stats.tipser.com^
+||stats.topofblogs.com^
 ||stats.townnews.com^
 ||stats.tudou.com^
 ||stats.tvmaze.com^
@@ -77938,6 +78823,7 @@ star-mini.c10r.facebook.com^$important
 ||stats.videoseyredin.net^
 ||stats.vidyome.com^
 ||stats.vietnammoi.vn^
+||stats.visistat.com^
 ||stats.vliplatform.com^
 ||stats.vpscash.nl^
 ||stats.vulture.com^
@@ -77966,6 +78852,7 @@ star-mini.c10r.facebook.com^$important
 ||stats2.tune.pk^
 ||stats21.com^
 ||stats2513.com^
+||stats3.unrulymedia.com^
 ||stats4all.com^
 ||stats4free.de^
 ||stats4u.lv^
@@ -77983,6 +78870,7 @@ star-mini.c10r.facebook.com^$important
 ||statsevent.com^
 ||statsforads.com^
 ||statsforever.com^
+||statsgoogle.appsflyer.com^
 ||statsie.com^
 ||statsimg.com^
 ||statsinsight.com^
@@ -78374,6 +79262,7 @@ star-mini.c10r.facebook.com^$important
 ||storygize.net^
 ||storystack.com^
 ||stoshoos.com^
+||stospubede.xyz^
 ||stovoudu.com^
 ||stpresuppport.com^
 ||str1kee.com^
@@ -78408,6 +79297,7 @@ star-mini.c10r.facebook.com^$important
 ||streamdownloadonline.com^
 ||streamingcastle.me^
 ||streamsend.com^
+||streamspeedygreatlyapplication.best^
 ||strearncommunity.xyz^
 ||streem.com.au^
 ||street-on-which.info^
@@ -78452,6 +79342,7 @@ star-mini.c10r.facebook.com^$important
 ||strudengauerwachdienstcom.shaxiasay.top^
 ||strugvainstroes.org^
 ||struq.com^
+||sts.batmobi.net^
 ||sts.eccmp.com^
 ||sts34.ru^
 ||stskuriercom.shaxiabuy.top^
@@ -78460,6 +79351,7 @@ star-mini.c10r.facebook.com^$important
 ||stt.dell.com^
 ||stt.nvidia.com^
 ||stuartlawcase.com^
+||studcat.infra.systems^
 ||studentenhausklevecom.shaxiaact.top^
 ||studentloan.host^
 ||studerin.batwoqishoes.top^
@@ -79188,6 +80080,7 @@ star-mini.c10r.facebook.com^$important
 ||surveyor.vo.llnwd.net^
 ||surveyscout.com^
 ||surveyvalue.mobi^
+||surveywall-api.survata.com^
 ||surveywriter.com^
 ||survicate.com^
 ||survicetionb.info^
@@ -79296,6 +80189,7 @@ star-mini.c10r.facebook.com^$important
 ||swantazzz121.com^
 ||swap-tradegg.com^
 ||swasc.kaufland.de^
+||swayshosshun.icu^
 ||swaze.xyz^
 ||swbdds.com^
 ||swcomnizeptcom.shaxiaaudio.top^
@@ -79307,6 +80201,7 @@ star-mini.c10r.facebook.com^$important
 ||swdnsinfo.shaxiaoh.top^
 ||swdxa.xyz^
 ||sweatforcake.com^
+||sweatheru.club^
 ||sweb.ulta.com^
 ||swebanalytics.acs.org^
 ||swebanalytics.pgatour.com^
@@ -79442,7 +80337,12 @@ star-mini.c10r.facebook.com^$important
 ||symmetrymarketingsystems.com^
 ||symphoneupcom.site^
 ||synacast.com^
+||sync.1dmp.io^
+||sync.adap.tv^
+||sync.adotmob.com^
 ||sync.mobojoy.baidu.com^
+||sync.morgdm.ru^
+||sync.outbrain.com^
 ||sync.shinobi.jp^
 ||sync.tv^
 ||sync.zoominfoupdates.com^
@@ -79451,6 +80351,10 @@ star-mini.c10r.facebook.com^$important
 ||synconnector.com^
 ||syndapop.com^
 ||syndicatedsearchresults.com^
+||syndication.exdynsrv.com^
+||syndication.exoclick.com^
+||syndication.exosrv.com^
+||syndication.globaltraffico.com^
 ||syndication.jsadapi.com^
 ||syndication.trafficreps.com^
 ||syndopop.com^
@@ -79460,6 +80364,7 @@ star-mini.c10r.facebook.com^$important
 ||synerise.com^
 ||syngrestic.com^
 ||synhandler.net
+||synhandler.net^
 ||synonymous-wonderful-truck.glitch.me^
 ||synovite-scripts.com^
 ||syntax-oga.us-south.cf.appdomain.cloud^
@@ -79563,12 +80468,15 @@ star-mini.c10r.facebook.com^$important
 ||t.a3cloud.net^
 ||t.adlpo.com^
 ||t.amynx.com^
+||t.appsflyer.com^
+||t.arianelab.com^
 ||t.awcna.com^
 ||t.beopinion.com^
 ||t.bimvid.com^
 ||t.blinkist.com^
 ||t.booksuper.info^
 ||t.brand-server.com^
+||t.c4tw.net^
 ||t.castle.io^
 ||t.cfjump.com^
 ||t.cinemablend.com^
@@ -79587,7 +80495,9 @@ star-mini.c10r.facebook.com^$important
 ||t.flux.com^
 ||t.frtyi.com^
 ||t.honker.info^
+||t.hoood.info^
 ||t.hypers.com.cn^
+||t.insigit.com^
 ||t.karte.io^
 ||t.kck.st^
 ||t.kelkoogroup.net^
@@ -79597,11 +80507,15 @@ star-mini.c10r.facebook.com^$important
 ||t.menepe.com^
 ||t.mtagmonetizationb.com^
 ||t.my.jobs^
+||t.nativendo.de^
 ||t.ofsys.com^
 ||t.paypal.com^
 ||t.powerreviews.com^
 ||t.premii.com^
+||t.proext.com^
+||t.pswec.com^
 ||t.pusk.ru^
+||t.quisma.com^
 ||t.raptorsmartadvisor.com^
 ||t.seesaa.net^
 ||t.sexycontent.net^
@@ -79613,10 +80527,12 @@ star-mini.c10r.facebook.com^$important
 ||t.vimeo.com^
 ||t.wayfair.com^
 ||t.xtubetv.net^
+||t.yzwr588.com^
 ||t05h.awaykart.com^
 ||t0p0ff3rs.com^
 ||t1.612.com^
 ||t1.clipkit.com^
+||t1.musthird.com^
 ||t2-e.ikizland.com^
 ||t2.hulu.com^
 ||t2.huluim.com^
@@ -79652,6 +80568,7 @@ star-mini.c10r.facebook.com^$important
 ||ta-behesht.ir^
 ||ta-joinwhatsapp18.bkp-18.ga^
 ||ta.queit.in^
+||ta.trs.cn^
 ||ta1ngawdyu.dropboxengine.com^
 ||tab.ffsmarketplace.com^
 ||tabici.com^
@@ -79730,10 +80647,12 @@ star-mini.c10r.facebook.com^$important
 ||tagmngrs.com^
 ||tagon.co^
 ||tags-bootstrap.icu^
+||tags.bluekai.com^
 ||tags.cdn.circlesix.co^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.op-palvelut.fi^
+||tags.orquideassp.com^
 ||tagsadvancenative-glb8iionio2cozc.netdna-ssl.com^
 ||tagshost.com^
 ||tagsrvcs.com^
@@ -79864,6 +80783,7 @@ star-mini.c10r.facebook.com^$important
 ||targaubs.com^
 ||target.cisco.com^
 ||target.mirtesen.ru^
+||target.mixi.media^
 ||target.smi2.net^
 ||target.smi2.ru^
 ||target.ukr.net^
@@ -79872,6 +80792,7 @@ star-mini.c10r.facebook.com^$important
 ||targeterra.info^
 ||targetfuel.com^
 ||targeting.*.arcpublishing.com^
+||targeting.perso.aws.arc.pub^
 ||targeting.voxus.tv^
 ||targeting.wpdigital.net^
 ||targetingnow.com^
@@ -79911,6 +80832,7 @@ star-mini.c10r.facebook.com^$important
 ||taumdaws.com^
 ||tauptaup.com^
 ||taurasagency.com^
+||taurus.iad.appboy.com^
 ||tauwhout.net^
 ||tavares.vip^
 ||taveredezeri.site^
@@ -80124,6 +81046,7 @@ star-mini.c10r.facebook.com^$important
 ||teasermoney.com^
 ||teasermoney.ru^
 ||teasernet.
+||teasernet.com^
 ||teaserplay.ru^
 ||teaserpro.ru^
 ||teaserrotator.com^
@@ -80140,6 +81063,7 @@ star-mini.c10r.facebook.com^$important
 ||tebo0o2xw4.com^
 ||tebusco.com.ec^
 ||tebxolaok.buzz^
+||tebyj99zkdyb.com^
 ||tec-tec-boom.com^
 ||tech-billreturnqs.com^
 ||tech-boa.serveirc.com^
@@ -80179,6 +81103,8 @@ star-mini.c10r.facebook.com^$important
 ||tedianakharam.com^
 ||tedioustooth.com^
 ||tedropkinthenligh.pro^
+||tedruptcyfal.info^
+||teedmightse.info^
 ||teee-shop.com^
 ||teefpagayhb.com^
 ||teemacfznt.com^
@@ -80214,6 +81140,7 @@ star-mini.c10r.facebook.com^$important
 ||telemetry.allrecipes.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.art19.com^
+||telemetry.jivosite.com^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.swe.quicinc.com^
@@ -80221,6 +81148,7 @@ star-mini.c10r.facebook.com^$important
 ||telemetry.tradingview.com^
 ||telemetrytaxonomy.net^
 ||telemetryverification.net^
+||telephants.club^
 ||telephone-fixeinfo.firebaseapp.com^
 ||telephone-fixeinfo.web.app^
 ||telephone-messagerie.web.app^
@@ -80287,6 +81215,7 @@ star-mini.c10r.facebook.com^$important
 ||tentationliye.com^
 ||tentdinationgab.info^
 ||tentekuzi.com^
+||tentiaggie.club^
 ||tenwhinilci.ml^
 ||teosredic.com^
 ||tepazmynhvo.com^
@@ -80490,6 +81419,7 @@ star-mini.c10r.facebook.com^$important
 ||tgmygw.biz^
 ||tgpaymentcom.nckiwomen.gdn^
 ||tgsmtdata4.pro
+||tgtag.io^
 ||tgteamcom.shuiabudget.top^
 ||tgtmedia.com^
 ||tgugqkjvinvgv.com^
@@ -80517,6 +81447,7 @@ star-mini.c10r.facebook.com^$important
 ||thatsping.jp^
 ||thatvitaminhub.com^
 ||thauftoa.net^
+||thautsie.net^
 ||thawmicrophone.com^
 ||thbuhcnpt.com^
 ||thc420world.com^
@@ -80741,6 +81672,7 @@ star-mini.c10r.facebook.com^$important
 ||thinkfreedomrei.styleandtrendclothing.com^
 ||thinknear.com^
 ||thinkupfront.com^
+||third-tracking.com^
 ||thirdrespect.com^
 ||thirgoad.top^
 ||thirsty-one.netlify.com^
@@ -81073,6 +82005,7 @@ star-mini.c10r.facebook.com^$important
 ||tizer.in^
 ||tizer.passion.ru^
 ||tizer.rupornophoto.com^
+||tizer.ssl-services.com^
 ||tizer.ukraine-ru.net^
 ||tizer.ws^
 ||tizer24.ru^
@@ -81130,6 +82063,7 @@ star-mini.c10r.facebook.com^$important
 ||tk.504pk.com^
 ||tk.kaufda.de^
 ||tk.meinprospekt.de^
+||tk.storetail.io^
 ||tk59n.cn^
 ||tkbo.com^
 ||tkcatwalk.aotter.net^
@@ -81185,6 +82119,7 @@ star-mini.c10r.facebook.com^$important
 ||tm-offers.gamingadult.com^
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
+||tm.zedo.com^
 ||tm1-001.com^
 ||tm1.hoiplay.com^
 ||tmagrosanders.com^
@@ -81193,6 +82128,7 @@ star-mini.c10r.facebook.com^$important
 ||tmc4d.awaykart.com^
 ||tmcarthur.com^
 ||tmdn2015x9.com^
+||tme2wrwzz3wh.com^
 ||tmfkuesmlpto.com^
 ||tmgomas.lk^
 ||tmgr.ccmbg.com^
@@ -81382,6 +82318,7 @@ star-mini.c10r.facebook.com^$important
 ||top.eomy.net^
 ||top.gamesby.net^
 ||top.gigmir.net^
+||top.hsdn.org^
 ||top.list.ru^
 ||top.lv^
 ||top.mail.ru^
@@ -81390,8 +82327,10 @@ star-mini.c10r.facebook.com^$important
 ||top.skyzone.ro^
 ||top.t-sk.ru^
 ||top.topua.net^
+||top100-images.rambler.ru^
 ||top100.ezar.ru^
 ||top100.mafia.ru^
+||top100.rambler.ru^
 ||top100.vkirove.ru^
 ||top100bloggers.com^
 ||top100webshops.com^
@@ -81524,6 +82463,7 @@ star-mini.c10r.facebook.com^$important
 ||torshatencalsi.info^
 ||torstytons.pro^
 ||tortdiscreets.club^
+||toruk.tanx.com^
 ||torvind.com^
 ||torytalenty.site^
 ||toscanaurlaubnet.shaxiaapril.top^
@@ -81631,16 +82571,21 @@ star-mini.c10r.facebook.com^$important
 ||tr.bannersdf.com^
 ||tr.bt.matrixspa.it^
 ||tr.cloud-media.fr^
+||tr.connatix.com^
 ||tr.datanyze.com^
 ||tr.infopanel.jp^
 ||tr.interlake.net^
+||tr.jixie.io^
 ||tr.junaroad.com^
 ||tr.mobilciyiz.net^
 ||tr.n2.hk^
+||tr.outbrain.com^
 ||tr.samoresim.ru^
 ||tr.snapchat.com^
 ||tr.suedkurier.de^
+||tr.webantenna.info^
 ||tr.zhzy999.net^
+||tr1.admeira.ch^
 ||tr1.mailperformance.com^
 ||tr2.kaspersky.com^
 ||tr553.com^
@@ -81685,17 +82630,25 @@ star-mini.c10r.facebook.com^$important
 ||track-re01.com^
 ||track-server-100.com^
 ||track-srv.vietnamnet.vn^
+||track-victoriadates.com^
 ||track-web.net^
 ||track.99acres.com^
 ||track.accesstrade.vn^
+||track.adabra.com^
 ||track.addevent.com^
+||track.adform.net^
+||track.adintend.com^
 ||track.adsformarket.com^
+||track.analitycs.net^
 ||track.anchorfree.com^
 ||track.aplaut.io^
+||track.appsflyer.com^
 ||track.atgstores.com^
 ||track.atom-data.io^
 ||track.auckland.ac.nz^
+||track.audtd.com^
 ||track.bannedcelebs.com^
+||track.bcvc.mobi^
 ||track.beeketing.com^
 ||track.berliner-kurier.de^
 ||track.bizjournals.com^
@@ -81739,15 +82692,20 @@ star-mini.c10r.facebook.com^$important
 ||track.juno.com^
 ||track.kyoads.com^
 ||track.leadhit.io^
+||track.leadin.com^
 ||track.leady.cz^
 ||track.mailerlite.com^
 ||track.mobshark.net^
 ||track.mopo.de^
+||track.mp3bars.com^
+||track.mp3vizor.com^
 ||track.mycliplister.com^
 ||track.neianalytics.com^
 ||track.netzero.net^
 ||track.ning.com^
+||track.noddus.com^
 ||track.noz.de^
+||track.omg2.com^
 ||track.omgpl.com^
 ||track.pingstart.com^
 ||track.pnicnik.live^
@@ -81756,20 +82714,27 @@ star-mini.c10r.facebook.com^$important
 ||track.price.ru^
 ||track.pricespider.com^
 ||track.promptfile.com^
+||track.push-ad.com^
 ||track.pushbullet.com^
 ||track.qcri.org^
 ||track.qoof.com^
 ||track.ra.icast.cn^
+||track.recreativ.ru^
 ||track.saygames.io^
+||track.searchignite.com^
 ||track.searchiq.co^
+||track.securedvisit.com^
 ||track.segmentstream.com^
 ||track.segmetrics.io^
 ||track.sendo.vn^
 ||track.shop2market.com^
+||track.sitetag.us^
 ||track.slideshare.net^
 ||track.social.com^
 ||track.sohu.com^
+||track.special-offers.online^
 ||track.spots.im^
+||track.sprinklecontent.com^
 ||track.srv.vietnamnet.vn^
 ||track.strife.com^
 ||track.talkscreativity.com^
@@ -81780,23 +82745,29 @@ star-mini.c10r.facebook.com^$important
 ||track.tenjin.io^
 ||track.thebase.in^
 ||track.thesaurus.com^
+||track.thevtk.com^
 ||track.tiara.daum.net^
 ||track.tooplay.com^
+||track.toroadvertising.com^
 ||track.trafficscore.com^
 ||track.trdrs.de^
 ||track.uc.cn^
 ||track.ugamezone.com^
 ||track.ultimate-guitar.com^
+||track.untd.com^
 ||track.vatgia.com^
+||track.vdo.ai^
 ||track.veedio.it^
 ||track.videoblocks.io^
 ||track.vivaclix.com^
 ||track.vscash.com^
 ||track.wayin.com^
+||track.websiteceo.com^
 ||track.wildblue.com^
 ||track.workablemetro.com^
 ||track.written.com^
 ||track.yfret.com^
+||track.yieldsoftware.com^
 ||track.youniversalmedia.com^
 ||track.zalando.
 ||track.zappos.com^
@@ -81805,6 +82776,8 @@ star-mini.c10r.facebook.com^$important
 ||track2.dulingo.com^
 ||track2.me^
 ||track2.mycliplister.com^
+||track2.trbo.com^
+||trackad2.com^
 ||trackaffpix.com^
 ||trackalyzer.com^
 ||trackandshop.pk^
@@ -81822,10 +82795,12 @@ star-mini.c10r.facebook.com^$important
 ||trackedweb.net^
 ||tracker-api.my.com^
 ||tracker.adnext.pl^
+||tracker.adotmob.com^
 ||tracker.adreadyclick.com^
 ||tracker.affiliate.iqoption.com^
 ||tracker.affirm.com^
 ||tracker.aivix.com^
+||tracker.ampush.io^
 ||tracker.anandtech.com^
 ||tracker.azet.sk^
 ||tracker.beezup.com^
@@ -81859,12 +82834,14 @@ star-mini.c10r.facebook.com^$important
 ||tracker.neon-images.com^
 ||tracker.phunuvagiadinh.vn^
 ||tracker.pinnaclesports.com^
+||tracker.plerdy.com^
 ||tracker.prom.ua^
 ||tracker.providence.org^
 ||tracker.realclearpolitics.com^
 ||tracker.redditmedia.com^
 ||tracker.remp.impresa.pt^
 ||tracker.revip.info^
+||tracker.roitesting.com^
 ||tracker.rqmob.com^
 ||tracker.secretescapes.com^
 ||tracker.shopclues.com^
@@ -81875,6 +82852,7 @@ star-mini.c10r.facebook.com^$important
 ||tracker.timesgroup.com^
 ||tracker.tintucvietnam.vn^
 ||tracker.twenga.
+||tracker.twenga.pl^
 ||tracker.unbxdapi.com^
 ||tracker.uprinting.com^
 ||tracker.washtimes.com^
@@ -81884,6 +82862,7 @@ star-mini.c10r.facebook.com^$important
 ||tracker.yougov.com^
 ||trackerapi.truste.com^
 ||trackerislive.com^
+||trackers.adtarget.me^
 ||trackersimulator.org^
 ||trackertest.org^
 ||trackfeed.com^
@@ -81901,10 +82880,13 @@ star-mini.c10r.facebook.com^$important
 ||tracking.aatkit.com^
 ||tracking.acekoala.com^
 ||tracking.adactioninteractive.com^
+||tracking.adalyser.com^
 ||tracking.adp.com^
 ||tracking.adsrv.io^
+||tracking.adsx.unityads.unity3d.com^
 ||tracking.adweb.co.kr^
 ||tracking.aegpresents.com^
+||tracking.aita.gov.vn^
 ||tracking.ancestry.com^
 ||tracking.api.shoppinggives.com^
 ||tracking.applift.com^
@@ -81931,6 +82913,7 @@ star-mini.c10r.facebook.com^$important
 ||tracking.deluxe-marketing.com^
 ||tracking.directservices.it^
 ||tracking.drsfostersmith.com^
+||tracking.dsmmadvantage.com^
 ||tracking.ecookie.fr^
 ||tracking.edvisors.com^
 ||tracking.ehavior.net^
@@ -81941,6 +82924,7 @@ star-mini.c10r.facebook.com^$important
 ||tracking.evergy.com^
 ||tracking.fanbridge.com^
 ||tracking.fccinteractive.com^
+||tracking.feedperfect.com^
 ||tracking.fits.me^
 ||tracking.fsjmp.com^
 ||tracking.g2crowd.com^
@@ -81959,7 +82943,10 @@ star-mini.c10r.facebook.com^$important
 ||tracking.imspublishergroup.com^
 ||tracking.internetstores.de^
 ||tracking.interweave.com^
+||tracking.intl.miui.com^
 ||tracking.jotform.com^
+||tracking.kdata.fr^
+||tracking.keywee.co^
 ||tracking.koego.com^
 ||tracking.kubota.ca^
 ||tracking.kurier.at^
@@ -81988,8 +82975,10 @@ star-mini.c10r.facebook.com^$important
 ||tracking.mwe.com^
 ||tracking.mycapture.com^
 ||tracking.netmind-cloud.com^
+||tracking.netvigie.com^
 ||tracking.netzathleten-media.de^
 ||tracking.nextdoor.com^
+||tracking.novem.pl^
 ||tracking.oe24.at^
 ||tracking.oldnational.com^
 ||tracking.olx-st.com^
@@ -82009,6 +82998,8 @@ star-mini.c10r.facebook.com^$important
 ||tracking.promiflash.de^
 ||tracking.propelmedia.com^
 ||tracking.questdiagnostics.com^
+||tracking.quillion.com^
+||tracking.quisma.com^
 ||tracking.rapidape.com^
 ||tracking.rce.veeseo.com^
 ||tracking.realtor.com^
@@ -82018,13 +83009,18 @@ star-mini.c10r.facebook.com^$important
 ||tracking.rightmessage.com^
 ||tracking.rtl.de^
 ||tracking.s24.com^
+||tracking.scenepass.com^
+||tracking.searchmarketing.com^
 ||tracking.sembox.it^
 ||tracking.sezzle.com^
 ||tracking.shoptogether.buy.com^
 ||tracking.sim-technik.de^
 ||tracking.skyword.com^
 ||tracking.softwareprojects.com^
+||tracking.sokrati.com^
+||tracking.sponsorpay.com^
 ||tracking.srv2.de^
+||tracking.synthasite.net^
 ||tracking.target2sell.com^
 ||tracking.tchibo.de^
 ||tracking.thehut.net^
@@ -82105,6 +83101,7 @@ star-mini.c10r.facebook.com^$important
 ||trackyourlinks.com^
 ||trackyourstats.com^
 ||tractocerv.com^
+||tracy.sadv.dadapro.com^
 ||tracy.smartfirstoutlet.ru^
 ||trade-place.top^
 ||trade-place.xyz^
@@ -82133,6 +83130,7 @@ star-mini.c10r.facebook.com^$important
 ||tradukoinfo.augerqisea.top^
 ||traf-3rs.com^
 ||traf-zona.ru^
+||traf2me.ru^
 ||trafex.net^
 ||traff.ru^
 ||traff10wap.com^
@@ -82150,6 +83148,7 @@ star-mini.c10r.facebook.com^$important
 ||traffic.acwebconnecting.com^
 ||traffic.adexprtz.com^
 ||traffic.club^
+||traffic.prod.cobaltgroup.com^
 ||traffic.shareaholic.com^
 ||traffic.tc-clicks.com^
 ||traffic2bitcoin.com^
@@ -82176,6 +83175,7 @@ star-mini.c10r.facebook.com^$important
 ||trafficfuel.com^
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficgate.net^
+||trafficguard.ai^
 ||traffichaus.com^
 ||trafficholder.com^
 ||traffichunt.com^
@@ -82333,6 +83333,7 @@ star-mini.c10r.facebook.com^$important
 ||trbo.com^
 ||trbucgmbren.com^
 ||trc.pushnami.com^
+||trc.taboola.com^
 ||trck.bdi-services.de^
 ||trck.cyberport.de^
 ||trck.dlpo.jp^
@@ -82404,6 +83405,7 @@ star-mini.c10r.facebook.com^$important
 ||trflog.com^
 ||trfmxt.com^
 ||trfpump.com^
+||trfsltions.info^
 ||trgdwwhaa.com^
 ||trgsolutioncom.bfx-mailer.com^
 ||trgsolutioncom.shuiacensus.top^
@@ -82464,8 +83466,10 @@ star-mini.c10r.facebook.com^$important
 ||trk.10ru.pt^
 ||trk.absuite.com.br^
 ||trk.adbutter.net^
+||trk.bhs4.com^
 ||trk.clinch.co^
 ||trk.cloudsna.com^
+||trk.connatix.com^
 ||trk.darkreading.com^
 ||trk.datacenterknowledge.com^
 ||trk.email.dynect.net^
@@ -82479,11 +83483,15 @@ star-mini.c10r.facebook.com^$important
 ||trk.networkcomputing.com^
 ||trk.olnl.net^
 ||trk.opentrack.org^
+||trk.performanceplay.co.kr^
 ||trk.pinterest.com^
+||trk.pswec.com^
 ||trk.realestateexpress.com^
 ||trk.sele.co^
 ||trk.stroeermediabrands.de^
 ||trk.techtarget.com^
+||trk.vidible.tv^
+||trk.vindicosuite.com^
 ||trk4.com^
 ||trkclk.net^
 ||trker.com^
@@ -82491,6 +83499,7 @@ star-mini.c10r.facebook.com^$important
 ||trkleads.ru^
 ||trklnks.com^
 ||trklvs.com
+||trklvs.com^
 ||trkme.net^
 ||trkn.us^
 ||trkrdel.com^
@@ -82616,6 +83625,7 @@ star-mini.c10r.facebook.com^$important
 ||tsatest-812.tk^
 ||tsbrw.xyz^
 ||tscapeplay.com^
+||tscarbornonnae.info^
 ||tsccoop.baerseventhere.top^
 ||tscounter.com^
 ||tsdlp.com^
@@ -82645,6 +83655,7 @@ star-mini.c10r.facebook.com^$important
 ||tst14netreal.com^
 ||tstlabs.co.uk^
 ||tstobkl.pro^
+||tstrokenga.info^
 ||tsuluto.ru^
 ||tsundedhimse.fun^
 ||tsupbmgacu.com^
@@ -82665,13 +83676,17 @@ star-mini.c10r.facebook.com^$important
 ||tt.8wix.com^
 ||tt.biquge.la^
 ||tt.natwest.com^
+||tt.onthe.io^
 ||tt.rbs.co.uk^
+||tt.ttarget.ru^
+||tt.twzui6.com^
 ||tt.ulsterbank.ie^
 ||tt123.eastday.com^
 ||tt2r4.mentriqq.com^
 ||tt7676.com^
 ||ttarget.ru^
 ||ttauri.laptopmag.com^
+||ttauri.livescience.com^
 ||ttbc.cc^
 ||ttdancestudio.com^
 ||ttdetect.staticimgfarm.com^
@@ -82687,6 +83702,7 @@ star-mini.c10r.facebook.com^$important
 ||ttgvmqdpomt.com^
 ||ttheathereco.site^
 ||tthvomis.com^
+||ttkx.qyctj.com^
 ||ttmvaosz.vipsnapchatsexting.com^
 ||ttomktasfnqlg.com^
 ||ttpwdhhk.shoesmogul.com^
@@ -82747,6 +83763,7 @@ star-mini.c10r.facebook.com^$important
 ||tumoperatorlere20gbdestek.com^
 ||tumri.net^
 ||tumts2l0u0.gmz.cc^
+||tunein.adswizz.com^
 ||tunerong.top^
 ||tunesienurlauborg.shaxiareal.top^
 ||tunion-api.m.taobao.com^
@@ -82837,6 +83854,9 @@ star-mini.c10r.facebook.com^$important
 ||tvvnxcwqwzv.com^
 ||tvwewigpqjj.com^
 ||tvxpwhnrhsyfj.com^
+||tw*.netcore.co.in^
+||tw-api.vpon.com^
+||tw.api.vpon.com^
 ||tw1.porkaspk.com^
 ||tw1tter.com^
 ||tw1tter.js3and404.com^
@@ -82972,6 +83992,7 @@ star-mini.c10r.facebook.com^$important
 ||txmoadserver.net^
 ||txnpdfvqkuzrd.com^
 ||txrebate-gov.com^
+||txsadql.cn^
 ||txstatic.cn^
 ||txt.eu^
 ||txt2017.com^
@@ -83026,6 +84047,7 @@ star-mini.c10r.facebook.com^$important
 ||tytttte.qa2.com.cn^
 ||tyuebff.com^
 ||tyukr-----login.ygber.com^
+||tyunderives.info^
 ||tyvk-ru.1gb.ru^
 ||tyxo.bg^
 ||tyxo.com^
@@ -83050,12 +84072,14 @@ star-mini.c10r.facebook.com^$important
 ||u-on.eu^
 ||u-whatsapp.gq^
 ||u.63kc.com^
+||u.btserve.com^
 ||u.cnzol.com^
 ||u.huoying666.com^
 ||u.ldayl.com^
 ||u.www.ldayl.com^
 ||u.xogu.cn^
 ||u.zuoyesou.com^
+||u034024.778669.com^
 ||u07k3pqfw5jh.com^
 ||u0r9.cn^
 ||u1.2048sj.com^
@@ -83075,6 +84099,7 @@ star-mini.c10r.facebook.com^$important
 ||u26u.com^
 ||u2bmco.com^
 ||u2c8.cn^
+||u2htfd3bvwvl.com^
 ||u2sk3.codesandbox.io^
 ||u2tshop.ru^
 ||u39chju32a.com^
@@ -83352,6 +84377,7 @@ star-mini.c10r.facebook.com^$important
 ||ugxshqnodoha.com^
 ||ugyuyuccjgrtht.com^
 ||ugzpvflxa.com^
+||uh.nakanohito.jp^
 ||uh64b.cn^
 ||uh9qulew9rjj.com^
 ||uharded.com^
@@ -83518,6 +84544,7 @@ star-mini.c10r.facebook.com^$important
 ||ulenr.top^
 ||ulfex.cn^
 ||ulife17yeter.com^
+||ulink.adjust.com^
 ||ulizo.gikorip.net^
 ||uljqgjxw.shoesmogul.com^
 ||ulm.vipsnapchatsexting.com^
@@ -83598,6 +84625,7 @@ star-mini.c10r.facebook.com^$important
 ||unauthorized.activity.detected.on.your-account.digitalfm107.com^
 ||unbecominghall.com^
 ||unbfgsgs.jwkalv.cn^
+||uncessoryel.info^
 ||uncn.jp^
 ||uncommoncbd.com^
 ||uncyane.com^
@@ -83611,6 +84639,7 @@ star-mini.c10r.facebook.com^$important
 ||under2given.com^
 ||underarmourportugal.org^
 ||underclick.
+||underclick.ru^
 ||underdog.media^
 ||underdone.ru^
 ||undere.com^
@@ -83870,6 +84899,7 @@ star-mini.c10r.facebook.com^$important
 ||update.manage.data.qbocehzkdu.com^
 ||update.payment-info.store.appl.id0960669400.com^
 ||update.runedung.com^
+||update.sdk.batmobi.net^
 ||update.service.user.information.pelstock.com^
 ||update.system-info.troyhooverart.com^
 ||update.techronicle.org^
@@ -83988,6 +85018,7 @@ star-mini.c10r.facebook.com^$important
 ||upsight.com^
 ||upsnap.com^
 ||upstats.ru^
+||upstats.yadro.ru^
 ||upstory.it^
 ||upszzpxi.dermals.org^
 ||upt.graphiq.com^
@@ -84237,6 +85268,7 @@ star-mini.c10r.facebook.com^$important
 ||usfmamdapvmfs.com^
 ||ushey.top^
 ||ushnegnndsm.labxlg.com^
+||ushoofop.com^
 ||ushooque.net^
 ||usid-08423.mixh.jp^
 ||usid-43846.mixh.jp^
@@ -84274,6 +85306,7 @@ star-mini.c10r.facebook.com^$important
 ||usshjrket.com^
 ||usstero.com^
 ||usswrite.com^
+||ustat.batmobi.net^
 ||ustat.pro^
 ||ustedpicklyba.space^
 ||ustralpublicate.site^
@@ -84397,6 +85430,7 @@ star-mini.c10r.facebook.com^$important
 ||uwyxmjfqlvhqoy.com^
 ||uxbewzrfyp.com^
 ||uxer.goruli.com^
+||uxfpdo3hx5fi.com^
 ||uxicufefiwy.gikorip.net^
 ||uxideepwawz.com^
 ||uxidwkpsl.goruli.com^
@@ -84642,9 +85676,11 @@ star-mini.c10r.facebook.com^$important
 ||vartoken.com^
 ||vasb.cn^
 ||vasdgfsdrt.gq^
+||vashoaft.net^
 ||vashoot.com^
 ||vasifutes.hu^
 ||vasltoy-71.tk^
+||vast.reyden-x.com^
 ||vast.videocdn.tv^
 ||vast4.kinogo.by^
 ||vastpaketet.se^
@@ -85331,6 +86367,7 @@ star-mini.c10r.facebook.com^$important
 ||verresof.com^
 ||verretaside.ga^
 ||versahq.com^
+||verseballs.com^
 ||versetime.com^
 ||versicherungsgurunet.wkk78.cn^
 ||versicherungskontormindencom.shaxiacommittee.top^
@@ -85523,11 +86560,13 @@ star-mini.c10r.facebook.com^$important
 ||vid4vip.com^
 ||vidacaliente2020.xyz^
 ||vidalak.com^
+||vidapi.expepp.de^
 ||vidasys.ru^
 ||vidaugust.ru^
 ||vidbokepviralgrub.xxxsdz.tk^
 ||vidcoin.com^
 ||vidcpm.com^
+||vidcpm.com^third-party
 ||videc10.com^
 ||videicoaoco1.fun^
 ||video-ad-stats.googlesyndication.com^
@@ -85544,6 +86583,7 @@ star-mini.c10r.facebook.com^$important
 ||video-play.ru^
 ||video-stats.video.google.com^
 ||video-webcam.site^
+||video.begun.ru^
 ||video.cars247.tv^
 ||video.facekal.com^
 ||video.flashiest-vacation.win^
@@ -85568,10 +86608,12 @@ star-mini.c10r.facebook.com^$important
 ||videoburner2015.com^
 ||videocap.org^
 ||videoclick.
+||videoclick.ru^
 ||videoclik.
 ||videodeals.com^
 ||videodownloadfaceb00k.altervista.org^
 ||videoegg.com^
+||videoevents.outbrain.com^
 ||videofaceb0okplus.tumblr.com^
 ||videofan.ru^
 ||videoframe.blue^
@@ -85679,6 +86721,7 @@ star-mini.c10r.facebook.com^$important
 ||viewitem.eday.co.uk.itm.ws.vauxhal.lastra.mk516174257807917item289293225.y3efvlj6dotijzf83us87m2lliwkzkk.virtualreicollective.com^
 ||viewitem.eday.couk.myb.sum.ws.mary.ay.gbh155985.pmjsm9r3ktjpubsnfspsv7.k9l7d5k8uutps498.rebelyell.agency^
 ||viewitem.eday.de.ws.isapi.dllsign.inusingssl1puserid.naxpmj9pkjb2bqne4pm1piqrjpy.huesofgray.com^
+||viewm.moonicorn.network^
 ||viewmsgwff3.com^
 ||viewpayment-billingappsstore.gacilmaho.com^
 ||viewpaymenty.wr3e4wrsf.com^
@@ -85692,6 +86735,7 @@ star-mini.c10r.facebook.com^$important
 ||vification-registration-app1eid-locked.jp^
 ||vifmontrerdroit.tk^
 ||vifog.com^
+||vifzod.com^
 ||vigdxlpecmv.com^
 ||vigilant-minsky-e40293.netlify.com^
 ||viglink.com^
@@ -85700,6 +86744,7 @@ star-mini.c10r.facebook.com^$important
 ||vihub.ru^
 ||vihvex.goruli.com^
 ||viighj.com^
+||viihot.com^
 ||viille2.com^
 ||viiotp.com^
 ||viirttubcoosupurrtt.atwebpages.com^
@@ -85749,6 +86794,7 @@ star-mini.c10r.facebook.com^$important
 ||vip-websc.org^
 ||vip.cc188.net^
 ||vip.ludu319.com^
+||vip.min1319.com^
 ||vip.sxyc120.com^
 ||vip222.us^
 ||vip37799.com^
@@ -85974,6 +87020,7 @@ star-mini.c10r.facebook.com^$important
 ||vk-walle.ru^
 ||vk.com.all-droids.ru^
 ||vk.youhack.info^
+||vk77lnizckm6.com^
 ||vkadm.ru^
 ||vkafirac.com^
 ||vkaktivations23.bos.ru^
@@ -86290,6 +87337,7 @@ star-mini.c10r.facebook.com^$important
 ||vqr3jeu1qi41.com^
 ||vqsecityurhab.pw^
 ||vqsggzvcaujh.com^
+||vra.outbrain.com^
 ||vraagaan.space^
 ||vrewpywootyu.com^
 ||vrfacid-w3bsecur3id-statusinf0b345vg3f.uisfiuae.com^
@@ -86304,6 +87352,7 @@ star-mini.c10r.facebook.com^$important
 ||vrsngcuwiiiho.com^
 ||vrt-database-server-18.com^
 ||vrt.news^
+||vrt.outbrain.com^
 ||vrtzads.com^
 ||vru1zyf6.firebaseapp.com^
 ||vry9.destinia.com^
@@ -86508,6 +87557,7 @@ star-mini.c10r.facebook.com^$important
 ||vztfc.com^
 ||vzvpswkjpxvzs.com^
 ||vzw-covidnopay.com^
+||vzw.sp1.convertro.com^
 ||vzwcovid19g-001-site1.1tempurl.com^
 ||vzwcovid19i-001-site1.1tempurl.com^
 ||vzwnmksfhju.top^
@@ -86571,6 +87621,7 @@ star-mini.c10r.facebook.com^$important
 ||w55c.net^
 ||w5cx.awaykart.com^
 ||w5m9.mentriqq.com^
+||w5wm7.cn^
 ||w6522.uenothingrealy.ru^
 ||w65p.com^
 ||w7.atualizeonbb.com^
@@ -86588,6 +87639,7 @@ star-mini.c10r.facebook.com^$important
 ||w9f1.mentriqq.com^
 ||w9jye.mentriqq.com^
 ||w9l7lt3.gmz.cc^
+||w9statistics.info^
 ||wa-bokebhotbarat.vvipx05.cf^
 ||wa-crotsangejapan4023.gifttsnow.com^
 ||wa-dewasa.25u.com^
@@ -86855,6 +87907,7 @@ star-mini.c10r.facebook.com^$important
 ||waverif.joins5.com^
 ||waverif.misecure.com^
 ||waversor.com^
+||waves.retentionscience.com^
 ||wavesetholdings.com^
 ||waveview.info^
 ||waviral2020.mrslove.com^
@@ -87046,6 +88099,7 @@ star-mini.c10r.facebook.com^$important
 ||weathershielddoorsinc.is-a-designer.com^
 ||web-ad.xyz^
 ||web-amazoncomverify.sytes.net^
+||web-analytics.engagio.com^
 ||web-app-mail-secure-id-2385723772.butuhkorban.com^
 ||web-appauthservciesappsupport.chocolateordinary.com^
 ||web-appleauthenticationsbill.liledstidi.business^
@@ -87114,8 +88168,10 @@ star-mini.c10r.facebook.com^$important
 ||web-supportamazon.servecounterstrike.com^
 ||web-updaterequired.servecounterstrike.com^
 ||web-visor.
+||web-visor.com^
 ||web-whatsappjoin.itsaol.com^
 ||web-whatsappsex186.wikaba.com^
+||web.51fishplace.com^
 ||web.900.la^
 ||web.amazon-services-authfollow.season-key.com^
 ||web.amazon-servicesauthfollow.letspubgm.com^
@@ -87225,6 +88281,7 @@ star-mini.c10r.facebook.com^$important
 ||webbankofamerica.com^
 ||webbapss-login-acvity.paypa1l.com.verfy-securdwe5345r346456.com^
 ||webbbb.yolasite.com^
+||webbc.fivecdm.com^
 ||webbs-servcelimited-paypa1l.com.service981.com^
 ||webbs-servcelimited-paypa1l.com.services215.com^
 ||webbsupp.com^
@@ -87301,6 +88358,7 @@ star-mini.c10r.facebook.com^$important
 ||webhits.de^
 ||webhosting04984.com^
 ||webhousesale.ru^
+||webid.ad.daum.net^
 ||webiklan.com^
 ||webinformation-updatemailrequired.jkmansklw.com^
 ||webinstats.com^
@@ -87406,6 +88464,7 @@ star-mini.c10r.facebook.com^$important
 ||weboser.com^
 ||webpagesupport-serviceamazon.verifyappbillinginformation.com^
 ||webpaymentid.applepays.japanzone.gabsbkanb.com^
+||webpinp.com^
 ||webpower.com^
 ||webpower.eu^
 ||webproficlub.ru^
@@ -87506,6 +88565,7 @@ star-mini.c10r.facebook.com^$important
 ||webupdatesbillingaccountnetflix.net^
 ||webuyoverrides.com^
 ||webvideomarketing.ru^
+||webview.unityads.unity3d.com^
 ||webvisor.com^
 ||webvisor.ru^
 ||webwhatsapp.business^
@@ -87572,6 +88632,7 @@ star-mini.c10r.facebook.com^$important
 ||weiqiqu.cn^
 ||weiterbildungsparkcom.licumexico.gdn^
 ||weixingshexiangji.net^
+||weixinhuoyuan.com^
 ||weiziqiang.top^
 ||wejhwhz29.asfsanh.com^
 ||wel-wel-fie.com^
@@ -87751,6 +88812,7 @@ star-mini.c10r.facebook.com^$important
 ||wesstaton.com^
 ||wesstatoninter.com^
 ||west.bidtellect.com^
+||west.click^
 ||westaknife.work^
 ||westatess.info^
 ||westbyeast.com^
@@ -87807,6 +88869,7 @@ star-mini.c10r.facebook.com^$important
 ||weymsohsafjs.com^
 ||wf-support-center.info^
 ||wf.reddirwwf.site^
+||wf.taboola.com^
 ||wf321.com^
 ||wf5w.awaykart.com^
 ||wfargo.live^
@@ -88284,6 +89347,7 @@ star-mini.c10r.facebook.com^$important
 ||whispa.com^
 ||whistondin.com^
 ||whiteboardnez.com^
+||whitective.club^
 ||whitefort.top^
 ||whitehalfabrr.club^
 ||whitelinefootball.com^
@@ -88319,6 +89383,7 @@ star-mini.c10r.facebook.com^$important
 ||wholesaletraffic.info^
 ||wholesomehealthshop.com^
 ||whonolikebettatin.com^
+||whos.amung.us^
 ||whosclickingwho.com^
 ||whoseesyou.com^
 ||whoshood.com^
@@ -88334,6 +89399,7 @@ star-mini.c10r.facebook.com^$important
 ||whtsaapjoiin18.my03.com^
 ||whtshpsexviral.a5z.club^
 ||whukroal.net^
+||whusebsu.com^
 ||whxhhjx.com^
 ||whyjy.yjygjjt.com^
 ||whysoserius.club^
@@ -88373,6 +89439,8 @@ star-mini.c10r.facebook.com^$important
 ||widget.market-place.su^
 ||widget.mediastealer.com^
 ||widget.nhaccuatui.com^
+||widget.perfectmarket.com^
+||widget.quantcast.com^
 ||widget.securityoperationscenter.de^
 ||widget.socialmart.ru^
 ||widget.utinet.ru^
@@ -88472,6 +89540,7 @@ star-mini.c10r.facebook.com^$important
 ||windays15.com^
 ||windcdna.com^
 ||windcomtechnologies.com^
+||winde.cc^
 ||windjammermuseumcom.shaxiacenter.top^
 ||windlyco.shuiadrink.top^
 ||windoorsew.club^
@@ -88863,6 +89932,7 @@ star-mini.c10r.facebook.com^$important
 ||wpmmanbetx.com^
 ||wpnjrm.com^
 ||wpnjs.com^
+||wpnsrv.com^
 ||wporqwg.gasspoollgaspollazd.com^
 ||wpqvggsnc.com^
 ||wprt.anahkedm.com^
@@ -88940,8 +90010,13 @@ star-mini.c10r.facebook.com^$important
 ||wsgblw.com^
 ||wsgmxgtmxymwt.com^
 ||wshosting.ru^
+||wskiglimpso.info^
 ||wsoue.com^
 ||wsowkqnxs.com^
+||wsp.adskeeper.co.uk^
+||wsp.marketgid.com^
+||wsp.mgid.com^
+||wsp.steepto.com^
 ||wsqmanbetx.com^
 ||wsqy.vipsnapchatsexting.com^
 ||wsrkpjfs.com^
@@ -88972,6 +90047,7 @@ star-mini.c10r.facebook.com^$important
 ||wtajc.goruli.com^
 ||wtbvrcylv.goruli.com^
 ||wtcacoh.topkorder.su^
+||wtdome.com^
 ||wtdtjs.club^
 ||wtdtjs.rocks^
 ||wteas.xyz^
@@ -89024,6 +90100,7 @@ star-mini.c10r.facebook.com^$important
 ||wuhufengze.com.cn^
 ||wuldvrdfie.com^
 ||wuliao.chzsport.cn^
+||wuliao.epro.sogou.com^
 ||wuliao.juqingba.cn^
 ||wultaikr.net^
 ||wundercounter.com^
@@ -89686,6 +90763,7 @@ star-mini.c10r.facebook.com^$important
 ||www.rewarditemspin.mrbonus.com^
 ||www.riattivaservizio-n26appdati4.online^
 ||www.robtozier.com^
+||www.rt-ns.ru^
 ||www.runescape-benefits.com^
 ||www.runescape.com-rslx.xyz^
 ||www.runescape.com-ur.xyz^
@@ -89815,6 +90893,7 @@ star-mini.c10r.facebook.com^$important
 ||www2.amazonjp.info^
 ||www2.bradesco.atendimento.finance^
 ||www2.bradesco.servicosac24horas.com^
+||www2.bubblesmedia.ru^
 ||www20.hoje-ultimas-unidade-detv.com^
 ||www2s.automd.com^
 ||www3-personasonline.com^
@@ -90021,8 +91100,10 @@ star-mini.c10r.facebook.com^$important
 ||x.55peixun.com^
 ||x.appbaqend.com^
 ||x.bloggurat.net^
+||x.dmouy.cn^
 ||x.exsclips.com^
 ||x.fidelity-media.com^
+||x.ligatus.com^
 ||x.weather.com^
 ||x.www.ldayl.com^
 ||x09w.mentriqq.com^
@@ -90152,6 +91233,7 @@ star-mini.c10r.facebook.com^$important
 ||xcflowaxeltorm.tk^
 ||xcflowaxxelcx.ml^
 ||xcgebfplttrdg.com^
+||xch.smrtgs.com^
 ||xchange.ro^
 ||xchangebanners.com^
 ||xchaselgsecure.hopto.org^
@@ -90412,6 +91494,7 @@ star-mini.c10r.facebook.com^$important
 ||xiongdong.com^
 ||xionghaobm.cn^
 ||xiongzhangad.com^
+||xioodnxc1p1a.com^
 ||xipizgbo.goruli.com^
 ||xiqlaxjbzjei.com^
 ||xirlmiyihvpi.com^
@@ -90508,6 +91591,11 @@ star-mini.c10r.facebook.com^$important
 ||xmevsiig.com^
 ||xmgdfb.cn^
 ||xmgrjuqqc.com^
+||xml.bidiology.com^
+||xml.popmonetizer.net^
+||xml.realtime-bid.com^
+||xml.revrtb.com^
+||xml.revrtb.net^
 ||xmlads.bid^
 ||xmliw.com^
 ||xmljx.cn^
@@ -90549,6 +91637,7 @@ star-mini.c10r.facebook.com^$important
 ||xn--18225-zta.biz^
 ||xn--20531-uua.biz^
 ||xn--2qu92fhtx4ff.club^
+||xn--2qu92fhtx4ff.gold^
 ||xn--2qu92fhtx4ff.icu^
 ||xn--2qu92fhtx4ff.ink^
 ||xn--2qu92fhtx4ff.ren^
@@ -91353,6 +92442,7 @@ star-mini.c10r.facebook.com^$important
 ||xs.houyi.baofeng.net^
 ||xs6bd.awaykart.com^
 ||xsaties.com^
+||xsc.x81zw.com^
 ||xsdf.flbozje.md.ci^
 ||xsdlq.cn^
 ||xsell.6waves.com^
@@ -91413,6 +92503,7 @@ star-mini.c10r.facebook.com^$important
 ||xtractin.com^
 ||xtractor.no^
 ||xtraffstat.com^
+||xtremepush.com^
 ||xtremetop100.com^
 ||xtremline.com^
 ||xts-pay.ru^
@@ -91479,6 +92570,7 @@ star-mini.c10r.facebook.com^$important
 ||xvwebllndr.com^
 ||xvxcpdcnfgte.com^
 ||xvyljkr.com^
+||xw1001.com^
 ||xw8.133gvb.com^
 ||xw99.chokun.ru^
 ||xwatsappxx.event-new908.cf^
@@ -91562,6 +92654,7 @@ star-mini.c10r.facebook.com^$important
 ||xxxze.co.nu^
 ||xxyafiswqcqz.com^
 ||xxylpt.com^
+||xxyxmdq.cn^
 ||xxyzwtsylw.com^
 ||xy.nullrefexcep.com^
 ||xy33.smallable.com^
@@ -91629,6 +92722,7 @@ star-mini.c10r.facebook.com^$important
 ||y12n.awaykart.com^
 ||y13r.listfash.com^
 ||y1fcf200c29fcfe249.xyz^
+||y1wm9.cn^
 ||y2fcf200c29fcfe249.xyz^
 ||y2rmo576.top^
 ||y3fcf200c29fcfe249.xyz^
@@ -91724,6 +92818,7 @@ star-mini.c10r.facebook.com^$important
 ||yapikredi-bmwkampanyasii.com^
 ||yapikredi-world-ozel.com^
 ||yapikrediozel-bmwm3.com^
+||yapparenalu.info^
 ||yaranitsa.info^
 ||yashi.com^
 ||yatab.net^
@@ -91739,6 +92834,7 @@ star-mini.c10r.facebook.com^$important
 ||yazhouguojiyulecheng.tavmo.com^
 ||yb0t.com^
 ||yb37c.listfash.com^
+||yb7a1bb6k1.com^
 ||ybaijkluq.com^
 ||ybaiu.com^
 ||ybanj.com^
@@ -91886,6 +92982,7 @@ star-mini.c10r.facebook.com^$important
 ||yessearches.com^
 ||yestedshere.site^
 ||yestorrents.org^
+||yetseefad.com^
 ||yeuotdalcxqwr.com^
 ||yeuropertsp.site^
 ||yewj.awaykart.com^
@@ -91970,6 +93067,7 @@ star-mini.c10r.facebook.com^$important
 ||yidop.com^
 ||yidxvzosvwsd.com^
 ||yie4zooseif.info^
+||yield-manager.browsiprod.com^
 ||yieldads.com^
 ||yieldadvert.com^
 ||yieldbird.com^
@@ -92026,6 +93124,7 @@ star-mini.c10r.facebook.com^$important
 ||yir9focxizxds.azurewebsites.net^
 ||yiran686.cn^
 ||yiranxian.cn^
+||yirishedspe.info^
 ||yishuifa.org^
 ||yisscbyq.com^
 ||yitai001.com^
@@ -92602,6 +93701,7 @@ star-mini.c10r.facebook.com^$important
 ||yxyenzslsk.com^
 ||yxyfsghyk.com^
 ||yy-x.mentriqq.com^
+||yy1.fwccw.com^
 ||yy18.info^*thanks
 ||yy29398899.com^
 ||yy31t.chokun.ru^
@@ -92676,6 +93776,8 @@ star-mini.c10r.facebook.com^$important
 ||z-1h.mentriqq.com^
 ||z-kct.cbdtchad.com^
 ||z-x4.alnawwar.com^
+||z.cdn.braun634.com^
+||z.cdn.trafficlide.com^
 ||z.nowscore.com^
 ||z.opmnstr.com^
 ||z.r2dd.com^
@@ -92755,6 +93857,7 @@ star-mini.c10r.facebook.com^$important
 ||zakaz-cdek.ru^
 ||zakladka.org.ua^
 ||zalo-ads*.zadn.vn^
+||zaloapp.ads.zdn.vn^
 ||zaltecknife.club^
 ||zaltecknife.work^
 ||zamiko.ru^
@@ -92810,6 +93913,7 @@ star-mini.c10r.facebook.com^$important
 ||zaunbaucom.chifanbob.top^
 ||zaunbaucom.shaxiaoh.top^
 ||zaushegi.net^
+||zav4gln44kez.com^
 ||zaxdnhfdchet.com^
 ||zayhipbcxig.com^
 ||zazkkk.com^
@@ -92970,6 +94074,7 @@ star-mini.c10r.facebook.com^$important
 ||zeustechnology.com^
 ||zevenskovecompanyc.com^
 ||zewkj.com^
+||zexastize.pro^
 ||zexygpxlamac.com^
 ||zeytinyagisabun.com^
 ||zezvty.com^
@@ -93006,6 +94111,7 @@ star-mini.c10r.facebook.com^$important
 ||zgc66.com^
 ||zgcplfvjpixarg.com^
 ||zgdmsj.cn^
+||zgdtro.com^
 ||zgeuzenogpy.com^
 ||zgfszs.com^
 ||zgjjkk.com^
@@ -93143,6 +94249,7 @@ star-mini.c10r.facebook.com^$important
 ||zimingdh.com^
 ||zimmereiberlinorg.chifanassume.top^
 ||zincwwgk.goruli.com^
+||zinfluentlyw.club^
 ||zingleslie.com^
 ||zingoboispro.com^
 ||zinhavnpak.com^
@@ -93653,6 +94760,7 @@ star-mini.c10r.facebook.com^$important
 ||zwzfujusmwsbun.com^
 ||zx-f.mentriqq.com^
 ||zx-jsp.com^
+||zxa4kxw2nvox.com^
 ||zxavxgjcjmkh.com^
 ||zxb918.com^
 ||zxbzuyuifdqj.com^
@@ -93682,6 +94790,7 @@ star-mini.c10r.facebook.com^$important
 ||zxlib.cn^
 ||zxmvagysjo.topkorder.su^
 ||zxpevjccjb.com^
+||zxptw.cn^
 ||zxpyzc.cn^
 ||zxqudunt.com^
 ||zxr.poststudioprojects.net^
@@ -93779,7 +94888,7 @@ star-mini.c10r.facebook.com^$important
 ||zzznews.ru^
 -----BEGIN PGP SIGNATURE-----
 
-iF4EARYKAAYFAl8TZgUACgkQfdxeMjc2HNpXggD+LpYfara93AbwPMPTOKgYrpYOPUv0ttfLulH+
-dX6KVqIA/1aA+yP+LY6SfPe+Gs4YsxgrSrH7BGjP+LWE5kCMLeAD
-=tcqL
+iF4EARYKAAYFAl8XP+8ACgkQfdxeMjc2HNotGwD/fwYe/BEU7BvUXOoENhPLDRvhnEBq9KvhpEQs
+ke6q+LUA/3b9lCT4eXeBXwve+yL6/bvW6L8wbvBe0rl2Jw1utzcM
+=uHhF
 -----END PGP SIGNATURE-----
