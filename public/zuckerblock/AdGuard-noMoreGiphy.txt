@@ -1,96 +1,74 @@
 ! Title: AdGuard-noMoreGiphy
-! Version: 2.20.7.3
+! Version: 2.20.7.4
 ! Expires: 3 days
-! Last Modified: 2020-07-02T05:11:49+00:00
-! Checksum (SHA256): c9424b98cd48e9e0d31d2413399548e4ec38c8daf360809f84ff66824b54ee62
+! Last Modified: 2020-07-22T23:18:55+00:00
+! Checksum (SHA256): 3d3b26e06135a131ab0a1486bc522d364cf1eb620c398b6a7a36b7c93bc5b495
 ! Description: AdGuard-noMoreGiphy is designed for AdGuard to block the resources needed by Giphy to function. It is a work in progress.
 ! License: CC0
 ! Maintainer: intr0
 ! Contact: support@intr0.com
 !
-! This is to be considerd a WIP; If you want a functioning ruleset, use uBlockOrigin-noMoreGiphy.
+! This is to be considerd a WIP; it is for Firefox only. If you want a functioning ruleset for Firefox, use uBlockOrigin-noMoreGiphy.
 !
-! Firefox:
-!
-!#if adguard_ext_firefox
-!
-$csp=connect-src 'none',domain=giphy.com
-$csp=default-src 'none',domain=giphy.com
-$csp=font-src 'none',domain=giphy.com
-$csp=frame-src 'none',domain=giphy.com
-$csp=img-src 'none',domain=giphy.com
-$csp=media-src 'none',domain=giphy.com
-$csp=object-src 'none',domain=giphy.com
-$csp=sandbox,domain=giphy.com
-$csp=script-src 'none',domain=giphy.com
-$csp=style-src 'none',domain=giphy.com
-$csp=worker-src 'none',domain=giphy.com
-!
-||api.giphy.com/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
-||api.giphy.com/v1/trending/searches?$script,redirect=nooop.js,important,domain=giphy.com
-||developers.giphy.com/branch/*$media,redirect=noopmp4-1s,important,domain=developers.giphy.com
-||giphy.com/*.png$image,redirect=2x2-transparent.png,important,domain=giphy.comd
-||giphy.com/*.svg$image,redirect=2x2-transparent.png,important,domain=giphy.com
-||giphy.com/api/*$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
-||giphy.com/apps/giphyworld$media,redirect=noopmp4-1s,important,domain=giphy.com
-||giphy.com/static/*$script,redirect=noopjs,important,domain=giphy.com
-||giphy.com/static/webfonts/*$font,redirect=noopcss,important,domain=giphy.com
-||giphy.com^$stylesheet,redirect=noopcss,important,domain=giphy.com
-||giphy.com^$subdocument,redirect=noopframe,important,domain=giphy.com
-||media.giphy.com/*.gif$redirect=1x1-transparent.gif,important,domain=giphy.com
-||media.giphy.com/*.webm$media,redirect=noopmp4-1s,important,domain=giphy.com
-||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptext,important,domain=giphy.com
-||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
-||x.giphy.com/v1/stories?$xmlhttprequest,redirect=nooptxt,important,domain=giphy.com
-!
-||cloudfront.net^$image,redirect=2x2-transparent.png,important,domain=giphy.com
-!
-||connect.facebook.net^$script,redirect=noopjs,important,domain=giphy.com
-!
-||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=giphy.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=giphy.com
-!
-||giphy.#%#//scriptlet('remove-cookie')
-||giphy.com#%#//scriptlet('nowebrtc')
-!
-!#endif
-!
-! Android:
-!
-!#if adguard_app_android
-!
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
-[2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
-*$app=com.giphy.messenger
-!
-!#endif
-!
-! Windows:
-!
-!#if adguard_app_windows
-!
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
-[2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
-!
-!#endif
-!
-! Mac:
-!
-!#if adguard_app_mac
-!
-151.101.1.185$network
-151.101.129.185$network
-151.101.193.185$network
-151.101.198.2$network
-151.101.65.185$network
-[2a03:2880:f031:19:face:b00c:0:3]$network,domain=giphy.com
-!
-!#endif
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=connect-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=default-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=font-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=frame-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+^$csp=img-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=media-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=object-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=sandbox,domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=script-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=style-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+*$csp=worker-src 'none',domain=giphy.com
+!+ PLATFORM(ext_ff, ext_ublock)
+||api.giphy.com/*$xmlhttprequest,redirect=nooptxt,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||api.giphy.com/v1/trending/searches?$script,redirect=nooop.js,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||developers.giphy.com/branch/*$media,redirect=noopmp4-1s,domain=developers.giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/*.png$image,redirect=2x2-transparent.png,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/*.svg$image,redirect=2x2-transparent.png,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/api/*$xmlhttprequest,redirect=nooptxt,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/apps/giphyworld$media,redirect=noopmp4-1s,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/static/*$script,redirect=noopjs,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com/static/webfonts/*$font,redirect=noopcss,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com$stylesheet,redirect=noopcss,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||giphy.com$subdocument,redirect=noopframe,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||media.giphy.com/*.gif$redirect=1x1-transparent.gif,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||media.giphy.com/*.webm$media,redirect=noopmp4-1s,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptext,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||pingback.giphy.com/pingback?$xmlhttprequest,redirect=nooptxt,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||x.giphy.com/v1/stories?$xmlhttprequest,redirect=nooptxt,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||cloudfront.net$image,redirect=2x2-transparent.png,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||connect.facebook.net$script,redirect=noopjs,domain=giphy.com,important
+!!+ PLATFORM(ext_ff, ext_ublock)
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=giphy.com,important
+!+ PLATFORM(ext_ff, ext_ublock)
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=giphy.com,important
