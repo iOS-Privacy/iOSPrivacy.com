@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.20.7.8
+! Version: 2.20.7.9
 ! Expires: 3 days
-! Last Modified: 2020-07-21T19:17:24+00:00
-! Checksum (SHA256): 1fbf28de6a05bf6884c2ebe252e621e4dab17f715c037e1924c616f707bdb9d1
+! Last Modified: 2020-07-24T17:04:45+00:00
+! Checksum (SHA256): 4b620385d5606881e9d00c6fdb0cb30e3ba5e1f69bd76c8dff5d322a03c62aec
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -39,43 +39,31 @@
 *$csp=upgrade-insecure-requests
 !
 !
-! The 10 Most Abused Top Level Domains, in order (As of 21 July 2020):
+! The 10 Most Abused Top Level Domains, in order (As of 24 July 2020):
 !
-!+ NOT_OPTIMIZED
 .tk^
-!+ NOT_OPTIMIZED
 .gq^
-!+ NOT_OPTIMIZED
 .cf^
-!+ NOT_OPTIMIZED
 .ml^
-!+ NOT_OPTIMIZED
 .ga^
-!+ NOT_OPTIMIZED
-.work^
-!+ NOT_OPTIMIZED
 .fit^
-!+ NOT_OPTIMIZED
 .date^
-!+ NOT_OPTIMIZED
+.work^
 .men^
-!+ NOT_OPTIMIZED
-.wang^
-!
-!
-! Additional Abused TLDs, in order (Adjusted 21 July 2020):
-!
-!+ NOT_OPTIMIZED
-.live^
-!+ NOT_OPTIMIZED
 .buzz^
-!+ NOT_OPTIMIZED
-.top^
-!+ NOT_OPTIMIZED
-.host^
-!+ NOT_OPTIMIZED
-.party^
 !
+! Additional Abused TLDs, in order (Adjusted 24 July 2020):
+! Note: .cn TLD (Chinese Mainland TLD) is listed.
+! If you need to connect to any .cn domains, please whitelist them individually by using rules such as `@@||example.cn^` (minus the quotes) in the Blacklist section.
+! Do not whitelist the entire TLD as it will open holes in security.
+!
+.live^
+.wang^
+.cn^
+.asia^
+.top^
+.host^
+.party^
 !
 ! Malicious weebly.com subdomains:
 !
@@ -83184,7 +83172,6 @@ vkcdnservice.appspot.com^
 ||trafficleader.com^
 ||trafficlide.com^
 ||trafficmagnates.com^
-||trafficmanager.net^
 ||trafficmasterz.net^
 ||trafficmaxx.de^
 ||trafficmp.com^
