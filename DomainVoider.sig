@@ -1,11 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 ! Title: DomainVoider
-! Version: 2.20.7.8
+! Version: 2.20.7.9
 ! Expires: 3 days
-! Last Modified: 2020-07-21T19:17:24+00:00
-! Checksum (SHA256): 1fbf28de6a05bf6884c2ebe252e621e4dab17f715c037e1924c616f707bdb9d1
+! Last Modified: 2020-07-24T17:04:45+00:00
+! Checksum (SHA256): 4b620385d5606881e9d00c6fdb0cb30e3ba5e1f69bd76c8dff5d322a03c62aec
 ! License: CC-BY-NC-SA
 ! Maintainer: intr0
 ! Contact: support@intr0.com
@@ -42,43 +42,31 @@ Hash: SHA512
 *$csp=upgrade-insecure-requests
 !
 !
-! The 10 Most Abused Top Level Domains, in order (As of 21 July 2020):
+! The 10 Most Abused Top Level Domains, in order (As of 24 July 2020):
 !
-!+ NOT_OPTIMIZED
 .tk^
-!+ NOT_OPTIMIZED
 .gq^
-!+ NOT_OPTIMIZED
 .cf^
-!+ NOT_OPTIMIZED
 .ml^
-!+ NOT_OPTIMIZED
 .ga^
-!+ NOT_OPTIMIZED
-.work^
-!+ NOT_OPTIMIZED
 .fit^
-!+ NOT_OPTIMIZED
 .date^
-!+ NOT_OPTIMIZED
+.work^
 .men^
-!+ NOT_OPTIMIZED
-.wang^
-!
-!
-! Additional Abused TLDs, in order (Adjusted 21 July 2020):
-!
-!+ NOT_OPTIMIZED
-.live^
-!+ NOT_OPTIMIZED
 .buzz^
-!+ NOT_OPTIMIZED
-.top^
-!+ NOT_OPTIMIZED
-.host^
-!+ NOT_OPTIMIZED
-.party^
 !
+! Additional Abused TLDs, in order (Adjusted 24 July 2020):
+! Note: .cn TLD (Chinese Mainland TLD) is listed.
+! If you need to connect to any .cn domains, please whitelist them individually by using rules such as `@@||example.cn^` (minus the quotes) in the Blacklist section.
+! Do not whitelist the entire TLD as it will open holes in security.
+!
+.live^
+.wang^
+.cn^
+.asia^
+.top^
+.host^
+.party^
 !
 ! Malicious weebly.com subdomains:
 !
@@ -83187,7 +83175,6 @@ vkcdnservice.appspot.com^
 ||trafficleader.com^
 ||trafficlide.com^
 ||trafficmagnates.com^
-||trafficmanager.net^
 ||trafficmasterz.net^
 ||trafficmaxx.de^
 ||trafficmp.com^
@@ -94888,7 +94875,15 @@ vkcdnservice.appspot.com^
 ||zzznews.ru^
 -----BEGIN PGP SIGNATURE-----
 
-iF4EARYKAAYFAl8XP+8ACgkQfdxeMjc2HNotGwD/fwYe/BEU7BvUXOoENhPLDRvhnEBq9KvhpEQs
-ke6q+LUA/3b9lCT4eXeBXwve+yL6/bvW6L8wbvBe0rl2Jw1utzcM
-=uHhF
+iQIcBAEBCAAGBQJfGxUxAAoJEHTXQFkHukvqBHUQANhflW7HjDPThTAlpoIa9ZqyXJe6auxhoMuK
+P5hdIMH2UAj3GjusJTUcCFSnvwK4Oo9gnmiPwoNQlqW+Wf7TjrozwoxnsPIazcDPO3OO1KTU50Uy
+XKqndAutgTH5mgGXEdkI/7XTYuKA1fZAMngzxzVaZKAl/gnYBQSjfziBZIt2t5A8p/Fw44sIQ2Jf
+lDHyRuzV3PCr1Uhwgkwo6Tayw3XmA4+zzD2aYGWoXNnS5UPl126VMPSnT3k7+4FgbUYZXEvJFZAG
+Eo50zASMVtMtynWObNzce+dpZ8XoOtq0Ih9A/5V+FQPMvuJkPPTjEG2d15aBSGQx1GYyD3ilW+IA
+8We1auaXdsLZWo3jr7I4/xh9V8x5+jFsgxk/9cFaGE2X2YJAqmytX30mlJCyjK6bp1MJ2I1UKhgP
+F8+AAt2N8sSY5nh6ZuxAsvVm76NNRBP7Lw70WskDWHFrfY1MHPmr4FptHlSB1ACyNMB8NJj2dfzp
+sVr2DfvrlBiMeNXZL9C3L9KMAUpFfLOFG0gA+Rz74tyL1AB2AJsawzIMYG4Btg/hWjr5jAIIyjF/
+NzQFhrqfCfoME/n6q/HWY4WUxvBE1SLFgth8DPfWOg8RmIUuFa502ZUMA4CXZ3zmvy5HuNznDSQb
++rqwrBwr6QNvq63LHndOYSHeFVZdqzxgsvHat9Yd
+=Y8FE
 -----END PGP SIGNATURE-----
