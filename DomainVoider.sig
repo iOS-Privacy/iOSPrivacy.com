@@ -30,8 +30,8 @@ Hash: SHA256
 .gq^
 .ml^
 .cn^
-.rest	^
-.work	^
+.rest^
+.work^
 .ga^
 ! Additional Abused TLDs, in order (Adjusted 17 August 2020):
 .tk^
