@@ -16,7 +16,4 @@
 | | | | | | |
 |-|-|-|-|-|-|
 
-#### [ZuckerBlock](https://iosprivacy.com/zuckerblock):
-- noMoreGiphy
-- antiWhatsApp
-- antiZuckerTrump.f
+#### [Urlhaus Filters](https://iosprivacy.com/mirror)
