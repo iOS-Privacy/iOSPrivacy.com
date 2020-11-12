@@ -16,6 +16,4 @@
 | | | | | | |
 |-|-|-|-|-|-|
 
-## [Urlhaus Filters](https://iosprivacy.com/mirror)
-
-### [backup of CHEF-KOCH's nsablocklist](https://iosprivacy.com/nsablocklist.txt)
+## [Urlhaus Blocklists Mirror](https://iosprivacy.com/mirror)
