@@ -2,23 +2,23 @@
 Hash: SHA256
 
 # Title: iVOID.hosts
-# Version: 2.21.1.1
+# Version: 2.21.2.1
 # Expires: 30 days
-# Last Modified: 2021-01-23T02:26:14+00:00
-# Checksum (SHA256): 07e38a6c147666be2c791055ee95bbdea384b0f5747bd32062d1d3acabe90bfc
+# Last Modified: 2021-02-02T07:12:17+00:00
+# Checksum (SHA256): f6c5bb04b825752edd470af3854e59cdc6d87f5c9615f5475eb998e1348f94d0
 # License: CC-BY-NC-SA
 # Maintainer: intr0
 ###
 # Contact: support@intr0.com
 # Homepage: https://iOSprivacy.com/
-# Source: https://GitLab.com/intr0/iVOID.GitLab.io/hosts/raw/master/iVOID.hosts
+# Source: https://gitlab.com/intr0/iVOID.GitLab.io/raw/master/iVOID.hosts
 ###
 # Description: iVOID.hosts is compiled from a licensed feed of Phishing sites. The information used is licensed to us by Ivan Ristic under the terms of Creative Commons CC-BY-NC-SA 4.0. Ivan is the Founder of Hardenize, SSL Labs & ModSecurity; he is Author of "Bulletproof SSL and TLS"; he is a Regular Participant at the Security Conferences Black Hat, RSA & OWASP AppSec.
 ### This hosts file is strictly for Protection against fake Apple, Facebook, Instagram, PayPal & Twitter websites.
 # These websites steal users' credentials, leading to anything from account takeovers to identify theft.
 # The domains themselves use a variety of naming schemes including:
 # Combosquatting, Doppelganger Domains & TLD abuse; as well as standard Homoglyph & Typosquatting attacks.
-# Many attacks rely on the use of mobile devices, most of which make it difficult to read the actual, full sub / domain names of the malicious sites.
+# Many attacks rely on the use of mobile devices, most of which make it difficult to read the actual, full sub / domain names of the malicious hosts.
 ###
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -94,6 +94,9 @@ Hash: SHA256
 0.0.0.0 1oginverfmanageapp1eldsecures.com
 0.0.0.0 1oginverlfyauthapp1e1ockd.com
 0.0.0.0 1oglnapp1eldmanagemnt.com
+0.0.0.0 1oglnmnagapp1eforconfrm.com
+0.0.0.0 1oglnmnagapp1eforegconfrm.com
+0.0.0.0 1oglnmnagapp1eprocesconfrm.com
 0.0.0.0 1oglnprotectapp1eld.com
 0.0.0.0 1oglnverfapp1eld1nfo.com
 0.0.0.0 1st.face-book.cc
@@ -121,6 +124,7 @@ Hash: SHA256
 0.0.0.0 about-lnstagram-com.cf
 0.0.0.0 about-lnstagram-com.gq
 0.0.0.0 about-lnstagram-com.tk
+0.0.0.0 about-lnstagram-copyright.ml
 0.0.0.0 about-lnstagram-copyright.tk
 0.0.0.0 about-lnstagram-copyrightnotice.com
 0.0.0.0 about-lnstagram-form.about-tiktok.tk
@@ -134,6 +138,8 @@ Hash: SHA256
 0.0.0.0 about-lnstagram.ml
 0.0.0.0 about-lnstagram.net
 0.0.0.0 about-lnstagramcenter.com
+0.0.0.0 about-lnstagramcopyright.com
+0.0.0.0 about-lnstagramcoyprights.com
 0.0.0.0 about-lnstagramform.ga
 0.0.0.0 about-lnstagramfrom.ml
 0.0.0.0 about-lnstagramfromhelps.ml
@@ -1057,6 +1063,7 @@ Hash: SHA256
 0.0.0.0 app1eypoien.cn
 0.0.0.0 appe.nocrits.com
 0.0.0.0 appe.vip
+0.0.0.0 appeal-helplnstagram.ml
 0.0.0.0 appeal-live-lnstagram.ml
 0.0.0.0 appeal-lnstagram.com
 0.0.0.0 appeal-lnstagram.ml
@@ -1111,6 +1118,7 @@ Hash: SHA256
 0.0.0.0 appmanageallmyapp1econfrm.com
 0.0.0.0 appmanagecentrmyapp1econfrm.com
 0.0.0.0 appmanagecentrmyapp1egetconfrm.com
+0.0.0.0 appmanagprses1onapp1e.com
 0.0.0.0 appple.center
 0.0.0.0 appple.gq
 0.0.0.0 apps-app1eiid.ic1oud.com.make-pro-secure.info
@@ -1119,6 +1127,16 @@ Hash: SHA256
 0.0.0.0 apps-secureconfirmationaccount-app1e.com
 0.0.0.0 apps.itunez-app1eiid.appel.co.advance-store.com
 0.0.0.0 apps.twitteer.com
+0.0.0.0 appscustomerapp1econfrm.com
+0.0.0.0 appscustomerapp1egetconfrm.com
+0.0.0.0 appsforcustomerapp1egetconfrm.com
+0.0.0.0 appsmanagapp1econnectconfrm.com
+0.0.0.0 appsmanagapp1edashconfrm.com
+0.0.0.0 appsmanagapp1eopt1onsconfrm.com
+0.0.0.0 appsmanageconfr1mapp1e.com
+0.0.0.0 appsmanagegetconfr1mapp1e.com
+0.0.0.0 appsmanagegetconfr1mprivacyapp1e.com
+0.0.0.0 appsresolut1onmanageapp1econfm.com
 0.0.0.0 appstore-app1e-1d.com
 0.0.0.0 appstore-app1e-id.com
 0.0.0.0 appstore.app1e-id.appel.co.xcndhk.live
@@ -1147,6 +1165,7 @@ Hash: SHA256
 0.0.0.0 authorize-lnstagram.tk
 0.0.0.0 authorized-app1e-account-update-verify-com.usa.cc
 0.0.0.0 authorized-app1e-accountupdate-verify-com.usa.cc
+0.0.0.0 auths-paypa1securesmcsrc.com
 0.0.0.0 authverlfyapp1eld.com
 0.0.0.0 autodiscover.0paypa1.com
 0.0.0.0 autodiscover.1nstagram.club
@@ -1302,6 +1321,7 @@ Hash: SHA256
 0.0.0.0 bluetick-lnstagrams.ml
 0.0.0.0 bluetick.lnstagramteamverify.com
 0.0.0.0 bluetickarealnstagram.cf
+0.0.0.0 bluetickbadge-lnstagram.cf
 0.0.0.0 bluetickcenter-lnstagram.ml
 0.0.0.0 bluetickcenterforlnstagram.com
 0.0.0.0 blueticketslnstagram.ml
@@ -1359,6 +1379,7 @@ Hash: SHA256
 0.0.0.0 businesslnstagramservices.ml
 0.0.0.0 businesslnstagramsupport.com
 0.0.0.0 bussines-help-lnstagram-team.cf
+0.0.0.0 bussines-lnstagramappealform.ml
 0.0.0.0 bussineslnstagram.com
 0.0.0.0 buyfacebo0klik3.bravesites.com
 0.0.0.0 buyfacebo0klik3.soup.io
@@ -1565,6 +1586,7 @@ Hash: SHA256
 0.0.0.0 copyright-lnstagram-help.com
 0.0.0.0 copyright-lnstagram-help.ml
 0.0.0.0 copyright-lnstagram-help.tk
+0.0.0.0 copyright-lnstagram-ig.ml
 0.0.0.0 copyright-lnstagram-service.cf
 0.0.0.0 copyright-lnstagram-support.ga
 0.0.0.0 copyright-lnstagram-support.tk
@@ -1611,6 +1633,7 @@ Hash: SHA256
 0.0.0.0 copyright-service-media-lnstagram.ml
 0.0.0.0 copyright-services-lnstagram.com
 0.0.0.0 copyright-supportlnstagram.tk
+0.0.0.0 copyright-team-for-lnstagram-bussines.ml
 0.0.0.0 copyright-team-lnstagram.ml
 0.0.0.0 copyright-verifiaction-lnstagram.com
 0.0.0.0 copyright-violating-lnstagram.ml
@@ -1631,6 +1654,7 @@ Hash: SHA256
 0.0.0.0 copyright.supportlnstagram.tk
 0.0.0.0 copyrightalertlnstagram.ml
 0.0.0.0 copyrightalnstagram.com
+0.0.0.0 copyrightappeal-lnstagram-form.cf
 0.0.0.0 copyrightbusinesslnstagram.cf
 0.0.0.0 copyrightcenter-lnstagram.com
 0.0.0.0 copyrightcenter-lnstagram.ml
@@ -1702,6 +1726,7 @@ Hash: SHA256
 0.0.0.0 copyrightlnstagramsupport.tk
 0.0.0.0 copyrightlnstagramsupportform.ml
 0.0.0.0 copyrightlnstagramsupportteam.gq
+0.0.0.0 copyrightlnstagramteam.ml
 0.0.0.0 copyrightlnstagramteam1.cf
 0.0.0.0 copyrightlnstagramverification.com
 0.0.0.0 copyrightlnstagramverify.ml
@@ -1736,6 +1761,7 @@ Hash: SHA256
 0.0.0.0 copyrightslnstagramcenter.com
 0.0.0.0 copyrightsupport-lnstagram.ml
 0.0.0.0 copyrightsupportforlnstagram.com
+0.0.0.0 copyrightsupportlnstagram.com
 0.0.0.0 copyrightsupportlnstagram.gq
 0.0.0.0 copyrightsviolationlnstagram.com
 0.0.0.0 copyrightteamlnstagram.tk
@@ -3563,6 +3589,13 @@ Hash: SHA256
 0.0.0.0 faceb00k-item-market.com
 0.0.0.0 faceb00k-l0gin.fbk6.pw
 0.0.0.0 faceb00k-l0gin.xyz
+0.0.0.0 faceb00k-listing-id183-item96823785912367.real2live4life.com
+0.0.0.0 faceb00k-listing-id21485-item509393769206328.crums2penc.com
+0.0.0.0 faceb00k-listing-id28-item67810275683276.nrimbbsin.com
+0.0.0.0 faceb00k-listing-id37-item67810382152792.nrimbbsin.com
+0.0.0.0 faceb00k-listing-id46-item67810413892867.nrimbbsin.com
+0.0.0.0 faceb00k-listing-id54-item67810529874653.nrimbbsin.com
+0.0.0.0 faceb00k-listing-id63-item67810682945794.nrimbbsin.com
 0.0.0.0 faceb00k-listing.ad5653-item72306992306236872396.com
 0.0.0.0 faceb00k-live.com
 0.0.0.0 faceb00k-login-page.ga
@@ -3768,6 +3801,8 @@ Hash: SHA256
 0.0.0.0 faceb00k.co.za
 0.0.0.0 faceb00k.com
 0.0.0.0 faceb00k.com-group.site
+0.0.0.0 faceb00k.com-listing-id159-item22489628736257.dbertucelli.com
+0.0.0.0 faceb00k.com-listing-id21-item21986238629339.dbertucelli.com
 0.0.0.0 faceb00k.com-loginauthentication-viewalbums.loginaccesssin.in
 0.0.0.0 faceb00k.com.alerts-security.cf
 0.0.0.0 faceb00k.com.bmbxjl18.xyz
@@ -3935,6 +3970,7 @@ Hash: SHA256
 0.0.0.0 faceb00k2313.sytes.net
 0.0.0.0 faceb00k2o2o.github.io
 0.0.0.0 faceb00k3.com.serveo.net
+0.0.0.0 faceb00k52.ahlamontada.com
 0.0.0.0 faceb00kaccount.tk
 0.0.0.0 faceb00kaccs.com
 0.0.0.0 faceb00kapi.com
@@ -4300,6 +4336,7 @@ Hash: SHA256
 0.0.0.0 facebo0k.iogin.cf
 0.0.0.0 facebo0k.live
 0.0.0.0 facebo0k.marcketplace.postid66723.komuniti.narsco.com.my
+0.0.0.0 facebo0k.marketplace-id6327856213.com
 0.0.0.0 facebo0k.matildelavarello79.online
 0.0.0.0 facebo0k.me
 0.0.0.0 facebo0k.mixh.jp
@@ -4587,6 +4624,7 @@ Hash: SHA256
 0.0.0.0 gr33napp1e.com
 0.0.0.0 gramfollowerslnstagram.epizy.com
 0.0.0.0 guvenlik-lnstagram.tk
+0.0.0.0 h-lnstagram-copyright.ml
 0.0.0.0 h0y9u74.www.twittor.co
 0.0.0.0 h3l-centers3ervic3s0app1e.egamardhiyah.com
 0.0.0.0 h3lp-centers3ervices-app1e.persnlkamu.com
@@ -4640,6 +4678,7 @@ Hash: SHA256
 0.0.0.0 help-center-support-lnstagram.cf
 0.0.0.0 help-centerlnstagram.ml
 0.0.0.0 help-centerlnstagram.tk
+0.0.0.0 help-centre-lnstagram.ml
 0.0.0.0 help-contact-lnstagram.cf
 0.0.0.0 help-contact-lnstagram.com
 0.0.0.0 help-contact-lnstagram.ml
@@ -4686,6 +4725,7 @@ Hash: SHA256
 0.0.0.0 help-lnstagram-account.ooo
 0.0.0.0 help-lnstagram-alert.com
 0.0.0.0 help-lnstagram-appeal.com
+0.0.0.0 help-lnstagram-assistance.ga
 0.0.0.0 help-lnstagram-badge.com
 0.0.0.0 help-lnstagram-badges-com.tk
 0.0.0.0 help-lnstagram-badges.cf
@@ -4732,6 +4772,7 @@ Hash: SHA256
 0.0.0.0 help-lnstagram-copyright-support-center.ga
 0.0.0.0 help-lnstagram-copyright-support.ml
 0.0.0.0 help-lnstagram-copyright-supports.ml
+0.0.0.0 help-lnstagram-copyright-team.tk
 0.0.0.0 help-lnstagram-copyright-verified.ml
 0.0.0.0 help-lnstagram-copyright-vioalation-form.ml
 0.0.0.0 help-lnstagram-copyright-vioalation.cf
@@ -4794,6 +4835,7 @@ Hash: SHA256
 0.0.0.0 help-lnstagram-support-team.cf
 0.0.0.0 help-lnstagram-support.cf
 0.0.0.0 help-lnstagram-support.com
+0.0.0.0 help-lnstagram-support.ga
 0.0.0.0 help-lnstagram-support.ml
 0.0.0.0 help-lnstagram-suspended.support
 0.0.0.0 help-lnstagram-team.cf
@@ -4827,6 +4869,7 @@ Hash: SHA256
 0.0.0.0 help-lnstagram-verifybadge.ml
 0.0.0.0 help-lnstagram-verifybadge.tk
 0.0.0.0 help-lnstagram-verifycopyrgiht.com
+0.0.0.0 help-lnstagram-web.cf
 0.0.0.0 help-lnstagram-web.ga
 0.0.0.0 help-lnstagram-website.ml
 0.0.0.0 help-lnstagram.app
@@ -4850,6 +4893,8 @@ Hash: SHA256
 0.0.0.0 help-lnstagram.team
 0.0.0.0 help-lnstagram.xn--supprt-6wa.com
 0.0.0.0 help-lnstagram.xyz
+0.0.0.0 help-lnstagram8561874356.gq
+0.0.0.0 help-lnstagram8574315xq.gq
 0.0.0.0 help-lnstagramaccounts.gq
 0.0.0.0 help-lnstagramaccounts.ml
 0.0.0.0 help-lnstagramaccountservice.ga
@@ -4858,6 +4903,7 @@ Hash: SHA256
 0.0.0.0 help-lnstagramaccountverify.cf
 0.0.0.0 help-lnstagramappealform.com
 0.0.0.0 help-lnstagramappealform.ml
+0.0.0.0 help-lnstagrambacking.ga
 0.0.0.0 help-lnstagrambadge-form.ga
 0.0.0.0 help-lnstagrambadge.cf
 0.0.0.0 help-lnstagrambadgecenter.cf
@@ -5080,6 +5126,7 @@ Hash: SHA256
 0.0.0.0 help-verified-lnstagram.cf
 0.0.0.0 help-verified-lnstagram.ml
 0.0.0.0 help-verify-lnstagram.com
+0.0.0.0 help-webfromlnstagram.ml
 0.0.0.0 help-weblnstagram.cf
 0.0.0.0 help-weblnstagram.duckdns.org
 0.0.0.0 help-weblnstagram.gq
@@ -5201,6 +5248,7 @@ Hash: SHA256
 0.0.0.0 helpcenterforlnstagram.ml
 0.0.0.0 helpcenterlnstagram.com
 0.0.0.0 helpcenterlnstagram.ga
+0.0.0.0 helpcenterlnstagram1.tk
 0.0.0.0 helpcenterlnstagramfor.ml
 0.0.0.0 helpcenterlnstagramlive.ml
 0.0.0.0 helpcenterlnstagrams.com
@@ -5576,6 +5624,7 @@ Hash: SHA256
 0.0.0.0 ig.appme.ru
 0.0.0.0 ig.lnstagram-client.info
 0.0.0.0 iglnstagramverifiedbadges.ml
+0.0.0.0 igwebsupport-lnstagram.cf
 0.0.0.0 ihome-paypa1.com
 0.0.0.0 il.appme.ru
 0.0.0.0 illnstagram.ru
@@ -5601,6 +5650,7 @@ Hash: SHA256
 0.0.0.0 info-lnstagram.tk.hzdevelop-hosting.tk
 0.0.0.0 info-lnstagrambluebadge.ml
 0.0.0.0 info-lnstagramforms.ml
+0.0.0.0 info-lnstagramhelpcenter.com
 0.0.0.0 info-lnstagramhelpcenter.tk
 0.0.0.0 info-lnstagramhelpservices.tk
 0.0.0.0 info-lnstagramhome.tk
@@ -5663,6 +5713,7 @@ Hash: SHA256
 0.0.0.0 keng-app1e.kengatlasstg.com
 0.0.0.0 khr-serv1ces-app1e651.selamanyasakan.com
 0.0.0.0 kimonosagitolnstagram.blogspot.com
+0.0.0.0 konfirmasi-faceb00k.tk
 0.0.0.0 kpccui-hi-dit-wsso.appl.kp.org
 0.0.0.0 kpccui-hi-sit-wsso.appl.kp.org
 0.0.0.0 kpccui-hi-uat-wsso.appl.kp.org
@@ -5738,6 +5789,7 @@ Hash: SHA256
 0.0.0.0 livesupportlnstagram.ml
 0.0.0.0 llnstagram.com
 0.0.0.0 llnstagram.ml
+0.0.0.0 llnstagramverifiedblueticks.cf
 0.0.0.0 lmtedacess-paypa1.saves-the-whales.com
 0.0.0.0 lnfo-lnstagram-com.ml
 0.0.0.0 lnfo-lnstagram.gq
@@ -5745,6 +5797,7 @@ Hash: SHA256
 0.0.0.0 lnfo-lnstagram.tk
 0.0.0.0 lnfo-lnstagrambluebadge.ml
 0.0.0.0 lnfo-lnstagrambluebadges.ml
+0.0.0.0 lnformation-paypa1-ca.giize.com
 0.0.0.0 lnfringement-lnstagram.com
 0.0.0.0 lnstagram--badge.cf
 0.0.0.0 lnstagram--ceoteamki.ml
@@ -5764,6 +5817,7 @@ Hash: SHA256
 0.0.0.0 lnstagram--helpcenter.cf
 0.0.0.0 lnstagram--helpcenter.ml
 0.0.0.0 lnstagram--helpki.ml
+0.0.0.0 lnstagram--helpyy.ml
 0.0.0.0 lnstagram--suport.ml
 0.0.0.0 lnstagram--support-verify.ml
 0.0.0.0 lnstagram--support.cf
@@ -5772,7 +5826,11 @@ Hash: SHA256
 0.0.0.0 lnstagram--verifiedaccounts.tk
 0.0.0.0 lnstagram--verifiedbadge.cf
 0.0.0.0 lnstagram--verify.ml
+0.0.0.0 lnstagram-about-help-center.ml
 0.0.0.0 lnstagram-about-help.cf
+0.0.0.0 lnstagram-about-help.com
+0.0.0.0 lnstagram-about-help.ml
+0.0.0.0 lnstagram-about-helps.ml
 0.0.0.0 lnstagram-about-verifybadge-com.cf
 0.0.0.0 lnstagram-about-violation.com
 0.0.0.0 lnstagram-about.cf
@@ -5783,6 +5841,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-about.tk
 0.0.0.0 lnstagram-aboutcopyright-center.ml
 0.0.0.0 lnstagram-abouthelp.ml
+0.0.0.0 lnstagram-abouts-help.ml
 0.0.0.0 lnstagram-abouts.cf
 0.0.0.0 lnstagram-abouts.com
 0.0.0.0 lnstagram-abouts.ml
@@ -5824,6 +5883,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-accountverification.com
 0.0.0.0 lnstagram-accountverify.cf
 0.0.0.0 lnstagram-accountverify.com
+0.0.0.0 lnstagram-accountverifyform.ml
 0.0.0.0 lnstagram-accounty.cf
 0.0.0.0 lnstagram-acenta.ml
 0.0.0.0 lnstagram-activates-form.ml
@@ -5890,9 +5950,11 @@ Hash: SHA256
 0.0.0.0 lnstagram-badge-center.tk
 0.0.0.0 lnstagram-badge-confirm.com
 0.0.0.0 lnstagram-badge-confirmation.com
+0.0.0.0 lnstagram-badge-help.ml
 0.0.0.0 lnstagram-badge-support-form.ml
 0.0.0.0 lnstagram-badge-support.cf
 0.0.0.0 lnstagram-badge-support.ga
+0.0.0.0 lnstagram-badge-support.gq
 0.0.0.0 lnstagram-badge-support.ml
 0.0.0.0 lnstagram-badge-taking.cf
 0.0.0.0 lnstagram-badge-team.tk
@@ -5911,6 +5973,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-badgecenter.cf
 0.0.0.0 lnstagram-badgecenter.com
 0.0.0.0 lnstagram-badgecenter.tk
+0.0.0.0 lnstagram-badgecentre.gq
 0.0.0.0 lnstagram-badgeform.cf
 0.0.0.0 lnstagram-badgeform.ml
 0.0.0.0 lnstagram-badgeform.tk
@@ -6222,6 +6285,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-com.ga
 0.0.0.0 lnstagram-com.gq
 0.0.0.0 lnstagram-com.tk
+0.0.0.0 lnstagram-communicationandsupport.ga
 0.0.0.0 lnstagram-communities.cf
 0.0.0.0 lnstagram-communities.gq
 0.0.0.0 lnstagram-communities.ml
@@ -6291,6 +6355,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-contacts.com
 0.0.0.0 lnstagram-contactverifiedbadge.ml
 0.0.0.0 lnstagram-contracts.com
+0.0.0.0 lnstagram-copiyrght-center-com.ml
 0.0.0.0 lnstagram-copiyright-help.cf
 0.0.0.0 lnstagram-copiyright-service.cf
 0.0.0.0 lnstagram-coppyright-helpcenter.tk
@@ -6315,7 +6380,9 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyight.cf
 0.0.0.0 lnstagram-copyight.ml
 0.0.0.0 lnstagram-copyirght-supoort.ml
+0.0.0.0 lnstagram-copyirght-support-com.ml
 0.0.0.0 lnstagram-copyirght-supports.ml
+0.0.0.0 lnstagram-copyiright-help.ml
 0.0.0.0 lnstagram-copyrght-center.tk
 0.0.0.0 lnstagram-copyrght-help.tk
 0.0.0.0 lnstagram-copyrght.cf
@@ -6328,6 +6395,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrghtsupport.tk
 0.0.0.0 lnstagram-copyrghtx.tk
 0.0.0.0 lnstagram-copyrhgt.cf
+0.0.0.0 lnstagram-copyri-ght-center.ml
 0.0.0.0 lnstagram-copyri-ght-center.tk
 0.0.0.0 lnstagram-copyrigh.cf
 0.0.0.0 lnstagram-copyrigh.ml
@@ -6353,6 +6421,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyright-appeal.gq
 0.0.0.0 lnstagram-copyright-appeal.ml
 0.0.0.0 lnstagram-copyright-appeal.tk
+0.0.0.0 lnstagram-copyright-appealform.ml
 0.0.0.0 lnstagram-copyright-appeall.com
 0.0.0.0 lnstagram-copyright-appeals.com
 0.0.0.0 lnstagram-copyright-assistance.ml
@@ -6375,6 +6444,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyright-center.flonto.com
 0.0.0.0 lnstagram-copyright-center.ml
 0.0.0.0 lnstagram-copyright-center.tk
+0.0.0.0 lnstagram-copyright-centercom.ml
 0.0.0.0 lnstagram-copyright-centerls.cf
 0.0.0.0 lnstagram-copyright-centers.cf
 0.0.0.0 lnstagram-copyright-centers.com
@@ -6436,6 +6506,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyright-help-service-com.cf
 0.0.0.0 lnstagram-copyright-help-service-com.ml
 0.0.0.0 lnstagram-copyright-help-service.ml
+0.0.0.0 lnstagram-copyright-help-service.tk
 0.0.0.0 lnstagram-copyright-help-supports.tk
 0.0.0.0 lnstagram-copyright-help-team.cf
 0.0.0.0 lnstagram-copyright-help-v3623vas336.ml
@@ -6477,6 +6548,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyright-live-support.cf
 0.0.0.0 lnstagram-copyright-live.ml
 0.0.0.0 lnstagram-copyright-livesupport.cf
+0.0.0.0 lnstagram-copyright-lnformation.cf
 0.0.0.0 lnstagram-copyright-lnformation.ga
 0.0.0.0 lnstagram-copyright-lnformation.tk
 0.0.0.0 lnstagram-copyright-mail.cf
@@ -6581,7 +6653,9 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyright-violation.com
 0.0.0.0 lnstagram-copyright-violation.tk
 0.0.0.0 lnstagram-copyright-violations.com
+0.0.0.0 lnstagram-copyright-violations.gq
 0.0.0.0 lnstagram-copyright-violations.ml
+0.0.0.0 lnstagram-copyright-violations.tk
 0.0.0.0 lnstagram-copyright-warning.gq
 0.0.0.0 lnstagram-copyright-web.com
 0.0.0.0 lnstagram-copyright-web.ml
@@ -6612,6 +6686,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrightalerts.com
 0.0.0.0 lnstagram-copyrightandblueteak-support.com
 0.0.0.0 lnstagram-copyrightappeal.com
+0.0.0.0 lnstagram-copyrightappealform.cf
 0.0.0.0 lnstagram-copyrightappeals.com
 0.0.0.0 lnstagram-copyrightappreal.com
 0.0.0.0 lnstagram-copyrightbusiness.com
@@ -6674,6 +6749,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrighthelps.com
 0.0.0.0 lnstagram-copyrighthelpsaccount.com
 0.0.0.0 lnstagram-copyrighthelpservice.cf
+0.0.0.0 lnstagram-copyrightinfigrament.ml
 0.0.0.0 lnstagram-copyrightinformations.ml
 0.0.0.0 lnstagram-copyrightinfrigement.ml
 0.0.0.0 lnstagram-copyrightion-account.cf
@@ -6681,6 +6757,8 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrightlnfringement.ml
 0.0.0.0 lnstagram-copyrightmedia.com
 0.0.0.0 lnstagram-copyrightmedia.tk
+0.0.0.0 lnstagram-copyrightmediaform.ml
+0.0.0.0 lnstagram-copyrightmessage.ml
 0.0.0.0 lnstagram-copyrightnotice-warning.ga
 0.0.0.0 lnstagram-copyrightnotice.cf
 0.0.0.0 lnstagram-copyrightnotice.com
@@ -6688,6 +6766,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrightnotice.gq
 0.0.0.0 lnstagram-copyrightnotices.com
 0.0.0.0 lnstagram-copyrightobjection.com
+0.0.0.0 lnstagram-copyrightobjection.ml
 0.0.0.0 lnstagram-copyrightoffice.com
 0.0.0.0 lnstagram-copyrightonlineform.ml
 0.0.0.0 lnstagram-copyrightonlineform.tk
@@ -6701,6 +6780,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrightpolicy.com
 0.0.0.0 lnstagram-copyrightpolicy.tk
 0.0.0.0 lnstagram-copyrightportal.com
+0.0.0.0 lnstagram-copyrightremove.ml
 0.0.0.0 lnstagram-copyrightrules.com
 0.0.0.0 lnstagram-copyrightrules.ml
 0.0.0.0 lnstagram-copyrightrulescenter.cf
@@ -6712,6 +6792,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrights-center.ml
 0.0.0.0 lnstagram-copyrights-centers.com
 0.0.0.0 lnstagram-copyrights-centers.ml
+0.0.0.0 lnstagram-copyrights-central.cf
 0.0.0.0 lnstagram-copyrights-form.cf
 0.0.0.0 lnstagram-copyrights-form.gq
 0.0.0.0 lnstagram-copyrights-form.ml
@@ -6736,6 +6817,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrights-helps-supports.ml
 0.0.0.0 lnstagram-copyrights-helps.com
 0.0.0.0 lnstagram-copyrights-helpservice.com
+0.0.0.0 lnstagram-copyrights-infingrement.cf
 0.0.0.0 lnstagram-copyrights-infingrement.ml
 0.0.0.0 lnstagram-copyrights-media.com
 0.0.0.0 lnstagram-copyrights-notices.ml
@@ -6749,6 +6831,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrights-support-team.ml
 0.0.0.0 lnstagram-copyrights-support.com
 0.0.0.0 lnstagram-copyrights-support.ga
+0.0.0.0 lnstagram-copyrights-supportlive.ml
 0.0.0.0 lnstagram-copyrights-supports.cf
 0.0.0.0 lnstagram-copyrights-supports.com
 0.0.0.0 lnstagram-copyrights-supports.ga
@@ -6834,6 +6917,8 @@ Hash: SHA256
 0.0.0.0 lnstagram-copyrightviolation.com
 0.0.0.0 lnstagram-copyrightviolation.gq
 0.0.0.0 lnstagram-copyrigt-center.ml
+0.0.0.0 lnstagram-copyrigt-supports.cf
+0.0.0.0 lnstagram-copyrigt-supports.gq
 0.0.0.0 lnstagram-copyrigt-team.ml
 0.0.0.0 lnstagram-copyrigt.ga
 0.0.0.0 lnstagram-copyrigtc.ga
@@ -6873,6 +6958,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-corpyright-help-center.ml
 0.0.0.0 lnstagram-corpyright.ml
 0.0.0.0 lnstagram-corpyrihgt-help-center.cf
+0.0.0.0 lnstagram-covid19support.ml
 0.0.0.0 lnstagram-covidhelp.ml
 0.0.0.0 lnstagram-cppyright.ga
 0.0.0.0 lnstagram-cpyright.tk
@@ -6973,6 +7059,8 @@ Hash: SHA256
 0.0.0.0 lnstagram-form.info
 0.0.0.0 lnstagram-form.ml
 0.0.0.0 lnstagram-form.tk
+0.0.0.0 lnstagram-form17.ml
+0.0.0.0 lnstagram-form36.ml
 0.0.0.0 lnstagram-formal.com
 0.0.0.0 lnstagram-formedia.ml
 0.0.0.0 lnstagram-formedia.tk
@@ -6992,6 +7080,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-forms.ga
 0.0.0.0 lnstagram-forms.gq
 0.0.0.0 lnstagram-forms.ml
+0.0.0.0 lnstagram-forms.tk
 0.0.0.0 lnstagram-formteak.tk
 0.0.0.0 lnstagram-forr-center-help.ml
 0.0.0.0 lnstagram-forsecurity.cf
@@ -7002,10 +7091,12 @@ Hash: SHA256
 0.0.0.0 lnstagram-forum.ml
 0.0.0.0 lnstagram-forviolation.com
 0.0.0.0 lnstagram-foto-agzdz.com
+0.0.0.0 lnstagram-fr.com
 0.0.0.0 lnstagram-free-help.cf
 0.0.0.0 lnstagram-free-help.ga
 0.0.0.0 lnstagram-free.ml
 0.0.0.0 lnstagram-freebies.win
+0.0.0.0 lnstagram-from-supports.ml
 0.0.0.0 lnstagram-from.com
 0.0.0.0 lnstagram-from.ml
 0.0.0.0 lnstagram-fsdcvz-fxzq.xyz
@@ -7107,6 +7198,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-help-copyright-rules.ml
 0.0.0.0 lnstagram-help-copyright-section.cf
 0.0.0.0 lnstagram-help-copyright-section.ml
+0.0.0.0 lnstagram-help-copyright-services-notice.ml
 0.0.0.0 lnstagram-help-copyright-support.cf
 0.0.0.0 lnstagram-help-copyright-support.ml
 0.0.0.0 lnstagram-help-copyright-supports.ml
@@ -7184,6 +7276,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-help-service.somee.com
 0.0.0.0 lnstagram-help-service.tk
 0.0.0.0 lnstagram-help-services-appeal-forms.ml
+0.0.0.0 lnstagram-help-services-copyright-notices.ml
 0.0.0.0 lnstagram-help-services.com
 0.0.0.0 lnstagram-help-services.ga
 0.0.0.0 lnstagram-help-services.gq
@@ -7202,6 +7295,8 @@ Hash: SHA256
 0.0.0.0 lnstagram-help-supports.com
 0.0.0.0 lnstagram-help-supports.ml
 0.0.0.0 lnstagram-help-supports.tk
+0.0.0.0 lnstagram-help-supportt.ml
+0.0.0.0 lnstagram-help-team-support.cf
 0.0.0.0 lnstagram-help-team.com
 0.0.0.0 lnstagram-help-team.gq
 0.0.0.0 lnstagram-help-team.ml
@@ -7227,6 +7322,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-help.co
 0.0.0.0 lnstagram-help.com
 0.0.0.0 lnstagram-help.com.pl
+0.0.0.0 lnstagram-help.forms.ml
 0.0.0.0 lnstagram-help.gq
 0.0.0.0 lnstagram-help.info
 0.0.0.0 lnstagram-help.ml
@@ -7249,6 +7345,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-helpbusiness.ml
 0.0.0.0 lnstagram-helpbussines.tk
 0.0.0.0 lnstagram-helpcennter.ml
+0.0.0.0 lnstagram-helpcenter-casenumber-469383-copyright.ml
 0.0.0.0 lnstagram-helpcenter-com.cf
 0.0.0.0 lnstagram-helpcenter-copyright-form.ml
 0.0.0.0 lnstagram-helpcenter-copyright.ml
@@ -7269,6 +7366,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-helpcenterr.com
 0.0.0.0 lnstagram-helpcenters.cf
 0.0.0.0 lnstagram-helpcenters.com
+0.0.0.0 lnstagram-helpcenters.ga
 0.0.0.0 lnstagram-helpcenters.ml
 0.0.0.0 lnstagram-helpcenters.tk
 0.0.0.0 lnstagram-helpcenterservice.cf
@@ -7343,6 +7441,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-helping-center.tk
 0.0.0.0 lnstagram-helping-centre.com
 0.0.0.0 lnstagram-helping-centre.ml
+0.0.0.0 lnstagram-helping-form.cf
 0.0.0.0 lnstagram-helping-service.gq
 0.0.0.0 lnstagram-helping-services.com
 0.0.0.0 lnstagram-helping-support.ga
@@ -7443,6 +7542,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-helpservice.ml
 0.0.0.0 lnstagram-helpservice.net
 0.0.0.0 lnstagram-helpservice.tk
+0.0.0.0 lnstagram-helpserviced.ml
 0.0.0.0 lnstagram-helpservices-copyright.ml
 0.0.0.0 lnstagram-helpservices.cf
 0.0.0.0 lnstagram-helpservices.com
@@ -7496,11 +7596,15 @@ Hash: SHA256
 0.0.0.0 lnstagram-icon.com
 0.0.0.0 lnstagram-ig-help.ga
 0.0.0.0 lnstagram-info-account.ml
+0.0.0.0 lnstagram-info-help.com
+0.0.0.0 lnstagram-info-helps.com
 0.0.0.0 lnstagram-info.cf
 0.0.0.0 lnstagram-info.ga
 0.0.0.0 lnstagram-info.ml
 0.0.0.0 lnstagram-info.store
 0.0.0.0 lnstagram-infohelp.ml
+0.0.0.0 lnstagram-information.bedrlions.store
+0.0.0.0 lnstagram-information.cf
 0.0.0.0 lnstagram-information.ga
 0.0.0.0 lnstagram-information.ml
 0.0.0.0 lnstagram-informationsform.ml
@@ -7531,6 +7635,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-live-verification.com
 0.0.0.0 lnstagram-live-verification.gq
 0.0.0.0 lnstagram-livecopyrights.tk
+0.0.0.0 lnstagram-liveglobal.ml
 0.0.0.0 lnstagram-lives-copyright.tk
 0.0.0.0 lnstagram-lives-services.ml
 0.0.0.0 lnstagram-lives.ml
@@ -7547,6 +7652,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-login-account.cf
 0.0.0.0 lnstagram-login-home.cf
 0.0.0.0 lnstagram-login-name.cf
+0.0.0.0 lnstagram-login-page-com.cf
 0.0.0.0 lnstagram-login-panel.cf
 0.0.0.0 lnstagram-login-uk.cf
 0.0.0.0 lnstagram-login-us.cf
@@ -7584,6 +7690,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-media-helps.com
 0.0.0.0 lnstagram-media-helps.ml
 0.0.0.0 lnstagram-media-line.ml
+0.0.0.0 lnstagram-media-office.com
 0.0.0.0 lnstagram-media-security.ml
 0.0.0.0 lnstagram-media-service.com
 0.0.0.0 lnstagram-media-services.com
@@ -7633,6 +7740,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-notice-support.cf
 0.0.0.0 lnstagram-notice.com
 0.0.0.0 lnstagram-objections.ml
+0.0.0.0 lnstagram-office-appeal.ml
 0.0.0.0 lnstagram-office-contactform.com
 0.0.0.0 lnstagram-office.cf
 0.0.0.0 lnstagram-office.com
@@ -7640,6 +7748,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-official.com
 0.0.0.0 lnstagram-online-blue-badges.ml
 0.0.0.0 lnstagram-online-support.ga
+0.0.0.0 lnstagram-onlineforms.ml
 0.0.0.0 lnstagram-onlinemedia.ml
 0.0.0.0 lnstagram-onlineservices.cf
 0.0.0.0 lnstagram-onlineservices.tk
@@ -7821,6 +7930,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-suport-media-verified.ml
 0.0.0.0 lnstagram-suport-media.cf
 0.0.0.0 lnstagram-suport-media.ml
+0.0.0.0 lnstagram-suportig-tems.gq
 0.0.0.0 lnstagram-suports.tk
 0.0.0.0 lnstagram-supporrt-com.ml
 0.0.0.0 lnstagram-supporst.com
@@ -7857,6 +7967,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-support-form.ml
 0.0.0.0 lnstagram-support-form.tk
 0.0.0.0 lnstagram-support-forms.ml
+0.0.0.0 lnstagram-support-gg.ml
 0.0.0.0 lnstagram-support-help.cf
 0.0.0.0 lnstagram-support-help.com
 0.0.0.0 lnstagram-support-help.gq
@@ -7962,6 +8073,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-supportnotice.com
 0.0.0.0 lnstagram-supportq.tk
 0.0.0.0 lnstagram-supports-bussines.ml
+0.0.0.0 lnstagram-supports-center-live.ml
 0.0.0.0 lnstagram-supports-center.com
 0.0.0.0 lnstagram-supports-center.ga
 0.0.0.0 lnstagram-supports-center.tk
@@ -7982,6 +8094,10 @@ Hash: SHA256
 0.0.0.0 lnstagram-supports.info
 0.0.0.0 lnstagram-supports.ml
 0.0.0.0 lnstagram-supports.tk
+0.0.0.0 lnstagram-supports4.cf
+0.0.0.0 lnstagram-supports4.ga
+0.0.0.0 lnstagram-supports4.gq
+0.0.0.0 lnstagram-supports4.tk
 0.0.0.0 lnstagram-supportscenter.ga
 0.0.0.0 lnstagram-supportserver.ml
 0.0.0.0 lnstagram-supportservice.com
@@ -8006,6 +8122,8 @@ Hash: SHA256
 0.0.0.0 lnstagram-supportts.cf
 0.0.0.0 lnstagram-supportts.ml
 0.0.0.0 lnstagram-supportus.com
+0.0.0.0 lnstagram-supporty.cf
+0.0.0.0 lnstagram-supporty.tk
 0.0.0.0 lnstagram-suppot.cf
 0.0.0.0 lnstagram-suppotyhelpersteam.com
 0.0.0.0 lnstagram-suspended-account-center.cf
@@ -8016,6 +8134,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-suspended-account.ml
 0.0.0.0 lnstagram-suspended-accounts.cf
 0.0.0.0 lnstagram-suspended-accounts.ml
+0.0.0.0 lnstagram-suspended-service.cf
 0.0.0.0 lnstagram-suspended-verify-account.cf
 0.0.0.0 lnstagram-suspended-verify-account.ga
 0.0.0.0 lnstagram-suspended-verify-account.ml
@@ -8059,6 +8178,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-teamverify-badge.cf
 0.0.0.0 lnstagram-technical-support.ml
 0.0.0.0 lnstagram-telif-hizmetleri.tk
+0.0.0.0 lnstagram-telif-services.ml
 0.0.0.0 lnstagram-terms-serviceapp.com
 0.0.0.0 lnstagram-tick.com
 0.0.0.0 lnstagram-tickcopyright.ml
@@ -8067,6 +8187,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-tr-login.cf
 0.0.0.0 lnstagram-tr.ml
 0.0.0.0 lnstagram-trademarkviolationhelp.cf
+0.0.0.0 lnstagram-uk.com
 0.0.0.0 lnstagram-update.alquiler-en-madrid.es
 0.0.0.0 lnstagram-update.dimae.net
 0.0.0.0 lnstagram-update.monikako.com
@@ -8108,6 +8229,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-verifaction-help.com
 0.0.0.0 lnstagram-verifaction.ga
 0.0.0.0 lnstagram-verifaction.ml
+0.0.0.0 lnstagram-verifed-account.com
 0.0.0.0 lnstagram-verifed-badge.ml
 0.0.0.0 lnstagram-verifed-badge.tk
 0.0.0.0 lnstagram-verifed-badge.xyz
@@ -8150,6 +8272,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-verifications.com
 0.0.0.0 lnstagram-verificationteam.com
 0.0.0.0 lnstagram-verificetion.tk
+0.0.0.0 lnstagram-verifiction.xyz
 0.0.0.0 lnstagram-verifiebadge.ml
 0.0.0.0 lnstagram-verified-badge-center.tk
 0.0.0.0 lnstagram-verified-badge-support.net
@@ -8321,6 +8444,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-verifyaccount.com
 0.0.0.0 lnstagram-verifyaccount.gq
 0.0.0.0 lnstagram-verifyaccounts.cf
+0.0.0.0 lnstagram-verifybadge-centerr.ml
 0.0.0.0 lnstagram-verifybadge-notice.tk
 0.0.0.0 lnstagram-verifybadge-support.ml
 0.0.0.0 lnstagram-verifybadge.cf
@@ -8418,6 +8542,7 @@ Hash: SHA256
 0.0.0.0 lnstagram-violations-support.cf
 0.0.0.0 lnstagram-violations.ml
 0.0.0.0 lnstagram-violations.tk
+0.0.0.0 lnstagram-violationservice.cf
 0.0.0.0 lnstagram-vrifiedd.tk
 0.0.0.0 lnstagram-web-copyright.cf
 0.0.0.0 lnstagram-web.cf
@@ -8618,6 +8743,7 @@ Hash: SHA256
 0.0.0.0 lnstagram.help.ig-copyrights.ml
 0.0.0.0 lnstagram.help.protections.ml
 0.0.0.0 lnstagram.helpcentre-copyright.com
+0.0.0.0 lnstagram.helpconfirmate.com
 0.0.0.0 lnstagram.helpfacebookbusiness.com
 0.0.0.0 lnstagram.helplnstagramcopyright.ml
 0.0.0.0 lnstagram.helpservices.xyz
@@ -8633,6 +8759,7 @@ Hash: SHA256
 0.0.0.0 lnstagram.id
 0.0.0.0 lnstagram.ig-mediasupport.tk
 0.0.0.0 lnstagram.ignorelist.com
+0.0.0.0 lnstagram.illegalproducts.ml
 0.0.0.0 lnstagram.in
 0.0.0.0 lnstagram.info
 0.0.0.0 lnstagram.info-copyright.com
@@ -8675,6 +8802,7 @@ Hash: SHA256
 0.0.0.0 lnstagram.netlib.re
 0.0.0.0 lnstagram.nu
 0.0.0.0 lnstagram.nut.cc
+0.0.0.0 lnstagram.objections.copyrightnt.ml
 0.0.0.0 lnstagram.ogghostpanel.vip
 0.0.0.0 lnstagram.one
 0.0.0.0 lnstagram.online
@@ -8935,6 +9063,7 @@ Hash: SHA256
 0.0.0.0 lnstagramactivate.com
 0.0.0.0 lnstagramactivation.com
 0.0.0.0 lnstagramadmins.com
+0.0.0.0 lnstagramadvertisebusiness.com
 0.0.0.0 lnstagramagency.com
 0.0.0.0 lnstagramagency.ml
 0.0.0.0 lnstagramagency.xyz
@@ -8975,6 +9104,7 @@ Hash: SHA256
 0.0.0.0 lnstagramappealform.ga
 0.0.0.0 lnstagramappealform.ml
 0.0.0.0 lnstagramappealform.tk
+0.0.0.0 lnstagramappealformhelping.ml
 0.0.0.0 lnstagramappealforum.com
 0.0.0.0 lnstagramappealhelp.com
 0.0.0.0 lnstagramappealmedia.com
@@ -9041,6 +9171,7 @@ Hash: SHA256
 0.0.0.0 lnstagrambadgeaccountidentify.tk
 0.0.0.0 lnstagrambadgeaccountverifysite.tk
 0.0.0.0 lnstagrambadgeactivation.tk
+0.0.0.0 lnstagrambadgeappeal.gq
 0.0.0.0 lnstagrambadgeapplicationcontact.tk
 0.0.0.0 lnstagrambadgeapplicationform.tk
 0.0.0.0 lnstagrambadgeapplicationformsite.tk
@@ -9108,6 +9239,7 @@ Hash: SHA256
 0.0.0.0 lnstagrambadgeservice.tk
 0.0.0.0 lnstagrambadgeservices.tk
 0.0.0.0 lnstagrambadgeserviceshelp.ml
+0.0.0.0 lnstagrambadgeshelpcenter.ml
 0.0.0.0 lnstagrambadgeshelps.cf
 0.0.0.0 lnstagrambadgeshelpscenter.ml
 0.0.0.0 lnstagrambadgespport.ml
@@ -9118,6 +9250,7 @@ Hash: SHA256
 0.0.0.0 lnstagrambadgesupport.ga
 0.0.0.0 lnstagrambadgesupport.ml
 0.0.0.0 lnstagrambadgesupport.tk
+0.0.0.0 lnstagrambadgesverified.tk
 0.0.0.0 lnstagrambadgeteam.cf
 0.0.0.0 lnstagrambadgeteam.com
 0.0.0.0 lnstagrambadgeteam.ml
@@ -9498,6 +9631,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcase.com
 0.0.0.0 lnstagramcase.org
 0.0.0.0 lnstagramcaseforms.org
+0.0.0.0 lnstagramcasemedian.cf
 0.0.0.0 lnstagramcekilisciniz.com
 0.0.0.0 lnstagramcekilissitesi.com
 0.0.0.0 lnstagramcenter-copyrighthelp.cf
@@ -9519,6 +9653,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcentercopyright.tk
 0.0.0.0 lnstagramcentercopyrighthelp.com
 0.0.0.0 lnstagramcentercopyrighthelp.ga
+0.0.0.0 lnstagramcentercopyrights.cf
 0.0.0.0 lnstagramcentercopyrights.com
 0.0.0.0 lnstagramcenterhelp.com
 0.0.0.0 lnstagramcenterhelp.ga
@@ -9603,6 +9738,7 @@ Hash: SHA256
 0.0.0.0 lnstagramclientcopyrightverification.ml
 0.0.0.0 lnstagramclientform.com
 0.0.0.0 lnstagramclienthelp.com
+0.0.0.0 lnstagramclienthelpbusiness.ml
 0.0.0.0 lnstagramclientinfo.com
 0.0.0.0 lnstagramclientinfo.ml
 0.0.0.0 lnstagramclientlnfo.com
@@ -9699,6 +9835,8 @@ Hash: SHA256
 0.0.0.0 lnstagramconfirmmedia.ml
 0.0.0.0 lnstagramconfirmverified.ml
 0.0.0.0 lnstagramconfrmbadge.ga
+0.0.0.0 lnstagramconsultant.com
+0.0.0.0 lnstagramconsultant.ml
 0.0.0.0 lnstagramcontact-help.tk
 0.0.0.0 lnstagramcontact.cf
 0.0.0.0 lnstagramcontact.com
@@ -9774,6 +9912,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcopryight.ml
 0.0.0.0 lnstagramcopryigt.ml
 0.0.0.0 lnstagramcopryigtcovid.ml
+0.0.0.0 lnstagramcopryigts.com
 0.0.0.0 lnstagramcopryrightform.ga
 0.0.0.0 lnstagramcopryrightz.gq
 0.0.0.0 lnstagramcopy-right.cf
@@ -10209,6 +10348,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcopyrighthelpcentreinfo.ml
 0.0.0.0 lnstagramcopyrighthelper.com
 0.0.0.0 lnstagramcopyrighthelper.ga
+0.0.0.0 lnstagramcopyrighthelper.gq
 0.0.0.0 lnstagramcopyrighthelper.tk
 0.0.0.0 lnstagramcopyrighthelpers.cf
 0.0.0.0 lnstagramcopyrighthelpers.com
@@ -10290,6 +10430,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcopyrightinfringement.com
 0.0.0.0 lnstagramcopyrightinfringement.gq
 0.0.0.0 lnstagramcopyrightinfringement.ml
+0.0.0.0 lnstagramcopyrightinfringement.tk
 0.0.0.0 lnstagramcopyrightinfringementform.com
 0.0.0.0 lnstagramcopyrightinfringementform.ml
 0.0.0.0 lnstagramcopyrightinfringementhelp.gq
@@ -10310,6 +10451,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcopyrightlawyer.com
 0.0.0.0 lnstagramcopyrightline.cf
 0.0.0.0 lnstagramcopyrightline.com
+0.0.0.0 lnstagramcopyrightlive.cf
 0.0.0.0 lnstagramcopyrightlivecenter.com
 0.0.0.0 lnstagramcopyrightlivecenter.ml
 0.0.0.0 lnstagramcopyrightlivee.cf
@@ -10579,6 +10721,8 @@ Hash: SHA256
 0.0.0.0 lnstagramcopyrightsupports.org
 0.0.0.0 lnstagramcopyrightsupportscenter.ml
 0.0.0.0 lnstagramcopyrightsupportservices.tk
+0.0.0.0 lnstagramcopyrightsupportshelp.ml
+0.0.0.0 lnstagramcopyrightsupportshelp.rf.gd
 0.0.0.0 lnstagramcopyrightsupportsnotice.com
 0.0.0.0 lnstagramcopyrightsupportt.com
 0.0.0.0 lnstagramcopyrightsupportteam.com
@@ -10741,6 +10885,7 @@ Hash: SHA256
 0.0.0.0 lnstagramcourtform.com
 0.0.0.0 lnstagramcovidcopyright.com
 0.0.0.0 lnstagramcovidhelp.cf
+0.0.0.0 lnstagramcovidsupport.cf
 0.0.0.0 lnstagramcovidsupport.ml
 0.0.0.0 lnstagramcovidverifybadges.ml
 0.0.0.0 lnstagramcoypright.com
@@ -10965,6 +11110,7 @@ Hash: SHA256
 0.0.0.0 lnstagramformlive.com
 0.0.0.0 lnstagramformlive.tk
 0.0.0.0 lnstagramformlogin.ml
+0.0.0.0 lnstagramformobjection.ml
 0.0.0.0 lnstagramformreply.com
 0.0.0.0 lnstagramforms-copyright.cf
 0.0.0.0 lnstagramforms.cf
@@ -11082,6 +11228,7 @@ Hash: SHA256
 0.0.0.0 lnstagramglobalhelp.com
 0.0.0.0 lnstagramglobalhelp.ml
 0.0.0.0 lnstagramglobalhelp.tk
+0.0.0.0 lnstagramglobalhelps.cf
 0.0.0.0 lnstagramglobalsupport.com
 0.0.0.0 lnstagramgreenmedia.ml
 0.0.0.0 lnstagramgroup.co.uk
@@ -11092,6 +11239,8 @@ Hash: SHA256
 0.0.0.0 lnstagramhandlereceiver.tk
 0.0.0.0 lnstagramharuka0130.com
 0.0.0.0 lnstagramheipconnact.com
+0.0.0.0 lnstagramhellp.info
+0.0.0.0 lnstagramhellp.ml
 0.0.0.0 lnstagramhellpcenters.ml
 0.0.0.0 lnstagramhellpcopyrights.cf
 0.0.0.0 lnstagramhellpscentre.ml
@@ -11172,7 +11321,9 @@ Hash: SHA256
 0.0.0.0 lnstagramhelp-team-center.cf
 0.0.0.0 lnstagramhelp-team.somee.com
 0.0.0.0 lnstagramhelp-teams.ml
+0.0.0.0 lnstagramhelp-verification.ml
 0.0.0.0 lnstagramhelp-verified.com
+0.0.0.0 lnstagramhelp-verified.ml
 0.0.0.0 lnstagramhelp-verifiedbadges.cf
 0.0.0.0 lnstagramhelp-verifiedbadges.com
 0.0.0.0 lnstagramhelp-verifiedbadges.ml
@@ -11210,6 +11361,8 @@ Hash: SHA256
 0.0.0.0 lnstagramhelp2569874.tk
 0.0.0.0 lnstagramhelp346.byethost33.com
 0.0.0.0 lnstagramhelp3659.tk
+0.0.0.0 lnstagramhelp65899484968xq.ml
+0.0.0.0 lnstagramhelp6589948968xq.gq
 0.0.0.0 lnstagramhelp95124.site
 0.0.0.0 lnstagramhelpabout.com
 0.0.0.0 lnstagramhelpabout.ga
@@ -11303,6 +11456,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpcenter2334.site
 0.0.0.0 lnstagramhelpcenter2584.site
 0.0.0.0 lnstagramhelpcenter264219.com
+0.0.0.0 lnstagramhelpcenter3578.ml
 0.0.0.0 lnstagramhelpcenter432.epizy.com
 0.0.0.0 lnstagramhelpcenter452224988254813.somee.com
 0.0.0.0 lnstagramhelpcenter456783.ferisoft.com
@@ -11318,6 +11472,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpcenteral.ml
 0.0.0.0 lnstagramhelpcenterbadge.com
 0.0.0.0 lnstagramhelpcenterbadgepage.ml
+0.0.0.0 lnstagramhelpcenterbadges.com
 0.0.0.0 lnstagramhelpcenterc.ml
 0.0.0.0 lnstagramhelpcentercity.com
 0.0.0.0 lnstagramhelpcentercompany.com
@@ -11429,6 +11584,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpconfirm.online
 0.0.0.0 lnstagramhelpconfirm.site
 0.0.0.0 lnstagramhelpconfirm.xyz
+0.0.0.0 lnstagramhelpconfirmate.com
 0.0.0.0 lnstagramhelpconfirms.cf
 0.0.0.0 lnstagramhelpconfirms.ml
 0.0.0.0 lnstagramhelpconnect.com
@@ -11442,11 +11598,13 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpcontact5497804576.cf
 0.0.0.0 lnstagramhelpcontact56700.ga
 0.0.0.0 lnstagramhelpcontact57490.ga
+0.0.0.0 lnstagramhelpcontactbusines-support.ml
 0.0.0.0 lnstagramhelpcontacting.tk
 0.0.0.0 lnstagramhelpcontacts.com
 0.0.0.0 lnstagramhelpcontacts.ml
 0.0.0.0 lnstagramhelpcontactsupport.ml
 0.0.0.0 lnstagramhelpcop-yrightcenter.cf
+0.0.0.0 lnstagramhelpcopyrght.ml
 0.0.0.0 lnstagramhelpcopyrghts.tk
 0.0.0.0 lnstagramhelpcopyrigh.com
 0.0.0.0 lnstagramhelpcopyright-com.cf
@@ -11485,6 +11643,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpcopyrightsforms.com
 0.0.0.0 lnstagramhelpcopyrightssupport.com
 0.0.0.0 lnstagramhelpcopyrightssupports.com
+0.0.0.0 lnstagramhelpcopyrightsupporservice.cf
 0.0.0.0 lnstagramhelpcopyrightsupport.com
 0.0.0.0 lnstagramhelpcopyrightsupport.ml
 0.0.0.0 lnstagramhelpcopyrightsupports.com
@@ -11502,6 +11661,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpdesk.tk
 0.0.0.0 lnstagramhelpdigital.com
 0.0.0.0 lnstagramhelpedcontactcenter.ml
+0.0.0.0 lnstagramhelpedteams.cf
 0.0.0.0 lnstagramhelper.cf
 0.0.0.0 lnstagramhelper.com
 0.0.0.0 lnstagramhelper.ga
@@ -11517,6 +11677,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpercenters.ml
 0.0.0.0 lnstagramhelpercenters.tk
 0.0.0.0 lnstagramhelpercentre.com
+0.0.0.0 lnstagramhelperconfirm.ga
 0.0.0.0 lnstagramhelpercopyright.cf
 0.0.0.0 lnstagramhelpercopyright.com
 0.0.0.0 lnstagramhelpercopyrights.com
@@ -11649,6 +11810,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelportal.com
 0.0.0.0 lnstagramhelportal.ml
 0.0.0.0 lnstagramhelpp-copyright.cf
+0.0.0.0 lnstagramhelpp.com
 0.0.0.0 lnstagramhelpp.tk
 0.0.0.0 lnstagramhelppage-page.ml
 0.0.0.0 lnstagramhelppcenterr.somee.com
@@ -11660,6 +11822,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelprules.ml
 0.0.0.0 lnstagramhelprulesform.com
 0.0.0.0 lnstagramhelprulessupport.com
+0.0.0.0 lnstagramhelps-center.cf
 0.0.0.0 lnstagramhelps-center.com
 0.0.0.0 lnstagramhelps-central.com
 0.0.0.0 lnstagramhelps-contact.cf
@@ -11669,6 +11832,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelps-copyright.ml
 0.0.0.0 lnstagramhelps-copyright.tk
 0.0.0.0 lnstagramhelps-copyrights.cf
+0.0.0.0 lnstagramhelps-form.cf
 0.0.0.0 lnstagramhelps-form.ml
 0.0.0.0 lnstagramhelps-service.ml
 0.0.0.0 lnstagramhelps-services.com
@@ -11693,6 +11857,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpsblueteaksupport.ml
 0.0.0.0 lnstagramhelpsbusines.ml
 0.0.0.0 lnstagramhelpsbusiness.com
+0.0.0.0 lnstagramhelpsbusiness.ml
 0.0.0.0 lnstagramhelpscent.com
 0.0.0.0 lnstagramhelpscenter-com.ml
 0.0.0.0 lnstagramhelpscenter.cf
@@ -11831,6 +11996,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpsupportcase.cf
 0.0.0.0 lnstagramhelpsupportcenter.cf
 0.0.0.0 lnstagramhelpsupportcenter.com
+0.0.0.0 lnstagramhelpsupportcenters.com
 0.0.0.0 lnstagramhelpsupportcentertr.com
 0.0.0.0 lnstagramhelpsupportcopyright.ga
 0.0.0.0 lnstagramhelpsupporteam.ga
@@ -11865,6 +12031,7 @@ Hash: SHA256
 0.0.0.0 lnstagramhelpteamcentering.com
 0.0.0.0 lnstagramhelpteamcontacts.cf
 0.0.0.0 lnstagramhelpteamcontacts.ga
+0.0.0.0 lnstagramhelpteamcopyrighs.ml
 0.0.0.0 lnstagramhelpteamfr.com
 0.0.0.0 lnstagramhelpteams.cf
 0.0.0.0 lnstagramhelpteams.com
@@ -11926,10 +12093,12 @@ Hash: SHA256
 0.0.0.0 lnstagramidentifysupport.tk
 0.0.0.0 lnstagramidentifysupportsite.tk
 0.0.0.0 lnstagramidentifyverification.tk
+0.0.0.0 lnstagramindiacopyright.ml
 0.0.0.0 lnstagramindir.ga
 0.0.0.0 lnstagraminfcenter.tk
 0.0.0.0 lnstagraminfo.com
 0.0.0.0 lnstagraminfo.ga
+0.0.0.0 lnstagraminfo.gq
 0.0.0.0 lnstagraminfo.ml
 0.0.0.0 lnstagraminfo.tk
 0.0.0.0 lnstagraminfocopyright.tk
@@ -11937,6 +12106,7 @@ Hash: SHA256
 0.0.0.0 lnstagraminformation.ga
 0.0.0.0 lnstagraminformation.somee.com
 0.0.0.0 lnstagraminfringement.com
+0.0.0.0 lnstagraminfringementclient.cf
 0.0.0.0 lnstagraminfringementcopyrightrules-com.ml
 0.0.0.0 lnstagraminfringementform.cf
 0.0.0.0 lnstagraminfringementsupporting.cf
@@ -12007,6 +12177,7 @@ Hash: SHA256
 0.0.0.0 lnstagramliveesupporting.ml
 0.0.0.0 lnstagramliveform.ml
 0.0.0.0 lnstagramliveheipcenter.ml
+0.0.0.0 lnstagramlivehelp-form.ml
 0.0.0.0 lnstagramlivehelp.center
 0.0.0.0 lnstagramlivehelp.cf
 0.0.0.0 lnstagramlivehelp.com
@@ -12027,6 +12198,7 @@ Hash: SHA256
 0.0.0.0 lnstagramlives.ml
 0.0.0.0 lnstagramlivesecurity.com
 0.0.0.0 lnstagramliveservices.com
+0.0.0.0 lnstagramliveservices.ml
 0.0.0.0 lnstagramliveservices.xyz
 0.0.0.0 lnstagramliveserviceuc.cf
 0.0.0.0 lnstagramlivesupport.center
@@ -12110,6 +12282,7 @@ Hash: SHA256
 0.0.0.0 lnstagrammediaoperations.ml
 0.0.0.0 lnstagrammediaservice.cf
 0.0.0.0 lnstagrammediaservice.gq
+0.0.0.0 lnstagrammediaservices.gq
 0.0.0.0 lnstagrammediasupport.com
 0.0.0.0 lnstagrammer.ml
 0.0.0.0 lnstagrammethodlar.ml
@@ -12147,8 +12320,10 @@ Hash: SHA256
 0.0.0.0 lnstagramoffice.cf
 0.0.0.0 lnstagramoffice.com
 0.0.0.0 lnstagramofficecenter.com
+0.0.0.0 lnstagramofficecenter.ga
 0.0.0.0 lnstagramofficecontact-com.ml
 0.0.0.0 lnstagramofficehelpcenter.com
+0.0.0.0 lnstagramofficehelps.com
 0.0.0.0 lnstagramofficeteam.com
 0.0.0.0 lnstagramofficial.com
 0.0.0.0 lnstagramofficial.ml
@@ -12249,6 +12424,7 @@ Hash: SHA256
 0.0.0.0 lnstagrampartnerservice.gq
 0.0.0.0 lnstagrampartnerservice.tk
 0.0.0.0 lnstagrampartnerservices.tk
+0.0.0.0 lnstagrampartnersmedia.cf
 0.0.0.0 lnstagrampartnersupport.cf
 0.0.0.0 lnstagrampartnersupport.com
 0.0.0.0 lnstagrampartnersupported.cf
@@ -12307,6 +12483,7 @@ Hash: SHA256
 0.0.0.0 lnstagrampublishermedia.com
 0.0.0.0 lnstagrampublishers.com
 0.0.0.0 lnstagrampublishersupport.cf
+0.0.0.0 lnstagrampublishersupport.com
 0.0.0.0 lnstagramquickhelpform.ml
 0.0.0.0 lnstagramquickhelpform.tk
 0.0.0.0 lnstagramquicksupport.ml
@@ -12417,6 +12594,8 @@ Hash: SHA256
 0.0.0.0 lnstagrams.shop
 0.0.0.0 lnstagrams.site
 0.0.0.0 lnstagrams.support
+0.0.0.0 lnstagrams.us
+0.0.0.0 lnstagrams.us.intradaystocktips.org
 0.0.0.0 lnstagrams.website
 0.0.0.0 lnstagrams.xyz
 0.0.0.0 lnstagramsafebadge.cf
@@ -12672,6 +12851,7 @@ Hash: SHA256
 0.0.0.0 lnstagramspport.cf
 0.0.0.0 lnstagramspy.site
 0.0.0.0 lnstagramss.cf
+0.0.0.0 lnstagramss.gq
 0.0.0.0 lnstagramss.tk
 0.0.0.0 lnstagramsservice.com
 0.0.0.0 lnstagramssl.158520.prohoster.xyz
@@ -12712,6 +12892,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsuportts.ml
 0.0.0.0 lnstagramsuppoort.com
 0.0.0.0 lnstagramsuppoortlive.com
+0.0.0.0 lnstagramsuppor8493.unaux.com
 0.0.0.0 lnstagramsupporertlive.com
 0.0.0.0 lnstagramsupporls.cf
 0.0.0.0 lnstagramsupporrt.com
@@ -12797,6 +12978,9 @@ Hash: SHA256
 0.0.0.0 lnstagramsupport247.com
 0.0.0.0 lnstagramsupport2626.site
 0.0.0.0 lnstagramsupport37281.somee.com
+0.0.0.0 lnstagramsupport9431.gq
+0.0.0.0 lnstagramsupport9434.gq
+0.0.0.0 lnstagramsupport94349.gq
 0.0.0.0 lnstagramsupportaccount.com
 0.0.0.0 lnstagramsupportaccount.ml
 0.0.0.0 lnstagramsupportaccountcenter.gq
@@ -12851,6 +13035,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsupportcopyright.org
 0.0.0.0 lnstagramsupportcopyrights.somee.com
 0.0.0.0 lnstagramsupportcopyrightservice.cf
+0.0.0.0 lnstagramsupportcopyrightt.cf
 0.0.0.0 lnstagramsupportcopyrightteam.tk
 0.0.0.0 lnstagramsupportcopyrigt.ml
 0.0.0.0 lnstagramsupportdepartment.com
@@ -12865,6 +13050,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsupported.ml
 0.0.0.0 lnstagramsupporter.cf
 0.0.0.0 lnstagramsupporter.com
+0.0.0.0 lnstagramsupporter.ga
 0.0.0.0 lnstagramsupporter.gq
 0.0.0.0 lnstagramsupporter.ml
 0.0.0.0 lnstagramsupporter.org
@@ -12951,6 +13137,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsupportmedia.org
 0.0.0.0 lnstagramsupportn.tk
 0.0.0.0 lnstagramsupportoffice.cf
+0.0.0.0 lnstagramsupportoffice.com
 0.0.0.0 lnstagramsupportofficial.com
 0.0.0.0 lnstagramsupportonline.com
 0.0.0.0 lnstagramsupportportal.cf
@@ -12963,6 +13150,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsupportrequest.tk
 0.0.0.0 lnstagramsupportrules.ml
 0.0.0.0 lnstagramsupports-copyright.com
+0.0.0.0 lnstagramsupports-copyright.ga
 0.0.0.0 lnstagramsupports-form.ml
 0.0.0.0 lnstagramsupports-live.ml
 0.0.0.0 lnstagramsupports.cf
@@ -13001,6 +13189,7 @@ Hash: SHA256
 0.0.0.0 lnstagramsupportservices.ml
 0.0.0.0 lnstagramsupportservices.online
 0.0.0.0 lnstagramsupportservices.tk
+0.0.0.0 lnstagramsupportserviices.cf
 0.0.0.0 lnstagramsupportservisec.ml
 0.0.0.0 lnstagramsupportsform.com
 0.0.0.0 lnstagramsupportshelp.com
@@ -13096,6 +13285,7 @@ Hash: SHA256
 0.0.0.0 lnstagramtakipcim.tk
 0.0.0.0 lnstagramtakipcimbegenicim.somee.com
 0.0.0.0 lnstagramtakipcimiz.net
+0.0.0.0 lnstagramteam-copright.ga
 0.0.0.0 lnstagramteam-copyrighthelp-form.cf
 0.0.0.0 lnstagramteam-copyrighthelp-form.ml
 0.0.0.0 lnstagramteam-copyrighthelp.cf
@@ -13474,6 +13664,7 @@ Hash: SHA256
 0.0.0.0 lnstagramverifiedsupports.ml
 0.0.0.0 lnstagramverifiedteam.com
 0.0.0.0 lnstagramverifiedteam.ml
+0.0.0.0 lnstagramverifiedticket.ml
 0.0.0.0 lnstagramverifiedticks.com
 0.0.0.0 lnstagramverifieedcenter.cf
 0.0.0.0 lnstagramverifiiedbadgecentergo.ml
@@ -13589,6 +13780,7 @@ Hash: SHA256
 0.0.0.0 lnstagramverifybadgees.somee.com
 0.0.0.0 lnstagramverifybadgeforaccount.site
 0.0.0.0 lnstagramverifybadgeforaccount.tk
+0.0.0.0 lnstagramverifybadgeform.ml
 0.0.0.0 lnstagramverifybadgehelp.ml
 0.0.0.0 lnstagramverifybadgehelp.site
 0.0.0.0 lnstagramverifybadgehelp.tk
@@ -13704,6 +13896,7 @@ Hash: SHA256
 0.0.0.0 lnstagramverifyright.com
 0.0.0.0 lnstagramverifys.cf
 0.0.0.0 lnstagramverifys.com
+0.0.0.0 lnstagramverifysaccount.ml
 0.0.0.0 lnstagramverifysbadge.tk
 0.0.0.0 lnstagramverifyservice.com
 0.0.0.0 lnstagramverifyservice.comsupport7483283.gq
@@ -13811,6 +14004,7 @@ Hash: SHA256
 0.0.0.0 lnstagramviolationform.com
 0.0.0.0 lnstagramviolationform.ml
 0.0.0.0 lnstagramviolationform.tk
+0.0.0.0 lnstagramviolationforms-726881.ml
 0.0.0.0 lnstagramviolationforms.tech
 0.0.0.0 lnstagramviolationfrom.cf
 0.0.0.0 lnstagramviolationfrom.ml
@@ -13838,6 +14032,7 @@ Hash: SHA256
 0.0.0.0 lnstagramviolationservice.ml
 0.0.0.0 lnstagramviolationservicecenter.ml
 0.0.0.0 lnstagramviolationshelp.cf
+0.0.0.0 lnstagramviolationshelp.ml
 0.0.0.0 lnstagramviolationshelper.tk
 0.0.0.0 lnstagramviolationssupport.com
 0.0.0.0 lnstagramviolationssupport.ml
@@ -13901,6 +14096,7 @@ Hash: SHA256
 0.0.0.0 login-lnstagram.tk
 0.0.0.0 login-my-appss-app1e-com.flu.cc
 0.0.0.0 login-paypa1accoun.mixh.jp
+0.0.0.0 login-weblnstagram.com
 0.0.0.0 login.app1e2017.08times.mai12017.com
 0.0.0.0 login.ar-lnstagram.com
 0.0.0.0 login.facebo0k.com.access.gratuit.fblafr.kowoy.com
@@ -13979,7 +14175,11 @@ Hash: SHA256
 0.0.0.0 m-help-lnstagram.cf
 0.0.0.0 m-help-lnstagram.com
 0.0.0.0 m-help-lnstagram.ml
+0.0.0.0 m-lnstagram-copyrightteam.ml
 0.0.0.0 m-lnstagram-support-center.ml
+0.0.0.0 m-lnstagram-supportcenter.gq
+0.0.0.0 m-lnstagram-supportcenter.ml
+0.0.0.0 m-lnstagram-verifedbadge.ml
 0.0.0.0 m-lnstagram.cf
 0.0.0.0 m-lnstagram.com
 0.0.0.0 m-lnstagram.ga
@@ -13987,6 +14187,7 @@ Hash: SHA256
 0.0.0.0 m-lnstagram.tk
 0.0.0.0 m-lnstagramcopyrightforuser.ml
 0.0.0.0 m-lnstagramcopyrigthelp.cf
+0.0.0.0 m-lnstagramhelpingforms.ml
 0.0.0.0 m-lnstagrams.ml
 0.0.0.0 m-lnstagramsupport.cf
 0.0.0.0 m-lnstagramsupport.ml
@@ -15402,12 +15603,18 @@ Hash: SHA256
 0.0.0.0 managappconfrmapp1ecare.com
 0.0.0.0 managappconfrmmyapp1ecare.com
 0.0.0.0 managapps-app1eupgradecare.com
+0.0.0.0 managappsgetconfrmapp1esetup.com
+0.0.0.0 managappsresolut1ongetapp1econfm.com
+0.0.0.0 managappsresolut1onsapp1econfm.com
 0.0.0.0 managappsuseapp1econfrm.com
 0.0.0.0 managappsuseapp1eforconfrm.com
 0.0.0.0 managappsverfgetapp1edses1nc.com
 0.0.0.0 managappsverfgetapp1emtdses.com
 0.0.0.0 managappsverfgetapp1emtdses1nc.com
 0.0.0.0 managcareapp1eupgdate.com
+0.0.0.0 managconnectresolut1onapp1e.com
+0.0.0.0 managconnectresolut1onapp1eapps.com
+0.0.0.0 managconnectresolut1onapp1eupgdte.com
 0.0.0.0 managdashapp1eupgda1nc.com
 0.0.0.0 managdashbrdapp1eupgda1nc.com
 0.0.0.0 manage-acc0unt.app1eid.verlfyactlvlty.com
@@ -15702,6 +15909,7 @@ Hash: SHA256
 0.0.0.0 managemntrecentsapp1eid.com
 0.0.0.0 managemyapp1eldcnfrmnow.com
 0.0.0.0 manageprivacysettings-app1e1nc.com
+0.0.0.0 managerconfrmses1onapp1eupgdte.com
 0.0.0.0 managerecelpt.com-app1e0rders.com
 0.0.0.0 managerecentsecureapp1e.com
 0.0.0.0 managerecovery-app1eprivacysettings.com
@@ -15722,6 +15930,9 @@ Hash: SHA256
 0.0.0.0 managesetupmy-app1eupgdte.com
 0.0.0.0 managesmntapp1e.com
 0.0.0.0 managesverfaccountapp1e.com
+0.0.0.0 managetresolut1onapp1eapps.com
+0.0.0.0 managetresolut1onsesapp1eapps.com
+0.0.0.0 managetresolut1onupgdapp1eapps.com
 0.0.0.0 manageupdate-app1e1nc.com
 0.0.0.0 manageupgdte-app1econfrm.com
 0.0.0.0 managever1fy-app1erecovery.com
@@ -15734,14 +15945,27 @@ Hash: SHA256
 0.0.0.0 managewebauthapp1e.com
 0.0.0.0 manageyourapp1eaccounts.serveusers.com
 0.0.0.0 managmyapp1eses1on.com
+0.0.0.0 managrecoveryconnect1nfoappsapp1e.com
+0.0.0.0 managrecoveryconnectappsapp1e.com
+0.0.0.0 managrecoveryconnectcreateappsapp1e.com
+0.0.0.0 managresolut1onandupgdapp1e.com
+0.0.0.0 managresolut1onprivactyupgdapp1e.com
+0.0.0.0 managresolut1onupgdapp1e.com
+0.0.0.0 managresolutlonappsapp1e.com
+0.0.0.0 managresolutlonappsprivacyapp1e.com
+0.0.0.0 managresolutloncreatappsprivacyapp1e.com
 0.0.0.0 managverf-app1eapps.tk
 0.0.0.0 mangapp1econfrmsubmysetup.com
 0.0.0.0 mangapp1econfrmsubsetup.com
 0.0.0.0 mangdashbrduserapp1eses1d.com
 0.0.0.0 mange-app1eid.servehttp.com
 0.0.0.0 mange-websapp1e.serveblog.net
+0.0.0.0 mange1ogingetupdateconfrmapp1e.com
+0.0.0.0 mange1oginopt1nsgetupdateconfrmapp1e.com
 0.0.0.0 mangeapp1e-itsverif.serveirc.com
 0.0.0.0 mangeapp1ereasonsecur1ty.com
+0.0.0.0 mangegetupdateconfrmapp1e.com
+0.0.0.0 mangesigngetupdateconfrmapp1e.com
 0.0.0.0 manggetdashbrduserapp1eses1d.com
 0.0.0.0 manguserapp1eses1d.com
 0.0.0.0 masemos.appl.kp.org
@@ -15767,6 +15991,7 @@ Hash: SHA256
 0.0.0.0 mediahelp-lnstagramsupport.ml
 0.0.0.0 mediahelplnstagram.cf
 0.0.0.0 medialnstagramcenter.cf
+0.0.0.0 medias-lnstagram.ml
 0.0.0.0 mediasupportlnstagram.ml
 0.0.0.0 memberacc-paypa1.homelinux.com
 0.0.0.0 mentions.appli.univ-poitiers.fr
@@ -15822,6 +16047,7 @@ Hash: SHA256
 0.0.0.0 my-signpaypa1.ddns.net
 0.0.0.0 my.phishing.hostname.lnstagramspy.site
 0.0.0.0 my.support1.pypal.us.ragillemaucuk.net
+0.0.0.0 myac-app1eld.com
 0.0.0.0 myacces-secure-additional1-1ocked-app1eid.com
 0.0.0.0 myaccount-ipaypa1.com
 0.0.0.0 myaccount-xpaypa1.com
@@ -15837,6 +16063,7 @@ Hash: SHA256
 0.0.0.0 myapp1eid-servlces-1ocked.com
 0.0.0.0 myapp1eid-verify-confirm-1ocked.com
 0.0.0.0 myapp1eiid.com-homepage.acceptmerchant.info
+0.0.0.0 myapp1eld-er291.com
 0.0.0.0 myapp1eldsecures.com
 0.0.0.0 myapps-login.secure-verifysupport-app1e.com
 0.0.0.0 myapps-mpaypa1.com
@@ -15850,6 +16077,7 @@ Hash: SHA256
 0.0.0.0 mytw1tterxxxvideos1074.servebbs.com
 0.0.0.0 myverlfyapp1eses1on.com
 0.0.0.0 n-business-lnstagram-verifiedbadges.ml
+0.0.0.0 n-lnstagram-supportcenter.ml
 0.0.0.0 n72c.lnstagram.fun
 0.0.0.0 neply-lnstagram.ml
 0.0.0.0 netapp1ei7q37strnvlolciyul6bmoenetflix.com
@@ -15888,6 +16116,7 @@ Hash: SHA256
 0.0.0.0 olnstagram.altervista.org
 0.0.0.0 oltp130app1encryption.mrshmc.com
 0.0.0.0 oltt218app1encryption.mrshmc.com
+0.0.0.0 online-facebo0k.ml
 0.0.0.0 online-secure-paypa1.cassiomontana.org
 0.0.0.0 online-secure01paypa1.cassiomontana.org
 0.0.0.0 online-verify-lnstagram.ml
@@ -16342,6 +16571,7 @@ Hash: SHA256
 0.0.0.0 s1gnmanageapp1eldsecurenow.com
 0.0.0.0 s1gnmanageapp1eldverfnow.com
 0.0.0.0 s1gnmanagesapp1everf.com
+0.0.0.0 s1gnmnagapp1eforconfrm.com
 0.0.0.0 s1upports-lnstagram.cf
 0.0.0.0 s21uhc2.www.twittor.co
 0.0.0.0 s3cure.app1e1d.app11e.com.actuaryjobsite.com
@@ -17164,8 +17394,10 @@ Hash: SHA256
 0.0.0.0 upgradeapp1esesnc.serveblog.net
 0.0.0.0 upple.ucoz.ua
 0.0.0.0 us-1imited-paypa1.com
+0.0.0.0 us-business-lnstagram-verifiedbadges.ga
 0.0.0.0 us-business-lnstagram-verifiedbadges.ml
 0.0.0.0 usecentre-lnstagram.com
+0.0.0.0 user-lnstagram.com
 0.0.0.0 users-app1e.com-disable-accoutn.ml
 0.0.0.0 users-app1e.com-recovry-access.ga
 0.0.0.0 users-app1e.com-reliable-disable.gq
@@ -17270,6 +17502,7 @@ Hash: SHA256
 0.0.0.0 verifieds.account-lnstagram-verify.com
 0.0.0.0 verifiedteam-lnstagram.com
 0.0.0.0 verifiedteam-lnstagram.ml
+0.0.0.0 verifies-lnstagram.ml
 0.0.0.0 verifiy.com.lnstagram-helpconfirm.com
 0.0.0.0 verifiy.lnstagram-helpconfirm.com
 0.0.0.0 verifiybadge-lnstagram.cf
@@ -17400,10 +17633,14 @@ Hash: SHA256
 0.0.0.0 watch-news24.twltter.cc
 0.0.0.0 web-bca-ncal.appl.kp.org
 0.0.0.0 web-facebo0k.club
+0.0.0.0 web-helpcopyrightlnstagram.ml
 0.0.0.0 web-helpfromlnstagram.cf
 0.0.0.0 web-helpfromlnstagram.ml
+0.0.0.0 web-helpfromlnstagramcenter.ml
+0.0.0.0 web-helpfromlnstagramsupport.ml
 0.0.0.0 web-helplnstagram-support.ml
 0.0.0.0 web-helplnstagramcenter.ml
+0.0.0.0 web-helplnstagramcommunity.ml
 0.0.0.0 web-helplnstagramcopyright.ml
 0.0.0.0 web-helplnstagramsupport.ml
 0.0.0.0 web-helpsupportlnstagram.cf
@@ -17423,6 +17660,7 @@ Hash: SHA256
 0.0.0.0 web-lnstagramcopyright.cf
 0.0.0.0 web-lnstagramcopyrightcenter.cf
 0.0.0.0 web-lnstagramcopyrightcenter.ml
+0.0.0.0 web-lnstagramcpoyright.ml
 0.0.0.0 web-lnstagramhelp.ml
 0.0.0.0 web-lnstagramhelp.tk
 0.0.0.0 web-lnstagramverified.cf
@@ -19966,6 +20204,7 @@ Hash: SHA256
 0.0.0.0 www-lnstagramforcopyright.com
 0.0.0.0 www-lnstagramforhelp.ml
 0.0.0.0 www-lnstagramformedia.cf
+0.0.0.0 www-lnstagramforsupport.ml
 0.0.0.0 www-lnstagramhelp-com.ml
 0.0.0.0 www-lnstagramhelp.com
 0.0.0.0 www-lnstagramhelpabout.ml
@@ -20100,11 +20339,13 @@ Hash: SHA256
 0.0.0.0 wwwlnstagramcopyrightcenterscom.ml
 0.0.0.0 wwwlnstagramcopyrightcom.ml
 0.0.0.0 wwwlnstagramcopyrights.ml
+0.0.0.0 wwwlnstagramcopyrightservicecom.ml
 0.0.0.0 wwwlnstagramhelp.com
 0.0.0.0 wwwlnstagramhelp.ml
 0.0.0.0 wwwlnstagramhelplivecom.ml
 0.0.0.0 wwwlnstagramhelps.com
 0.0.0.0 wwwlnstagramobjectioncopyrightcom.cf
+0.0.0.0 wwwlnstagramobjectioncopyrightcom.ml
 0.0.0.0 wwwlnstagrams.com
 0.0.0.0 wwwlnstagramsupport.com
 0.0.0.0 wwwlnstagramsupportcentercom.ml
@@ -21391,6 +21632,7 @@ Hash: SHA256
 0.0.0.0 xn--fcbok-4ve0b0e.xn--om-458765098709-ltm.46540.xyz
 0.0.0.0 xn--fcbok-4ve0b0e.xn--om-5269874565021-1ln.953406.icu
 0.0.0.0 xn--fcbok-4ve0b0e.xn--om-7543186542018-1ln.624785.live
+0.0.0.0 xn--fcbok-4ve0bze.com5606689290262258.help
 0.0.0.0 xn--fcbok-4ve0bze.xn--m-001105-mbh3a.3188106906.top
 0.0.0.0 xn--fcbok-4ve0bze.xn--m-001164-mbh3a.5568490760.top
 0.0.0.0 xn--fcbok-4ve0bze.xn--m-016729-mbh3a.7917919451.top
@@ -22012,6 +22254,7 @@ Hash: SHA256
 0.0.0.0 xn--suspicious-pypl-ccount-yzrcc.ml
 0.0.0.0 xn--suspicious-pypl-ccount-yzrcc.usa.cc
 0.0.0.0 xn--thenstagram-1zb.com
+0.0.0.0 xn--titter-345b.com
 0.0.0.0 xn--titter-b3c.com
 0.0.0.0 xn--twitte-u6c.com
 0.0.0.0 xn--twittr28d8b763-4vl.ngrok.io
@@ -22087,15 +22330,15 @@ Hash: SHA256
 0.0.0.0 zqruzxs.www.twittor.co
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCAAGBQJgC4nJAAoJEKzLNGOMKNfeuAwP/2Xu9vQ60YNg94815g5ZaFRR3YbpoDE3TwIk
-3z9GeKKoMVBxh2ZHOgpFFp1UHThFQt78isLGr8lwlB4BTz4Dh08F7hS1gw4MOpD7JzsD5btFokwy
-jHEGHu/VbvQBPt/j1PEWlLnTUWnBHdDmKnsURAyIn9p0hB1vPoBxIg6tmh95WpLzEkTeR4+Yswv8
-Doo3IhvYljyvAHzKWIqQH2grKICMghPlpuHbhcMS19VNdW7JVYCxreOZ82lhqa8rf5AkT1kksy6n
-/YkdujjWl1JxJnyo7Q8XdjQ0qle4axpCfk6wbZTQvst0xQzSpMl3K6BKLOQLGcuv+5wddwexYIC1
-YMWjzHwouJXvSffxb9LCiTo/xYIywpxWfbsRGdNs0xmlr9nRjfa1iucEmgo2bDso8PeRzpEIxW6j
-qYvnQ7zho9IxGpcWXzuzQmC1o+Amzqu5XyabZBs6n550ZkkoP8O04Lac/S3OT4s/uq/d6LzfOsyi
-N94lkTLUVZ5S6Q6YpdqcO3TKYS0C0llj7FBtOv91OACLiywSGBUyYopOcgTq6uw4wSMjk5Z08A4M
-G6nGHp8fk8p4xN2/mGZaZ4tNbOUbIvzRFvbw7b4jEBEr4QpXQKjOJbkYTDaxKFTNjsI+CwbqQ6La
-H4I8qdoP/oTl4DPtAgBTpa4ygKKc1XsLTA8DD62A
-=KX87
+iQIcBAEBCAAGBQJgGPzKAAoJEKzLNGOMKNfezq0QAJGv3K7YHgUmLUyU6J8E/dz4iBJnanGlox76
+h5ZGXviHmiKaTgLeW6/+iq3UdOV4Gx0j7OK3imtENgo8LnXxl3varjctQ75BwFiToYgi8AsfvGr2
++kwtnzTR81fVdystu5IoADgJf4fkYRz8CPMiztxmyF8quUC9FJ7vaeqTqlvS1tu2ypAHcPlXAmLo
+GbV/krGrIMBW45aNEUJbmoEg4pieJ8z4lFpfnLTdSXctNIB8XeN4J7IzjBBkCyfx05w2oPlxxo+N
+srjrl9G7SKe5WUl8j+ei6sYR5HWs5eMJawzluOAtRnXoekmjooqeiOiyOPZ0z17SwBRn1PhqKLpb
+Dx/phljdz7qD2/9Ajh2yyR/puik9ggq8brSQbyJenIar10zMPKwt6/Cugg7coGtuJ3tjTipOr+D0
+fnPPU9kROd8HRql1CeigQT2IhCy5iP3snMYF3Gi1toNTNzwZIwjmf4YkkJ9Yg5fxrUGJlur5Ln+k
+/DMp9BXZ31dw7+LxGjMjy5xOVZdYR5lbUjqezGfMQ4L/OCCQtkqRD480LlQ2iLh0cpF3XEu02ns1
+q3JqAd4np99RvA++FvlAd9mwHj0uTk0SIQkxWd9ixgcUPTHDlP7G1EI5qk9Cd+BST6UH81tgU6EE
+FYLYs57+C8l01gfitSS4P/ZV0pzYFwkyk1pAaWcw
+=cMkI
 -----END PGP SIGNATURE-----
