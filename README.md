@@ -17,3 +17,7 @@
 |-|-|-|-|-|-|
 
 ## [Urlhaus Blocklists Mirror](https://iosprivacy.com/mirror)
+
+***
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H04QLRG)
