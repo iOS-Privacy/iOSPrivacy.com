@@ -24,7 +24,7 @@ Hash: SHA256
 !+ PLATFORM(ext_ff)
 *$csp=upgrade-insecure-requests
 !+ PLATFORM(ext_ff)
-*csp=require-trusted-types-for 'script'
+*$csp=require-trusted-types-for 'script'
 !
 !
 @@dnsotls-ds.metric.gstatic.com^
