@@ -2,10 +2,10 @@
 Hash: SHA256
 
 ! Title: DomainVoider
-! Version: 2.21.6.2
+! Version: 2.21.6.3
 ! Expires: 30 days (update frequency)
-! Last Modified: 2021-06-13T01:26:59+00:00
-! Checksum (SHA256): 908a58e0d615561df9c51e1a3b88478022988559725b3e452813c36a76653f1e
+! Last Modified: 2021-06-14T22:09:10+00:00
+! Checksum (SHA256): 9e299c1301cabe6ed5e2045d9b719b874c51971d1e3c8e63a4c660508e3c8deb
 !
 ! Description: DomainVoider is designed for users of AdGuard / AdGuard Pro. It combines a modified version of AdGuard's DNS filter with a list of online malicious URLs from Urlhaus. This filter also blocks social networks. For our licensed phishing filter use iVOID.hosts.
 !
@@ -27,7 +27,7 @@ Hash: SHA256
 !+ PLATFORM(ext_ff)
 *$csp=upgrade-insecure-requests
 !+ PLATFORM(ext_ff)
-*csp=require-trusted-types-for 'script'
+*$csp=require-trusted-types-for 'script'
 !
 !
 @@dnsotls-ds.metric.gstatic.com^
@@ -56786,15 +56786,15 @@ star-mini.c10r.facebook.com^$important
 ||zzznews.ru^
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCAAGBQJgxWNRAAoJEHTXQFkHukvqsMgP/1Z3SXXP2HaMCsrV+06Dw+jC6TCwgq8GivsD
-RKlsrYBZvswBLjM+/dVj+3QxkbVNmgq6hit4LRypqSWajFWvFLBZsYV0IkYHNVCaqJMyEQ9dYBBk
-ULPGbYRPCy145F42Zjwe2wWXzc0rHbY49Vwo2zeeCEFbz6J+pyTYYikl9umLeBgQge3ZjtTHcaca
-jb4oqPCeOkmz2pwnt8/w85r8Fxqp6pSm46GyWFWLFh8Ec7oSgtc8gMet2/9Bng91qZg9kenSsaZw
-qPjbT2ZjnrdH8cTyA1eHzShoI+GEJMwYnNCQCimC9fWtVW2a6NZpXCPgXhB4mYJQkCHiug+6Y42B
-0P7vNPGkO9mK0UwdrInIEFy+Qas7Zass3vV5e+CBHXZrlCtReusHJu9q/IJKDu4K0aBi53rCXKrR
-6SSDAawgvb87C87dM3nIrTFFOmfMBhIPzDrZHti4L00DnPkN0M40PsrqPOUjQ7jN0ZdNOBMgi6yR
-Zv7tbBS2LLCMeW7Ftyg1Xo2cDce6NJ+x6MdhiCxZXe8H5c1b9ft8tSLXFCcEKdq6weAOTBOPJdhT
-GDpLfAfAMQTmqVKGOlZnL7eXdrpUQffG9zCOY4/h9HrwIOcKcaZxBQ4OV/tbg2OzPKt7D9cl5ATP
-UzDWau7wl4jKg3lw8rSzn4JEUoeOodWfUQ5LlYdd
-=BWXL
+iQIcBAEBCAAGBQJgx9YYAAoJEHTXQFkHukvqaAAP/i7XhZcGTq42aO7j01Lktpo4BzCQaL3BsK02
+jUHfpDPrFp8Y2zJ4/wp/MqIwhK1JgmKxBvEEHHo8XSlI7zkn9l8qnNyA5k0sZvEcQyi0VTVe2T4e
+HnkAOu18FxREo8lCwikQ3Tc2Edp8rRNoz+wXZe4ENmlmCWx30hhE1j0p9RzfB8JN2knypzzutYWr
+TBu+4PPT0fSg8EyVgbTSHWNgfUMrSPoivxRpfN7nqUefUxk7SFMZQlF2wGGEjvCIvCXwC93vpyhf
+NJF4nTTniGUoXSIV45hdsyyRtRcHHxUHX6hMHr42BMBIwV5ob6/MYfXRnyx29cfQbEtw5gWGFe4O
+UxZ4zpkbKQAxfkuWrewkCsSsP6w3HBbPc0gUIgi7kXDp/AxU0w1IZdBKv8nh9VlpuYBuVG6QUbKQ
+cmiiFAuR/OVllhB/vYf7/g+xmAf/gfcgtKLRqFNN+EAweIHk1jWzi2eVnHu84y4Ygk/t08yMmxCJ
+PGE00tyOHXr2G9GknutjFQsLu+sAZ/ARw9GceH6FO0Esxd9jvdKOHT9OBkLxSDLQ+AGJedJgEEL7
+zAB9cGOIfusutbFU0krZ+hsyphYBAS7bf1VWu3mN2rIWCzDNVGBuXbpfrGo0MNiW6gnyxocHELta
+4ygmwxiBeYhVITv2AG6e8upUxKhdmL0wV6UbYk6x
+=TXC0
 -----END PGP SIGNATURE-----
