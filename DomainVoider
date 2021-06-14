@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.21.6.2
+! Version: 2.21.6.3
 ! Expires: 30 days (update frequency)
-! Last Modified: 2021-06-13T01:26:59+00:00
-! Checksum (SHA256): 908a58e0d615561df9c51e1a3b88478022988559725b3e452813c36a76653f1e
+! Last Modified: 2021-06-14T22:09:10+00:00
+! Checksum (SHA256): 9e299c1301cabe6ed5e2045d9b719b874c51971d1e3c8e63a4c660508e3c8deb
 !
 ! Description: DomainVoider is designed for users of AdGuard / AdGuard Pro. It combines a modified version of AdGuard's DNS filter with a list of online malicious URLs from Urlhaus. This filter also blocks social networks. For our licensed phishing filter use iVOID.hosts.
 !
@@ -24,7 +24,7 @@
 !+ PLATFORM(ext_ff)
 *$csp=upgrade-insecure-requests
 !+ PLATFORM(ext_ff)
-*csp=require-trusted-types-for 'script'
+*$csp=require-trusted-types-for 'script'
 !
 !
 @@dnsotls-ds.metric.gstatic.com^
