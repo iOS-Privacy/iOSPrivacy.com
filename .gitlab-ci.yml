@@ -7,5 +7,9 @@ pages:
   artifacts:
     paths:
       - public/
+      - public/domainvoider
+      - public/ivoid
+      - public/mirror
+      - public/privacy
   only:
     - master
