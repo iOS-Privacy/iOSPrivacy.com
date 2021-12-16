@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ios_privacy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://iosprivacy.com
+  * I am ios_privacy (https://keybase.io/ios_privacy) on keybase.
+  * I have a public key ASCVV6iMkj04YumM-F2T8EzwoFqnpDvj9LuiosuCcvgfTwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209557a88c923d3862e98cf85d93f04cf0a05aa7a43be3f4bba2a2cb8272f81f4f0a",
+      "host": "keybase.io",
+      "kid": "01209557a88c923d3862e98cf85d93f04cf0a05aa7a43be3f4bba2a2cb8272f81f4f0a",
+      "uid": "26106b089ebd3c65e000379eac4a6c19",
+      "username": "ios_privacy"
+    },
+    "merkle_root": {
+      "ctime": 1639627133,
+      "hash": "b90a54820b1d7280d8a4f29fbfc3b0c60e132af76e396e1ddef9d269047c7cb452c170a87290b6a2bc545df5c48c38b20242706440149ef9aef64b0f2dfb901a",
+      "hash_meta": "28abc5f5de7942085647491ef80d184787b0beca57f17f64d9328408f6b92cff",
+      "seqno": 21444030
+    },
+    "service": {
+      "entropy": "ShleBq0NSGN/k8sG/1ky6x8/",
+      "hostname": "iosprivacy.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1639627202,
+  "expire_in": 504576000,
+  "prev": "4656b0f90c1955bddb1e4d3a75b160baa5c8a0df325b4c55adc1e68686ff499f",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglVeojJI9OGLpjPhdk/BM8KBap6Q74/S7oqLLgnL4H08Kp3BheWxvYWTESpcCBcQgRlaw+QwZVb3bHk06dbFguqXIoN8yW0xVrcHmhob/SZ/EILpDbO8u9rVrufK5SNoW8VXujUv0/0Zmt1kaIeoVf4ruAgHCo3NpZ8RAktoAeDoQkimvirDbg2vF9nm9DoZtK1nZ2UtTaC127vrsRXaFHfSjmCjR1qPXdT+ivabnFZF6vC9mW6vM0Ib5CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMPolkvxt3TxjIAZ0t/ywq/4w/LSC4yPIdEfk12mLTC5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ios_privacy
+
+==================================================================
