@@ -1,8 +1,8 @@
 ! Title: DomainVoider
-! Version: 2.21.12.1
+! Version: 2.21.12.2
 ! Expires: 30 days (update frequency)
-! Last Modified: 2021-12-16T10:46:28+00:00
-! Checksum (SHA256): 3528fcd51cbfef24a86c762a75b313822989f79b37a4da35c0bd4c09709ec228
+! Last Modified: 2021-12-20T04:33:07+00:00
+! Checksum (SHA256): 8957fdd02d8c35946812db86a0ecbeffdb87a52c61804f04f36aad22656670ac
 !
 !
 ! Description: DomainVoider is designed primarily for users of AdGuard & uBlock Origin. It combines a modified version of AdGuard's DNS filter with online malicious URLs from Urlhaus & phishing domains from Hardenize. This filter also blocks social networks, including QAnon safehavens, Nazi ratholes, & mainstream sites such as Facebook. For our licensed phishing filter use iVOID.hosts.
@@ -18,13 +18,13 @@
 ! Firefox Content Security Policy rules:
 !
 !+ PLATFORM(ext_ff)
-document*csp=block-all-mixed-content
+$document,csp=block-all-mixed-content
 !+ PLATFORM(ext_ff)
-document*csp=frame-ancestors 'none'
+$document,csp=frame-ancestors 'none'
 !+ PLATFORM(ext_ff,)
-document*csp=object-src 'none'
+$document,csp=object-src 'none'
 !+ PLATFORM(ext_ff)
-document*csp=upgrade-insecure-requests
+$document,csp=upgrade-insecure-requests
 !
 !
 ||0-132.net.daraz.com^
