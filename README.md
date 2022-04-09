@@ -1,5 +1,7 @@
 # iOS Privacy
 
+[![Latest Release](https://gitlab.com/iosprivacy/cdn/-/badges/release.svg)](https://gitlab.com/iosprivacy/cdn/-/releases)
+
 | iVOID.hosts | DomainVoider | Urlhaus Filters |
 ---------|---------|---------|
 ***
