@@ -23,15 +23,6 @@
 !+ PLATFORM(ext_ff)
 *$csp=upgrade-insecure-requests
 !
-!+ PLATFORM(ext_ff)
-*$csp=block-all-mixed-content
-!+ PLATFORM(ext_ff)
-*$csp=frame-ancestors 'none'
-!+ PLATFORM(ext_ff,)
-*$csp=object-src 'none'
-!+ PLATFORM(ext_ff)
-*$csp=upgrade-insecure-requests
-!
 -tiktokcdn-com.
 .8ox.cn
 ||0-132.net.daraz.com^
