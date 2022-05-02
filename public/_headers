@@ -1,1 +1,9 @@
-
+# This is a not a comment
+*/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Content-Security-Policy:  base-uri 'none';connect-src https://cdn.iosprivacy.com 'self';default-src 'none';font-src 'none';form-action 'none';frame-ancestors 'none';frame-src 'none';img-src https://iosprivacy.com https://cdn.iosprivacy.com 'self';manifest-src 'none';media-src 'none';object-src 'none';require-trusted-types-for 'script';script-src 'none';style-src 'sha256-YXhx5/bnv81FPJK/jp3i55+NqRR4cpREsqIeclviBUo=';upgrade-insecure-requests;worker-src 'none'
+  Permissions-Policy:  accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), clipboard-read=(), clipboard-write=(), conversion-measurement=(), cross-origin-isolated=(self), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewpoint=(), focus-without-user-activation=(), fullscreen=(), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), speaker-selection=(), sync-script=(), sync-xhr=(), trust-token-redemption=(), usb=(), vertical-scroll=(), web-share=(), window-placement=(), xr-spatial-tracking=()
+X-XSS-Protection: 0
+X-DNS-Prefetch-Control: off
+Cache-Control: max-age=3600, stale-while-revalidate=3600
