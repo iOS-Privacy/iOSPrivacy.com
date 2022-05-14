@@ -1,5 +1,7 @@
 secring.*
 **/.gnupg/*.gpg
+*/*.asc
+*/*.sig
 ###
 **/.ssh/id_*
 **/.ssh/*_id_*
