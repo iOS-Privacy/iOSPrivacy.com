@@ -12,10 +12,11 @@
 | | | | | | |
 |-|-|-|-|-|-|
 
-## **[DomainVoider](https://iosprivacy.com/domainvoider)**
-## **[iVOID.hosts](https://iosprivacy.com/ivoid)**
+## **[DomainVoider](https://domainvoider.iosprivacy.com/)**
+
+## **[iVOID.hosts](https://ivoid.iosprivacy.com/)**
 
 | | | | | | |
 |-|-|-|-|-|-|
 
-## [Urlhaus Blocklists Mirror](https://iosprivacy.com/mirror)
+## **[Urlhaus Blocklists Mirror](https://mirror.iosprivacy.com/)**
