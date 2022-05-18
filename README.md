@@ -19,4 +19,4 @@
 | | | | | | |
 |-|-|-|-|-|-|
 
-## **[Urlhaus Blocklists Mirror](https://mirror.iosprivacy.com/)**
+## **[Urlhaus Blocklists Mirror](https://urlhaus.iosprivacy.com/)**
