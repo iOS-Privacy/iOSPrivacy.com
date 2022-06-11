@@ -1,8 +1,8 @@
 {
     "@type": "WebSite",
-    "name": "iOS Privacy | Privacy Policy",
-    "short_name": "Privacy Policy",
-    "start_url": "https://privacy.iosprivacy.com",
+    "name": "iOS Privacy | DomainVoider Security Filter",
+    "short_name": "DomainVoider",
+    "start_url": "https://domainvoider.iosprivacy.com",
     "display": "minimal-ui",
     "background_color": "#f2f2f2",
     "description": "iOS Privacy | Technology to Enhance Network Security & Privacy",
