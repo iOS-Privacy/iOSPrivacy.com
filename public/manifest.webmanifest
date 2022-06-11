@@ -1,6 +1,6 @@
 {
     "@type": "WebSite",
-    "name": "iOS Privacy",
+    "name": "iOS Privacy | Technology to Enhance Network Security & Privacy",
     "short_name": "iOS Privacy",
     "start_url": "https://iosprivacy.com",
     "display": "minimal-ui",
@@ -9,7 +9,7 @@
     "dir": "ltr",
     "categories": ["education", "productivity", "technology"],
     "lang": "en",
-    "orientation": "portrait",
+    "orientation": "natural",
     "scope": "/",
     "theme_color": "#696",
     "icons": [
