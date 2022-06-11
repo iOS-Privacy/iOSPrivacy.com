@@ -1,0 +1,1 @@
+self.addEventListener("install",function(n){n.waitUntil(caches.open("v1").then(function(n){return n.addAll(["/","/index.html","/icons/","/touch-icon-ipad-retina.png","/touch-icon-iphone-retina.png","/apple-touch-icon.png","/favicon.png","/favicon.ico","/sw.js","/manifest.webmanifest"])}))});
