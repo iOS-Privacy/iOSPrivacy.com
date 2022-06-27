@@ -1,7 +1,7 @@
 {
     "@type": "WebSite",
     "name": "iOS Privacy | Technology to Enhance Network Security & Privacy",
-    "short_name": "iOS Privacy",
+    "short_name": "iOSPrivacy",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#f2f2f2",
