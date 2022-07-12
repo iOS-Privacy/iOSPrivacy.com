@@ -86,7 +86,7 @@ self.addEventListener('fetch', (event) => {
         cacheFirst({
             request: event.request,
             preloadResponsePromise: event.preloadResponse,
-            fallbackUrl: '/sw-test/gallery/myLittleVader.jpg',
+            fallbackUrl: '/images/6.webp',
         })
     );
 });
