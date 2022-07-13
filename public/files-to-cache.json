@@ -1,7 +1,10 @@
 [
     "/index.html",
-    "/css/style.css",
-    "/js/main.js",
+    "/style.css",
+    "/main.js",
+    "/files-to-cache.json",
+    "/domainvoider/DomainVoider.txt",
+    "/ivoid/iVOID.hosts",
     "/manifest.webmanifest",
     "/favicon.png",
     "/favicon.svg",
