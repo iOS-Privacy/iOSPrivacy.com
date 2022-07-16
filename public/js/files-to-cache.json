@@ -1,9 +1,11 @@
 [
-    "/index.html",
-    "/css/style.css",
-    "/js/main.js",
-    "/manifest.webmanifest",
-    "/favicon.png",
-    "/favicon.svg",
-    "/apple-touch-icon.png"
+  "/",
+  "/index.html",
+  "/css/style_2.css",
+  "/js/main.js",
+  "/manifest.webmanifest",
+  "/favicon.png",
+  "/favicon.svg",
+  "/apple-touch-icon.png",
+  "/safari-pinned-tab.svg"
 ]
