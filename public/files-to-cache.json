@@ -1,12 +1,13 @@
 [
-    "/index.html",
-    "/style.css",
-    "/main.js",
-    "/files-to-cache.json",
-    "/domainvoider/DomainVoider.txt",
-    "/ivoid/iVOID.hosts",
-    "/manifest.webmanifest",
-    "/favicon.png",
-    "/favicon.svg",
-    "/apple-touch-icon.png"
+  "/",
+  "/index.html",
+  "/css/style_2.css",
+  "/js/main.js",
+  "/files-to-cache.json",
+  "/domainvoider/DomainVoider.txt",
+  "/ivoid/iVOID.hosts",
+  "/manifest.webmanifest",
+  "/favicon.png",
+  "/favicon.svg",
+  "/apple-touch-icon.png"
 ]
