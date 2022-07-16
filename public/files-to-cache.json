@@ -9,5 +9,6 @@
   "/manifest.webmanifest",
   "/favicon.png",
   "/favicon.svg",
-  "/apple-touch-icon.png"
+  "/apple-touch-icon.png",
+  "/safari-pinned-tab.svg",
 ]
