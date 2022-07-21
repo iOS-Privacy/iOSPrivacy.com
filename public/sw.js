@@ -70,8 +70,7 @@ self.addEventListener('install', (event) => {
             '/img/',
             '/icons/',
             '/index.html',
-            '/css/style_4.css',
-            '/js/app.js',
+            '/css/style_4.css'
             '/domainvoider/DomainVoider.txt',
             '/ivoid/iVOID.hosts',
             '/icons/favicon.svg',
