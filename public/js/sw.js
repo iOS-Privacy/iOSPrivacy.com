@@ -1,14 +1,18 @@
-const addResourcesToCache = async (resources) => {
+const addResourcesToCache = async(resources) => {
     const cache = await caches.open('iOSP-3');
     await cache.addAll(resources);
 };
 
-const putInCache = async (request, response) => {
+const putInCache = async(request, response) => {
     const cache = await caches.open('iOSP-3');
     await cache.put(request, response);
 };
 
-const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
+const cacheFirst = async({
+    request,
+    preloadResponsePromise,
+    fallbackUrl
+}) => {
     // Try to first get the resource/s from cache;
     const responseFromCache = await caches.match(request);
     if (responseFromCache) {
@@ -41,12 +45,14 @@ const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
         // so return a Response object;
         return new Response('Network error happened', {
             status: 408,
-            headers: { 'Content-Type': 'text/plain' },
+            headers: {
+                'Content-Type': 'text/plain'
+            },
         });
     }
 };
 
-const enableNavigationPreload = async () => {
+const enableNavigationPreload = async() => {
     if (self.registration.navigationPreload) {
         // Enable navigation preloads;
         await self.registration.navigationPreload.enable();
