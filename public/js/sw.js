@@ -1,21 +1,21 @@
 const addResourcesToCache = async (resources) => {
-    const cache = await caches.open('iOSP-2');
+    const cache = await caches.open('iOSP-3');
     await cache.addAll(resources);
 };
 
 const putInCache = async (request, response) => {
-    const cache = await caches.open('iOSP-2');
+    const cache = await caches.open('iOSP-3');
     await cache.put(request, response);
 };
 
 const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
-    // First try to get the resource from the cache
+    // Try to first get the resource/s from cache;
     const responseFromCache = await caches.match(request);
     if (responseFromCache) {
         return responseFromCache;
     }
 
-    // Next try to use the preloaded response, if it's there
+    // Try next to use the preloaded response, if there;
     const preloadResponse = await preloadResponsePromise;
     if (preloadResponse) {
         console.info('using preload response', preloadResponse);
@@ -23,12 +23,12 @@ const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
         return preloadResponse;
     }
 
-    // Next try to get the resource from the network
+    // Now try to get the resource/a from network;
     try {
         const responseFromNetwork = await fetch(request);
-        // response may be used only once
-        // we need to save clone to put one copy in cache
-        // and serve second one
+        // Response may be used only once,;
+        // save clone to put copy in cache,;
+        // and serve second one;
         putInCache(request, responseFromNetwork.clone());
         return responseFromNetwork;
     } catch (error) {
@@ -36,9 +36,9 @@ const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
         if (fallbackResponse) {
             return fallbackResponse;
         }
-        // when even the fallback response is not available,
-        // there is nothing we can do, but we must always
-        // return a Response object
+        // When the fallback response is not available,
+        // there is nothing left to do, but a response is needed;
+        // so return a Response object;
         return new Response('Network error happened', {
             status: 408,
             headers: { 'Content-Type': 'text/plain' },
@@ -48,7 +48,7 @@ const cacheFirst = async ({ request, preloadResponsePromise, fallbackUrl }) => {
 
 const enableNavigationPreload = async () => {
     if (self.registration.navigationPreload) {
-        // Enable navigation preloads!
+        // Enable navigation preloads;
         await self.registration.navigationPreload.enable();
     }
 };
@@ -64,8 +64,10 @@ self.addEventListener('install', (event) => {
             '/images/',
             '/icons/',
             '/index.html',
-            '/css/style.css',
+            '/css/style_4.css',
             '/js/app.js',
+            '/domainvoider/DomainVoider.txt',
+            '/ivoid/iVOID.hosts',
             '/icons/favicon.svg',
             '/icons/favicon.png',
             '/icons/apple-touch-icon.png',
