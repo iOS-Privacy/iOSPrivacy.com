@@ -27,7 +27,7 @@ const cacheFirst = async({
         return preloadResponse;
     }
 
-    // Now try to get the resource/a from network;
+    // Now try to get the resource/s from network;
     try {
         const responseFromNetwork = await fetch(request);
         // Response may be used only once,;
@@ -67,11 +67,10 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         addResourcesToCache([
             '/',
-            '/images/',
+            '/img/',
             '/icons/',
             '/index.html',
             '/css/style_4.css',
-            '/js/app.js',
             '/domainvoider/DomainVoider.txt',
             '/ivoid/iVOID.hosts',
             '/icons/favicon.svg',
