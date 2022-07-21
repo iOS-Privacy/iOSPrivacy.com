@@ -4,8 +4,9 @@
 
   [headers.values]
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "base-uri 'none';block-all-mixed-content;connect-src 'none';default-src 'none';font-src https://cdn.iosprivacy.com:443 'self';form-action 'none';frame-ancestors 'none';frame-src 'none';img-src https://cdn.iosprivacy.com:443 'self';manifest-src 'none';media-src 'none';object-src 'none';script-src 'none';script-src-attr 'none';script-src-elem 'none';style-src https://cdn.iosprivacy.com:443 'sha512-pJKnveQMyF0CmtSisjW69/QzQphZqk7SUyrB44FyszEsfZUWs7j8ghY3qhqbMYui1iiVd+MZc6YjjJwCIQr86g==' 'sha256-Q2e+TROdM1QhWk8rqKzAPfMua3WZOdxh62LPOOqUfJU=';style-src-attr 'none';style-src-elem https://cdn.iosprivacy.com:443 'sha512-pJKnveQMyF0CmtSisjW69/QzQphZqk7SUyrB44FyszEsfZUWs7j8ghY3qhqbMYui1iiVd+MZc6YjjJwCIQr86g==' 'sha256-Q2e+TROdM1QhWk8rqKzAPfMua3WZOdxh62LPOOqUfJU=';upgrade-insecure-requests;worker-src 'none'"
+    Cache-Contol = "max-age=5, stale-while-revalidate=360, stale-if-error=360"
+    X-XSS-Protection = "0"
+    Content-Security-Policy = "base-uri 'self';connect-src 'self';default-src 'none';font-src 'self';form-action 'none';frame-ancestors 'none';frame-src 'none';img-src https://cdn.iosprivacy.com:443 'self';manifest-src 'self';media-src 'none';object-src 'none';script-src 'self';script-src-attr 'none';script-src-elem 'self';style-src 'self';style-src-attr 'none';style-src-elem 'self';upgrade-insecure-requests;worker-src 'self'"
     Permissions-Policy = "geolocation=(), camera=(), microphone=(), speaker=(), usb=(), xr=()"
     Referrer-Policy = "no-referrer"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
