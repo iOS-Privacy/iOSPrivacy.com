@@ -14,5 +14,5 @@
 	"js/files-to-cache.json",
 	"js/index.js",
 	"manifest.webmanifest",
-	"maskable_icon.png"
+	"mask-icon.svg"
 ]
