@@ -1,16 +1,18 @@
-# iOS Privacy
+# [iOS Privacy](https://iosprivacy.com/)
 
 # [![Latest Release](https://gitlab.com/iosprivacy/cdn/-/badges/release.svg)](https://gitlab.com/iosprivacy/cdn/-/releases)
 
 | iVOID.hosts | DomainVoider | Urlhaus Filters |
 ---------|---------|---------|
 
-### **`https://iosprivacy.com`**
+**iOS Privacy serves as a centralized repository for the following filter (block) lists:**
 
-#### iOS Privacy serves as a centralized repository for my two main filters - **DomainVoider** *&* **iVOID.hosts** - as well as **Urlhaus Filters**
+- DomainVoider;
+- iVOID.hosts;
+- & an Urlhaus Filters mirror;
 
-## **[DomainVoider](https://domainvoider.iosprivacy.com/)**
+## **[DomainVoider](https://iosprivacy.com/domainvoider)**
 
-## **[iVOID.hosts](https://ivoid.iosprivacy.com/)**
+## **[iVOID.hosts](https://iosprivacy.com/ivoid)**
 
-## **[Urlhaus Mirror](https://urlhaus.iosprivacy.com/)**
+## **[Urlhaus Mirror](https://iosprivacy.com/urlhaus)**
