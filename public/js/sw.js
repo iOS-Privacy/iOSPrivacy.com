@@ -1,92 +1,74 @@
 const addResourcesToCache = async(resources) => {
-    const cache = await caches.open('iOSP-3');
-    await cache.addAll(resources);
+    const cache = await caches.open('iOSP-4');
+    await cache.addAll(resources)
 };
-
 const putInCache = async(request, response) => {
-    const cache = await caches.open('iOSP-3');
-    await cache.put(request, response);
+    const cache = await caches.open('iOSP-4');
+    await cache.put(request, response)
 };
-
-const cacheFirst = async({
-    request,
-    preloadResponsePromise,
-    fallbackUrl
-}) => {
-    // Try to first get the resource/s from cache;
+const cacheFirst = async({request, preloadResponsePromise, fallbackUrl}) => {
     const responseFromCache = await caches.match(request);
     if (responseFromCache) {
-        return responseFromCache;
+        return responseFromCache
     }
-
-    // Try next to use the preloaded response, if there;
     const preloadResponse = await preloadResponsePromise;
     if (preloadResponse) {
         console.info('using preload response', preloadResponse);
         putInCache(request, preloadResponse.clone());
-        return preloadResponse;
+        return preloadResponse
     }
-
-    // Now try to get the resource/s from network;
     try {
         const responseFromNetwork = await fetch(request);
-        // Response may be used only once,;
-        // save clone to put copy in cache,;
-        // and serve second one;
         putInCache(request, responseFromNetwork.clone());
-        return responseFromNetwork;
+        return responseFromNetwork
     } catch (error) {
         const fallbackResponse = await caches.match(fallbackUrl);
         if (fallbackResponse) {
-            return fallbackResponse;
+            return fallbackResponse
         }
-        // When the fallback response is not available,
-        // there is nothing left to do, but a response is needed;
-        // so return a Response object;
         return new Response('Network error happened', {
             status: 408,
             headers: {
                 'Content-Type': 'text/plain'
-            },
-        });
+            }
+        })
     }
 };
-
 const enableNavigationPreload = async() => {
     if (self.registration.navigationPreload) {
-        // Enable navigation preloads;
-        await self.registration.navigationPreload.enable();
+        await self
+            .registration
+            .navigationPreload
+            .enable()
     }
 };
-
 self.addEventListener('activate', (event) => {
-    event.waitUntil(enableNavigationPreload());
+    event.waitUntil(enableNavigationPreload())
 });
-
 self.addEventListener('install', (event) => {
-    event.waitUntil(
-        addResourcesToCache([
-            '/',
-            '/img/',
-            '/icons/',
-            '/index.html',
-            '/css/style_4.css',
-            '/domainvoider/DomainVoider.txt',
-            '/ivoid/iVOID.hosts',
-            '/icons/favicon.svg',
-            '/icons/favicon.png',
-            '/icons/apple-touch-icon.png',
-            '/manifest.webmanifest',
-        ])
-    );
+    event.waitUntil(addResourcesToCache([
+        ".",
+        "https://iosprivacy",
+        "https://iosprivacy.com/domainvoider",
+        "https://iosprivacy.com/ivoid",
+        "https://iosprivacy.com/urlhaus",
+        "https://iosprivacy.com/privacy",
+        "apple-touch-icon.png",
+        "css/style_4.css",
+        "favicon.png",
+        "favicon.svg",
+        "icon_x128.png",
+        "icon_x192.png",
+        "icon_x384.png",
+        "icon_x512.png",
+        "icon_x72.png",
+        "icon_x96.png",
+        "js/files-to-cache.json",
+        "js/index.js",
+        "manifest.webmanifest",
+        "mask-icon.svg"
+    ]))
 });
-
 self.addEventListener('fetch', (event) => {
-    event.respondWith(
-        cacheFirst({
-            request: event.request,
-            preloadResponsePromise: event.preloadResponse,
-            fallbackUrl: '/icons/favicon.svg',
-        })
-    );
+    event.respondWith(cacheFirst({request: event.request, preloadResponsePromise: event.preloadResponse, fallbackUrl: '/icons/favicon.svg'}))
 });
