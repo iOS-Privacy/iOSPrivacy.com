@@ -3,7 +3,7 @@ if ('serviceWorker' in navigator) {
         .addEventListener('load', function () {
             navigator
                 .serviceWorker
-                .register('service-worker.js')
+                .register('urlhaus/service-worker.js')
                 .then(function (registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
