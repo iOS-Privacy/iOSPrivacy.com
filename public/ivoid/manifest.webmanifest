@@ -2,7 +2,7 @@
     "@type": "WebSite",
     "name": "iOS Privacy | Technology to Enhance Network Security & Privacy",
     "short_name": "iOSPrivacy",
-    "start_url": "/",
+    "start_url": "/ivoid",
     "display": "standalone",
     "background_color": "#f2f2f2",
     "description": "iOS Privacy | Technology to Enhance Network Security & Privacy",
@@ -10,7 +10,7 @@
     "categories": ["education", "productivity", "technology"],
     "lang": "en",
     "orientation": "natural",
-    "scope": "/",
+    "scope": "/ivoid",
     "theme_color": "#696",
     "icons": [
         {
