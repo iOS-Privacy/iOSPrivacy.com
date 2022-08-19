@@ -1,6 +1,6 @@
 # [iOS Privacy](https://iosprivacy.com/)
 
-![GitHub top language](https://img.shields.io/github/languages/top/FuckNazis/iOSPrivacy.com?logo=javascript&style=social)
+![GitHub top language](https://img.shields.io/github/languages/top/FuckNazis/iOSPrivacy.com?logo=webassembly&style=social)
 
 #### <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />iOS Privacy is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
