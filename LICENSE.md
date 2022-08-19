@@ -1,1 +1,1 @@
-- [x] ![GitHub](https://img.shields.io/github/license/FuckNazis/iOSPrivacy.com?logo=creativecommons&style=social)
+- [x] ![GitHub](https://img.shields.io/github/license/FuckNazis/iOSPrivacy.com)
