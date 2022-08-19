@@ -1,5 +1,5 @@
 [
-	".",
+	"/",
 	"https://iosprivacy.com",
 	"https://iosprivacy.com/domainvoider",
 	"https://iosprivacy.com/ivoid",
@@ -17,8 +17,8 @@
 	"icon_x512.png",
 	"icon_x72.png",
 	"icon_x96.png",
-	"js/files-to-cache.json",
-	"js/index.js",
+	"files-to-cache.json",
+	"index.js",
 	"manifest.webmanifest",
 	"mask-icon.svg"
 ]
