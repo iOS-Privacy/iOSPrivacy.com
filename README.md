@@ -1,10 +1,10 @@
 # [iOS Privacy](https://iosprivacy.com/)
 
-#### <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />iOS Privacy is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
 ![GitHub top language](https://img.shields.io/github/languages/top/FuckNazis/iOSPrivacy.com?logo=javascript&style=social)
 
-| iVOID.hosts | DomainVoider | Urlhaus Filters |
+#### <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />iOS Privacy is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+| iVOID | DomainVoider | Urlhaus |
 ---------|---------|---------|
 
 **iOS Privacy serves as a centralized repository for the following filter (block) lists:**
