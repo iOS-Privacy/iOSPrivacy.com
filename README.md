@@ -1,6 +1,6 @@
 # [iOS Privacy](https://iosprivacy.com/)
 
-# [![Latest Release](https://gitlab.com/iosprivacy/cdn/-/badges/release.svg)](https://gitlab.com/iosprivacy/cdn/-/releases)
+![GitHub top language](https://img.shields.io/github/languages/top/FuckNazis/iOSPrivacy.com?logo=javascript&style=social)
 
 | iVOID.hosts | DomainVoider | Urlhaus Filters |
 ---------|---------|---------|
