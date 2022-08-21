@@ -5,6 +5,8 @@
 <br>
 <a href="https://twitter.com/@DeVoltairine"><img src="https://img.shields.io/twitter/follow/DeVoltairine?style=social"></a>
 <br>
+<a href="https://twitter.com/@iOS_Privacy"><img src="https://img.shields.io/twitter/follow/iOS_Privacy?style=social"></a>
+<br>
 <a href="https://hstspreload.org/?domain=iosprivacy.com"><img src="https://img.shields.io/hsts/preload/iosprivacy.com"></a>
 <br>
 <a href="https://observatory.mozilla.org/analyze/iosprivacy.com"><img src="https://img.shields.io/mozilla-observatory/grade-score/iosprivacy.com?publish&style=plastic"></a>
