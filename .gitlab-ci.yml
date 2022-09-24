@@ -9,7 +9,7 @@ pages:
       - public/
       - public/domainvoider
       - public/ivoid
-      - public/mirror
+      - public/urlhaus
       - public/privacy
   only:
     - master
