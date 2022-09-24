@@ -5,6 +5,7 @@ self.addEventListener('fetch', (e) => {
         if (r) {
             return r;
         }
+        let cacheName = 'iOS_1'
         const response = await fetch(e.request);
         const cache = await caches.open(cacheName);
         console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
