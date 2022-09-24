@@ -5,7 +5,7 @@ self.addEventListener('install', function (event) {
     const response = await fetch('files-to-cache.json');
     const files = await response.json();
     console.log('[install] Adding files from JSON file: ', files);
-    return await Cache.addAll(files);
+    return await cache.put(files);
   }).then(function () {
     console.log('[install] All required resources have been cached;', 'the Service Worker was successfully installed!'
     );
