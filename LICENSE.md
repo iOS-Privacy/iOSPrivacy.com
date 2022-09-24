@@ -1,1 +1,0 @@
-- [x] ![GitHub](https://img.shields.io/github/license/Voltairine-de-Cleyre/iOSPrivacy.com)
