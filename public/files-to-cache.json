@@ -1,14 +1,15 @@
 [
 	".",
-	"/",
-	"/domainvoider",
-	"/ivoid",
-	"/urlhaus",
-	"/privacy",
+	"https://iosprivacy.com",
+	"https://iosprivacy.com/domainvoider",
+	"https://iosprivacy.com/ivoid",
+	"https://iosprivacy.com/urlhaus",
+	"https://iosprivacy.com/privacy",
 	"https://domainvoider.iosprivacy.com",
 	"https://ivoid.iosprivacy.com",
 	"apple-touch-icon.png",
 	"css/style.min.css",
+	"js/index.js",
 	"favicon.png",
 	"favicon.svg",
 	"icon_x128.png",
@@ -18,7 +19,6 @@
 	"icon_x72.png",
 	"icon_x96.png",
 	"files-to-cache.json",
-	"index.js",
 	"manifest.webmanifest",
 	"mask-icon.svg"
 ]
