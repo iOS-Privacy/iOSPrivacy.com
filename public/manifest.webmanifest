@@ -23,14 +23,14 @@
 			"description": "View DomainVoider"
 		},
 		{
-			"name": "Subscribe to DomainVoider",
-			"url": "abp:subscribe?location=https://iosprivacy.com/domainvoider/raw/DomainVoider.txt&title=DomainVoider",
-                        "description": "Subscribe to DomainVoider"
-		},
-		{
 			"name": "iVOID",
 			"url": "/ivoid/raw/iVOID.hosts",
-                        "description": "View iVOID.hosts"
+			"description": "View iVOID.hosts"
+		},
+		{
+			"name": "Urlhaus Mirror",
+			"url": "/urlhaus",
+			"description": "Open Urlhaus Mirror"
 		}
 	],
 	"icons": [
