@@ -20,17 +20,41 @@
 		{
 			"name": "DomainVoider",
 			"url": "/domainvoider/raw/DomainVoider.txt",
-			"description": "View DomainVoider"
+			"description": "View DomainVoider",
+			"icons": [
+				{
+					"src": "/icon_96x96.png",
+					"sizes": "96x96",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
 		},
 		{
 			"name": "iVOID",
 			"url": "/ivoid/raw/iVOID.hosts",
-			"description": "View iVOID.hosts"
+			"description": "View iVOID.hosts",
+			"icons": [
+				{
+					"src": "/icon_96x96.png",
+					"sizes": "96x96",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
 		},
 		{
 			"name": "Urlhaus Mirror",
 			"url": "/urlhaus",
-			"description": "Open Urlhaus Mirror"
+			"description": "Open Urlhaus Mirror",
+			"icons": [
+				{
+					"src": "/icon_96x96.png",
+					"sizes": "96x96",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
 		}
 	],
 	"icons": [
