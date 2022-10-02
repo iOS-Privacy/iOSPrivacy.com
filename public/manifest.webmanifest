@@ -6,7 +6,7 @@
 	"scope": "/",
 	"display_override": [
 		"minimal-ui",
-		"standalone"
+		"fullscreen"
 	],
 	"display": "standalone",
 	"background_color": "#f2f2f2",
