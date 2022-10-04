@@ -2,6 +2,7 @@
 	"@type": "WebSite",
 	"name": "iOS Privacy | Technology to Enhance Network Security & Privacy",
 	"short_name": "iOSPrivacy",
+        "editor": "intr0",
 	"start_url": "/",
 	"scope": "/",
 	"display": "standalone",
