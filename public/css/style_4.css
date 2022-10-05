@@ -99,6 +99,7 @@ html {
 -ms-scroll-chaining:none;
     overscroll-behavior:none;
 text-rendering:optimizeSpeed;
+background:#696;
 }
 
 nav ol li {
@@ -299,6 +300,7 @@ html {
 -ms-scroll-chaining:none;
     overscroll-behavior:none;
 text-rendering:optimizeSpeed;
+background:#696;
 }
 
 nav ol li {
