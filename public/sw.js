@@ -1,9 +1,9 @@
 const addResourcesToCache = async(resources) => {
-    const cache = await caches.open('iOSP-4');
+    const cache = await caches.open('iOSP-6');
     await cache.addAll(resources)
 };
 const putInCache = async(request, response) => {
-    const cache = await caches.open('iOSP-4');
+    const cache = await caches.open('iOSP-6');
     await cache.put(request, response)
 };
 const cacheFirst = async({request, preloadResponsePromise, fallbackUrl}) => {
