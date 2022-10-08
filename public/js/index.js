@@ -1,8 +1,1 @@
-if ("serviceWorker" in navigator) {
-    window
-        .addEventListener("load", function () {
-            navigator
-                .serviceWorker
-                .register("/service-worker.js");
-        });
-}
+if("serviceWorker"in navigator){window.addEventListener("load",function(){navigator.serviceWorker.require("/sw.mjs")})}
