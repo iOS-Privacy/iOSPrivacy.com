@@ -1,36 +1,15 @@
+# Version: 1665333660
 # Title: iVOID.hosts
-# Version: 2.22.8.1
-# Checksum (MD5): 7ffb6a43f00d0528ed9fe3aa8635fcde
-# Expires: 30 days
-# Last Modified: 2022-08-14T05:29:25+00:00
-# License: CC-BY-NC-SA
-# Maintainer: intr0
-# Contact: support@iosprivacy.com
-# Subscription URL: https://iosrivacy.com/ivoid/raw/iVOID.hosts
+# Last Modified: 2022-10-09T15:43:23+00:00
+# Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
-# Description: iVOID.hosts is compiled from a licensed feed of Phishing sites.
-# The information used is licensed to us by Ivan Ristic under the terms of Creative Commons CC-BY-NC-SA 4.0.
-# Ivan is the Founder of Hardenize, SSL Labs & ModSecurity;
-# he is Author of "Bulletproof SSL and TLS";
-# he is a Regular Participant at the Security Conferences Black Hat, RSA & OWASP AppSec.
-#
-# This hosts file is strictly for Protection against fake Apple, Facebook, Instagram, PayPal & Twitter websites.
-# These websites steal users' credentials,
-# leading to anything from account takeovers
-# to identify theft.
-# The domains themselves use a variety
-# of naming schemes including:
-# Combosquatting, Doppelganger Domains
-# & TLD abuse; as well as standard Homoglyph
-# & Typosquatting attacks.
-# Many attacks rely on the use of mobile devices, most of which make it difficult
-# to read the actual, full sub / domain names of the malicious hosts.
-# # # # # #
+# Syntax: Hosts
+# # #
 127.0.0.1 localhost
 255.255.255.255 broadcasthost
 ::1 localhost
 0.0.0.0 0.0.0.0
-# # # # # #
+# # #
 0.0.0.0 024app1eid.com.sylidegatelnemen.com
 0.0.0.0 0faceb00k.com
 0.0.0.0 0lnstagram.com.fbcdnx.icu
@@ -42,6 +21,7 @@
 0.0.0.0 1copyright-lnstagram.tk
 0.0.0.0 1d-app1e.uk
 0.0.0.0 1dappsconfr1msecuedapp1e.com
+0.0.0.0 1dattw-faceb00k.duckdns.org
 0.0.0.0 1faceb00k.secured.ellecanada.ga
 0.0.0.0 1fog0t.app1e.com.nz-fix.restore.live
 0.0.0.0 1imited-apps-paypa1.com
@@ -543,6 +523,7 @@
 0.0.0.0 app1e.authverifyacces.com
 0.0.0.0 app1e.best4me-best4u-convindencelyt.com
 0.0.0.0 app1e.ca
+0.0.0.0 app1e.cathbot.cn
 0.0.0.0 app1e.cc
 0.0.0.0 app1e.cf
 0.0.0.0 app1e.club
@@ -590,6 +571,7 @@
 0.0.0.0 app1e.com.abikayloray.com
 0.0.0.0 app1e.com.apl-id-secure-suite.me
 0.0.0.0 app1e.com.cancelsubs.com
+0.0.0.0 app1e.com.cdncloudflare.net
 0.0.0.0 app1e.com.cn
 0.0.0.0 app1e.com.com-account-verifications.com
 0.0.0.0 app1e.com.freegiftwaves.com
@@ -666,12 +648,14 @@
 0.0.0.0 app1e.incloud-instansservice.com
 0.0.0.0 app1e.info
 0.0.0.0 app1e.injection-multiplesystem.com
+0.0.0.0 app1e.intor.io
 0.0.0.0 app1e.ios.agira.cn
 0.0.0.0 app1e.ios.com.0lfk.cn
 0.0.0.0 app1e.itdevel.org
 0.0.0.0 app1e.itverif-account1ocked.com
 0.0.0.0 app1e.kevinkerr.xyz
 0.0.0.0 app1e.lialis.com
+0.0.0.0 app1e.life
 0.0.0.0 app1e.live
 0.0.0.0 app1e.logic-newsystem-upgrade.com
 0.0.0.0 app1e.manage-activity.com
@@ -849,6 +833,7 @@
 0.0.0.0 app1eaddsecureverf.com
 0.0.0.0 app1eaiaha.hopto.org
 0.0.0.0 app1ean.space
+0.0.0.0 app1easy.com
 0.0.0.0 app1ebad.hopto.org
 0.0.0.0 app1eblog.alist.com.tr
 0.0.0.0 app1eblog.com
@@ -1437,6 +1422,7 @@
 0.0.0.0 appsverlfyupge1nconfrmationapp1e.com
 0.0.0.0 appsverlfyupgeconfrmationapp1e.com
 0.0.0.0 aprovd-faceb00k.cf
+0.0.0.0 apsapp1e1nf0-updtepym3nt.cloudns.nz
 0.0.0.0 ar-lnstagram.com
 0.0.0.0 aslgnaconfm1nmangsesapp1e.com
 0.0.0.0 asqinbabazade.lnstagram-violationhelps.com
@@ -1446,17 +1432,124 @@
 0.0.0.0 aswu-paypa1lgmn.ddns.net
 0.0.0.0 au-lnstagram.ml
 0.0.0.0 au-lnstagram.tk
+0.0.0.0 auth-accountapp1e.ajimgeqsexml.com
+0.0.0.0 auth-accountapp1e.arjtqwizkwyb.com
+0.0.0.0 auth-accountapp1e.eqnhivbupycy.com
+0.0.0.0 auth-accountapp1e.iwnaxpropdtd.com
+0.0.0.0 auth-accountapp1e.jxhgefsjwtol.com
+0.0.0.0 auth-accountapp1e.kiuoykfpdhsf.com
+0.0.0.0 auth-accountapp1e.kmhigomgknbn.com
+0.0.0.0 auth-accountapp1e.maryieqcucie.com
+0.0.0.0 auth-accountapp1e.ndgwfzbogxak.com
+0.0.0.0 auth-accountapp1e.nlpycgxkzpnx.com
+0.0.0.0 auth-accountapp1e.obmbugkudqxd.com
+0.0.0.0 auth-accountapp1e.ocwycqrnvufq.com
+0.0.0.0 auth-accountapp1e.odbwwnkveron.com
+0.0.0.0 auth-accountapp1e.ormaufqulfsm.com
+0.0.0.0 auth-accountapp1e.rimbxaganttt.com
+0.0.0.0 auth-accountapp1e.rqogqocxctmg.com
+0.0.0.0 auth-accountapp1e.umvecqoehndi.com
+0.0.0.0 auth-accountapp1e.uqufhjvhuuon.com
+0.0.0.0 auth-accountapp1e.zqdrnrtwvrzd.com
+0.0.0.0 auth-accountapp1e.zreodpoixyft.com
 0.0.0.0 auth-api-eu-west-3.winamax.lnstagram.netlib.re
 0.0.0.0 auth-limited-ipaypa1.com
 0.0.0.0 auth-lnstagram.ru
+0.0.0.0 auth-loginaccountapp1e.14209zm1e0ws.com
+0.0.0.0 auth-loginaccountapp1e.92ouw4sueyfk.com
+0.0.0.0 auth-loginaccountapp1e.b0bud8fz8fhh.com
+0.0.0.0 auth-loginaccountapp1e.booksbydebr.com
+0.0.0.0 auth-loginaccountapp1e.bugchefs.com
+0.0.0.0 auth-loginaccountapp1e.cjlleblifphm.com
+0.0.0.0 auth-loginaccountapp1e.demonikstudios.com
+0.0.0.0 auth-loginaccountapp1e.folienvz.com
+0.0.0.0 auth-loginaccountapp1e.ilaywup7kgpe.com
+0.0.0.0 auth-loginaccountapp1e.kopfschussmaster.com
+0.0.0.0 auth-loginaccountapp1e.moebelundmarkt.com
+0.0.0.0 auth-loginaccountapp1e.myshareography.com
+0.0.0.0 auth-loginaccountapp1e.n2q1ti8h7sq0.com
+0.0.0.0 auth-loginaccountapp1e.northgaagency.com
+0.0.0.0 auth-loginaccountapp1e.opalcoreltd.com
+0.0.0.0 auth-loginaccountapp1e.premierproturf.com
+0.0.0.0 auth-loginaccountapp1e.ujmgd641sq09.com
+0.0.0.0 auth-loginaccountapp1e.w03b4b3zw9m8.com
+0.0.0.0 auth-loginaccountapp1e.x49np04y86ej.com
+0.0.0.0 auth-loginaccountapp1e.x774eyzyn1tc.com
 0.0.0.0 auth-secure-dashbordapp1e-1nc.com
+0.0.0.0 auth-signinaccountapp1e.82yktjfiy5m4.com
+0.0.0.0 auth-signinaccountapp1e.foyl7izu55nl.com
+0.0.0.0 auth-signinaccountapp1e.g8g9yflmr97j.com
+0.0.0.0 auth-signinaccountapp1e.h17rpuvke834.com
+0.0.0.0 auth-signinaccountapp1e.j4pz647xaxnw.com
+0.0.0.0 auth-signinaccountapp1e.kbol4pemg4sx.com
+0.0.0.0 auth-signinaccountapp1e.kk8xl9rt0dro.com
+0.0.0.0 auth-signinaccountapp1e.mqw1rvg31l4c.com
+0.0.0.0 auth-signinaccountapp1e.qa03bkyzkjn8.com
+0.0.0.0 auth-signinaccountapp1e.v225132vlfu5.com
+0.0.0.0 auth-signinaccountapp1e.wcgnz2lo8zqg.com
+0.0.0.0 auth-signinaccountapp1e.xfcucsdss13s.com
+0.0.0.0 auth-signinapp1e.5rfut1zlsm.com
+0.0.0.0 auth-signinapp1e.7mv2ye3qhv.com
+0.0.0.0 auth-signinapp1e.amybertrand.com
+0.0.0.0 auth-signinapp1e.brqxmusic.com
+0.0.0.0 auth-signinapp1e.bs6wm869nc.com
+0.0.0.0 auth-signinapp1e.cmrealproperty.com
+0.0.0.0 auth-signinapp1e.ctrtransportes.com
+0.0.0.0 auth-signinapp1e.destinyfowler.com
+0.0.0.0 auth-signinapp1e.enlucidment.com
+0.0.0.0 auth-signinapp1e.gunsncamo.com
+0.0.0.0 auth-signinapp1e.j4mu1flwn1.com
+0.0.0.0 auth-signinapp1e.kangapost.com
+0.0.0.0 auth-signinapp1e.linuxkontor.com
+0.0.0.0 auth-signinapp1e.mytatler.com
+0.0.0.0 auth-signinapp1e.nypeace.com
+0.0.0.0 auth-signinapp1e.pellsradio.com
+0.0.0.0 auth-signinapp1e.polyenv.com
+0.0.0.0 auth-signinapp1e.r8hr0dqtn4.com
+0.0.0.0 auth-signinapp1e.resumetro.com
+0.0.0.0 auth-signinapp1e.robertdeis.com
+0.0.0.0 auth-signinapp1e.rowentause.com
+0.0.0.0 auth-signinapp1e.runsbattedin.com
+0.0.0.0 auth-signinapp1e.sarahfowles.com
+0.0.0.0 auth-signinapp1e.solocinski.com
+0.0.0.0 auth-signinapp1e.tynandataservices.com
 0.0.0.0 auth-verification-subpaypa1.com
 0.0.0.0 authapp1e-account-activity.2simmovil.com
+0.0.0.0 authapp1e.159tbd09el.com
+0.0.0.0 authapp1e.7k2k6lvfsx.com
+0.0.0.0 authapp1e.9bm23f4cpz.com
+0.0.0.0 authapp1e.bxl1ph3c4x.com
+0.0.0.0 authapp1e.j6v7dnbshj.com
+0.0.0.0 authapp1e.kxn2avar99.com
+0.0.0.0 authapp1e.q3z9zy8ji8.com
+0.0.0.0 authapp1e.v7g28l1evt.com
+0.0.0.0 authapp1e.wd5hg5ugbs.com
+0.0.0.0 authapp1e.zsfvl0k7nw.com
 0.0.0.0 authapp1eldverf.com
 0.0.0.0 authenticat1onapp1eldsecured.com
 0.0.0.0 authenticat1onmyapp1eldsecured.com
 0.0.0.0 authentication-lnstagram.com
 0.0.0.0 authenticatlonapp1eldsecure.com
+0.0.0.0 authloginapp1e.0o9gs7v919.com
+0.0.0.0 authloginapp1e.1i43utnrcy.com
+0.0.0.0 authloginapp1e.33pqb09ud2.com
+0.0.0.0 authloginapp1e.3ms4sry7pl.com
+0.0.0.0 authloginapp1e.5kxc3mrnz7.com
+0.0.0.0 authloginapp1e.8b5f1o3pk1.com
+0.0.0.0 authloginapp1e.ho7i6edg35.com
+0.0.0.0 authloginapp1e.i02p8w06jk.com
+0.0.0.0 authloginapp1e.ky4tzf1212.com
+0.0.0.0 authloginapp1e.zta8l5jx0x.com
+0.0.0.0 authloginapp1eid.0npccyhgc2.com
+0.0.0.0 authloginapp1eid.53xpefm7n3.com
+0.0.0.0 authloginapp1eid.5d4afwdt7t.com
+0.0.0.0 authloginapp1eid.6sqgv6sob1.com
+0.0.0.0 authloginapp1eid.dc049uxfqd.com
+0.0.0.0 authloginapp1eid.mwy3v32ahz.com
+0.0.0.0 authloginapp1eid.ph4xpspkv1.com
+0.0.0.0 authloginapp1eid.ra6k5z2puv.com
+0.0.0.0 authloginapp1eid.u3ptn1adfu.com
+0.0.0.0 authloginapp1eid.zthi3361ea.com
 0.0.0.0 authorization-app1e-1nc.com
 0.0.0.0 authorize-lnstagram.tk
 0.0.0.0 authorized-app1e-account-update-verify-com.usa.cc
@@ -1765,6 +1858,7 @@
 0.0.0.0 checkpoint-lnstagramhelp.com
 0.0.0.0 checkpointfaceb00k.net
 0.0.0.0 checkpoints-lnstagramsupport.ga
+0.0.0.0 chinamobile-app1e-discount.com
 0.0.0.0 ckf8hnkx000cs1app1e899fxg.eastus2.azurecontainer.io
 0.0.0.0 cl0udsapp1e.com
 0.0.0.0 cl0udsapp1e.net
@@ -3844,6 +3938,7 @@
 0.0.0.0 deneme.com.verifie-lnstagram.co
 0.0.0.0 deneme.lnstagramteamverify.com
 0.0.0.0 deploy-status.app1e.outreach.cloud
+0.0.0.0 deploytestservice-app1e.outreach.cloud
 0.0.0.0 depo.lnstagramverifycheckpoint.tk
 0.0.0.0 destek-lnstagram.com
 0.0.0.0 destek-lnstagram.net
@@ -4106,6 +4201,7 @@
 0.0.0.0 faceb00k-protection-listing-ad.list0509383h3492874.us
 0.0.0.0 faceb00k-pt.tk
 0.0.0.0 faceb00k-redirect.ga
+0.0.0.0 faceb00k-refactt.duckdns.org
 0.0.0.0 faceb00k-reset-login.com
 0.0.0.0 faceb00k-sceurritty-dept.com
 0.0.0.0 faceb00k-seccuritty-deppt.com
@@ -4223,6 +4319,7 @@
 0.0.0.0 faceb00k.104908125624.shortom.com
 0.0.0.0 faceb00k.10x.co.il
 0.0.0.0 faceb00k.25march.com
+0.0.0.0 faceb00k.a-w.ir
 0.0.0.0 faceb00k.account.id357532654241.us
 0.0.0.0 faceb00k.account.id859403486306803.site
 0.0.0.0 faceb00k.activationrequired.website
@@ -4276,6 +4373,7 @@
 0.0.0.0 faceb00k.com.login.7752.xyz
 0.0.0.0 faceb00k.com.maidworkpermit.com
 0.0.0.0 faceb00k.com.mx
+0.0.0.0 faceb00k.com.ng
 0.0.0.0 faceb00k.com.poulis.net
 0.0.0.0 faceb00k.com.rodriguesadm.com.br
 0.0.0.0 faceb00k.com.serveo.net
@@ -4308,6 +4406,7 @@
 0.0.0.0 faceb00k.duosmail.com
 0.0.0.0 faceb00k.elementfx.com
 0.0.0.0 faceb00k.email
+0.0.0.0 faceb00k.evil.live-office365.com
 0.0.0.0 faceb00k.faith
 0.0.0.0 faceb00k.fastworldcourier.com
 0.0.0.0 faceb00k.fb-security-checkpoint.duckdns.org
@@ -4329,6 +4428,7 @@
 0.0.0.0 faceb00k.home.blog
 0.0.0.0 faceb00k.hopeinthebusiness.com
 0.0.0.0 faceb00k.host
+0.0.0.0 faceb00k.host20.uk
 0.0.0.0 faceb00k.in
 0.0.0.0 faceb00k.in.cp-ht-6.webhostbox.net
 0.0.0.0 faceb00k.info
@@ -4378,6 +4478,7 @@
 0.0.0.0 faceb00k.me
 0.0.0.0 faceb00k.mkt-trade.com
 0.0.0.0 faceb00k.mobile-page.icu
+0.0.0.0 faceb00k.my.id
 0.0.0.0 faceb00k.neocities.org
 0.0.0.0 faceb00k.net
 0.0.0.0 faceb00k.net.serveo.net
@@ -4442,6 +4543,7 @@
 0.0.0.0 faceb00k.softstok.xyz
 0.0.0.0 faceb00k.somee.com
 0.0.0.0 faceb00k.strongmoon.xyz
+0.0.0.0 faceb00k.studjob.online
 0.0.0.0 faceb00k.support
 0.0.0.0 faceb00k.surveys.serveo.net
 0.0.0.0 faceb00k.sysadmincrush.com
@@ -4550,6 +4652,7 @@
 0.0.0.0 faceb00kpagelikes.ml
 0.0.0.0 faceb00kpemblokiran.b0tnet.com
 0.0.0.0 faceb00kpho.x10host.com
+0.0.0.0 faceb00kphotolistbucket.aplusvacationrentals.com
 0.0.0.0 faceb00kpr0xy.info
 0.0.0.0 faceb00kpr0xy.open0031.7artisan.cloud
 0.0.0.0 faceb00kpro.com
@@ -4815,6 +4918,7 @@
 0.0.0.0 facebo0k-item-954253791.com
 0.0.0.0 facebo0k-item-954553717.com
 0.0.0.0 facebo0k-l0gin-accountt.season14-live.xyz
+0.0.0.0 facebo0k-l0gin.com
 0.0.0.0 facebo0k-login-to-continue.ga
 0.0.0.0 facebo0k-login.com
 0.0.0.0 facebo0k-m-security.com
@@ -6632,6 +6736,7 @@
 0.0.0.0 l-lnstagram.tk
 0.0.0.0 l-paypai.l-lnstagram.ga
 0.0.0.0 l0gin-faceb00k.dynnamn.ru
+0.0.0.0 l0gin-faceb00k.hostlink0.xyz
 0.0.0.0 l0ked-paypa1.dyndns-server.com
 0.0.0.0 l0ked-paypa1.from-pa.com
 0.0.0.0 l0ked-paypa1.likescandy.com
@@ -16993,6 +17098,7 @@
 0.0.0.0 m-faceb00k-ssecurity.com
 0.0.0.0 m-faceb00k.dfirma.pl
 0.0.0.0 m-faceb00k.gq
+0.0.0.0 m-faceb00k.ml
 0.0.0.0 m-faceb00k.shortbl.com
 0.0.0.0 m-faceb00k.shortlu.com
 0.0.0.0 m-faceb00k.tk
@@ -19152,6 +19258,7 @@
 0.0.0.0 multimedia.pine-app1e.com
 0.0.0.0 musiqal-studios.lnstagram-web.ga
 0.0.0.0 mx-app1e-la.in
+0.0.0.0 mx-app1e.top
 0.0.0.0 my-account-un1ocked-secure-app1eid.com
 0.0.0.0 my-account.users-app1e.com-disable-accoutn.ml
 0.0.0.0 my-account.users-app1e.com-recovry-access.ga
@@ -19213,6 +19320,7 @@
 0.0.0.0 netapp1ei7q37strnvlolciyul6bmoenetflix.com
 0.0.0.0 netcafefaceb00k.cf
 0.0.0.0 netcafefaceb00k.ga
+0.0.0.0 netrntmx-app1e.domainsssse.com
 0.0.0.0 new-messages-from-faceb00k.club
 0.0.0.0 new-update-location-app1e.com
 0.0.0.0 new.appli.franceactive.org
@@ -19389,7 +19497,9 @@
 0.0.0.0 paypa1.cn
 0.0.0.0 paypa1.co
 0.0.0.0 paypa1.co.jp-jgokn.cn
+0.0.0.0 paypa1.co.jp-jgon.cn
 0.0.0.0 paypa1.co.nu
+0.0.0.0 paypa1.co.uk
 0.0.0.0 paypa1.co.uk.j1l7.top
 0.0.0.0 paypa1.co.uk.k2s1.top
 0.0.0.0 paypa1.co.uk.l1s7.top
@@ -19445,6 +19555,7 @@
 0.0.0.0 paypa1.org
 0.0.0.0 paypa1.pagelogin.online
 0.0.0.0 paypa1.payment.failed.ajfawd8734hjd.com
+0.0.0.0 paypa1.ppsservice.de
 0.0.0.0 paypa1.pro
 0.0.0.0 paypa1.prtaker.com
 0.0.0.0 paypa1.ptch.authsecr.com
@@ -19848,6 +19959,7 @@
 0.0.0.0 sapportlnstagramcopyrightportal.ml
 0.0.0.0 sblueticksverifly-lnstagram.ml
 0.0.0.0 sbtccm-dr.appl.kp.org
+0.0.0.0 sbz42app1e36iox.westeurope.atlas.cloudapp.azure.com
 0.0.0.0 scontent-cdg2-1.faceb00k.validityservice.com
 0.0.0.0 scopyrirghtz-lnstagram.ml
 0.0.0.0 scpaypa1.com.servicecenter.space
@@ -20261,20 +20373,60 @@
 0.0.0.0 signgetverlfaccountsapp1eseslon1dnowupdate.com
 0.0.0.0 signgetverlfaccountsapp1eseslonnowupdate.com
 0.0.0.0 signgetverlfyapp1eseslon.com
+0.0.0.0 signin-accountapp1e.031chnaqb18t.com
+0.0.0.0 signin-accountapp1e.0kahk9a9qdz1.com
 0.0.0.0 signin-accountapp1e.2rq1bhz45t2d.com
 0.0.0.0 signin-accountapp1e.62g5bkyg1hp3.com
+0.0.0.0 signin-accountapp1e.6sdcyc82p0mu.com
 0.0.0.0 signin-accountapp1e.7fx79l0laefz.com
 0.0.0.0 signin-accountapp1e.7w0van84hsx1.com
 0.0.0.0 signin-accountapp1e.9rpd4zs6zw9h.com
 0.0.0.0 signin-accountapp1e.ath0ngng250q.com
+0.0.0.0 signin-accountapp1e.aulacardiologica.net
+0.0.0.0 signin-accountapp1e.binomoaye.com
 0.0.0.0 signin-accountapp1e.ctdp7i0wt0dt.com
+0.0.0.0 signin-accountapp1e.dadxf0r4b8sh.com
 0.0.0.0 signin-accountapp1e.dfbs85g2b7dl.com
+0.0.0.0 signin-accountapp1e.diamandouros.net
 0.0.0.0 signin-accountapp1e.f0f0yulrz3vf.com
+0.0.0.0 signin-accountapp1e.jerroldkatz.net
+0.0.0.0 signin-accountapp1e.kyb5efu7qduc.com
+0.0.0.0 signin-accountapp1e.kyeaton.net
 0.0.0.0 signin-accountapp1e.mlhby1x66470.com
+0.0.0.0 signin-accountapp1e.nxa1vuv3el65.com
+0.0.0.0 signin-accountapp1e.qsow9arzlof8.com
+0.0.0.0 signin-accountapp1e.qvd0z87u4a2l.com
+0.0.0.0 signin-accountapp1e.sqxnmwh0o2sv.com
+0.0.0.0 signin-accountapp1e.wapdzv6rqjvg.com
 0.0.0.0 signin-lnstagram.cf
 0.0.0.0 signin-lnstagram.com
 0.0.0.0 signin-lnstagram.shine-panel.top
 0.0.0.0 signinapp1eprotectverlfy.com
+0.0.0.0 signinauthapp1e.0extm5dcf4.com
+0.0.0.0 signinauthapp1e.81g0efu02x.com
+0.0.0.0 signinauthapp1e.h7z9v6y50k.com
+0.0.0.0 signinauthapp1e.luz4ky92t0.com
+0.0.0.0 signinauthapp1e.ox4jgbl3fc.com
+0.0.0.0 signinauthapp1e.p8z41hl2hy.com
+0.0.0.0 signinauthapp1e.reuyv38lcp.com
+0.0.0.0 signinauthapp1e.rh7i5n7tpa.com
+0.0.0.0 signinauthapp1e.tqwc8sp2a5.com
+0.0.0.0 signinauthapp1e.z4hfyvbft8.com
+0.0.0.0 signinauthapp1eid.1nu3vtftfp.com
+0.0.0.0 signinauthapp1eid.1r0gvgujd9.com
+0.0.0.0 signinauthapp1eid.2o1vjtm13i.com
+0.0.0.0 signinauthapp1eid.6r0zn1m0f1.com
+0.0.0.0 signinauthapp1eid.86tmlrhc0x.com
+0.0.0.0 signinauthapp1eid.8a7pfn3n4a.com
+0.0.0.0 signinauthapp1eid.8mljk5sl3o.com
+0.0.0.0 signinauthapp1eid.gm159h15ix.com
+0.0.0.0 signinauthapp1eid.hpd04gekg7.com
+0.0.0.0 signinauthapp1eid.omkgrh1f56.com
+0.0.0.0 signinauthapp1eid.q4kia8a1s5.com
+0.0.0.0 signinauthapp1eid.tuy42lp75t.com
+0.0.0.0 signinauthapp1eid.vbpnguq8wf.com
+0.0.0.0 signinauthapp1eid.x2vy55lmy6.com
+0.0.0.0 signinauthapp1eid.z80w8q47qw.com
 0.0.0.0 signinconfrmapp1edashbord.com
 0.0.0.0 signinsecureapp1everlfynow.com
 0.0.0.0 signinsecuresapp1everlfnow.com
@@ -20733,6 +20885,7 @@
 0.0.0.0 sv.appme.ru
 0.0.0.0 sv3-app1e-v3r1f1cat10n.rabbital.net
 0.0.0.0 swq.face-book.cc
+0.0.0.0 sxcwigju3caoedapp1efd7infa.alpha.us-west-2.amazongamelift.com
 0.0.0.0 syncfaceb00kupdateapp.club
 0.0.0.0 t534app1eid.com.batutokbae.com
 0.0.0.0 tagram.mail-lnstagrams.com
@@ -20821,6 +20974,7 @@
 0.0.0.0 tw1tterband.wordpress.com
 0.0.0.0 tw1tterbot.com
 0.0.0.0 tw1tterfollowersua.tk
+0.0.0.0 tw1tterfollowersua.tk.ozgurhanyazici.com.tr
 0.0.0.0 tw1tterpating.com
 0.0.0.0 tw1tterpicasso.com
 0.0.0.0 tw1tterxxxvideo8eq20.servebbs.com
@@ -20894,6 +21048,7 @@
 0.0.0.0 twltterr.mobi
 0.0.0.0 twltterr.syokshopee.com
 0.0.0.0 twltterr.work
+0.0.0.0 twltters.chauthebao.com
 0.0.0.0 twltters.com
 0.0.0.0 twltters.xyz
 0.0.0.0 twlttershelpjp.cf
@@ -21213,6 +21368,10 @@
 0.0.0.0 web-bca-ncal.appl.kp.org
 0.0.0.0 web-copyright-help-lnstagram-support.cf
 0.0.0.0 web-copyrightforlnstagram.cf.samilberk1.com
+0.0.0.0 web-faceb00k-live-videos.ml
+0.0.0.0 web-faceb00k-live-videos.prinxxyhustle.com.ng
+0.0.0.0 web-faceb00k-live-xvideo.ml
+0.0.0.0 web-faceb00k-live-xvideo.prinxxyhustle.com.ng
 0.0.0.0 web-facebo0k.club
 0.0.0.0 web-helpcopyrightlnstagram.ml
 0.0.0.0 web-helpforlnstagram.cf
@@ -24378,11 +24537,13 @@
 0.0.0.0 xn--facebk-m0ea.voi2.com
 0.0.0.0 xn--facebk-m15ba.com
 0.0.0.0 xn--facebok-ejg.com-visible.page
+0.0.0.0 xn--facebok-gx4c.vn
 0.0.0.0 xn--facebok-hx4c.com
 0.0.0.0 xn--facebok-i01c.com
 0.0.0.0 xn--facebok-j01c.com
 0.0.0.0 xn--faceboo-2o7e.com
 0.0.0.0 xn--faceook-4rd.com
+0.0.0.0 xn--faceook-4rd.live
 0.0.0.0 xn--faebk-r09a7ca.com
 0.0.0.0 xn--faebook-wx1c.com
 0.0.0.0 xn--faebook-zjg.com-visible.page
