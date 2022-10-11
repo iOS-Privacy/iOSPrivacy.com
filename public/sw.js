@@ -10,6 +10,7 @@ const PRECACHE_ASSETS = [
     '/urlhaus/',
     '/privacy/',
     '/css/',
+    '/font',
     '/js/'
 ]
 
