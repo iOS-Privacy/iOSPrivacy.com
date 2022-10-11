@@ -1,1 +1,41 @@
-const fileListURL='file-list.json';self.skipWaiting();function fetchAndBust(request){if(typeof request=='string'){request=new Request(request)}const url=new URL(request.url);url.search+=Math.random();return fetch(url,{headers:request.headers,mode:request.mode,credentials:request.credentials,redirect:request.redirect})}function updateCheck(){return fetch(fileListURL).then(r=>r.json()).then(fileList=>{const staticCacheName=`file-list-v${fileList.version }`;return caches.has(staticCacheName).then(cacheExists=>{if(cacheExists){return}return Promise.all(fileList.files.map(fetchAndBust)).then(responses=>{return caches.open(staticCacheName).then(cache=>{return Promise.all(responses.map((response,i)=>{if(!response.ok){throw Error('Not ok')}return cache.put(fileList.files[i],response)}))})}).catch(err=>{caches.delete(staticCacheName);throw err})})})}self.addEventListener('install',event=>{event.waitUntil(updateCheck().catch(()=>null))});self.addEventListener('fetch',event=>{const responsePromise=caches.keys().then(cacheNames=>{const staticCacheNames=cacheNames.filter(n=>n.startsWith('static-separate-list-v'));if(!staticCacheNames[0]){return fetch(event.request)}let staticCacheName=staticCacheNames[0];return Promise.resolve().then(()=>{if(staticCacheNames.length==1||event.request.mode!='navigate'){return}return clients.matchAll().then(clients=>{if(clients.length>1){return}staticCacheName=staticCacheNames[staticCacheNames.length-1];return Promise.all(staticCacheNames.slice(0,-1).map(c=>caches.delete(c)))})}).then(()=>{return caches.open(staticCacheName).then(c=>c.match(event.request)).then(response=>response||fetch(event.request))})});if(event.request.mode=='navigate'){event.waitUntil(responsePromise.then(updateCheck))}event.respondWith(responsePromise)});
+const CACHE_NAME = 'iosp-cache';
+
+const PRECACHE_ASSETS = [
+    '/',
+    '/img/',
+    '/bimi/',
+    '/res/',
+    '/domainvoider/',
+    '/ivoid/',
+    '/urlhaus/',
+    '/privacy/',
+    '/css/',
+    '/js/'
+]
+
+self.addEventListener('install', event => {
+    event.waitUntil((async() => {
+        const cache = await caches.open(CACHE_NAME);
+        cache.addAll(PRECACHE_ASSETS);
+    })());
+});
+
+self.addEventListener('activate', event => {
+    event.waitUntil(clients.claim());
+});
+
+self.addEventListener('fetch', event => {
+    event.respondWith(async() => {
+        const cache = await caches.open(CACHE_NAME);
+
+        const cachedResponse = await cache.match(event.request);
+
+        if (cachedResponse !== undefined) {
+
+            return cachedResponse;
+        } else {
+
+            return fetch(event.request)
+        };
+    });
+});
