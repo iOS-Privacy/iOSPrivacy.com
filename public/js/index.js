@@ -3,6 +3,8 @@ if ("serviceWorker" in navigator) {
         .addEventListener("load", function () {
             navigator
                 .serviceWorker
-                .register("/sw.js")
-        })
-}
+                .register("/sw.js", {scope: "/"})
+                .then(reg) => {
+                console.log("Registration Complete")
+            })
+        };
