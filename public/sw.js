@@ -1,12 +1,7 @@
-const CACHE_NAME = 'iosp-cache-v1';
+const CACHE_NAME = 'iosp-cache-v2';
 
 const PRECACHE_ASSETS = [
-    ".",
     "/",
-    "/domainvoider",
-    "/ivoid",
-    "/urlhaus",
-    "/privacy",
     "/domainvoider/raw/DomainVoider.txt",
     "/ivoid/raw/iVOID.hosts",
     "/apple-touch-icon.png",
@@ -32,7 +27,7 @@ const PRECACHE_ASSETS = [
     "/maskable_icon_x96.png",
     "/maskable_icon_x48.png",
     "/maskable_icon.png",
-    "/files-list.json",
+    "/file-list.json",
     "/manifest.json",
     "/mask-icon.svg",
     "/safari-pinned-tab.svg"
@@ -41,7 +36,7 @@ const PRECACHE_ASSETS = [
 self.addEventListener('install', event => {
     event.waitUntil((async() => {
         const cache = await caches.open(CACHE_NAME);
-        cache.addAll(PRECACHE_ASSETS);
+        cache.put(PRECACHE_ASSETS);
     })());
 });
 
