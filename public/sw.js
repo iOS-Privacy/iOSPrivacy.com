@@ -1,4 +1,4 @@
-const CACHE_NAME = 'iosp-cache';
+const CACHE_NAME = 'iosp-cache-v1';
 
 const PRECACHE_ASSETS = [
     ".",
