@@ -117,12 +117,5 @@
 			"type": "image/webp"
 		}
 	],
-	"prefer_related_applications": false,
-	"related_applications": [
-		{
-			"platform": "",
-			"url": "",
-			"id": ""
-		}
-	]
+	"prefer_related_applications": false
 }
