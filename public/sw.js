@@ -1,5 +1,3 @@
-var cacheName = "iOS-1";
-
 self.addEventListener("fetch", function(event) {
     event.respondWith(caches.open(cacheName).then(function(cache) {
         cache.match(event.request).then(function(cacheResponse) {
