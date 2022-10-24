@@ -1,8 +1,10 @@
-# Version: 1665333660
 # Title: iVOID.hosts
-# Last Modified: 2022-10-09T15:43:23+00:00
+# Version: 1666572256
+# Checksum (MD5): 21a72a56b4be5efabcfb57a4427058cf
+# Last Modified: 2022-10-24T00:44:16+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
+# Source: https://iosprivacy.com/ivoid/raw/iVOID.hosts
 # Syntax: Hosts
 # # #
 127.0.0.1 localhost
@@ -12,6 +14,7 @@
 # # #
 0.0.0.0 024app1eid.com.sylidegatelnemen.com
 0.0.0.0 0faceb00k.com
+0.0.0.0 0faceb00k.ml
 0.0.0.0 0lnstagram.com.fbcdnx.icu
 0.0.0.0 0paypa1.com
 0.0.0.0 1al6c22e.face-book.cc
@@ -408,6 +411,7 @@
 0.0.0.0 app1e-assetmgr.outreach.cloud
 0.0.0.0 app1e-balam-cluster.90mcb2.c4.kafka.us-west-2.amazonaws.com
 0.0.0.0 app1e-ch.cn
+0.0.0.0 app1e-ch.top
 0.0.0.0 app1e-companylocked.servebeer.com
 0.0.0.0 app1e-dx1v.top
 0.0.0.0 app1e-err0r-8x00786.store
@@ -665,6 +669,7 @@
 0.0.0.0 app1e.me
 0.0.0.0 app1e.mesh.mongodb.net
 0.0.0.0 app1e.mongodb.net
+0.0.0.0 app1e.movauto.cn
 0.0.0.0 app1e.mydashbord-additionalsinfo-secure.com
 0.0.0.0 app1e.mydashbord-secure-additiyonalsinfo.com
 0.0.0.0 app1e.mysecure-additional.com
@@ -1141,6 +1146,7 @@
 0.0.0.0 app1eprze2.com
 0.0.0.0 app1eprzes.com
 0.0.0.0 app1epurchase.hopto.org
+0.0.0.0 app1er.bkex.io
 0.0.0.0 app1er5.space
 0.0.0.0 app1er7.space
 0.0.0.0 app1ereasonsecur1ty.com
@@ -4314,6 +4320,8 @@
 0.0.0.0 faceb00k-vide0-007.gq
 0.0.0.0 faceb00k-video.xyz
 0.0.0.0 faceb00k-videohd.xyz
+0.0.0.0 faceb00k-videos-group.ga
+0.0.0.0 faceb00k-videos-group.tk
 0.0.0.0 faceb00k-vrify9878.tk
 0.0.0.0 faceb00k.1038959723673.shortlc.com
 0.0.0.0 faceb00k.104908125624.shortom.com
@@ -4337,6 +4345,7 @@
 0.0.0.0 faceb00k.c0m-id307.xyz
 0.0.0.0 faceb00k.c0m.hrconsultings.com
 0.0.0.0 faceb00k.c0m.photos.sotomama.xyz
+0.0.0.0 faceb00k.car.blog
 0.0.0.0 faceb00k.cf
 0.0.0.0 faceb00k.cheap2price.com
 0.0.0.0 faceb00k.click
@@ -4828,6 +4837,7 @@
 0.0.0.0 faceb0ok-verify-account-dept1.com
 0.0.0.0 faceb0ok-verify-account.com
 0.0.0.0 faceb0ok-video.911mb.com
+0.0.0.0 faceb0ok-videos-group.tk
 0.0.0.0 faceb0ok.bid
 0.0.0.0 faceb0ok.cc
 0.0.0.0 faceb0ok.cf
@@ -4881,6 +4891,7 @@
 0.0.0.0 faceb0okk.com
 0.0.0.0 faceb0okliker.tk
 0.0.0.0 faceb0oklovely.me
+0.0.0.0 faceb0okmail.dynamic-dns.net
 0.0.0.0 faceb0okmail.net
 0.0.0.0 faceb0okom.weebly.com
 0.0.0.0 faceb0okreacion2020.blogspot.com
@@ -5048,6 +5059,7 @@
 0.0.0.0 facebo0k.pe-es.online
 0.0.0.0 facebo0k.pl
 0.0.0.0 facebo0k.remzot.com
+0.0.0.0 facebo0k.rf.gd
 0.0.0.0 facebo0k.rocks
 0.0.0.0 facebo0k.ru
 0.0.0.0 facebo0k.services
@@ -6599,6 +6611,7 @@
 0.0.0.0 iexcr6x9lady.facebo0k-girl.services
 0.0.0.0 if0rg0t-app1eld-com-pageloginsslchanel-true.online
 0.0.0.0 ifaceb00k.pw
+0.0.0.0 ifaceb00k.recover-fb-us.com
 0.0.0.0 iforgot.xn--apleid-crf.cf
 0.0.0.0 ig-copyrighthelp.mail-lnstagrams.com
 0.0.0.0 ig-helplnstagram.com
@@ -19441,6 +19454,7 @@
 0.0.0.0 paypa1-paymen.com
 0.0.0.0 paypa1-payment.servecounterstrike.com
 0.0.0.0 paypa1-pending.servehttp.com
+0.0.0.0 paypa1-rev1ew.duckdns.org
 0.0.0.0 paypa1-s2cure.khosravisahlabadi.com
 0.0.0.0 paypa1-s2cure.vape-resource.com
 0.0.0.0 paypa1-se1ure.khosravisahlabadi.com
@@ -19740,6 +19754,18 @@
 0.0.0.0 pin.appl.finance.edb.com.us2.cas.ms
 0.0.0.0 pin.appl.finance.edb.com.us3.cas.ms
 0.0.0.0 pine-app1e.com
+0.0.0.0 pine-app1e.com.admin-eu.cas.ms
+0.0.0.0 pine-app1e.com.admin-eu2.cas.ms
+0.0.0.0 pine-app1e.com.admin-mcas.ms
+0.0.0.0 pine-app1e.com.admin-us.cas.ms
+0.0.0.0 pine-app1e.com.admin-us2.cas.ms
+0.0.0.0 pine-app1e.com.admin-us3.cas.ms
+0.0.0.0 pine-app1e.com.eu.cas.ms
+0.0.0.0 pine-app1e.com.eu2.cas.ms
+0.0.0.0 pine-app1e.com.mcas.ms
+0.0.0.0 pine-app1e.com.us.cas.ms
+0.0.0.0 pine-app1e.com.us2.cas.ms
+0.0.0.0 pine-app1e.com.us3.cas.ms
 0.0.0.0 pineapp1e.xsrv.jp
 0.0.0.0 pineapp1e87.repl.run
 0.0.0.0 platform.twittesr.com
@@ -20381,23 +20407,92 @@
 0.0.0.0 signin-accountapp1e.7fx79l0laefz.com
 0.0.0.0 signin-accountapp1e.7w0van84hsx1.com
 0.0.0.0 signin-accountapp1e.9rpd4zs6zw9h.com
+0.0.0.0 signin-accountapp1e.abbeytourers.co.uk
+0.0.0.0 signin-accountapp1e.actionsportvideos.com
 0.0.0.0 signin-accountapp1e.ath0ngng250q.com
 0.0.0.0 signin-accountapp1e.aulacardiologica.net
+0.0.0.0 signin-accountapp1e.bhzvsfrjxzyw.com
 0.0.0.0 signin-accountapp1e.binomoaye.com
+0.0.0.0 signin-accountapp1e.browningoldsmobile.com
+0.0.0.0 signin-accountapp1e.btotdata.com
+0.0.0.0 signin-accountapp1e.carloschrier.com
+0.0.0.0 signin-accountapp1e.chicandswankypets.com
+0.0.0.0 signin-accountapp1e.christopherconway.com
+0.0.0.0 signin-accountapp1e.comportacountryclub.com
+0.0.0.0 signin-accountapp1e.confidentc.co.uk
 0.0.0.0 signin-accountapp1e.ctdp7i0wt0dt.com
 0.0.0.0 signin-accountapp1e.dadxf0r4b8sh.com
 0.0.0.0 signin-accountapp1e.dfbs85g2b7dl.com
 0.0.0.0 signin-accountapp1e.diamandouros.net
+0.0.0.0 signin-accountapp1e.digitalcinemabroadcasting.com
+0.0.0.0 signin-accountapp1e.digiunionbank.com
+0.0.0.0 signin-accountapp1e.dirtipidumkaya.com
+0.0.0.0 signin-accountapp1e.dznvflspyebq.com
+0.0.0.0 signin-accountapp1e.electronicdiagnostics.com
+0.0.0.0 signin-accountapp1e.envufkcbvclo.com
 0.0.0.0 signin-accountapp1e.f0f0yulrz3vf.com
+0.0.0.0 signin-accountapp1e.fairgamegoosecontrol.com
+0.0.0.0 signin-accountapp1e.firstclement.com
+0.0.0.0 signin-accountapp1e.firstdigibank.com
+0.0.0.0 signin-accountapp1e.fivestarwebhost.com
+0.0.0.0 signin-accountapp1e.globalflyfischerman.com
+0.0.0.0 signin-accountapp1e.golferspages.com
+0.0.0.0 signin-accountapp1e.greatmedicaljobs.com
+0.0.0.0 signin-accountapp1e.gxdufqubyjyf.com
+0.0.0.0 signin-accountapp1e.humorap.com
+0.0.0.0 signin-accountapp1e.ignatiusofantioch.com
+0.0.0.0 signin-accountapp1e.inboerse.com
+0.0.0.0 signin-accountapp1e.ingrahamtitlecompany.com
+0.0.0.0 signin-accountapp1e.inteltower.com
+0.0.0.0 signin-accountapp1e.irwasumsial.com
+0.0.0.0 signin-accountapp1e.jamesphotostudio.com
+0.0.0.0 signin-accountapp1e.jenthomasphotos.com
 0.0.0.0 signin-accountapp1e.jerroldkatz.net
+0.0.0.0 signin-accountapp1e.jsatransport.com
+0.0.0.0 signin-accountapp1e.kadivpropamasu.com
+0.0.0.0 signin-accountapp1e.kbembroideryllc.com
 0.0.0.0 signin-accountapp1e.kyb5efu7qduc.com
 0.0.0.0 signin-accountapp1e.kyeaton.net
+0.0.0.0 signin-accountapp1e.lindequist.net
+0.0.0.0 signin-accountapp1e.madeleineberkley.com
+0.0.0.0 signin-accountapp1e.mamitasdrinks.com
+0.0.0.0 signin-accountapp1e.marcusmenagerie.com
+0.0.0.0 signin-accountapp1e.milaton.com
 0.0.0.0 signin-accountapp1e.mlhby1x66470.com
+0.0.0.0 signin-accountapp1e.nationaldigibank.com
+0.0.0.0 signin-accountapp1e.necdealers.net
+0.0.0.0 signin-accountapp1e.netacademyawards.com
+0.0.0.0 signin-accountapp1e.neworleansrealestateco.com
+0.0.0.0 signin-accountapp1e.novoserumskincare.com
+0.0.0.0 signin-accountapp1e.noxibel.com
+0.0.0.0 signin-accountapp1e.nstarlending.com
 0.0.0.0 signin-accountapp1e.nxa1vuv3el65.com
+0.0.0.0 signin-accountapp1e.ondisin.com
+0.0.0.0 signin-accountapp1e.pendracon.net
+0.0.0.0 signin-accountapp1e.phearceenterprises.com
+0.0.0.0 signin-accountapp1e.pmufzgzipynh.com
 0.0.0.0 signin-accountapp1e.qsow9arzlof8.com
 0.0.0.0 signin-accountapp1e.qvd0z87u4a2l.com
+0.0.0.0 signin-accountapp1e.sandibulk.com
+0.0.0.0 signin-accountapp1e.seealeknzwqp.com
+0.0.0.0 signin-accountapp1e.shepherdofhermas.com
+0.0.0.0 signin-accountapp1e.simonjrodriguez.com
+0.0.0.0 signin-accountapp1e.sizinekran.com
+0.0.0.0 signin-accountapp1e.skookphoto.com
+0.0.0.0 signin-accountapp1e.smallpaperplanes.com
+0.0.0.0 signin-accountapp1e.smsoftware.co.uk
 0.0.0.0 signin-accountapp1e.sqxnmwh0o2sv.com
+0.0.0.0 signin-accountapp1e.sterlingtourers.co.uk
+0.0.0.0 signin-accountapp1e.straxgas.co.uk
+0.0.0.0 signin-accountapp1e.strobocom.net
+0.0.0.0 signin-accountapp1e.tecnzziurlwn.com
+0.0.0.0 signin-accountapp1e.uioozxrqpnng.com
+0.0.0.0 signin-accountapp1e.unlimistream.net
+0.0.0.0 signin-accountapp1e.vdkybabxgskm.com
+0.0.0.0 signin-accountapp1e.vnfispbczxfd.com
 0.0.0.0 signin-accountapp1e.wapdzv6rqjvg.com
+0.0.0.0 signin-accountapp1e.westfieldshops.com
+0.0.0.0 signin-accountapp1e.worldcyberbank.com
 0.0.0.0 signin-lnstagram.cf
 0.0.0.0 signin-lnstagram.com
 0.0.0.0 signin-lnstagram.shine-panel.top
@@ -23666,7 +23761,7 @@
 0.0.0.0 webmail.ww.managesverfaccountapp1e.com
 0.0.0.0 webmail.ww.manageupdate-app1e1nc.com
 0.0.0.0 webmail.ww.managever1fy-app1erecovery.com
-0.0.0.0 webmail.ww.managever1fy-app1erecoverysetup.com
+0.0.0.0 webmail.ww.managever1f-app1erecoverysetup.com
 0.0.0.0 webmail.ww.managever1fy-app1esecure.com
 0.0.0.0 webmail.ww.managewebauthapp1e.com
 0.0.0.0 webmail.www-lnstagram.com
@@ -24539,6 +24634,7 @@
 0.0.0.0 xn--facebok-ejg.com-visible.page
 0.0.0.0 xn--facebok-gx4c.vn
 0.0.0.0 xn--facebok-hx4c.com
+0.0.0.0 xn--facebok-hx4c.vn
 0.0.0.0 xn--facebok-i01c.com
 0.0.0.0 xn--facebok-j01c.com
 0.0.0.0 xn--faceboo-2o7e.com
