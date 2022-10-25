@@ -114,7 +114,7 @@
 		{
 			"src": "/img/light-linux-chromium.png",
 			"sizes": "1884x947",
-			"type": "image/webp"
+			"type": "image/png"
 		}
 	],
 	"prefer_related_applications": false
