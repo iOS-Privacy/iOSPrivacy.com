@@ -5,10 +5,10 @@ var urlsToCache = [
     "/ivoid",
     "/urlhaus",
     "/privacy",
+    "/img",
+    "/icons",
     "/js",
     "/css",
-    "/img",
-    "/res",
     "/font",
     "/bimi",
     "./well-known"
