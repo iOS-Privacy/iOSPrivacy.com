@@ -1,7 +1,7 @@
 # [iOS Privacy](https://iosprivacy.com/)
 `https://iosprivacy.com`
 <br><br>
-<img src="https://img.shields.io/github/languages/top/Voltairine-de-Cleyre/iOSPrivacy.com?style=social">
+<img src="https://img.shields.io/github/languages/top/Voltairine-de-Cleyre/iOSPrivacy.com?logo=JavaScript&style=flat&logoColor=#F7DF1E">
 <br>
 <a href="https://twitter.com/@DeVoltairine"><img src="https://img.shields.io/twitter/follow/DeVoltairine?style=social"></a>
 <br>
@@ -25,7 +25,7 @@ iVOID.hosts | DomainVoider | Urlhaus
 
 - 1 DomainVoider;
 - 2 iVOID.hosts;
-- 3 Urlhaus mirror;
+- 3 Urlhaus filters mirror;
 
 ## **[DomainVoider](https://iosprivacy.com/domainvoider)**
 
