@@ -1,7 +1,7 @@
 # [iOS Privacy](https://iosprivacy.com/)
 `https://iosprivacy.com`
 <br><br>
-<img src="https://img.shields.io/github/languages/top/Voltairine-de-Cleyre/iOSPrivacy.com?logo=JavaScript&style=flat&logoColor=#F7DF1E">
+<img src="https://img.shields.io/github/languages/top/Voltairine-de-Cleyre/iOSPrivacy.com?&logo=html5&style=flat&logoColor=#F7DF1E">
 <br>
 <a href="https://twitter.com/@DeVoltairine"><img src="https://img.shields.io/twitter/follow/DeVoltairine?style=social"></a>
 <br>
