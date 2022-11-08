@@ -1,5 +1,8 @@
 if ("serviceWorker" in navigator) {
-    window.addEventListener("load", function() {
-        navigator.serviceWorker.register("appCache.js");
-    });
+    window
+        .addEventListener("load", function () {
+            navigator
+                .serviceWorker
+                .register("appCache.ts");
+        });
 }
