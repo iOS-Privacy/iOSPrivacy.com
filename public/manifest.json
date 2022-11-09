@@ -67,6 +67,30 @@
 	],
 	"icons": [
 		{
+			"src": "favicon.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any"
+		},
+		{
+			"src": "apple-touch-icon.png",
+			"type": "image/png",
+			"sizes": "1024x1024",
+			"purpose": "any"
+		},
+		{
+			"src": "favicon.ico",
+			"type": "image/x-icon",
+			"sizes": "256x256",
+			"purpose": "any"
+		},
+		{
+			"src": "favicon.svg",
+			"type": "image/svg+xml",
+			"sizes": "1024x1024",
+			"purpose": "any"
+		},
+		{
 			"src": "icons/android-icon-192x192.png",
 			"type": "image/png",
 			"sizes": "192x192",
