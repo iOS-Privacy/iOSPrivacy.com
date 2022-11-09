@@ -1,5 +1,8 @@
 {
+	"name": "iOS Privacy",
 	"short_name": "iOSPrivacy",
+	"start_url": "/",
+	"scope": "/",
 	"lang": "en",
 	"background_color": "#f2f2f2",
 	"theme_color": "#669966",
