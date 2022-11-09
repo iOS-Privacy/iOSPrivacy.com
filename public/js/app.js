@@ -3,6 +3,6 @@ if ("serviceWorker" in navigator) {
         .addEventListener("load", function () {
             navigator
                 .serviceWorker
-                .register("appCache.ts");
+                .register("sw.js");
         });
 }
