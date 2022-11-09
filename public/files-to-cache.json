@@ -9,4 +9,8 @@
     "/js",
     "/files-to-cache.json",
     "/manifest.json"
+    "/favicon.png",
+    "/favicon.svg",
+    "/faviicon.ico",
+    "/apple-touch-icon.png"
 ]
