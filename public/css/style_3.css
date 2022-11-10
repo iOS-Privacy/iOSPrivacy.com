@@ -1,7 +1,7 @@
 @media screen and (prefers-color-scheme:dark) {
     :root {
         font-size: clamp(0.875rem,calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
-        min-height: 0;
+        min-height: 0vw;
         --mono-font-fallback: ui-monospace,"SF Mono","Cascadia Code","Segoe UI Mono","Roboto Mono","Liberation Mono","Noto Sans Mono",Menlo,monospace;
         --sans-font-fallback: ui-sans-serif,"SF Pro Text","Segoe UI","Open Sans",Roboto,"Liberation Sans","Noto Sans",sans-serif;
         --serif-font-fallback: ui-serif,"New York","Liberation Serif","Noto Serif","Roboto Slab",serif;
@@ -196,7 +196,7 @@
 @media screen and (prefers-color-scheme:light) {
     :root {
         font-size: clamp(0.875rem,calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
-        min-height: 0;
+        min-height: 0vw;
         --mono-font-fallback: ui-monospace,"SF Mono","Cascadia Code","Segoe UI Mono","Roboto Mono","Liberation Mono","Noto Sans Mono",Menlo,monospace;
         --sans-font-fallback: ui-sans-serif,"SF Pro Text","Segoe UI","Open Sans",Roboto,"Liberation Sans","Noto Sans",sans-serif;
         --serif-font-fallback: ui-serif,"New York","Liberation Serif","Noto Serif","Roboto Slab",serif;
