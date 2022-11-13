@@ -2,9 +2,9 @@
 Hash: SHA512
 
 # Title: iVOID.hosts
-# Version: 1667600069
-# Checksum (MD5): 440bf2da843f52cdf54faa8ef4789bfb
-# Last Modified: 2022-11-04T22:14:29+00:00
+# Version: 1668299142
+# Checksum (MD5): a7eb92e07095d4226fab7ee827f606da
+# Last Modified: 2022-11-13T00:25:42+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source: https://iosprivacy.com/ivoid/raw/iVOID.hosts
@@ -26354,8 +26354,8 @@ Hash: SHA512
 
 -----BEGIN PGP SIGNATURE-----
 
-iKAEARMKAAYFAmNp1SwACgkQXJ9WrWUYkF5bnwIIgX62cAZmIiPZPAnWuJ/7ZUkyoq13TSSLKW5T
-ljG0/7xKWDNnkAoflAnrjkms38vBhUxMOGSEGj8xaJAtSAHy7O8CBi4GmPLY29iVT8lK0ttnNrCr
-pwUNntQ9kq56OAU4FZFQ4FRsLBhaIc9hsBMtcOUBrQbKOnwvya+5B2rEDwhnNV5q
-=3egG
+iKEEARMKAAYFAmNwTLgACgkQXJ9WrWUYkF5wIQIGI9XA7tJxTsaB46ar87dZg4rKSBKYJNY50ZZ6
+4tZ0HHsAISMA2CtfJ9WGsfI0c/bo6t/ZzyDm8eK8rcCelpHTuqsCCQHeRd1vIh7lDyw9gB4eBpZb
+/UC+D0WcwMBD3m0t//uO4jgMHzH3ZDsB3Dbw44Tsxwa23fQpq/cT+u79u+U9yCVZeQ==
+=y6Mt
 -----END PGP SIGNATURE-----
