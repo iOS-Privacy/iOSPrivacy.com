@@ -1,9 +1,9 @@
 # [iOS Privacy](https://iosprivacy.com/)
 `https://iosprivacy.com`
 <br><br>
-<img src="https://img.shields.io/github/languages/top/Voltairine-de-Cleyre/iOSPrivacy.com?&style=flat&logoColor=#F7DF1E">
+<img src="https://img.shields.io/github/languages/top/iOS-Privacy/iOSPrivacy.com?&style=flat&logoColor=#F7DF1E">
 <br>
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Voltairine-De-Cleyre/iOSPrivacy.com"></img>
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/iOS-Privacy/iOSPrivacy.com"></img>
 <br>
 <a href="https://twitter.com/@DeVoltairine"><img src="https://img.shields.io/twitter/follow/DeVoltairine?style=social"></a>
 <br>
