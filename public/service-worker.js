@@ -1,3 +1,4 @@
+importScripts('https://pep.dev/pep-sw-core.js');
 var CACHE_NAME = 'dependencies-cache';
 self.addEventListener('install', function (event) {
     console.log('[install] Kicking off service worker registration!');
