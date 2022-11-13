@@ -32,10 +32,10 @@
 			"description": "View DomainVoider",
 			"icons": [
 				{
-					"src": "/icon_96x96.png",
+					"src": "icons/maskable_icon_x96.png",
 					"sizes": "96x96",
 					"type": "image/png",
-					"purpose": "any"
+					"purpose": "maskable"
 				}
 			]
 		},
@@ -45,10 +45,10 @@
 			"description": "View iVOID.hosts",
 			"icons": [
 				{
-					"src": "/icon_96x96.png",
+					"src": "icons/maskable_icon_x96.png",
 					"sizes": "96x96",
 					"type": "image/png",
-					"purpose": "any"
+					"purpose": "maskable"
 				}
 			]
 		},
@@ -58,10 +58,10 @@
 			"description": "Open Urlhaus Mirror",
 			"icons": [
 				{
-					"src": "/icon_96x96.png",
+					"src": "icons/maskable_icon_x96.png",
 					"sizes": "96x96",
 					"type": "image/png",
-					"purpose": "any"
+					"purpose": "maskable"
 				}
 			]
 		}
@@ -221,11 +221,11 @@
 	"prefer_related_applications": false,
 	"protocol_handlers": [
 		{
-			"protocol": "abp:subscribe?",
+			"protocol": "abp:subscribe",
 			"url": "location=https://iosprivacy.com/ivoid/raw/iVOID.hosts&amp;title=iVOID.hosts"
 		},
 		{
-			"protocol": "abp:subscribe?",
+			"protocol": "abp:subscribe",
 			"url": "location=https://iosprivacy.com/domainvoider/raw/DomainVoider.txt&amp;title=DomainVoider"
 		}
 	]
