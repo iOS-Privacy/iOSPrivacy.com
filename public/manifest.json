@@ -1,7 +1,7 @@
 {
 	"name": "iOS Privacy",
 	"short_name": "iOSPrivacy",
-	"start_url": "/",
+	"start_url": "https://iosprivacy.com",
 	"scope": "/",
 	"lang": "en",
 	"background_color": "#f2f2f2",
@@ -10,7 +10,8 @@
 	"display": "standalone",
 	"display_override": [
 		"fullscreen",
-		"minimal-ui"
+		"minimal-ui",
+                "windows-controls-overlay"
 	],
 	"description": "Technology to Enhance Network Security and Privacy Focusing on Filter Lists to Enhance the User's Web Experience. Included is DomainVoider which Serves to Block Ad Networks, Tracking Scripts, Malware and Phishing Attacks in Addition to Nazi Ratholes and Mainstream Social Media.",
 	"categories": [
