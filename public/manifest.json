@@ -88,7 +88,7 @@
 		{
 			"src": "favicon.svg",
 			"type": "image/svg+xml",
-			"sizes": "1024x1024",
+			"sizes": "150x150",
 			"purpose": "any"
 		},
 		{
@@ -221,11 +221,11 @@
 	"prefer_related_applications": false,
 	"protocol_handlers": [
 		{
-			"protocol": "abp:subscribe?location=",
+			"protocol": "abp:subscribe?&location=",
 			"url": "https://iosprivacy.com/ivoid/raw/iVOID.hosts&amp;title=iVOID.hosts"
 		},
 		{
-			"protocol": "abp:subscribe?location=",
+			"protocol": "abp:subscribe?&location=",
 			"url": "https://iosprivacy.com/domainvoider/raw/DomainVoider.txt&amp;title=DomainVoider"
 		}
 	]
