@@ -221,12 +221,12 @@
 	"prefer_related_applications": false,
 	"protocol_handlers": [
 		{
-			"protocol": "abp:subscribe?&location=",
-			"url": "https://iosprivacy.com/ivoid/raw/iVOID.hosts&amp;title=iVOID.hosts"
+			"protocol": "abp:subscribe?",
+			"url": "location=https://iosprivacy.com/ivoid/raw/iVOID.hosts&amp;title=iVOID.hosts"
 		},
 		{
-			"protocol": "abp:subscribe?&location=",
-			"url": "https://iosprivacy.com/domainvoider/raw/DomainVoider.txt&amp;title=DomainVoider"
+			"protocol": "abp:subscribe?",
+			"url": "location=https://iosprivacy.com/domainvoider/raw/DomainVoider.txt&amp;title=DomainVoider"
 		}
 	]
 }
