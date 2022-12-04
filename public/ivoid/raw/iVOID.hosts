@@ -1,14 +1,14 @@
 # Title: iVOID.hosts
-# Version: 1668299142
-# Checksum (MD5): a7eb92e07095d4226fab7ee827f606da
-# Last Modified: 2022-11-13T00:25:42+00:00
+# Version: 1670095138
+# Checksum (MD5): 4d1f6ff42faa9f81c5e1c1e869ab1c03
+# Last Modified: 2022-12-03T19:18:58+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source: https://iosprivacy.com/ivoid/raw/iVOID.hosts
 # Source: https://gitlab.com/intr0/iVOID.GitLab.io/raw/master/iVOID.hosts
 # Syntax: Hosts
 # Function: Block fake Apple, Facebook, Instagram, PayPal,
-# & Twitter websites & protect user credentials.
+# & Twitter websites to help protect user credentials and to help stop identity theft.
 # # #
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -424,6 +424,7 @@
 0.0.0.0 app1e-findmy.us
 0.0.0.0 app1e-findzp.com
 0.0.0.0 app1e-fix.com
+0.0.0.0 app1e-gazelle.outreach.cloud
 0.0.0.0 app1e-giraffe.outreach.cloud
 0.0.0.0 app1e-ib.com
 0.0.0.0 app1e-ic1oud.com
@@ -4523,6 +4524,7 @@
 0.0.0.0 faceb00k.real-estate-agent.online
 0.0.0.0 faceb00k.real-estate-agent.store
 0.0.0.0 faceb00k.real-estates.store
+0.0.0.0 faceb00k.reliancefbinc.com
 0.0.0.0 faceb00k.reltechgh.com
 0.0.0.0 faceb00k.renfish.com
 0.0.0.0 faceb00k.repl.co
@@ -4572,6 +4574,7 @@
 0.0.0.0 faceb00k.today
 0.0.0.0 faceb00k.top
 0.0.0.0 faceb00k.tpa-edu.com.pk
+0.0.0.0 faceb00k.trendingstartupnews.com
 0.0.0.0 faceb00k.tw
 0.0.0.0 faceb00k.validityservice.com
 0.0.0.0 faceb00k.vercel.app
@@ -4662,6 +4665,7 @@
 0.0.0.0 faceb00kmail.com
 0.0.0.0 faceb00kmail.usa.cc
 0.0.0.0 faceb00kmailverification.ml
+0.0.0.0 faceb00kmessengermail.zyns.com
 0.0.0.0 faceb00kmobile.tk
 0.0.0.0 faceb00kmusic.com.account-connection.gq
 0.0.0.0 faceb00kowo.you2.pl
@@ -4684,6 +4688,7 @@
 0.0.0.0 faceb00ksecure.duckdns.org
 0.0.0.0 faceb00ksecurityservice.palliralo.com
 0.0.0.0 faceb00kserbia.tk
+0.0.0.0 faceb00kshjahid.abuse.domains
 0.0.0.0 faceb00kshop.club
 0.0.0.0 faceb00ksid.cf
 0.0.0.0 faceb00ksite.xyz
@@ -5066,6 +5071,7 @@
 0.0.0.0 facebo0k.org
 0.0.0.0 facebo0k.pe-es.online
 0.0.0.0 facebo0k.pl
+0.0.0.0 facebo0k.remediosnew.com
 0.0.0.0 facebo0k.remzot.com
 0.0.0.0 facebo0k.rf.gd
 0.0.0.0 facebo0k.rocks
@@ -6606,12 +6612,52 @@
 0.0.0.0 icloudapp1e.com
 0.0.0.0 icon.lnstagramteamverify.com
 0.0.0.0 id-lnstagram.com
+0.0.0.0 idapp1e.top
 0.0.0.0 iddrawings.l-lnstagram.tk
 0.0.0.0 identy-facebo0k.cancel-pemblockiran.my.id
 0.0.0.0 idms-manage.accounts-app1eid-secure.idms-verify.com
 0.0.0.0 idms-manage.accounts-app1eid.help-mysupports.com
 0.0.0.0 idms.manage-app1eid.appunlocked.com
 0.0.0.0 idms.manage.accounts.app1eid.secuverified.com
+0.0.0.0 idmsa-accountapp1e.adelealexa.com
+0.0.0.0 idmsa-accountapp1e.bemtee.com
+0.0.0.0 idmsa-accountapp1e.buyanacreage.com
+0.0.0.0 idmsa-accountapp1e.bwardlawfirm.com
+0.0.0.0 idmsa-accountapp1e.caribouwedding.com
+0.0.0.0 idmsa-accountapp1e.chocoruapines.com
+0.0.0.0 idmsa-accountapp1e.dampftitan.com
+0.0.0.0 idmsa-accountapp1e.dluxfit.com
+0.0.0.0 idmsa-accountapp1e.fercamltd.com
+0.0.0.0 idmsa-accountapp1e.fiveptcomm.com
+0.0.0.0 idmsa-accountapp1e.flawlessweldinginc.com
+0.0.0.0 idmsa-accountapp1e.forexhurb.com
+0.0.0.0 idmsa-accountapp1e.garagebilk.com
+0.0.0.0 idmsa-accountapp1e.gioiachallenge.com
+0.0.0.0 idmsa-accountapp1e.infitismo.com
+0.0.0.0 idmsa-accountapp1e.iwcargo.com
+0.0.0.0 idmsa-accountapp1e.kelleyfloorcovering.com
+0.0.0.0 idmsa-accountapp1e.laradiodecristal.com
+0.0.0.0 idmsa-accountapp1e.lindsayflood.com
+0.0.0.0 idmsa-accountapp1e.listmyvegashome.com
+0.0.0.0 idmsa-accountapp1e.lucyslate.com
+0.0.0.0 idmsa-accountapp1e.mleidel.com
+0.0.0.0 idmsa-accountapp1e.myphamhk.com
+0.0.0.0 idmsa-accountapp1e.nolatechcouncil.com
+0.0.0.0 idmsa-accountapp1e.oliverswafford.com
+0.0.0.0 idmsa-accountapp1e.peaceloveaerial.com
+0.0.0.0 idmsa-accountapp1e.pogueentertainment.com
+0.0.0.0 idmsa-accountapp1e.ramnetcom.com
+0.0.0.0 idmsa-accountapp1e.rebelhairco.com
+0.0.0.0 idmsa-accountapp1e.robertbryanps.com
+0.0.0.0 idmsa-accountapp1e.roomrevivalmn.com
+0.0.0.0 idmsa-accountapp1e.serioussamet.com
+0.0.0.0 idmsa-accountapp1e.spectrumomics.com
+0.0.0.0 idmsa-accountapp1e.squcumber.com
+0.0.0.0 idmsa-accountapp1e.staresofamerica.com
+0.0.0.0 idmsa-accountapp1e.tukwilatreats.com
+0.0.0.0 idmsa-accountapp1e.tysonproffitt.com
+0.0.0.0 idmsa-accountapp1e.wardfirmtexas.com
+0.0.0.0 idmsa-accountapp1e.yogofoodbrands.com
 0.0.0.0 idmsa-app1e.com
 0.0.0.0 idmsa.mysupport-app1eid.1dent1fication.com
 0.0.0.0 idsma.app1e.com.apl-id-secure-suite.me
@@ -19242,6 +19288,7 @@
 0.0.0.0 metalnstagramtellifhakki.xyz
 0.0.0.0 metis-app1e-internal.production.us-west-2.intor.io
 0.0.0.0 mfaceb00k.bimaaryamedan.com
+0.0.0.0 mfaceb00k.boss-accounts-store.xyz
 0.0.0.0 mfaceb00k.com
 0.0.0.0 mfaceb00k.gq
 0.0.0.0 mfaceb00k.tk
@@ -20422,9 +20469,12 @@
 0.0.0.0 signin-accountapp1e.9rpd4zs6zw9h.com
 0.0.0.0 signin-accountapp1e.abbeytourers.co.uk
 0.0.0.0 signin-accountapp1e.actionsportvideos.com
+0.0.0.0 signin-accountapp1e.adelealexa.com
 0.0.0.0 signin-accountapp1e.aprotecmexico.com
+0.0.0.0 signin-accountapp1e.aslsencorp.com
 0.0.0.0 signin-accountapp1e.ath0ngng250q.com
 0.0.0.0 signin-accountapp1e.aulacardiologica.net
+0.0.0.0 signin-accountapp1e.axisaustin.com
 0.0.0.0 signin-accountapp1e.bellexpessvu.com
 0.0.0.0 signin-accountapp1e.berkowitzdesign.com
 0.0.0.0 signin-accountapp1e.bhzvsfrjxzyw.com
@@ -20432,13 +20482,17 @@
 0.0.0.0 signin-accountapp1e.bizootv.com
 0.0.0.0 signin-accountapp1e.browningoldsmobile.com
 0.0.0.0 signin-accountapp1e.btotdata.com
+0.0.0.0 signin-accountapp1e.caribouwedding.com
 0.0.0.0 signin-accountapp1e.carloschrier.com
 0.0.0.0 signin-accountapp1e.chicandswankypets.com
 0.0.0.0 signin-accountapp1e.christopherconway.com
 0.0.0.0 signin-accountapp1e.comportacountryclub.com
 0.0.0.0 signin-accountapp1e.confidentc.co.uk
+0.0.0.0 signin-accountapp1e.coresuccessgroup.com
 0.0.0.0 signin-accountapp1e.ctdp7i0wt0dt.com
 0.0.0.0 signin-accountapp1e.dadxf0r4b8sh.com
+0.0.0.0 signin-accountapp1e.dallasdhunay.com
+0.0.0.0 signin-accountapp1e.dampftitan.com
 0.0.0.0 signin-accountapp1e.dfbs85g2b7dl.com
 0.0.0.0 signin-accountapp1e.diamandouros.net
 0.0.0.0 signin-accountapp1e.digitalcinemabroadcasting.com
@@ -20450,19 +20504,28 @@
 0.0.0.0 signin-accountapp1e.earthsharemichigan.com
 0.0.0.0 signin-accountapp1e.electronicdiagnostics.com
 0.0.0.0 signin-accountapp1e.envufkcbvclo.com
+0.0.0.0 signin-accountapp1e.eombuilding.com
 0.0.0.0 signin-accountapp1e.f0f0yulrz3vf.com
 0.0.0.0 signin-accountapp1e.fairgamegoosecontrol.com
 0.0.0.0 signin-accountapp1e.firstclement.com
 0.0.0.0 signin-accountapp1e.firstdigibank.com
+0.0.0.0 signin-accountapp1e.fiveptcomm.com
 0.0.0.0 signin-accountapp1e.fivestarwebhost.com
+0.0.0.0 signin-accountapp1e.garagebilk.com
+0.0.0.0 signin-accountapp1e.gioiachallenge.com
 0.0.0.0 signin-accountapp1e.girlsonradio.com
 0.0.0.0 signin-accountapp1e.globalflyfischerman.com
+0.0.0.0 signin-accountapp1e.godsequence.com
+0.0.0.0 signin-accountapp1e.godsequences.com
 0.0.0.0 signin-accountapp1e.golferspages.com
 0.0.0.0 signin-accountapp1e.greatmedicaljobs.com
 0.0.0.0 signin-accountapp1e.gxdufqubyjyf.com
 0.0.0.0 signin-accountapp1e.hasmetfevzicakmak.com
+0.0.0.0 signin-accountapp1e.hinsdaleinvisalign.com
 0.0.0.0 signin-accountapp1e.homepageartists.com
+0.0.0.0 signin-accountapp1e.hotelssanya.com
 0.0.0.0 signin-accountapp1e.humorap.com
+0.0.0.0 signin-accountapp1e.huntersmithmusic.com
 0.0.0.0 signin-accountapp1e.ignatiusofantioch.com
 0.0.0.0 signin-accountapp1e.inboerse.com
 0.0.0.0 signin-accountapp1e.ingrahamtitlecompany.com
@@ -20473,23 +20536,30 @@
 0.0.0.0 signin-accountapp1e.jenthomasphotos.com
 0.0.0.0 signin-accountapp1e.jerroldkatz.net
 0.0.0.0 signin-accountapp1e.jimcareydistributing.com
+0.0.0.0 signin-accountapp1e.jownix.com
 0.0.0.0 signin-accountapp1e.jsatransport.com
+0.0.0.0 signin-accountapp1e.jwfordused.com
+0.0.0.0 signin-accountapp1e.jwfordvehicles.com
 0.0.0.0 signin-accountapp1e.kadivpropamasu.com
 0.0.0.0 signin-accountapp1e.kbembroideryllc.com
 0.0.0.0 signin-accountapp1e.kyb5efu7qduc.com
 0.0.0.0 signin-accountapp1e.kyeaton.net
 0.0.0.0 signin-accountapp1e.liberalministries.com
 0.0.0.0 signin-accountapp1e.lindequist.net
+0.0.0.0 signin-accountapp1e.lindsayflood.com
 0.0.0.0 signin-accountapp1e.liveinaa.com
 0.0.0.0 signin-accountapp1e.madeleineberkley.com
 0.0.0.0 signin-accountapp1e.malberini.com
+0.0.0.0 signin-accountapp1e.malibuclothingco.com
 0.0.0.0 signin-accountapp1e.mamitasdrinks.com
 0.0.0.0 signin-accountapp1e.marcusmenagerie.com
 0.0.0.0 signin-accountapp1e.marinmixed.com
 0.0.0.0 signin-accountapp1e.milaton.com
 0.0.0.0 signin-accountapp1e.milliondollarplea.com
 0.0.0.0 signin-accountapp1e.mindfoxed.com
+0.0.0.0 signin-accountapp1e.mleidel.com
 0.0.0.0 signin-accountapp1e.mlhby1x66470.com
+0.0.0.0 signin-accountapp1e.mobilecarol.com
 0.0.0.0 signin-accountapp1e.myscofield.com
 0.0.0.0 signin-accountapp1e.nationaldigibank.com
 0.0.0.0 signin-accountapp1e.necdealers.net
@@ -20500,6 +20570,7 @@
 0.0.0.0 signin-accountapp1e.noxibel.com
 0.0.0.0 signin-accountapp1e.nstarlending.com
 0.0.0.0 signin-accountapp1e.nxa1vuv3el65.com
+0.0.0.0 signin-accountapp1e.oliverswafford.com
 0.0.0.0 signin-accountapp1e.ondisin.com
 0.0.0.0 signin-accountapp1e.partsandtapes.com
 0.0.0.0 signin-accountapp1e.pendracon.net
@@ -20514,36 +20585,57 @@
 0.0.0.0 signin-accountapp1e.qsow9arzlof8.com
 0.0.0.0 signin-accountapp1e.qvd0z87u4a2l.com
 0.0.0.0 signin-accountapp1e.rbzenterprises.com
+0.0.0.0 signin-accountapp1e.reticleholdings.com
+0.0.0.0 signin-accountapp1e.salselectric.com
 0.0.0.0 signin-accountapp1e.sandibulk.com
 0.0.0.0 signin-accountapp1e.saracoglumantar.com
+0.0.0.0 signin-accountapp1e.scottishwillmaker.com
+0.0.0.0 signin-accountapp1e.secogroupllc.com
+0.0.0.0 signin-accountapp1e.secogroupusa.com
 0.0.0.0 signin-accountapp1e.seealeknzwqp.com
+0.0.0.0 signin-accountapp1e.seenontvclearance.com
 0.0.0.0 signin-accountapp1e.serfinunik.com
 0.0.0.0 signin-accountapp1e.servihotelsl.com
 0.0.0.0 signin-accountapp1e.shepherdofhermas.com
+0.0.0.0 signin-accountapp1e.signaterrawines.com
 0.0.0.0 signin-accountapp1e.simonjrodriguez.com
+0.0.0.0 signin-accountapp1e.simplifiedphp.com
 0.0.0.0 signin-accountapp1e.sizinekran.com
 0.0.0.0 signin-accountapp1e.skookphoto.com
 0.0.0.0 signin-accountapp1e.smallpaperplanes.com
 0.0.0.0 signin-accountapp1e.smsoftware.co.uk
 0.0.0.0 signin-accountapp1e.southmoltonproperties.com
+0.0.0.0 signin-accountapp1e.splinterkit.com
 0.0.0.0 signin-accountapp1e.sqxnmwh0o2sv.com
+0.0.0.0 signin-accountapp1e.staresofamerica.com
+0.0.0.0 signin-accountapp1e.statuschassis.com
 0.0.0.0 signin-accountapp1e.sterlingtourers.co.uk
+0.0.0.0 signin-accountapp1e.stowebound.com
 0.0.0.0 signin-accountapp1e.straxgas.co.uk
 0.0.0.0 signin-accountapp1e.strobocom.net
 0.0.0.0 signin-accountapp1e.tanyamackey.com
+0.0.0.0 signin-accountapp1e.tarcoke.com
 0.0.0.0 signin-accountapp1e.tecnzziurlwn.com
+0.0.0.0 signin-accountapp1e.texasexchangeonline.com
+0.0.0.0 signin-accountapp1e.thenextiteration.com
 0.0.0.0 signin-accountapp1e.thevintagemcc.com
 0.0.0.0 signin-accountapp1e.thewhimsystudio.com
 0.0.0.0 signin-accountapp1e.thexufamily.com
+0.0.0.0 signin-accountapp1e.tjdeckert.com
 0.0.0.0 signin-accountapp1e.towncentreliving.com
+0.0.0.0 signin-accountapp1e.traegerspezialist.com
 0.0.0.0 signin-accountapp1e.uioozxrqpnng.com
+0.0.0.0 signin-accountapp1e.universalexportsintl.com
 0.0.0.0 signin-accountapp1e.unlimistream.net
 0.0.0.0 signin-accountapp1e.vdkybabxgskm.com
 0.0.0.0 signin-accountapp1e.vnfispbczxfd.com
+0.0.0.0 signin-accountapp1e.voiledechine.com
 0.0.0.0 signin-accountapp1e.wapdzv6rqjvg.com
+0.0.0.0 signin-accountapp1e.westendinfo.com
 0.0.0.0 signin-accountapp1e.westfieldshops.com
 0.0.0.0 signin-accountapp1e.wildstreaktalent.com
 0.0.0.0 signin-accountapp1e.worldcyberbank.com
+0.0.0.0 signin-accountapp1e.xaueur.com
 0.0.0.0 signin-lnstagram.cf
 0.0.0.0 signin-lnstagram.com
 0.0.0.0 signin-lnstagram.shine-panel.top
@@ -20576,6 +20668,8 @@
 0.0.0.0 signinconfrmapp1edashbord.com
 0.0.0.0 signinsecureapp1everlfynow.com
 0.0.0.0 signinsecuresapp1everlfnow.com
+0.0.0.0 signln-accountapp1e.bestlondondj.com
+0.0.0.0 signln-accountapp1e.drgramps.com
 0.0.0.0 signmanageapp1econflrmupdtecreate.com
 0.0.0.0 signmanageapp1eldsecures1donverf.com
 0.0.0.0 signmanageapp1eldverfsecures.com
@@ -21135,6 +21229,7 @@
 0.0.0.0 twltter-us.com
 0.0.0.0 twltter.app
 0.0.0.0 twltter.bid
+0.0.0.0 twltter.blue
 0.0.0.0 twltter.bz
 0.0.0.0 twltter.cc
 0.0.0.0 twltter.club
@@ -24355,12 +24450,26 @@
 0.0.0.0 xn--80ak6aa92e.com-signin.auth832.ga
 0.0.0.0 xn--80ak6aa92e.com-webappps-login.services
 0.0.0.0 xn--80ak6aa92e.com.accessyouractivation.com
+0.0.0.0 xn--80ak6aa92e.com.admin-eu.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-eu2.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-mcas-df.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-mcas.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-us.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-us2.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.admin-us3.cas.ms
 0.0.0.0 xn--80ak6aa92e.com.app-api.ntt-docomo.org
+0.0.0.0 xn--80ak6aa92e.com.eu.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.eu2.cas.ms
 0.0.0.0 xn--80ak6aa92e.com.exchas.ga
 0.0.0.0 xn--80ak6aa92e.com.icgcloud.usa.cc
 0.0.0.0 xn--80ak6aa92e.com.ipq.co
+0.0.0.0 xn--80ak6aa92e.com.mcas-df.ms
+0.0.0.0 xn--80ak6aa92e.com.mcas.ms
 0.0.0.0 xn--80ak6aa92e.com.payment-fraud.detection.intl.lonsag.xyz
 0.0.0.0 xn--80ak6aa92e.com.ssl.roterm.cloud
+0.0.0.0 xn--80ak6aa92e.com.us.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.us2.cas.ms
+0.0.0.0 xn--80ak6aa92e.com.us3.cas.ms
 0.0.0.0 xn--80ak6aa92e.com.x928-purchase.usa.cc
 0.0.0.0 xn--80ak6aa92e.diliprai.com
 0.0.0.0 xn--80ak6aa92e.ga
@@ -24674,6 +24783,7 @@
 0.0.0.0 xn--facbook-9gg.ga
 0.0.0.0 xn--facbook-9gg.gq
 0.0.0.0 xn--facbook-9gg.ml
+0.0.0.0 xn--facbook-lw8c.cf
 0.0.0.0 xn--facebk-015ba.alphachicllc.com
 0.0.0.0 xn--facebk-015ba.com
 0.0.0.0 xn--facebk-0qfa.com-visible.page
@@ -26344,6 +26454,7 @@
 0.0.0.0 ym.twltter.gq
 0.0.0.0 yp.twltter.gq
 0.0.0.0 ytg3f.lnstagram.fun
+0.0.0.0 yujythmx-app1e.denisseloat.com
 0.0.0.0 yvkvd.face-book.cc
 0.0.0.0 zdjeciefb345faceb00ksce34.dkonto.pl
 0.0.0.0 zfaceb00k.cf
