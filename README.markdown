@@ -1,14 +1,11 @@
 # [iOS Privacy](https://iosprivacy.com/) [PWA](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
-
+**`https://iosprivacy.com`**
 ## [Progressive Web App](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
+![GitHub](https://img.shields.io/github/license/ios-privacy/iosprivacy.com?style=flat-square)
 
+(filters licensed CC-BY-NC-SA)
 
-`https://iosprivacy.com`
-
-
-![](https://img.shields.io/github/languages/top/iOS-Privacy/iOSPrivacy.com?&style=flat&logoColor=#F7DF1E)
-
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/iOS-Privacy/iOSPrivacy.com)
+![GitHub top language](https://img.shields.io/github/languages/top/ios-privacy/iosprivacy.com?style=flat-square)
 
 [![](https://img.shields.io/twitter/follow/DeVoltairine?style=social)](https://twitter.com/@DeVoltairine)
 
