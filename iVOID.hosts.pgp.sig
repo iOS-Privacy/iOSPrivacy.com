@@ -2,16 +2,18 @@
 Hash: SHA512
 
 # Title: iVOID.hosts
-# Version: 1670095138
-# Checksum (MD5): 4d1f6ff42faa9f81c5e1c1e869ab1c03
-# Last Modified: 2022-12-03T19:18:58+00:00
+# Version: 1670965127
+# Checksum (MD5): a7f49eb62fbb233fa76388e635626af7
+# Last Modified: 2022-12-13T20:58:47+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
-# Source: https://iosprivacy.com/ivoid/raw/iVOID.hosts
-# Source: https://gitlab.com/intr0/iVOID.GitLab.io/raw/master/iVOID.hosts
+# Source 1: https://iosprivacy.com/ivoid/raw/iVOID.hosts
+# Source 2: https://ivoid.iosprivacy.com/
+# Source 3: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/public/iVOID.hosts
 # Syntax: Hosts
 # Function: Block fake Apple, Facebook, Instagram, PayPal,
 # & Twitter websites to help protect user credentials and to help stop identity theft.
+# License: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/LICENSE
 # # #
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -1443,6 +1445,7 @@ Hash: SHA512
 0.0.0.0 ar-lnstagram.com
 0.0.0.0 aslgnaconfm1nmangsesapp1e.com
 0.0.0.0 asqinbabazade.lnstagram-violationhelps.com
+0.0.0.0 assetmgr-app1e-internal.production.us-west-2.intor.io
 0.0.0.0 assets.lnstagramsignn.com
 0.0.0.0 assist-lnstagram.byethost7.com
 0.0.0.0 assistancelnstagram.ml
@@ -4077,6 +4080,7 @@ Hash: SHA512
 0.0.0.0 faceb00k-com.loophole.site
 0.0.0.0 faceb00k-com.ml
 0.0.0.0 faceb00k-com.mumbaielectronic.com
+0.0.0.0 faceb00k-com.servehttp.com
 0.0.0.0 faceb00k-com.site
 0.0.0.0 faceb00k-com.zapto.org
 0.0.0.0 faceb00k-confirm.com
@@ -4886,6 +4890,7 @@ Hash: SHA512
 0.0.0.0 faceb0ok.ooo
 0.0.0.0 faceb0ok.org
 0.0.0.0 faceb0ok.repl.co
+0.0.0.0 faceb0ok.rf.gd
 0.0.0.0 faceb0ok.shop
 0.0.0.0 faceb0ok.sites.google.com
 0.0.0.0 faceb0ok.techhostz.club
@@ -6623,43 +6628,77 @@ Hash: SHA512
 0.0.0.0 idms.manage-app1eid.appunlocked.com
 0.0.0.0 idms.manage.accounts.app1eid.secuverified.com
 0.0.0.0 idmsa-accountapp1e.adelealexa.com
+0.0.0.0 idmsa-accountapp1e.autorescuer.com
+0.0.0.0 idmsa-accountapp1e.bdubesports.com
 0.0.0.0 idmsa-accountapp1e.bemtee.com
+0.0.0.0 idmsa-accountapp1e.biancoavus.com
 0.0.0.0 idmsa-accountapp1e.buyanacreage.com
 0.0.0.0 idmsa-accountapp1e.bwardlawfirm.com
 0.0.0.0 idmsa-accountapp1e.caribouwedding.com
 0.0.0.0 idmsa-accountapp1e.chocoruapines.com
+0.0.0.0 idmsa-accountapp1e.covingtonsculpsure.com
 0.0.0.0 idmsa-accountapp1e.dampftitan.com
+0.0.0.0 idmsa-accountapp1e.digesterbugs.com
+0.0.0.0 idmsa-accountapp1e.digesterscience.com
 0.0.0.0 idmsa-accountapp1e.dluxfit.com
+0.0.0.0 idmsa-accountapp1e.driescouckuyt.com
+0.0.0.0 idmsa-accountapp1e.driveasbury.com
+0.0.0.0 idmsa-accountapp1e.elgounalettings.com
 0.0.0.0 idmsa-accountapp1e.fercamltd.com
 0.0.0.0 idmsa-accountapp1e.fiveptcomm.com
 0.0.0.0 idmsa-accountapp1e.flawlessweldinginc.com
+0.0.0.0 idmsa-accountapp1e.foodtourslisboa.com
 0.0.0.0 idmsa-accountapp1e.forexhurb.com
 0.0.0.0 idmsa-accountapp1e.garagebilk.com
 0.0.0.0 idmsa-accountapp1e.gioiachallenge.com
+0.0.0.0 idmsa-accountapp1e.grangershvac.com
+0.0.0.0 idmsa-accountapp1e.growlergalore.com
+0.0.0.0 idmsa-accountapp1e.grubbeadvokater.com
+0.0.0.0 idmsa-accountapp1e.harleyheavin.com
+0.0.0.0 idmsa-accountapp1e.hmdollz.com
+0.0.0.0 idmsa-accountapp1e.htmltoc.com
+0.0.0.0 idmsa-accountapp1e.hubpergroup.com
+0.0.0.0 idmsa-accountapp1e.indobrompton.com
 0.0.0.0 idmsa-accountapp1e.infitismo.com
 0.0.0.0 idmsa-accountapp1e.iwcargo.com
 0.0.0.0 idmsa-accountapp1e.kelleyfloorcovering.com
+0.0.0.0 idmsa-accountapp1e.kingsgateprojects.com
 0.0.0.0 idmsa-accountapp1e.laradiodecristal.com
 0.0.0.0 idmsa-accountapp1e.lindsayflood.com
+0.0.0.0 idmsa-accountapp1e.liquefyd.com
 0.0.0.0 idmsa-accountapp1e.listmyvegashome.com
+0.0.0.0 idmsa-accountapp1e.losrostrosdelpasado.com
 0.0.0.0 idmsa-accountapp1e.lucyslate.com
 0.0.0.0 idmsa-accountapp1e.mleidel.com
+0.0.0.0 idmsa-accountapp1e.moonfulofwords.com
 0.0.0.0 idmsa-accountapp1e.myphamhk.com
 0.0.0.0 idmsa-accountapp1e.nolatechcouncil.com
 0.0.0.0 idmsa-accountapp1e.oliverswafford.com
 0.0.0.0 idmsa-accountapp1e.peaceloveaerial.com
+0.0.0.0 idmsa-accountapp1e.pfleds.com
 0.0.0.0 idmsa-accountapp1e.pogueentertainment.com
 0.0.0.0 idmsa-accountapp1e.ramnetcom.com
 0.0.0.0 idmsa-accountapp1e.rebelhairco.com
 0.0.0.0 idmsa-accountapp1e.robertbryanps.com
 0.0.0.0 idmsa-accountapp1e.roomrevivalmn.com
+0.0.0.0 idmsa-accountapp1e.sculpsurebr.com
+0.0.0.0 idmsa-accountapp1e.sculpsurewestu.com
+0.0.0.0 idmsa-accountapp1e.seallinetech.com
 0.0.0.0 idmsa-accountapp1e.serioussamet.com
+0.0.0.0 idmsa-accountapp1e.sheitup.com
+0.0.0.0 idmsa-accountapp1e.shipmanclean.com
+0.0.0.0 idmsa-accountapp1e.soinoticed.com
 0.0.0.0 idmsa-accountapp1e.spectrumomics.com
 0.0.0.0 idmsa-accountapp1e.squcumber.com
 0.0.0.0 idmsa-accountapp1e.staresofamerica.com
+0.0.0.0 idmsa-accountapp1e.thelectureshop.com
 0.0.0.0 idmsa-accountapp1e.tukwilatreats.com
+0.0.0.0 idmsa-accountapp1e.txsculpsure.com
 0.0.0.0 idmsa-accountapp1e.tysonproffitt.com
+0.0.0.0 idmsa-accountapp1e.vkinkade.com
 0.0.0.0 idmsa-accountapp1e.wardfirmtexas.com
+0.0.0.0 idmsa-accountapp1e.woodlandsfoodie.com
+0.0.0.0 idmsa-accountapp1e.wpacademylab.com
 0.0.0.0 idmsa-accountapp1e.yogofoodbrands.com
 0.0.0.0 idmsa-app1e.com
 0.0.0.0 idmsa.mysupport-app1eid.1dent1fication.com
@@ -19652,6 +19691,7 @@ Hash: SHA512
 0.0.0.0 paypa1.shop.store.juragansampe345.com
 0.0.0.0 paypa1.signin.verifiaction.yourserverwhois.com
 0.0.0.0 paypa1.site
+0.0.0.0 paypa1.southbay1k.com
 0.0.0.0 paypa1.srvice-reply.club
 0.0.0.0 paypa1.szgv.top
 0.0.0.0 paypa1.tk
@@ -21296,6 +21336,7 @@ Hash: SHA512
 0.0.0.0 twltters.com
 0.0.0.0 twltters.xyz
 0.0.0.0 twlttershelpjp.cf
+0.0.0.0 twlttersjp.cf
 0.0.0.0 twltterz.com
 0.0.0.0 twmb.twltter.gq
 0.0.0.0 twpc.twltter.gq
@@ -26464,8 +26505,8 @@ Hash: SHA512
 0.0.0.0 zqruzxs.www.twittor.co
 -----BEGIN PGP SIGNATURE-----
 
-iKAEARMKAAYFAmONGHEACgkQXJ9WrWUYkF5aIAIHaInGBZZsmVy9IiMO86r4eswm3qupzuAv0+ay
-jCM/5sKPmAZaqg7LoH16A6GPcm2MwUqycF7bcid+yzke2IWJFsoCCOEjFhQZ3ISnc9UtJR5erqqT
-C2yVuLJTpbKSOdZiePqBfABeXmQbQQqa5wLGp9D47ph4YVPivjxjjlQfeoeDDKBv
-=ndHv
+iKIEARMKAAYFAmOY7sMACgkQXJ9WrWUYkF5w9AIJAZaRgH6rppwTl1/pvbGres5XzdGxjmS2q0fu
+nGmOQ9GnPEy+fU9fQnaDdo8A7CrSKvM6/ip4JSCJix7j/rsSnUMXAgkB5oyVBbQXtIOn8Dv46IUm
+9YjeN+hJJzyy+xzXe8sSG+FuMhVHPPrA7ggQYmrojpD4bRHaTDkWo7RoEtDF/s3QeUU=
+=Rav8
 -----END PGP SIGNATURE-----
