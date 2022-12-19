@@ -1,7 +1,7 @@
 # [iOS Privacy](https://iosprivacy.com/) [PWA](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
 **`https://iosprivacy.com`**
 ## [Progressive Web App](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
-![GitHub](https://img.shields.io/github/license/ios-privacy/iosprivacy.com?style=flat-square)
+![GitHub](https://img.shields.io/github/license/iOS-Privacy/iOSPrivacy.com?style=flat-square)
 
 (filters licensed CC-BY-NC-SA)
 
