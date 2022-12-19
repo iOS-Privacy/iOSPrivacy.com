@@ -1,3 +1,12 @@
+# Experimental @import extras
+@import "correctness-core"
+@import "frameworks-core"
+@import "maintainability-core"
+@import "metrics-core"
+@import "readability-core"
+@import "security"
+@import "security-extra"
+###
 # For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
@@ -18,7 +27,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
-    - cron: '41 1 * * 0'
+    - cron: '17 19 * * 4'
 
 jobs:
   analyze:
@@ -34,8 +43,6 @@ jobs:
       matrix:
         language: [ 'javascript' ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
-        # Use only 'java' to analyze code written in Java, Kotlin or both
-        # Use only 'javascript' to analyze code written in JavaScript, TypeScript or both
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
     steps:
