@@ -35,3 +35,6 @@ iVOID.hosts | DomainVoider | Urlhaus
 ## **[iVOID.hosts](https://iosprivacy.com/ivoid)**
 
 ## **[Urlhaus Mirror](https://iosprivacy.com/urlhaus)**
+***
+#### ETH: 0x4BC93A72518dFB9CC830BcC7BE03616a0298E019
+***
