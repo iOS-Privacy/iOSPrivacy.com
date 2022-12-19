@@ -20,7 +20,7 @@
 [![](https://img.shields.io/website?color=darkred&down_color=lightgrey&down_message=offline&label=web%20app%20is&logo=debian&logoColor=darkred&up_color=blue&up_message=online&url=https%3A%2F%2Fiosprivacy.com)](https://iosprivacy.com)
 
 * * *
-iVOID.hosts | DomainVoider | Urlhaus
+iVOID.hosts | DomainVoider | Urlhaus Mirror
 --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------
 ![GitLab stars](https://img.shields.io/gitlab/stars/intr0/iVOID.GitLab.io?gitlab_url=https%3A%2F%2Fgitlab.com&style=social) | ![GitLab stars](https://img.shields.io/gitlab/stars/intr0/DomainVoider?gitlab_url=https%3A%2F%2Fgitlab.com&style=social) | ![GitLab stars](https://img.shields.io/gitlab/stars/iosprivacy/CDN?gitlab_url=https%3A%2F%2Fgitlab.com&style=social)
 
