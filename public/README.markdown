@@ -34,4 +34,5 @@ Tip: Some apps offer shortcuts to features. To find a list of app shortcuts, rig
 
 ## Please donate to help keep the lights on. 💡
 
-#### https://www.paypal.me/bashthefash
+### Etherium:
+#### 0x4BC93A72518dFB9CC830BcC7BE03616a0298E019
