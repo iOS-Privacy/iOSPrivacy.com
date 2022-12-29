@@ -2,9 +2,9 @@
 Hash: SHA512
 
 # Title: iVOID.hosts
-# Version: 1670965127
-# Checksum (MD5): a7f49eb62fbb233fa76388e635626af7
-# Last Modified: 2022-12-13T20:58:47+00:00
+# Version: 1672332667
+# Checksum (MD5): 476c2617e8636acb506a038e5e06c505
+# Last Modified: 2022-12-29T16:51:07+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://iosprivacy.com/ivoid/raw/iVOID.hosts
@@ -694,6 +694,7 @@ Hash: SHA512
 0.0.0.0 app1e.nitipbaaah.com
 0.0.0.0 app1e.nl
 0.0.0.0 app1e.noreply-support4newsystem-operation.com
+0.0.0.0 app1e.oats.outreach.io
 0.0.0.0 app1e.online
 0.0.0.0 app1e.org
 0.0.0.0 app1e.outrch.com
@@ -1313,6 +1314,29 @@ Hash: SHA512
 0.0.0.0 appel.oct17.org
 0.0.0.0 appel.rezo.net
 0.0.0.0 appel.solarlog-portal.de
+0.0.0.0 appidkey-accountapp1e.acnalindustries.com
+0.0.0.0 appidkey-accountapp1e.advivs.com
+0.0.0.0 appidkey-accountapp1e.christaharrison.com
+0.0.0.0 appidkey-accountapp1e.domimag.com
+0.0.0.0 appidkey-accountapp1e.gpnellc.com
+0.0.0.0 appidkey-accountapp1e.hjrretailgroup.com
+0.0.0.0 appidkey-accountapp1e.honeydewetool.com
+0.0.0.0 appidkey-accountapp1e.jdetrain.com
+0.0.0.0 appidkey-accountapp1e.kellycoenen.com
+0.0.0.0 appidkey-accountapp1e.labulledecleha.com
+0.0.0.0 appidkey-accountapp1e.mcneilffabooster.com
+0.0.0.0 appidkey-accountapp1e.mmsinnovations.com
+0.0.0.0 appidkey-accountapp1e.modicaortodonzia.com
+0.0.0.0 appidkey-accountapp1e.nekoyakyu.com
+0.0.0.0 appidkey-accountapp1e.olcdev.com
+0.0.0.0 appidkey-accountapp1e.osmanlisubayi.com
+0.0.0.0 appidkey-accountapp1e.sectorverdesp.com
+0.0.0.0 appidkey-accountapp1e.skedoogle.com
+0.0.0.0 appidkey-accountapp1e.tacseye.com
+0.0.0.0 appidkey-accountapp1e.uptimeict.com
+0.0.0.0 appidkey-accountapp1e.wsomusic.com
+0.0.0.0 appidkey-accountapp1e.yourdjnsavior.com
+0.0.0.0 appidkey-accountapp1e.zaqsachiko.com
 0.0.0.0 appl.alpro.co.za
 0.0.0.0 appl.avtosup.com
 0.0.0.0 appl.cmmata.net
@@ -4454,6 +4478,7 @@ Hash: SHA512
 0.0.0.0 faceb00k.hopeinthebusiness.com
 0.0.0.0 faceb00k.host
 0.0.0.0 faceb00k.host20.uk
+0.0.0.0 faceb00k.iceiy.com
 0.0.0.0 faceb00k.in
 0.0.0.0 faceb00k.in.cp-ht-6.webhostbox.net
 0.0.0.0 faceb00k.info
@@ -4503,6 +4528,7 @@ Hash: SHA512
 0.0.0.0 faceb00k.me
 0.0.0.0 faceb00k.mkt-trade.com
 0.0.0.0 faceb00k.mobile-page.icu
+0.0.0.0 faceb00k.mriwebcare.com
 0.0.0.0 faceb00k.my.id
 0.0.0.0 faceb00k.neocities.org
 0.0.0.0 faceb00k.net
@@ -19332,7 +19358,9 @@ Hash: SHA512
 0.0.0.0 mfaceb00k.bimaaryamedan.com
 0.0.0.0 mfaceb00k.boss-accounts-store.xyz
 0.0.0.0 mfaceb00k.com
+0.0.0.0 mfaceb00k.experten.network
 0.0.0.0 mfaceb00k.gq
+0.0.0.0 mfaceb00k.maikbaber.com
 0.0.0.0 mfaceb00k.tk
 0.0.0.0 mfaceb00k.xyz
 0.0.0.0 mfaceb00kelog.000webhostapp.com
@@ -20513,23 +20541,32 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.abbeytourers.co.uk
 0.0.0.0 signin-accountapp1e.actionsportvideos.com
 0.0.0.0 signin-accountapp1e.adelealexa.com
+0.0.0.0 signin-accountapp1e.agencewinter.com
+0.0.0.0 signin-accountapp1e.albaerodriguez.com
 0.0.0.0 signin-accountapp1e.aprotecmexico.com
 0.0.0.0 signin-accountapp1e.aslsencorp.com
 0.0.0.0 signin-accountapp1e.ath0ngng250q.com
 0.0.0.0 signin-accountapp1e.aulacardiologica.net
 0.0.0.0 signin-accountapp1e.axisaustin.com
+0.0.0.0 signin-accountapp1e.babootlv.com
 0.0.0.0 signin-accountapp1e.bellexpessvu.com
 0.0.0.0 signin-accountapp1e.berkowitzdesign.com
 0.0.0.0 signin-accountapp1e.bhzvsfrjxzyw.com
 0.0.0.0 signin-accountapp1e.binomoaye.com
+0.0.0.0 signin-accountapp1e.bitcoinsnew.com
 0.0.0.0 signin-accountapp1e.bizootv.com
 0.0.0.0 signin-accountapp1e.browningoldsmobile.com
 0.0.0.0 signin-accountapp1e.btotdata.com
 0.0.0.0 signin-accountapp1e.caribouwedding.com
 0.0.0.0 signin-accountapp1e.carloschrier.com
+0.0.0.0 signin-accountapp1e.cciafw.com
+0.0.0.0 signin-accountapp1e.changfenxiao.com
+0.0.0.0 signin-accountapp1e.chenliangphd.com
 0.0.0.0 signin-accountapp1e.chicandswankypets.com
+0.0.0.0 signin-accountapp1e.chicdec.com
 0.0.0.0 signin-accountapp1e.christopherconway.com
 0.0.0.0 signin-accountapp1e.comportacountryclub.com
+0.0.0.0 signin-accountapp1e.comprasolobueno.com
 0.0.0.0 signin-accountapp1e.confidentc.co.uk
 0.0.0.0 signin-accountapp1e.coresuccessgroup.com
 0.0.0.0 signin-accountapp1e.ctdp7i0wt0dt.com
@@ -20542,19 +20579,29 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.digiunionbank.com
 0.0.0.0 signin-accountapp1e.dirtipidumkaya.com
 0.0.0.0 signin-accountapp1e.diveinevia.com
+0.0.0.0 signin-accountapp1e.djphilbeatz.com
+0.0.0.0 signin-accountapp1e.drnermincalisir.com
 0.0.0.0 signin-accountapp1e.ducatihasse.com
 0.0.0.0 signin-accountapp1e.dznvflspyebq.com
 0.0.0.0 signin-accountapp1e.earthsharemichigan.com
 0.0.0.0 signin-accountapp1e.electronicdiagnostics.com
+0.0.0.0 signin-accountapp1e.emijule.com
 0.0.0.0 signin-accountapp1e.envufkcbvclo.com
 0.0.0.0 signin-accountapp1e.eombuilding.com
+0.0.0.0 signin-accountapp1e.etiquetasmex.com
 0.0.0.0 signin-accountapp1e.f0f0yulrz3vf.com
 0.0.0.0 signin-accountapp1e.fairgamegoosecontrol.com
 0.0.0.0 signin-accountapp1e.firstclement.com
 0.0.0.0 signin-accountapp1e.firstdigibank.com
 0.0.0.0 signin-accountapp1e.fiveptcomm.com
 0.0.0.0 signin-accountapp1e.fivestarwebhost.com
+0.0.0.0 signin-accountapp1e.fleetkitt.com
+0.0.0.0 signin-accountapp1e.ftimarine.com
 0.0.0.0 signin-accountapp1e.garagebilk.com
+0.0.0.0 signin-accountapp1e.gawkerist.com
+0.0.0.0 signin-accountapp1e.gbfceviri.com
+0.0.0.0 signin-accountapp1e.gcsseaside.com
+0.0.0.0 signin-accountapp1e.giaiphapungthu.com
 0.0.0.0 signin-accountapp1e.gioiachallenge.com
 0.0.0.0 signin-accountapp1e.girlsonradio.com
 0.0.0.0 signin-accountapp1e.globalflyfischerman.com
@@ -20565,6 +20612,7 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.gxdufqubyjyf.com
 0.0.0.0 signin-accountapp1e.hasmetfevzicakmak.com
 0.0.0.0 signin-accountapp1e.hinsdaleinvisalign.com
+0.0.0.0 signin-accountapp1e.hitujitomari.com
 0.0.0.0 signin-accountapp1e.homepageartists.com
 0.0.0.0 signin-accountapp1e.hotelssanya.com
 0.0.0.0 signin-accountapp1e.humorap.com
@@ -20573,24 +20621,31 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.inboerse.com
 0.0.0.0 signin-accountapp1e.ingrahamtitlecompany.com
 0.0.0.0 signin-accountapp1e.inteltower.com
+0.0.0.0 signin-accountapp1e.irishgiftset.com
 0.0.0.0 signin-accountapp1e.irwasumsial.com
 0.0.0.0 signin-accountapp1e.jamesphotostudio.com
 0.0.0.0 signin-accountapp1e.janemichaud.com
 0.0.0.0 signin-accountapp1e.jenthomasphotos.com
 0.0.0.0 signin-accountapp1e.jerroldkatz.net
 0.0.0.0 signin-accountapp1e.jimcareydistributing.com
+0.0.0.0 signin-accountapp1e.jimoslimos.com
 0.0.0.0 signin-accountapp1e.jownix.com
 0.0.0.0 signin-accountapp1e.jsatransport.com
 0.0.0.0 signin-accountapp1e.jwfordused.com
 0.0.0.0 signin-accountapp1e.jwfordvehicles.com
 0.0.0.0 signin-accountapp1e.kadivpropamasu.com
 0.0.0.0 signin-accountapp1e.kbembroideryllc.com
+0.0.0.0 signin-accountapp1e.kmayproduction.com
 0.0.0.0 signin-accountapp1e.kyb5efu7qduc.com
 0.0.0.0 signin-accountapp1e.kyeaton.net
 0.0.0.0 signin-accountapp1e.liberalministries.com
 0.0.0.0 signin-accountapp1e.lindequist.net
 0.0.0.0 signin-accountapp1e.lindsayflood.com
 0.0.0.0 signin-accountapp1e.liveinaa.com
+0.0.0.0 signin-accountapp1e.lixarosaphotography.com
+0.0.0.0 signin-accountapp1e.lkadelivers.com
+0.0.0.0 signin-accountapp1e.lkafood.com
+0.0.0.0 signin-accountapp1e.lluddie.com
 0.0.0.0 signin-accountapp1e.madeleineberkley.com
 0.0.0.0 signin-accountapp1e.malberini.com
 0.0.0.0 signin-accountapp1e.malibuclothingco.com
@@ -20603,35 +20658,49 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.mleidel.com
 0.0.0.0 signin-accountapp1e.mlhby1x66470.com
 0.0.0.0 signin-accountapp1e.mobilecarol.com
+0.0.0.0 signin-accountapp1e.mojochips.com
+0.0.0.0 signin-accountapp1e.mylanmeilleuresante.com
 0.0.0.0 signin-accountapp1e.myscofield.com
+0.0.0.0 signin-accountapp1e.nakkilog.com
 0.0.0.0 signin-accountapp1e.nationaldigibank.com
 0.0.0.0 signin-accountapp1e.necdealers.net
 0.0.0.0 signin-accountapp1e.netacademyawards.com
 0.0.0.0 signin-accountapp1e.newarkfiremenfcu.com
 0.0.0.0 signin-accountapp1e.neworleansrealestateco.com
+0.0.0.0 signin-accountapp1e.ninasdivinas.com
+0.0.0.0 signin-accountapp1e.ninjanonna.com
 0.0.0.0 signin-accountapp1e.novoserumskincare.com
 0.0.0.0 signin-accountapp1e.noxibel.com
 0.0.0.0 signin-accountapp1e.nstarlending.com
 0.0.0.0 signin-accountapp1e.nxa1vuv3el65.com
 0.0.0.0 signin-accountapp1e.oliverswafford.com
+0.0.0.0 signin-accountapp1e.omarnapier.com
 0.0.0.0 signin-accountapp1e.ondisin.com
 0.0.0.0 signin-accountapp1e.partsandtapes.com
+0.0.0.0 signin-accountapp1e.paulinedhillon.com
 0.0.0.0 signin-accountapp1e.pendracon.net
 0.0.0.0 signin-accountapp1e.pennamortgages.com
 0.0.0.0 signin-accountapp1e.phearceenterprises.com
 0.0.0.0 signin-accountapp1e.phearcemanagement.com
 0.0.0.0 signin-accountapp1e.phearcerecords.com
+0.0.0.0 signin-accountapp1e.phunuexpress.com
 0.0.0.0 signin-accountapp1e.pittsoftware.com
 0.0.0.0 signin-accountapp1e.pmufzgzipynh.com
+0.0.0.0 signin-accountapp1e.polloarabesangil.com
+0.0.0.0 signin-accountapp1e.praystores.com
 0.0.0.0 signin-accountapp1e.predictivepharmacology.com
+0.0.0.0 signin-accountapp1e.prettierparty.com
 0.0.0.0 signin-accountapp1e.productivityincasia.com
 0.0.0.0 signin-accountapp1e.qsow9arzlof8.com
 0.0.0.0 signin-accountapp1e.qvd0z87u4a2l.com
+0.0.0.0 signin-accountapp1e.raefoninc.com
+0.0.0.0 signin-accountapp1e.rafaelargote.com
 0.0.0.0 signin-accountapp1e.rbzenterprises.com
 0.0.0.0 signin-accountapp1e.reticleholdings.com
 0.0.0.0 signin-accountapp1e.salselectric.com
 0.0.0.0 signin-accountapp1e.sandibulk.com
 0.0.0.0 signin-accountapp1e.saracoglumantar.com
+0.0.0.0 signin-accountapp1e.sarayousuf.com
 0.0.0.0 signin-accountapp1e.scottishwillmaker.com
 0.0.0.0 signin-accountapp1e.secogroupllc.com
 0.0.0.0 signin-accountapp1e.secogroupusa.com
@@ -20652,12 +20721,17 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.sqxnmwh0o2sv.com
 0.0.0.0 signin-accountapp1e.staresofamerica.com
 0.0.0.0 signin-accountapp1e.statuschassis.com
+0.0.0.0 signin-accountapp1e.stephanedetoi.com
 0.0.0.0 signin-accountapp1e.sterlingtourers.co.uk
+0.0.0.0 signin-accountapp1e.sternmidis.com
 0.0.0.0 signin-accountapp1e.stowebound.com
 0.0.0.0 signin-accountapp1e.straxgas.co.uk
 0.0.0.0 signin-accountapp1e.strobocom.net
+0.0.0.0 signin-accountapp1e.sydelindia.com
+0.0.0.0 signin-accountapp1e.tamacenjyuku.com
 0.0.0.0 signin-accountapp1e.tanyamackey.com
 0.0.0.0 signin-accountapp1e.tarcoke.com
+0.0.0.0 signin-accountapp1e.tbodguardian.com
 0.0.0.0 signin-accountapp1e.tecnzziurlwn.com
 0.0.0.0 signin-accountapp1e.texasexchangeonline.com
 0.0.0.0 signin-accountapp1e.thenextiteration.com
@@ -20665,20 +20739,27 @@ Hash: SHA512
 0.0.0.0 signin-accountapp1e.thewhimsystudio.com
 0.0.0.0 signin-accountapp1e.thexufamily.com
 0.0.0.0 signin-accountapp1e.tjdeckert.com
+0.0.0.0 signin-accountapp1e.tlachihualtepetl.com
 0.0.0.0 signin-accountapp1e.towncentreliving.com
 0.0.0.0 signin-accountapp1e.traegerspezialist.com
 0.0.0.0 signin-accountapp1e.uioozxrqpnng.com
 0.0.0.0 signin-accountapp1e.universalexportsintl.com
 0.0.0.0 signin-accountapp1e.unlimistream.net
+0.0.0.0 signin-accountapp1e.vanessareneemua.com
 0.0.0.0 signin-accountapp1e.vdkybabxgskm.com
+0.0.0.0 signin-accountapp1e.versakhan.com
 0.0.0.0 signin-accountapp1e.vnfispbczxfd.com
 0.0.0.0 signin-accountapp1e.voiledechine.com
+0.0.0.0 signin-accountapp1e.vokunvolt.com
+0.0.0.0 signin-accountapp1e.wamrecord.com
 0.0.0.0 signin-accountapp1e.wapdzv6rqjvg.com
 0.0.0.0 signin-accountapp1e.westendinfo.com
 0.0.0.0 signin-accountapp1e.westfieldshops.com
 0.0.0.0 signin-accountapp1e.wildstreaktalent.com
 0.0.0.0 signin-accountapp1e.worldcyberbank.com
 0.0.0.0 signin-accountapp1e.xaueur.com
+0.0.0.0 signin-accountapp1e.xtenseglobal.com
+0.0.0.0 signin-accountapp1e.zorunluemeklilik.com
 0.0.0.0 signin-lnstagram.cf
 0.0.0.0 signin-lnstagram.com
 0.0.0.0 signin-lnstagram.shine-panel.top
@@ -21243,6 +21324,7 @@ Hash: SHA512
 0.0.0.0 tr-lnstagram.tk
 0.0.0.0 tr-tr-lnstagram.ml
 0.0.0.0 tr.check-lnstagram.com
+0.0.0.0 trapp1e.puzzl.com.br
 0.0.0.0 trrws-prd.appl.kp.org
 0.0.0.0 ts-lnstagram.tk
 0.0.0.0 turkwebyazilim.mail-lnstagrams.com
@@ -24471,6 +24553,7 @@ Hash: SHA512
 0.0.0.0 xgmgyyp.face-book.cc
 0.0.0.0 xn----7sbbu5azaca10k.com
 0.0.0.0 xn----8sbncla1aijsga4a7xd58gt3amz.com
+0.0.0.0 xn----8sbnvd6app1e.xn--p1ai
 0.0.0.0 xn--1-7sba6dbr.cc
 0.0.0.0 xn--1-7sba6dbr.com
 0.0.0.0 xn--1-7sba6dbr.net
@@ -24592,6 +24675,7 @@ Hash: SHA512
 0.0.0.0 xn--ayal-z43ac.com
 0.0.0.0 xn--aypal-439a.com
 0.0.0.0 xn--aypal-439a.email
+0.0.0.0 xn--aypl-73d812v.blogspot.com
 0.0.0.0 xn--bogota-vdd7315c3ba6ia.com
 0.0.0.0 xn--businss-chg.xn--febok-4ve5hua.xn--com-sttings-skj.12078.top
 0.0.0.0 xn--businss-chg.xn--febok-4ve5hua.xn--com-sttings-skj.480125.top
@@ -26505,8 +26589,8 @@ Hash: SHA512
 0.0.0.0 zqruzxs.www.twittor.co
 -----BEGIN PGP SIGNATURE-----
 
-iKIEARMKAAYFAmOY7sMACgkQXJ9WrWUYkF5w9AIJAZaRgH6rppwTl1/pvbGres5XzdGxjmS2q0fu
-nGmOQ9GnPEy+fU9fQnaDdo8A7CrSKvM6/ip4JSCJix7j/rsSnUMXAgkB5oyVBbQXtIOn8Dv46IUm
-9YjeN+hJJzyy+xzXe8sSG+FuMhVHPPrA7ggQYmrojpD4bRHaTDkWo7RoEtDF/s3QeUU=
-=Rav8
+iKAEARMKAAYFAmOtxiwACgkQXJ9WrWUYkF4TSAIHYoV1qxZBn4vZ98SPE6wJdRuIFW4lr2KUy7Jc
+/Ika8bpWgMLN9n/If1xT4vcvtZa7ybRiJL4Jlnzk1JigTpF4F+cCCM5EZ2eGvwb2amUYkkga38r2
+7qNxjmeH0MCl7HjcjI6NGwxAsTaSGjhW9zKCO/B3yQTYKH8mbnJD+LaCgbc28+Z2
+=NHn4
 -----END PGP SIGNATURE-----
