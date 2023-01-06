@@ -7,10 +7,10 @@
 	"background_color": "#f2f2f2",
 	"theme_color": "#669966",
 	"dir": "ltr",
-	"display": "minimal-ui",
+	"display": "standalone",
 	"display_override": [
-		"standalone",
 		"fullscreen",
+		"minimal-ui",
 		"windows-controls-overlay"
 	],
 	"description": "Technology to Enhance Network Security and Privacy Focusing on Filter Lists to Enhance the User's Web Experience. Included is DomainVoider which Serves to Block Ad Networks, Tracking Scripts, Malware and Phishing Attacks in Addition to Nazi Ratholes and Mainstream Social Media.",
