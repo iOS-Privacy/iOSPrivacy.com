@@ -3,7 +3,7 @@ const registerServiceWorker = async() => {
         try {
             const registration = await navigator
                 .serviceWorker
-                .register("/service-worker.js", {scope: "/"});
+                .register("./pep-sw.js", {scope: "./"});
             if (registration.installing) {
                 console.log("Service worker installing")
             } else if (registration.waiting) {
