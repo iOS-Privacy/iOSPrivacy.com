@@ -2,14 +2,13 @@
 Hash: SHA512
 
 # Title: iVOID.hosts
-# Version: 1672332667
-# Checksum (MD5): 476c2617e8636acb506a038e5e06c505
-# Last Modified: 2022-12-29T16:51:07+00:00
+# Version: 1673383826
+# Checksum (MD5): 359e4faf67bf82e70b5608169e1bf1d2
+# Last Modified: 2023-01-10T20:50:26+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
-# Source 1: https://iosprivacy.com/ivoid/raw/iVOID.hosts
-# Source 2: https://ivoid.iosprivacy.com/
-# Source 3: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/public/iVOID.hosts
+# Source 1: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/public/iVOID.hosts
+# Source 2: https://iosprivacy.com/ivoid/raw/iVOID.hosts
 # Syntax: Hosts
 # Function: Block fake Apple, Facebook, Instagram, PayPal,
 # & Twitter websites to help protect user credentials and to help stop identity theft.
@@ -749,6 +748,7 @@ Hash: SHA512
 0.0.0.0 app1e.theynonedyo.com
 0.0.0.0 app1e.top
 0.0.0.0 app1e.up2date-systemsecurity-master.com
+0.0.0.0 app1e.us-west-2.outreach.cloud
 0.0.0.0 app1e.ver1fy-1nc-secure-dashbords.com
 0.0.0.0 app1e.verification-disable-account-now.com
 0.0.0.0 app1e.verification.abikayloray.com
@@ -1316,24 +1316,39 @@ Hash: SHA512
 0.0.0.0 appel.solarlog-portal.de
 0.0.0.0 appidkey-accountapp1e.acnalindustries.com
 0.0.0.0 appidkey-accountapp1e.advivs.com
+0.0.0.0 appidkey-accountapp1e.bhdemarkey.com
 0.0.0.0 appidkey-accountapp1e.christaharrison.com
+0.0.0.0 appidkey-accountapp1e.darcipearson.com
 0.0.0.0 appidkey-accountapp1e.domimag.com
 0.0.0.0 appidkey-accountapp1e.gpnellc.com
 0.0.0.0 appidkey-accountapp1e.hjrretailgroup.com
 0.0.0.0 appidkey-accountapp1e.honeydewetool.com
 0.0.0.0 appidkey-accountapp1e.jdetrain.com
+0.0.0.0 appidkey-accountapp1e.joytexhome.com
 0.0.0.0 appidkey-accountapp1e.kellycoenen.com
 0.0.0.0 appidkey-accountapp1e.labulledecleha.com
+0.0.0.0 appidkey-accountapp1e.lbicontract.com
+0.0.0.0 appidkey-accountapp1e.loukaofficiel.com
 0.0.0.0 appidkey-accountapp1e.mcneilffabooster.com
 0.0.0.0 appidkey-accountapp1e.mmsinnovations.com
 0.0.0.0 appidkey-accountapp1e.modicaortodonzia.com
 0.0.0.0 appidkey-accountapp1e.nekoyakyu.com
 0.0.0.0 appidkey-accountapp1e.olcdev.com
 0.0.0.0 appidkey-accountapp1e.osmanlisubayi.com
+0.0.0.0 appidkey-accountapp1e.peteottfitness.com
+0.0.0.0 appidkey-accountapp1e.prestonfs.com
 0.0.0.0 appidkey-accountapp1e.sectorverdesp.com
+0.0.0.0 appidkey-accountapp1e.segurag.com
+0.0.0.0 appidkey-accountapp1e.sheqianqian.com
 0.0.0.0 appidkey-accountapp1e.skedoogle.com
+0.0.0.0 appidkey-accountapp1e.skipskotch.com
+0.0.0.0 appidkey-accountapp1e.stdchiaroscuro.com
 0.0.0.0 appidkey-accountapp1e.tacseye.com
+0.0.0.0 appidkey-accountapp1e.talentogrupal.com
+0.0.0.0 appidkey-accountapp1e.thehubbel.com
+0.0.0.0 appidkey-accountapp1e.travailcommun.com
 0.0.0.0 appidkey-accountapp1e.uptimeict.com
+0.0.0.0 appidkey-accountapp1e.wodcontract.com
 0.0.0.0 appidkey-accountapp1e.wsomusic.com
 0.0.0.0 appidkey-accountapp1e.yourdjnsavior.com
 0.0.0.0 appidkey-accountapp1e.zaqsachiko.com
@@ -4366,6 +4381,7 @@ Hash: SHA512
 0.0.0.0 faceb00k.104908125624.shortom.com
 0.0.0.0 faceb00k.10x.co.il
 0.0.0.0 faceb00k.25march.com
+0.0.0.0 faceb00k.3-a.net
 0.0.0.0 faceb00k.a-w.ir
 0.0.0.0 faceb00k.account.id357532654241.us
 0.0.0.0 faceb00k.account.id859403486306803.site
@@ -19742,6 +19758,7 @@ Hash: SHA512
 0.0.0.0 paypa1090.ga
 0.0.0.0 paypa1090.tk
 0.0.0.0 paypa11.com
+0.0.0.0 paypa11l.duckdns.org
 0.0.0.0 paypa156712.ddns.net
 0.0.0.0 paypa1835.com
 0.0.0.0 paypa1895.ezz444.com
@@ -20793,7 +20810,17 @@ Hash: SHA512
 0.0.0.0 signinsecureapp1everlfynow.com
 0.0.0.0 signinsecuresapp1everlfnow.com
 0.0.0.0 signln-accountapp1e.bestlondondj.com
+0.0.0.0 signln-accountapp1e.bzguocheng.com
+0.0.0.0 signln-accountapp1e.chaimitai.com
+0.0.0.0 signln-accountapp1e.chaimithai.com
+0.0.0.0 signln-accountapp1e.comofacovideos.com
 0.0.0.0 signln-accountapp1e.drgramps.com
+0.0.0.0 signln-accountapp1e.laboconcepts.com
+0.0.0.0 signln-accountapp1e.margobulva.com
+0.0.0.0 signln-accountapp1e.microsten.com
+0.0.0.0 signln-accountapp1e.phusonevents.com
+0.0.0.0 signln-accountapp1e.railwayy.com
+0.0.0.0 signln-accountapp1e.ymsdszx.com
 0.0.0.0 signmanageapp1econflrmupdtecreate.com
 0.0.0.0 signmanageapp1eldsecures1donverf.com
 0.0.0.0 signmanageapp1eldverfsecures.com
@@ -21504,6 +21531,9 @@ Hash: SHA512
 0.0.0.0 verifedcopyright-lnstagram.ml
 0.0.0.0 veriffy-lnstagram.epizy.com
 0.0.0.0 verifi1cation-app1e.serveblog.net
+0.0.0.0 verificacionapp1e.cloud
+0.0.0.0 verificacionapp1e.shop
+0.0.0.0 verificacionapp1e.site
 0.0.0.0 verificaionhelpcenersecuritysupportlnstagrambusiness.cf
 0.0.0.0 verificat1on-app1e.serveblog.net
 0.0.0.0 verification-app1e-limte.com
@@ -26532,6 +26562,8 @@ Hash: SHA512
 0.0.0.0 xn--w-gtma.xn--pypl-q5bc.com
 0.0.0.0 xn--w-iuma.xn--pypl-q5bc.com
 0.0.0.0 xn--w-ktma.xn--pypl-q5bc.com
+0.0.0.0 xn--witter-207b.com
+0.0.0.0 xn--witter-207b.com.xn--jga.co
 0.0.0.0 xn--wjgaa.xn--pypl-q5bc.com
 0.0.0.0 xn--ww-02s.xn--pypl-q5bc.com
 0.0.0.0 xn--ww-9ua.xn--pypl-q5bc.com
@@ -26585,12 +26617,14 @@ Hash: SHA512
 0.0.0.0 yujythmx-app1e.denisseloat.com
 0.0.0.0 yvkvd.face-book.cc
 0.0.0.0 zdjeciefb345faceb00ksce34.dkonto.pl
+0.0.0.0 zerotrusttodaytestapp1e.us-west-2.qvd-awslab.com
 0.0.0.0 zfaceb00k.cf
 0.0.0.0 zqruzxs.www.twittor.co
+
 -----BEGIN PGP SIGNATURE-----
 
-iKAEARMKAAYFAmOtxiwACgkQXJ9WrWUYkF4TSAIHYoV1qxZBn4vZ98SPE6wJdRuIFW4lr2KUy7Jc
-/Ika8bpWgMLN9n/If1xT4vcvtZa7ybRiJL4Jlnzk1JigTpF4F+cCCM5EZ2eGvwb2amUYkkga38r2
-7qNxjmeH0MCl7HjcjI6NGwxAsTaSGjhW9zKCO/B3yQTYKH8mbnJD+LaCgbc28+Z2
-=NHn4
+iKIEARMKAAYFAmO90EkACgkQXJ9WrWUYkF6NzAIJAcoXfd7agQRm4LUiic5sdj0yGtkE32DU62t9
+2kKZ86jn3c4Jh8lMlHB3kkjtqwdZmfcA+M96eV2Qolo9LaqxVwjeAgkBdj3VbazJrdFo/oOpwoFp
+x39B8+zQEQr1Ti+wy2kpqhClu7cELhLmusY3YY1qfZ/ABnMt4o0BUTri0j7OZiroFGQ=
+=puxK
 -----END PGP SIGNATURE-----
