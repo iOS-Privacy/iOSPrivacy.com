@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1673383826
-# Checksum (MD5): 359e4faf67bf82e70b5608169e1bf1d2
-# Last Modified: 2023-01-10T20:50:26+00:00
+# Version: 1674592749
+# Checksum (MD5): 7b155e4b5e23d88491d6264edcd2ae9e
+# Last Modified: 2023-01-24T20:39:09+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/public/iVOID.hosts
@@ -427,6 +427,7 @@
 0.0.0.0 app1e-fix.com
 0.0.0.0 app1e-gazelle.outreach.cloud
 0.0.0.0 app1e-giraffe.outreach.cloud
+0.0.0.0 app1e-graphql-playground.outreach.cloud
 0.0.0.0 app1e-ib.com
 0.0.0.0 app1e-ic1oud.com
 0.0.0.0 app1e-id-manage-honqerra6cs6o3r3lkl7tjb91i.ayhs88.com
@@ -467,6 +468,7 @@
 0.0.0.0 app1e-myapps.serveirc.com
 0.0.0.0 app1e-news.net
 0.0.0.0 app1e-payiing336.shangmhatas.org
+0.0.0.0 app1e-pretest.outreach-content-domain-test.com
 0.0.0.0 app1e-receipt.serveirc.com
 0.0.0.0 app1e-reportalert.servebeer.com
 0.0.0.0 app1e-reportalert9.servebeer.com
@@ -694,6 +696,7 @@
 0.0.0.0 app1e.online
 0.0.0.0 app1e.org
 0.0.0.0 app1e.outrch.com
+0.0.0.0 app1e.outreach-content-domain-test.com
 0.0.0.0 app1e.outreach.cloud
 0.0.0.0 app1e.outreach.io
 0.0.0.0 app1e.pro
@@ -1586,6 +1589,60 @@
 0.0.0.0 authenticat1onmyapp1eldsecured.com
 0.0.0.0 authentication-lnstagram.com
 0.0.0.0 authenticatlonapp1eldsecure.com
+0.0.0.0 authidkey-accountapp1e.agentmanriquez.com
+0.0.0.0 authidkey-accountapp1e.agentwizards.com
+0.0.0.0 authidkey-accountapp1e.akuammastore.com
+0.0.0.0 authidkey-accountapp1e.angelvong.com
+0.0.0.0 authidkey-accountapp1e.aristoigallery.com
+0.0.0.0 authidkey-accountapp1e.astrongrepublic.com
+0.0.0.0 authidkey-accountapp1e.axioinnovation.com
+0.0.0.0 authidkey-accountapp1e.baleitefilms.com
+0.0.0.0 authidkey-accountapp1e.bestakuamma.com
+0.0.0.0 authidkey-accountapp1e.bttriskscore.com
+0.0.0.0 authidkey-accountapp1e.bysylwia.com
+0.0.0.0 authidkey-accountapp1e.cancionparati.com
+0.0.0.0 authidkey-accountapp1e.cevaldhalatte.com
+0.0.0.0 authidkey-accountapp1e.charlesrj.com
+0.0.0.0 authidkey-accountapp1e.codyyarwood.com
+0.0.0.0 authidkey-accountapp1e.crevition.com
+0.0.0.0 authidkey-accountapp1e.crikskraks.com
+0.0.0.0 authidkey-accountapp1e.datemeiamgay.com
+0.0.0.0 authidkey-accountapp1e.dayhoclaixenang.com
+0.0.0.0 authidkey-accountapp1e.difmpilot.com
+0.0.0.0 authidkey-accountapp1e.elengmarine.com
+0.0.0.0 authidkey-accountapp1e.endorservices.com
+0.0.0.0 authidkey-accountapp1e.exercyz.com
+0.0.0.0 authidkey-accountapp1e.ezoxsystem.com
+0.0.0.0 authidkey-accountapp1e.growphd.com
+0.0.0.0 authidkey-accountapp1e.ileagile.com
+0.0.0.0 authidkey-accountapp1e.inspirefae.com
+0.0.0.0 authidkey-accountapp1e.institutbeautebella.com
+0.0.0.0 authidkey-accountapp1e.jankyjournalism.com
+0.0.0.0 authidkey-accountapp1e.jankyjournalist.com
+0.0.0.0 authidkey-accountapp1e.johnsonsqcc.com
+0.0.0.0 authidkey-accountapp1e.karalexitsolutions.com
+0.0.0.0 authidkey-accountapp1e.laurenklinker.com
+0.0.0.0 authidkey-accountapp1e.laurinobriant.com
+0.0.0.0 authidkey-accountapp1e.leprixdamour.com
+0.0.0.0 authidkey-accountapp1e.lillieslion.com
+0.0.0.0 authidkey-accountapp1e.maxdezwaan.com
+0.0.0.0 authidkey-accountapp1e.meineiswagen.com
+0.0.0.0 authidkey-accountapp1e.myakuamma.com
+0.0.0.0 authidkey-accountapp1e.nakeesaslelife.com
+0.0.0.0 authidkey-accountapp1e.nbeentinc.com
+0.0.0.0 authidkey-accountapp1e.ngcapi.com
+0.0.0.0 authidkey-accountapp1e.oneseamedia.com
+0.0.0.0 authidkey-accountapp1e.oxomocobar.com
+0.0.0.0 authidkey-accountapp1e.ruanshouse.com
+0.0.0.0 authidkey-accountapp1e.segalecreative.com
+0.0.0.0 authidkey-accountapp1e.simplygreencb.com
+0.0.0.0 authidkey-accountapp1e.sommerfarrier.com
+0.0.0.0 authidkey-accountapp1e.ublpalm.com
+0.0.0.0 authidkey-accountapp1e.unemer.com
+0.0.0.0 authidkey-accountapp1e.vertigotrack.com
+0.0.0.0 authidkey-accountapp1e.vinbrose.com
+0.0.0.0 authidkey-accountapp1e.vksprospertyllc.com
+0.0.0.0 authidkey-accountapp1e.woatrainers.com
 0.0.0.0 authloginapp1e.0o9gs7v919.com
 0.0.0.0 authloginapp1e.1i43utnrcy.com
 0.0.0.0 authloginapp1e.33pqb09ud2.com
@@ -4195,6 +4252,7 @@
 0.0.0.0 faceb00k-marketplace.com
 0.0.0.0 faceb00k-marketplace.forsale
 0.0.0.0 faceb00k-marketplace.info
+0.0.0.0 faceb00k-marketplace.items161824301227.com
 0.0.0.0 faceb00k-marketplace.live
 0.0.0.0 faceb00k-marketplace.me
 0.0.0.0 faceb00k-marketplace.news
@@ -4391,6 +4449,7 @@
 0.0.0.0 faceb00k.autosmodificados.com.vztiny.club
 0.0.0.0 faceb00k.be
 0.0.0.0 faceb00k.biz
+0.0.0.0 faceb00k.buythisdomain.info
 0.0.0.0 faceb00k.buzz
 0.0.0.0 faceb00k.c0m-alert.piochem.com
 0.0.0.0 faceb00k.c0m-id287.xyz
@@ -4398,6 +4457,7 @@
 0.0.0.0 faceb00k.c0m.hrconsultings.com
 0.0.0.0 faceb00k.c0m.photos.sotomama.xyz
 0.0.0.0 faceb00k.c0m.prolishi.com
+0.0.0.0 faceb00k.ca
 0.0.0.0 faceb00k.car.blog
 0.0.0.0 faceb00k.cf
 0.0.0.0 faceb00k.cheap2price.com
@@ -20811,12 +20871,17 @@
 0.0.0.0 signln-accountapp1e.chaimitai.com
 0.0.0.0 signln-accountapp1e.chaimithai.com
 0.0.0.0 signln-accountapp1e.comofacovideos.com
+0.0.0.0 signln-accountapp1e.datonko.com
 0.0.0.0 signln-accountapp1e.drgramps.com
+0.0.0.0 signln-accountapp1e.emberpottery.com
+0.0.0.0 signln-accountapp1e.koolcrotch.com
 0.0.0.0 signln-accountapp1e.laboconcepts.com
+0.0.0.0 signln-accountapp1e.lvismun.com
 0.0.0.0 signln-accountapp1e.margobulva.com
 0.0.0.0 signln-accountapp1e.microsten.com
 0.0.0.0 signln-accountapp1e.phusonevents.com
 0.0.0.0 signln-accountapp1e.railwayy.com
+0.0.0.0 signln-accountapp1e.westpointfarm.com
 0.0.0.0 signln-accountapp1e.ymsdszx.com
 0.0.0.0 signmanageapp1econflrmupdtecreate.com
 0.0.0.0 signmanageapp1eldsecures1donverf.com
@@ -24698,6 +24763,7 @@
 0.0.0.0 xn--appsnstagram-44b.com
 0.0.0.0 xn--ayal-9ndc.com.jponlinesecure.com
 0.0.0.0 xn--ayal-9ndc.com.susujandasusumuda.com
+0.0.0.0 xn--ayal-9ndc.espace-fr.app
 0.0.0.0 xn--ayal-f6dc.partnacc.com
 0.0.0.0 xn--ayal-z43ac.com
 0.0.0.0 xn--aypal-439a.com
