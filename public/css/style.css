@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
-* Browsers: last 30 version
+* Browsers: last 15 version
 */
 
 @font-face {
@@ -23,7 +23,6 @@ src:url(https://iosprivacy.com/fonts/CascadiaCode.woff2) format("woff2")
 
 @media screen and (prefers-color-scheme:dark) {
 :root {
-font-size:clamp(0.875rem,-webkit-calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
 font-size:clamp(0.875rem,calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
 min-height:0vw;
 --mono-font-fallback:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono","Roboto Mono","Liberation Mono","Noto Sans Mono",Menlo,monospace;
@@ -57,12 +56,12 @@ white-space:pre-line
 }
 
 button {
+-webkit-border-radius:.075rem;
+-webkit-box-shadow:3px 3px 12px -6px #000;
 background:#363;
 border:#000;
--webkit-border-radius:.075rem;
-        border-radius:.075rem;
--webkit-box-shadow:3px 3px 12px -6px #000;
-        box-shadow:3px 3px 12px -6px #000;
+border-radius:.075rem;
+box-shadow:3px 3px 12px -6px #000;
 color:#fff;
 display:inline-block;
 font:400 1.15rem/1.4 Montserrat,var(--sans-font-fallback);
@@ -78,7 +77,7 @@ white-space:nowrap
 code {
 background:#000;
 color:#fff;
-font:400 1.15rem/2.6 CascadiaCode,var(--mono-font-fallback);
+font:400 1.15rem/2.6 "Cascadia Code",var(--mono-font-fallback);
 white-space:pre-wrap
 }
 
@@ -87,7 +86,6 @@ text-align:center
 }
 
 h1 {
-font-size:-webkit-calc(1rem + 5vmin);
 font-size:calc(1rem + 5vmin);
 margin:5vmin 0 2vmin
 }
@@ -98,13 +96,11 @@ font-weight:200
 }
 
 h2 {
-font-size:-webkit-calc(1rem + 4vmin);
 font-size:calc(1rem + 4vmin);
 margin:4vmin 0 1.5vmin
 }
 
 h3 {
-font-size:-webkit-calc(1rem + 3vmin);
 font-size:calc(1rem + 3vmin);
 margin:3vmin 0 1vmin
 }
@@ -116,7 +112,7 @@ border:#ccc solid .02rem
 html {
 -ms-scroll-chaining:none;
 -webkit-box-sizing:border-box;
-        box-sizing:border-box;
+box-sizing:border-box;
 overscroll-behavior:none;
 text-rendering:optimizeSpeed
 }
@@ -132,10 +128,10 @@ white-space:nowrap
 }
 
 nav ol li a,nav ul li a {
+-webkit-border-radius:.2rem;
 background:#3a3a3a;
 border:#333 outset .02rem;
--webkit-border-radius:.2rem;
-        border-radius:.2rem;
+border-radius:.2rem;
 font:300 1.2rem Montserrat,var(--sans-font-fallback);
 overflow:auto
 }
@@ -161,12 +157,12 @@ text-indent:.125rem
 }
 
 pre {
+-webkit-border-radius:.02rem;
 background:#000;
 border:#333 solid .02rem;
--webkit-border-radius:.02rem;
-        border-radius:.02rem;
+border-radius:.02rem;
 color:#fff;
-font:400 1.1rem/1.6 CascadiaCode,var(--mono-font-fallback);
+font:400 1.1rem/1.6 "Cascadia Code",var(--mono-font-fallback);
 overflow:auto;
 padding:.5rem;
 word-break:normal
@@ -180,6 +176,7 @@ position:relative
 }
 
 strong:before {
+-ms-transform:skewX(1.65deg) rotate(-1.15deg);
 -webkit-transform:skewX(1.65deg) rotate(-1.15deg);
 background:#6a6a6a;
 bottom:0;
@@ -192,16 +189,15 @@ padding:.15rem;
 position:absolute;
 right:0;
 top:0;
--ms-transform:skewX(1.65deg) rotate(-1.15deg);
-    transform:skewX(1.65deg) rotate(-1.15deg);
+transform:skewX(1.65deg) rotate(-1.15deg);
 width:102%;
 z-index:-1
 }
 
 strong:nth-last-of-type(1) {
--webkit-transform:skewX(-1.25deg) rotate(1.45deg);
 -ms-transform:skewX(-1.25deg) rotate(1.45deg);
-    transform:skewX(-1.25deg) rotate(1.45deg)
+-webkit-transform:skewX(-1.25deg) rotate(1.45deg);
+transform:skewX(-1.25deg) rotate(1.45deg)
 }
 
 @media all and (display-mode: fullscreen) {
@@ -214,7 +210,6 @@ margin:0
 
 @media screen and (prefers-color-scheme:light) {
 :root {
-font-size:clamp(0.875rem,-webkit-calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
 font-size:clamp(0.875rem,calc(0.875rem + ((1vw - 0.1rem) * 0.7328)),3rem);
 min-height:0vw;
 --mono-font-fallback:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono","Roboto Mono","Liberation Mono","Noto Sans Mono",Menlo,monospace;
@@ -248,12 +243,12 @@ white-space:pre-line
 }
 
 button {
+-webkit-border-radius:.075rem;
+-webkit-box-shadow:3px 3px 12px -6px #000;
 background:#363;
 border:#fff;
--webkit-border-radius:.075rem;
-        border-radius:.075rem;
--webkit-box-shadow:3px 3px 12px -6px #000;
-        box-shadow:3px 3px 12px -6px #000;
+border-radius:.075rem;
+box-shadow:3px 3px 12px -6px #000;
 color:#fff;
 display:inline-block;
 font:400 1.15rem/1.4 Montserrat,var(--sans-font-fallback);
@@ -269,7 +264,7 @@ white-space:nowrap
 code {
 background:#fff;
 color:#000;
-font:400 1.15rem/2.6 CascadiaCode,var(--mono-font-fallback);
+font:400 1.15rem/2.6 "Cascadia Code",var(--mono-font-fallback);
 white-space:pre-wrap
 }
 
@@ -278,7 +273,6 @@ text-align:center
 }
 
 h1 {
-font-size:-webkit-calc(1rem + 5vmin);
 font-size:calc(1rem + 5vmin);
 margin:5vmin 0 2vmin
 }
@@ -289,13 +283,11 @@ font-weight:200
 }
 
 h2 {
-font-size:-webkit-calc(1rem + 4vmin);
 font-size:calc(1rem + 4vmin);
 margin:4vmin 0 1.5vmin
 }
 
 h3 {
-font-size:-webkit-calc(1rem + 3vmin);
 font-size:calc(1rem + 3vmin);
 margin:3vmin 0 1vmin
 }
@@ -307,7 +299,7 @@ border:#ccc solid .02rem
 html {
 -ms-scroll-chaining:none;
 -webkit-box-sizing:border-box;
-        box-sizing:border-box;
+box-sizing:border-box;
 overscroll-behavior:none;
 text-rendering:optimizeSpeed
 }
@@ -323,10 +315,10 @@ white-space:nowrap
 }
 
 nav ol li a,nav ul li a {
+-webkit-border-radius:.2rem;
 background:#3a3a3a;
 border:#333 outset .02rem;
--webkit-border-radius:.2rem;
-        border-radius:.2rem;
+border-radius:.2rem;
 font:300 1.2rem Montserrat,var(--sans-font-fallback);
 overflow:auto
 }
@@ -352,12 +344,12 @@ text-indent:.125rem
 }
 
 pre {
+-webkit-border-radius:.02rem;
 background:#000;
 border:#333 solid .02rem;
--webkit-border-radius:.02rem;
-        border-radius:.02rem;
+border-radius:.02rem;
 color:#fff;
-font:400 1.1rem/1.6 CascadiaCode,var(--mono-font-fallback);
+font:400 1.1rem/1.6 "Cascadia Code",var(--mono-font-fallback);
 overflow:auto;
 padding:.5rem;
 position:relative;
@@ -372,6 +364,7 @@ position:relative
 }
 
 strong:before {
+-ms-transform:skewX(1.65deg) rotate(-1.15deg);
 -webkit-transform:skewX(1.65deg) rotate(-1.15deg);
 background:#6a6a6a;
 bottom:0;
@@ -384,16 +377,15 @@ padding:.15rem;
 position:absolute;
 right:0;
 top:0;
--ms-transform:skewX(1.65deg) rotate(-1.15deg);
-    transform:skewX(1.65deg) rotate(-1.15deg);
+transform:skewX(1.65deg) rotate(-1.15deg);
 width:102%;
 z-index:-1
 }
 
 strong:nth-last-of-type(1) {
--webkit-transform:skewX(-1.25deg) rotate(1.45deg);
 -ms-transform:skewX(-1.25deg) rotate(1.45deg);
-    transform:skewX(-1.25deg) rotate(1.45deg)
+-webkit-transform:skewX(-1.25deg) rotate(1.45deg);
+transform:skewX(-1.25deg) rotate(1.45deg)
 }
 
 @media all and (display-mode: fullscreen) {
