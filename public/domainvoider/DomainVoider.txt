@@ -1,7 +1,7 @@
 ! Title: DomainVoider
-! Version: 1681227505
-! Checksum (MD5): 85f3e6c900847c02b43e5fb6cf921c44
-! Last Modified: 2023-04-11T15:38:25+00:00
+! Version: 1681756938
+! Checksum (MD5): 2469b3401476706d63f6b9e070e2f0d6
+! Last Modified: 2023-04-17T18:42:18+00:00
 ! Expires: 30 days (update frequency)
 !
 ! Description: DomainVoider is designed primarily for users of AdGuard & uBlock Origin. It combines a modified version of AdGuard's DNS filter, certain rules with CC0 licensed online malicious URLs from Urlhaus & a list of CC-BY-SA-NC licensed phishing domains from Hardenize. This filter also blocks various social networks, including QAnon safehavens, Nazi ratholes, & mainstream sites such as Facebook.
@@ -20,6 +20,7 @@
 !+ PLATFORM(ext_ff)
 *$csp=upgrade-insecure-requests
 !
+||*-tiktokcdn-*^
 ||0-000.store^
 ||0-owazo4.net.zooplus.de^
 ||0.0.realodix^
@@ -77621,6 +77622,7 @@
 ||cdnfreemalva.com^
 ||cdngain.com^
 ||cdnhst.xyz^
+||cdninstagram.*^
 ||cdnjs.hro-cosmetics.com^
 ||cdnjs.mopair-erm.net^
 ||cdnjs.z-face.cn^
@@ -88916,6 +88918,7 @@
 ||facebook-help-lnstagram.ml^
 ||facebook-help-service-lnstagram.cf^
 ||facebook-lnstagram.com^
+||facebook.*^
 ||facebookbusinessclientsupportlnstagram.gq^
 ||facebookinbox-omni-onapp.haravan.com^
 ||facebooklnstagram.com^
@@ -89254,6 +89257,7 @@
 ||fbad3.lap.detroitdragway.com^
 ||fbandlnstagramtm995.cf^
 ||fbcctf.com^
+||fbcdn.*^
 ||fbcdn2.com^
 ||fbcjk.com^
 ||fbcoprightlnstagram.ml^
@@ -97332,6 +97336,7 @@
 ||instadrama.site^
 ||instaflrt.com^
 ||instaggram.gq^
+||instagram.*^
 ||instagrum.tk^
 ||install.365-stream.com^
 ||installads.net^
@@ -117119,6 +117124,8 @@
 ||mushesarrear.com^
 ||music-home.info^
 ||musicaitaliana.com^
+||musical.*^
+||musically.*^
 ||musicaondemand.com^
 ||musiccenterconference.com^
 ||musiccounter.ru^
@@ -137894,7 +137901,10 @@
 ||tiketgelang.id^
 ||tikibihu.com^
 ||tikstok.fun^
+||tiktok.*^
+||tiktokcdn.*^
 ||tiktoksells.com^
+||tiktokv.*^
 ||tilanalytics.timesinternet.in^
 ||tiledissipatelocum.com^
 ||tillertag-a.akamaihd.net^
@@ -140966,6 +140976,7 @@
 ||twentycustomimprovement.com^
 ||twiago.com^
 ||twiitter.rtvnoord.nl^
+||twimg.*^
 ||twinadsrv.com^
 ||twinpinenetwork.com^
 ||twinplan.com^
@@ -140985,6 +140996,7 @@
 ||twiter.tk^
 ||twittad.com^
 ||twitte.g.hatena.ne.jp^
+||twitter.*^
 ||twittter.world^
 ||twixconsult.ug^
 ||twiz.wizaly.fr^
@@ -150551,4 +150563,3 @@
 ||zzxmcp.com^
 ||zzzhuoxiaqu.online^
 ||zzznews.ru^
-
