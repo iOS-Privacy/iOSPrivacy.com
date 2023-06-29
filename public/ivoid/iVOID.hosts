@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1680111988
-# Checksum (MD5): 38453323ceaee6f4f2975523340085c8
-# Last Modified: 2023-03-29T17:46:28+00:00
+# Version: 1688068711
+# Checksum (MD5): 600e58d3be7ea89aee57054a81c5c54d
+# Last Modified: 2023-06-29T19:58:31+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://gitlab.com/intr0/iVOID.GitLab.io/-/raw/master/public/iVOID.hosts
@@ -219,6 +219,7 @@
 0.0.0.0 6rtmg527q0y54bdapp1ef3tqn.smtp.codetwo.online
 0.0.0.0 77c16wp1.face-book.cc
 0.0.0.0 7re7.face-book.cc
+0.0.0.0 7ver1f1kas1-faceb00k21.co-id.cfd
 0.0.0.0 8tg2se3.www.twittor.co
 0.0.0.0 8zj8i0j.www.twittor.co
 0.0.0.0 9x9mwoh.www.twittor.co
@@ -430,7 +431,13 @@
 0.0.0.0 app1e-graphql-playground.outreach.cloud
 0.0.0.0 app1e-ib.com
 0.0.0.0 app1e-ic1oud.com
+0.0.0.0 app1e-id-manage-7f7fg4pkm818qa2rgecfvveps1.ngrhmr.com
+0.0.0.0 app1e-id-manage-cbtq046iqsm05t35b99nrthdgg.ngrhmr.com
 0.0.0.0 app1e-id-manage-honqerra6cs6o3r3lkl7tjb91i.ayhs88.com
+0.0.0.0 app1e-id-manage-k1ccrbt77nei2hdadfar46jf42.wr8pxf.com
+0.0.0.0 app1e-id-manage-ka6dmbm06a9o3rbeotnuu3qt6l.ngrhmr.com
+0.0.0.0 app1e-id-manage-l5iumdlkirue61qk7gj6nakjgv.wr8pxf.com
+0.0.0.0 app1e-id-manage-qtfrjntl551igde3of1ih6jstg.wr8pxf.com
 0.0.0.0 app1e-id.4ccount-unlock.com
 0.0.0.0 app1e-id.appel.co.xcndhk.live
 0.0.0.0 app1e-id.com
@@ -538,6 +545,7 @@
 0.0.0.0 app1e.authverify-appsacces.com
 0.0.0.0 app1e.authverifyacces.com
 0.0.0.0 app1e.best4me-best4u-convindencelyt.com
+0.0.0.0 app1e.biz
 0.0.0.0 app1e.ca
 0.0.0.0 app1e.cathbot.cn
 0.0.0.0 app1e.cc
@@ -732,6 +740,7 @@
 0.0.0.0 app1e.services-un1ocked-disab1e-additional.info
 0.0.0.0 app1e.shop
 0.0.0.0 app1e.sky304.a2hosted.com
+0.0.0.0 app1e.soninot.xyz
 0.0.0.0 app1e.space
 0.0.0.0 app1e.store
 0.0.0.0 app1e.store-verify-acces1ocked.com
@@ -853,6 +862,7 @@
 0.0.0.0 app1e9l.space
 0.0.0.0 app1e9vuf3.ddnslive.com
 0.0.0.0 app1e_pi.livejournal.com
+0.0.0.0 app1ea4d202124ffaf33c25daf5f7e60d29.rdm-connect.kbconnect.io
 0.0.0.0 app1eada.hopto.org
 0.0.0.0 app1eaddsecureverf.com
 0.0.0.0 app1eaiaha.hopto.org
@@ -912,8 +922,10 @@
 0.0.0.0 app1econfrmwebs1nc.com
 0.0.0.0 app1ecrisp.com
 0.0.0.0 app1ed-appstor1.myvnc.com
+0.0.0.0 app1ed.customers.simloud.com
 0.0.0.0 app1ed1sv.top
 0.0.0.0 app1edb.space
+0.0.0.0 app1edi.top
 0.0.0.0 app1edu.space
 0.0.0.0 app1edusd.ddnslive.com
 0.0.0.0 app1edv.space
@@ -4530,6 +4542,7 @@
 0.0.0.0 faceb00k.1038959723673.shortlc.com
 0.0.0.0 faceb00k.104908125624.shortom.com
 0.0.0.0 faceb00k.10x.co.il
+0.0.0.0 faceb00k.111cc31.xyz
 0.0.0.0 faceb00k.25march.com
 0.0.0.0 faceb00k.3-a.net
 0.0.0.0 faceb00k.a-w.ir
@@ -4709,12 +4722,15 @@
 0.0.0.0 faceb00k.net.serveo.net
 0.0.0.0 faceb00k.netsons.org
 0.0.0.0 faceb00k.news
+0.0.0.0 faceb00k.ng
+0.0.0.0 faceb00k.ng.meandyouworld.com
 0.0.0.0 faceb00k.nicaraguademocratica.com
 0.0.0.0 faceb00k.nl
 0.0.0.0 faceb00k.no
 0.0.0.0 faceb00k.notifications.team
 0.0.0.0 faceb00k.now.sh
 0.0.0.0 faceb00k.online
+0.0.0.0 faceb00k.onrender.com
 0.0.0.0 faceb00k.onthewifi.com
 0.0.0.0 faceb00k.ooo
 0.0.0.0 faceb00k.org
@@ -4727,10 +4743,12 @@
 0.0.0.0 faceb00k.pl
 0.0.0.0 faceb00k.policies09.com
 0.0.0.0 faceb00k.pro
+0.0.0.0 faceb00k.projectxdcloud.cfd
 0.0.0.0 faceb00k.publicvm.com
 0.0.0.0 faceb00k.real-estate-agent.online
 0.0.0.0 faceb00k.real-estate-agent.store
 0.0.0.0 faceb00k.real-estates.store
+0.0.0.0 faceb00k.redodiwo.com
 0.0.0.0 faceb00k.reliancefbinc.com
 0.0.0.0 faceb00k.reltechgh.com
 0.0.0.0 faceb00k.renfish.com
@@ -4794,6 +4812,7 @@
 0.0.0.0 faceb00k.wadielnileinv.com
 0.0.0.0 faceb00k.watchm.org
 0.0.0.0 faceb00k.web.autocode.gg
+0.0.0.0 faceb00k.webhostingfree.io
 0.0.0.0 faceb00k.website
 0.0.0.0 faceb00k.win
 0.0.0.0 faceb00k.workers.dev
@@ -4824,6 +4843,7 @@
 0.0.0.0 faceb00kaccs.com
 0.0.0.0 faceb00kapi.com
 0.0.0.0 faceb00kauth.com.authd.ml
+0.0.0.0 faceb00kauth3nticati0nvalidat10nsecur1ty.xn--lepriv-gva.com
 0.0.0.0 faceb00kautolike.blogspot.com
 0.0.0.0 faceb00kbusiness.com
 0.0.0.0 faceb00kc0m-kashmirr0ses.cf
@@ -4855,6 +4875,7 @@
 0.0.0.0 faceb00kk.ml
 0.0.0.0 faceb00kk.online
 0.0.0.0 faceb00kkee.xyz
+0.0.0.0 faceb00kkikialert35425sdafgiskin.duckdns.org
 0.0.0.0 faceb00kl.ga
 0.0.0.0 faceb00kl.ml
 0.0.0.0 faceb00kl0gin.xyz
@@ -5101,8 +5122,19 @@
 0.0.0.0 faceb0ok.video72362.live
 0.0.0.0 faceb0ok.video72362.site
 0.0.0.0 faceb0ok.video72362.xyz
+0.0.0.0 faceb0ok.work
 0.0.0.0 faceb0ok.xyz
 0.0.0.0 faceb0ok1.sytes.net
+0.0.0.0 faceb0ok14867.panelkuh.xyz
+0.0.0.0 faceb0ok33679.panelkuh.xyz
+0.0.0.0 faceb0ok3559.panelkuh.xyz
+0.0.0.0 faceb0ok5490.panelkuh.xyz
+0.0.0.0 faceb0ok55258.panelkuh.xyz
+0.0.0.0 faceb0ok60678.panelkuh.xyz
+0.0.0.0 faceb0ok66411.panelkuh.xyz
+0.0.0.0 faceb0ok68340.panelkuh.xyz
+0.0.0.0 faceb0ok80948.panelkuh.xyz
+0.0.0.0 faceb0ok82181.panelkuh.xyz
 0.0.0.0 faceb0oke.com
 0.0.0.0 faceb0okes.ovollene.com
 0.0.0.0 faceb0okesco.ovollene.com
@@ -5294,7 +5326,9 @@
 0.0.0.0 facebo0k.tablaosmadrid.com
 0.0.0.0 facebo0k.terbaru.org
 0.0.0.0 facebo0k.top
+0.0.0.0 facebo0k.vip
 0.0.0.0 facebo0k.website
+0.0.0.0 facebo0k.workers.dev
 0.0.0.0 facebo0k.x10host.com
 0.0.0.0 facebo0k.xmarvelvn.com
 0.0.0.0 facebo0k.xyz
@@ -5408,6 +5442,9 @@
 0.0.0.0 feedbackslnstagram-copyright.gq
 0.0.0.0 feedbacksupportlnstagram.ml
 0.0.0.0 ffaceb00k.d4me.com.mx
+0.0.0.0 find-app1e.troya-serverv3.com
+0.0.0.0 find-app1e.troya-v3.com
+0.0.0.0 find-app1e.us
 0.0.0.0 findmy-app1e.us
 0.0.0.0 fjajh9q.www.twittor.co
 0.0.0.0 flowerrgirlnstagram.sevenserver.pw
@@ -5484,6 +5521,8 @@
 0.0.0.0 free-pulsa.hack-facebo0k.tk
 0.0.0.0 free.app1e.shop
 0.0.0.0 freefaceb00k.blogspot.com
+0.0.0.0 freefaceb00kusagefbfbfb-en.pages.dev
+0.0.0.0 freefaceb00kusagefbfbfb.pages.dev
 0.0.0.0 freefire.app1e.tech
 0.0.0.0 freefollowers4lnstagram.tk
 0.0.0.0 freepaypa1.blogspot.com
@@ -6256,6 +6295,7 @@
 0.0.0.0 help-supportnotice-lnstagram.com
 0.0.0.0 help-team-lnstagram.cf
 0.0.0.0 help-team-lnstagram.ml
+0.0.0.0 help-twltter.com
 0.0.0.0 help-unlocked-app1eid.gq
 0.0.0.0 help-verification-team-lnstagram.ml
 0.0.0.0 help-verified-lnstagram-contact.cf
@@ -6795,6 +6835,7 @@
 0.0.0.0 htlslnstagramtpp.ga
 0.0.0.0 htrgeasr.l-lnstagram.ga
 0.0.0.0 htt.facefook.com
+0.0.0.0 httpdns-paypa1-slgnlnxyz.vantechdns.com
 0.0.0.0 httplnstagram-copyright-helpcenterr-supportss.tk
 0.0.0.0 httplnstagram-help39byethost7com.workers.dev
 0.0.0.0 httplnstagramcopyright-help.tk
@@ -7098,6 +7139,10 @@
 0.0.0.0 live-lnstagramteam.ml
 0.0.0.0 liveassistancelnstagram.cf
 0.0.0.0 livecenterforlnstagram.com
+0.0.0.0 livefaceb00k49869.nazihostlive.xyz
+0.0.0.0 livefaceb00k67033.nazihostlive.xyz
+0.0.0.0 livefaceb00k80522.nazihostlive.xyz
+0.0.0.0 livefaceb00k97869.nazihostlive.xyz
 0.0.0.0 livehelp-lnstagram.tk
 0.0.0.0 livehelpcenterlnstagram.com
 0.0.0.0 livelnstagramcopyrightform.ga
@@ -19211,6 +19256,26 @@
 0.0.0.0 manageauth-accountapp1e.yoshipudfactory.com
 0.0.0.0 manageauth-accountapp1e.zeneakwae.com
 0.0.0.0 manageauth-accountapp1e.zhearting.com
+0.0.0.0 manageauth-accountidapp1e-2y4ca.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-a3qgm.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-ahblw.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-eu3dg.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-g53cf.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-mhy8n.duckdns.org
+0.0.0.0 manageauth-accountidapp1e-ygkz8.duckdns.org
+0.0.0.0 manageauth-accountidapp1e.bircinigroup.com
+0.0.0.0 manageauth-accountidapp1e.chopperpilotinc.com
+0.0.0.0 manageauth-accountidapp1e.curbonfyber.com
+0.0.0.0 manageauth-accountidapp1e.dementiacareqb.com
+0.0.0.0 manageauth-accountidapp1e.eatniseko.com
+0.0.0.0 manageauth-accountidapp1e.emberleyhollow.com
+0.0.0.0 manageauth-accountidapp1e.genccess.com
+0.0.0.0 manageauth-accountidapp1e.happiabode.com
+0.0.0.0 manageauth-accountidapp1e.jepsonbooks.com
+0.0.0.0 manageauth-accountidapp1e.johncfaddis.com
+0.0.0.0 manageauth-accountidapp1e.nestgloballlc.com
+0.0.0.0 manageauth-accountidapp1e.pcbcondodeals.com
+0.0.0.0 manageauth-accountidapp1e.pgrota.com
 0.0.0.0 manageauth-app1eid.com
 0.0.0.0 manageauthe-app1eid.serveblog.net
 0.0.0.0 manageauthid-accountapp1e.alltechpsllc.com
@@ -19721,6 +19786,7 @@
 0.0.0.0 ozgurtoprakvicero.mail-lnstagrams.com
 0.0.0.0 p-aypal.icu
 0.0.0.0 p1neapp1es.pages.dev
+0.0.0.0 p3mbel0k1r4n-faceb00k.domen01.my.id
 0.0.0.0 p83-apps.appl.cuny.edu.citytech.ezproxy.cuny.edu
 0.0.0.0 pacdcvilapp1e.rsbht.com
 0.0.0.0 page-1imited-paypa1.com
@@ -20056,6 +20122,7 @@
 0.0.0.0 payuk.ukpaypa1.top
 0.0.0.0 pbhu0bs.www.twittor.co
 0.0.0.0 pdasweb.appl.kp.org
+0.0.0.0 pemblokiranfaceb0ok.kks.work.gd
 0.0.0.0 pemulihan-account-faceb00k.cf
 0.0.0.0 pemulihan-account-faceb00k.ga
 0.0.0.0 pemulihan-account-faceb00k.gq
@@ -21344,11 +21411,15 @@
 0.0.0.0 structslsp.appl.swl.be
 0.0.0.0 sub-app1e-s3rv1ce6541.selamanyabyakan.com
 0.0.0.0 sub-paypa1mesign0.duckdns.org
+0.0.0.0 successplans-app1e.outreach.io
 0.0.0.0 summary-account-limited-paypa1com.ml
 0.0.0.0 suplnstagram.tk
 0.0.0.0 suport-lnstagram-com.ml
 0.0.0.0 suport-lnstagram.ml
 0.0.0.0 suportlnstagram-copyright.cf
+0.0.0.0 supp-app1e.troya-serverv3.com
+0.0.0.0 supp-app1e.troya-v3.com
+0.0.0.0 supp-app1e.us
 0.0.0.0 supp0rt-accapp1e.serveblog.net
 0.0.0.0 supp0rt-app1eid.com
 0.0.0.0 supp0rt-paypa1s.ddnsfree.com
@@ -21685,12 +21756,16 @@
 0.0.0.0 tw1tter.co
 0.0.0.0 tw1tter.com
 0.0.0.0 tw1tter.js3and404.com
+0.0.0.0 tw1tter.online
+0.0.0.0 tw1tter.org
 0.0.0.0 tw1tter.repl.co
+0.0.0.0 tw1tter.store
 0.0.0.0 tw1tter.tk
 0.0.0.0 tw1tterband.blogspot.com
 0.0.0.0 tw1tterband.com
 0.0.0.0 tw1tterband.wordpress.com
 0.0.0.0 tw1tterbot.com
+0.0.0.0 tw1tterdickbutts.com
 0.0.0.0 tw1tterfollowersua.tk
 0.0.0.0 tw1tterfollowersua.tk.ozgurhanyazici.com.tr
 0.0.0.0 tw1tterpating.com
@@ -21704,6 +21779,18 @@
 0.0.0.0 twitter.lnstagram-confirmcenter.com
 0.0.0.0 twitter.lnstagramhelpcentre.com
 0.0.0.0 twittter.world
+0.0.0.0 twltter-app.com
+0.0.0.0 twltter-app.net
+0.0.0.0 twltter-app.org
+0.0.0.0 twltter-app.pro
+0.0.0.0 twltter-down.com
+0.0.0.0 twltter-down.net
+0.0.0.0 twltter-down.org
+0.0.0.0 twltter-down.pro
+0.0.0.0 twltter-download.com
+0.0.0.0 twltter-download.net
+0.0.0.0 twltter-download.org
+0.0.0.0 twltter-download.pro
 0.0.0.0 twltter-us.com
 0.0.0.0 twltter.app
 0.0.0.0 twltter.bid
@@ -21720,6 +21807,7 @@
 0.0.0.0 twltter.com.br
 0.0.0.0 twltter.com.mbdoge.club
 0.0.0.0 twltter.com.serveo.net
+0.0.0.0 twltter.com.tr
 0.0.0.0 twltter.com98128498943892.support032113.life
 0.0.0.0 twltter.es
 0.0.0.0 twltter.ga
@@ -21834,7 +21922,9 @@
 0.0.0.0 vani11aapp1e.aternos.me
 0.0.0.0 velosapp1esp.cpmc.columbia.edu
 0.0.0.0 ver.lnstagramidentify.tk
+0.0.0.0 ver1f1kas1-faceb00k-2.co-id.cfd
 0.0.0.0 ver1fapp1eld.com
+0.0.0.0 ver1fikas1-faceb00k.co-id.cfd
 0.0.0.0 ver1fy-app1eldupdate.com
 0.0.0.0 ver1fy236app1eld.myvnc.com
 0.0.0.0 ver1fyapp1e-1ocked.sytes.net
@@ -21938,8 +22028,10 @@
 0.0.0.0 verifiedteam-lnstagram.com
 0.0.0.0 verifiedteam-lnstagram.ml
 0.0.0.0 verifies-lnstagram.ml
+0.0.0.0 verifikasi-faceb00k.sir87.work.gd
 0.0.0.0 verifikasi-faceb00k1.ml
 0.0.0.0 verifikasi-faceb00k1.tk
+0.0.0.0 verifikasi-faceb00kv2.25r.work.gd
 0.0.0.0 verifiy.com.lnstagram-helpconfirm.com
 0.0.0.0 verifiy.lnstagram-helpconfirm.com
 0.0.0.0 verifiybadge-lnstagram.cf
@@ -23250,7 +23342,9 @@
 0.0.0.0 webdisk.xn--safety-nstagram-elc.com
 0.0.0.0 webdisk.xn--secure-facebk-0rja.ml
 0.0.0.0 webdisk.xn--smmnstagram-1zb.com
+0.0.0.0 webfaceb0ok.cuidan2.site
 0.0.0.0 webhelpformlnstagram.ml
+0.0.0.0 webhostingerfaceb00k.000webhostapp.com
 0.0.0.0 weblnstagrambadgeportal.ml
 0.0.0.0 weblnstagramcopyright-center.ml
 0.0.0.0 weblnstagramcopyrightcenter.cf
@@ -24776,6 +24870,7 @@
 0.0.0.0 www-supportcontacts-lnstagram.ml
 0.0.0.0 www-supportform-lnstagram.ml
 0.0.0.0 www-supportlnstagram.cf
+0.0.0.0 www-twltter.com
 0.0.0.0 www-verfiedbadgenotice-lnstagram.ml
 0.0.0.0 www-w.app1eid-scure1.com
 0.0.0.0 www-web-helpslnstagram.com
@@ -25279,6 +25374,7 @@
 0.0.0.0 xn--facebk-m0ea.com.help-fasebook.tk
 0.0.0.0 xn--facebk-m0ea.voi2.com
 0.0.0.0 xn--facebk-m15ba.com
+0.0.0.0 xn--facebk-tl8ba.com
 0.0.0.0 xn--facebok-ejg.com-visible.page
 0.0.0.0 xn--facebok-gx4c.vn
 0.0.0.0 xn--facebok-hx4c.com
@@ -25289,6 +25385,7 @@
 0.0.0.0 xn--faceook-4rd.com
 0.0.0.0 xn--faceook-4rd.live
 0.0.0.0 xn--faebk-r09a7ca.com
+0.0.0.0 xn--faebok-cz5btd.com
 0.0.0.0 xn--faebook-wx1c.com
 0.0.0.0 xn--faebook-zjg.com-visible.page
 0.0.0.0 xn--fbk-6cdz9cau.tk
@@ -26028,6 +26125,7 @@
 0.0.0.0 xn--fcbk-53d5a5da.xn--cm-8443076-evi.026680994438.info
 0.0.0.0 xn--fcbk-53d5a5da.xn--cm-8636077-evi.071780046839.info
 0.0.0.0 xn--fcbk-53d5a5da.xn--cm-929249426-4fk.7408144990.info
+0.0.0.0 xn--fcbk-53d5a5da.xn--cmsupprt-nbhf.1092038458555.icu
 0.0.0.0 xn--fcbk-53d5a5da.xn--om-00271850-roj.39262267331.info
 0.0.0.0 xn--fcbk-53d5a5da.xn--om-00634-ech.5110172863.info
 0.0.0.0 xn--fcbk-53d5a5da.xn--om-0279204-bwi.9837792587.info
