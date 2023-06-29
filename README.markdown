@@ -15,8 +15,6 @@
 
 [![](https://img.shields.io/mozilla-observatory/grade-score/iosprivacy.com?publish&style=plastic)](https://observatory.mozilla.org/analyze/iosprivacy.com)
 
-[![](https://img.shields.io/security-headers?color=darkblue&url=https%3A%2F%2Fiosprivacy.com)](https://securityheaders.com/?q=iosprivacy.com&followRedirects=on)
-
 [![](https://img.shields.io/website?color=darkred&down_color=lightgrey&down_message=offline&label=web%20app%20is&logo=debian&logoColor=darkred&up_color=blue&up_message=online&url=https%3A%2F%2Fiosprivacy.com)](https://iosprivacy.com)
 
 * * *
