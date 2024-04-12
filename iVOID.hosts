@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1711826804
-# Checksum (MD5): 02197e6c72afda1f3682b8df753bbf62
-# Last Modified: 2024-03-30T19:26:44+00:00
+# Version: 1712962216
+# Checksum (MD5): 45853e48dd9979a1efec362d12b8150e
+# Last Modified: 2024-04-12T22:50:16+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -489,6 +489,7 @@
 0.0.0.0 app1e-myapp1eid.serveirc.com
 0.0.0.0 app1e-myapps.serveirc.com
 0.0.0.0 app1e-news.net
+0.0.0.0 app1e-nickel.com
 0.0.0.0 app1e-pay.help-techsupport.com
 0.0.0.0 app1e-pay.techsupport-help.com
 0.0.0.0 app1e-payiing336.shangmhatas.org
@@ -1127,6 +1128,8 @@
 0.0.0.0 app1eld.com
 0.0.0.0 app1eld.protected-team.com
 0.0.0.0 app1eldm.com
+0.0.0.0 app1eldmns.com
+0.0.0.0 app1eldms.com
 0.0.0.0 app1eldmsaa.com
 0.0.0.0 app1eldn.com
 0.0.0.0 app1eldns.com
@@ -4763,6 +4766,7 @@
 0.0.0.0 faceb00k.dfirma.pl
 0.0.0.0 faceb00k.direct.quickconnect.to
 0.0.0.0 faceb00k.dk
+0.0.0.0 faceb00k.dk.allan2.aze.dk
 0.0.0.0 faceb00k.dkonto.pl
 0.0.0.0 faceb00k.download
 0.0.0.0 faceb00k.duosmail.com
@@ -4773,6 +4777,7 @@
 0.0.0.0 faceb00k.fastworldcourier.com
 0.0.0.0 faceb00k.fb-security-checkpoint.duckdns.org
 0.0.0.0 faceb00k.fbpfizer.com
+0.0.0.0 faceb00k.feitesi.com
 0.0.0.0 faceb00k.flu.cc
 0.0.0.0 faceb00k.fr
 0.0.0.0 faceb00k.francis1995.ca
@@ -4918,6 +4923,7 @@
 0.0.0.0 faceb00k.shortpx.com
 0.0.0.0 faceb00k.shortxo.com
 0.0.0.0 faceb00k.site
+0.0.0.0 faceb00k.sjsczh.com
 0.0.0.0 faceb00k.sk
 0.0.0.0 faceb00k.social-media.eu.org
 0.0.0.0 faceb00k.softstok.xyz
@@ -5528,6 +5534,7 @@
 0.0.0.0 facebo0k.xyz
 0.0.0.0 facebo0k.zubayer.one
 0.0.0.0 facebo0k1234.altervista.org
+0.0.0.0 facebo0kbussiness.com
 0.0.0.0 facebo0kc0m.sowersreap.net
 0.0.0.0 facebo0kcosplay.me
 0.0.0.0 facebo0kdesktop.mobi
@@ -19889,6 +19896,7 @@
 0.0.0.0 mfaceb00klogin.xyz
 0.0.0.0 mfaceb0ok-com.cf
 0.0.0.0 mfacebo0k.online
+0.0.0.0 miami-app1est-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-prod.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 miami-app1est-stg.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 michaeljordan.lnstagramhelp-confirm.com
@@ -20644,6 +20652,7 @@
 0.0.0.0 s1upports-lnstagram.cf
 0.0.0.0 s21uhc2.www.twittor.co
 0.0.0.0 s3cure.app1e1d.app11e.com.actuaryjobsite.com
+0.0.0.0 s4ltyapp1e.workers.dev
 0.0.0.0 sadsfhsdadasmx-app1e-la.worldisupportla.com
 0.0.0.0 safe-lnstagram-com.tk
 0.0.0.0 safe-lnstagram.ml
@@ -25303,8 +25312,10 @@
 0.0.0.0 wwwpaypa1com-webaps-verification.yourserverwhois.com
 0.0.0.0 wwwsecurezyngagamesfaceb0ok.emochila.com
 0.0.0.0 wwwsupportlnstagramcom.ml
+0.0.0.0 wwwt8ixcketgse-faceb0okk.emochila.com
 0.0.0.0 wwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwtixck3ers-facebo0k.emochila.com
+0.0.0.0 wwwtuixcketgse-facebo0k.emochila.com
 0.0.0.0 wwwtutorialespaypa1.avalon-technologies.top
 0.0.0.0 wwww-verif-account-app1e-1d-com.mail-info-login101.ga
 0.0.0.0 wwww-verif-account-app1e-1d.mail-info-login101.ga
@@ -25316,6 +25327,7 @@
 0.0.0.0 wwwwwpcewek-cewek-bookingan-faceb0oktodiscov4er.emochila.com
 0.0.0.0 wwwwwwsfaceb0ok-free-tvure2.emochila.com
 0.0.0.0 wwwwwwtickets-faceb0ok.emochila.com
+0.0.0.0 wwwwwwtixck3ers-facebo0k.emochila.com
 0.0.0.0 x-app1eld.com
 0.0.0.0 xauth-paypa1.com
 0.0.0.0 xgmgyyp.face-book.cc
