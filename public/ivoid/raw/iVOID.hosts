@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1714349348
-# Checksum (MD5): 4aeabf18adbf7c4013b89ebf9ee021d7
-# Last Modified: 2024-04-29T00:09:08+00:00
+# Version: 1714764378
+# Checksum (MD5): 63e72ec96d4b7ecf5079ca3df7e543e3
+# Last Modified: 2024-05-03T19:26:18+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -762,6 +762,7 @@
 0.0.0.0 app1e.secure-verify-dashbord.com
 0.0.0.0 app1e.secure-verifycontainer-info.com
 0.0.0.0 app1e.secure-verifysupport-app1e.com
+0.0.0.0 app1e.secure.acount.ca
 0.0.0.0 app1e.sekarsehat.com
 0.0.0.0 app1e.services-un1ocked-disab1e-additional.info
 0.0.0.0 app1e.shop
@@ -25619,7 +25620,7 @@
 0.0.0.0 xn--fabok-0we9dua.xn--m-533067-mbh3a.6190499308.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5433976-z2h6a.5980194082.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5439035-z2h6a.6272792831.top
-0.0.0.0 xn--fabok-0we9dua.xn--m-584254-mbh3a.5961033825.top
+0.0.0.0 xn--fabok-0we9dua.xn--m584254-mbh3a.5961033825.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5884935-z2h6a.7638894457.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-6262427-z2h6a.7394423710.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-6585265-z2h6a.6624471634.top
