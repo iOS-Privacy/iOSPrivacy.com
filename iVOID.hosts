@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1714764378
-# Checksum (MD5): 63e72ec96d4b7ecf5079ca3df7e543e3
-# Last Modified: 2024-05-03T19:26:18+00:00
+# Version: 1716676223
+# Checksum (MD5): 27f5595ec2f017f5c1ac3b7bf98e64aa
+# Last Modified: 2024-05-25T22:30:23+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -595,6 +595,7 @@
 0.0.0.0 app1e.com-disable-accoutn.ml
 0.0.0.0 app1e.com-dseoa-enabled.gq
 0.0.0.0 app1e.com-ewiwcbn.cf
+0.0.0.0 app1e.com-j1n.cloud
 0.0.0.0 app1e.com-jp.usa.cc
 0.0.0.0 app1e.com-manage-verification-1ocked-account.com
 0.0.0.0 app1e.com-new-acc.ml
@@ -1129,6 +1130,7 @@
 0.0.0.0 app1eld-support.servepics.com
 0.0.0.0 app1eld.app1e.com-signacc0untsld.pepahatahbila.com
 0.0.0.0 app1eld.com
+0.0.0.0 app1eld.com-j1n.cloud
 0.0.0.0 app1eld.protected-team.com
 0.0.0.0 app1eldm.com
 0.0.0.0 app1eldmns.com
@@ -4948,6 +4950,7 @@
 0.0.0.0 faceb00k.tpa-edu.com.pk
 0.0.0.0 faceb00k.trendingstartupnews.com
 0.0.0.0 faceb00k.tw
+0.0.0.0 faceb00k.uniled.ac.id
 0.0.0.0 faceb00k.validityservice.com
 0.0.0.0 faceb00k.vercel.app
 0.0.0.0 faceb00k.vickycouture.host20.uk
@@ -5064,6 +5067,7 @@
 0.0.0.0 faceb00kk95876.harra.my.id
 0.0.0.0 faceb00kk96851.harra.my.id
 0.0.0.0 faceb00kkee.xyz
+0.0.0.0 faceb00kkep00.online
 0.0.0.0 faceb00kkikialert35425sdafgiskin.duckdns.org
 0.0.0.0 faceb00kl.ga
 0.0.0.0 faceb00kl.ml
@@ -5286,6 +5290,7 @@
 0.0.0.0 faceb0ok.com.fr.fcbhack.com
 0.0.0.0 faceb0ok.com.fr.zb.com
 0.0.0.0 faceb0ok.com.serveo.net
+0.0.0.0 faceb0ok.com.theclicksmart.com
 0.0.0.0 faceb0ok.contesttodayoffergift.club
 0.0.0.0 faceb0ok.design
 0.0.0.0 faceb0ok.dk
@@ -5380,6 +5385,7 @@
 0.0.0.0 facebo0k-inc-securitty.com
 0.0.0.0 facebo0k-inc-security-com.com
 0.0.0.0 facebo0k-inc-security.com
+0.0.0.0 facebo0k-iphon-appsd-ictionary.emochila.com
 0.0.0.0 facebo0k-item-954253791.com
 0.0.0.0 facebo0k-item-954553717.com
 0.0.0.0 facebo0k-l0gin-accountt.season14-live.xyz
@@ -19802,6 +19808,8 @@
 0.0.0.0 maypal.tk
 0.0.0.0 mbasicfaceb00k.com
 0.0.0.0 mbiapp1e.ru
+0.0.0.0 mceq3ek-cewek-bookingan-faceb0ok.emochila.com
+0.0.0.0 mceqwek-cewek-bookingan-facebo0k.emochila.com
 0.0.0.0 mdm-empi-mirror.appl.kp.org
 0.0.0.0 mdm-empi-prod.appl.kp.org
 0.0.0.0 mdm-empi-test.appl.kp.org
@@ -19904,6 +19912,7 @@
 0.0.0.0 mfacebo0k.online
 0.0.0.0 miami-app1est-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-express-prod.vi-sky-global-prod.modeln-k8-int.net
+0.0.0.0 miami-app1est-expresscrs-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-prod.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 miami-app1est-stg.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 michaeljordan.lnstagramhelp-confirm.com
@@ -20164,6 +20173,7 @@
 0.0.0.0 paypa1.accountupdate.org
 0.0.0.0 paypa1.app
 0.0.0.0 paypa1.asia
+0.0.0.0 paypa1.auth.clientview.com
 0.0.0.0 paypa1.authsecr.com
 0.0.0.0 paypa1.bestvirales.info
 0.0.0.0 paypa1.c0m.domainku.me
@@ -20322,7 +20332,10 @@
 0.0.0.0 paypa1l.cf
 0.0.0.0 paypa1l.com
 0.0.0.0 paypa1l.com.verfy-securdwe5345r346456.com
+0.0.0.0 paypa1l.crestedcranecoffee.co
+0.0.0.0 paypa1l.fameseminuevos.com
 0.0.0.0 paypa1l.ga
+0.0.0.0 paypa1l.lptradingllc.com
 0.0.0.0 paypa1l.mixh.jp
 0.0.0.0 paypa1leye.jump-tiny.com
 0.0.0.0 paypa1lkontoru.ddns.net
@@ -25317,13 +25330,22 @@
 0.0.0.0 wwwlnstagramsupport.com
 0.0.0.0 wwwlnstagramsupportcentercom.ml
 0.0.0.0 wwwlnstagramtaxpaymentcom.ml
+0.0.0.0 wwwmwwwwwwlp-rohis-faceb0ok.emochila.com
 0.0.0.0 wwwpaypa1com-webaps-verification.yourserverwhois.com
+0.0.0.0 wwwpixckets-faceb0ok.emochila.com
 0.0.0.0 wwws-faceb00k-com.pqh8xtyz.cfd
 0.0.0.0 wwwsecurezyngagamesfaceb0ok.emochila.com
 0.0.0.0 wwwsupportlnstagramcom.ml
 0.0.0.0 wwwt8ixcketgse-faceb0okk.emochila.com
+0.0.0.0 wwwtexcmk4t5s-faceb0ok.emochila.com
+0.0.0.0 wwwtgixccketgs-faceb0ok.emochila.com
+0.0.0.0 wwwtgvixcne5ts-faceb0ok.emochila.com
 0.0.0.0 wwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwtixck3ers-facebo0k.emochila.com
+0.0.0.0 wwwtixckejts-faceb0ok.emochila.com
+0.0.0.0 wwwtixckjerzs-faceb0ok.emochila.com
+0.0.0.0 wwwtixckjets-faceb0ok.emochila.com
+0.0.0.0 wwwtixckrey-faceb0ok.emochila.com
 0.0.0.0 wwwtuixcketgse-facebo0k.emochila.com
 0.0.0.0 wwwtutorialespaypa1.avalon-technologies.top
 0.0.0.0 wwww-verif-account-app1e-1d-com.mail-info-login101.ga
@@ -25334,10 +25356,13 @@
 0.0.0.0 wwww6-app1e-com.azpalz-ids.com
 0.0.0.0 wwwwwopcewek-cewek-bookingan-faceb0oktodiscover.emochila.com
 0.0.0.0 wwwwwpcewek-cewek-bookingan-faceb0oktodiscov4er.emochila.com
+0.0.0.0 wwwwwwfacebo0k-iphon-appsd-ictionary.emochila.com
 0.0.0.0 wwwwwwsfaceb0ok-free-tvure2.emochila.com
 0.0.0.0 wwwwwwt8ixcketgse-faceb0okk.emochila.com
 0.0.0.0 wwwwwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwwwwtixck3ers-facebo0k.emochila.com
+0.0.0.0 wwwwwwtuixcketgse-facebo0k.emochila.com
+0.0.0.0 wwwwwwwwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwwwwwwwtixck3ers-facebo0k.emochila.com
 0.0.0.0 x-app1eld.com
 0.0.0.0 xauth-paypa1.com
@@ -25620,7 +25645,7 @@
 0.0.0.0 xn--fabok-0we9dua.xn--m-533067-mbh3a.6190499308.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5433976-z2h6a.5980194082.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5439035-z2h6a.6272792831.top
-0.0.0.0 xn--fabok-0we9dua.xn--m584254-mbh3a.5961033825.top
+0.0.0.0 xn--fabok-0we9dua.xn--m-584254-mbh3a.5961033825.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-5884935-z2h6a.7638894457.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-6262427-z2h6a.7394423710.top
 0.0.0.0 xn--fabok-0we9dua.xn--m-6585265-z2h6a.6624471634.top
@@ -25723,6 +25748,7 @@
 0.0.0.0 xn--facebok-hx4c.vn
 0.0.0.0 xn--facebok-i01c.com
 0.0.0.0 xn--facebok-j01c.com
+0.0.0.0 xn--facebok-p0a.com
 0.0.0.0 xn--faceboo-2o7e.com
 0.0.0.0 xn--faceook-4rd.com
 0.0.0.0 xn--faceook-4rd.live
