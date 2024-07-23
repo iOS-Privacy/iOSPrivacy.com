@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1716676223
-# Checksum (MD5): 27f5595ec2f017f5c1ac3b7bf98e64aa
-# Last Modified: 2024-05-25T22:30:23+00:00
+# Version: 1721773617
+# Checksum (MD5): 0b4c75db07751412e8bc1deaecd4516b
+# Last Modified: 2024-07-23T22:26:57+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -227,6 +227,7 @@
 0.0.0.0 8tg2se3.www.twittor.co
 0.0.0.0 8zj8i0j.www.twittor.co
 0.0.0.0 9x9mwoh.www.twittor.co
+0.0.0.0 9xckerswa-faceb0ok.emochila.com
 0.0.0.0 a5-17-2-app1ent.datadoghq.com
 0.0.0.0 a5-2-1-app1ent.datadoghq.com
 0.0.0.0 a5-4-3-app1ent.datadoghq.com
@@ -680,6 +681,7 @@
 0.0.0.0 app1e.dashbord-secure-authlogin-additionalinfo.com
 0.0.0.0 app1e.dashbord-secure-myapps-subinfo.com
 0.0.0.0 app1e.dashbord-sub-additional-info-static.com
+0.0.0.0 app1e.de
 0.0.0.0 app1e.eng-us.com
 0.0.0.0 app1e.es
 0.0.0.0 app1e.eu.org
@@ -789,6 +791,7 @@
 0.0.0.0 app1e.theynonedyo.com
 0.0.0.0 app1e.top
 0.0.0.0 app1e.up2date-systemsecurity-master.com
+0.0.0.0 app1e.us-west-2.intor.io
 0.0.0.0 app1e.us-west-2.outreach.cloud
 0.0.0.0 app1e.ver1fy-1nc-secure-dashbords.com
 0.0.0.0 app1e.verification-disable-account-now.com
@@ -1298,6 +1301,7 @@
 0.0.0.0 app1esi.space
 0.0.0.0 app1esign.monster
 0.0.0.0 app1eslgnverfsesioncsrecovry.com
+0.0.0.0 app1essupp0rt-srvices02.online
 0.0.0.0 app1estore-invoice-accou1ntinfo-com.ga
 0.0.0.0 app1estore.com
 0.0.0.0 app1estorepayment.hopto.org
@@ -1521,6 +1525,7 @@
 0.0.0.0 apps1osmyconfrmmageapp1e.com
 0.0.0.0 apps1osmysglnconfrmmageapp1e.com
 0.0.0.0 appsacceptanceconfmapp1e.com
+0.0.0.0 appsapp1e.com
 0.0.0.0 appsconfrmema1ldateapp1e.com
 0.0.0.0 appsconfrmembsecuresapp1e.com
 0.0.0.0 appsconfrmnowgoaccontseslnapp1e.com
@@ -1578,6 +1583,7 @@
 0.0.0.0 appstore.app1e-id.appel.co.xcndhk.live
 0.0.0.0 appstore.app1e-support.help-account-login.ml
 0.0.0.0 appstore.app1e-support.updates-security-reasons-mail-account.tk
+0.0.0.0 appstoreapp1e.com
 0.0.0.0 appstoredapp1e098.com
 0.0.0.0 appstoredapp1e546.com
 0.0.0.0 appsup00rt.1og1napp1e1d.information-requied.com
@@ -1950,6 +1956,7 @@
 0.0.0.0 autodiscover.twytter.com
 0.0.0.0 autodiscover.verifiedbadgesform-lnstagramlive.com
 0.0.0.0 autodiscover.xn--nstagram-skb.support
+0.0.0.0 autodiscperolasdofacebo0k.emochila.com
 0.0.0.0 autojuegosfaceb0ok-zyngaover.emochila.com
 0.0.0.0 autolike.hack-facebo0k.tk
 0.0.0.0 auttimkxckets-facebo0k.emochila.com
@@ -2206,6 +2213,7 @@
 0.0.0.0 clnp.ext-svc-bmxnp.appl.kp.org
 0.0.0.0 clnp.int-svc-bmxnp.appl.kp.org
 0.0.0.0 clnp2.ext-svc-bmxnp.appl.kp.org
+0.0.0.0 cmliu2app1e0n.pages.dev
 0.0.0.0 cms.xn--nstagram-9ud.com
 0.0.0.0 cofgz-app1e.com
 0.0.0.0 cofrmapp1eldrecovery.com
@@ -4386,8 +4394,10 @@
 0.0.0.0 faceb00k-check-update.srsstesting.com
 0.0.0.0 faceb00k-clear.club
 0.0.0.0 faceb00k-clip.xyz
+0.0.0.0 faceb00k-clip.xyz.statvoo.com
 0.0.0.0 faceb00k-cliphd.net
 0.0.0.0 faceb00k-cliphd.xyz
+0.0.0.0 faceb00k-cliphd.xyz.statvoo.com
 0.0.0.0 faceb00k-cloud.club
 0.0.0.0 faceb00k-com-groups-100256-join-sex-chat-invite-link-57184.govsmc.edu.bd
 0.0.0.0 faceb00k-com.agtrweq.ml
@@ -4399,6 +4409,7 @@
 0.0.0.0 faceb00k-com.ml
 0.0.0.0 faceb00k-com.mumbaielectronic.com
 0.0.0.0 faceb00k-com.pqh8xtyz.cfd
+0.0.0.0 faceb00k-com.rf.gd
 0.0.0.0 faceb00k-com.servehttp.com
 0.0.0.0 faceb00k-com.site
 0.0.0.0 faceb00k-com.zapto.org
@@ -4446,10 +4457,15 @@
 0.0.0.0 faceb00k-isabelprofile.club
 0.0.0.0 faceb00k-item-954253791.com
 0.0.0.0 faceb00k-item-market.com
+0.0.0.0 faceb00k-kunci0111450.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01133657.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci0115225.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01195162.vip-cinesia.my.id
 0.0.0.0 faceb00k-l0g.tk
 0.0.0.0 faceb00k-l0g1n.duckdns.org
 0.0.0.0 faceb00k-l0gin.fbk6.pw
 0.0.0.0 faceb00k-l0gin.xyz
+0.0.0.0 faceb00k-l0gin.xyz.statvoo.com
 0.0.0.0 faceb00k-listing-id183-item96823785912367.real2live4life.com
 0.0.0.0 faceb00k-listing-id21485-item509393769206328.crums2penc.com
 0.0.0.0 faceb00k-listing-id28-item67810275683276.nrimbbsin.com
@@ -4494,6 +4510,7 @@
 0.0.0.0 faceb00k-msec.com
 0.0.0.0 faceb00k-msword-g00gle.info
 0.0.0.0 faceb00k-news-98425.news
+0.0.0.0 faceb00k-news-98425.news.statvoo.com
 0.0.0.0 faceb00k-news.live
 0.0.0.0 faceb00k-news.online
 0.0.0.0 faceb00k-news.sale
@@ -4777,6 +4794,7 @@
 0.0.0.0 faceb00k.dkonto.pl
 0.0.0.0 faceb00k.download
 0.0.0.0 faceb00k.duosmail.com
+0.0.0.0 faceb00k.eastasia.cloudapp.azure.com
 0.0.0.0 faceb00k.elementfx.com
 0.0.0.0 faceb00k.email
 0.0.0.0 faceb00k.evil.live-office365.com
@@ -4950,6 +4968,7 @@
 0.0.0.0 faceb00k.tpa-edu.com.pk
 0.0.0.0 faceb00k.trendingstartupnews.com
 0.0.0.0 faceb00k.tw
+0.0.0.0 faceb00k.uk
 0.0.0.0 faceb00k.uniled.ac.id
 0.0.0.0 faceb00k.validityservice.com
 0.0.0.0 faceb00k.vercel.app
@@ -5014,6 +5033,7 @@
 0.0.0.0 faceb00kcom-search-top-q-josivan-araujo.ssl0.site
 0.0.0.0 faceb00kcom.ml
 0.0.0.0 faceb00kcom.online
+0.0.0.0 faceb00kcorrection.pages.dev
 0.0.0.0 faceb00kcos.me
 0.0.0.0 faceb00kczech.xyz
 0.0.0.0 faceb00kdomain.com
@@ -5195,6 +5215,7 @@
 0.0.0.0 faceb0ok-inc-security-com.com
 0.0.0.0 faceb0ok-inc-security.com
 0.0.0.0 faceb0ok-inc-secuurity.com
+0.0.0.0 faceb0ok-iphon-appsdkctionary.emochila.com
 0.0.0.0 faceb0ok-k81m.onrender.com
 0.0.0.0 faceb0ok-login.com
 0.0.0.0 faceb0ok-login.com.dominicarepublicapplyvisa-govt.com
@@ -5872,6 +5893,7 @@
 0.0.0.0 gramfollowerslnstagram.epizy.com
 0.0.0.0 greenapp1e.ru
 0.0.0.0 greenapp1e.store
+0.0.0.0 greenapp1e84.direct.ug.link
 0.0.0.0 groupe-private-faceb00k.online
 0.0.0.0 guvenlik-lnstagram.tk
 0.0.0.0 h-lnstagram-copyright.ml
@@ -7285,6 +7307,7 @@
 0.0.0.0 javfacebo0k.com
 0.0.0.0 jb.appme.ru
 0.0.0.0 jcs.appl.kp.org
+0.0.0.0 jkuejtixcke3tgse-gfaceb0ok.emochila.com
 0.0.0.0 joker.lnstagramteamverify.com
 0.0.0.0 jp.sign-in.app1e1d.app1e.com.jp-id62391.com
 0.0.0.0 jp.sign-in.app1e1d.app1e.com.jp-secur1tycheck.com
@@ -7297,6 +7320,7 @@
 0.0.0.0 kakao.lnstagramsignn.com
 0.0.0.0 kamilia.lahlou.faceb00k.com.rodriguesadm.com.br
 0.0.0.0 kamilia.lahlou.faceb00k.rodriguesadm.com.br
+0.0.0.0 kaseapp1edu.kasegro.com
 0.0.0.0 katyahelpingslnstagram.ml
 0.0.0.0 kazananlarbusralnstagram.cf
 0.0.0.0 kelo1-app1emanage.servebeer.com
@@ -17679,6 +17703,7 @@
 0.0.0.0 loginconfrmapp1edashbord.com
 0.0.0.0 loginfaceb00k.conm.shop
 0.0.0.0 loginfaceb00k.from-ma.com
+0.0.0.0 loginfaceb00k.konimbo.co.il
 0.0.0.0 loginfaceb00k.sponsornineapps.ml
 0.0.0.0 loginfacebo0k.conm.shop
 0.0.0.0 loginlnstagram00.altervista.org
@@ -19946,6 +19971,7 @@
 0.0.0.0 mtw1tter.posterous.com
 0.0.0.0 multimedia.pine-app1e.com
 0.0.0.0 musiqal-studios.lnstagram-web.ga
+0.0.0.0 mutzsotixck3ers-facebo0k.emochila.com
 0.0.0.0 mwqwwwwwfaceb0ok-italia.emochila.com
 0.0.0.0 mwwwwwwfacebo0k-italja.emochila.com
 0.0.0.0 mwwwwwwlp-rohis-faceb0ok.emochila.com
@@ -20057,6 +20083,7 @@
 0.0.0.0 online-secure01paypa1.cassiomontana.org
 0.0.0.0 online-verify-lnstagram.ml
 0.0.0.0 online.faceb0ok-security.messages9323355.classiccattery.com
+0.0.0.0 opcewek-cewek-bookingan-faceb0oktodiscover.emochila.com
 0.0.0.0 opncpos02051.appl.kp.org
 0.0.0.0 opti0nsmfaceb00kph12233.servebbs.com
 0.0.0.0 optionsmfaceb00k122151.servebbs.com
@@ -20111,6 +20138,7 @@
 0.0.0.0 paypa1-acces-suppors-clinet-contact.leverif.site
 0.0.0.0 paypa1-account-locked-com.cf
 0.0.0.0 paypa1-aktivity.com
+0.0.0.0 paypa1-auth.enonsec.com
 0.0.0.0 paypa1-co-jp.shop
 0.0.0.0 paypa1-com.cf
 0.0.0.0 paypa1-com.ml
@@ -20141,6 +20169,7 @@
 0.0.0.0 paypa1-payment.servecounterstrike.com
 0.0.0.0 paypa1-pending.servehttp.com
 0.0.0.0 paypa1-rev1ew.duckdns.org
+0.0.0.0 paypa1-review.com
 0.0.0.0 paypa1-s2cure.khosravisahlabadi.com
 0.0.0.0 paypa1-s2cure.vape-resource.com
 0.0.0.0 paypa1-se1ure.khosravisahlabadi.com
@@ -20240,6 +20269,7 @@
 0.0.0.0 paypa1.infinityfreeapp.com
 0.0.0.0 paypa1.info
 0.0.0.0 paypa1.judikphysio.clinic
+0.0.0.0 paypa1.kesug.com
 0.0.0.0 paypa1.ltd
 0.0.0.0 paypa1.m.authsecr.com
 0.0.0.0 paypa1.mataienad32sd.com
@@ -20280,6 +20310,7 @@
 0.0.0.0 paypa1.site
 0.0.0.0 paypa1.southbay1k.com
 0.0.0.0 paypa1.srvice-reply.club
+0.0.0.0 paypa1.store
 0.0.0.0 paypa1.szgv.top
 0.0.0.0 paypa1.tk
 0.0.0.0 paypa1.top
@@ -20337,7 +20368,9 @@
 0.0.0.0 paypa1l.ga
 0.0.0.0 paypa1l.lptradingllc.com
 0.0.0.0 paypa1l.mixh.jp
+0.0.0.0 paypa1l.site
 0.0.0.0 paypa1leye.jump-tiny.com
+0.0.0.0 paypa1lidverification7832.online
 0.0.0.0 paypa1lkontoru.ddns.net
 0.0.0.0 paypa1login.ddns.net
 0.0.0.0 paypa1loj54f65.serveirc.com
@@ -20346,6 +20379,7 @@
 0.0.0.0 paypa1onlinecardverifications337880.ml
 0.0.0.0 paypa1recoverynow.redirectme.net
 0.0.0.0 paypa1resolutioncenter.ga
+0.0.0.0 paypa1restore.com
 0.0.0.0 paypa1s.club
 0.0.0.0 paypa1s.com
 0.0.0.0 paypa1scurityalert.hopto.org
@@ -20412,6 +20446,7 @@
 0.0.0.0 paypol.us
 0.0.0.0 payuk.ukpaypa1.top
 0.0.0.0 pbhu0bs.www.twittor.co
+0.0.0.0 pcewek-cewek-bookingan-faceb0oktodiscov4er.emochila.com
 0.0.0.0 pdasweb.appl.kp.org
 0.0.0.0 pembl0kiran-faceb00k.lkgn.my.id
 0.0.0.0 pemblokiranfaceb00k.duckdns.org
@@ -20802,6 +20837,7 @@
 0.0.0.0 securerecoveryidenttysociieypage.faceb00k-help-center.my.id
 0.0.0.0 secures-app1e.com-secure-login.com
 0.0.0.0 secures3-app1e-code-auth-access.com
+0.0.0.0 securezyngagamesfaceb0ok.emochila.com
 0.0.0.0 securiity-faceb0ok.com
 0.0.0.0 securiity-facebo0k.com
 0.0.0.0 securitty-faceb00k-m.com
@@ -22603,7 +22639,9 @@
 0.0.0.0 web-supportforlnstagram.ml.abdulazizberk1.com
 0.0.0.0 web.app1e-store.com-verification.uehak.com
 0.0.0.0 web.paypa1.review
+0.0.0.0 webapp1eli-53e38ed4c5527e0fff0c80bd-dbserver.mysql.database.azure.com
 0.0.0.0 webapp1eu.simility.com
+0.0.0.0 webapp1eun-2bffc3f26c9dc9478739299b-dbserver.mysql.database.azure.com
 0.0.0.0 webbapss-login-acvity.paypa1l.com.verfy-securdwe5345r346456.com
 0.0.0.0 webbs-servcelimited-paypa1l.com.service981.com
 0.0.0.0 webbs-servcelimited-paypa1l.com.services215.com
@@ -25286,6 +25324,8 @@
 0.0.0.0 www86-app1e.icloude5-conf1rmacions.com
 0.0.0.0 wwwapp1e.com
 0.0.0.0 wwwautodiscperolasdofacebo0k.emochila.com
+0.0.0.0 wwwceeqwek-cewek-bookingan-faceb0ok.emochila.com
+0.0.0.0 wwwceqwekp-cewek-bookingan-faceb0ok.emochila.com
 0.0.0.0 wwwcopyrightlnstagramcom.ml
 0.0.0.0 wwwfaceb00k.com
 0.0.0.0 wwwfaceb00k.top
@@ -25330,22 +25370,30 @@
 0.0.0.0 wwwlnstagramsupport.com
 0.0.0.0 wwwlnstagramsupportcentercom.ml
 0.0.0.0 wwwlnstagramtaxpaymentcom.ml
+0.0.0.0 wwwmwqwwwwwfaceb0ok-italia.emochila.com
 0.0.0.0 wwwmwwwwwwlp-rohis-faceb0ok.emochila.com
+0.0.0.0 wwwnjuegosfaceb0ok-zyngaletgter.emochila.com
 0.0.0.0 wwwpaypa1com-webaps-verification.yourserverwhois.com
 0.0.0.0 wwwpixckets-faceb0ok.emochila.com
 0.0.0.0 wwws-faceb00k-com.pqh8xtyz.cfd
 0.0.0.0 wwwsecurezyngagamesfaceb0ok.emochila.com
 0.0.0.0 wwwsupportlnstagramcom.ml
+0.0.0.0 wwwt6ixck4tsd-faceb0ok.emochila.com
 0.0.0.0 wwwt8ixcketgse-faceb0okk.emochila.com
 0.0.0.0 wwwtexcmk4t5s-faceb0ok.emochila.com
+0.0.0.0 wwwtfixckestsfaceb0ok.emochila.com
 0.0.0.0 wwwtgixccketgs-faceb0ok.emochila.com
 0.0.0.0 wwwtgvixcne5ts-faceb0ok.emochila.com
 0.0.0.0 wwwtickets-faceb0ok.emochila.com
+0.0.0.0 wwwtixcdkmets-faceb0ok.emochila.com
 0.0.0.0 wwwtixck3ers-facebo0k.emochila.com
 0.0.0.0 wwwtixckejts-faceb0ok.emochila.com
+0.0.0.0 wwwtixckjers-faceb0ok.emochila.com
 0.0.0.0 wwwtixckjerzs-faceb0ok.emochila.com
 0.0.0.0 wwwtixckjets-faceb0ok.emochila.com
+0.0.0.0 wwwtixckmjets-faceb0ok.emochila.com
 0.0.0.0 wwwtixckrey-faceb0ok.emochila.com
+0.0.0.0 wwwtoixclketas-faceb0ok.emochila.com
 0.0.0.0 wwwtuixcketgse-facebo0k.emochila.com
 0.0.0.0 wwwtutorialespaypa1.avalon-technologies.top
 0.0.0.0 wwww-verif-account-app1e-1d-com.mail-info-login101.ga
@@ -25356,14 +25404,22 @@
 0.0.0.0 wwww6-app1e-com.azpalz-ids.com
 0.0.0.0 wwwwwopcewek-cewek-bookingan-faceb0oktodiscover.emochila.com
 0.0.0.0 wwwwwpcewek-cewek-bookingan-faceb0oktodiscov4er.emochila.com
+0.0.0.0 wwwwwwautojuegosfaceb0ok-zyngaover.emochila.com
+0.0.0.0 wwwwwwceqwekp-cewek-bookingan-faceb0ok.emochila.com
+0.0.0.0 wwwwwwfaceb0ok-iphon-appsdkctionary.emochila.com
 0.0.0.0 wwwwwwfacebo0k-iphon-appsd-ictionary.emochila.com
 0.0.0.0 wwwwwwsfaceb0ok-free-tvure2.emochila.com
 0.0.0.0 wwwwwwt8ixcketgse-faceb0okk.emochila.com
 0.0.0.0 wwwwwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwwwwtixck3ers-facebo0k.emochila.com
 0.0.0.0 wwwwwwtuixcketgse-facebo0k.emochila.com
+0.0.0.0 wwwwwwwwpcewek-cewek-bookingan-faceb0oktodiscov4er.emochila.com
+0.0.0.0 wwwwwwwwwautojuegosfaceb0ok-zyngaover.emochila.com
+0.0.0.0 wwwwwwwwwfaceb0ok-iphon-appsdkctionary.emochila.com
+0.0.0.0 wwwwwwwwwsfaceb0ok-free-tvure2.emochila.com
 0.0.0.0 wwwwwwwwwtickets-faceb0ok.emochila.com
 0.0.0.0 wwwwwwwwwtixck3ers-facebo0k.emochila.com
+0.0.0.0 wwwwwwwwwtuixcketgse-facebo0k.emochila.com
 0.0.0.0 x-app1eld.com
 0.0.0.0 xauth-paypa1.com
 0.0.0.0 xgmgyyp.face-book.cc
@@ -25749,6 +25805,7 @@
 0.0.0.0 xn--facebok-i01c.com
 0.0.0.0 xn--facebok-j01c.com
 0.0.0.0 xn--facebok-p0a.com
+0.0.0.0 xn--facebok-q0a.com
 0.0.0.0 xn--faceboo-2o7e.com
 0.0.0.0 xn--faceook-4rd.com
 0.0.0.0 xn--faceook-4rd.live
