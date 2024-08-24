@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1721773617
-# Checksum (MD5): 0b4c75db07751412e8bc1deaecd4516b
-# Last Modified: 2024-07-23T22:26:57+00:00
+# Version: 1724541955
+# Checksum (MD5): 1d25cf07b544ec4eaa1e1a4251f8bc2b
+# Last Modified: 2024-08-24T23:25:55+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -391,6 +391,9 @@
 0.0.0.0 api.faceb00k.25march.com
 0.0.0.0 api.tw1tter.js3and404.com
 0.0.0.0 api.twltters.xyz
+0.0.0.0 apimwebapp1eawfuk67xok0uxh.p.azure-mobile.net
+0.0.0.0 apimwebapp1eawfuk67xok0uxh.p.azurewebsites.net
+0.0.0.0 apimwebapp1eawfuk67xok0uxh.scm.p.azurewebsites.net
 0.0.0.0 apis.lnstagramsignn.com
 0.0.0.0 apk-secure.apps.app1e.itdevel.org
 0.0.0.0 apl1eid-app1e.com
@@ -1290,6 +1293,7 @@
 0.0.0.0 app1es5.space
 0.0.0.0 app1esa.space
 0.0.0.0 app1esauce.repl.co
+0.0.0.0 app1escaresupp0rtzxcv.pages.dev
 0.0.0.0 app1esconfrmpane1securecase1d.com
 0.0.0.0 app1esdydtem.serveirc.com
 0.0.0.0 app1esec.com
@@ -1598,6 +1602,7 @@
 0.0.0.0 apsapp1e1nf0-updtepym3nt.cloudns.nz
 0.0.0.0 ar-lnstagram.com
 0.0.0.0 asccounttixckers-facebo0k.emochila.com
+0.0.0.0 asciiHostname
 0.0.0.0 aslgnaconfm1nmangsesapp1e.com
 0.0.0.0 asqinbabazade.lnstagram-violationhelps.com
 0.0.0.0 assetmgr-app1e-internal.production.us-west-2.intor.io
@@ -4265,6 +4270,7 @@
 0.0.0.0 czapp1e.direct.quickconnect.to
 0.0.0.0 czapp1e.dsmynas.com
 0.0.0.0 czapp1e.familyds.com
+0.0.0.0 d1tapp1ejob6g7.amplifyapp.com
 0.0.0.0 dapp1e.com
 0.0.0.0 dapp1e5k7565t.amplifyapp.com
 0.0.0.0 dashbord-myaccesid-app1eid-1ocked.com
@@ -4457,10 +4463,18 @@
 0.0.0.0 faceb00k-isabelprofile.club
 0.0.0.0 faceb00k-item-954253791.com
 0.0.0.0 faceb00k-item-market.com
+0.0.0.0 faceb00k-kunci01113642.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci0111450.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01115602.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01129029.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci01133657.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01142337.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci0115225.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01193907.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01194316.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01194830.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci01195162.vip-cinesia.my.id
+0.0.0.0 faceb00k-kunci01195339.vip-cinesia.my.id
 0.0.0.0 faceb00k-l0g.tk
 0.0.0.0 faceb00k-l0g1n.duckdns.org
 0.0.0.0 faceb00k-l0gin.fbk6.pw
@@ -4648,6 +4662,7 @@
 0.0.0.0 faceb00k-supp0rt.com
 0.0.0.0 faceb00k-supp0rt.net
 0.0.0.0 faceb00k-supp0rt.org
+0.0.0.0 faceb00k-supp0rt.pages.dev
 0.0.0.0 faceb00k-support.com
 0.0.0.0 faceb00k-uk.website
 0.0.0.0 faceb00k-vcs.000webhostapp.com
@@ -4903,6 +4918,7 @@
 0.0.0.0 faceb00k.page-real-estate.company
 0.0.0.0 faceb00k.page7582-photos7px-item7591256723964.com
 0.0.0.0 faceb00k.ph
+0.0.0.0 faceb00k.pictures
 0.0.0.0 faceb00k.pl
 0.0.0.0 faceb00k.policies09.com
 0.0.0.0 faceb00k.pro
@@ -4985,6 +5001,7 @@
 0.0.0.0 faceb00k.webhostingfree.io
 0.0.0.0 faceb00k.website
 0.0.0.0 faceb00k.win
+0.0.0.0 faceb00k.work.gd
 0.0.0.0 faceb00k.workers.dev
 0.0.0.0 faceb00k.x10.bz
 0.0.0.0 faceb00k.x10host.com
@@ -5510,6 +5527,7 @@
 0.0.0.0 facebo0k.com.kocmuin.tk
 0.0.0.0 facebo0k.com.ngrok.io
 0.0.0.0 facebo0k.com.serveo.net
+0.0.0.0 facebo0k.com.tw
 0.0.0.0 facebo0k.conm.shop
 0.0.0.0 facebo0k.devjad.com
 0.0.0.0 facebo0k.dk
@@ -5561,6 +5579,7 @@
 0.0.0.0 facebo0k.vip
 0.0.0.0 facebo0k.website
 0.0.0.0 facebo0k.workers.dev
+0.0.0.0 facebo0k.wuaze.com
 0.0.0.0 facebo0k.x10host.com
 0.0.0.0 facebo0k.xmarvelvn.com
 0.0.0.0 facebo0k.xyz
@@ -19937,8 +19956,10 @@
 0.0.0.0 mfacebo0k.online
 0.0.0.0 miami-app1est-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-express-prod.vi-sky-global-prod.modeln-k8-int.net
+0.0.0.0 miami-app1est-expresscrs-dev.vi-sky-global-dev.modeln-k8-int.net
 0.0.0.0 miami-app1est-expresscrs-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-prod.vi-sky-global-prod.modeln-k8-int.net
+0.0.0.0 miami-app1est-shionogi-dev.vi-sky-global-dev.modeln-k8-int.net
 0.0.0.0 miami-app1est-stg.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 michaeljordan.lnstagramhelp-confirm.com
 0.0.0.0 michaeljordans.michaeljordan.lnstagramhelp-confirm.com
@@ -20154,6 +20175,7 @@
 0.0.0.0 paypa1-groubcommunications2.ml
 0.0.0.0 paypa1-groubcommunications2.tk
 0.0.0.0 paypa1-groubcommunications3.tk
+0.0.0.0 paypa1-help.online
 0.0.0.0 paypa1-homesecure.xyz
 0.0.0.0 paypa1-increasedsecurity.com
 0.0.0.0 paypa1-info.com
@@ -20235,6 +20257,7 @@
 0.0.0.0 paypa1.co.uk.l1s7.top
 0.0.0.0 paypa1.com
 0.0.0.0 paypa1.com-account-updatelimited.com
+0.0.0.0 paypa1.com-secureblink.com
 0.0.0.0 paypa1.com.1.secpriv-auth.tk
 0.0.0.0 paypa1.com.2secured.xyz
 0.0.0.0 paypa1.com.bianka-maniak.com
@@ -25321,10 +25344,12 @@
 0.0.0.0 www1.management-app1e-access.com
 0.0.0.0 www1tunesapp1e.servehttp.com
 0.0.0.0 www32-app1e.icloude5-conf1rmacions.com
+0.0.0.0 www5tixclets-faceb0ok.emochila.com
 0.0.0.0 www86-app1e.icloude5-conf1rmacions.com
 0.0.0.0 wwwapp1e.com
 0.0.0.0 wwwautodiscperolasdofacebo0k.emochila.com
 0.0.0.0 wwwceeqwek-cewek-bookingan-faceb0ok.emochila.com
+0.0.0.0 wwwceqwek-cewek-bookigan-faceb0ok.emochila.com
 0.0.0.0 wwwceqwekp-cewek-bookingan-faceb0ok.emochila.com
 0.0.0.0 wwwcopyrightlnstagramcom.ml
 0.0.0.0 wwwfaceb00k.com
@@ -25548,7 +25573,7 @@
 0.0.0.0 xn--ayal-f6dc.partnacc.com
 0.0.0.0 xn--ayal-z43ac.com
 0.0.0.0 xn--aypal-439a.com
-0.0.0.0 xn--aypal-439a.email
+0.0.0.0 xn--aypal-439a.emai
 0.0.0.0 xn--aypl-73d812v.blogspot.com
 0.0.0.0 xn--bogota-vdd7315c3ba6ia.com
 0.0.0.0 xn--businss-chg.xn--febok-4ve5hua.xn--com-sttings-skj.12078.top
@@ -27342,6 +27367,7 @@
 0.0.0.0 xn--ple-id-oxe3k.intl-appl.com
 0.0.0.0 xn--ppe-fsb6j.com
 0.0.0.0 xn--ppl-nxc77d.tk
+0.0.0.0 xn--ppl-sgzb61c.com
 0.0.0.0 xn--ppl-unt-cpf62hea7c0ia.lagacetadearucas.es
 0.0.0.0 xn--ppl-unt-cpf62hea7c0ia.ml
 0.0.0.0 xn--pple-43d.cf
@@ -27350,6 +27376,7 @@
 0.0.0.0 xn--pple-43d.ga
 0.0.0.0 xn--pple-43d.gq
 0.0.0.0 xn--pple-43d.ml
+0.0.0.0 xn--pple-4q5a.com
 0.0.0.0 xn--pple-4q5a.email
 0.0.0.0 xn--pple-k13a.business
 0.0.0.0 xn--pple-k13a.com
@@ -27358,6 +27385,7 @@
 0.0.0.0 xn--pple-k13a.live
 0.0.0.0 xn--pple-k13a.net
 0.0.0.0 xn--pple-p5b.com
+0.0.0.0 xn--pple-p5b.gwm-serdan.mx
 0.0.0.0 xn--ppleid-9wc.com
 0.0.0.0 xn--pyp-gsbc8l.com
 0.0.0.0 xn--pypal-0jc.com
