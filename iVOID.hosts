@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1724541955
-# Checksum (MD5): 1d25cf07b544ec4eaa1e1a4251f8bc2b
-# Last Modified: 2024-08-24T23:25:55+00:00
+# Version: 1726358006
+# Checksum (MD5): a8664c43665bca18cdfd2eed445713c4
+# Last Modified: 2024-09-14T23:53:26+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -391,9 +391,16 @@
 0.0.0.0 api.faceb00k.25march.com
 0.0.0.0 api.tw1tter.js3and404.com
 0.0.0.0 api.twltters.xyz
+0.0.0.0 apimwebapp1eafcupz8whs2eyj.appserviceenvironment.net
+0.0.0.0 apimwebapp1eafcupz8whs2eyj.ftp.appserviceenvironment.net
+0.0.0.0 apimwebapp1eafcupz8whs2eyj.p.azure-mobile.net
+0.0.0.0 apimwebapp1eafcupz8whs2eyj.p.azurewebsites.net
 0.0.0.0 apimwebapp1eawfuk67xok0uxh.p.azure-mobile.net
 0.0.0.0 apimwebapp1eawfuk67xok0uxh.p.azurewebsites.net
 0.0.0.0 apimwebapp1eawfuk67xok0uxh.scm.p.azurewebsites.net
+0.0.0.0 apimwebapp1ebshenj1flnzrot.appserviceenvironment.net
+0.0.0.0 apimwebapp1ebshenj1flnzrot.p.azure-mobile.net
+0.0.0.0 apimwebapp1ebshenj1flnzrot.p.azurewebsites.net
 0.0.0.0 apis.lnstagramsignn.com
 0.0.0.0 apk-secure.apps.app1e.itdevel.org
 0.0.0.0 apl1eid-app1e.com
@@ -625,6 +632,7 @@
 0.0.0.0 app1e.com.cdncloudflare.net
 0.0.0.0 app1e.com.cn
 0.0.0.0 app1e.com.com-account-verifications.com
+0.0.0.0 app1e.com.es
 0.0.0.0 app1e.com.freegiftwaves.com
 0.0.0.0 app1e.com.getnewaccess.info
 0.0.0.0 app1e.com.gosdfew.gq
@@ -1602,7 +1610,6 @@
 0.0.0.0 apsapp1e1nf0-updtepym3nt.cloudns.nz
 0.0.0.0 ar-lnstagram.com
 0.0.0.0 asccounttixckers-facebo0k.emochila.com
-0.0.0.0 asciiHostname
 0.0.0.0 aslgnaconfm1nmangsesapp1e.com
 0.0.0.0 asqinbabazade.lnstagram-violationhelps.com
 0.0.0.0 assetmgr-app1e-internal.production.us-west-2.intor.io
@@ -4324,6 +4331,12 @@
 0.0.0.0 e-paypa1.com
 0.0.0.0 e.test.lnstagram.net.ru
 0.0.0.0 e47dex.lnstagram.fun
+0.0.0.0 earnwithsonu-faceb00k.com
+0.0.0.0 earnwithsonu-faceb0ok.com
+0.0.0.0 earnwithsonu-facebo0k.com
+0.0.0.0 earnwithsonufaceb00k.com
+0.0.0.0 earnwithsonufaceb0ok.com
+0.0.0.0 earnwithsonufacebo0k.com
 0.0.0.0 easyfaceb0ok.cloudns.ph
 0.0.0.0 eb7vu9ylv9tapp1e.myfritz.net
 0.0.0.0 ebluetickz-lnstagramz.ml
@@ -4435,6 +4448,7 @@
 0.0.0.0 faceb00k-deptt1-vfacc.com
 0.0.0.0 faceb00k-distractions.com
 0.0.0.0 faceb00k-dress.stock0.website
+0.0.0.0 faceb00k-earnwithsonu.com
 0.0.0.0 faceb00k-es.website
 0.0.0.0 faceb00k-exam.cf
 0.0.0.0 faceb00k-for-sale.news
@@ -4463,6 +4477,7 @@
 0.0.0.0 faceb00k-isabelprofile.club
 0.0.0.0 faceb00k-item-954253791.com
 0.0.0.0 faceb00k-item-market.com
+0.0.0.0 faceb00k-kamaye.com
 0.0.0.0 faceb00k-kunci01113642.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci0111450.vip-cinesia.my.id
 0.0.0.0 faceb00k-kunci01115602.vip-cinesia.my.id
@@ -4738,6 +4753,7 @@
 0.0.0.0 faceb00k.cheap2price.com
 0.0.0.0 faceb00k.click
 0.0.0.0 faceb00k.cloud
+0.0.0.0 faceb00k.cloud-ip.biz
 0.0.0.0 faceb00k.club
 0.0.0.0 faceb00k.cm
 0.0.0.0 faceb00k.cmlc.llc
@@ -5004,6 +5020,7 @@
 0.0.0.0 faceb00k.work.gd
 0.0.0.0 faceb00k.workers.dev
 0.0.0.0 faceb00k.x10.bz
+0.0.0.0 faceb00k.x10.mx
 0.0.0.0 faceb00k.x10host.com
 0.0.0.0 faceb00k.xaa.pl
 0.0.0.0 faceb00k.xyz
@@ -5056,6 +5073,7 @@
 0.0.0.0 faceb00kdomain.com
 0.0.0.0 faceb00kdoraemon.cf
 0.0.0.0 faceb00ke.com
+0.0.0.0 faceb00kearnwithsonu.com
 0.0.0.0 faceb00kfullhd.com
 0.0.0.0 faceb00kgroup.blogspot.com
 0.0.0.0 faceb00kgroupprivate.000webhostapp.com
@@ -5103,6 +5121,7 @@
 0.0.0.0 faceb00kk69245.harra.my.id
 0.0.0.0 faceb00kk95876.harra.my.id
 0.0.0.0 faceb00kk96851.harra.my.id
+0.0.0.0 faceb00kkamaye.com
 0.0.0.0 faceb00kkee.xyz
 0.0.0.0 faceb00kkep00.online
 0.0.0.0 faceb00kkikialert35425sdafgiskin.duckdns.org
@@ -5228,12 +5247,14 @@
 0.0.0.0 faceb0ok-dept-seeccurity.com
 0.0.0.0 faceb0ok-dept-seecurrity.com
 0.0.0.0 faceb0ok-e.ompdiauyrt.tk
+0.0.0.0 faceb0ok-earnwithsonu.com
 0.0.0.0 faceb0ok-inc-seccuritty.com
 0.0.0.0 faceb0ok-inc-security-com.com
 0.0.0.0 faceb0ok-inc-security.com
 0.0.0.0 faceb0ok-inc-secuurity.com
 0.0.0.0 faceb0ok-iphon-appsdkctionary.emochila.com
 0.0.0.0 faceb0ok-k81m.onrender.com
+0.0.0.0 faceb0ok-kamaye.com
 0.0.0.0 faceb0ok-login.com
 0.0.0.0 faceb0ok-login.com.dominicarepublicapplyvisa-govt.com
 0.0.0.0 faceb0ok-login.dominicarepublicapplyvisa-govt.com
@@ -5377,6 +5398,7 @@
 0.0.0.0 faceb0ok80948.panelkuh.xyz
 0.0.0.0 faceb0ok82181.panelkuh.xyz
 0.0.0.0 faceb0oke.com
+0.0.0.0 faceb0okearnwithsonu.com
 0.0.0.0 faceb0okes.ovollene.com
 0.0.0.0 faceb0okesco.ovollene.com
 0.0.0.0 faceb0okespanol.ovollene.com
@@ -5385,6 +5407,7 @@
 0.0.0.0 faceb0okfuny.me
 0.0.0.0 faceb0okk.cf
 0.0.0.0 faceb0okk.com
+0.0.0.0 faceb0okkamaye.com
 0.0.0.0 faceb0okliker.tk
 0.0.0.0 faceb0oklovely.me
 0.0.0.0 faceb0okmail.dynamic-dns.net
@@ -5417,6 +5440,7 @@
 0.0.0.0 facebo0k-dept-seecurity.com
 0.0.0.0 facebo0k-deptt-acc.com
 0.0.0.0 facebo0k-deptt1-acc.com
+0.0.0.0 facebo0k-earnwithsonu.com
 0.0.0.0 facebo0k-et-tr.com
 0.0.0.0 facebo0k-girl.services
 0.0.0.0 facebo0k-inc-seccurity.com
@@ -5426,6 +5450,7 @@
 0.0.0.0 facebo0k-iphon-appsd-ictionary.emochila.com
 0.0.0.0 facebo0k-item-954253791.com
 0.0.0.0 facebo0k-item-954553717.com
+0.0.0.0 facebo0k-kamaye.com
 0.0.0.0 facebo0k-l0gin-accountt.season14-live.xyz
 0.0.0.0 facebo0k-l0gin.com
 0.0.0.0 facebo0k-login-to-continue.ga
@@ -5590,6 +5615,7 @@
 0.0.0.0 facebo0kcosplay.me
 0.0.0.0 facebo0kdesktop.mobi
 0.0.0.0 facebo0ke.com
+0.0.0.0 facebo0kearnwithsonu.com
 0.0.0.0 facebo0kfactx.mobi
 0.0.0.0 facebo0kfans.me
 0.0.0.0 facebo0kgoats.me
@@ -5597,6 +5623,7 @@
 0.0.0.0 facebo0kitalia.altervista.org
 0.0.0.0 facebo0kk.com
 0.0.0.0 facebo0kk.com.ng
+0.0.0.0 facebo0kkamaye.com
 0.0.0.0 facebo0kkvideo11111.blogdns.net
 0.0.0.0 facebo0kl.gq
 0.0.0.0 facebo0klogin.yoo7.com
@@ -7337,6 +7364,12 @@
 0.0.0.0 kabila.support.paypa1.mixh.jp
 0.0.0.0 kaiagateway-app1e-internal.production.us-west-2.intor.io
 0.0.0.0 kakao.lnstagramsignn.com
+0.0.0.0 kamaye-faceb00k.com
+0.0.0.0 kamaye-faceb0ok.com
+0.0.0.0 kamaye-facebo0k.com
+0.0.0.0 kamayefaceb00k.com
+0.0.0.0 kamayefaceb0ok.com
+0.0.0.0 kamayefacebo0k.com
 0.0.0.0 kamilia.lahlou.faceb00k.com.rodriguesadm.com.br
 0.0.0.0 kamilia.lahlou.faceb00k.rodriguesadm.com.br
 0.0.0.0 kaseapp1edu.kasegro.com
@@ -20002,6 +20035,7 @@
 0.0.0.0 my-account.users-app1e.com-disable-accoutn.ml
 0.0.0.0 my-account.users-app1e.com-recovry-access.ga
 0.0.0.0 my-account.users-app1e.com-reliable-disable.gq
+0.0.0.0 my-app1e.us
 0.0.0.0 my-apps-dashbord-disab1e-app1eid.com
 0.0.0.0 my-appss-app1e-com.nut.cc
 0.0.0.0 my-appss-unt-app1e-infos.com
@@ -20083,6 +20117,8 @@
 0.0.0.0 noreply-mail-lnstagram.ml
 0.0.0.0 noreply-mail-lnstagram.piaxymedia.com
 0.0.0.0 noreply.lnstagramsupportverify.tk
+0.0.0.0 notexistsfaceb00k.real-estate-agent.online
+0.0.0.0 notexistsfacebo0k.terbaru.org
 0.0.0.0 notif-paypa1.com
 0.0.0.0 notification-lnstagram.com
 0.0.0.0 notification-paypa1.is-a-geek.org
@@ -20240,6 +20276,7 @@
 0.0.0.0 paypa1.c0m.ninomines.com
 0.0.0.0 paypa1.c0m.shortku.id
 0.0.0.0 paypa1.c0m.spongebobptr.com
+0.0.0.0 paypa1.c0m.support
 0.0.0.0 paypa1.c0m.tableninesia.com
 0.0.0.0 paypa1.c0m.timtukangreport.com
 0.0.0.0 paypa1.ca
@@ -20268,6 +20305,7 @@
 0.0.0.0 paypa1.com.foghane93.com
 0.0.0.0 paypa1.com.mokaninjanis-mail.business
 0.0.0.0 paypa1.com.mokaninjanismailbusiness.info
+0.0.0.0 paypa1.com.neriahorphanage.org
 0.0.0.0 paypa1.com.payment-metod.com
 0.0.0.0 paypa1.com.purchase-785734.com
 0.0.0.0 paypa1.com.secpriv-auth.tk
@@ -20331,6 +20369,7 @@
 0.0.0.0 paypa1.shop.store.juragansampe345.com
 0.0.0.0 paypa1.signin.verifiaction.yourserverwhois.com
 0.0.0.0 paypa1.site
+0.0.0.0 paypa1.social
 0.0.0.0 paypa1.southbay1k.com
 0.0.0.0 paypa1.srvice-reply.club
 0.0.0.0 paypa1.store
@@ -20524,6 +20563,7 @@
 0.0.0.0 pine-app1e.com.us.cas.ms
 0.0.0.0 pine-app1e.com.us2.cas.ms
 0.0.0.0 pine-app1e.com.us3.cas.ms
+0.0.0.0 pineapp1e.com
 0.0.0.0 pineapp1e.xsrv.jp
 0.0.0.0 pineapp1e87.repl.run
 0.0.0.0 pineapp1es.neocities.org
@@ -20748,7 +20788,9 @@
 0.0.0.0 sblueticksverifly-lnstagram.ml
 0.0.0.0 sbtccm-dr.appl.kp.org
 0.0.0.0 sbz42app1e36iox.westeurope.atlas.cloudapp.azure.com
+0.0.0.0 sbzawapp1eeggyt.jioindiawest.atlas.cloudapp.azure.com
 0.0.0.0 sbzc0kapp1ed3x2.centraluseuap.atlas.cloudapp.azure.com
+0.0.0.0 sbzusmd7kapp1ei.eastus.atlas.cloudapp.azure.com
 0.0.0.0 scontent-cdg2-1.faceb00k.validityservice.com
 0.0.0.0 scopyrirghtz-lnstagram.ml
 0.0.0.0 scpaypa1.com.servicecenter.space
@@ -24824,7 +24866,7 @@
 0.0.0.0 webmail.thelnstagram.com
 0.0.0.0 webmail.thelnstagramteam.tk
 0.0.0.0 webmail.twltter-us.com
-0.0.0.0 webmail.twltter.cc
+0.0.0.0 webmail.twltter.c
 0.0.0.0 webmail.twytter.com
 0.0.0.0 webmail.us-1imited-paypa1.com
 0.0.0.0 webmail.verification-app1e-limte.com
@@ -25573,7 +25615,7 @@
 0.0.0.0 xn--ayal-f6dc.partnacc.com
 0.0.0.0 xn--ayal-z43ac.com
 0.0.0.0 xn--aypal-439a.com
-0.0.0.0 xn--aypal-439a.emai
+0.0.0.0 xn--aypal-439a.email
 0.0.0.0 xn--aypl-73d812v.blogspot.com
 0.0.0.0 xn--bogota-vdd7315c3ba6ia.com
 0.0.0.0 xn--businss-chg.xn--febok-4ve5hua.xn--com-sttings-skj.12078.top
