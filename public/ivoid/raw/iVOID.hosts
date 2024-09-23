@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1726358006
-# Checksum (MD5): a8664c43665bca18cdfd2eed445713c4
-# Last Modified: 2024-09-14T23:53:26+00:00
+# Version: 1727102818
+# Checksum (MD5): 32acabacd609857a7ba4c9d23b1e4c30
+# Last Modified: 2024-09-23T14:46:58+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -669,6 +669,7 @@
 0.0.0.0 app1e.com.seedwavesgift.com
 0.0.0.0 app1e.com.serv1ce-jp0243.com
 0.0.0.0 app1e.com.subscriptions-secure-additionals.com
+0.0.0.0 app1e.com.tr
 0.0.0.0 app1e.com.vellabs.com
 0.0.0.0 app1e.com.ver1fy-acc0unt.com
 0.0.0.0 app1e.com.verify-accountdetails.jp
@@ -4940,6 +4941,7 @@
 0.0.0.0 faceb00k.pro
 0.0.0.0 faceb00k.projectxdcloud.cfd
 0.0.0.0 faceb00k.publicvm.com
+0.0.0.0 faceb00k.q1i.online
 0.0.0.0 faceb00k.real-estate-agent.online
 0.0.0.0 faceb00k.real-estate-agent.store
 0.0.0.0 faceb00k.real-estates.store
@@ -5338,6 +5340,7 @@
 0.0.0.0 faceb0ok-video.911mb.com
 0.0.0.0 faceb0ok-videos-group.tk
 0.0.0.0 faceb0ok.bid
+0.0.0.0 faceb0ok.bond
 0.0.0.0 faceb0ok.cc
 0.0.0.0 faceb0ok.cf
 0.0.0.0 faceb0ok.cloudns.ph
@@ -19993,6 +19996,7 @@
 0.0.0.0 miami-app1est-expresscrs-dev.vi-sky-oat30.modeln-k8-int.net
 0.0.0.0 miami-app1est-prod.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 miami-app1est-shionogi-dev.vi-sky-global-dev.modeln-k8-int.net
+0.0.0.0 miami-app1est-shionogi-stg.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 miami-app1est-stg.vi-sky-global-prod.modeln-k8-int.net
 0.0.0.0 michaeljordan.lnstagramhelp-confirm.com
 0.0.0.0 michaeljordans.michaeljordan.lnstagramhelp-confirm.com
@@ -20001,6 +20005,7 @@
 0.0.0.0 mmfaceb00k.dhosting.network
 0.0.0.0 mn.appme.ru
 0.0.0.0 mngappsverlfysecueapp1e.com
+0.0.0.0 mob-faceb00k.copli.com
 0.0.0.0 mobile-faceb00k-video-onlinewatch.ml
 0.0.0.0 mobile-faceb00k.gq
 0.0.0.0 mobile-faceb00k.html-5.me
@@ -20263,6 +20268,7 @@
 0.0.0.0 paypa1.auth.clientview.com
 0.0.0.0 paypa1.authsecr.com
 0.0.0.0 paypa1.bestvirales.info
+0.0.0.0 paypa1.buzz
 0.0.0.0 paypa1.c0m.domainku.me
 0.0.0.0 paypa1.c0m.frambisedname.com
 0.0.0.0 paypa1.c0m.gilalundoro.com
@@ -24866,7 +24872,7 @@
 0.0.0.0 webmail.thelnstagram.com
 0.0.0.0 webmail.thelnstagramteam.tk
 0.0.0.0 webmail.twltter-us.com
-0.0.0.0 webmail.twltter.c
+0.0.0.0 webmail.twltter.cc
 0.0.0.0 webmail.twytter.com
 0.0.0.0 webmail.us-1imited-paypa1.com
 0.0.0.0 webmail.verification-app1e-limte.com
