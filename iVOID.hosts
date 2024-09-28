@@ -1,7 +1,7 @@
 # Title: iVOID.hosts
-# Version: 1727102818
-# Checksum (MD5): 32acabacd609857a7ba4c9d23b1e4c30
-# Last Modified: 2024-09-23T14:46:58+00:00
+# Version: 1727544152
+# Checksum (MD5): 222efd5111fcddc520abb75c762f8601
+# Last Modified: 2024-09-28T17:22:32+00:00
 # Expires: 3 days (update frequency)
 # Homepage: https://iosprivacy.com/ivoid
 # Source 1: https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/main/iVOID.hosts
@@ -545,6 +545,7 @@
 0.0.0.0 app1e-unlocked-page.com
 0.0.0.0 app1e-update-info.com
 0.0.0.0 app1e-updatealert.servebeer.com
+0.0.0.0 app1e-us.sbs
 0.0.0.0 app1e-ver1vy.com
 0.0.0.0 app1e-vip.com
 0.0.0.0 app1e-webservicessupport.com
@@ -683,6 +684,7 @@
 0.0.0.0 app1e.crownquiz.com.ng
 0.0.0.0 app1e.cupidreactived-secure-id.com
 0.0.0.0 app1e.customers.simloud.com
+0.0.0.0 app1e.cyou
 0.0.0.0 app1e.dashbord-additionalinfo-secure.com
 0.0.0.0 app1e.dashbord-additionls-secure.com
 0.0.0.0 app1e.dashbord-myadditional-id-secure.com
@@ -1611,6 +1613,7 @@
 0.0.0.0 apsapp1e1nf0-updtepym3nt.cloudns.nz
 0.0.0.0 ar-lnstagram.com
 0.0.0.0 asccounttixckers-facebo0k.emochila.com
+0.0.0.0 asciiHostname
 0.0.0.0 aslgnaconfm1nmangsesapp1e.com
 0.0.0.0 asqinbabazade.lnstagram-violationhelps.com
 0.0.0.0 assetmgr-app1e-internal.production.us-west-2.intor.io
@@ -5631,6 +5634,7 @@
 0.0.0.0 facebo0kl.gq
 0.0.0.0 facebo0klogin.yoo7.com
 0.0.0.0 facebo0klove.me
+0.0.0.0 facebo0kmaill.com
 0.0.0.0 facebo0kmails.com
 0.0.0.0 facebo0kmarktplace.kelincourthotel.com
 0.0.0.0 facebo0kmaster.wordpress.com
@@ -20067,6 +20071,7 @@
 0.0.0.0 myapp1e-autz.serveblog.net
 0.0.0.0 myapp1e-dashbord.servebeer.com
 0.0.0.0 myapp1e-stor1.myvnc.com
+0.0.0.0 myapp1e-us.sbs
 0.0.0.0 myapp1e-ver1f.servepics.com
 0.0.0.0 myapp1eid-acces-confirm-update.com
 0.0.0.0 myapp1eid-servlces-1ocked.com
@@ -24979,6 +24984,7 @@
 0.0.0.0 websupportforlnstagram.ml
 0.0.0.0 websupportforlnstagram.ml.abdulazizberk1.com
 0.0.0.0 websupportlnstagrammedia.ml
+0.0.0.0 whatsapp1e.vip
 0.0.0.0 whatsappfriendgroupbaglanti.lnstagram-helpconfirm.com
 0.0.0.0 whm.copyrightviolationlnstagram.cf
 0.0.0.0 whm.help-lnstagrampage.ml
