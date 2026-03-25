@@ -7,10 +7,6 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/ios-privacy/iosprivacy.com?style=flat-square)
 
-[![](https://img.shields.io/twitter/follow/DeVoltairine?style=social)](https://twitter.com/@DeVoltairine)
-
-[![](https://img.shields.io/twitter/follow/iOS_Privacy?style=social)](https://twitter.com/@iOS_Privacy)
-
 [![](https://img.shields.io/hsts/preload/iosprivacy.com)](https://hstspreload.org/?domain=iosprivacy.com)
 
 [![](https://img.shields.io/mozilla-observatory/grade-score/iosprivacy.com?publish&style=plastic)](https://observatory.mozilla.org/analyze/iosprivacy.com)
