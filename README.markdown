@@ -1,3 +1,11 @@
+###### ➡️ *NEW!* As Hardenize is no longer monitoring SSL certficate deployments, I've recreated iVOID.hosts from a hosts file to an "Adblock"-style file. Considering the hosts file focuses soley on specific websites and services to protect you from identity theft, the "Adblock"-style version will function excellently for years to come. You can get it here:
+
+[iVOID.txt](https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/refs/heads/main/iVOID.txt)
+
+------------------------------------
+------------------------------------
+------------------------------------
+
 # [iOS Privacy](https://iosprivacy.com/) [PWA](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
 **`https://iosprivacy.com`**
 ## [Progressive Web App](https://github.com/iOS-Privacy/iOSPrivacy.com/blob/main/public/README.markdown)
@@ -22,13 +30,21 @@ iVOID.hosts | DomainVoider | Urlhaus Mirror
 
 - 1 DomainVoider;
 - 2 iVOID.hosts;
+- 3 iVOID.txt;
 - 3 Urlhaus filters mirror;
 
-## **[DomainVoider](https://iosprivacy.com/domainvoider)**
+## [DomainVoider](https://iosprivacy.com/domainvoider)
 
-## **[iVOID.hosts](https://iosprivacy.com/ivoid)**
+## [iVOID.hosts](https://iosprivacy.com/ivoid)
 
-## **[Urlhaus Mirror](https://iosprivacy.com/urlhaus)**
+## [iVOID.txt](https://raw.githubusercontent.com/iOS-Privacy/iOSPrivacy.com/refs/heads/main/iVOID.txt)
+
+## [Urlhaus Mirror](https://iosprivacy.com/urlhaus)
 ***
-#### Tips: Ethereum: 0x4BC93A72518dFB9CC830BcC7BE03616a0298E019
+#### Tips:
+### Ethereum:
+0x4BC93A72518dFB9CC830BcC7BE03616a0298E019
 ***
+#### VENMO: https://venmo.com/u/bashthefash
+***
+##### Help us keep the lights on and continud updating / maintaining this repository.
